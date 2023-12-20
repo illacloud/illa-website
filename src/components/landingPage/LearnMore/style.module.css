@@ -1,0 +1,4 @@
+.learnMore {
+  @apply flex flex-row items-center gap-[4px] font-[500] text-[12px] leading-[16px] underline text-tech-purple-01 cursor-pointer;
+  @apply xl:gap-[8px] xl:text-[14px] xl:leading-[22px];
+}

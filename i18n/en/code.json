@@ -1,0 +1,1711 @@
+{
+  "footer.status": {
+    "message": "Status"
+  },
+  "footer.roadmap": {
+    "message": "Roadmap"
+  },
+  "footer.changelog": {
+    "message": "Changelog"
+  },
+  "footer.media": {
+    "message": "Media Kit"
+  },
+  "footer.drive": {
+    "message": "ILLA Drive"
+  },
+  "footer.cloud": {
+    "message": "ILLA AI"
+  },
+  "footer.selfhost": {
+    "message": "Self host"
+  },
+  "footer.table": {
+    "message": "Table"
+  },
+  "footer.chart": {
+    "message": "Chart"
+  },
+  "footer.upload": {
+    "message": "Upload"
+  },
+  "footer.switch": {
+    "message": "Switch"
+  },
+  "footer.select": {
+    "message": "Select"
+  },
+  "footer.radio_group": {
+    "message": "Radio Group"
+  },
+  "footer.checkbox_group": {
+    "message": "Checkbox Group"
+  },
+  "footer.pdf": {
+    "message": "PDF"
+  },
+  "footer.video": {
+    "message": "Video"
+  },
+  "footer.mysql": {
+    "message": "MySQL"
+  },
+  "footer.postgre": {
+    "message": "PostgreSQL"
+  },
+  "footer.mongodb": {
+    "message": "MongoDB"
+  },
+  "footer.firebase": {
+    "message": "Firebase"
+  },
+  "footer.elasticsearch": {
+    "message": "Elastic Search"
+  },
+  "footer.mssql": {
+    "message": "Microsoft SQL Server"
+  },
+  "footer.supabase": {
+    "message": "Supabase"
+  },
+  "footer.dynamo": {
+    "message": "DynamoDB"
+  },
+  "footer.hf": {
+    "message": "Hugging Face Inference API"
+  },
+  "footer.components": {
+    "message": "Components"
+  },
+  "footer.integrations": {
+    "message": "Integrations"
+  },
+  "footer.company": {
+    "message": "Company"
+  },
+  "footer.community": {
+    "message": "Community"
+  },
+  "slogan-1": {
+    "message": "Build AI Driven Business App"
+  },
+  "footer.privacy-policy": {
+    "message": "Privacy policy"
+  },
+  "footer.terms-of-service": {
+    "message": "Terms of service"
+  },
+  "landingPage.components.meta.title": {
+    "message": "Learn how to use the prebuilt components to customize your app in ILLA Cloud."
+  },
+  "landingPage.components.headerContent.title": {
+    "message": "Library of built-in components"
+  },
+  "landingPage.components.headerContent.description": {
+    "message": "ILLA provides a range of commonly used front-end development components, enabling users to easily build front-end interfaces and respond to user actions and display data through simple drag-and-drop operations. Users can construct complex components such as tables, charts, forms, lists, and more through ILLA."
+  },
+  "landingPage.components.headerContent.btnText": {
+    "message": "Try for Free"
+  },
+  "landingPage.components.classify.inputs.title": {
+    "message": "Inputs"
+  },
+  "landingPage.components.classify.inputs.upload.title": {
+    "message": "Upload"
+  },
+  "landingPage.components.classify.inputs.upload.description": {
+    "message": "The 'Upload' component in ILLA Cloud provides a way for users to upload any type of files to their application."
+  },
+  "landingPage.components.classify.inputs.switch.title": {
+    "message": "Switch"
+  },
+  "landingPage.components.classify.inputs.switch.description": {
+    "message": "The 'Switch' component in ILLA Cloud provides a toggle switch that allows users to turn on or turn off a particular setting or feature."
+  },
+  "landingPage.components.classify.inputs.select.title": {
+    "message": "Select"
+  },
+  "landingPage.components.classify.inputs.select.description": {
+    "message": "The 'Select' component in ILLA Cloud is a drop-down selector that allows users to choose from a list of options, providing a user-friendly and space-efficient way to input data."
+  },
+  "landingPage.components.classify.inputs.radioGroup.title": {
+    "message": "Radio group"
+  },
+  "landingPage.components.classify.inputs.radioGroup.description": {
+    "message": "The 'Radio Group' component in ILLA Cloud is a radio selector that allows users to choose one option from a list of choices, providing a simple and clear way to input and manage data."
+  },
+  "landingPage.components.classify.inputs.checkboxGroup.title": {
+    "message": "Checkbox Group"
+  },
+  "landingPage.components.classify.inputs.checkboxGroup.description": {
+    "message": "The 'Checkbox Group' component in ILLA Cloud is a checkbox selector that allows users to select multiple options from a list, providing a simple and efficient way to manage data."
+  },
+  "landingPage.components.classify.data.title": {
+    "message": "Data"
+  },
+  "landingPage.components.classify.inputs.chart.title": {
+    "message": "Chart"
+  },
+  "landingPage.components.classify.inputs.chart.description": {
+    "message": "The 'Chart' component in ILLA Cloud displays multiple types of charts based on linked data, providing users with clear and visually appealing representations of complex data."
+  },
+  "landingPage.components.classify.inputs.tables.title": {
+    "message": "Tables"
+  },
+  "landingPage.components.classify.inputs.tables.description": {
+    "message": "The 'Table' component in ILLA Cloud displays data from a database in a tabular format, making it easy for users to view, sort, and analyze large amounts of information at a glance."
+  },
+  "landingPage.components.classify.Presentation.title": {
+    "message": "Presentation"
+  },
+  "landingPage.components.classify.inputs.pdf.title": {
+    "message": "PDF"
+  },
+  "landingPage.components.classify.inputs.pdf.description": {
+    "message": "The 'PDF' component in ILLA Cloud is a display element that allows users to view and interact with PDF files within the application."
+  },
+  "landingPage.components.classify.inputs.video.title": {
+    "message": "Video"
+  },
+  "landingPage.components.classify.inputs.video.description": {
+    "message": "The 'Video' component in ILLA Cloud is a display element that allows users to play and interact with videos within the application."
+  },
+  "landingPage.integrations.meta.title": {
+    "message": "Learn how to use the integrations to access and work with data resource."
+  },
+  "landingPage.integrations.headerContent.title": {
+    "message": "Connect to any data source"
+  },
+  "landingPage.integrations.headerContent.description": {
+    "message": "With the ability to connect to mainstream databases or any data connected through APIs, ILLA Cloud allows developers to tightly integrate data obtained from the back-end with front-end components. This enables developers to easily write data calls and achieve extensive information interaction by adding resources and actions to response to user events."
+  },
+  "landingPage.integrations.headerContent.btnText": {
+    "message": "Try for Free"
+  },
+  "landingPage.integrations.classify.database.title": {
+    "message": "Database Integrations"
+  },
+  "landingPage.integrations.classify.database.mysql.description": {
+    "message": "An open-source relational database management system that enables efficient storage and retrieval of data."
+  },
+  "landingPage.integrations.classify.database.postgreSQL.description": {
+    "message": "An advanced open-source relational database management system known for its stability and reliability."
+  },
+  "landingPage.integrations.classify.database.mariadb.description": {
+    "message": "A community-driven open-source fork of MySQL with enhanced features and performance improvements."
+  },
+  "landingPage.integrations.classify.database.tidb.description": {
+    "message": "A distributed SQL database that supports both SQL and NoSQL workloads with horizontal scalability and fault tolerance."
+  },
+  "landingPage.integrations.classify.database.redis.description": {
+    "message": "An in-memory data structure store often used as a database, cache, and message broker."
+  },
+  "landingPage.integrations.classify.database.appwrite.description": {
+    "message": "An open-source backend server platform that provides authentication, database, and storage services for web and mobile applications."
+  },
+  "landingPage.integrations.classify.database.mongodb.description": {
+    "message": "A NoSQL document database that stores data in flexible, JSON-like documents."
+  },
+  "landingPage.integrations.classify.database.oracleDB.description": {
+    "message": "A high-performance, scalable relational database management system that offers a comprehensive set of features and tools."
+  },
+  "landingPage.integrations.classify.database.elasticSearch.description": {
+    "message": "A distributed, RESTful search and analytics engine capable of handling large volumes of data."
+  },
+  "landingPage.integrations.classify.database.couchDB.description": {
+    "message": "A NoSQL document-oriented database that provides a distributed architecture with incremental replication and conflict detection."
+  },
+  "landingPage.integrations.classify.database.firebase.description": {
+    "message": "A platform that offers backend services, including a real-time database, authentication, cloud messaging, and more, for mobile and web applications."
+  },
+  "landingPage.integrations.classify.database.mssql.description": {
+    "message": "A relational database management system developed by Microsoft that supports transaction processing, business intelligence, and analytics applications."
+  },
+  "landingPage.integrations.classify.database.supabaseDB.description": {
+    "message": "An open-source column-oriented database management system designed for online analytical processing (OLAP) workloads."
+  },
+  "landingPage.integrations.classify.database.neon.description": {
+    "message": "The fully managed multi-cloud Postgres with a generous free tier. We separated storage and compute to offer autoscaling, branching, and bottomless storage."
+  },
+  "landingPage.integrations.classify.database.hydra.description": {
+    "message": "An open source, column-oriented RDBMS built on Postgres"
+  },
+  "landingPage.integrations.classify.database.dynamoDB.description": {
+    "message": "A fully managed NoSQL database service that offers high performance, scalability, and reliability."
+  },
+  "landingPage.integrations.classify.database.snowflake.description": {
+    "message": "A cloud-based data warehousing platform designed for large-scale data storage and analysis."
+  },
+  "landingPage.integrations.classify.api.title": {
+    "message": "API Integrations"
+  },
+  "landingPage.integrations.classify.api.hfAPI.description": {
+    "message": "An API that offers easy-to-use pre-trained natural language processing models for inference tasks."
+  },
+  "landingPage.integrations.classify.api.hfEndpoint.description": {
+    "message": "An endpoint that allows for easy deployment and scaling of Hugging Face models for inference tasks."
+  },
+  "landingPage.integrations.classify.api.restAPI.description": {
+    "message": "A web-based architectural style for building web services that use HTTP protocols to exchange data between client and server."
+  },
+  "landingPage.integrations.classify.api.s3.description": {
+    "message": "A cloud-based object storage service that provides scalable, secure, and durable data storage for various use cases."
+  },
+  "landingPage.integrations.classify.api.smtp.description": {
+    "message": "A protocol used for sending and receiving email messages over the internet."
+  },
+  "landingPage.integrations.classify.api.graphQL.description": {
+    "message": "A query language for APIs that provides a more efficient, powerful, and flexible alternative to traditional REST APIs."
+  },
+  "landingPage.integrations.classify.api.googleSheets.description": {
+    "message": "A cloud-based spreadsheet software that enables users to create and edit spreadsheets online while collaborating with others in real-time."
+  },
+  "landingPage.integrations.classify.api.airtable.description": {
+    "message": "A flexible and collaborative platform for managing projects, data, and teams seamlessly."
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "footer.less": {
+    "message": "Show less"
+  },
+  "footer.more": {
+    "message": "Show more"
+  },
+  "nav.resource": {
+    "message": "Resource"
+  },
+  "sub_nav.resource.integrations": {
+    "message": "Integrations"
+  },
+  "sub_nav.resource.components": {
+    "message": "Components"
+  },
+  "nav.pricing": {
+    "message": "Pricing"
+  },
+  "nav.doc": {
+    "message": "Doc"
+  },
+  "nav.blog": {
+    "message": "Blog"
+  },
+  "nav.marketplace": {
+    "message": "Marketplace"
+  },
+  "nav.contact": {
+    "message": "Book demo"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "call-to-action.title": {
+    "message": "Start Building Apps with ILLA Cloud"
+  },
+  "call-to-action.desc": {
+    "message": "Any internal tool you need can be built using ILLA Cloud in 1 minute."
+  },
+  "call-to-action.button-1": {
+    "message": "Try Cloud for free"
+  },
+  "call-to-action.button-2": {
+    "message": "sign in with GitHub"
+  },
+  "title.github": {
+    "message": "Github"
+  },
+  "title.stars": {
+    "message": "Stars"
+  },
+  "title.star-us": {
+    "message": "Star us"
+  },
+  "learn_more": {
+    "message": "Learn more"
+  },
+  "landingPage.build_with": {
+    "message": "Build with {name}"
+  },
+  "landingPage.back_to_components": {
+    "message": "Back to components"
+  },
+  "landingPageDetail.airtable.name": {
+    "message": "Airtable"
+  },
+  "landingPageDetail.airtable.title": {
+    "message": "Connect to Airtable with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.airtable.description": {
+    "message": "\"With ILLA Cloud's Airtable integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows. The integration simplifies data management by leveraging Airtable's API endpoints, allowing you to easily manipulate data from your Airtable databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks. For example, you can retrieve data from an Airtable database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Airtable integration, you can streamline your data management process and leverage the powerful capabilities of Airtable to enhance your productivity.\""
+  },
+  "landingPageDetail.airtable.metaTitle": {
+    "message": "Airtable"
+  },
+  "landingPageDetail.airtable.metaDescription": {
+    "message": "A flexible and collaborative platform for managing projects, data, and teams seamlessly."
+  },
+  "landingPageDetail.appwrite.name": {
+    "message": "Appwrite"
+  },
+  "landingPageDetail.appwrite.title": {
+    "message": "Connect to Appwrite with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.appwrite.description": {
+    "message": "With ILLA Cloud's Appwrite integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Appwrite's API endpoints, allowing you to easily manipulate data from your Appwrite databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an Appwrite database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Appwrite integration, you can streamline your data management process and leverage the powerful capabilities of Appwrite to enhance your productivity."
+  },
+  "landingPageDetail.appwrite.metaTitle": {
+    "message": "ILLA Cloud Appwrite Integration - Connect and Manage Your Appwrite Data"
+  },
+  "landingPageDetail.appwrite.metaDescription": {
+    "message": "Learn how to use Appwrite integration to create applications that leverage the power of Appwrite with ILLA Cloud."
+  },
+  "landingPageDetail.clickhouse.name": {
+    "message": "Clickhouse"
+  },
+  "landingPageDetail.clickhouse.title": {
+    "message": "Connect to Clickhouse with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.clickhouse.description": {
+    "message": "With ILLA Cloud's ClickHouse integration, you can quickly configure and connect to your ClickHouse database to optimize your data management and streamline your workflows.The integration simplifies data management using ClickHouse queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a ClickHouse table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's ClickHouse integration, you can streamline your data management process and leverage the powerful capabilities of ClickHouse to enhance your productivity."
+  },
+  "landingPageDetail.clickhouse.metaTitle": {
+    "message": "ILLA Cloud | ClickHouse Integration"
+  },
+  "landingPageDetail.clickhouse.metaDescription": {
+    "message": "Learn how to connect and interact with any ClickHouse database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.couchdb.name": {
+    "message": "CouchDB"
+  },
+  "landingPageDetail.couchdb.title": {
+    "message": "Connect to CouchDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.couchdb.description": {
+    "message": "With ILLA Cloud's CouchDB integration, you can quickly configure and connect to your CouchDB database to optimize your data management and streamline your workflows.The integration simplifies data management using CouchDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a CouchDB database and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's CouchDB integration, you can streamline your data management process and leverage the powerful capabilities of CouchDB to enhance your productivity."
+  },
+  "landingPageDetail.couchdb.metaTitle": {
+    "message": "ILLA Cloud | CouchDB Integration"
+  },
+  "landingPageDetail.couchdb.metaDescription": {
+    "message": "Learn how to connect your CouchDB database to ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.dynamodb.name": {
+    "message": "Amazon DynamoDB"
+  },
+  "landingPageDetail.dynamodb.title": {
+    "message": "Connect to Amazon DynamoDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.dynamodb.description": {
+    "message": "With ILLA Cloud's Amazon DynamoDB integration, you can quickly configure and connect to your DynamoDB database to optimize your data management and streamline your workflows.The integration simplifies data management using DynamoDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a DynamoDB table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Amazon DynamoDB integration, you can streamline your data management process and leverage the powerful capabilities of DynamoDB to enhance your productivity."
+  },
+  "landingPageDetail.dynamodb.metaTitle": {
+    "message": "ILLA Cloud | Amazon DynamoDB Integration"
+  },
+  "landingPageDetail.dynamodb.metaDescription": {
+    "message": "Learn how to connect your Amazon DynamoDB database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.elasticsearch.name": {
+    "message": "Elastic Search"
+  },
+  "landingPageDetail.elasticsearch.title": {
+    "message": "Connect to Elastic Search with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.elasticsearch.description": {
+    "message": "With ILLA Cloud's Elastic Search integration, you can quickly configure and connect to your Elastic Search cluster to optimize your data management and enhance your workflows.The integration simplifies data management using Elastic Search queries, allowing you to search and retrieve data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from an Elastic Search index and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Elastic Search integration, you can streamline your data management process and leverage the powerful capabilities of Elastic Search to enhance your productivity."
+  },
+  "landingPageDetail.elasticsearch.metaTitle": {
+    "message": "ILLA Cloud | Elastic Search Integration"
+  },
+  "landingPageDetail.elasticsearch.metaDescription": {
+    "message": "Learn how to connect and interact with your Elastic Search database using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.firebase.name": {
+    "message": "Firebase"
+  },
+  "landingPageDetail.firebase.title": {
+    "message": "Connect to Firebase with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.firebase.description": {
+    "message": "With ILLA Cloud's Firebase integration, you can quickly configure and connect to your Firebase database to optimize your data management and streamline your workflows.The integration simplifies data management using Firebase queries and API calls, allowing you to easily manipulate data and perform complex operations. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a Firebase collection and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Firebase integration, you can streamline your data management process and leverage the powerful capabilities of Firebase to enhance your productivity."
+  },
+  "landingPageDetail.firebase.metaTitle": {
+    "message": "ILLA Cloud | Firebase Integration"
+  },
+  "landingPageDetail.firebase.metaDescription": {
+    "message": "Learn how to connect your Firebase database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.googlesheets.name": {
+    "message": "Google Sheets"
+  },
+  "landingPageDetail.googlesheets.title": {
+    "message": "Connect to Google Sheets with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.googlesheets.description": {
+    "message": "With ILLA Cloud's Google Sheets integration, you can quickly and easily connect to your Google Sheets spreadsheets to optimize your data management and streamline your workflows.The integration simplifies data management by allowing you to read, write and manipulate data from your Google Sheets spreadsheets using Google Sheets API. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from a Google Sheets spreadsheet and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Google Sheets integration, you can streamline your data management process and leverage the powerful capabilities of Google Sheets to enhance your productivity."
+  },
+  "landingPageDetail.googlesheets.metaTitle": {
+    "message": "ILLA Cloud Google Sheets Integration - Connect and Manage Your Google Sheets Data"
+  },
+  "landingPageDetail.googlesheets.metaDescription": {
+    "message": "Learn how to use Google sheet integration to create dashboards, reports, forms, and more with ILLA Cloud."
+  },
+  "landingPageDetail.graphql.name": {
+    "message": "GraphQL"
+  },
+  "landingPageDetail.graphql.title": {
+    "message": "Connect to GraphQL with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.graphql.description": {
+    "message": "With ILLA Cloud's GraphQL integration, you can quickly and easily configure and connect to your GraphQL APIs to optimize your data management and streamline your workflows.The integration simplifies data management by allowing you to easily retrieve and manipulate data from your GraphQL APIs. You can safely add or write data by providing input, including necessary GraphQL queries, and incorporating app-based validation checks.For example, you can retrieve data from a GraphQL API and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's GraphQL integration, you can streamline your data management process and leverage the powerful capabilities of GraphQL to enhance your productivity."
+  },
+  "landingPageDetail.graphql.metaTitle": {
+    "message": "ILLA Cloud | GraphQL Integration"
+  },
+  "landingPageDetail.graphql.metaDescription": {
+    "message": "Learn how to connect your GraphQL API to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.huggingface.name": {
+    "message": "Hugging Face Inference API"
+  },
+  "landingPageDetail.huggingface.title": {
+    "message": "Connect to Hugging Face Inference API with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.huggingface.description": {
+    "message": "With ILLA Cloud's Hugging Face Inference API integration, you can quickly and easily connect to Hugging Face's powerful natural language processing models to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Hugging Face's API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve text data from an external source and pass it through a Hugging Face API call to perform sentiment analysis or language translation. With ILLA Cloud's Hugging Face Inference API integration, you can streamline your data management process and leverage the powerful capabilities of Hugging Face's natural language processing models to enhance your productivity."
+  },
+  "landingPageDetail.huggingface.metaTitle": {
+    "message": "ILLA Cloud Hugging Face Inference API Integration - Connect and Use ML Models"
+  },
+  "landingPageDetail.huggingface.metaDescription": {
+    "message": "The Hugging Face Inference API integration in ILLA Cloud allows users to connect and use over 130,000 machine learning models. "
+  },
+  "landingPageDetail.huggingfaceendpoint.name": {
+    "message": "Hugging Face Inference Endpoint"
+  },
+  "landingPageDetail.huggingfaceendpoint.title": {
+    "message": "Connect to Hugging Face Inference Endpoint with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.huggingfaceendpoint.description": {
+    "message": "With ILLA Cloud's Hugging Face Inference Endpoint integration, you can quickly and easily configure and connect to Hugging Face's powerful natural language processing models to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Hugging Face's API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve text data from an external source and pass it through a Hugging Face inference endpoint to perform sentiment analysis or language translation. With ILLA Cloud's Hugging Face Inference Endpoint integration, you can streamline your data management process and leverage the powerful capabilities of Hugging Face's natural language processing models to enhance your productivity."
+  },
+  "landingPageDetail.huggingfaceendpoint.metaTitle": {
+    "message": "ILLA Cloud | Hugging Face Inference Endpoint Integration"
+  },
+  "landingPageDetail.huggingfaceendpoint.metaDescription": {
+    "message": "Learn how to connect and interact with any Hugging Face Inference Endpoint using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.hydra.name": {
+    "message": "Hydra"
+  },
+  "landingPageDetail.hydra.title": {
+    "message": "Connect to Hydra with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.hydra.description": {
+    "message": "\"With ILLA Cloud's Hydra integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows.\r\nThe integration simplifies data management by leveraging Hydra's API endpoints, allowing you to easily manipulate data from your Hydra databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.\r\nFor example, you can retrieve data from an Hydra database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Hydra integration, you can streamline your data management process and leverage the powerful capabilities of Hydra to enhance your productivity.\""
+  },
+  "landingPageDetail.hydra.metaTitle": {
+    "message": "Hydra"
+  },
+  "landingPageDetail.hydra.metaDescription": {
+    "message": "An open source, column-oriented RDBMS built on Postgres"
+  },
+  "landingPageDetail.mariadb.name": {
+    "message": "MariaDB"
+  },
+  "landingPageDetail.mariadb.title": {
+    "message": "Connect to MariaDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mariadb.description": {
+    "message": "With ILLA Cloud's MariaDB integration, you can quickly and easily configure and connect to your MariaDB database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL, allowing you to manipulate tables, retrieve data and perform complex queries with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can fetch data for an employee from a MariaDB table and add a button that, when clicked, runs an SQL query to update the employee's information or approve a request. With ILLA Cloud's MariaDB integration, you can maximize the potential of your data source and enhance your productivity with minimal effort."
+  },
+  "landingPageDetail.mariadb.metaTitle": {
+    "message": "ILLA Cloud | MariaDB Integration"
+  },
+  "landingPageDetail.mariadb.metaDescription": {
+    "message": "Learn how to connect and interact with your MariaDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.mongodb.name": {
+    "message": "MongoDB"
+  },
+  "landingPageDetail.mongodb.title": {
+    "message": "Connect to MongoDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mongodb.description": {
+    "message": "With ILLA Cloud's MongoDB integration, you can quickly configure and connect to your MongoDB database to optimize your data management and streamline your workflows.The integration simplifies data management using MongoDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a MongoDB collection and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's MongoDB integration, you can streamline your data management process and leverage the powerful capabilities of MongoDB to enhance your productivity."
+  },
+  "landingPageDetail.mongodb.metaTitle": {
+    "message": "ILLA Cloud | MongoDB Integration"
+  },
+  "landingPageDetail.mongodb.metaDescription": {
+    "message": "Learn how to connect and interact with your MongoDB database using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.mssql.name": {
+    "message": "Microsoft SQL Server"
+  },
+  "landingPageDetail.mssql.title": {
+    "message": "Connect to Microsoft SQL Server with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mssql.description": {
+    "message": "With ILLA Cloud's Microsoft SQL Server integration, you can quickly configure and connect to your SQL Server database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a SQL Server table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Microsoft SQL Server integration, you can streamline your data management process and leverage the powerful capabilities of SQL Server to enhance your productivity."
+  },
+  "landingPageDetail.mssql.metaTitle": {
+    "message": "ILLA Cloud | Microsoft SQL Server Integration"
+  },
+  "landingPageDetail.mssql.metaDescription": {
+    "message": "Learn how to connect your Microsoft SQL Server database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.mysql.name": {
+    "message": "MySQL"
+  },
+  "landingPageDetail.mysql.title": {
+    "message": "Connect to MySQL with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mysql.description": {
+    "message": "Integrating ILLA Cloud with MySQL can greatly enhance your workflow and streamline your processes. With just a few simple steps, you can connect ILLA Cloud to your MySQL databases, enabling you to create user interfaces that interact with your data in powerful new ways. Whether you need to read data into a table grid, create dashboards, or add custom actions that run SQL queries to write to your database, ILLA Cloud makes it easy to do so safely and efficiently.By connecting to your MySQL data with ILLA Cloud, you can avoid unintentional deletes and other costly errors. For example, if you're managing employee expenses with a MySQL table, you can use ILLA Cloud to read your data into a dashboard and even add an action that writes back to your database to update the approval status for each expense. And with ILLA Cloud's simple interface, you can define the actions you want to take in a clear and systematic way, making it easy to optimize your workflow and streamline your processes."
+  },
+  "landingPageDetail.mysql.metaTitle": {
+    "message": "ILLA Cloud | MySQL Integration"
+  },
+  "landingPageDetail.mysql.metaDescription": {
+    "message": "Learn how to connect your MySQL database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.neon.name": {
+    "message": "Neon"
+  },
+  "landingPageDetail.neon.title": {
+    "message": "Connect to Neon with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.neon.description": {
+    "message": "The fully managed multi-cloud Postgres with a generous free tier. We separated storage and compute to offer autoscaling, branching, and bottomless storage."
+  },
+  "landingPageDetail.neon.metaTitle": {
+    "message": "ILLA Cloud Neon Integration - Connect to the multi-cloud Postgres"
+  },
+  "landingPageDetail.neon.metaDescription": {
+    "message": "Learn how to connect your Neon database to ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.oracledb.name": {
+    "message": "Oracle DB"
+  },
+  "landingPageDetail.oracledb.title": {
+    "message": "Connect to Oracle DB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.oracledb.description": {
+    "message": "With ILLA Cloud's Oracle DB integration, you can quickly configure and connect to your Oracle database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from an Oracle database table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Oracle DB integration, you can streamline your data management process and leverage the powerful capabilities of Oracle DB to enhance your productivity."
+  },
+  "landingPageDetail.oracledb.metaTitle": {
+    "message": "ILLA Cloud | Oracle DB Integration"
+  },
+  "landingPageDetail.oracledb.metaDescription": {
+    "message": "Learn how to use the Oracle DB integration in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.postgresql.name": {
+    "message": "PostgreSQL"
+  },
+  "landingPageDetail.postgresql.title": {
+    "message": "Connect to PostgreSQL with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.postgresql.description": {
+    "message": "With ILLA Cloud's PostgreSQL integration, you can quickly configure and connect to your PostgreSQL database to optimize your data source with reliable performance.The integration simplifies data management with SQL, allowing you to easily manipulate tables and perform complex queries. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For instance, suppose you want to retrieve employee data from a PostgreSQL table and approve a leave request with a single click. In that case, you can create a button that runs an SQL query, marking the employee's request as approved. With ILLA Cloud's PostgreSQL integration, you can streamline your data management process with ease and confidence."
+  },
+  "landingPageDetail.postgresql.metaTitle": {
+    "message": "ILLA Cloud | PostgreSQL Database Integration"
+  },
+  "landingPageDetail.postgresql.metaDescription": {
+    "message": "Learn how to connect and interact with any PostgreSQL database using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.redis.name": {
+    "message": "Redis"
+  },
+  "landingPageDetail.redis.title": {
+    "message": "Connect to Redis with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.redis.description": {
+    "message": "With ILLA Cloud's Redis integration, you can quickly configure and connect to your Redis database to optimize your data management and enhance your workflows.The integration simplifies data management using Redis commands, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary commands, and incorporating app-based validation checks.For example, you can retrieve data from a Redis database and add a button that, when clicked, performs a Redis command to update the data or approve a request. With ILLA Cloud's Redis integration, you can streamline your data management process and leverage the powerful capabilities of Redis to enhance your productivity."
+  },
+  "landingPageDetail.redis.metaTitle": {
+    "message": "ILLA Cloud Redis Integration - Connect and Manage Your Redis Database"
+  },
+  "landingPageDetail.redis.metaDescription": {
+    "message": "Learn how to use Redis integration to manipulate data using Redis commands, create dashboards, reports, forms, and more with ILLA Cloud."
+  },
+  "landingPageDetail.restapi.name": {
+    "message": "REST API"
+  },
+  "landingPageDetail.restapi.title": {
+    "message": "Connect to Any RESTful API and Build Custom Tools with ILLA Cloud in Minutes"
+  },
+  "landingPageDetail.restapi.description": {
+    "message": "With ILLA Cloud's REST API integration, you can quickly and easily connect to any RESTful API to optimize your data management and streamline your workflows.The integration simplifies data management using RESTful API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an external RESTful API and add a button that, when clicked, performs a call to update the data or approve a request. With ILLA Cloud's REST API integration, you can streamline your data management process and leverage the powerful capabilities of RESTful APIs to enhance your productivity."
+  },
+  "landingPageDetail.restapi.metaTitle": {
+    "message": "ILLA Cloud | REST API Integration"
+  },
+  "landingPageDetail.restapi.metaDescription": {
+    "message": "Learn how to connect and interact with any REST API endpoint using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.s3.name": {
+    "message": "S3"
+  },
+  "landingPageDetail.s3.title": {
+    "message": "Connect to Amazon S3 with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.s3.description": {
+    "message": "With ILLA Cloud's Amazon S3 integration, you can quickly and easily configure and connect to your Amazon S3 storage to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging S3 API endpoints, allowing you to read, write and manipulate data from your S3 buckets with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an S3 bucket and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Amazon S3 integration, you can streamline your data management process and leverage the powerful capabilities of Amazon S3 storage to enhance your productivity."
+  },
+  "landingPageDetail.s3.metaTitle": {
+    "message": "ILLA Cloud | S3 Integration"
+  },
+  "landingPageDetail.s3.metaDescription": {
+    "message": "Learn how to use the S3 component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.smtp.name": {
+    "message": "SMTP"
+  },
+  "landingPageDetail.smtp.title": {
+    "message": "Connect to SMTP with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.smtp.description": {
+    "message": "With ILLA Cloud's SMTP integration, you can quickly and easily configure and connect to your SMTP server to optimize your email management and streamline your workflows.The integration simplifies email management by allowing you to send and receive emails directly from your ILLA Cloud application. You can safely send emails by providing input, including necessary SMTP parameters, and incorporating app-based validation checks.For example, you can send automated emails to users when a certain event is triggered in your application. With ILLA Cloud's SMTP integration, you can streamline your email management process and leverage the powerful capabilities of SMTP to enhance your productivity."
+  },
+  "landingPageDetail.smtp.metaTitle": {
+    "message": "ILLA Cloud | SMTP Integration"
+  },
+  "landingPageDetail.smtp.metaDescription": {
+    "message": "Learn how to connect and interact with any SMTP server using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.snowflake.name": {
+    "message": "Snowflake"
+  },
+  "landingPageDetail.snowflake.title": {
+    "message": "Connect to Snowflake with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.snowflake.description": {
+    "message": "With ILLA Cloud's Snowflake integration, you can quickly configure and connect to your Snowflake data warehouse to optimize your data management and streamline your workflows.The integration simplifies data management using Snowflake SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a Snowflake table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Snowflake integration, you can streamline your data management process and leverage the powerful capabilities of Snowflake to enhance your productivity."
+  },
+  "landingPageDetail.snowflake.metaTitle": {
+    "message": "ILLA Cloud | Snowflake Integration"
+  },
+  "landingPageDetail.snowflake.metaDescription": {
+    "message": "Learn how to connect and interact with your Snowflake database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.supabaseDB.name": {
+    "message": "Supabase DB"
+  },
+  "landingPageDetail.supabaseDB.title": {
+    "message": "Connect to SupabaseDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.supabaseDB.description": {
+    "message": "With ILLA Cloud's SupabaseDB integration, you can quickly configure and connect to your SupabaseDB database to optimize your data management and streamline your workflows.The integration simplifies data management using SupabaseDB queries and API calls, allowing you to easily manipulate data and perform complex operations. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a SupabaseDB table and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's SupabaseDB integration, you can streamline your data management process and leverage the powerful capabilities of SupabaseDB to enhance your productivity."
+  },
+  "landingPageDetail.supabaseDB.metaTitle": {
+    "message": "ILLA Cloud | Supabase DB Integration"
+  },
+  "landingPageDetail.supabaseDB.metaDescription": {
+    "message": "Learn how to connect and interact with any Supabase DB using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.tiDB.name": {
+    "message": "TiDB"
+  },
+  "landingPageDetail.tiDB.title": {
+    "message": "Connect to TiDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.tiDB.description": {
+    "message": "With ILLA Cloud's TiDB integration, you can seamlessly configure and connect to your TiDB database to optimize your data management and enhance your workflows.The integration simplifies data management using SQL, allowing you to manipulate tables, retrieve data and perform complex queries with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For instance, you can retrieve data for an employee from a TiDB table and add a button that runs an SQL query to update the employee's information or approve a request. With ILLA Cloud's TiDB integration, you can streamline your data management process and unlock the full potential of your data source with confidence."
+  },
+  "landingPageDetail.tiDB.metaTitle": {
+    "message": "ILLA Cloud | TiDB Integration"
+  },
+  "landingPageDetail.tiDB.metaDescription": {
+    "message": "Learn how to connect and interact with your TiDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.audio.name": {
+    "message": "Audio"
+  },
+  "landingPageDetail.audio.title": {
+    "message": "Use the Audio Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.audio.description": {
+    "message": "The 'Video' component in ILLA Cloud allows users to play and interact with videos and audio within the application, providing an efficient and convenient way to access multimedia content.For example, a user can use the Video component to watch a tutorial video while working on a project, saving time and increasing productivity by having all necessary information readily available within the application."
+  },
+  "landingPageDetail.audio.metaTitle": {
+    "message": "ILLA Cloud | Audio Component"
+  },
+  "landingPageDetail.audio.metaDescription": {
+    "message": "Learn how to use the Audio component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.barProgress.name": {
+    "message": "Bar progress"
+  },
+  "landingPageDetail.barProgress.title": {
+    "message": "Use the Bar Progress Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.barProgress.description": {
+    "message": "The Bar Progress component in ILLA Cloud visually represents progress on a bar with a 100% scale, making it easy for users to track their progress quickly and efficiently. By providing a clear and concise visual representation of progress, users can easily understand how far along they are on a particular task or project without having to spend time calculating the percentage of completion, saving valuable time and allowing them to focus on more important tasks."
+  },
+  "landingPageDetail.barProgress.metaTitle": {
+    "message": "ILLA Cloud Bar Progress Component - Visualize Data Progress"
+  },
+  "landingPageDetail.barProgress.metaDescription": {
+    "message": "Learn how to use Bar progress component to create dashboards, reports, surveys, and more with ILLA Cloud."
+  },
+  "landingPageDetail.button.name": {
+    "message": "Button"
+  },
+  "landingPageDetail.button.title": {
+    "message": "Use the Button Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.button.description": {
+    "message": "The Button component in ILLA Cloud is a versatile tool that can be used to trigger actions and enhance user experience by providing a clear and intuitive way to interact with the application. For example, a user can create a 'Save' button that triggers a database update when clicked, streamlining the workflow and saving the user time in manually updating the database."
+  },
+  "landingPageDetail.button.metaTitle": {
+    "message": "ILLA Cloud | Button Component"
+  },
+  "landingPageDetail.button.metaDescription": {
+    "message": "Learn how to use the Button component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.carousel.name": {
+    "message": "Carousel"
+  },
+  "landingPageDetail.carousel.title": {
+    "message": "Use the Carousel Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.carousel.description": {
+    "message": "The 'Carousel' component in ILLA Cloud displays multiple images or media in a single interface, saving users time by eliminating the need to navigate through separate pages or windows. Users can interact with the carousel to view and engage with the displayed content, such as images or videos, all within the same interface, providing a seamless and efficient user experience."
+  },
+  "landingPageDetail.carousel.metaTitle": {
+    "message": "ILLA Cloud | Carousel Component"
+  },
+  "landingPageDetail.carousel.metaDescription": {
+    "message": "Learn how to use the Carousel component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.cascader.name": {
+    "message": "Cascader"
+  },
+  "landingPageDetail.cascader.title": {
+    "message": "Use the Cascader Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.cascader.description": {
+    "message": "The Cascader component in ILLA Cloud enables users to select one option from multiple layers of choices, providing a hierarchical and efficient approach to data input and management. For example, a user can create a form for product selection and use the 'Cascader' component to allow users to choose their preferred product category, brand, and model, improving the accuracy and efficiency of data collection."
+  },
+  "landingPageDetail.cascader.metaTitle": {
+    "message": "ILLA Cloud Cascader Component | ILLA Cloud"
+  },
+  "landingPageDetail.cascader.metaDescription": {
+    "message": "Learn how to use Cascader component in ILLA Cloud to select options from cascading menus."
+  },
+  "landingPageDetail.chart.name": {
+    "message": "Chart"
+  },
+  "landingPageDetail.chart.title": {
+    "message": "Use the Chart Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.chart.description": {
+    "message": "The 'Chart' component in ILLA Cloud displays various chart types based on linked data, providing a clear and visually appealing way to analyze complex information. Users can easily compare data points and identify trends, making it an efficient tool for decision-making. For example, a sales team can use a chart to visualize their revenue and identify areas for improvement. Overall, the Chart component can save users time by simplifying the process of data analysis and presenting information in an easily understandable format."
+  },
+  "landingPageDetail.chart.metaTitle": {
+    "message": "ILLA Cloud Chart Component - Visualize Data as Graphs and Charts"
+  },
+  "landingPageDetail.chart.metaDescription": {
+    "message": "Learn how to use chart component to create dashboards, reports, surveys, and more with ILLA Cloud."
+  },
+  "landingPageDetail.checkboxGroup.name": {
+    "message": "Checkbox Group"
+  },
+  "landingPageDetail.checkboxGroup.title": {
+    "message": "Use the Checkbox Group Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.checkboxGroup.description": {
+    "message": "The Checkbox Group component in ILLA Cloud provides users with a convenient and efficient way to select multiple options from a list, saving time and effort. For example, a user can create a form for product preferences and use the 'Checkbox Group' component to allow users to select multiple options, such as color or size, streamlining the data collection process."
+  },
+  "landingPageDetail.checkboxGroup.metaTitle": {
+    "message": "ILLA Cloud | Checkbox Group Component"
+  },
+  "landingPageDetail.checkboxGroup.metaDescription": {
+    "message": "Learn how to use the Checkbox Group component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.circleProgress.name": {
+    "message": "Circle Progress"
+  },
+  "landingPageDetail.circleProgress.title": {
+    "message": "Use the Circle Progress Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.circleProgress.description": {
+    "message": "The Circle Progress component in ILLA Cloud is designed to show progress on a circular shape, providing users with a visually appealing way to track progress. This component can save users time by allowing them to quickly and easily see the progress of a task or project without having to manually calculate the percentage, helping them to identify areas that may need additional attention or resources and communicate progress to team members and stakeholders in a clear and concise manner."
+  },
+  "landingPageDetail.circleProgress.metaTitle": {
+    "message": "ILLA Cloud Circle Progress Component - Display and Manage Data Progress in a Circular Bar"
+  },
+  "landingPageDetail.circleProgress.metaDescription": {
+    "message": "Learn how to use Circular progress component in ILLA Cloud to displays the progress of data in a circular bar."
+  },
+  "landingPageDetail.container.name": {
+    "message": "Container"
+  },
+  "landingPageDetail.container.title": {
+    "message": "Use the Container Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.container.description": {
+    "message": "The 'Container' component in ILLA Cloud groups multiple components together, making it easier for users to organize and manage content. For example, a user can group a set of input fields together in a container, simplifying the process of collecting and submitting data. This can save time by streamlining workflows and improving overall efficiency."
+  },
+  "landingPageDetail.container.metaTitle": {
+    "message": "ILLA Cloud | Container Component"
+  },
+  "landingPageDetail.container.metaDescription": {
+    "message": "Learn how to use the Container component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.date.name": {
+    "message": "Date"
+  },
+  "landingPageDetail.date.title": {
+    "message": "Use the Date Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.date.description": {
+    "message": "The Date component in ILLA Cloud simplifies date selection by providing a calendar-based interface, improving the efficiency and accuracy of date-related data management. For example, a user can create a form for event registration and use the Date component to allow users to select the event date, reducing the potential for date-related errors and streamlining the registration process."
+  },
+  "landingPageDetail.date.metaTitle": {
+    "message": "ILLA Cloud | Date Component"
+  },
+  "landingPageDetail.date.metaDescription": {
+    "message": "Learn how to use the Date component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.dateRange.name": {
+    "message": "Date Range"
+  },
+  "landingPageDetail.dateRange.title": {
+    "message": "Use the Date Range Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.dateRange.description": {
+    "message": "The 'Date Range' component in ILLA Cloud streamlines the selection of date ranges by providing a calendar-based interface, saving users' time and effort. For example, a user can create a report and use the 'Date Range' component to allow users to select a date range for data analysis, simplifying the process and increasing efficiency."
+  },
+  "landingPageDetail.dateRange.metaTitle": {
+    "message": "ILLA Cloud | Date Range Component"
+  },
+  "landingPageDetail.dateRange.metaDescription": {
+    "message": "Learn how to use the Date Range component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.dateTime.name": {
+    "message": "Date Time"
+  },
+  "landingPageDetail.dateTime.title": {
+    "message": "Use the Date Time Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.dateTime.description": {
+    "message": "The Date Time component in ILLA Cloud simplifies date and time selection by providing a calendar-based interface, improving the efficiency and accuracy of data management. For example, a user can create a form for appointment scheduling and use the 'Date Time' component to allow users to select the specific date and time, reducing the potential for scheduling errors and streamlining the process."
+  },
+  "landingPageDetail.dateTime.metaTitle": {
+    "message": "ILLA Cloud Date Time Component - Select and Display Date and Time"
+  },
+  "landingPageDetail.dateTime.metaDescription": {
+    "message": "Learn how to use date time component to create forms, surveys, dashboards, and more with ILLA Cloud."
+  },
+  "landingPageDetail.divider.name": {
+    "message": "Divider"
+  },
+  "landingPageDetail.divider.title": {
+    "message": "Use the Divider Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.divider.description": {
+    "message": "The 'Divider' component in ILLA Cloud is a visual element that creates clear distinctions between different sections of content, improving navigation and organization. By using dividers, users can save time by quickly finding the information they need without having to search through cluttered or disorganized content, improving the user experience."
+  },
+  "landingPageDetail.divider.metaTitle": {
+    "message": "ILLA Cloud | Divider Component"
+  },
+  "landingPageDetail.divider.metaDescription": {
+    "message": "Learn how to use the Divider component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.editableText.name": {
+    "message": "Editable text"
+  },
+  "landingPageDetail.editableText.title": {
+    "message": "Use the Editable Text Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.editableText.description": {
+    "message": "The Editable Text component in ILLA Cloud allows users to input and edit text in a one line text input box, and the input text can be shown as hovered. This component can save users' time by providing a quick and easy way to edit text. For example, a user can create a form that collects user feedback and use the 'Editable Text' component to allow users to edit their comments before submitting. This can help businesses improve their efficiency by reducing the need for back-and-forth communication."
+  },
+  "landingPageDetail.editableText.metaTitle": {
+    "message": "ILLA Cloud | Editable Text Component"
+  },
+  "landingPageDetail.editableText.metaDescription": {
+    "message": "Learn how to use the Editable Text component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.form.name": {
+    "message": "Form"
+  },
+  "landingPageDetail.form.title": {
+    "message": "Use the Form Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.form.description": {
+    "message": "The 'Form' component in ILLA Cloud lets users input and submit required information, providing an efficient way to collect and process data. It can save time by standardizing the data entry process, reducing errors, and making it easier to organize and analyze the data. For example, a company can use a Form component to collect employee information, such as contact details and job position, and easily organize the data for HR purposes."
+  },
+  "landingPageDetail.form.metaTitle": {
+    "message": "ILLA Cloud | Form Component"
+  },
+  "landingPageDetail.form.metaDescription": {
+    "message": "Learn how to use the Form component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.icon.name": {
+    "message": "Icon"
+  },
+  "landingPageDetail.icon.title": {
+    "message": "Use the Icon Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.icon.description": {
+    "message": "The Icon component in ILLA Cloud provides a quick and easy way for users to insert pre-built icons, improving the visual appeal and usability of the application. For example, a user can insert a shopping cart icon to represent a shopping cart feature in an e-commerce application, saving time and effort in creating a custom icon and improving the user experience."
+  },
+  "landingPageDetail.icon.metaTitle": {
+    "message": "ILLA Cloud | Icon Component"
+  },
+  "landingPageDetail.icon.metaDescription": {
+    "message": "Learn how to use the Icon component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.image.name": {
+    "message": "Image"
+  },
+  "landingPageDetail.image.title": {
+    "message": "Use the Image Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.image.description": {
+    "message": "The Image component in ILLA Cloud provides a straightforward way for users to display images, enhancing the visual appeal and accessibility of information. For example, a user can use the 'Image' component to display product images in an e-commerce application, saving time and effort in providing a clear and attractive representation of products."
+  },
+  "landingPageDetail.image.metaTitle": {
+    "message": "ILLA Cloud Image Component - Display and Manage Images within Your App"
+  },
+  "landingPageDetail.image.metaDescription": {
+    "message": "Learn how to use image component to create galleries, sliders, thumbnails, and more with ILLA Cloud."
+  },
+  "landingPageDetail.input.name": {
+    "message": "Input"
+  },
+  "landingPageDetail.input.title": {
+    "message": "Use the Input Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.input.description": {
+    "message": "In ILLA Cloud, the Input component with a left label eliminates manual data entry, saving time and increasing efficiency. It allows users to easily provide the required information for further processing. For example, it can be used to collect customer contact information, streamlining data collection and processing workflows. The collected data can be utilized for customer segmentation, targeted marketing campaigns, and customer support, providing an efficient and time-saving solution."
+  },
+  "landingPageDetail.input.metaTitle": {
+    "message": "ILLA Cloud | Input Component "
+  },
+  "landingPageDetail.input.metaDescription": {
+    "message": "Learn how to use the Input component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.list.name": {
+    "message": "List"
+  },
+  "landingPageDetail.list.title": {
+    "message": "Use the List Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.list.description": {
+    "message": "The List component provides an organized and efficient way to view and manage data, saving users time by allowing them to quickly access and manipulate information. For example, a sales manager can use the List component to view and track customer orders, quickly identifying trends and making data-driven decisions. Overall, the List component can improve productivity and enhance data analysis."
+  },
+  "landingPageDetail.list.metaTitle": {
+    "message": "ILLA Cloud List Component - Create Repeatable Rows of Data"
+  },
+  "landingPageDetail.list.metaDescription": {
+    "message": "Learn how to use list component to create galleries, sliders, tables, and more with ILLA Cloud."
+  },
+  "landingPageDetail.menu.name": {
+    "message": "Menu"
+  },
+  "landingPageDetail.menu.title": {
+    "message": "Use the Menu Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.menu.description": {
+    "message": "By utilizing the Menu component, users can quickly access different options without having to navigate through multiple pages, saving time and increasing efficiency. For example, a user can use the Menu component to access various features of a software application, allowing them to easily access frequently used functions and streamline their workflow."
+  },
+  "landingPageDetail.menu.metaTitle": {
+    "message": "ILLA Cloud Menu Component - Display and Manage Page Structure"
+  },
+  "landingPageDetail.menu.metaDescription": {
+    "message": "Learn how to use menu component to create navigation bars, sidebars, dropdown menus, and more with ILLA Cloud."
+  },
+  "landingPageDetail.modal.name": {
+    "message": "Modal"
+  },
+  "landingPageDetail.modal.title": {
+    "message": "Use the Modal Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.modal.description": {
+    "message": "The 'Modal' component in ILLA Cloud is a user interface element that enables the display of content or prompts for user interaction without navigating away from the current page or interrupting the user's workflow. It creates a floating layer on top of the existing page to gather user feedback, display information, or prompt for input. This allows for a more seamless and streamlined user experience, as users can stay within the same context while still being able to interact with the application."
+  },
+  "landingPageDetail.modal.metaTitle": {
+    "message": "ILLA Cloud | Modal Component"
+  },
+  "landingPageDetail.modal.metaDescription": {
+    "message": "Learn how to use the Modal component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.multiselect.name": {
+    "message": "Multiselect"
+  },
+  "landingPageDetail.multiselect.title": {
+    "message": "Use the MultiSelect Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.multiselect.description": {
+    "message": "The Multi Select component in ILLA Cloud provides users with a convenient and efficient way to select multiple options from a list, saving time and effort. For example, a user can create a survey form and use the 'Multi Select' component to allow users to select multiple options, such as their preferred products or services, streamlining the data collection process."
+  },
+  "landingPageDetail.multiselect.metaTitle": {
+    "message": "ILLA Cloud | Multiselect Component"
+  },
+  "landingPageDetail.multiselect.metaDescription": {
+    "message": "Learn how to use the Multiselect component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.numberInput.name": {
+    "message": "Number input"
+  },
+  "landingPageDetail.numberInput.title": {
+    "message": "Use the Number Input Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.numberInput.description": {
+    "message": "In ILLA Cloud, the Number Input component with a left label allows users to enter numerical values, providing a streamlined interface for quick and easy input. This component can save users' time by eliminating the need for manual data entry. For example, a user can create an order form that includes a 'Number Input' component to collect the quantity and price of each item. This can help businesses save time and reduce errors when processing orders."
+  },
+  "landingPageDetail.numberInput.metaTitle": {
+    "message": "ILLA Cloud | Number Input Component"
+  },
+  "landingPageDetail.numberInput.metaDescription": {
+    "message": "Learn how to use the Number Input component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.pdf.name": {
+    "message": "PDF"
+  },
+  "landingPageDetail.pdf.title": {
+    "message": "Use the PDF Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.pdf.description": {
+    "message": "The 'PDF' component in ILLA Cloud allows users to view and interact with PDF files within the app, saving time and streamlining document management. For example, a user can easily access and annotate PDF documents without having to switch between different software or applications, improving productivity and workflow efficiency."
+  },
+  "landingPageDetail.pdf.metaTitle": {
+    "message": "ILLA Cloud | PDF Component"
+  },
+  "landingPageDetail.pdf.metaDescription": {
+    "message": "Learn how to use the PDF component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.radioButton.name": {
+    "message": "Radio Button"
+  },
+  "landingPageDetail.radioButton.title": {
+    "message": "Use the Radio Button Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.radioButton.description": {
+    "message": "The Radio Button component is a quick and efficient way for users to select one option from multiple choices, avoiding confusion and streamlining the decision-making process. For example, a survey form could use the Radio Button component to allow users to select their age group, gender, or preferred method of contact, saving time by simplifying the data input process."
+  },
+  "landingPageDetail.radioButton.metaTitle": {
+    "message": "ILLA Cloud | Radio Button Component"
+  },
+  "landingPageDetail.radioButton.metaDescription": {
+    "message": " Learn how to use the Radio Button component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.radioGroup.name": {
+    "message": "Radio group"
+  },
+  "landingPageDetail.radioGroup.title": {
+    "message": "Use the Radio Group Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.radioGroup.description": {
+    "message": "The Radio Group component in ILLA Cloud provides a straightforward and efficient way for users to select one option from a list, saving time and reducing errors. For example, a user can create a form for event registration and use the 'Radio Group' component to allow users to select their preferred event, simplifying the registration process and improving efficiency."
+  },
+  "landingPageDetail.radioGroup.metaTitle": {
+    "message": "ILLA Cloud Radio Group Component - Build Internal Tools with Ease"
+  },
+  "landingPageDetail.radioGroup.metaDescription": {
+    "message": "Learn how to use this component to create forms, surveys, dashboards, and more with ILLA Cloud."
+  },
+  "landingPageDetail.rate.name": {
+    "message": "Rate"
+  },
+  "landingPageDetail.rate.title": {
+    "message": "Use the Rate Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.rate.description": {
+    "message": "The 'Rate' component in ILLA Cloud provides a quick and easy way for users to rate products, services or experiences, saving time in providing feedback. For example, a user can use the Rate component to rate a recent purchase or experience, helping businesses improve their products and services based on customer feedback."
+  },
+  "landingPageDetail.rate.metaTitle": {
+    "message": "ILLA Cloud | Rate Component"
+  },
+  "landingPageDetail.rate.metaDescription": {
+    "message": "Learn how to use the Rate component in ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.select.name": {
+    "message": "Select"
+  },
+  "landingPageDetail.select.title": {
+    "message": "Use the Select Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.select.description": {
+    "message": "The Select component in ILLA Cloud allows users to select from a list of options, providing a user-friendly and space-efficient way to input data, which can save users' time and increase efficiency. For example, a user can create a survey form and use the 'Select' component to provide a range of options for users to choose from, simplifying the process and ensuring accurate data collection."
+  },
+  "landingPageDetail.select.metaTitle": {
+    "message": "ILLA Cloud Select Component - Select One Option from a List of Choices with Ease"
+  },
+  "landingPageDetail.select.metaDescription": {
+    "message": "Learn how to use select component in ILLA Cloud to choose from a list of options."
+  },
+  "landingPageDetail.statistics.name": {
+    "message": "Statistics"
+  },
+  "landingPageDetail.statistics.title": {
+    "message": "Use the Statistics Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.statistics.description": {
+    "message": "The 'Statistics' component in ILLA Cloud is designed to help users display numerical data in a visually appealing and easy-to-understand way, improving data analysis and decision-making. For example, a user can use the Statistics component to create a dashboard that displays sales data in various visual formats such as bar charts, pie charts, and line charts, saving time in creating customized visualizations and providing a quick and clear overview of the data."
+  },
+  "landingPageDetail.statistics.metaTitle": {
+    "message": "ILLA Cloud | Statistics Component"
+  },
+  "landingPageDetail.statistics.metaDescription": {
+    "message": "Learn how to use the Statistics component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.switch.name": {
+    "message": "Switch"
+  },
+  "landingPageDetail.switch.title": {
+    "message": "Use the Switch Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.switch.description": {
+    "message": "The Switch component in ILLA Cloud provides an intuitive and user-friendly way for users to turn on or turn off specific settings or features, saving time and increasing efficiency. For example, a user can create a notification system and use the 'Switch' component to allow users to turn on or turn off notifications for specific events, such as new messages or updates, reducing unnecessary interruptions."
+  },
+  "landingPageDetail.switch.metaTitle": {
+    "message": "ILLA Cloud | Switch Component"
+  },
+  "landingPageDetail.switch.metaDescription": {
+    "message": "Learn how to use the Switch component in ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.tables.name": {
+    "message": "Tables"
+  },
+  "landingPageDetail.tables.title": {
+    "message": "Use the Table Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.tables.description": {
+    "message": "The 'Table' component in ILLA Cloud displays database data in a tabular format, allowing users to quickly analyze large amounts of information. With features like sorting, searching, and filtering, the Table component can save users time by enabling them to easily find and manipulate the data they need. Additionally, tables can be customized with different column types, colors, and formatting options, making it possible to create visually appealing and easy-to-understand representations of complex data."
+  },
+  "landingPageDetail.tables.metaTitle": {
+    "message": "ILLA Cloud | Tables Component"
+  },
+  "landingPageDetail.tables.metaDescription": {
+    "message": "Learn how to use the Tables component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.tabs.name": {
+    "message": "Tabs"
+  },
+  "landingPageDetail.tabs.title": {
+    "message": "Use the Tab Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.tabs.description": {
+    "message": "The 'Tab' component in ILLA Cloud saves users time by allowing them to easily switch between different sections of content without the need for extensive scrolling. For example, a user can use Tabs to switch between different views or modes in a software application, improving usability and productivity."
+  },
+  "landingPageDetail.tabs.metaTitle": {
+    "message": "ILLA Cloud Tabs Component - Categorize and Display Content"
+  },
+  "landingPageDetail.tabs.metaDescription": {
+    "message": "Learn how to use tabs component to create dashboards, reports, forms, and more with ILLA Cloud."
+  },
+  "landingPageDetail.text.name": {
+    "message": "Text"
+  },
+  "landingPageDetail.text.title": {
+    "message": "Use the Text Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.text.description": {
+    "message": "The Text component in ILLA Cloud provides a straightforward way for users to display text, improving the readability and accessibility of information. For example, a user can use the 'Text' component to display important instructions or information, such as contact details or product descriptions, saving time and effort in conveying important information."
+  },
+  "landingPageDetail.text.metaTitle": {
+    "message": "ILLA Cloud | Text Component"
+  },
+  "landingPageDetail.text.metaDescription": {
+    "message": "Learn how to use the Text component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.textareaInput.name": {
+    "message": "Textarea input"
+  },
+  "landingPageDetail.textareaInput.title": {
+    "message": "Use the Textarea Input Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.textareaInput.description": {
+    "message": "The Textarea Input component in ILLA Cloud is a user-friendly tool that enables users to input and edit multiple lines of text with ease. For example, a user can create a contact form that includes a 'Textarea Input' component to allow users to enter detailed messages, saving time and streamlining the communication process."
+  },
+  "landingPageDetail.textareaInput.metaTitle": {
+    "message": "ILLA Cloud | Textarea Input Component"
+  },
+  "landingPageDetail.textareaInput.metaDescription": {
+    "message": "Learn how to use the Textarea Input component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.timeline.name": {
+    "message": "Timeline"
+  },
+  "landingPageDetail.timeline.title": {
+    "message": "Use the Timeline Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.timeline.description": {
+    "message": "The Timeline component in ILLA Cloud can save users time by providing a clear and organized visual representation of a project's progress or history. For example, a project manager can use the Timeline component to create a visual representation of a project's milestones, deadlines, and deliverables, saving time in creating and communicating a project's timeline to team members and stakeholders."
+  },
+  "landingPageDetail.timeline.metaTitle": {
+    "message": "ILLA Cloud | Timeline Component"
+  },
+  "landingPageDetail.timeline.metaDescription": {
+    "message": "Learn how to use the Timeline component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.upload.name": {
+    "message": "Upload"
+  },
+  "landingPageDetail.upload.title": {
+    "message": "Use the Upload Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.upload.description": {
+    "message": "The Upload component in ILLA Cloud enables users to easily upload any type of files to their application, providing a convenient and streamlined approach to data management. For example, a user can create an online store and use the 'Upload' component to allow customers to upload images or other files when submitting orders, saving time and increasing efficiency."
+  },
+  "landingPageDetail.upload.metaTitle": {
+    "message": "ILLA Cloud | Upload Component"
+  },
+  "landingPageDetail.upload.metaDescription": {
+    "message": "Learn how to use the Upload component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.video.name": {
+    "message": "Video"
+  },
+  "landingPageDetail.video.title": {
+    "message": "Use the Video Component in ILLA Cloud to build internal tools in just a few clicks."
+  },
+  "landingPageDetail.video.description": {
+    "message": "The 'Video' component in ILLA Cloud plays and interacts with videos within the application, saving time by allowing users to easily view and interact with video content without the need to switch to an external video player. For example, a user can use the Video component to watch training videos or product demos within the application, improving productivity and efficiency."
+  },
+  "landingPageDetail.video.metaTitle": {
+    "message": "ILLA Cloud Video Component - Interact with Videos in Your App"
+  },
+  "landingPageDetail.video.metaDescription": {
+    "message": "Learn how to use video component to create training videos, product demos, tutorials, and more with ILLA Cloud."
+  },
+  "description": {
+    "message": "Empower your team with AI Agent and advanced low-code tools to create business apps"
+  },
+  "illa-Cloud": {
+    "message": "Get start"
+  },
+  "starts": {
+    "message": "Starts"
+  },
+  "stars": {
+    "message": "Starts"
+  },
+  "join-community": {
+    "message": "Join Discord"
+  },
+  "content.all.title": {
+    "message": "ILLA Cloud integrates everything"
+  },
+  "how_to_use.title.3_steps_to_customize": {
+    "message": "steps to customize your AI tools"
+  },
+  "how_to_use.description.build_tools_through": {
+    "message": "Build tools through drag-and-drop components, customize your AI Agent, connect to your data sources, and make AI a smart tool tailored to your needs and data, making your work more intelligent."
+  },
+  "how_to_use.step1_title.create_ai_agent_for": {
+    "message": "Create AI Agent for a specific purpose"
+  },
+  "how_to_use.step1_description.you_can_create_an_ai": {
+    "message": "You can create an AI Agent for a specific purpose and make it more helpful at specific tasks, at work, or in your daily life. "
+  },
+  "how_to_use.step1_button.ai_agent_marketplace": {
+    "message": "AI Agent Marketplace"
+  },
+  "how_to_use.step2_title.build_the_frontend_p": {
+    "message": "Build the frontend page in a few minutes"
+  },
+  "how_to_use.step2_description.by_dragging_and_drop": {
+    "message": "By dragging and dropping components, you can quickly build the interface of the tool and implement any functionality you desire."
+  },
+  "how_to_use.step2_button.illa_app_marketplace": {
+    "message": "ILLA App Marketplace"
+  },
+  "how_to_use.step3_title.connect_to_your_data": {
+    "message": "Connect to your data sources and AI Agents"
+  },
+  "how_to_use.step3_description.enable_data_integrat": {
+    "message": "Enable data integration and automation. AI Agent will perform specific tasks based on your requirements and data."
+  },
+  "how_to_use.step3_button.supported_data_sourc": {
+    "message": "Supported data sources"
+  },
+  "testimonial.title.user_testimonials": {
+    "message": "User Testimonials"
+  },
+  "testimonial.testimonial1_content.illa_cloud_has_been": {
+    "message": "ILLA Cloud has been a game-changer for me. It helps me generate highly efficient content in less time. The customized AI Agent and App perfectly cater to my business needs."
+  },
+  "testimonial.testimonial1_username.christopher": {
+    "message": "Christopher"
+  },
+  "testimonial.testimonial1_usertitle.seo_specialist": {
+    "message": "SEO Specialist"
+  },
+  "testimonial.testimonial2_content.i_think_i_become_a_b": {
+    "message": "I think I become a BlogMaster now! This tool has revolutionized my content generation process, saving me valuable time. Whether it's generating blog ideas or structuring articles, the AI Agents have been a tremendous asset to me and my team."
+  },
+  "testimonial.testimonial2_username.lucas": {
+    "message": "Lucas"
+  },
+  "testimonial.testimonial2_usertitle.content_strategist": {
+    "message": "Content Strategist"
+  },
+  "testimonial.testimonial3_content.it_empowers_me_to_pr": {
+    "message": "It empowers me to provide exceptional customer support with minimal effort. The pre-built AI Agent and App, along with the ability to customize them for our specific needs, have significantly enhanced our team's effectiveness."
+  },
+  "testimonial.testimonial3_username.harper": {
+    "message": "Harper"
+  },
+  "testimonial.testimonial3_usertitle.customer_service_man": {
+    "message": "Customer Service Manager"
+  },
+  "testimonial.testimonial4_content.ai_agent_low_code": {
+    "message": "AI Agent & low-code has transformed my email writing process. It streamlines the creation of impactful emails, enabling me to craft engaging and persuasive messages effortlessly. ILLA Cloud has elevated our email communication to new heights."
+  },
+  "testimonial.testimonial4_username.abigail": {
+    "message": "Abigail"
+  },
+  "testimonial.testimonial4_usertitle.communication_specia": {
+    "message": "Communication Specialist"
+  },
+  "testimonial.testimonial5_content.i_need_to_oversee_va": {
+    "message": "I need to oversee various aspects of my company. ILLA Cloud provides me with a comprehensive solution. It not only saves me time and effort in development and design but also allows me to manage and monitor my business better. "
+  },
+  "testimonial.testimonial5_username.matthew": {
+    "message": "Matthew"
+  },
+  "testimonial.testimonial5_usertitle.business_founder": {
+    "message": "Business Founder"
+  },
+  "testimonial.testimonial6_content.using_illa_cloud_to": {
+    "message": "Using ILLA Cloud to build a management dashboard has been incredibly easy. After just one day of work, we were able to accomplish tasks such as monitoring project progress and allocating resources within this dashboard."
+  },
+  "testimonial.testimonial6_username.samuel": {
+    "message": "Samuel"
+  },
+  "testimonial.testimonial6_usertitle.website_administrato": {
+    "message": "Website Administrator"
+  },
+  "customer.title": {
+    "message": "Trusted by thousands of teams"
+  },
+  "template.title.quickly_start_from_a": {
+    "message": "Quickly start from a template"
+  },
+  "template.button.explore_more_templat": {
+    "message": "Explore more templates"
+  },
+  "template.template1_title.car_rental_admin_pan": {
+    "message": "Car rental admin panel"
+  },
+  "template.template1_description.build_for_car_rental": {
+    "message": "Build for car rental companies to identify and track trends in vehicle usage, costs, and servicing"
+  },
+  "template.template1_button.learn_more": {
+    "message": "Learn more"
+  },
+  "template.template2_title.cms_with_content_gen": {
+    "message": "CMS with content generation"
+  },
+  "template.template2_description.build_for_business_o": {
+    "message": "Build for business operations teams to create and manage content more efficiently"
+  },
+  "template.template2_button.learn_more": {
+    "message": "Learn more"
+  },
+  "template.template3_title.applicant_tracking": {
+    "message": "Applicant tracking"
+  },
+  "template.template3_description.build_for_the_human": {
+    "message": "Build for the human resources team to collect resumes and track progress"
+  },
+  "template.template3_button.learn_more": {
+    "message": "Learn more"
+  },
+  "solutions.title.how_illa_ai_improves": {
+    "message": "How ILLA AI Improves Work Practices"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "solutions.illa_title.illa_ai": {
+    "message": "ILLA Cloud"
+  },
+  "solutions.human_title.human_work": {
+    "message": "Human work"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  }
+}

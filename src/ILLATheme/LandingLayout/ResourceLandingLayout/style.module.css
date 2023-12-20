@@ -1,0 +1,4 @@
+.lpContainer {
+  @apply w-full mx-auto px-[20px] text-[#1d2129];
+  @apply max-w-[1200px] xl:px-0;
+}

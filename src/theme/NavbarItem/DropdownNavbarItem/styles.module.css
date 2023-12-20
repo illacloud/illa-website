@@ -1,0 +1,6 @@
+.dropdownNavbarItemMobile {
+  cursor: pointer;
+  &::after {
+    margin-left: 8px;
+  }
+}
