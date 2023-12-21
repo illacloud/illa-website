@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[8627],{6539:e=>{e.exports=JSON.parse('{"permalink":"/illa-website/blog/tags/docusaurus","page":1,"postsPerPage":12,"totalPages":1,"totalCount":4,"blogDescription":"A resource for ILLA, front-end ecosystem, and web development","blogTitle":"Blog"}')}}]);

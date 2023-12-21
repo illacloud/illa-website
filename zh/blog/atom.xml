@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://illacloud.github.io/zh/blog</id>
+    <id>https://illacloud.github.io/illa-website/zh/blog</id>
     <title>My Site2222 Blog</title>
     <updated>2023-12-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://illacloud.github.io/zh/blog"/>
+    <link rel="alternate" href="https://illacloud.github.io/illa-website/zh/blog"/>
     <subtitle>My Site2222 Blog</subtitle>
-    <icon>https://illacloud.github.io/zh/img/favicon.ico</icon>
+    <icon>https://illacloud.github.io/illa-website/zh/img/favicon.ico</icon>
     <rights>Copyright © 2023 ILLA.</rights>
     <entry>
         <title type="html"><![CDATA[Kubectl 作弊模式——使用示例]]></title>
-        <id>https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table</id>
-        <link href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table"/>
+        <id>https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table"/>
         <updated>2023-12-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[如果你想要管理部署在Kubernetes的应用，Kubectl是一个非常简单的工具。]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="一-导言">一. 导言<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E4%B8%80-%E5%AF%BC%E8%A8%80" class="hash-link" aria-label="Direct link to 一. 导言" title="Direct link to 一. 导言">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="一-导言">一. 导言<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E4%B8%80-%E5%AF%BC%E8%A8%80" class="hash-link" aria-label="Direct link to 一. 导言" title="Direct link to 一. 导言">​</a></h2>
 <p>Kubernetes 是一个著名的容器管弦乐队工具，它在现代软件开发中非常受欢迎。 如果您正在使用 Kubernetes ，您必须已经使用 Kubectl ，这是管理您的 Kubernetes 应用程序的命令行工具。 本指南将带你穿过最常用的 Kubectl 命令。 我们不仅将讨论重要的命令， 但我们也将讨论实际的代码例子和执行过程中遇到的常见错误。 它能够做的一些例子包括：</p>
 <ul>
 <li>您的 pods 管理</li>
@@ -23,12 +23,12 @@
 <li>还有更多</li>
 </ul>
 <p>现在，我们可能无法覆盖每一个指挥部。 但可以放心，如果您的应用程序使用 Kubernetes，下面讨论的命令肯定是有价值的。 让我们从基本的 Kubectl 开始，即安装和安装。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="设置和基本命令">设置和基本命令<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="Direct link to 设置和基本命令" title="Direct link to 设置和基本命令">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在安装-kubectl版本">正在安装 kubectl：版本<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%AE%89%E8%A3%85-kubectl%E7%89%88%E6%9C%AC" class="hash-link" aria-label="Direct link to 正在安装 kubectl：版本" title="Direct link to 正在安装 kubectl：版本">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="设置和基本命令">设置和基本命令<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E8%AE%BE%E7%BD%AE%E5%92%8C%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="Direct link to 设置和基本命令" title="Direct link to 设置和基本命令">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在安装-kubectl版本">正在安装 kubectl：版本<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%AE%89%E8%A3%85-kubectl%E7%89%88%E6%9C%AC" class="hash-link" aria-label="Direct link to 正在安装 kubectl：版本" title="Direct link to 正在安装 kubectl：版本">​</a></h3>
 <p>检查 kubectl 安装和版本。</p>
 <p><strong>常见错误:</strong> 命令未找到(未安装 kubectl)。</p>
 <p>拒绝连接到 localhost:8080: Kubernetes 集群未运行或 kubectl 配置错误。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="基本语法">基本语法<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95" class="hash-link" aria-label="Direct link to 基本语法" title="Direct link to 基本语法">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="基本语法">基本语法<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95" class="hash-link" aria-label="Direct link to 基本语法" title="Direct link to 基本语法">​</a></h3>
 <p>The basic syntax of any kubectl command is: <code>kubectl [command] Type [name] [flags]</code>
 Note that 'TYPE' and 'NAME' are context-dependent and may not be required in that order.</p>
 <p><strong>常见标志:</strong></p>
@@ -42,24 +42,24 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <p>使用 -n 或 --namespace 标志来指定命名空间。</p>
 <p>使用 "kubectl 获取 pods -n mynameespace" 与 -o 或 --output for 输出格式，例如 json 或 yaml。 例如： <code>kubectl get pod mypod json</code></p>
 <p><strong>常见错误：</strong> 无效的命名空间或输出格式可能导致服务器错误，如“找不到”。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="集群管理和背景">集群管理和背景<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86%E5%92%8C%E8%83%8C%E6%99%AF" class="hash-link" aria-label="Direct link to 集群管理和背景" title="Direct link to 集群管理和背景">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="查看集群信息">查看集群信息<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%9F%A5%E7%9C%8B%E9%9B%86%E7%BE%A4%E4%BF%A1%E6%81%AF" class="hash-link" aria-label="Direct link to 查看集群信息" title="Direct link to 查看集群信息">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="集群管理和背景">集群管理和背景<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E9%9B%86%E7%BE%A4%E7%AE%A1%E7%90%86%E5%92%8C%E8%83%8C%E6%99%AF" class="hash-link" aria-label="Direct link to 集群管理和背景" title="Direct link to 集群管理和背景">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="查看集群信息">查看集群信息<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%9F%A5%E7%9C%8B%E9%9B%86%E7%BE%A4%E4%BF%A1%E6%81%AF" class="hash-link" aria-label="Direct link to 查看集群信息" title="Direct link to 查看集群信息">​</a></h3>
 <p><code>kubectl 群集-info</code></p>
 <p>显示集群主端和服务端点。</p>
 <p><strong>常见标志:</strong></p>
 <p><code>--kubeconfig</code> 此选项指定了 kubeconfig 文件。</p>
 <p><strong>常见错误:</strong> 由于网络或连接问题，无法连接到服务器。</p>
 <p><strong>示例:</strong> <code>kubectl cluster-info --kubeconfig=/myconfig</code></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="切换环境">切换环境<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%88%87%E6%8D%A2%E7%8E%AF%E5%A2%83" class="hash-link" aria-label="Direct link to 切换环境" title="Direct link to 切换环境">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="切换环境">切换环境<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%88%87%E6%8D%A2%E7%8E%AF%E5%A2%83" class="hash-link" aria-label="Direct link to 切换环境" title="Direct link to 切换环境">​</a></h3>
 <p>切换到另一个上下文.</p>
 <p><code>kubectl 配置使用上下文 [context_name]</code></p>
 <p><strong>常见标志：</strong> 大部分时间没有任何特定标志</p>
 <p><strong>常见错误:</strong></p>
 <p><code>错误：名称不存在上下文： [context_name]</code> ：如果上下文不存在。</p>
 <p><strong>示例：</strong> `kubectl configuse-context staging-context</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="使用命名空间">使用命名空间<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4" class="hash-link" aria-label="Direct link to 使用命名空间" title="Direct link to 使用命名空间">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="使用命名空间">使用命名空间<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4" class="hash-link" aria-label="Direct link to 使用命名空间" title="Direct link to 使用命名空间">​</a></h2>
 <p>Kubernetes 命名空间段并管理资源。 重要的命名空间操作如下。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="命名空间创建">命名空间创建<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%9B%E5%BB%BA" class="hash-link" aria-label="Direct link to 命名空间创建" title="Direct link to 命名空间创建">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="命名空间创建">命名空间创建<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%9B%E5%BB%BA" class="hash-link" aria-label="Direct link to 命名空间创建" title="Direct link to 命名空间创建">​</a></h3>
 <p>这个简单的命令创建了一个 Kubernetes 命名空间。 由于其特定功能，它有很少的变体和标记。
 <strong>示例：</strong></p>
 <p>使用: <code>kubectl 创建命名空间dev</code></p>
@@ -70,7 +70,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <li><code>--dry-run</code>显示命名空间而不创建它。</li>
 <li>"-o [format]" 输出细节为 yaml 或 json 格式。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="命名空间列表">命名空间列表<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%97%E8%A1%A8" class="hash-link" aria-label="Direct link to 命名空间列表" title="Direct link to 命名空间列表">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="命名空间列表">命名空间列表<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%97%E8%A1%A8" class="hash-link" aria-label="Direct link to 命名空间列表" title="Direct link to 命名空间列表">​</a></h3>
 <p>此命令显示所有 Kubernetes 命名空间。</p>
 <p><strong>示例:</strong>
 简单列表: <code>kubectl get namespaces</code>
@@ -83,7 +83,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <li>"-o json" 或 "-o yaml" 详细信息为 JSON 或 YAML 输出。</li>
 <li><code>--show-labels</code>: 它显示命名空间标签。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="命名空间删除">命名空间删除<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%A0%E9%99%A4" class="hash-link" aria-label="Direct link to 命名空间删除" title="Direct link to 命名空间删除">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="命名空间删除">命名空间删除<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%88%A0%E9%99%A4" class="hash-link" aria-label="Direct link to 命名空间删除" title="Direct link to 命名空间删除">​</a></h3>
 <p><code>kubectl 删除 [namespace_name]</code></p>
 <p>这将移除命名空间及其资源。 小心，因为这是一个不可逆转的操作。</p>
 <p><strong>示例：</strong>
@@ -103,8 +103,8 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <li>使用 "--force" 来预先删除命名空间。</li>
 <li><code>--cascade</code> ：决定是否删除命名空间资源。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="剂量和部署的管理">剂量和部署的管理<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%89%82%E9%87%8F%E5%92%8C%E9%83%A8%E7%BD%B2%E7%9A%84%E7%AE%A1%E7%90%86" class="hash-link" aria-label="Direct link to 剂量和部署的管理" title="Direct link to 剂量和部署的管理">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在创建-pods">正在创建 Pods<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%88%9B%E5%BB%BA-pods" class="hash-link" aria-label="Direct link to 正在创建 Pods" title="Direct link to 正在创��建 Pods">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="剂量和部署的管理">剂量和部署的管理<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%89%82%E9%87%8F%E5%92%8C%E9%83%A8%E7%BD%B2%E7%9A%84%E7%AE%A1%E7%90%86" class="hash-link" aria-label="Direct link to 剂量和部署的管理" title="Direct link to 剂量和部署的管理">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在创建-pods">正在创建 Pods<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%88%9B%E5%BB%BA-pods" class="hash-link" aria-label="Direct link to 正在创建 Pods" title="Direct link to 正在创��建 Pods">​</a></h3>
 <p>使用 <code>kubectl 运行 [pod_name] 创建Pods。 --image=[image_name]</code></p>
 <p><strong>常见标志:</strong></p>
 <ul>
@@ -116,7 +116,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 使用 'nginx' 图像创建 'nginx-pod' 'kubectl 运行 nginx-pod --image=nginx`</p>
 <p><strong>常见错误:</strong>
 当容器图像不存在时发生<code>错误：图像未找到</code> 错误。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="获取播客列表">获取播客列表<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E8%8E%B7%E5%8F%96%E6%92%AD%E5%AE%A2%E5%88%97%E8%A1%A8" class="hash-link" aria-label="Direct link to 获取播客列表" title="Direct link to 获取播客列表">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="获取播客列表">获取播客列表<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E8%8E%B7%E5%8F%96%E6%92%AD%E5%AE%A2%E5%88%97%E8%A1%A8" class="hash-link" aria-label="Direct link to 获取播客列表" title="Direct link to 获取播客列表">​</a></h3>
 <p>查看当前设置的命名空间 <code>kubectl 获取pods</code> 中的所有 pods`</p>
 <p><strong>常见标志</strong>：</p>
 <ul>
@@ -127,7 +127,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 </ul>
 <p><strong>常见错误:</strong>
 当命名空间没有 pods 时发生<code>无资源发现</code>错误。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在删除-pods">正在删除 Pods<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%88%A0%E9%99%A4-pods" class="hash-link" aria-label="Direct link to 正在删除 Pods" title="Direct link to 正在删除 Pods">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在删除-pods">正在删除 Pods<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%88%A0%E9%99%A4-pods" class="hash-link" aria-label="Direct link to 正在删除 Pods" title="Direct link to 正在删除 Pods">​</a></h3>
 <p>要删除 pod 的命令是 <code>kubectl 删除pod [pod_name]</code></p>
 <p><strong>常见标志:</strong></p>
 <ul>
@@ -138,7 +138,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <p><code>kubectl 删除 nginx-pod</code> 删除 'nginx-pod'。</p>
 <p><strong>常见错误:</strong>
 当 pod 不存在时常见的错误是 `Pod 找不到'。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="创建部署">创建部署<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%88%9B%E5%BB%BA%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="Direct link to 创建部署" title="Direct link to 创建部署">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="创建部署">创建部署<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%88%9B%E5%BB%BA%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="Direct link to 创建部署" title="Direct link to 创建部署">​</a></h3>
 <p>创建一个以其名称和图像 `kubectl 创建部署 [name] --image=[image]</p>
 <p><strong>常见标志:</strong></p>
 <ul>
@@ -149,7 +149,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 使用 'nginx' 图像来创建 'nginx-deplement' 'kubectl creatment nginx-deplation --image=nginx`</p>
 <p><strong>常见错误:</strong>
 图像格式错误常常导致<code>无效图像名称</code>错误。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在部署列表">正在部署列表<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E9%83%A8%E7%BD%B2%E5%88%97%E8%A1%A8" class="hash-link" aria-label="Direct link to 正在部署列表" title="Direct link to 正在部署列表">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在部署列表">正在部署列表<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E9%83%A8%E7%BD%B2%E5%88%97%E8%A1%A8" class="hash-link" aria-label="Direct link to 正在部署列表" title="Direct link to 正在部署列表">​</a></h3>
 <p>显示命名空间部署<code>kubectl 获取部署</code></p>
 <p><strong>常见标志：</strong>
 `-o 宽度' 显示额外的详细信息，如重复测验计数。</p>
@@ -157,8 +157,8 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <p>显示所有部署<code>kubectl获取部署</code></p>
 <p><strong>常见错误:</strong>
 当命名空间没有部署时发生<code>无资源发现</code>错误。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="处理服务和节点"><strong>处理服务和节点</strong><a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%A4%84%E7%90%86%E6%9C%8D%E5%8A%A1%E5%92%8C%E8%8A%82%E7%82%B9" class="hash-link" aria-label="Direct link to 处理服务和节点" title="Direct link to 处理服务和节点">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="管理服务">管理服务<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1" class="hash-link" aria-label="Direct link to 管理服务" title="Direct link to 管理服务">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="处理服务和节点"><strong>处理服务和节点</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%A4%84%E7%90%86%E6%9C%8D%E5%8A%A1%E5%92%8C%E8%8A%82%E7%82%B9" class="hash-link" aria-label="Direct link to 处理服务和节点" title="Direct link to 处理服务和节点">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="管理服务">管理服务<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E7%AE%A1%E7%90%86%E6%9C%8D%E5%8A%A1" class="hash-link" aria-label="Direct link to 管理服务" title="Direct link to 管理服务">​</a></h3>
 <p>概述
 <code>kubectl 获取服务</code> 有助于用户快速查看所有 Kubernetes 集群服务及其状态。</p>
 <p><strong>常见标志</strong>：</p>
@@ -172,7 +172,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 此命令将显示所有默认命名空间服务细节。</p>
 <p><strong>常见错误:</strong>
 <code>Services' 服务名称' 找不到</code>错误地输入服务名称或查询不存在的服务。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="列表节点">列表节点<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%88%97%E8%A1%A8%E8%8A%82%E7%82%B9" class="hash-link" aria-label="Direct link to 列表节点" title="Direct link to 列表节点">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="列表节点">列表节点<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%88%97%E8%A1%A8%E8%8A%82%E7%82%B9" class="hash-link" aria-label="Direct link to 列表节点" title="Direct link to 列表节点">​</a></h3>
 <p>命令“kubectl 获取节点”显示所有集群节点的大小和健康评估。</p>
 <p><strong>常见标志:</strong></p>
 <ul>
@@ -184,8 +184,8 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <code>kubectl 获取节点--selector=environment=production</code> 此命令显示所有生产节点。</p>
 <p><strong>常见错误:</strong>
 <code>连接到服务器localhost:8080 refused</code> 通常是由于错误的 kubectl 配置或无法访问 Kubernetes 集群。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="高级资源管理">高级资源管理<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E9%AB%98%E7%BA%A7%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86" class="hash-link" aria-label="Direct link to 高级资源管理" title="Direct link to 高级资源管理">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-标签">Kubectl 标签<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#kubectl-%E6%A0%87%E7%AD%BE" class="hash-link" aria-label="Direct link to Kubectl 标签" title="Direct link to Kubectl 标签">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="高级资源管理">高级资源管理<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E9%AB%98%E7%BA%A7%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86" class="hash-link" aria-label="Direct link to 高级资源管理" title="Direct link to 高级资源管理">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-标签">Kubectl 标签<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#kubectl-%E6%A0%87%E7%AD%BE" class="hash-link" aria-label="Direct link to Kubectl 标签" title="Direct link to Kubectl 标签">​</a></h3>
 <p>Kubernetes 标签是 pods 上的键值对。 它们组织和选择天体子集。 命令“kubectl get pods -l ” 通过标签检索 pods。</p>
 <p><strong>常见标志:</strong></p>
 <ul>
@@ -197,7 +197,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <code>kubectl get pods -l app=myApp</code> 列出了所有带有等于 myApp 的标签的 pod 。</p>
 <p><strong>常见错误</strong>：
 标签名称或值常常导致无结果。 确保播客标签正确。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="使用-kubectl-缩放部署">使用 kubectl 缩放部署<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8-kubectl-%E7%BC%A9%E6%94%BE%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="Direct link to 使用 kubectl 缩放部署" title="Direct link to 使用 kubectl 缩放部署">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="使用-kubectl-缩放部署">使用 kubectl 缩放部署<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8-kubectl-%E7%BC%A9%E6%94%BE%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="Direct link to 使用 kubectl 缩放部署" title="Direct link to 使用 kubectl 缩放部署">​</a></h3>
 <p>扩大部署涉及改变播客复制品的数量（实例）。 <code>kubectl scale</code>命令执行此魔法。</p>
 <p><strong>常见标志:</strong></p>
 <ul>
@@ -209,21 +209,21 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <p><code>kubectl 规模部署my部署 --replicas=5</code> 将 my 部署的比例定为 5 倍仿效。</p>
 <p><strong>常见错误</strong>：
 在缩放不存在或名称不正确的部署时，常常发生<code>部署未找到</code>错误。 部署名称必须在当前命名空间中。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="调试和日志"><strong>调试和日志</strong><a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E8%B0%83%E8%AF%95%E5%92%8C%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 调试和日志" title="Direct link to 调试和日志">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="日志访问">日志访问<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%97%A5%E5%BF%97%E8%AE%BF%E9%97%AE" class="hash-link" aria-label="Direct link to 日志访问" title="Direct link to 日志访问">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="调试和日志"><strong>调试和日志</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E8%B0%83%E8%AF%95%E5%92%8C%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 调试和日志" title="Direct link to 调试和日志">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="日志访问">日志访问<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%97%A5%E5%BF%97%E8%AE%BF%E9%97%AE" class="hash-link" aria-label="Direct link to 日志访问" title="Direct link to 日志访问">​</a></h3>
 <p>Kubernetes pod 日志可以使用 <code>kubectl logs [pod_name] </code>获取。 理解正在运行的应用程序和诊断问题需要此命令。</p>
 <p><strong>示例：</strong>
 <code>kubectl logmy-app-pod</code> 将显示名为“my-app-pod”的 pod 日志。</p>
 <p><strong>常见错误:</strong>
 "服务器错误(NotFound): pods "my-app-pod" 找不到"。当 Kubernetes 集群没有具有这个名称的 pod 时，发生了这个错误。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="定制日志">定制日志<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E5%AE%9A%E5%88%B6%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 定制日志" title="Direct link to 定制日志">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="定制日志">定制日志<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E5%AE%9A%E5%88%B6%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 定制日志" title="Direct link to 定制日志">​</a></h3>
 <p>你可以用 <code>kubectl log-f [pod_name] </code>串流或“尾”pod 日志。 这有助于实时监测日志输出，在动态环境中尤其如此。</p>
 <p><strong>示例:</strong>
 "kubectl log-f my-app-pod" logs from pod "my-app-pod" 将被该命令直播。</p>
 <p><strong>常见错误:</strong>
 "服务器错误(NotFound): pods "my-app-pod"找不到"。 这个错误意味着 Kubernetes 集群没有指定的 pod。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="保密和配置地图"><strong>保密和配置地图</strong><a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E4%BF%9D%E5%AF%86%E5%92%8C%E9%85%8D%E7%BD%AE%E5%9C%B0%E5%9B%BE" class="hash-link" aria-label="Direct link to 保密和配置地图" title="Direct link to 保密和配置地图">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在创建密钥">正在创建密钥<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%88%9B%E5%BB%BA%E5%AF%86%E9%92%A5" class="hash-link" aria-label="Direct link to 正在创建密钥" title="Direct link to 正在创建密钥">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="保密和配置地图"><strong>保密和配置地图</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E4%BF%9D%E5%AF%86%E5%92%8C%E9%85%8D%E7%BD%AE%E5%9C%B0%E5%9B%BE" class="hash-link" aria-label="Direct link to 保密和配置地图" title="Direct link to 保密和配置地图">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="正在创建密钥">正在创建密钥<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%AD%A3%E5%9C%A8%E5%88%9B%E5%BB%BA%E5%AF%86%E9%92%A5" class="hash-link" aria-label="Direct link to 正在创建密钥" title="Direct link to 正在创建密钥">​</a></h3>
 <p>Kubernetes 密钥存储和管理密码，OAuth tokens 和 Sh keys。 您可以轻松地创建这些秘密，使用 <code>kubectl 创建秘密的 [secret_name] --from-literal=[key]=[value]</code></p>
 <p><strong>常见标志:</strong></p>
 <ul>
@@ -238,7 +238,7 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <p>此命令创建一个名为我的密钥，一个条目：密码和 myStrongPassword</p>
 <p><strong>常见错误:</strong></p>
 <p>创建密钥时不正确或格式错误的密钥对是常见的。 遵循 key=value 格式是必不可少的。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="使用-configmaps">使用 ConfigMaps<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8-configmaps" class="hash-link" aria-label="Direct link to 使用 ConfigMaps" title="Direct link to 使用 ConfigMaps">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="使用-configmaps">使用 ConfigMaps<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8-configmaps" class="hash-link" aria-label="Direct link to 使用 ConfigMaps" title="Direct link to 使用 ConfigMaps">​</a></h3>
 <p>Kubernetes ConfigMaps 存储按键值对应的非机密数据。 配置文件、命令行参数、环境变量、端口号等可以存储在那里。 格式是 `kubectl 创建 configmap [name] --from-literal=[key]=[value]</p>
 <p><strong>常见标志</strong></p>
 <p>与创建密钥相同(见上文)</p>
@@ -247,23 +247,23 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <p>创建了一个名叫“app-config”的配置地图，它带有 app_mode 设置为生产。</p>
 <p><strong>常见错误:</strong></p>
 <p>当使用 --from-file`时，引用不存在的文件或目录是常见错误。 验证文件路径是正确和可访问的。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="有用的提示和涓流"><strong>有用的提示和涓流</strong><a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E5%92%8C%E6%B6%93%E6%B5%81" class="hash-link" aria-label="Direct link to 有用的提示和涓流" title="Direct link to 有用的提示和涓流">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="有效率的别名">有效率的别名<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E6%9C%89%E6%95%88%E7%8E%87%E7%9A%84%E5%88%AB%E5%90%8D" class="hash-link" aria-label="Direct link to 有效率的别名" title="Direct link to 有效率的别名">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="有用的提示和涓流"><strong>有用的提示和涓流</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%9C%89%E7%94%A8%E7%9A%84%E6%8F%90%E7%A4%BA%E5%92%8C%E6%B6%93%E6%B5%81" class="hash-link" aria-label="Direct link to 有用的提示和涓流" title="Direct link to 有用的提示和涓流">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="有效率的别名">有效率的别名<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E6%9C%89%E6%95%88%E7%8E%87%E7%9A%84%E5%88%AB%E5%90%8D" class="hash-link" aria-label="Direct link to 有效率的别名" title="Direct link to 有效率的别名">​</a></h3>
 <p>使用 kubectl 的别名可以通过减少每个命令的按键来加速工作流。</p>
 <p><strong>示例：</strong></p>
 <p><code>别名=kubectl</code>
 你经常检查 pod 状态。 别名让您输入<code>k get pods</code> 而不是输入整个 kubectl 单词。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-自动完成快速命令补全">Kubectl 自动完成快速命令补全<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#kubectl-%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90%E5%BF%AB%E9%80%9F%E5%91%BD%E4%BB%A4%E8%A1%A5%E5%85%A8" class="hash-link" aria-label="Direct link to Kubectl 自动完成快速命令补全" title="Direct link to Kubectl 自动完成快速命令补全">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-自动完成快速命令补全">Kubectl 自动完成快速命令补全<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#kubectl-%E8%87%AA%E5%8A%A8%E5%AE%8C%E6%88%90%E5%BF%AB%E9%80%9F%E5%91%BD%E4%BB%A4%E8%A1%A5%E5%85%A8" class="hash-link" aria-label="Direct link to Kubectl 自动完成快速命令补全" title="Direct link to Kubectl 自动完成快速命令补全">​</a></h3>
 <p>Kubectl 支持命令行自动补全，节省大量时间。 此功能会加速命令、参数和资源名称的补全。</p>
 <p><strong>设置自动完成：</strong></p>
 <p>来源 shell 配置文件中的自动完成脚本。 对于巴希，你可以将源(kubectl 补全棒)添加到你的<code>.bashrc</code>中。 将 <code>source &lt;(kubectl completing zsh)</code> 添加到你的 <code>.zshrc</code> 文件中。</p>
 <p>设置后，键入类似<code>kubectl get pod</code>的命令并按标签键完成此命令以获取 pods`。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="使用-kubectl-forward-本地访问服务">使用 Kubectl Forward 本地访问服务<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8-kubectl-forward-%E6%9C%AC%E5%9C%B0%E8%AE%BF%E9%97%AE%E6%9C%8D%E5%8A%A1" class="hash-link" aria-label="Direct link to 使用 Kubectl Forward 本地访问服务" title="Direct link to 使用 Kubectl Forward 本地访问服务">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="使用-kubectl-forward-本地访问服务">使用 Kubectl Forward 本地访问服务<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E4%BD%BF%E7%94%A8-kubectl-forward-%E6%9C%AC%E5%9C%B0%E8%AE%BF%E9%97%AE%E6%9C%8D%E5%8A%A1" class="hash-link" aria-label="Direct link to 使用 Kubectl Forward 本地访问服务" title="Direct link to 使用 Kubectl Forward 本地访问服务">​</a></h3>
 <p>当使用 <code>kubectl port-forward</code>时，您可以访问并与本地机器的 Kubernetes 内部集群服务交互。</p>
 <p><strong>示例：</strong></p>
 <p>使用 <code>kubectl port-forward svc/my-web-app 5000:8080</code> 在端口上转发群集服务。</p>
 <p>服务端口 808080 接收本地机器的 5000 端口的流量，因此您可以在您的浏览器中访问 http://localhost:5000。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="五-结论">五. 结论<a href="https://illacloud.github.io/zh/blog/kubectl-cheat-sheat-table#%E4%BA%94-%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 五. 结论" title="Direct link to 五. 结论">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="五-结论">五. 结论<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheat-table#%E4%BA%94-%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 五. 结论" title="Direct link to 五. 结论">​</a></h2>
 <p>如果你想要管理部署在 Kubernetes 的应用程序, Kubetcl 是一个非常简单的工具。 无论您是新手还是老练的开业者，本指南将帮助您在您的 Kubernetes 旅程的每一步， 是否正在创建一个点或缩小集群。</p>
 <p>特别注意这篇文章中提到的各种提示和技巧，因为它们将节省大量时间和精力。 我们鼓励你尝试这篇文章中提到的命令并获得你的脏话，这是掌握 Kubectl 的最佳方式。</p>]]></content>
         <author>
@@ -275,8 +275,8 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
     </entry>
     <entry>
         <title type="html"><![CDATA[Building a Complete React CRM App with Refine, Ant Design and GraphQL]]></title>
-        <id>https://illacloud.github.io/zh/blog/react-crm-with-refine</id>
-        <link href="https://illacloud.github.io/zh/blog/react-crm-with-refine"/>
+        <id>https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine"/>
         <updated>2023-10-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We'll explore the key features of our CRM app, the technologies we used.]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/crm-general.gif" alt="Image description" class="img_CfaS"></p>
@@ -288,86 +288,86 @@ Note that 'TYPE' and 'NAME' are context-dependent and may not be required in tha
 <p>We'll publish an article series and Video tutorials on YouTube on building this CRM app from scratch. You can follow the refine to get notified when it's ready!</p>
 <p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a>
 GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
 <p>This article briefly overviews the CRM application built using refine, an open-source React framework designed for rapidly developing web applications.</p>
 <p>We'll explore the key features of our CRM app, the technologies we used, and how you can adapt this template for various business needs.</p>
 <p>Step we'll cover:</p>
 <ul>
-<li><a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#key-features-of-the-crm-app">Key Features of the CRM App</a></li>
-<li><a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#technologies-used">Technologies Used</a></li>
-<li><a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration</a></li>
-<li><a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?</a></li>
+<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#key-features-of-the-crm-app">Key Features of the CRM App</a></li>
+<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#technologies-used">Technologies Used</a></li>
+<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration</a></li>
+<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-the-crm-app">Key Features of the CRM App<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#key-features-of-the-crm-app" class="hash-link" aria-label="Direct link to Key Features of the CRM App" title="Direct link to Key Features of the CRM App">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-the-crm-app">Key Features of the CRM App<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#key-features-of-the-crm-app" class="hash-link" aria-label="Direct link to Key Features of the CRM App" title="Direct link to Key Features of the CRM App">​</a></h2>
 <p>Our CRM application is feature-rich and comes with everything you need to manage customer relationships efficiently:</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="dashboard">Dashboard<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#dashboard" class="hash-link" aria-label="Direct link to Dashboard" title="Direct link to Dashboard">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="dashboard">Dashboard<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#dashboard" class="hash-link" aria-label="Direct link to Dashboard" title="Direct link to Dashboard">​</a></h3>
 <p>The Dashboard provides an at-a-glance overview of your CRM activities. It displays key metrics, recent customer interactions, and upcoming events, offering valuable insights to help you make informed decisions.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/halx7sfl9ctke1fu3w35.png" alt="Image" class="img_CfaS"></p>
 <br>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="calendar-integration">Calendar Integration<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#calendar-integration" class="hash-link" aria-label="Direct link to Calendar Integration" title="Direct link to Calendar Integration">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="calendar-integration">Calendar Integration<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#calendar-integration" class="hash-link" aria-label="Direct link to Calendar Integration" title="Direct link to Calendar Integration">​</a></h3>
 <p>Effortlessly manage appointments, meetings, and important events with the integrated Calendar feature. Stay organized and ensure you never miss a crucial interaction with your customers.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2v8ghazuheiznefwat9.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="scrumboard-project-kanban">Scrumboard-Project Kanban<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#scrumboard-project-kanban" class="hash-link" aria-label="Direct link to Scrumboard-Project Kanban" title="Direct link to Scrumboard-Project Kanban">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="scrumboard-project-kanban">Scrumboard-Project Kanban<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#scrumboard-project-kanban" class="hash-link" aria-label="Direct link to Scrumboard-Project Kanban" title="Direct link to Scrumboard-Project Kanban">​</a></h3>
 <p>Our Scrumboard or Project Kanban page streamlines project management. Visualize project progress, manage tasks, and facilitate team collaboration with ease. Move tasks through customizable boards to keep your projects on track.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0hcll7tbqx3t71i6v7a9.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="sales-pipeline">Sales Pipeline<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#sales-pipeline" class="hash-link" aria-label="Direct link to Sales Pipeline" title="Direct link to Sales Pipeline">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="sales-pipeline">Sales Pipeline<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#sales-pipeline" class="hash-link" aria-label="Direct link to Sales Pipeline" title="Direct link to Sales Pipeline">​</a></h3>
 <p>Effectively manage your sales process from lead generation to deal closure. The Sales Pipeline provides a visual representation of your sales stages, helping your team prioritize leads and track conversions.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5uoj722wasvw2fx8z49.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="companies">Companies<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#companies" class="hash-link" aria-label="Direct link to Companies" title="Direct link to Companies">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="companies">Companies<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#companies" class="hash-link" aria-label="Direct link to Companies" title="Direct link to Companies">​</a></h3>
 <p>The Companies page allows you to organize and categorize your business contacts. Maintain detailed profiles for each company, including contact information, communication history, and associated contacts.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gjlahcc1icfthu2n31ar.png" alt="Imag" class="img_CfaS"></p>
 <br>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="contacts">Contacts<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#contacts" class="hash-link" aria-label="Direct link to Contacts" title="Direct link to Contacts">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="contacts">Contacts<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#contacts" class="hash-link" aria-label="Direct link to Contacts" title="Direct link to Contacts">​</a></h3>
 <p>Manage individual contacts efficiently using the Contacts page. Keep track of customer interactions, schedule follow-ups, and access critical contact information quickly.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4c0ef7tv7nktax4gt3oz.png" alt="Imag" class="img_CfaS"></p>
 <br>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="quotes">Quotes<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#quotes" class="hash-link" aria-label="Direct link to Quotes" title="Direct link to Quotes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="quotes">Quotes<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#quotes" class="hash-link" aria-label="Direct link to Quotes" title="Direct link to Quotes">​</a></h3>
 <p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate professional quotes for your customers, track their status, and convert them into sales.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9rqj0pzgkrure7ov5mr9.png" alt="Image" class="img_CfaS"></p>
 <br>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="administration">Administration<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#administration" class="hash-link" aria-label="Direct link to Administration" title="Direct link to Administration">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="administration">Administration<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#administration" class="hash-link" aria-label="Direct link to Administration" title="Direct link to Administration">​</a></h3>
 <p>The Administration section empowers you to configure and customize your CRM application to suit your specific business needs. Manage user roles, access permissions, and system settings effortlessly.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m5deq6ceue79kloeuryz.png" alt="Image description" class="img_CfaS"></p>
 <br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="authentication--authorization">Authentication &amp; Authorization<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#authentication--authorization" class="hash-link" aria-label="Direct link to Authentication &amp; Authorization" title="Direct link to Authentication &amp; Authorization">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="authentication--authorization">Authentication &amp; Authorization<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#authentication--authorization" class="hash-link" aria-label="Direct link to Authentication &amp; Authorization" title="Direct link to Authentication &amp; Authorization">​</a></h3>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m1r04i2h0cf1jegasbte.png" alt="Image description" class="img_CfaS"></p>
 <p>This example app is a comprehensive set of features that ensures you can streamline your customer interactions, project management, and sales processes, all within a single, user-friendly platform. Whether you're managing contacts, tracking sales, or overseeing projects, our CRM app provides the tools you need for success.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="technologies-used">Technologies Used<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#technologies-used" class="hash-link" aria-label="Direct link to Technologies Used" title="Direct link to Technologies Used">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="technologies-used">Technologies Used<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#technologies-used" class="hash-link" aria-label="Direct link to Technologies Used" title="Direct link to Technologies Used">​</a></h2>
 <p>Our CRM app's modular structure and use of open-source tools make it adaptable to various business needs. So you can build all kinds of web apps like internal tools, admin panels, or dashboards on top of it.</p>
 <p>To bring our CRM app to life, we leveraged several cutting-edge technologies:</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="1-refine">1. refine<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#1-refine" class="hash-link" aria-label="Direct link to 1. refine" title="Direct link to 1. refine">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="1-refine">1. refine<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#1-refine" class="hash-link" aria-label="Direct link to 1. refine" title="Direct link to 1. refine">​</a></h3>
 <p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM application. It offers a wide range of tools and components for easily building data-intensive applications.</p>
 <p>refine's internal hooks and components simplify the development process and eliminate repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="2-ant-design">2. Ant Design<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#2-ant-design" class="hash-link" aria-label="Direct link to 2. Ant Design" title="Direct link to 2. Ant Design">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="2-ant-design">2. Ant Design<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#2-ant-design" class="hash-link" aria-label="Direct link to 2. Ant Design" title="Direct link to 2. Ant Design">​</a></h3>
 <p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and responsive user interface that our CRM app needed. Its pre-built components saved us time and effort.</p>
 <p>It's consistent and polished UI components ensured a professional and user-friendly interface. refine has a built-in integration for Ant Design.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="3-graphql">3. GraphQL<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#3-graphql" class="hash-link" aria-label="Direct link to 3. GraphQL" title="Direct link to 3. GraphQL">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="3-graphql">3. GraphQL<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#3-graphql" class="hash-link" aria-label="Direct link to 3. GraphQL" title="Direct link to 3. GraphQL">​</a></h3>
 <p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and updating from our server. Additionally, we integrated <a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a> to manage real-time modifications.</p>
 <p>For instance, on the Project Kanban page, tasks get updated automatically when cards are dragged and dropped between sections.</p>
 <p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/real-time.gif" alt="Image" class="img_CfaS"></p>
 <p>GraphQL's efficient data-fetching capabilities made working with large datasets a breeze. It's flexibility allowed us to tailor our queries to our exact requirements.</p>
 <p>refine has built-in data provider support for GraphQL.You can set it up during the project creation phase.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#best-practices-and-ecosystem-integration" class="hash-link" aria-label="Direct link to Best Practices and Ecosystem Integration" title="Direct link to Best Practices and Ecosystem Integration">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#best-practices-and-ecosystem-integration" class="hash-link" aria-label="Direct link to Best Practices and Ecosystem Integration" title="Direct link to Best Practices and Ecosystem Integration">​</a></h2>
 <p>Throughout the development process, we adhered to best practices and incorporated elements from the broader ecosystem. This ensures our CRM app is not only functional but also scalable and maintainable.</p>
 <p>The group responsible for the CRM example app is the core refine framework team. Feel free to explore the best practices within the ecosystem!</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template" class="hash-link" aria-label="Direct link to Where Can You Use This CRM As A Reference Template?" title="Direct link to Where Can You Use This CRM As A Reference Template?">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template" class="hash-link" aria-label="Direct link to Where Can You Use This CRM As A Reference Template?" title="Direct link to Where Can You Use This CRM As A Reference Template?">​</a></h2>
 <p>Our CRM template isn't limited to just one use case. You can adapt it for various purposes, including:</p>
 <ul>
 <li><strong>B2B Applications</strong>: Streamline customer interactions in a business-to-business context.</li>
 <li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or departmental tasks and interactions.</li>
 <li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as the foundation for creating all sorts of CRUD applications.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/zh/blog/react-crm-with-refine#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>In this article, we've introduced you to our CRM application built with refine. We've highlighted its key features, the technologies we used, and the advantages of our approach. With this CRM template, you have the power to tailor your customer relationship management system to meet your unique business needs. Whether you're running a B2B operation, need an efficient internal tool, or want a versatile CRUD application, our CRM template has you covered.</p>]]></content>
         <author>
             <name>Gao Wei</name>
@@ -378,8 +378,8 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
     </entry>
     <entry>
         <title type="html"><![CDATA[欢迎使用]]></title>
-        <id>https://illacloud.github.io/zh/blog/欢迎</id>
-        <link href="https://illacloud.github.io/zh/blog/欢迎"/>
+        <id>https://illacloud.github.io/illa-website/zh/blog/欢迎</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/欢迎"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus blogging features由blog plugin提供功能。]]></summary>
         <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a>由<a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>提供功能。</p>
@@ -391,7 +391,7 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
 <li><code>2019-05-30-welcome/index.md</code></li>
 </ul>
 <p>博客帖子文件夹可以方便共用博文图片：</p>
-<p><img loading="lazy" alt="Docusaurus Plushie" src="https://illacloud.github.io/zh/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_CfaS"></p>
+<p><img loading="lazy" alt="Docusaurus Plushie" src="https://illacloud.github.io/illa-website/zh/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_CfaS"></p>
 <p>博客也支持标签！</p>
 <p><strong>如果你不想要博客</strong>：只需删除这个目录，并在你的 Docusaurus 配置中使用“博客：false”。</p>]]></content>
         <author>
@@ -408,8 +408,8 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
     </entry>
     <entry>
         <title type="html"><![CDATA[MDX 博客文章]]></title>
-        <id>https://illacloud.github.io/zh/blog/mdx-blog-帖子</id>
-        <link href="https://illacloud.github.io/zh/blog/mdx-blog-帖子"/>
+        <id>https://illacloud.github.io/illa-website/zh/blog/mdx-blog-帖子</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/mdx-blog-帖子"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
@@ -422,8 +422,8 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
     </entry>
     <entry>
         <title type="html"><![CDATA[长博客文章]]></title>
-        <id>https://illacloud.github.io/zh/blog/长博客帖子</id>
-        <link href="https://illacloud.github.io/zh/blog/长博客帖子"/>
+        <id>https://illacloud.github.io/illa-website/zh/blog/长博客帖子</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/长博客帖子"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[这是一个很长的博客文章的摘要。]]></summary>
         <content type="html"><![CDATA[<p>这是一个很长的博客文章的摘要。</p>
@@ -453,8 +453,8 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
     </entry>
     <entry>
         <title type="html"><![CDATA[首个博客文章]]></title>
-        <id>https://illacloud.github.io/zh/blog/第一个博客帖子</id>
-        <link href="https://illacloud.github.io/zh/blog/第一个博客帖子"/>
+        <id>https://illacloud.github.io/illa-website/zh/blog/第一个博客帖子</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/第一个博客帖子"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>

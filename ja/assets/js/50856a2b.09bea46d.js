@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[7182],{1793:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/ja/blog/tags/facebook","allTagsPath":"/ja/blog/tags","count":1}')}}]);
