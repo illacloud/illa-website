@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>My Site2222 Blog</title>
+        <link>https://illacloud.github.io/de/blog</link>
+        <description>My Site2222 Blog</description>
+        <lastBuildDate>Fri, 15 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>de</language>
+        <copyright>Copyright © 2023 ILLA.</copyright>
+        <item>
+            <title><![CDATA[Kubectl Cheat Sheet - Mit Beispielen]]></title>
+            <link>https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt</link>
+            <guid>https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt</guid>
+            <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kubectl ist ein sehr praktisches Werkzeug, wenn Sie Ihre Anwendungen in Kubernetes verwalten möchten.]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="einführung">Einführung<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#einf%C3%BChrung" class="hash-link" aria-label="Direkter Link zu Einführung" title="Direkter Link zu Einführung">​</a></h2>
+<p>Kubernetes ist ein berühmtes Containerorchesterwerkzeug, das in der modernen Softwareentwicklung sehr beliebt ist. Wenn Sie Kubernetes verwenden, müssen Sie Kubectl, das Kommandozeilenwerkzeug zur Verwaltung Ihrer Kubernetes Anwendungen, verwendet haben. Diese Anleitung führt Sie durch die am häufigsten verwendeten Befehle für Kubectl. Wir werden nicht nur die wichtigen Befehle diskutieren, aber wir werden auch die praktischen Code-Beispiele und die gemeinsamen Fehler, die bei ihrer Ausführung auftreten, diskutieren. Einige Beispiele dafür, was es tun kann:</p>
+<ul>
+<li>Verwaltung Ihrer Pods</li>
+<li>Verwaltung Ihrer Deployment</li>
+<li>Verwaltung Ihrer Dienste</li>
+<li>Und viele weitere</li>
+</ul>
+<p>Jetzt können wir möglicherweise nicht alle Befehle abdecken, aber seien Sie versichert, dass die unten beschriebenen Befehle sicherlich von Nutzen sein werden, wenn Ihre Anwendung Kubernetes verwendet. Beginnen wir mit der Basisinstallation und dem Setup von Kubectl.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="setup-und-basic-befehle">Setup und Basic Befehle<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#setup-und-basic-befehle" class="hash-link" aria-label="Direkter Link zu Setup und Basic Befehle" title="Direkter Link zu Setup und Basic Befehle">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="installiere-kubectl-version">Installiere kubectl: Version<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#installiere-kubectl-version" class="hash-link" aria-label="Direkter Link zu Installiere kubectl: Version" title="Direkter Link zu Installiere kubectl: Version">​</a></h3>
+<p>Prüft die Installation und Version kubectl.</p>
+<p><strong>Übliche Fehler:</strong> Befehl nicht gefunden (kein kubectl installiert).</p>
+<p>Verbindung zu localhost:8080: Kubernetes wird nicht ausgeführt oder kubectl ist falsch konfiguriert.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="basissyntax">Basissyntax<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#basissyntax" class="hash-link" aria-label="Direkter Link zu Basissyntax" title="Direkter Link zu Basissyntax">​</a></h3>
+<p>Die grundlegende Syntax eines Kubectl Befehls ist: <code>kubectl [command] Typ [name] [flags]</code>
+Beachten Sie, dass 'TYPE' und 'NAME' kontextabhängig sind und in dieser Reihenfolge möglicherweise nicht benötigt werden.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<p>Das Kommando enthält Erhalten, Beschreiben und Erstellen.</p>
+<p>Typ: Pod, Service.</p>
+<p>Name: Optional, um alle Ressourcen eines Typs zu kommentieren.</p>
+<p>Optionale Flags, wie <code>--namespace</code> .</p>
+<p><strong>Beispiel:</strong> <code>kubectl get pods -n mynamespace</code></p>
+<p>Dieser Befehl listet alle 'mynamespace' Pods auf.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<p>Verwenden Sie das Flag -n oder --namespace um den Namensraum anzugeben.</p>
+<p>Verwende <code>kubectl get pods -n mynamespace</code> mit -o oder --output für Ausgabeformate wie json oder yaml. Z.B. <code>kubectl get pod mypod json</code></p>
+<p><strong>Übliche Fehler:</strong> Ungültiger Namensraum oder Ausgabeformat können Serverfehler wie "Nicht gefunden" verursachen.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="cluster-management-und--kontext">Cluster-Management und -Kontext<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#cluster-management-und--kontext" class="hash-link" aria-label="Direkter Link zu Cluster-Management und -Kontext" title="Direkter Link zu Cluster-Management und -Kontext">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="cluster-info-anzeigen">Cluster-Info anzeigen<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#cluster-info-anzeigen" class="hash-link" aria-label="Direkter Link zu Cluster-Info anzeigen" title="Direkter Link zu Cluster-Info anzeigen">​</a></h3>
+<p>"kubectl cluster-info"</p>
+<p>Zeigt Cluster-Master- und Service-Endpunkte an.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<p><code>--kubeconfig</code> Diese Option gibt die kubeconfig-Datei an.</p>
+<p><strong>Übliche Fehler:</strong> Verbindung zum Server wegen Netzwerk- oder Verbindungsproblemen nicht möglich.</p>
+<p><strong>Beispiel:</strong> <code>kubectl cluster-info --kubeconfig=/myconfig</code></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kontext-wechseln">Kontext wechseln<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#kontext-wechseln" class="hash-link" aria-label="Direkter Link zu Kontext wechseln" title="Direkter Link zu Kontext wechseln">​</a></h3>
+<p>Wechselt einen Kontext zu einem anderen.</p>
+<p><code>kubectl config use-context [context_name]</code></p>
+<p><strong>Gewöhnliche Flaggen:</strong> Die meiste Zeit wird ohne bestimmte Flaggen verwendet</p>
+<p><strong>Übliche Fehler:</strong></p>
+<p><code>error: Kein Kontext mit dem Namen: [context_name]</code> : Falls Kontext nicht existiert.</p>
+<p><strong>Beispiel:</strong> <code>kubectl config use-context staging-context</code></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="arbeiten-mit-namensräumen">Arbeiten mit Namensräumen<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#arbeiten-mit-namensr%C3%A4umen" class="hash-link" aria-label="Direkter Link zu Arbeiten mit Namensräumen" title="Direkter Link zu Arbeiten mit Namensräumen">​</a></h2>
+<p>Kubernetes Namensräume Segment und Verwaltung von Ressourcen. Wichtige Namespace Operationen sind unten.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namensraum-erstellung">Namensraum-Erstellung<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#namensraum-erstellung" class="hash-link" aria-label="Direkter Link zu Namensraum-Erstellung" title="Direkter Link zu Namensraum-Erstellung">​</a></h3>
+<p>Dieser einfache Befehl erzeugt einen Kubernetes Namensraum. Aufgrund seiner spezifischen Funktionalität gibt es nur wenige Varianten und Flags.
+<strong>Beispiel:</strong></p>
+<p>Erstelle einen dev namespace unter Verwendung von <code>kubectl create namespace dev</code></p>
+<p><strong>Übliche Fehler:</strong></p>
+<p>Versucht einen existierenden Namensraum zu erstellen.
+<strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>--dry-run</code> zeigt den Namensraum an, ohne ihn zu erstellen.</li>
+<li><code>-o [format]</code> Gibt Details im yaml oder json Format aus.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namensraum-liste">Namensraum-Liste<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#namensraum-liste" class="hash-link" aria-label="Direkter Link zu Namensraum-Liste" title="Direkter Link zu Namensraum-Liste">​</a></h3>
+<p>Dieser Befehl zeigt alle Kubernetes Namensräume an.</p>
+<p><strong>Beispiel:</strong>
+Einfache Liste: <code>kubectl get namespaces</code>
+Detaillierte Liste: <code>kubectl get namespaces -o wide</code></p>
+<p><strong>Übliche Fehler:</strong>
+Falsche Flaggen oder Formate verwenden.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>-o breit</code>: Zeigt Namespace Details wie Alter.</li>
+<li><code>-o json</code> oder <code>-o yaml</code> Die Details werden in JSON oder YAML ausgegeben.</li>
+<li><code>--show-labels</code>: Es zeigt Namensraum-Labels an.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namensraum-löschen">Namensraum löschen<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#namensraum-l%C3%B6schen" class="hash-link" aria-label="Direkter Link zu Namensraum löschen" title="Direkter Link zu Namensraum löschen">​</a></h3>
+<p><code>kubectl löschen [namespace_name]</code></p>
+<p>Dies entfernt einen Namensraum und seine Ressourcen. Seien Sie vorsichtig, da dies eine unumkehrbare Operation ist.</p>
+<p><strong>Beispiel:</strong>
+Du kannst den Testnamespace mit dem Befehl <code>Run kubectl delete namespace test</code> löschen</p>
+<p><strong>Übliche Fehler:</strong></p>
+<ul>
+<li>
+<p>Versucht ein System oder einen nicht existierenden Namensraum zu löschen.</p>
+</li>
+<li>
+<p>Namensraum-Ressourcen werden nicht migriert oder gesichert.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+</li>
+</ul>
+<ul>
+<li><code>--grace-period=[seconds]</code> Erlaubt das Setzen einer Gnadenfrist vor dem Löschen.</li>
+<li>Benutze <code>--force</code>, um den Namensraum vorausschauend zu löschen.</li>
+<li><code>--cascade</code> : Legt fest, ob Namensraum-Ressourcen gelöscht werden sollen oder nicht.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="verwaltung-von-pods-und-bereitstellung">Verwaltung von Pods und Bereitstellung<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#verwaltung-von-pods-und-bereitstellung" class="hash-link" aria-label="Direkter Link zu Verwaltung von Pods und Bereitstellung" title="Direkter Link zu Verwaltung von Pods und Bereitstellung">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="pods-erstellen">Pods erstellen<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#pods-erstellen" class="hash-link" aria-label="Direkter Link zu Pods erstellen" title="Direkter Link zu Pods erstellen">​</a></h3>
+<p>Pods werden mit <code>kubectl run [pod_name] erstellt. --image=[image_name]</code></p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>--env</code> Umgebungsvariablen konfigurieren.</li>
+<li><code>-l, --labels</code> Labels den Pod.</li>
+<li><code>--dry-run</code> pod-making simulieren. Es ist nützlich, um QA/Staging vor dem Einsatz in der Produktion zu testen.</li>
+</ul>
+<p><strong>Beispiel:</strong>
+Benutze das 'nginx' Bild um 'nginx-pod' <code>kubectl zu erstellen nginx-pod --image=nginx</code></p>
+<p><strong>Üblicher Fehler:</strong>
+Der Fehler <code>Error: image not found</code> tritt auf, wenn das Containerbild nicht existiert.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="liste-der-pods-holen">Liste der Pods holen<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#liste-der-pods-holen" class="hash-link" aria-label="Direkter Link zu Liste der Pods holen" title="Direkter Link zu Liste der Pods holen">​</a></h3>
+<p>Zeige alle Pods im aktuell gesetzten Namensraum <code>kubectl get pods</code></p>
+<p><strong>Gemeinsame Flaggen</strong>:</p>
+<ul>
+<li><code>-o wide </code> Um die Details wie den Knotennamen anzuzeigen.</li>
+<li><code>--show-labels</code> Labels werden auch für jeden Pod angezeigt.
+<strong>Beispiel:</strong>
+<code>kubectl get pods -o wide</code> zeigt alle Pods mit all ihren Details.</li>
+</ul>
+<p><strong>Üblicher Fehler:</strong>
+Der <code>Keine Ressourcen gefunden</code> Fehler tritt auf, wenn der Namensraum keine Pods hat.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="lösche-pods">Lösche Pods<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#l%C3%B6sche-pods" class="hash-link" aria-label="Direkter Link zu Lösche Pods" title="Direkter Link zu Lösche Pods">​</a></h3>
+<p>Der Befehl zum Löschen eines Pods ist <code>kubectl delete pod [pod_name]</code></p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>--grace-period</code>: Pause bevor du den Pod gewaltsam tötest.</li>
+<li><code>--force</code>: Lösche pod sofort gewaltsam.</li>
+</ul>
+<p><strong>Beispiel:</strong></p>
+<p>"kubectl delete nginx-pod" entfernt 'nginx-pod'.</p>
+<p><strong>Üblicher Fehler:</strong>
+Ein häufiger Fehler ist <code>Pod nicht gefunden</code> wenn der Pod nicht existiert.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="erstelle-deployments">Erstelle Deployments<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#erstelle-deployments" class="hash-link" aria-label="Direkter Link zu Erstelle Deployments" title="Direkter Link zu Erstelle Deployments">​</a></h3>
+<p>Erstellt ein Deployment mit seinem Namen und Bild <code>kubectl erstelle Deployment [name] --image=[image]</code></p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>--replicas</code> Gewünschte Anzahl an Repliken.</li>
+<li>Führen Sie <code>--dry-run</code> aus, um die Bereitstellung zu simulieren statt der eigentlichen Bereitstellung.</li>
+</ul>
+<p><strong>Beispiel:</strong>
+Benutze das 'nginx' Bild um 'nginx-deployment' zu erstellen <code>kubectl deployment nginx-deployment --image=nginx</code></p>
+<p><strong>Üblicher Fehler:</strong> Fehler im
+Bildformat führen oft zu <code>Ungültiger Bildname</code> Fehlern.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="bereitstellungen-auflisten">Bereitstellungen auflisten<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#bereitstellungen-auflisten" class="hash-link" aria-label="Direkter Link zu Bereitstellungen auflisten" title="Direkter Link zu Bereitstellungen auflisten">​</a></h3>
+<p>Zeigt Namespace Deployments <code>kubectl get deployments</code></p>
+<p><strong>Gewöhnliche Flaggen:</strong>
+<code>-o wide</code> Zeigt zusätzliche Details wie die Anzahl der Repliken.</p>
+<p><strong>Beispiel:</strong></p>
+<p>Zeigt alle Deployment <code>kubectl get deployments</code> an</p>
+<p><strong>Üblicher Fehler:</strong>
+Der <code>Keine Ressourcen gefunden</code> Fehler tritt auf, wenn der Namensraum keine Deployments hat.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="dienstleistungen-und-knoten"><strong>Dienstleistungen und Knoten</strong><a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#dienstleistungen-und-knoten" class="hash-link" aria-label="Direkter Link zu dienstleistungen-und-knoten" title="Direkter Link zu dienstleistungen-und-knoten">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="dienste-verwalten">Dienste verwalten<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#dienste-verwalten" class="hash-link" aria-label="Direkter Link zu Dienste verwalten" title="Direkter Link zu Dienste verwalten">​</a></h3>
+<p>Übersicht
+<code>kubectl get services</code> hilft Benutzern schnell alle Kubernetes Cluster-Dienste und ihren Status anzuzeigen.</p>
+<p><strong>Gemeinsame Flaggen</strong>:</p>
+<ul>
+<li><code>-o wide</code> : Stellt zusätzliche Details für jeden Service bereit.</li>
+<li><code>--all-namespaces</code> Du kannst alle Dienste in allen Namensräumen sehen.</li>
+<li>`--watch```Überwachung der Service-Änderungen und Aktualisierungen.</li>
+</ul>
+<p><strong>Beispiel:</strong>
+<code>kubectl get services -o wide</code>
+Dieser Befehl wird alle Standard-Namensraumdienste detailliert anzeigen.</p>
+<p><strong>Üblicher Fehler:</strong>
+"Dienst-Name" wurde nicht gefunden`, um einen Dienstnamen falsch einzugeben oder einen nicht existierenden Dienst abzufragen.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="listenknoten">Listenknoten<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#listenknoten" class="hash-link" aria-label="Direkter Link zu Listenknoten" title="Direkter Link zu Listenknoten">​</a></h3>
+<p>Befehl <code>kubectl get nodes</code> zeigt alle Cluster-Knoten für Größe und Gesundheitsprüfung an.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>-o wide</code> zeigt zusätzliche Details wie IP-Adressen, Betriebssystem, Kernel-Version etc. an.</li>
+<li><code>--selecto</code> Filterknoten per Label.</li>
+<li><code>--showlabels</code> zeigt Knotenbeschriftungen.</li>
+</ul>
+<p><strong>Beispiel:</strong>
+<code>kubectl get nodes --selector=environment=production</code> Dieser Befehl zeigt alle Produktionsknoten an.</p>
+<p><strong>Üblicher Fehler:</strong>
+<code>Verbindung zum Server localhost:8080 verweigert</code> Normalerweise aufgrund fehlerhafter kubectl Konfiguration oder unzugänglicher Kubernetes Cluster.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="erweitertes-ressourcenmanagement">Erweitertes Ressourcenmanagement<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#erweitertes-ressourcenmanagement" class="hash-link" aria-label="Direkter Link zu Erweitertes Ressourcenmanagement" title="Direkter Link zu Erweitertes Ressourcenmanagement">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-etiketten">Kubectl Etiketten<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#kubectl-etiketten" class="hash-link" aria-label="Direkter Link zu Kubectl Etiketten" title="Direkter Link zu Kubectl Etiketten">​</a></h3>
+<p>Kubernetes Etiketten sind Schlüssel-Wert-Paare auf Pods. Sie organisieren und wählen Objekt-Untergruppen aus. Der Befehl <code>kubectl get pods -l </code> ruft Pods per Label ab.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>--l</code> oder <code>--selector</code>: Legt den Label-Selektor fest</li>
+<li><code>--all-namespaces</code> durchsucht alle Namensräume</li>
+<li><code>-o' oder </code>--output` gibt das Format aus (yaml, json)</li>
+</ul>
+<p><strong>Beispiel:</strong>
+<code>kubectl get pods -l app=myApp</code> listet alle Pods mit dem Label "app" gleich myApp auf.</p>
+<p><strong>Üblicher Fehler</strong>:
+Falsche Labelnamen oder Werte führen oft zu keinem Ergebnis. Stellen Sie sicher, dass die Pod-Labels korrekt sind.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="verwendungen-mit-kubectl-skalieren">Verwendungen mit Kubectl skalieren<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#verwendungen-mit-kubectl-skalieren" class="hash-link" aria-label="Direkter Link zu Verwendungen mit Kubectl skalieren" title="Direkter Link zu Verwendungen mit Kubectl skalieren">​</a></h3>
+<p>Bei der Skalierung von Anwendungen wird die Anzahl der pod-Repliken (Instanzen) geändert. Der Befehl <code>kubectl scale</code> macht diese Magie.</p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>--replicas</code> Gibt die Anzahl der benötigten Kopien an</li>
+<li><code>--current-replicas</code> Aktuelle Replikanzahl (fr bedingte Skalierung)</li>
+<li><code>--timeout:</code>Zeit bis zur Fertigstellung des Skalierungsvorgangs zu warten</li>
+</ul>
+<p><strong>Beispiel:</strong></p>
+<p><code>kubectl skaliert die Verteilung von myDeployment --replicas=5</code> skaliert myDeployment auf 5 Repliken.</p>
+<p><strong>Üblicher Fehler</strong>:
+Ein <code>deployment not found</code> Fehler tritt oft auf, wenn ein nicht vorhandenes oder falsch benanntes Deployment skaliert wird. Der Bereitstellungsname muss im aktuellen Namensraum liegen.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="debuggen-und-protokolle"><strong>Debuggen und Protokolle</strong><a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#debuggen-und-protokolle" class="hash-link" aria-label="Direkter Link zu debuggen-und-protokolle" title="Direkter Link zu debuggen-und-protokolle">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="log-zugriff">Log-Zugriff<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#log-zugriff" class="hash-link" aria-label="Direkter Link zu Log-Zugriff" title="Direkter Link zu Log-Zugriff">​</a></h3>
+<p>Kubernetes pod Logs können mit <code>kubectl logs [pod_name] </code> abgerufen werden. Das Verständnis von pod-Laufenden Anwendungen und die Diagnose von Problemen erfordert diesen Befehl.</p>
+<p><strong>Beispiel:</strong>
+<code>kubectl logs my-app-pod</code> zeigen Logs des Pods namens "my-app-pod".</p>
+<p><strong>Üblicher Fehler:</strong>
+<code>Error from server (NotFound): pods "my-app-pod" not found</code> Dieser Fehler tritt auf, wenn der Kubernetes Cluster keinen Pod mit diesem Namen hat.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="bindungsprotokolle">Bindungsprotokolle<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#bindungsprotokolle" class="hash-link" aria-label="Direkter Link zu Bindungsprotokolle" title="Direkter Link zu Bindungsprotokolle">​</a></h3>
+<p>Du kannst Pod Logs mit <code>kubectl logs -f [pod_name] </code> streamen oder "Schwanz". Dies ermöglicht die Überwachung von Log-Ausgängen in Echtzeit, insbesondere in dynamischen Umgebungen.</p>
+<p><strong>Beispiel:</strong>
+<code>kubectl logs -f my-app-pod</code> Logs aus dem Pod "my-app-pod" werden von diesem Befehl live gestreamt.</p>
+<p><strong>Üblicher Fehler:</strong>
+<code>Fehler vom Server (NotFound): Pods "my-app-pod" nicht gefunden</code>. Dieser Fehler bedeutet, dass der Kubernetes Cluster nicht den angegebenen Pod hat.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="geheimnisse-und-configmaps"><strong>Geheimnisse und ConfigMaps</strong><a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#geheimnisse-und-configmaps" class="hash-link" aria-label="Direkter Link zu geheimnisse-und-configmaps" title="Direkter Link zu geheimnisse-und-configmaps">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="geheimnisse-erstellen">Geheimnisse erstellen<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#geheimnisse-erstellen" class="hash-link" aria-label="Direkter Link zu Geheimnisse erstellen" title="Direkter Link zu Geheimnisse erstellen">​</a></h3>
+<p>Kubernetes Geheimnisse speichern und verwalten Passwörter, OAuth Token und ssh Schlüssel. Du kannst diese Geheimnisse einfach mit <code>kubectl erstellen geheime generische Geheimnisse [secret_name] --from-literal=[key]=[value]</code></p>
+<p><strong>Gewöhnliche Flaggen:</strong></p>
+<ul>
+<li><code>--from-literal</code> Dieses Flag gibt geheime Daten als Schlüssel-Wert-Paare in der Befehlszeile an.</li>
+<li><code>--from-file</code> Geheimnis aus einer Datei erstellen. In diesem Fall wird der Dateiname als der Schlüssel betrachtet und sein Inhalt wird der Wert sein.</li>
+<li><code>--dry-run</code> Zeigt das Objekt an, das an den Cluster gesendet wird, ohne es tatsächlich zu senden.</li>
+<li></li>
+<li><code>--output</code> oder `-o' setzt das Ausgabeformat (yaml oder json).</li>
+</ul>
+<p><strong>Beispiel:</strong>
+<code>kubectl erstelle geheimes generisches my-secret --from-literal=password=myStrongPassword</code></p>
+<p>Dieser Befehl erstellt ein Geheimnis namens my-secret mit einem Eintrag: Passwort und myStrongPasswort.</p>
+<p><strong>Üblicher Fehler:</strong></p>
+<p>Falsche oder fehlerhafte Schlüssel-Wert-Paare sind üblich, wenn Sie Geheimnisse erstellen. Das nachfolgende Key=Value-Format ist unerlässlich.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="configmaps-verwenden">ConfigMaps verwenden<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#configmaps-verwenden" class="hash-link" aria-label="Direkter Link zu ConfigMaps verwenden" title="Direkter Link zu ConfigMaps verwenden">​</a></h3>
+<p>Kubernetes ConfigMaps speichert nicht vertrauliche Daten in Schlüsselwert-Paaren. Konfigurationsdateien, Kommandozeilenargumente, Umgebungsvariablen, Portnummern usw. können dort gespeichert werden. Das Format ist <code>kubectl create configmap [name] --from-literal=[key]=[value]</code></p>
+<p><strong>Gewöhnliche Flaggen</strong></p>
+<p>Ähnlich wie das Erstellen von Geheimnissen (siehe oben)</p>
+<p><strong>Beispiel:</strong></p>
+<p><code>kubectl erstelle configmap app-config --from-literal=app_mode=production</code></p>
+<p>Eine ConfigMap mit dem Namen "app-config" mit app_mode auf die Produktion wird erstellt.</p>
+<p><strong>Üblicher Fehler:</strong></p>
+<p>Bei der Verwendung von <code>--from-file</code>, das Verweisen von nicht existierenden Dateien oder Verzeichnissen ist ein häufiger Fehler. Dateipfade überprüfen sind korrekt und zugänglich.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="nützliche-tipps-und-tricks"><strong>Nützliche Tipps und Tricks</strong><a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#n%C3%BCtzliche-tipps-und-tricks" class="hash-link" aria-label="Direkter Link zu nützliche-tipps-und-tricks" title="Direkter Link zu nützliche-tipps-und-tricks">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="aliase-für-effizienz">Aliase für Effizienz<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#aliase-f%C3%BCr-effizienz" class="hash-link" aria-label="Direkter Link zu Aliase für Effizienz" title="Direkter Link zu Aliase für Effizienz">​</a></h3>
+<p>Die Verwendung von Aliasen für kubectl kann den Arbeitsablauf beschleunigen, indem die Tastenanschläge für jeden Befehl reduziert werden.</p>
+<p><strong>Beispiel:</strong></p>
+<p><code>Alias k=kubectl</code>
+Du prüfst häufig den Pod Status. Mit dem Alias kannst du <code>k get pods</code> eintippen, anstatt das ganze Wort des Kubectls einzugeben.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-autovervollständigung-für-schnellere-befehlsabwicklung">Kubectl Autovervollständigung für schnellere Befehlsabwicklung<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#kubectl-autovervollst%C3%A4ndigung-f%C3%BCr-schnellere-befehlsabwicklung" class="hash-link" aria-label="Direkter Link zu Kubectl Autovervollständigung für schnellere Befehlsabwicklung" title="Direkter Link zu Kubectl Autovervollständigung für schnellere Befehlsabwicklung">​</a></h3>
+<p>Kubectl unterstützt die automatische Vervollständigung von Befehlszeilen und spart viel Zeit. Diese Funktion beschleunigt die Vervollständigung von Befehl, Argument und Ressourcennamen.</p>
+<p><strong>Automatische Einrichtung wird eingerichtet:</strong></p>
+<p>Quellcode des automatischen Vervollständigungsskripts in der Konfigurationsdatei Ihrer Shell . Für Bashh kannst du <code>source &lt;(kubectl completion bash) </code>zu deiner <code>.bashrc</code> hinzufügen. Füge <code>source &lt;(kubectl completion zsh)</code> zu deiner <code>.zshrc</code> Datei für zsh hinzu.</p>
+<p>Nach dem Einrichten eines Befehls wie <code>kubectl get pod</code> und drücken des Tab beendet diesen Befehl auf <code>kubectl get pods</code>.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-port-forward-für-lokale-zugriffsdienste-verwenden">Kubectl Port-Forward für lokale Zugriffsdienste verwenden<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#kubectl-port-forward-f%C3%BCr-lokale-zugriffsdienste-verwenden" class="hash-link" aria-label="Direkter Link zu Kubectl Port-Forward für lokale Zugriffsdienste verwenden" title="Direkter Link zu Kubectl Port-Forward für lokale Zugriffsdienste verwenden">​</a></h3>
+<p>Wenn Sie <code>kubectl port-forward</code> verwenden, können Sie auf interne Kubernetes Cluster-Dienste von Ihrem lokalen Rechner aus zugreifen und mit ihnen interagieren.</p>
+<p><strong>Beispiel:</strong></p>
+<p>Benutze <code>kubectl port-forward svc/my-web-app 5000:8080</code> um einen Cluster-Dienst auf Port 8080 zu leiten.</p>
+<p>Der Port 8080 des Dienstes empfängt den Datenverkehr vom Port 5000 Ihres lokalen Rechners, so dass Sie die Anwendung unter http://localhost:5000 in Ihrem Browser abrufen können.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="schlussfolgerung">Schlussfolgerung<a href="https://illacloud.github.io/de/blog/kubectl-Cheat-Blatt#schlussfolgerung" class="hash-link" aria-label="Direkter Link zu Schlussfolgerung" title="Direkter Link zu Schlussfolgerung">​</a></h2>
+<p>Kubetcl ist ein sehr praktisches Tool, wenn Sie Ihre Anwendungen in Kubernetes verwalten möchten. Egal ob Sie ein Anfänger oder ein erfahrener Praktiker sind, dieser Leitfaden hilft Ihnen bei jedem Schritt Ihrer Kubernetes Reise, ob Sie einen Pod erstellen oder Ihren Cluster skalieren.</p>
+<p>Geben Sie besondere Aufmerksamkeit auf die verschiedenen Tipps und Tricks in diesem Artikel, weil sie sparen Sie viel Zeit und Aufwand. Wir empfehlen Ihnen, die in diesem Artikel genannten Befehle auszuprobieren und die Hände schmutzig zu bekommen; das ist der beste Weg, Kubectl. zu meistern.</p>]]></content:encoded>
+            <category>kubernetes</category>
+            <category>docker</category>
+        </item>
+        <item>
+            <title><![CDATA[Erstellung einer kompletten React CRM App mit Refine, Ant Design und GraphQL]]></title>
+            <link>https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert</link>
+            <guid>https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert</guid>
+            <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wir werden die wichtigsten Funktionen unserer CRM-App erforschen, die Technologien, die wir verwendet haben.]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/crm-general.gif" alt="Bildbeschreibung" class="img_CfaS"></p>
+<p>Ich möchte unsere neueste Beispiel-App vorstellen – eine vollständige React CRM-Anwendung (Customer Relationship Management), die mit Raffine-Ant-Design und GraphQL erstellt wurde.</p>
+<p>👉 <a href="https://example.crm.refine.dev/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+<p>👉 <a href="https://github.com/refinedev/refine/tree/master/examples/app-crm" target="_blank" rel="noopener noreferrer">Du findest den Quellcode auf GitHub hier</a></p>
+<p>Dieses Beispiel ist Open-Source, was bedeutet, dass jeder den Quellcode frei nutzen und anpassen kann, wie er es für richtig hält. Es handelt sich nicht nur um eine andere Anwendung, sondern um eine umfassende Lösung, die alle Funktionen und Funktionalitäten bietet, die für eine präzise Anwendung auf Unternehmensebene erforderlich sind.</p>
+<p>Darüber hinaus dient diese Anwendung als Leitfaden für alle Entwickler. Egal, ob Sie ein erfahrener Profi sind oder gerade anfangen, unser Projekt ist eine wertvolle Ressource, die als Referenz zum besseren Verständnis bewährter Verfahren und moderner Entwicklungstechniken verwendet werden kann.</p>
+<p>Wir werden eine Artikelreihe und Video-Tutorials auf YouTube veröffentlichen, um diese CRM-App von Grund auf neu aufzubauen. Du kannst der Verfeinerung folgen, um benachrichtigt zu werden, wenn es fertig ist!</p>
+<p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a>
+GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="einführung">Einführung<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#einf%C3%BChrung" class="hash-link" aria-label="Direkter Link zu Einführung" title="Direkter Link zu Einführung">​</a></h2>
+<p>Dieser Artikel überblickt kurz die CRM-Anwendung, die mit Raffe, einem Open-Source-React-Framework, das für die schnelle Entwicklung von Web-Anwendungen entwickelt wurde.</p>
+<p>Wir werden die wichtigsten Funktionen unserer CRM-App erforschen, die Technologien, die wir verwendet haben und wie Sie diese Vorlage an verschiedene Anforderungen anpassen können.</p>
+<p>Schritt, den wir abdecken:</p>
+<ul>
+<li><a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#key-features-of-the-crm-app">Schlüsselfunktionen der CRM-App</a></li>
+<li><a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#technologies-benutzt">Technologien benutzt</a></li>
+<li><a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration</a></li>
+<li>[Wo können Sie dieses CRM als Referenzvorlage verwenden?](#where e-can-you-use-this-crm-as-a-reference-template)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="schlüsselfunktionen-der-crm-app">Schlüsselfunktionen der CRM-App<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#schl%C3%BCsselfunktionen-der-crm-app" class="hash-link" aria-label="Direkter Link zu Schlüsselfunktionen der CRM-App" title="Direkter Link zu Schlüsselfunktionen der CRM-App">​</a></h2>
+<p>Unsere CRM-Anwendung ist funktional reich und bietet alles, was Sie brauchen, um Kundenbeziehungen effizient zu verwalten:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="dashboard">Dashboard<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#dashboard" class="hash-link" aria-label="Direkter Link zu Dashboard" title="Direkter Link zu Dashboard">​</a></h3>
+<p>The Dashboard provides an at-a-glance overview of your CRM activities. It displays key metrics, recent customer interactions, and upcoming events, offering valuable insights to help you make informed decisions.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/halx7sfl9ctke1fu3w35.png" alt="Image" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="calendar-integration">Calendar Integration<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#calendar-integration" class="hash-link" aria-label="Direkter Link zu Calendar Integration" title="Direkter Link zu Calendar Integration">​</a></h3>
+<p>Effortlessly manage appointments, meetings, and important events with the integrated Calendar feature. Stay organized and ensure you never miss a crucial interaction with your customers.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2v8ghazuheiznefwat9.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="scrumboard-project-kanban">Scrumboard-Project Kanban<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#scrumboard-project-kanban" class="hash-link" aria-label="Direkter Link zu Scrumboard-Project Kanban" title="Direkter Link zu Scrumboard-Project Kanban">​</a></h3>
+<p>Our Scrumboard or Project Kanban page streamlines project management. Visualize project progress, manage tasks, and facilitate team collaboration with ease. Move tasks through customizable boards to keep your projects on track.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0hcll7tbqx3t71i6v7a9.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="sales-pipeline">Sales Pipeline<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#sales-pipeline" class="hash-link" aria-label="Direkter Link zu Sales Pipeline" title="Direkter Link zu Sales Pipeline">​</a></h3>
+<p>Effectively manage your sales process from lead generation to deal closure. The Sales Pipeline provides a visual representation of your sales stages, helping your team prioritize leads and track conversions.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5uoj722wasvw2fx8z49.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="companies">Companies<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#companies" class="hash-link" aria-label="Direkter Link zu Companies" title="Direkter Link zu Companies">​</a></h3>
+<p>The Companies page allows you to organize and categorize your business contacts. Maintain detailed profiles for each company, including contact information, communication history, and associated contacts.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gjlahcc1icfthu2n31ar.png" alt="Imag" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="contacts">Contacts<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#contacts" class="hash-link" aria-label="Direkter Link zu Contacts" title="Direkter Link zu Contacts">​</a></h3>
+<p>Manage individual contacts efficiently using the Contacts page. Keep track of customer interactions, schedule follow-ups, and access critical contact information quickly.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4c0ef7tv7nktax4gt3oz.png" alt="Imag" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="quotes">Quotes<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#quotes" class="hash-link" aria-label="Direkter Link zu Quotes" title="Direkter Link zu Quotes">​</a></h3>
+<p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate professional quotes for your customers, track their status, and convert them into sales.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9rqj0pzgkrure7ov5mr9.png" alt="Image" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="administration">Administration<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#administration" class="hash-link" aria-label="Direkter Link zu Administration" title="Direkter Link zu Administration">​</a></h3>
+<p>The Administration section empowers you to configure and customize your CRM application to suit your specific business needs. Manage user roles, access permissions, and system settings effortlessly.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m5deq6ceue79kloeuryz.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="authentication--authorization">Authentication &amp; Authorization<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#authentication--authorization" class="hash-link" aria-label="Direkter Link zu Authentication &amp; Authorization" title="Direkter Link zu Authentication &amp; Authorization">​</a></h3>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m1r04i2h0cf1jegasbte.png" alt="Image description" class="img_CfaS"></p>
+<p>This example app is a comprehensive set of features that ensures you can streamline your customer interactions, project management, and sales processes, all within a single, user-friendly platform. Whether you're managing contacts, tracking sales, or overseeing projects, our CRM app provides the tools you need for success.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="technologies-used">Technologies Used<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#technologies-used" class="hash-link" aria-label="Direkter Link zu Technologies Used" title="Direkter Link zu Technologies Used">​</a></h2>
+<p>Our CRM app's modular structure and use of open-source tools make it adaptable to various business needs. So you can build all kinds of web apps like internal tools, admin panels, or dashboards on top of it.</p>
+<p>To bring our CRM app to life, we leveraged several cutting-edge technologies:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="1-refine">1. refine<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#1-refine" class="hash-link" aria-label="Direkter Link zu 1. refine" title="Direkter Link zu 1. refine">​</a></h3>
+<p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM application. It offers a wide range of tools and components for easily building data-intensive applications.</p>
+<p>refine's internal hooks and components simplify the development process and eliminate repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="2-ant-design">2. Ant Design<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#2-ant-design" class="hash-link" aria-label="Direkter Link zu 2. Ant Design" title="Direkter Link zu 2. Ant Design">​</a></h3>
+<p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and responsive user interface that our CRM app needed. Its pre-built components saved us time and effort.</p>
+<p>It's consistent and polished UI components ensured a professional and user-friendly interface. refine has a built-in integration for Ant Design.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="3-graphql">3. GraphQL<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#3-graphql" class="hash-link" aria-label="Direkter Link zu 3. GraphQL" title="Direkter Link zu 3. GraphQL">​</a></h3>
+<p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and updating from our server. Additionally, we integrated <a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a> to manage real-time modifications.</p>
+<p>For instance, on the Project Kanban page, tasks get updated automatically when cards are dragged and dropped between sections.</p>
+<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/real-time.gif" alt="Image" class="img_CfaS"></p>
+<p>GraphQL's efficient data-fetching capabilities made working with large datasets a breeze. It's flexibility allowed us to tailor our queries to our exact requirements.</p>
+<p>refine has built-in data provider support for GraphQL.You can set it up during the project creation phase.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#best-practices-and-ecosystem-integration" class="hash-link" aria-label="Direkter Link zu Best Practices and Ecosystem Integration" title="Direkter Link zu Best Practices and Ecosystem Integration">​</a></h2>
+<p>Throughout the development process, we adhered to best practices and incorporated elements from the broader ecosystem. This ensures our CRM app is not only functional but also scalable and maintainable.</p>
+<p>The group responsible for the CRM example app is the core refine framework team. Feel free to explore the best practices within the ecosystem!</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#where-can-you-use-this-crm-as-a-reference-template" class="hash-link" aria-label="Direkter Link zu Where Can You Use This CRM As A Reference Template?" title="Direkter Link zu Where Can You Use This CRM As A Reference Template?">​</a></h2>
+<p>Our CRM template isn't limited to just one use case. You can adapt it for various purposes, including:</p>
+<ul>
+<li><strong>B2B Applications</strong>: Streamline customer interactions in a business-to-business context.</li>
+<li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or departmental tasks and interactions.</li>
+<li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as the foundation for creating all sorts of CRUD applications.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/de/blog/reakt-crm-mit-verfeinert#conclusion" class="hash-link" aria-label="Direkter Link zu Conclusion" title="Direkter Link zu Conclusion">​</a></h2>
+<p>In this article, we've introduced you to our CRM application built with refine. We've highlighted its key features, the technologies we used, and the advantages of our approach. With this CRM template, you have the power to tailor your customer relationship management system to meet your unique business needs. Whether you're running a B2B operation, need an efficient internal tool, or want a versatile CRUD application, our CRM template has you covered.</p>]]></content:encoded>
+            <category>verfeinern</category>
+            <category>reagieren</category>
+        </item>
+        <item>
+            <title><![CDATA[Begrüßung]]></title>
+            <link>https://illacloud.github.io/de/blog/willkommen</link>
+            <guid>https://illacloud.github.io/de/blog/willkommen</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Docusaurus blogging features werden durch das blog plugin unterstützt.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> werden durch das <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a> unterstützt.</p>
+<p>Fügen Sie einfach Markdown Dateien (oder Ordner) in das Verzeichnis <code>blog</code> ein.</p>
+<p>Reguläre Blog-Autoren können zu <code>authors.yml</code> hinzugefügt werden.</p>
+<p>Das Blog-Beitragsdatum kann aus Dateinamen extrahiert werden, wie:</p>
+<ul>
+<li><code>2019-05-30-welcome.md</code></li>
+<li><code>2019-05-30-welcome/index.md</code></li>
+</ul>
+<p>Ein Blog-Post-Ordner kann bequem sein, um Blog-Post-Bilder zu lokalisieren:</p>
+<p><img loading="lazy" alt="Docusaurus Plushie" src="https://illacloud.github.io/de/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_CfaS"></p>
+<p>Der Blog unterstützt auch Tags!</p>
+<p><strong>Und wenn du keinen Blog möchtest</strong>: lösche einfach dieses Verzeichnis und benutze <code>blog: false</code> in deiner Docusaurus Konfiguration.</p>]]></content:encoded>
+            <category>facebook</category>
+            <category>hallo</category>
+            <category>dokusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[MDX-Blog-Beitrag]]></title>
+            <link>https://illacloud.github.io/de/blog/mdx-blog-Beitrag</link>
+            <guid>https://illacloud.github.io/de/blog/mdx-blog-Beitrag</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blogbeiträge unterstützen Docusaurus Markdown Features, wie z.B. MDX.]]></description>
+            <content:encoded><![CDATA[<p>Blogbeiträge unterstützen <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown Features</a>, wie z.B. <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_Ztdk alert alert--success"><div class="admonitionHeading_wuvZ"><span class="admonitionIcon_bKMe"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_YstZ"><p>Nutzen Sie die Kraft der Reaktion, um interaktive Blog-Beiträge zu erstellen.</p><div class="language-js codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-js codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token operator">&lt;</span><span class="token plain">button onClick</span><span class="token operator">=</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> </span><span class="token function maybe-class-name" style="color:rgb(80, 250, 123)">Alarm</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">'Button geklickt!'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token operator">&gt;</span><span class="token maybe-class-name">Klicke</span><span class="token plain"> mich</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token plain">button</span><span class="token operator">&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Code in Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Klicke mich!</button></div></div>]]></content:encoded>
+            <category>dokusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Langer Blog-Beitrag]]></title>
+            <link>https://illacloud.github.io/de/blog/langer Blog-Beitrag</link>
+            <guid>https://illacloud.github.io/de/blog/langer Blog-Beitrag</guid>
+            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dies ist die Zusammenfassung eines sehr langen Blog-Beitrags,]]></description>
+            <content:encoded><![CDATA[<p>Dies ist die Zusammenfassung eines sehr langen Blog-Beitrags,</p>
+<p>Benutze einen <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> Kommentar um die Größe des Blogs in der Listenansicht zu begrenzen.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>hallo</category>
+            <category>dokusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Erster Blogbeitrag]]></title>
+            <link>https://illacloud.github.io/de/blog/erster Blog-Beitrag</link>
+            <guid>https://illacloud.github.io/de/blog/erster Blog-Beitrag</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
+            <category>hola</category>
+            <category>dokusaurus</category>
+        </item>
+    </channel>
+</rss>

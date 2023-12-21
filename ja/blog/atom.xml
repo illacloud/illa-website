@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://illacloud.github.io/ja/blog</id>
+    <title>My Site2222 Blog</title>
+    <updated>2023-12-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://illacloud.github.io/ja/blog"/>
+    <subtitle>My Site2222 Blog</subtitle>
+    <icon>https://illacloud.github.io/ja/img/favicon.ico</icon>
+    <rights>Copyright © 2023 ILLA.</rights>
+    <entry>
+        <title type="html"><![CDATA[クベックルチートシート - 例あり]]></title>
+        <id>https://illacloud.github.io/ja/blog/kubectl-cheat-sheet</id>
+        <link href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet"/>
+        <updated>2023-12-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetesにデプロイしたアプリケーションを管理したい場合、Kubectlは非常に便利なツールです。]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="はじめに">はじめに<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" class="hash-link" aria-label="はじめに への直接リンク" title="はじめに への直接リンク">​</a></h2>
+<p>Kubernetesは有名なコンテナオーケストレーションツールで、現代のソフトウェア開発で非常に人気があります。 Kubernetesを使用している場合は、Kubernetesアプリケーションを管理するためのコマンドラインツールであるKubernetesを使用する必要があります。 このガイドでは、最も頻繁に使用されるKubectlコマンドについて説明します。 重要な命令について議論するだけでなく、 しかし実際のコード例と実行中に直面する共通のエラーについても話し合います それができることのいくつかの例は以下のとおりです。</p>
+<ul>
+<li>ポッドの管理</li>
+<li>あなたのデプロイの管理</li>
+<li>サービスの管理</li>
+<li>その他</li>
+</ul>
+<p>今では、各コマンドをカバーすることができないかもしれません。 ただし、アプリケーションで Kubernetes を使用している場合、以下で説明するコマンドは確実に価値があります。 基本的なもの、すなわち、Kubectlのインストールとセットアップから始めましょう。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="セットアップと基本コマンド">セットアップと基本コマンド<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%A8%E5%9F%BA%E6%9C%AC%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89" class="hash-link" aria-label="セットアップと基本コマンド への直接リンク" title="セットアップと基本コマンド への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectlのインストール-version">kubectlのインストール: version<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#kubectl%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB-version" class="hash-link" aria-label="kubectlのインストール: version への直接リンク" title="kubectlのインストール: version への直接リンク">​</a></h3>
+<p>kubectl のインストールとバージョンをチェックします。</p>
+<p><strong>一般的なエラー:</strong> コマンドが見つかりません (kubectl がインストールされていません)。</p>
+<p>localhostへの接続を拒否:8080<!-- -->:Kubernetes<!-- -->クラスタが実行されていないか、kubectlが誤って設定されています。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="基本構文">基本構文<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87" class="hash-link" aria-label="基本構文 への直接リンク" title="基本構文 への直接リンク">​</a></h3>
+<p>The basic syntax of any kubectl command is: <code>kubectl [command] Type [name] [flags]</code>
+Note that 'TYPE' and 'NAME' are context-dependent and may not be required in that order.</p>
+<p><strong>一般的なフラグ:</strong></p>
+<p>コマンドには、get、describe、create が含まれます。</p>
+<p>タイプ: pod, サービス.</p>
+<p>名前: 型のすべてのリソースを指定するオプション。</p>
+<p><code>--namespace</code> のようなオプションフラグ。</p>
+<p><strong>例:</strong> <code>kubectl get pods -n mynamespace</code></p>
+<p>このコマンドはすべての 'mynamespace' ポッドを一覧表示します。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<p>-n または --namespace フラグを使用して名前空間を指定します。</p>
+<p>json や yaml などの出力フォーマットには <code>kubectl get pods -n mynamespace</code> を -o または --output で指定します。 例えば、 <code>kubectl get pod mypod json</code></p>
+<p><strong>一般的なエラー:</strong> 無効な名前空間または出力フォーマットは、"Not Found"のようなサーバーエラーを引き起こす可能性があります。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="クラスター管理とコンテキスト">クラスター管理とコンテキスト<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E7%AE%A1%E7%90%86%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88" class="hash-link" aria-label="クラスター管理とコンテキスト への直接リンク" title="クラスター管理とコンテキスト への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="クラスター情報を表示">クラスター情報を表示<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%85%E5%A0%B1%E3%82%92%E8%A1%A8%E7%A4%BA" class="hash-link" aria-label="クラスター情報を表示 への直接リンク" title="クラスター情報を表示 への直接リンク">​</a></h3>
+<p><code>kubectl cluster-info</code></p>
+<p>クラスターマスターとサービスエンドポイントを表示します。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<p><code>--kubeconfig</code> このオプションは、kubeconfig ファイルを指定します。</p>
+<p><strong>一般的なエラー:</strong> ネットワークまたは接続の問題が原因でサーバーに接続できません。</p>
+<p><strong>例:</strong> <code>kubectl cluster-info --kubeconfig=/myconfig</code></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="コンテキストの切り替え">コンテキストの切り替え<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AE%E5%88%87%E3%82%8A%E6%9B%BF%E3%81%88" class="hash-link" aria-label="コンテキストの切り替え への直接リンク" title="コンテキストの切り替え への直接リンク">​</a></h3>
+<p>コンテキストを別のコンテキストに切り替えます。</p>
+<p><code>kubectl config use-context [context_name]</code></p>
+<p><strong>一般的なフラグ:</strong> 特定のフラグなしで使用されるほとんどの時間です</p>
+<p><strong>一般的なエラー:</strong></p>
+<p><code>error: name: [context_name]</code> : context が存在しない場合。</p>
+<p><strong>例:</strong> <code>kubectl config use-context staging-context</code></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="名前空間の操作">名前空間の操作<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E5%90%8D%E5%89%8D%E7%A9%BA%E9%96%93%E3%81%AE%E6%93%8D%E4%BD%9C" class="hash-link" aria-label="名前空間の操作 への直接リンク" title="名前空間の操作 への直接リンク">​</a></h2>
+<p>Kubernetes 名前空間セグメントとリソースの管理。 重要な名前空間操作は以下のとおりです。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ネームスペースの作成">ネームスペースの作成<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E4%BD%9C%E6%88%90" class="hash-link" aria-label="ネームスペースの作成 への直接リンク" title="ネームスペースの作成 への直接リンク">​</a></h3>
+<p>このシンプルなコマンドは Kubernetes 名前空間を作成します。 その特定の機能のために、それはほとんどのバリエーションとフラグを持っています。
+<strong>例:</strong></p>
+<p>開発者名前空間を作成: <code>kubectl create namespace dev</code></p>
+<p><strong>一般的なエラー:</strong></p>
+<p>既存の名前空間を作成しようとしています。
+<strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>--dry-run</code> 名前空間を作成せずに表示します。</li>
+<li><code>-o [format]</code> yaml または json 形式で詳細を出力します。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ネームスペースの一覧">ネームスペースの一覧<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E4%B8%80%E8%A6%A7" class="hash-link" aria-label="ネームスペースの一覧 への直接リンク" title="ネームスペースの一覧 への直接リンク">​</a></h3>
+<p>このコマンドはすべての Kubernetes 名前空間を表示します。</p>
+<p><strong>例:</strong>
+シンプルなリスト: <code>kubectl get namespaces</code>
+詳細なリスト: <code>kubectl get namespaces -o wide</code></p>
+<p><strong>一般的なエラー:</strong>
+フラグやフォーマットが間違っています。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>-o wide</code>: 年齢などの名前空間の詳細を表示します。</li>
+<li><code>-o json</code> または <code>-o yaml</code> 詳細は JSON または YAML で出力されます。</li>
+<li><code>--show-labels</code>: ネームスペースのラベルを表示します。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ネームスペースの削除">ネームスペースの削除<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E5%89%8A%E9%99%A4" class="hash-link" aria-label="ネームスペースの削除 への直接リンク" title="ネームスペースの削除 への直接リンク">​</a></h3>
+<p><code>kubectl delete [namespace_name]</code></p>
+<p>名前空間とそのリソースを削除します。 これは不可逆的な操作であるため、注意してください。</p>
+<p><strong>例:</strong>
+<code>Run kubectl delete namespace test</code></p>
+<p><strong>一般的なエラー:</strong></p>
+<ul>
+<li>
+<p>システムまたは存在しない名前空間を削除しようとしています。</p>
+</li>
+<li>
+<p>名前空間リソースを移行またはバックアップしません。</p>
+<p><strong>一般的なフラグ:</strong></p>
+</li>
+</ul>
+<ul>
+<li><code>--grace-period=[seconds]</code> 削除前に猶予期間を設定します。</li>
+<li><code>--force</code> を使って名前空間を削除します。</li>
+<li><code>--casade</code> : 名前空間リソースを削除するかどうかを決定します。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ポッドと展開の管理">ポッドと展開の管理<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%9D%E3%83%83%E3%83%89%E3%81%A8%E5%B1%95%E9%96%8B%E3%81%AE%E7%AE%A1%E7%90%86" class="hash-link" aria-label="ポッドと展開の管理 への直接リンク" title="ポッドと展開の管�理 への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="pods-creating">Pods Creating<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#pods-creating" class="hash-link" aria-label="Pods Creating への直接リンク" title="Pods Creating への直接リンク">​</a></h3>
+<p>Pods are created with <code>kubectl run [pod_name]. --image=[image_name]</code></p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>--env</code> 環境変数を設定します。</li>
+<li><code>-l, --labels</code> ポッドにラベルを付けます。</li>
+<li><code>--dry-run</code> ポッドメイキングをシミュレートします。 本番環境にデプロイする前に、QA/ステージングでテストする場合に便利です。</li>
+</ul>
+<p><strong>例：</strong>
+'nginx' イメージを使用して 'nginx-pod' <code>kubectl run nginx-pod --image=nginx</code> を作成する</p>
+<p><strong>一般的なエラー:</strong>
+<code>Error: image not found</code> error occurred when the container image doesn't exist.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="podのリストを取得する">Podのリストを取得する<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#pod%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B" class="hash-link" aria-label="Podのリストを取得する への直接リンク" title="Podのリストを取得する への直接リンク">​</a></h3>
+<p><code>kubectl get pods</code>の現在設定されている名前空間ですべてのポッドを参照してください。</p>
+<p><strong>共通フラグ</strong>:</p>
+<ul>
+<li><code>-o wide </code> ノード名のような詳細を表示する。</li>
+<li><code>--show-labels</code> ポッドごとにラベルも表示されます。
+<strong>例:</strong>
+<code>kubectl get pods -o wide</code>は全てのポッドを表示します。</li>
+</ul>
+<p><strong>一般的なエラー:</strong>
+<code>リソースが見つかりません</code> エラーは、名前空間にポッドがないときに発生します。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ポッドを削除中">ポッドを削除中<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%9D%E3%83%83%E3%83%89%E3%82%92%E5%89%8A%E9%99%A4%E4%B8%AD" class="hash-link" aria-label="ポッドを削除中 への直接リンク" title="ポッドを削除中 への直接リンク">​</a></h3>
+<p>ポッドを削除するコマンドは <code>kubectl delete pod [pod_name] </code>です。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>--grace-period </code>: 強制的にポッドを殺す前に一時停止します。</li>
+<li><code>--force</code>: 直ちにポッドを強制的に削除します。</li>
+</ul>
+<p><strong>例:</strong></p>
+<p><code>kubectl delete nginx-pod</code> remove 'nginx-pod' .</p>
+<p><strong>一般的なエラー:</strong>
+ポッドが存在しない場合は、ポッドが見つかりませんでした。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="デプロイの作成">デプロイの作成<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%AE%E4%BD%9C%E6%88%90" class="hash-link" aria-label="デプロイの作成 への直接リンク" title="デプロイの作成 への直接リンク">​</a></h3>
+<p><code>kubectl create deploy [name] --image=[image] </code> という名前のデプロイを作成します。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>--レプリカ</code> 希望のレプリカ数を設定します。</li>
+<li>実際のデプロイではなく、デプロイをシミュレートするために<code>--dry-run</code>を実行します。</li>
+</ul>
+<p><strong>例:</strong>
+'nginx' イメージを使用して 'nginx-deployment' <code>kubectl create deployment nginx-deployment --image=nginx</code></p>
+<p><strong>一般的なエラー:</strong>
+画像フォーマットエラーは、しばしば<code>無効な画像名</code>エラーになります。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="リストのデプロイメント">リストのデプロイメント<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%AA%E3%82%B9%E3%83%88%E3%81%AE%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88" class="hash-link" aria-label="リストのデプロイメント への直接リンク" title="リストのデプロイメント への直接リンク">​</a></h3>
+<p>namespace deployments <code>kubectl get deployments</code>を表示</p>
+<p><strong>一般的なフラグ:</strong>
+<code>-o wide</code> レプリカ数のような追加の詳細を表示します。</p>
+<p><strong>例:</strong></p>
+<p>すべてのデプロイを表示します <code>kubectl get deployments</code></p>
+<p><strong>一般的なエラー:</strong>
+namespace にデプロイがない場合、<code>リソースが見つかりません</code> エラーが発生します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="サービスとノードの処理"><strong>サービスとノードの処理</strong><a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E5%87%A6%E7%90%86" class="hash-link" aria-label="サービスとノードの処理 への直接リンク" title="サービスとノードの処理 への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="サービスの管理">サービスの管理<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E7%AE%A1%E7%90%86" class="hash-link" aria-label="サービスの管理 への直接リンク" title="サービスの管理 への直接リンク">​</a></h3>
+<p>概要
+<code>kubectl get services</code>は、すべてのKubernetesクラスタサービスとそのステータスをすばやく表示するのに役立ちます。</p>
+<p><strong>共通フラグ</strong>:</p>
+<ul>
+<li><code>-o wide</code> : 各サービスに追加の詳細を提供します。</li>
+<li><code>--all-namespaces</code> すべての名前空間に存在するすべてのサービスを見ることができます。</li>
+<li>`--watch```Monitors サービスの変更と更新の表示。</li>
+</ul>
+<p><strong>例:</strong>
+<code>kubectl get services -o wide</code>
+このコマンドはデフォルトの名前空間サービスを詳細に表示します。</p>
+<p><strong>一般的なエラー:</strong>
+<code>Services' service-name' が見つかりません</code> サービス名を入力するか、存在しないサービスをクエリします。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ノードの一覧">ノードの一覧<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E4%B8%80%E8%A6%A7" class="hash-link" aria-label="ノードの一覧 への直接リンク" title="ノードの一覧 への直接リンク">​</a></h3>
+<p>コマンド <code>kubectl get nodes</code> は、サイズと健康評価のためのすべてのクラスタノードを表示します。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>-o wide</code> IPアドレス、OS、カーネルバージョンなどの詳細を表示します。</li>
+<li><code>--selecto</code> ラベルでノードをフィルターします。</li>
+<li><code>--showlabels</code> ノード ラベルを表示します。</li>
+</ul>
+<p><strong>例:</strong>
+<code>kubectl get nodes --selector=environment=production</code> このコマンドは全てのプロダクションノードを表示します。</p>
+<p><strong>一般的なエラー:</strong>
+<code>サーバーlocalhostへの接続:8080 refused</code> kubectlの設定が正しくないか、Kubernetesクラスタにアクセスできないため通常。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="高級資源管理">高級資源管理<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E9%AB%98%E7%B4%9A%E8%B3%87%E6%BA%90%E7%AE%A1%E7%90%86" class="hash-link" aria-label="高級資源管理 への直接リンク" title="高級資源管理 への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-labels">Kubectl Labels<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#kubectl-labels" class="hash-link" aria-label="Kubectl Labels への直接リンク" title="Kubectl Labels への直接リンク">​</a></h3>
+<p>Kubernetes ラベルは Pods のキーと値のペアです。 オブジェクトサブセットを整理して選択します。 <code>kubectl get pods -l </code>コマンドはラベルでポッドを取得します。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>--l</code> または <code>--selector</code>: ラベルセレクターを指定します</li>
+<li><code>--all-namespaces</code> はすべての名前空間を検索します</li>
+<li><code>-o' または </code>--output` フォーマット (yaml, json) を出力します。</li>
+</ul>
+<p><strong>例:</strong>
+<code>kubectl get pods -l app=myApp</code>は、myAppと同じラベル"app"を持つすべてのポッドをリストします。</p>
+<p><strong>一般的なエラー</strong>:
+ラベル名や値が正しくない場合、結果が出ません。 pod ラベルが正しいことを確認します。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-による展開を拡大する">Kubectl による展開を拡大する<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#kubectl-%E3%81%AB%E3%82%88%E3%82%8B%E5%B1%95%E9%96%8B%E3%82%92%E6%8B%A1%E5%A4%A7%E3%81%99%E3%82%8B" class="hash-link" aria-label="Kubectl による展開を拡大する への直接リンク" title="Kubectl による展開を拡大する への直接リンク">​</a></h3>
+<p>スケーリング展開には、ポッドレプリカの数(インスタンス)を変更する必要があります。 <code>kubectl scale</code>コマンドはこの魔法を発揮します。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>--レプリカ</code> 必要なコピーの数を指定します</li>
+<li><code>--current-レプリカ</code> 現在のレプリカ数（条件付きスケーリング用）</li>
+<li><code>--timeout:</code>スケール操作の完了を待つ時間</li>
+</ul>
+<p><strong>例:</strong></p>
+<p><code>kubectl scale deployment myDeployment --レプリカ=5</code> は myDeployment を 5 つのレプリカにスケールします。</p>
+<p><strong>一般的なエラー</strong>:
+「デプロイが見つかりません」エラーは、存在しない、または誤った名前のデプロイをスケーリングする場合によく発生します。 デプロイメント名は現在の名前空間にある必要があります。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="デバッグとログ"><strong>デバッグとログ</strong><a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%81%A8%E3%83%AD%E3%82%B0" class="hash-link" aria-label="デバッグと��ログ への直接リンク" title="デバッグとログ への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ログアクセス">ログアクセス<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%AD%E3%82%B0%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9" class="hash-link" aria-label="ログアクセス への直接リンク" title="ログアクセス への直接リンク">​</a></h3>
+<p>Kubernetes ポッドのログは <code>kubectl logs [pod_name] </code> を使って取得できます。 Pod-running アプリケーションと診断の問題を理解するには、このコマンドが必要です。</p>
+<p><strong>例:</strong>
+<code>kubectl logs my-app-pod</code> は "my-app-pod" という名前のポッドのログを表示します。</p>
+<p><strong>一般的なエラー:</strong>
+<code>サーバーからのエラー (NotFound): pods "my-app-pod" が見つかりません</code> このエラーは、Kubernetes クラスターにこの名前のポッドがない場合に発生します。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="テーリングログ">テーリングログ<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%86%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%B0" class="hash-link" aria-label="テーリングログ への直接リンク" title="テーリングログ への直接リンク">​</a></h3>
+<p><code>kubectl logs -f [pod_name] </code> を使って、"tail" ポッドのログをストリーミングできます。 これにより、特に動的環境でのログ出力の監視に役立ちます。</p>
+<p><strong>例:</strong>
+<code>kubectl logs -f my-app-pod</code> ポッドからのログは、このコマンドによってライブストリーミングされます。</p>
+<p><strong>一般的なエラー:</strong>
+<code>サーバーからのエラー (NotFound): pods "my-app-pod" not found</code>. このエラーは、Kubernetesクラスタに指定されたポッドがないことを意味します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="シークレットとコンフィグマップ"><strong>シークレットとコンフィグマップ</strong><a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%B0%E3%83%9E%E3%83%83%E3%83%97" class="hash-link" aria-label="シークレットとコンフィグマップ への直接リンク" title="シークレットとコンフィグマップ への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="シークレットの作成">シークレットの作成<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90" class="hash-link" aria-label="シークレットの作成 への直接リンク" title="シークレットの作成 への直接リンク">​</a></h3>
+<p>Kubernetesのsecretsは、パスワード、OAuthトークン、sshキーを保存および管理します。 <code>kubectl create secret generic [secret_name] --from-literal=[key]=[value] </code> で簡単にこれらのシークレットを作成できます。</p>
+<p><strong>一般的なフラグ:</strong></p>
+<ul>
+<li><code>--from-literal</code> コマンドラインで秘密データをキーと値のペアとして指定します。</li>
+<li><code>--from-file</code> ファイルからシークレットを作成します。 この場合、ファイル名はキーとみなされ、その内容が値となります。</li>
+<li><code>--dry-run</code> クラスターに送信されるオブジェクトを実際に送信せずに表示します。</li>
+<li></li>
+<li><code>--output</code> または `-o' は出力フォーマット (yaml または json) を設定します。</li>
+</ul>
+<p><strong>例:</strong>
+<code>kubectl create secret generic my-secret --from-literal=password=myStrongPassword</code></p>
+<p>このコマンドは、パスワードと myStrongPassword という 1 つのエントリを持つ my-secret という名前の秘密を作成します。</p>
+<p><strong>一般的なエラー:</strong></p>
+<p>シークレットを作成するときに、不正なキーと値のペアが一般的です。 以下のkey=value形式が不可欠です。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="configmapsの使用">ConfigMapsの使用<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#configmaps%E3%81%AE%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="ConfigMapsの使用 への直接リンク" title="ConfigMapsの使用 への直接リンク">​</a></h3>
+<p>Kubernetes ConfigMapsは非機密データをキーと値のペアに格納します。 設定ファイル、コマンドライン引数、環境変数、ポート番号などを保存できます。 フォーマットは <code>kubectl create configmap [name] --from-literal=[key]=[value]</code></p>
+<p><strong>一般的なフラグ</strong></p>
+<p>シークレットの作成と同様（上記参照）</p>
+<p><strong>例:</strong></p>
+<p><code>kubectl configmap app-config --from-literal=app_mode=production</code> を作成する</p>
+<p>プロダクションにapp_modeを設定した"app-config"という名前のConfigMapが作成されます。</p>
+<p><strong>一般的なエラー:</strong></p>
+<p><code>--from-file</code> を使用する場合、存在しないファイルやディレクトリを参照することは一般的なエラーです。 ファイルパスが正しくアクセス可能であることを確認します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="役に立つヒントとコツ"><strong>役に立つヒントとコツ</strong><a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A4%E3%83%92%E3%83%B3%E3%83%88%E3%81%A8%E3%82%B3%E3%83%84" class="hash-link" aria-label="役に立つヒントとコツ への直接リンク" title="役に立つヒントとコツ への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="効率のためのエイリアス">効率のためのエイリアス<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E5%8A%B9%E7%8E%87%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9" class="hash-link" aria-label="効率のためのエイリアス への直接リンク" title="効率のためのエイリアス への直接リンク">​</a></h3>
+<p>kubectl のエイリアスを使用すると、各コマンドのキーストロークを削減することで、ワークフローを高速化できます。</p>
+<p><strong>例:</strong></p>
+<p><code>Alias k=kubectl</code>
+ポッドの状態をよく確認します。 エイリアスでは、kubectl の単語全体を入力する代わりに <code>k get pods</code> を入力できます。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="コマンド完了を高速化するためのkubectl-autocomplete">コマンド完了を高速化するためのKubectl Autocomplete<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E5%AE%8C%E4%BA%86%E3%82%92%E9%AB%98%E9%80%9F%E5%8C%96%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEkubectl-autocomplete" class="hash-link" aria-label="コマンド完了を高速化するためのKubectl Autocomplete への直接リンク" title="コマンド完了を高速化するためのKubectl Autocomplete への直接リンク">​</a></h3>
+<p>Kubectl はコマンドラインの自動補完をサポートし、かなりの時間を節約します。 この機能はコマンド、引数、リソース名補完を高速化します。</p>
+<p><strong>オートコンプリートの設定</strong></p>
+<p>シェルの設定ファイル内のオートコンプリートスクリプトをソースします。 bashの場合は、<code>source &lt;(kubectl completion bash) </code>を <code>.bashrc</code> に追加します。 zsh の <code>.zshrc</code> ファイルに <code>source &lt;(kubectl completion zsh)</code> を追加します。</p>
+<p>設定後、<code>kubectl get pod</code>のようなコマンドを入力し、tabキーを押すと<code>kubectl get pods</code>が完了します。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ローカルでサービスにアクセスするために-kubectl-port-forward-を使用する">ローカルでサービスにアクセスするために Kubectl Port-Forward を使用する<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%A7%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB-kubectl-port-forward-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B" class="hash-link" aria-label="ローカルでサービスにアクセスするために Kubectl Port-Forward を使用する への直接リンク" title="ローカルでサービスにアクセスするために Kubectl Port-Forward を使用する への直接リンク">​</a></h3>
+<p><code>kubectl port-forward</code> を使用する場合は、ローカルマシンから内部の Kubernetes クラスターサービスにアクセスして操作することができます。</p>
+<p><strong>例:</strong></p>
+<p><code>kubectl port-forward svc/my-web-app 5000:8080</code> を使用して、ポート8080でクラスタサービスを転送します。</p>
+<p>サービスのポート 8080 は、ローカルマシンのポート 5000 からトラフィックを受信します。そのため、ブラウザで http://localhost:5000 からアプリケーションにアクセスできます。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/ja/blog/kubectl-cheat-sheet#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>Kubernetesにデプロイしたアプリケーションを管理したい場合、Kubetclは非常に便利なツールです。 初心者でも経験豊富な実務者でも、このガイドはKubernetesの旅のあらゆるステップをお手伝いします ポッドを作成するか、クラスタをスケーリングするかに関わらず。</p>
+<p>彼らはあなたに多くの時間と労力を節約するので、彼らはこの記事で述べられているさまざまなヒントやトリックに特別な注意を払ってください。 この記事で説明されているコマンドを試して、手を汚すことをお勧めします。それがクベックルをマスターする最良の方法です。</p>]]></content>
+        <author>
+            <name>Gao Wei</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+        <category label="kubernetes" term="kubernetes"/>
+        <category label="docker" term="docker"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Complete React CRM App with Refine, Ant Design and GraphQL]]></title>
+        <id>https://illacloud.github.io/ja/blog/react-crm-with-refine</id>
+        <link href="https://illacloud.github.io/ja/blog/react-crm-with-refine"/>
+        <updated>2023-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We'll explore the key features of our CRM app, the technologies we used.]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/crm-general.gif" alt="Image description" class="img_CfaS"></p>
+<p>I want to introduce our newest example app – a full-fledged React CRM (Customer Relationship Management) application built using refine, Ant Design, and GraphQL.</p>
+<p>👉 <a href="https://example.crm.refine.dev/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
+<p>👉 <a href="https://github.com/refinedev/refine/tree/master/examples/app-crm" target="_blank" rel="noopener noreferrer">You can find the source code on GitHub here</a></p>
+<p>This example is open-source, which means anyone can freely utilize and customize the source code as they see fit. It's not just another application; it's a comprehensive solution that boasts all the features and functionalities required for an accurate enterprise-level application.</p>
+<p>Moreover, this application serves as a guiding light for all developers. Whether you're a seasoned pro or just starting, our project is a valuable resource that can be used as a reference to better understand best practices and modern development techniques.</p>
+<p>We'll publish an article series and Video tutorials on YouTube on building this CRM app from scratch. You can follow the refine to get notified when it's ready!</p>
+<p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a>
+GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#introduction" class="hash-link" aria-label="Introduction への直接リンク" title="Introduction への直接リンク">​</a></h2>
+<p>This article briefly overviews the CRM application built using refine, an open-source React framework designed for rapidly developing web applications.</p>
+<p>We'll explore the key features of our CRM app, the technologies we used, and how you can adapt this template for various business needs.</p>
+<p>Step we'll cover:</p>
+<ul>
+<li><a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#key-features-of-the-crm-app">Key Features of the CRM App</a></li>
+<li><a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#technologies-used">Technologies Used</a></li>
+<li><a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration</a></li>
+<li><a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-the-crm-app">Key Features of the CRM App<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#key-features-of-the-crm-app" class="hash-link" aria-label="Key Features of the CRM App への直接リンク" title="Key Features of the CRM App への直接リンク">​</a></h2>
+<p>Our CRM application is feature-rich and comes with everything you need to manage customer relationships efficiently:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="dashboard">Dashboard<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#dashboard" class="hash-link" aria-label="Dashboard への直接リンク" title="Dashboard への直接リンク">​</a></h3>
+<p>The Dashboard provides an at-a-glance overview of your CRM activities. It displays key metrics, recent customer interactions, and upcoming events, offering valuable insights to help you make informed decisions.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/halx7sfl9ctke1fu3w35.png" alt="Image" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="calendar-integration">Calendar Integration<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#calendar-integration" class="hash-link" aria-label="Calendar Integration への直接リンク" title="Calendar Integration への直接リンク">​</a></h3>
+<p>Effortlessly manage appointments, meetings, and important events with the integrated Calendar feature. Stay organized and ensure you never miss a crucial interaction with your customers.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2v8ghazuheiznefwat9.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="scrumboard-project-kanban">Scrumboard-Project Kanban<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#scrumboard-project-kanban" class="hash-link" aria-label="Scrumboard-Project Kanban への直接リンク" title="Scrumboard-Project Kanban への直接リンク">​</a></h3>
+<p>Our Scrumboard or Project Kanban page streamlines project management. Visualize project progress, manage tasks, and facilitate team collaboration with ease. Move tasks through customizable boards to keep your projects on track.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0hcll7tbqx3t71i6v7a9.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="sales-pipeline">Sales Pipeline<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#sales-pipeline" class="hash-link" aria-label="Sales Pipeline への直接リンク" title="Sales Pipeline への直接リンク">​</a></h3>
+<p>Effectively manage your sales process from lead generation to deal closure. The Sales Pipeline provides a visual representation of your sales stages, helping your team prioritize leads and track conversions.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5uoj722wasvw2fx8z49.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="companies">Companies<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#companies" class="hash-link" aria-label="Companies へ��の直接リンク" title="Companies への直接リンク">​</a></h3>
+<p>The Companies page allows you to organize and categorize your business contacts. Maintain detailed profiles for each company, including contact information, communication history, and associated contacts.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gjlahcc1icfthu2n31ar.png" alt="Imag" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="contacts">Contacts<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#contacts" class="hash-link" aria-label="Contacts への直接リンク" title="Contacts への直接リンク">​</a></h3>
+<p>Manage individual contacts efficiently using the Contacts page. Keep track of customer interactions, schedule follow-ups, and access critical contact information quickly.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4c0ef7tv7nktax4gt3oz.png" alt="Imag" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="quotes">Quotes<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#quotes" class="hash-link" aria-label="Quotes への直接リンク" title="Quotes への直接リンク">​</a></h3>
+<p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate professional quotes for your customers, track their status, and convert them into sales.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9rqj0pzgkrure7ov5mr9.png" alt="Image" class="img_CfaS"></p>
+<br>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="administration">Administration<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#administration" class="hash-link" aria-label="Administration への直接リンク" title="Administration への直接リンク">​</a></h3>
+<p>The Administration section empowers you to configure and customize your CRM application to suit your specific business needs. Manage user roles, access permissions, and system settings effortlessly.</p>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m5deq6ceue79kloeuryz.png" alt="Image description" class="img_CfaS"></p>
+<br>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="authentication--authorization">Authentication &amp; Authorization<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#authentication--authorization" class="hash-link" aria-label="Authentication &amp; Authorization への直接リンク" title="Authentication &amp; Authorization への直接リンク">​</a></h3>
+<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m1r04i2h0cf1jegasbte.png" alt="Image description" class="img_CfaS"></p>
+<p>This example app is a comprehensive set of features that ensures you can streamline your customer interactions, project management, and sales processes, all within a single, user-friendly platform. Whether you're managing contacts, tracking sales, or overseeing projects, our CRM app provides the tools you need for success.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="technologies-used">Technologies Used<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#technologies-used" class="hash-link" aria-label="Technologies Used への直接リンク" title="Technologies Used への直接リンク">​</a></h2>
+<p>Our CRM app's modular structure and use of open-source tools make it adaptable to various business needs. So you can build all kinds of web apps like internal tools, admin panels, or dashboards on top of it.</p>
+<p>To bring our CRM app to life, we leveraged several cutting-edge technologies:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="1-refine">1. refine<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#1-refine" class="hash-link" aria-label="1. refine への直接リンク" title="1. refine への直接リンク">​</a></h3>
+<p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM application. It offers a wide range of tools and components for easily building data-intensive applications.</p>
+<p>refine's internal hooks and components simplify the development process and eliminate repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="2-ant-design">2. Ant Design<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#2-ant-design" class="hash-link" aria-label="2. Ant Design への直接リンク" title="2. Ant Design への直接リンク">​</a></h3>
+<p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and responsive user interface that our CRM app needed. Its pre-built components saved us time and effort.</p>
+<p>It's consistent and polished UI components ensured a professional and user-friendly interface. refine has a built-in integration for Ant Design.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="3-graphql">3. GraphQL<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#3-graphql" class="hash-link" aria-label="3. GraphQL への直接リンク" title="3. GraphQL への直接リンク">​</a></h3>
+<p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and updating from our server. Additionally, we integrated <a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a> to manage real-time modifications.</p>
+<p>For instance, on the Project Kanban page, tasks get updated automatically when cards are dragged and dropped between sections.</p>
+<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/real-time.gif" alt="Image" class="img_CfaS"></p>
+<p>GraphQL's efficient data-fetching capabilities made working with large datasets a breeze. It's flexibility allowed us to tailor our queries to our exact requirements.</p>
+<p>refine has built-in data provider support for GraphQL.You can set it up during the project creation phase.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#best-practices-and-ecosystem-integration" class="hash-link" aria-label="Best Practices and Ecosystem Integration への直接リンク" title="Best Practices and Ecosystem Integration への直接リンク">​</a></h2>
+<p>Throughout the development process, we adhered to best practices and incorporated elements from the broader ecosystem. This ensures our CRM app is not only functional but also scalable and maintainable.</p>
+<p>The group responsible for the CRM example app is the core refine framework team. Feel free to explore the best practices within the ecosystem!</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template" class="hash-link" aria-label="Where Can You Use This CRM As A Reference Template? への直接リンク" title="Where Can You Use This CRM As A Reference Template? への直接リンク">​</a></h2>
+<p>Our CRM template isn't limited to just one use case. You can adapt it for various purposes, including:</p>
+<ul>
+<li><strong>B2B Applications</strong>: Streamline customer interactions in a business-to-business context.</li>
+<li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or departmental tasks and interactions.</li>
+<li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as the foundation for creating all sorts of CRUD applications.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/ja/blog/react-crm-with-refine#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
+<p>In this article, we've introduced you to our CRM application built with refine. We've highlighted its key features, the technologies we used, and the advantages of our approach. With this CRM template, you have the power to tailor your customer relationship management system to meet your unique business needs. Whether you're running a B2B operation, need an efficient internal tool, or want a versatile CRUD application, our CRM template has you covered.</p>]]></content>
+        <author>
+            <name>Gao Wei</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+        <category label="refine" term="refine"/>
+        <category label="react" term="react"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ようこそ]]></title>
+        <id>https://illacloud.github.io/ja/blog/いらっしゃいませ</id>
+        <link href="https://illacloud.github.io/ja/blog/いらっしゃいませ"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus blogging features はformat@@0(https\://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog)によって支えられています。]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> はformat@@0(<a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog)%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E6%94%AF%E3%81%88%E3%82%89%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82" target="_blank" rel="noopener noreferrer">https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog)によって支えられています。</a></p>
+<p><code>blog</code>ディレクトリにMarkdownファイル（またはフォルダ）を追加するだけです。</p>
+<p>ブログの作者は <code>authors.yml</code> に追加できます。</p>
+<p>ブログ投稿の日付は以下のようなファイル名から抽出できます:</p>
+<ul>
+<li><code>2019-05-30-welcome.md</code></li>
+<li><code>2019-05-30-welcome/index.md</code></li>
+</ul>
+<p>ブログ投稿の画像を共有するには、ブログ投稿フォルダが便利です。</p>
+<p><img loading="lazy" alt="Docusaurus Plushie" src="https://illacloud.github.io/ja/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_CfaS"></p>
+<p>ブログもタグをサポートしています!</p>
+<p>**ブログが欲しくない場合は、このディレクトリを削除して、Docusaurusの設定で<code>blog: false</code>を使用してください。</p>]]></content>
+        <author>
+            <name>Sebastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <author>
+            <name>Yangshun Tay</name>
+            <uri>https://github.com/yangshun</uri>
+        </author>
+        <category label="facebook" term="facebook"/>
+        <category label="こんにちは" term="こんにちは"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MDXブログ投稿]]></title>
+        <id>https://illacloud.github.io/ja/blog/mdx-blog-post</id>
+        <link href="https://illacloud.github.io/ja/blog/mdx-blog-post"/>
+        <updated>2021-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
+        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
+<div class="theme-admonition theme-admonition-tip admonition_Ztdk alert alert--success"><div class="admonitionHeading_wuvZ"><span class="admonitionIcon_bKMe"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_YstZ"><p>React の機能を使用してインタラクティブなブログ記事を作成します。</p><div class="language-js codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-js codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token operator">&lt;</span><span class="token plain">button onClick</span><span class="token operator">=</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">alert</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">'button clicked!'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token operator">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token plain">button</span><span class="token operator">&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
+        <author>
+            <name>Sebastien Lorber</name>
+            <uri>https://sebastienlorber.com</uri>
+        </author>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ロングブログ投稿]]></title>
+        <id>https://illacloud.github.io/ja/blog/long blog-post</id>
+        <link href="https://illacloud.github.io/ja/blog/long blog-post"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[これは非常に長いブログ記事の概要です]]></summary>
+        <content type="html"><![CDATA[<p>これは非常に長いブログ記事の概要です</p>
+<p><code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code>コメントを使用して、リストビューでブログの投稿サイズを制限します。</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Endilie Yacop Sucipto</name>
+            <uri>https://github.com/endiliy</uri>
+        </author>
+        <category label="こんにちは" term="こんにちは"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最初のブログ投稿]]></title>
+        <id>https://illacloud.github.io/ja/blog/first-blog-post</id>
+        <link href="https://illacloud.github.io/ja/blog/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>Gao Wei</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
