@@ -10,263 +10,263 @@
         <language>ja</language>
         <copyright>Copyright © 2023 ILLA.</copyright>
         <item>
-            <title><![CDATA[クベックルチートシート - 例あり]]></title>
+            <title><![CDATA[Kubectl Cheat Sheet - With Examples]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet</guid>
             <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kubernetesにデプロイしたアプリケーションを管理したい場合、Kubectlは非常に便利なツールです。]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="はじめに">はじめに<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB" class="hash-link" aria-label="はじめに への直接リンク" title="はじめに への直接リンク">​</a></h2>
-<p>Kubernetesは有名なコンテナオーケストレーションツールで、現代のソフトウェア開発で非常に人気があります。 Kubernetesを使用している場合は、Kubernetesアプリケーションを管理するためのコマンドラインツールであるKubernetesを使用する必要があります。 このガイドでは、最も頻繁に使用されるKubectlコマンドについて説明します。 重要な命令について議論するだけでなく、 しかし実際のコード例と実行中に直面する共通のエラーについても話し合います それができることのいくつかの例は以下のとおりです。</p>
+            <description><![CDATA[Kubectl is a very handy tool if you want to manage your applications deployed in Kubernetes.]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#introduction" class="hash-link" aria-label="Introduction への直接リンク" title="Introduction への直接リンク">​</a></h2>
+<p>Kubernetes is a famous container orchestration tool that is very popular in modern software development. If you are using Kubernetes, you must have used Kubectl, which is the command line tool to manage your Kubernetes applications. This guide will walk you through the most frequently used commands for Kubectl. Not only will we discuss the important commands, but we will also discuss the practical code examples and the common errors that are faced during their execution. Some examples of what it can do includes:</p>
 <ul>
-<li>ポッドの管理</li>
-<li>あなたのデプロイの管理</li>
-<li>サービスの管理</li>
-<li>その他</li>
+<li>Management of your pods</li>
+<li>Management of your deployments</li>
+<li>Management of your services</li>
+<li>And many more</li>
 </ul>
-<p>今では、各コマンドをカバーすることができないかもしれません。 ただし、アプリケーションで Kubernetes を使用している場合、以下で説明するコマンドは確実に価値があります。 基本的なもの、すなわち、Kubectlのインストールとセットアップから始めましょう。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="セットアップと基本コマンド">セットアップと基本コマンド<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%A8%E5%9F%BA%E6%9C%AC%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89" class="hash-link" aria-label="セットアップと基本コマンド への直接リンク" title="セットアップと基本コマンド への直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectlのインストール-version">kubectlのインストール: version<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#kubectl%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB-version" class="hash-link" aria-label="kubectlのインストール: version への直接リンク" title="kubectlのインストール: version への直接リンク">​</a></h3>
-<p>kubectl のインストールとバージョンをチェックします。</p>
-<p><strong>一般的なエラー:</strong> コマンドが見つかりません (kubectl がインストールされていません)。</p>
-<p>localhostへの接続を拒否:8080<!-- -->:Kubernetes<!-- -->クラスタが実行されていないか、kubectlが誤って設定されています。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="基本構文">基本構文<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E5%9F%BA%E6%9C%AC%E6%A7%8B%E6%96%87" class="hash-link" aria-label="基本構文 への直接リンク" title="基本構文 への直接リンク">​</a></h3>
+<p>Now, we may not be able to cover each and every command, but be assured that the commands discussed below will certainly be of value if your application is using Kubernetes. Let's start with the basic one i.e. installation and setup of Kubectl.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="setup-and-basic-commands">Setup and Basic Commands<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#setup-and-basic-commands" class="hash-link" aria-label="Setup and Basic Commands への直接リンク" title="Setup and Basic Commands への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="installing-kubectl-version">Installing kubectl: version<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#installing-kubectl-version" class="hash-link" aria-label="Installing kubectl: version への直接リンク" title="Installing kubectl: version への直接リンク">​</a></h3>
+<p>Checks kubectl installation and version.</p>
+<p><strong>Common errors:</strong> command not found (No kubectl installed).</p>
+<p>Refused connection to localhost:8080: Kubernetes cluster is not running or kubectl is misconfigured.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="basic-syntax">Basic Syntax<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#basic-syntax" class="hash-link" aria-label="Basic Syntax への直接リンク" title="Basic Syntax への直接リンク">​</a></h3>
 <p>The basic syntax of any kubectl command is: <code>kubectl [command] Type [name] [flags]</code>
 Note that 'TYPE' and 'NAME' are context-dependent and may not be required in that order.</p>
-<p><strong>一般的なフラグ:</strong></p>
-<p>コマンドには、get、describe、create が含まれます。</p>
-<p>タイプ: pod, サービス.</p>
-<p>名前: 型のすべてのリソースを指定するオプション。</p>
-<p><code>--namespace</code> のようなオプションフラグ。</p>
-<p><strong>例:</strong> <code>kubectl get pods -n mynamespace</code></p>
-<p>このコマンドはすべての 'mynamespace' ポッドを一覧表示します。</p>
-<p><strong>一般的なフラグ:</strong></p>
-<p>-n または --namespace フラグを使用して名前空間を指定します。</p>
-<p>json や yaml などの出力フォーマットには <code>kubectl get pods -n mynamespace</code> を -o または --output で指定します。 例えば、 <code>kubectl get pod mypod json</code></p>
-<p><strong>一般的なエラー:</strong> 無効な名前空間または出力フォーマットは、"Not Found"のようなサーバーエラーを引き起こす可能性があります。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="クラスター管理とコンテキスト">クラスター管理とコンテキスト<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E7%AE%A1%E7%90%86%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88" class="hash-link" aria-label="クラスター管理とコンテキスト への直接リンク" title="クラスター管理とコンテキスト への直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="クラスター情報を表示">クラスター情報を表示<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%85%E5%A0%B1%E3%82%92%E8%A1%A8%E7%A4%BA" class="hash-link" aria-label="クラスター情報を表示 への直接リンク" title="クラスター情報を表示 への直接リンク">​</a></h3>
+<p><strong>Common Flags:</strong></p>
+<p>Command include get, describe, and create.</p>
+<p>Type: pod, service.</p>
+<p>Name: Optional for commanding all resources of a type.</p>
+<p>Optional flags, like <code>--namespace</code> .</p>
+<p><strong>Example:</strong> <code>kubectl get pods -n mynamespace</code></p>
+<p>This command lists all 'mynamespace' pods.</p>
+<p><strong>Common Flags:</strong></p>
+<p>Use the -n or --namespace flag to specify the namespace.</p>
+<p>Use <code>kubectl get pods -n mynamespace</code> with -o or --output for output formats like json or yaml. E.g. <code>kubectl get pod mypod json</code></p>
+<p><strong>Common Errors:</strong> Invalid namespace or output format can cause server errors like "Not Found".</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="cluster-management-and-context">Cluster Management and Context<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#cluster-management-and-context" class="hash-link" aria-label="Cluster Management and Context への直接リンク" title="Cluster Management and Context への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="viewing-cluster-info">Viewing Cluster Info<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#viewing-cluster-info" class="hash-link" aria-label="Viewing Cluster Info への直接リンク" title="Viewing Cluster Info への直接リンク">​</a></h3>
 <p><code>kubectl cluster-info</code></p>
-<p>クラスターマスターとサービスエンドポイントを表示します。</p>
-<p><strong>一般的なフラグ:</strong></p>
-<p><code>--kubeconfig</code> このオプションは、kubeconfig ファイルを指定します。</p>
-<p><strong>一般的なエラー:</strong> ネットワークまたは接続の問題が原因でサーバーに接続できません。</p>
-<p><strong>例:</strong> <code>kubectl cluster-info --kubeconfig=/myconfig</code></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="コンテキストの切り替え">コンテキストの切り替え<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%B3%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%81%AE%E5%88%87%E3%82%8A%E6%9B%BF%E3%81%88" class="hash-link" aria-label="コンテキストの切り替え への直接リンク" title="コンテキストの切り替え への直接リンク">​</a></h3>
-<p>コンテキストを別のコンテキストに切り替えます。</p>
+<p>Displays cluster master and service endpoints.</p>
+<p><strong>Common Flags:</strong></p>
+<p><code>--kubeconfig</code> This option specifies the kubeconfig file.</p>
+<p><strong>Common Errors:</strong> Unable to connect to server due to network or connection issues.</p>
+<p><strong>Example:</strong> <code>kubectl cluster-info --kubeconfig=/myconfig</code></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="switching-context">Switching Context<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#switching-context" class="hash-link" aria-label="Switching Context への直接リンク" title="Switching Context への直接リンク">​</a></h3>
+<p>Switches one context to another.</p>
 <p><code>kubectl config use-context [context_name]</code></p>
-<p><strong>一般的なフラグ:</strong> 特定のフラグなしで使用されるほとんどの時間です</p>
-<p><strong>一般的なエラー:</strong></p>
-<p><code>error: name: [context_name]</code> : context が存在しない場合。</p>
-<p><strong>例:</strong> <code>kubectl config use-context staging-context</code></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="名前空間の操作">名前空間の操作<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E5%90%8D%E5%89%8D%E7%A9%BA%E9%96%93%E3%81%AE%E6%93%8D%E4%BD%9C" class="hash-link" aria-label="名前空間の操作 への直接リンク" title="名前空間の操作 への直接リンク">​</a></h2>
-<p>Kubernetes 名前空間セグメントとリソースの管理。 重要な名前空間操作は以下のとおりです。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ネームスペースの作成">ネームスペースの作成<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E4%BD%9C%E6%88%90" class="hash-link" aria-label="ネームスペースの作成 への直接リンク" title="ネームスペースの作成 への直接リンク">​</a></h3>
-<p>このシンプルなコマンドは Kubernetes 名前空間を作成します。 その特定の機能のために、それはほとんどのバリエーションとフラグを持っています。
-<strong>例:</strong></p>
-<p>開発者名前空間を作成: <code>kubectl create namespace dev</code></p>
-<p><strong>一般的なエラー:</strong></p>
-<p>既存の名前空間を作成しようとしています。
-<strong>一般的なフラグ:</strong></p>
+<p><strong>Common Flags:</strong> It is most of the time used without any specific flags</p>
+<p><strong>Common Errors:</strong></p>
+<p><code>error: no context exists with the name: [context_name]</code> : If context does not exist.</p>
+<p><strong>Example:</strong> <code>kubectl config use-context staging-context</code></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="working-with-namespaces">Working with Namespaces<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#working-with-namespaces" class="hash-link" aria-label="Working with Namespaces への直接リンク" title="Working with Namespaces への直接リンク">​</a></h2>
+<p>Kubernetes namespaces segment and manage resources. Important namespace operations are below.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namespace-creation">Namespace Creation<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#namespace-creation" class="hash-link" aria-label="Namespace Creation への直接リンク" title="Namespace Creation への直接リンク">​</a></h3>
+<p>This simple command creates a Kubernetes namespace. Due to its specific functionality, it has few variants and flags.
+<strong>Example:</strong></p>
+<p>Create a dev namespace using: <code>kubectl create namespace dev</code></p>
+<p><strong>Common Errors:</strong></p>
+<p>Trying to create an existing namespace.
+<strong>Common flags:</strong></p>
 <ul>
-<li><code>--dry-run</code> 名前空間を作成せずに表示します。</li>
-<li><code>-o [format]</code> yaml または json 形式で詳細を出力します。</li>
+<li><code>--dry-run</code> Shows the namespace without creating it.</li>
+<li><code>-o [format]</code> Outputs details in yaml or json format.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ネームスペースの一覧">ネームスペースの一覧<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E4%B8%80%E8%A6%A7" class="hash-link" aria-label="ネームスペースの一覧 への直接リンク" title="ネームスペースの一覧 への直接リンク">​</a></h3>
-<p>このコマンドはすべての Kubernetes 名前空間を表示します。</p>
-<p><strong>例:</strong>
-シンプルなリスト: <code>kubectl get namespaces</code>
-詳細なリスト: <code>kubectl get namespaces -o wide</code></p>
-<p><strong>一般的なエラー:</strong>
-フラグやフォーマットが間違っています。</p>
-<p><strong>一般的なフラグ:</strong></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namespace-listing">Namespace Listing<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#namespace-listing" class="hash-link" aria-label="Namespace Listing への直接リンク" title="Namespace Listing への直接リンク">​</a></h3>
+<p>This command displays all Kubernetes namespaces.</p>
+<p><strong>Example:</strong>
+Simple list: <code>kubectl get namespaces</code>
+Detailed list: <code>kubectl get namespaces -o wide</code></p>
+<p><strong>Common Errors:</strong>
+Using wrong flags or formats.</p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>-o wide</code>: 年齢などの名前空間の詳細を表示します。</li>
-<li><code>-o json</code> または <code>-o yaml</code> 詳細は JSON または YAML で出力されます。</li>
-<li><code>--show-labels</code>: ネームスペースのラベルを表示します。</li>
+<li><code>-o wide</code>: Shows namespace details like age.</li>
+<li><code>-o json</code> or <code>-o yaml</code> The details are output in JSON or YAML.</li>
+<li><code>--show-labels</code>: It shows Namespace labels.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ネームスペースの削除">ネームスペースの削除<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%8D%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%81%AE%E5%89%8A%E9%99%A4" class="hash-link" aria-label="ネームスペースの削除 への直接リンク" title="ネームスペースの削除 への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namespace-deletion">Namespace Deletion<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#namespace-deletion" class="hash-link" aria-label="Namespace Deletion への直接リンク" title="Namespace Deletion への直接リンク">​</a></h3>
 <p><code>kubectl delete [namespace_name]</code></p>
-<p>名前空間とそのリソースを削除します。 これは不可逆的な操作であるため、注意してください。</p>
-<p><strong>例:</strong>
-<code>Run kubectl delete namespace test</code></p>
-<p><strong>一般的なエラー:</strong></p>
+<p>This removes a namespace and its resources. Be careful since this is an irreversible operation.</p>
+<p><strong>Example:</strong>
+You can delete test namespace using: <code>Run kubectl delete namespace test</code></p>
+<p><strong>Common Errors:</strong></p>
 <ul>
 <li>
-<p>システムまたは存在しない名前空間を削除しようとしています。</p>
+<p>Trying to delete a system or nonexistent namespace.</p>
 </li>
 <li>
-<p>名前空間リソースを移行またはバックアップしません。</p>
-<p><strong>一般的なフラグ:</strong></p>
+<p>Not migrating or backing up namespace resources.</p>
+<p><strong>Common Flags:</strong></p>
 </li>
 </ul>
 <ul>
-<li><code>--grace-period=[seconds]</code> 削除前に猶予期間を設定します。</li>
-<li><code>--force</code> を使って名前空間を削除します。</li>
-<li><code>--casade</code> : 名前空間リソースを削除するかどうかを決定します。</li>
+<li><code>--grace-period=[seconds]</code> Allows setting a grace period before deletion.</li>
+<li>Use <code>--force</code> to delete the namespace forecibly.</li>
+<li><code>--cascade</code> : Decides whether to delete namespace resources or not.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ポッドと展開の管理">ポッドと展開の管理<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%9D%E3%83%83%E3%83%89%E3%81%A8%E5%B1%95%E9%96%8B%E3%81%AE%E7%AE%A1%E7%90%86" class="hash-link" aria-label="ポッドと展開の管理 への直接リンク" title="ポッドと展開の管�理 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="management-of-pods-and-deployment">Management of pods and deployment<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#management-of-pods-and-deployment" class="hash-link" aria-label="Management of pods and deployment への直接リンク" title="Management of pods and deployment への直接リンク">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="pods-creating">Pods Creating<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#pods-creating" class="hash-link" aria-label="Pods Creating への直接リンク" title="Pods Creating への直接リンク">​</a></h3>
 <p>Pods are created with <code>kubectl run [pod_name]. --image=[image_name]</code></p>
-<p><strong>一般的なフラグ:</strong></p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>--env</code> 環境変数を設定します。</li>
-<li><code>-l, --labels</code> ポッドにラベルを付けます。</li>
-<li><code>--dry-run</code> ポッドメイキングをシミュレートします。 本番環境にデプロイする前に、QA/ステージングでテストする場合に便利です。</li>
+<li><code>--env</code> Configure environment variables.</li>
+<li><code>-l, --labels</code> Labels the pod.</li>
+<li><code>--dry-run</code> Simulate pod-making. It is useful for testing on QA/Staging before deployment to production.</li>
 </ul>
-<p><strong>例：</strong>
-'nginx' イメージを使用して 'nginx-pod' <code>kubectl run nginx-pod --image=nginx</code> を作成する</p>
-<p><strong>一般的なエラー:</strong>
-<code>Error: image not found</code> error occurred when the container image doesn't exist.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="podのリストを取得する">Podのリストを取得する<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#pod%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B" class="hash-link" aria-label="Podのリストを取得する への直接リンク" title="Podのリストを取得する への直接リンク">​</a></h3>
-<p><code>kubectl get pods</code>の現在設定されている名前空間ですべてのポッドを参照してください。</p>
-<p><strong>共通フラグ</strong>:</p>
+<p><strong>Example:</strong>
+Using the 'nginx' image to create 'nginx-pod' <code>kubectl run nginx-pod --image=nginx</code></p>
+<p><strong>Common Error:</strong>
+The <code>Error: image not found</code> error occurs when the container image does not exist.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="get-list-of-pods">Get list of pods<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#get-list-of-pods" class="hash-link" aria-label="Get list of pods への直接リンク" title="Get list of pods への直接リンク">​</a></h3>
+<p>See all the pods in currently set namespace <code>kubectl get pods</code></p>
+<p><strong>Common Flags</strong>:</p>
 <ul>
-<li><code>-o wide </code> ノード名のような詳細を表示する。</li>
-<li><code>--show-labels</code> ポッドごとにラベルも表示されます。
-<strong>例:</strong>
-<code>kubectl get pods -o wide</code>は全てのポッドを表示します。</li>
+<li><code>-o wide </code> To display the details like node name.</li>
+<li><code>--show-labels</code> Labels also display for each pod.
+<strong>Example:</strong>
+<code>kubectl get pods -o wide</code> will show all pods with all their details.</li>
 </ul>
-<p><strong>一般的なエラー:</strong>
-<code>リソースが見つかりません</code> エラーは、名前空間にポッドがないときに発生します。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ポッドを削除中">ポッドを削除中<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%9D%E3%83%83%E3%83%89%E3%82%92%E5%89%8A%E9%99%A4%E4%B8%AD" class="hash-link" aria-label="ポッドを削除中 への直接リンク" title="ポッドを削除中 への直接リンク">​</a></h3>
-<p>ポッドを削除するコマンドは <code>kubectl delete pod [pod_name] </code>です。</p>
-<p><strong>一般的なフラグ:</strong></p>
+<p><strong>Common Error:</strong>
+The <code>No resources found</code> error occurs when the namespace has no pods.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="deleting-pods">Deleting Pods<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#deleting-pods" class="hash-link" aria-label="Deleting Pods への直接リンク" title="Deleting Pods への直接リンク">​</a></h3>
+<p>The command to delete a pod is <code>kubectl delete pod [pod_name]</code></p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>--grace-period </code>: 強制的にポッドを殺す前に一時停止します。</li>
-<li><code>--force</code>: 直ちにポッドを強制的に削除します。</li>
+<li><code>--grace-period</code>: Pause before killing the pod forcibly.</li>
+<li><code>--force</code>: Immediately delete pod forcibly.</li>
 </ul>
-<p><strong>例:</strong></p>
-<p><code>kubectl delete nginx-pod</code> remove 'nginx-pod' .</p>
-<p><strong>一般的なエラー:</strong>
-ポッドが存在しない場合は、ポッドが見つかりませんでした。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="デプロイの作成">デプロイの作成<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%81%AE%E4%BD%9C%E6%88%90" class="hash-link" aria-label="デプロイの作成 への直接リンク" title="デプロイの作成 への直接リンク">​</a></h3>
-<p><code>kubectl create deploy [name] --image=[image] </code> という名前のデプロイを作成します。</p>
-<p><strong>一般的なフラグ:</strong></p>
+<p><strong>Example:</strong></p>
+<p><code>kubectl delete nginx-pod</code> removes 'nginx-pod'.</p>
+<p><strong>Common Error:</strong>
+A common error is <code>Pod not found</code> when the pod does not exist.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="creating-deployments">Creating Deployments<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#creating-deployments" class="hash-link" aria-label="Creating Deployments への直接リンク" title="Creating Deployments への直接リンク">​</a></h3>
+<p>Creates a deployment with its name and image <code>kubectl create deployment [name] --image=[image]</code></p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>--レプリカ</code> 希望のレプリカ数を設定します。</li>
-<li>実際のデプロイではなく、デプロイをシミュレートするために<code>--dry-run</code>を実行します。</li>
+<li><code>--replicas</code> Set desired number of replicas.</li>
+<li>Run <code>--dry-run</code> to simulate deployment instead of actual deployment.</li>
 </ul>
-<p><strong>例:</strong>
-'nginx' イメージを使用して 'nginx-deployment' <code>kubectl create deployment nginx-deployment --image=nginx</code></p>
-<p><strong>一般的なエラー:</strong>
-画像フォーマットエラーは、しばしば<code>無効な画像名</code>エラーになります。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="リストのデプロイメント">リストのデプロイメント<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%AA%E3%82%B9%E3%83%88%E3%81%AE%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88" class="hash-link" aria-label="リストのデプロイメント への直接リンク" title="リストのデプロイメント への直接リンク">​</a></h3>
-<p>namespace deployments <code>kubectl get deployments</code>を表示</p>
-<p><strong>一般的なフラグ:</strong>
-<code>-o wide</code> レプリカ数のような追加の詳細を表示します。</p>
-<p><strong>例:</strong></p>
-<p>すべてのデプロイを表示します <code>kubectl get deployments</code></p>
-<p><strong>一般的なエラー:</strong>
-namespace にデプロイがない場合、<code>リソースが見つかりません</code> エラーが発生します。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="サービスとノードの処理"><strong>サービスとノードの処理</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E5%87%A6%E7%90%86" class="hash-link" aria-label="サービスとノードの処理 への直接リンク" title="サービスとノードの処理 への直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="サービスの管理">サービスの管理<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E7%AE%A1%E7%90%86" class="hash-link" aria-label="サービスの管理 への直接リンク" title="サービスの管理 への直接リンク">​</a></h3>
-<p>概要
-<code>kubectl get services</code>は、すべてのKubernetesクラスタサービスとそのステータスをすばやく表示するのに役立ちます。</p>
-<p><strong>共通フラグ</strong>:</p>
+<p><strong>Example:</strong>
+Use the 'nginx' image to create 'nginx-deployment' <code>kubectl create deployment nginx-deployment --image=nginx</code></p>
+<p><strong>Common Error:</strong>
+Image format errors often result in <code>Invalid image name</code> errors.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="listing-deployments">Listing deployments<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#listing-deployments" class="hash-link" aria-label="Listing deployments への直接リンク" title="Listing deployments への直接リンク">​</a></h3>
+<p>Shows namespace deployments <code>kubectl get deployments</code></p>
+<p><strong>Common Flags:</strong>
+<code>-o wide</code> Shows extra details like replica count.</p>
+<p><strong>Example:</strong></p>
+<p>Displays all deployments <code>kubectl get deployments</code></p>
+<p><strong>Common Error:</strong>
+The <code>No resources found</code> error occurs when the namespace has no deployments.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="handling-services-and-nodes"><strong>Handling Services and Nodes</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#handling-services-and-nodes" class="hash-link" aria-label="handling-services-and-nodes への直接リンク" title="handling-services-and-nodes への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="manage-services">Manage Services<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#manage-services" class="hash-link" aria-label="Manage Services への直接リンク" title="Manage Services への直接リンク">​</a></h3>
+<p>Overview
+<code>kubectl get services</code> helps users quickly view all Kubernetes cluster services and their status.</p>
+<p><strong>Common Flags</strong>:</p>
 <ul>
-<li><code>-o wide</code> : 各サービスに追加の詳細を提供します。</li>
-<li><code>--all-namespaces</code> すべての名前空間に存在するすべてのサービスを見ることができます。</li>
-<li>`--watch```Monitors サービスの変更と更新の表示。</li>
+<li><code>-o wide</code> : Provides additional details for each service.</li>
+<li><code>--all-namespaces</code> You can see all the services present in all the namespaces.</li>
+<li>`--watch```Monitors service changes and updates display.</li>
 </ul>
-<p><strong>例:</strong>
+<p><strong>Example:</strong>
 <code>kubectl get services -o wide</code>
-このコマンドはデフォルトの名前空間サービスを詳細に表示します。</p>
-<p><strong>一般的なエラー:</strong>
-<code>Services' service-name' が見つかりません</code> サービス名を入力するか、存在しないサービスをクエリします。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ノードの一覧">ノードの一覧<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E4%B8%80%E8%A6%A7" class="hash-link" aria-label="ノードの一覧 への直接リンク" title="ノードの一覧 への直接リンク">​</a></h3>
-<p>コマンド <code>kubectl get nodes</code> は、サイズと健康評価のためのすべてのクラスタノードを表示します。</p>
-<p><strong>一般的なフラグ:</strong></p>
+This command will display all default namespace services in detail.</p>
+<p><strong>Common Error:</strong>
+<code>Services' service-name' not found</code> Typing a service name incorrectly or querying a nonexistent service.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="list-nodes">List Nodes<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#list-nodes" class="hash-link" aria-label="List Nodes への直接リンク" title="List Nodes への直接リンク">​</a></h3>
+<p>Command <code>kubectl get nodes</code> displays all cluster nodes for size and health assessment.</p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>-o wide</code> IPアドレス、OS、カーネルバージョンなどの詳細を表示します。</li>
-<li><code>--selecto</code> ラベルでノードをフィルターします。</li>
-<li><code>--showlabels</code> ノード ラベルを表示します。</li>
+<li><code>-o wide</code> Displays extra details like IP addresses, OS, kernel version, etc.</li>
+<li><code>--selecto</code> Filters nodes by label.</li>
+<li><code>--showlabels</code> Shows node labels.</li>
 </ul>
-<p><strong>例:</strong>
-<code>kubectl get nodes --selector=environment=production</code> このコマンドは全てのプロダクションノードを表示します。</p>
-<p><strong>一般的なエラー:</strong>
-<code>サーバーlocalhostへの接続:8080 refused</code> kubectlの設定が正しくないか、Kubernetesクラスタにアクセスできないため通常。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="高級資源管理">高級資源管理<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E9%AB%98%E7%B4%9A%E8%B3%87%E6%BA%90%E7%AE%A1%E7%90%86" class="hash-link" aria-label="高級資源管理 への直接リンク" title="高級資源管理 への直接リンク">​</a></h2>
+<p><strong>Example:</strong>
+<code>kubectl get nodes --selector=environment=production</code> This command displays all production nodes.</p>
+<p><strong>Common Error:</strong>
+<code>Connection to server localhost:8080 refused</code> Usually due to incorrect kubectl configuration or inaccessible Kubernetes clusters.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advanced-resource-management">Advanced Resource Management<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#advanced-resource-management" class="hash-link" aria-label="Advanced Resource Management への直接リンク" title="Advanced Resource Management への直接リンク">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-labels">Kubectl Labels<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#kubectl-labels" class="hash-link" aria-label="Kubectl Labels への直接リンク" title="Kubectl Labels への直接リンク">​</a></h3>
-<p>Kubernetes ラベルは Pods のキーと値のペアです。 オブジェクトサブセットを整理して選択します。 <code>kubectl get pods -l </code>コマンドはラベルでポッドを取得します。</p>
-<p><strong>一般的なフラグ:</strong></p>
+<p>Kubernetes labels are key-value pairs on pods. They organize and select object subsets. The command <code>kubectl get pods -l </code> retrieves pods by label.</p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>--l</code> または <code>--selector</code>: ラベルセレクターを指定します</li>
-<li><code>--all-namespaces</code> はすべての名前空間を検索します</li>
-<li><code>-o' または </code>--output` フォーマット (yaml, json) を出力します。</li>
+<li><code>--l</code> or <code>--selector</code>: Specifies label selector</li>
+<li><code>--all-namespaces</code> searches all namespaces</li>
+<li><code>-o' or </code>--output` Outputs the format (yaml, json)</li>
 </ul>
-<p><strong>例:</strong>
-<code>kubectl get pods -l app=myApp</code>は、myAppと同じラベル"app"を持つすべてのポッドをリストします。</p>
-<p><strong>一般的なエラー</strong>:
-ラベル名や値が正しくない場合、結果が出ません。 pod ラベルが正しいことを確認します。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-による展開を拡大する">Kubectl による展開を拡大する<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#kubectl-%E3%81%AB%E3%82%88%E3%82%8B%E5%B1%95%E9%96%8B%E3%82%92%E6%8B%A1%E5%A4%A7%E3%81%99%E3%82%8B" class="hash-link" aria-label="Kubectl による展開を拡大する への直接リンク" title="Kubectl による展開を拡大する への直接リンク">​</a></h3>
-<p>スケーリング展開には、ポッドレプリカの数(インスタンス)を変更する必要があります。 <code>kubectl scale</code>コマンドはこの魔法を発揮します。</p>
-<p><strong>一般的なフラグ:</strong></p>
+<p><strong>Example:</strong>
+<code>kubectl get pods -l app=myApp</code> lists all pods with the label "app" equal to myApp.</p>
+<p><strong>Common Error</strong>:
+Incorrect label names or values often result in no results. Ensure pod labels are correct.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="scale-deployments-with-kubectl">Scale deployments with kubectl<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#scale-deployments-with-kubectl" class="hash-link" aria-label="Scale deployments with kubectl への直接リンク" title="Scale deployments with kubectl への直接リンク">​</a></h3>
+<p>Scaling deployments involves changing the number of pod replicas (instances). The <code>kubectl scale</code> command does this magic.</p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>--レプリカ</code> 必要なコピーの数を指定します</li>
-<li><code>--current-レプリカ</code> 現在のレプリカ数（条件付きスケーリング用）</li>
-<li><code>--timeout:</code>スケール操作の完了を待つ時間</li>
+<li><code>--replicas</code> Specifies number of copies needed</li>
+<li><code>--current-replicas</code> Current replica count (For conditional scaling)</li>
+<li><code>--timeout:</code>Time to wait for scale operation completion</li>
 </ul>
-<p><strong>例:</strong></p>
-<p><code>kubectl scale deployment myDeployment --レプリカ=5</code> は myDeployment を 5 つのレプリカにスケールします。</p>
-<p><strong>一般的なエラー</strong>:
-「デプロイが見つかりません」エラーは、存在しない、または誤った名前のデプロイをスケーリングする場合によく発生します。 デプロイメント名は現在の名前空間にある必要があります。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="デバッグとログ"><strong>デバッグとログ</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%81%A8%E3%83%AD%E3%82%B0" class="hash-link" aria-label="デバッグと��ログ への直接リンク" title="デバッグとログ への直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ログアクセス">ログアクセス<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%AD%E3%82%B0%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9" class="hash-link" aria-label="ログアクセス への直接リンク" title="ログアクセス への直接リンク">​</a></h3>
-<p>Kubernetes ポッドのログは <code>kubectl logs [pod_name] </code> を使って取得できます。 Pod-running アプリケーションと診断の問題を理解するには、このコマンドが必要です。</p>
-<p><strong>例:</strong>
-<code>kubectl logs my-app-pod</code> は "my-app-pod" という名前のポッドのログを表示します。</p>
-<p><strong>一般的なエラー:</strong>
-<code>サーバーからのエラー (NotFound): pods "my-app-pod" が見つかりません</code> このエラーは、Kubernetes クラスターにこの名前のポッドがない場合に発生します。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="テーリングログ">テーリングログ<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%86%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AD%E3%82%B0" class="hash-link" aria-label="テーリングログ への直接リンク" title="テーリングログ への直接リンク">​</a></h3>
-<p><code>kubectl logs -f [pod_name] </code> を使って、"tail" ポッドのログをストリーミングできます。 これにより、特に動的環境でのログ出力の監視に役立ちます。</p>
-<p><strong>例:</strong>
-<code>kubectl logs -f my-app-pod</code> ポッドからのログは、このコマンドによってライブストリーミングされます。</p>
-<p><strong>一般的なエラー:</strong>
-<code>サーバーからのエラー (NotFound): pods "my-app-pod" not found</code>. このエラーは、Kubernetesクラスタに指定されたポッドがないことを意味します。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="シークレットとコンフィグマップ"><strong>シークレットとコンフィグマップ</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%82%B0%E3%83%9E%E3%83%83%E3%83%97" class="hash-link" aria-label="シークレットとコンフィグマップ への直接リンク" title="シークレットとコンフィグマップ への直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="シークレットの作成">シークレットの作成<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AC%E3%83%83%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90" class="hash-link" aria-label="シークレットの作成 への直接リンク" title="シークレットの作成 への直接リンク">​</a></h3>
-<p>Kubernetesのsecretsは、パスワード、OAuthトークン、sshキーを保存および管理します。 <code>kubectl create secret generic [secret_name] --from-literal=[key]=[value] </code> で簡単にこれらのシークレットを作成できます。</p>
-<p><strong>一般的なフラグ:</strong></p>
+<p><strong>Example:</strong></p>
+<p><code>kubectl scale deployment myDeployment --replicas=5</code> scales myDeployment to 5 replicas.</p>
+<p><strong>Common Error</strong>:
+A <code>deployment not found</code> error often occurs when scaling a nonexistent or misnamed deployment. The deployment name must be in the current namespace.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="debugging-and-logs"><strong>Debugging and Logs</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#debugging-and-logs" class="hash-link" aria-label="debugging-and-logs への直接リンク" title="debugging-and-logs への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="log-access">Log Access<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#log-access" class="hash-link" aria-label="Log Access への直接リンク" title="Log Access への直接リンク">​</a></h3>
+<p>Kubernetes pod logs can be retrieved using <code>kubectl logs [pod_name]</code>. Understanding pod-running applications and diagnosing issues requires this command.</p>
+<p><strong>Example:</strong>
+<code>kubectl logs my-app-pod</code> will show logs of the pod named "my-app-pod".</p>
+<p><strong>Common Error:</strong>
+<code>Error from server (NotFound): pods "my-app-pod" not found</code> This error occurs when the Kubernetes cluster does not have any pod with this name.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="tailing-logs">Tailing Logs<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#tailing-logs" class="hash-link" aria-label="Tailing Logs への直接リンク" title="Tailing Logs への直接リンク">​</a></h3>
+<p>You can stream or "tail" pod logs with <code>kubectl logs -f [pod_name]</code>. This helps monitor log outputs in real-time, especially in dynamic environments.</p>
+<p><strong>Example:</strong>
+<code>kubectl logs -f my-app-pod</code> Logs from the pod "my-app-pod" will be streamed live by this command.</p>
+<p><strong>Common Error:</strong>
+<code>Error from server (NotFound): pods "my-app-pod" not found</code>. This error means the Kubernetes cluster does not have the specified pod.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="secrets-and-configmaps"><strong>Secrets and ConfigMaps</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#secrets-and-configmaps" class="hash-link" aria-label="secrets-and-configmaps への直接リンク" title="secrets-and-configmaps への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="creating-secrets">Creating Secrets<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#creating-secrets" class="hash-link" aria-label="Creating Secrets への直接リンク" title="Creating Secrets への直接リンク">​</a></h3>
+<p>Kubernetes secrets store and manage passwords, OAuth tokens, and ssh keys. You can easily create these secrets with <code>kubectl create secret generic [secret_name] --from-literal=[key]=[value]</code></p>
+<p><strong>Common Flags:</strong></p>
 <ul>
-<li><code>--from-literal</code> コマンドラインで秘密データをキーと値のペアとして指定します。</li>
-<li><code>--from-file</code> ファイルからシークレットを作成します。 この場合、ファイル名はキーとみなされ、その内容が値となります。</li>
-<li><code>--dry-run</code> クラスターに送信されるオブジェクトを実際に送信せずに表示します。</li>
+<li><code>--from-literal</code> This flag specifies secret data as key-value pairs on the command line.</li>
+<li><code>--from-file</code> Create secret from a file. In this case file name would be considered the key and its content will be the value.</li>
+<li><code>--dry-run</code> Displays the object that would be sent to the cluster without actually sending it.</li>
 <li></li>
-<li><code>--output</code> または `-o' は出力フォーマット (yaml または json) を設定します。</li>
+<li><code>--output</code> or `-o' sets the output format (yaml or json).</li>
 </ul>
-<p><strong>例:</strong>
+<p><strong>Example:</strong>
 <code>kubectl create secret generic my-secret --from-literal=password=myStrongPassword</code></p>
-<p>このコマンドは、パスワードと myStrongPassword という 1 つのエントリを持つ my-secret という名前の秘密を作成します。</p>
-<p><strong>一般的なエラー:</strong></p>
-<p>シークレットを作成するときに、不正なキーと値のペアが一般的です。 以下のkey=value形式が不可欠です。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="configmapsの使用">ConfigMapsの使用<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#configmaps%E3%81%AE%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="ConfigMapsの使用 への直接リンク" title="ConfigMapsの使用 への直接リンク">​</a></h3>
-<p>Kubernetes ConfigMapsは非機密データをキーと値のペアに格納します。 設定ファイル、コマンドライン引数、環境変数、ポート番号などを保存できます。 フォーマットは <code>kubectl create configmap [name] --from-literal=[key]=[value]</code></p>
-<p><strong>一般的なフラグ</strong></p>
-<p>シークレットの作成と同様（上記参照）</p>
-<p><strong>例:</strong></p>
-<p><code>kubectl configmap app-config --from-literal=app_mode=production</code> を作成する</p>
-<p>プロダクションにapp_modeを設定した"app-config"という名前のConfigMapが作成されます。</p>
-<p><strong>一般的なエラー:</strong></p>
-<p><code>--from-file</code> を使用する場合、存在しないファイルやディレクトリを参照することは一般的なエラーです。 ファイルパスが正しくアクセス可能であることを確認します。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="役に立つヒントとコツ"><strong>役に立つヒントとコツ</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E5%BD%B9%E3%81%AB%E7%AB%8B%E3%81%A4%E3%83%92%E3%83%B3%E3%83%88%E3%81%A8%E3%82%B3%E3%83%84" class="hash-link" aria-label="役に立つヒントとコツ への直接リンク" title="役に立つヒントとコツ への直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="効率のためのエイリアス">効率のためのエイリアス<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E5%8A%B9%E7%8E%87%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%AA%E3%82%A2%E3%82%B9" class="hash-link" aria-label="効率のためのエイリアス への直接リンク" title="効率のためのエイリアス への直接リンク">​</a></h3>
-<p>kubectl のエイリアスを使用すると、各コマンドのキーストロークを削減することで、ワークフローを高速化できます。</p>
-<p><strong>例:</strong></p>
+<p>This command creates a secret named my-secret with one entry: password and myStrongPassword.</p>
+<p><strong>Common Error:</strong></p>
+<p>Incorrect or malformed key-value pairs are common when creating secrets. Following key=value format is essential.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="using-configmaps">Using ConfigMaps<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#using-configmaps" class="hash-link" aria-label="Using ConfigMaps への直接リンク" title="Using ConfigMaps への直接リンク">​</a></h3>
+<p>Kubernetes ConfigMaps stores non-confidential data in key-value pairs. Configuration files, command-line arguments, environment variables, port numbers, etc. can be stored there. The format is <code>kubectl create configmap [name] --from-literal=[key]=[value]</code></p>
+<p><strong>Common Flags</strong></p>
+<p>Same as creating secrets (see above)</p>
+<p><strong>Example:</strong></p>
+<p><code>kubectl create configmap app-config --from-literal=app_mode=production</code></p>
+<p>A ConfigMap named "app-config" with app_mode set to production is created.</p>
+<p><strong>Common Error:</strong></p>
+<p>When using <code>--from-file</code>, referencing nonexistent files or directories is a common error. Verify file paths are correct and accessible.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="useful-tips-and-tricks"><strong>Useful Tips and Tricks</strong><a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#useful-tips-and-tricks" class="hash-link" aria-label="useful-tips-and-tricks への直接リンク" title="useful-tips-and-tricks への直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="aliases-for-efficiency">Aliases for efficiency<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#aliases-for-efficiency" class="hash-link" aria-label="Aliases for efficiency への直接リンク" title="Aliases for efficiency への直接リンク">​</a></h3>
+<p>Using aliases for kubectl can speed up workflow by reducing keystrokes for each command.</p>
+<p><strong>Example:</strong></p>
 <p><code>Alias k=kubectl</code>
-ポッドの状態をよく確認します。 エイリアスでは、kubectl の単語全体を入力する代わりに <code>k get pods</code> を入力できます。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="コマンド完了を高速化するためのkubectl-autocomplete">コマンド完了を高速化するためのKubectl Autocomplete<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E5%AE%8C%E4%BA%86%E3%82%92%E9%AB%98%E9%80%9F%E5%8C%96%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AEkubectl-autocomplete" class="hash-link" aria-label="コマンド完了を高速化するためのKubectl Autocomplete への直接リンク" title="コマンド完了を高速化するためのKubectl Autocomplete への直接リンク">​</a></h3>
-<p>Kubectl はコマンドラインの自動補完をサポートし、かなりの時間を節約します。 この機能はコマンド、引数、リソース名補完を高速化します。</p>
-<p><strong>オートコンプリートの設定</strong></p>
-<p>シェルの設定ファイル内のオートコンプリートスクリプトをソースします。 bashの場合は、<code>source &lt;(kubectl completion bash) </code>を <code>.bashrc</code> に追加します。 zsh の <code>.zshrc</code> ファイルに <code>source &lt;(kubectl completion zsh)</code> を追加します。</p>
-<p>設定後、<code>kubectl get pod</code>のようなコマンドを入力し、tabキーを押すと<code>kubectl get pods</code>が完了します。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ローカルでサービスにアクセスするために-kubectl-port-forward-を使用する">ローカルでサービスにアクセスするために Kubectl Port-Forward を使用する<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%A7%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AB-kubectl-port-forward-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B" class="hash-link" aria-label="ローカルでサービスにアクセスするために Kubectl Port-Forward を使用する への直接リンク" title="ローカルでサービスにアクセスするために Kubectl Port-Forward を使用する への直接リンク">​</a></h3>
-<p><code>kubectl port-forward</code> を使用する場合は、ローカルマシンから内部の Kubernetes クラスターサービスにアクセスして操作することができます。</p>
-<p><strong>例:</strong></p>
-<p><code>kubectl port-forward svc/my-web-app 5000:8080</code> を使用して、ポート8080でクラスタサービスを転送します。</p>
-<p>サービスのポート 8080 は、ローカルマシンのポート 5000 からトラフィックを受信します。そのため、ブラウザで http://localhost:5000 からアプリケーションにアクセスできます。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
-<p>Kubernetesにデプロイしたアプリケーションを管理したい場合、Kubetclは非常に便利なツールです。 初心者でも経験豊富な実務者でも、このガイドはKubernetesの旅のあらゆるステップをお手伝いします ポッドを作成するか、クラスタをスケーリングするかに関わらず。</p>
-<p>彼らはあなたに多くの時間と労力を節約するので、彼らはこの記事で述べられているさまざまなヒントやトリックに特別な注意を払ってください。 この記事で説明されているコマンドを試して、手を汚すことをお勧めします。それがクベックルをマスターする最良の方法です。</p>]]></content:encoded>
+You frequently check pod status. The alias lets you type <code>k get pods</code> instead of typing the whole word of kubectl.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-autocomplete-for-faster-command-completion">Kubectl Autocomplete for Faster Command Completion<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#kubectl-autocomplete-for-faster-command-completion" class="hash-link" aria-label="Kubectl Autocomplete for Faster Command Completion への直接リンク" title="Kubectl Autocomplete for Faster Command Completion への直接リンク">​</a></h3>
+<p>Kubectl supports command-line autocompletion, saving significant time. This feature speeds up command, argument, and resource name completion.</p>
+<p><strong>Setting up autocomplete:</strong></p>
+<p>Source the autocomplete script in your shell's configuration file. For bash, You can add <code>source &lt;(kubectl completion bash) </code>to your <code>.bashrc</code>. Add <code>source &lt;(kubectl completion zsh)</code> to your <code>.zshrc</code> file for zsh.</p>
+<p>After setting up, typing a command like <code>kubectl get pod</code> and pressing tab completes this command to <code>kubectl get pods</code>.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="using-kubectl-port-forward-for-accessing-services-locally">Using Kubectl Port-Forward for Accessing Services Locally<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#using-kubectl-port-forward-for-accessing-services-locally" class="hash-link" aria-label="Using Kubectl Port-Forward for Accessing Services Locally への直接リンク" title="Using Kubectl Port-Forward for Accessing Services Locally への直接リンク">​</a></h3>
+<p>When using <code>kubectl port-forward</code>, you can access and interact with internal Kubernetes cluster services from your local machine.</p>
+<p><strong>Example:</strong></p>
+<p>Use <code>kubectl port-forward svc/my-web-app 5000:8080</code> to forward a cluster service on port 8080.</p>
+<p>The service's port 8080 receives traffic from your local machine's port 5000, so you can access the application at <a href="http://localhost:5000/" target="_blank" rel="noopener noreferrer">http://localhost:5000</a> in your browser.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/kubectl-cheat-sheet#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
+<p>Kubetcl is a very handy tool if you want to manage your applications deployed in Kubernetes. Whether you are a novice or a seasoned practitioner, this guide will help you on every step of your Kubernetes journey, whether you are creating a pod or scaling your cluster.</p>
+<p>Give special attention to the different tips and tricks mentioned in this article because they will save you a lot of time and effort. We encourage you to try the commands mentioned in this article and get your hands dirty; that's the best way to master Kubectl.</p>]]></content:encoded>
             <category>kubernetes</category>
             <category>docker</category>
         </item>
@@ -370,45 +370,45 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
             <category>react</category>
         </item>
         <item>
-            <title><![CDATA[ようこそ]]></title>
-            <link>https://illacloud.github.io/illa-website/ja/blog/いらっしゃいませ</link>
-            <guid>https://illacloud.github.io/illa-website/ja/blog/いらっしゃいませ</guid>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://illacloud.github.io/illa-website/ja/blog/welcome</link>
+            <guid>https://illacloud.github.io/illa-website/ja/blog/welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features はformat@@0(https\://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog)によって支えられています。]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> はformat@@0(<a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog)%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E6%94%AF%E3%81%88%E3%82%89%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82" target="_blank" rel="noopener noreferrer">https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog)によって支えられています。</a></p>
-<p><code>blog</code>ディレクトリにMarkdownファイル（またはフォルダ）を追加するだけです。</p>
-<p>ブログの作者は <code>authors.yml</code> に追加できます。</p>
-<p>ブログ投稿の日付は以下のようなファイル名から抽出できます:</p>
+            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
+<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
+<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
+<p>The blog post date can be extracted from filenames, such as:</p>
 <ul>
 <li><code>2019-05-30-welcome.md</code></li>
 <li><code>2019-05-30-welcome/index.md</code></li>
 </ul>
-<p>ブログ投稿の画像を共有するには、ブログ投稿フォルダが便利です。</p>
+<p>A blog post folder can be convenient to co-locate blog post images:</p>
 <p><img loading="lazy" alt="Docusaurus Plushie" src="https://illacloud.github.io/illa-website/ja/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_CfaS"></p>
-<p>ブログもタグをサポートしています!</p>
-<p>**ブログが欲しくない場合は、このディレクトリを削除して、Docusaurusの設定で<code>blog: false</code>を使用してください。</p>]]></content:encoded>
+<p>The blog supports tags as well!</p>
+<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
             <category>facebook</category>
-            <category>こんにちは</category>
+            <category>hello</category>
             <category>docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[MDXブログ投稿]]></title>
+            <title><![CDATA[MDX Blog Post]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/mdx-blog-post</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
             <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_Ztdk alert alert--success"><div class="admonitionHeading_wuvZ"><span class="admonitionIcon_bKMe"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_YstZ"><p>React の機能を使用してインタラクティブなブログ記事を作成します。</p><div class="language-js codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-js codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token operator">&lt;</span><span class="token plain">button onClick</span><span class="token operator">=</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">alert</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">'button clicked!'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token operator">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token plain">button</span><span class="token operator">&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
+<div class="theme-admonition theme-admonition-tip admonition_Ztdk alert alert--success"><div class="admonitionHeading_wuvZ"><span class="admonitionIcon_bKMe"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_YstZ"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-js codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token operator">&lt;</span><span class="token plain">button onClick</span><span class="token operator">=</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">alert</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">'button clicked!'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token operator">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token plain">button</span><span class="token operator">&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
             <category>docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[ロングブログ投稿]]></title>
-            <link>https://illacloud.github.io/illa-website/ja/blog/long blog-post</link>
-            <guid>https://illacloud.github.io/illa-website/ja/blog/long blog-post</guid>
+            <title><![CDATA[Long Blog Post]]></title>
+            <link>https://illacloud.github.io/illa-website/ja/blog/long-blog-post</link>
+            <guid>https://illacloud.github.io/illa-website/ja/blog/long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[これは非常に長いブログ記事の概要です]]></description>
-            <content:encoded><![CDATA[<p>これは非常に長いブログ記事の概要です</p>
-<p><code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code>コメントを使用して、リストビューでブログの投稿サイズを制限します。</p>
+            <description><![CDATA[This is the summary of a very long blog post,]]></description>
+            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
+<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
@@ -425,11 +425,11 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>こんにちは</category>
+            <category>hello</category>
             <category>docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[最初のブログ投稿]]></title>
+            <title><![CDATA[First Blog Post]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/first-blog-post</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
