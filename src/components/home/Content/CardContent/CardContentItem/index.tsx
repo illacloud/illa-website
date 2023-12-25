@@ -1,10 +1,10 @@
 import style from './index.module.css';
-import LearnMore from '../../LearnMore';
+import LearnMore from '../LearnMore';
 import clsx from 'clsx';
 import { useUtmParams } from '@site/src/hooks/useUtmParams';
 
 const CardContentItem = ({
-  imageSrc,
+  imageIcon,
   stepNum,
   title,
   desc,
@@ -19,10 +19,10 @@ const CardContentItem = ({
       <div
         className={clsx(
           style.cardIContentItemContainerStyle,
-          reverse ? 'flex-row-reverse' : 'flex-row',
+          reverse ? style.cardContentItemReverseStyle: style.cardContentItemNormalStyle,
         )}
       >
-        <img src={imageSrc} className={style.imgStyle} alt="" />
+        {imageIcon}
         <div className={style.textContainerStyle}>
           <h2 className={style.textTitleStye}>
             <span className={style.textTitleNumStye}>{stepNum}.</span>

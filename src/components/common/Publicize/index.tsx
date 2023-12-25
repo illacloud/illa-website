@@ -5,8 +5,6 @@ import Link from '@docusaurus/Link';
 import GithubIcon from '@site/static/img/public/github.svg';
 import Translate from '@docusaurus/Translate';
 
-export const DefaultStars = 6500;
-
 const Publicize = ({ stars }) => {
   return (
     <Link href="https://github.com/illacloud/illa-builder">
@@ -31,7 +29,7 @@ const Publicize = ({ stars }) => {
                   <Translate id="title.github">Github</Translate>
                 </span>
                 <span className="inline-block w-[45px] text-center">
-                  {stars || DefaultStars}
+                  {stars}
                 </span>
                 <span>
                   <Translate id="title.stars">Stars</Translate>

@@ -1,10 +1,12 @@
+import { formatNumToThousands } from '@site/src/utils/formatNum';
 import { useCallback, useEffect, useState } from 'react';
-import { DefaultStars } from '../../../common/Publicize';
 
-export const useGetGithubStars = (): [boolean, number] => {
+const DEFAULT_STARS = 10000;
+
+export const useGetGithubStars = (): [boolean, string] => {
   const [isLoading, setIsLoading] = useState(true);
 
-  const [stars, setStars] = useState(DefaultStars);
+  const [stars, setStars] = useState(0);
 
   const getStars = useCallback(async (signal: AbortSignal) => {
     try {
@@ -13,9 +15,10 @@ export const useGetGithubStars = (): [boolean, number] => {
         { signal },
       );
       const resJSON = await res.json();
-      return resJSON?.stargazers_count || DefaultStars;
+      console.log('--', resJSON)
+      return resJSON?.stargazers_count || DEFAULT_STARS;
     } catch {
-      return DefaultStars;
+      return DEFAULT_STARS;
     }
   }, []);
 
@@ -31,5 +34,5 @@ export const useGetGithubStars = (): [boolean, number] => {
     };
   }, []);
 
-  return [isLoading, stars];
+  return [isLoading, formatNumToThousands(stars)];
 };

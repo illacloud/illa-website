@@ -276,7 +276,7 @@ const Integrations: IFootContentItem[] = [
   },
 ];
 
-export const footerContent = [
+export const FOOTER_CONTENT = [
   {
     title: translate({
       message: 'Components',
@@ -292,13 +292,13 @@ export const footerContent = [
     }),
     items: Integrations,
   },
-  // {
-  //   title: translate({
-  //     message: 'Products',
-  //     id: 'footer.product',
-  //   }),
-  //   items: Product,
-  // },
+  {
+    title: translate({
+      message: 'Products',
+      id: 'footer.product',
+    }),
+    items: Product,
+  },
   {
     title: translate({
       message: 'Company',

@@ -1,5 +1,5 @@
 .bannerContainerStyle {
-  @apply landing-md:flex pt-[80px]  text-title grow-0 text-[40px] text-white-01 flex-col  items-center font-bold relative hidden;
+  @apply landing-md:flex hidden text-title grow-0 text-[40px] text-white-01 flex-col  items-center font-bold relative;
 }
 
 .canvasContainerStyle {

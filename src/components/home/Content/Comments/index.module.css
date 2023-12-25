@@ -1,16 +1,16 @@
 .commentsContainerStyle {
   @apply flex flex-col  items-center gap-[24px];
-  @apply xl:gap-[48px];
+  @apply lg:gap-[48px];
 }
 
 .commentsTitleStyle {
   @apply text-center text-[20px] font-[700] leading-[28px];
-  @apply xl:text-[40px] xl:leading-[56px];
+  @apply lg:text-[40px] lg:leading-[56px];
 }
 
 .commentsItemsContainerStyle {
   @apply w-full  columns-2 gap-[8px];
-  @apply xl:columns-3 xl:gap-[16px];
+  @apply lg:columns-3 lg:gap-[16px];
 }
 
 .borderStyle {
@@ -36,7 +36,7 @@
 }
 
 .userInfoContainerStyle img {
-  @apply flex-none w-[20px] h-[20px] xl:w-[32px] xl:h-[32px] rounded-[50%];
+  @apply flex-none w-[20px] h-[20px] lg:w-[32px] lg:h-[32px] rounded-[50%];
 }
 
 .commentUserNameStyle {
@@ -48,7 +48,6 @@
 }
 
 .mobileGap::after {
-  display: block;
+  @apply block lg:hidden pb-[8px];
   content: '';
-  padding-bottom: 8px;
 }

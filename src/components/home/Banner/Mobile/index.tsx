@@ -70,7 +70,7 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
           <LinearGithubIcon />
           <div className="text-white-01 text-[13px] flex items-center font-medium">
             <span className="ml-[5px]">
-              {`${(githubStarts / 1000).toFixed(1)}k`}{' '}
+              {githubStarts}
               <Translate id="stars">Starts</Translate>
             </span>
           </div>
@@ -92,7 +92,7 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
           }}
         >
           <LinearDiscordIcon />
-          <div className="text-white-01 text-[13px] flex items-center font-medium items-center">
+          <div className="text-white-01 text-[13px] flex items-center font-medium">
             <span className="ml-[5px] align-middle">
               <Translate id="join-community">Join Discord</Translate>
             </span>

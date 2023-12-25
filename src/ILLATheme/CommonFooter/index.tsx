@@ -10,7 +10,7 @@ import { saveAs } from 'file-saver';
 import { useElementFirstShow } from '@site/src/hooks/useElementFirstShow';
 import { useRef, FC, useCallback } from 'react';
 import LocaleDropdownNavbarItem from '@theme/NavbarItem/LocaleDropdownNavbarItem';
-import { footerContent } from './constants';
+import { FOOTER_CONTENT } from './constants';
 import Translate, { translate } from '@docusaurus/Translate';
 import { ICommonFooterProps } from './interface';
 
@@ -28,7 +28,6 @@ const CommonFooter: FC<ICommonFooterProps> = ({
   }, []);
   useElementFirstShow(ref, reportShow);
 
-  const mergeFooterContent = footerContent;
   const { scrollYProgress } = useScroll();
   const translateY = useTransform(
     scrollYProgress,
@@ -47,7 +46,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
       style={{ translateY }}
     >
       <div className={style.footerContentContainer}>
-        {mergeFooterContent.map(({ title, items }) => (
+        {FOOTER_CONTENT.map(({ title, items }) => (
           <div className="flex flex-col items-start gap-[16px]" key={title}>
             <span
               className={clsx(

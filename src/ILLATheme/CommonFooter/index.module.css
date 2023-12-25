@@ -1,28 +1,33 @@
 .footerContainer {
   @apply w-full flex flex-col justify-center pt-[100px] items-center gap-[20px];
   @apply px-[20px] pb-[20px];
-  @apply xl:pb-[40px] xl:px-[120px] xl:gap-[40px] xl:pt-[80px];
+  @apply lg:pb-[40px] lg:px-[120px] lg:gap-[40px] lg:pt-[80px];
 }
 .footerContentContainer {
   @apply w-full;
-  @apply grid grid-cols-2 gap-y-[40px] justify-between xl:grid-cols-5 xl:gap-x-[40px];
-  @apply xl:w-[1200px] xl:flex-nowrap;
+  @apply grid grid-cols-2 gap-y-[40px] justify-between;
+  @apply lg:grid-cols-5 lg:gap-x-[40px] lg:flex-nowrap;
+  @apply lg:max-w-[1040px];
+  @apply xl:max-w-[1200px];
 }
 
 .space {
   @apply w-full  h-[1px];
-  @apply xl:w-[1200px];
+  @apply lg:max-w-[1040px];
+  @apply xl:max-w-[1200px];
   background-color: rgba(255, 255, 255, 0.1);
 }
 .footerBottom {
   @apply w-full  flex flex-col  justify-between items-center gap-[24px] font-[400] text-[12px] leading-[16px] text-white-01;
-  @apply xl:w-[1200px] xl:flex-row xl:gap-[48px] xl:text-[14px] xl:leading-[22px];
+  @apply lg:flex-row lg:gap-[48px] lg:text-[14px] lg:leading-[22px];
+  @apply lg:max-w-[1040px];
+  @apply xl:max-w-[1200px];
 }
 .footerItem {
-  @apply font-[400] text-[12px] leading-[16px] cursor-pointer xl:text-[14px] xl:leading-[22px];
+  @apply font-[400] text-[12px] leading-[16px] cursor-pointer lg:text-[14px] lg:leading-[22px];
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 960px) {
   .mobileFooterContainer {
     transform: translateY(0) !important;
   }

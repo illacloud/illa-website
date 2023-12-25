@@ -1,6 +1,9 @@
 import style from './index.module.css';
 import CardContentItem from './CardContentItem';
 import Translate, { translate } from '@docusaurus/Translate';
+import Step1Icon from '@site/static/img/home3/cardContent/step1.svg'
+import Step2Icon from '@site/static/img/home3/cardContent/step2.svg'
+import Step3Icon from '@site/static/img/home3/cardContent/step3.svg'
 
 const CARD_CONTENT = {
   title: translate({
@@ -14,9 +17,7 @@ const CARD_CONTENT = {
   }),
   items: [
     {
-      imageSrc: 'https://cdn.illacloud.com/official-website/img/home/step1.svg',
-      mobileImageSrc:
-        'https://cdn.illacloud.com/official-website/img/mobile/homepage/step1.png',
+      imageIcon: <Step1Icon className={style.imgStyle}/>,
       title: translate({
         id: 'how_to_use.step1_title.create_ai_agent_for',
         message: 'Create AI Agent for a specific purpose',
@@ -33,9 +34,7 @@ const CARD_CONTENT = {
       moreHref: 'https://illa.ai',
     },
     {
-      imageSrc: 'https://cdn.illacloud.com/official-website/img/home/step2.svg',
-      mobileImageSrc:
-        'https://cdn.illacloud.com/official-website/img/mobile/homepage/step2.png',
+      imageIcon:<Step2Icon className={style.imgStyle} />,
       title: translate({
         id: 'how_to_use.step2_title.build_the_frontend_p',
         message: 'Build the frontend page in a few minutes',
@@ -53,9 +52,7 @@ const CARD_CONTENT = {
       reverse: true,
     },
     {
-      imageSrc: 'https://cdn.illacloud.com/official-website/img/home/step3.svg',
-      mobileImageSrc:
-        'https://cdn.illacloud.com/official-website/img/mobile/homepage/step3.png',
+      imageIcon: <Step3Icon className={style.imgStyle} />,
       title: translate({
         id: 'how_to_use.step3_title.connect_to_your_data',
         message: 'Connect to your data sources and AI Agents',
@@ -87,8 +84,7 @@ const CardContent = () => {
       {CARD_CONTENT.items.map(
         (
           {
-            imageSrc,
-            mobileImageSrc,
+            imageIcon,
             title,
             desc,
             moreHref,
@@ -99,7 +95,7 @@ const CardContent = () => {
         ) => (
           <CardContentItem
             key={title}
-            imageSrc={imageSrc}
+            imageIcon={imageIcon}
             desc={desc}
             title={title}
             moreTitle={moreTitle}

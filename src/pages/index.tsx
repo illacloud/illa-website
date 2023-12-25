@@ -1,20 +1,20 @@
-import Head from '@docusaurus/Head';
-import { CommonLayout } from '../ILLATheme/CommonLayout';
-import { CommonHeader } from '../ILLATheme/CommonHeader';
-import CommonFooter from '../ILLATheme/CommonFooter';
-import { useState } from 'react';
-import { useRaf } from 'react-use';
-import NewContent from '../components/home/Content';
-import BannerPC from '../components/home/Banner/PC';
-import BannerMobile from '../components/home/Banner/Mobile';
-import { useGetGithubStars } from '../components/home/Banner/hooks/useGithubStars';
+import Head from '@docusaurus/Head'
+import { CommonLayout } from '../ILLATheme/CommonLayout'
+import { CommonHeader } from '../ILLATheme/CommonHeader'
+import CommonFooter from '../ILLATheme/CommonFooter'
+import { useState } from 'react'
+import { useRaf } from 'react-use'
+import NewContent from '../components/home/Content'
+import BannerPC from '../components/home/Banner/PC'
+import BannerMobile from '../components/home/Banner/Mobile'
+import { useGetGithubStars } from '../components/home/Banner/hooks/useGithubStars'
 
 export default function Home(): JSX.Element {
-  const title = 'ILLA';
-  const [playMaskShow, setPlayMaskShow] = useState(false);
-  const step = useRaf(1000, 0);
+  const title = 'ILLA'
+  const [playMaskShow, setPlayMaskShow] = useState(false)
+  const step = useRaf(1000, 0)
 
-  const [, githubStarts] = useGetGithubStars();
+  const [, githubStarts] = useGetGithubStars()
 
   return (
     <>
@@ -28,22 +28,16 @@ export default function Home(): JSX.Element {
           <CommonHeader />
           <BannerPC
             setPlayMaskShow={setPlayMaskShow}
-            githubStarts={Math.floor(githubStarts * step)}
+            githubStarts={githubStarts}
           />
           <BannerMobile
             setPlayMaskShow={setPlayMaskShow}
-            githubStarts={Math.floor(githubStarts * step)}
+            githubStarts={githubStarts}
           />
-
           <NewContent />
-          {/* <Modal
-            isOpen={playMaskShow}
-            onClose={() => setPlayMaskShow(false)}
-            link="https://cdn.illacloud.com/official-website/img/home/video.mp4"
-          /> */}
           <CommonFooter scrollStart={0.939} scrollEnd={1} />
         </div>
       </CommonLayout>
     </>
-  );
+  )
 }

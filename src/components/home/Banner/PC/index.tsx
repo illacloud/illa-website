@@ -9,6 +9,7 @@ import { usePaintBg } from '../hooks/usePaintBg';
 import style from './index.module.css';
 import Translate, { translate } from '@docusaurus/Translate';
 import { IBannerPCProps } from '../interface';
+import { RadioGroup } from '@illa-design/react'
 // import bannerBg from '@site/static/img/home3/bannerBg.mp4';
 
 const BannerPC: FC<IBannerPCProps> = (props) => {
@@ -29,6 +30,17 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
       setCanClcik(true);
     }
   });
+
+  const options = [
+    {
+      label: "111",
+      value: 111.
+    },
+    {
+      label: "222",
+      value: 222.
+    },
+  ]
 
   return (
     <div ref={containerRef} className={style.bannerContainerStyle}>
@@ -78,8 +90,13 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
           </div>
         </div>
       </div>
-
-      <div className={style.bannerImageStyle}>
+      <RadioGroup
+        // value={value}
+        type="button"
+        forceEqualWidth
+        options={options}
+      />
+      {/* <div className={style.bannerImageStyle}>
         <img
           src="https://cdn.illacloud.com/official-website/img/home/playVideoCover.png"
           className="flex items-center justify-center"
@@ -94,7 +111,8 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
             setPlayMaskShow && setPlayMaskShow(true);
           }}
         />
-      </div>
+      </div> */}
+
     </div>
   );
 };

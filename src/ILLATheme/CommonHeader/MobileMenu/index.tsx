@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Link from '@docusaurus/Link';
 import IllaLogoWhiteIcon from '@site/static/img/whiteLogo.svg';
 import { sendTagEvent } from '@site/src/utils/gtag';

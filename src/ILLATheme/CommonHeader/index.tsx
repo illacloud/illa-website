@@ -58,16 +58,15 @@ export const CommonHeader = ({ trackProgress, whiteTheme }: Props) => {
       >
         <div
           className={clsx(
-            'relative z-[100] p-4 landing-sm:px-10 landing-md:py-4',
+            'relative z-[100] p-4 landing-sm:px-10 md:py-4',
           )}
         >
           <div
             className={clsx(
               'flex',
               'items-center',
+              'w-full',
               'justify-between',
-              'max-w-[896px]',
-              'landing-lg:max-w-[1200px]',
               'gap-[24px]',
             )}
           >
@@ -82,7 +81,7 @@ export const CommonHeader = ({ trackProgress, whiteTheme }: Props) => {
               type="button"
               className={clsx(
                 'text-gray-900 dark:text-white-01',
-                'block landing-md:hidden',
+                'block md:hidden',
               )}
               onClick={() => setIsModalOpen(true)}
             >
@@ -90,8 +89,9 @@ export const CommonHeader = ({ trackProgress, whiteTheme }: Props) => {
             </button>
             <div
               className={clsx(
-                'hidden landing-md:flex',
+                'hidden md:flex',
                 'flex-1',
+                'w-full',
                 'items-center',
                 'gap-[8px]',
               )}

@@ -14,7 +14,7 @@ const LearnMore: FC<ILearnMoreProps> = ({
 }) => {
   return (
     <Link
-      className={clsx(style.swipeMore, leftPadding ? 'xl:pl-[30px]' : '')}
+      className={clsx(style.swipeMore, leftPadding ? 'lg:pl-[30px]' : '')}
       href={href}
       onClick={() => {
         sendTagEvent({

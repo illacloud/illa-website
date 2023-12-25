@@ -1,6 +1,6 @@
 .commBottomContainer {
   @apply flex flex-col justify-center items-center gap-[8px] w-full relative rounded-b-[20px] pt-[60px] pb-[40px] px-[20px];
-  @apply xl:rounded-b-[40px] xl:pt-[120px] xl:pb-[80px] xl:px-[120px] xl:h-[410px];
+  @apply lg:rounded-b-[40px] lg:pt-[120px] lg:pb-[80px] lg:px-[120px] lg:h-[410px];
 }
 .commBottomBtnBg {
   @apply absolute w-full  z-[-1] bottom-0 rounded-b-[20px];
@@ -21,7 +21,7 @@
 }
 .commBottomTitle {
   @apply font-[700] text-[20px] leading-[24px] text-white-01 text-center;
-  @apply xl:text-[40px] xl:leading-[48px];
+  @apply lg:text-[40px] lg:leading-[48px];
 }
 .bottomTitle {
   background: linear-gradient(
@@ -50,11 +50,11 @@
 .commBottomDesc {
   @apply w-full  font-[400] text-[12px] leading-[16px] text-center overflow-ellipsis line-clamp-4;
   @apply text-[14px] leading-[22px];
-  @apply xl:w-[600px];
+  @apply lg:w-[600px];
 }
 .commBottomBtn {
   @apply flex flex-row justify-center items-center gap-[10px] font-[500] text-[16px] leading-[28px]  rounded-[24px] cursor-pointer px-[32px] py-[10px] w-full;
-  @apply xl:w-[320px];
+  @apply lg:w-[320px];
 }
 .commBottomBtn svg {
   width: 16px;

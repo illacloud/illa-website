@@ -59,18 +59,18 @@ const CommBottom: FC<ICommonBottom> = ({
         style={{ height }}
         className={clsx(
           style.commBottomBtnBg,
-          'hidden xl:block',
+          'hidden lg:block',
           whiteTheme ? style.whiteBottomBg : style.bottomBg,
         )}
       />
       <div
         className={clsx(
           style.commBottomBtnBg,
-          'block xl:hidden h-full',
+          'block lg:hidden h-full',
           whiteTheme ? style.whiteBottomBg : style.bottomBg,
         )}
       />
-      <div className="flex flex-col items-center gap-[24px] w-full xl:w-[800px] xl:h-[210px]">
+      <div className="flex flex-col items-center gap-[24px] w-full lg:w-[800px] lg:h-[210px]">
         <h1
           className={clsx(
             style.commBottomTitle,
@@ -92,7 +92,7 @@ const CommBottom: FC<ICommonBottom> = ({
             minute.
           </Translate>
         </p>
-        <div className="flex flex-col xl:flex-row gap-[24px] w-full xl:w-auto">
+        <div className="flex flex-col lg:flex-row gap-[24px] w-full lg:w-auto">
           <Link
             href={cloudUrl}
             className={clsx(

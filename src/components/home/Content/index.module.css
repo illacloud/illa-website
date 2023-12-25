@@ -1,12 +1,13 @@
 .contentContainer {
-  @apply w-full bg-black pt-[40px] w-full flex items-center flex-col relative z-[31] overflow-x-hidden;
-  @apply xl:pt-[200px] xl:overflow-visible;
+  @apply w-full bg-black pt-[40px] flex items-center flex-col relative z-[31] overflow-x-hidden;
+  @apply lg:pt-[200px] lg:overflow-visible;
 }
 .content {
   @apply w-full px-[20px] text-white-01 flex flex-col gap-[100px] items-center relative;
-  @apply xl:p-0 xl:w-[1200px] xl:gap-[200px];
+  @apply lg:max-w-[1040px] lg:gap-[200px];
+  @apply xl:max-w-[1200px] xl:p-0;
 }
 
 .commBottomContainerStyle {
-  @apply mt-[100px] xl:mt-[200px] flex items-center text-white-01 w-full;
+  @apply mt-[100px] lg:mt-[200px] flex items-center text-white-01 w-full;
 }
