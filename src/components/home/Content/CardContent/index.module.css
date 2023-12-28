@@ -22,5 +22,5 @@
 }
 
 .imgStyle {
-  @apply w-full lg:w-[472px] lg:flex-none;
+  @apply w-full h-auto;
 }

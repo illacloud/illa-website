@@ -1,44 +1,44 @@
-import React from 'react';
-import clsx from 'clsx';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from "react"
+import clsx from "clsx"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import {
   PageMetadata,
   HtmlClassNameProvider,
   ThemeClassNames,
-} from '@docusaurus/theme-common';
-import BlogLayout from '@theme/BlogLayout';
-import BlogListPaginator from '@theme/BlogListPaginator';
-import SearchMetadata from '@theme/SearchMetadata';
-import BlogPostItems from '@theme/BlogPostItems';
-import { FeaturedBlogPostItems } from "../../components/blog/FeaturedBlogPostItems";
+} from "@docusaurus/theme-common"
+import BlogLayout from "@theme/BlogLayout"
+import BlogListPaginator from "@theme/BlogListPaginator"
+import SearchMetadata from "@theme/SearchMetadata"
+import BlogPostItems from "@theme/BlogPostItems"
+import { FeaturedBlogPostItems } from "../../components/blog/FeaturedBlogPostItems"
 
 function BlogListPageMetadata(props) {
-  const { metadata } = props;
+  const { metadata } = props
   const {
     siteConfig: { title: siteTitle },
-  } = useDocusaurusContext();
-  const { blogDescription, blogTitle, permalink } = metadata;
-  const isBlogOnlyMode = permalink === '/';
-  const title = isBlogOnlyMode ? siteTitle : blogTitle;
+  } = useDocusaurusContext()
+  const { blogDescription, blogTitle, permalink } = metadata
+  const isBlogOnlyMode = permalink === "/"
+  const title = isBlogOnlyMode ? siteTitle : blogTitle
   return (
     <>
       <PageMetadata title={title} description={blogDescription} />
       <SearchMetadata tag="blog_posts_list" />
     </>
-  );
+  )
 }
 function BlogListPageContent(props) {
-  const { metadata, items, tags } = props;
+  const { metadata, items, tags } = props
 
-  const isFirstPage = metadata.page === 1;
+  const isFirstPage = metadata.page === 1
 
   const featuredPosts = items.filter(
     (post) => post.content.metadata.frontMatter.is_featured === true,
-  );
+  )
 
   const paginatedPosts = items.filter(
     (post) => post.content.metadata.frontMatter.is_featured !== true,
-  );
+  )
 
   return (
     <BlogLayout showSidebarBanner={false}>
@@ -58,11 +58,7 @@ function BlogListPageContent(props) {
       >
         <div className="border-b border-gray-100 dark:border-gray-700"></div>
       </div>
-      <BlogPostItems
-        items={paginatedPosts}
-        tags={tags}
-        metadata={metadata}
-      />
+      <BlogPostItems items={paginatedPosts} tags={tags} metadata={metadata} />
       <div
         className={clsx(
           "max-w-[512px]",
@@ -77,7 +73,7 @@ function BlogListPageContent(props) {
         <BlogListPaginator metadata={metadata} />
       </div>
     </BlogLayout>
-  );
+  )
 }
 export default function BlogListPage(props) {
   return (
@@ -85,9 +81,10 @@ export default function BlogListPage(props) {
       className={clsx(
         ThemeClassNames.wrapper.blogPages,
         ThemeClassNames.page.blogListPage,
-      )}>
+      )}
+    >
       <BlogListPageMetadata {...props} />
       <BlogListPageContent {...props} />
     </HtmlClassNameProvider>
-  );
+  )
 }

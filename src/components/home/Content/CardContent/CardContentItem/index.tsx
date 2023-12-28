@@ -1,7 +1,7 @@
-import style from './index.module.css';
-import LearnMore from '../LearnMore';
-import clsx from 'clsx';
-import { useUtmParams } from '@site/src/hooks/useUtmParams';
+import style from "./index.module.css"
+import LearnMore from "../LearnMore"
+import clsx from "clsx"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
 const CardContentItem = ({
   imageIcon,
@@ -12,14 +12,16 @@ const CardContentItem = ({
   moreHref,
   reverse,
 }) => {
-  const utmUrl = useUtmParams(moreHref);
+  const getUtmParams = useUtmParams()
 
   return (
     <div className={style.borderStyle}>
       <div
         className={clsx(
           style.cardIContentItemContainerStyle,
-          reverse ? style.cardContentItemReverseStyle: style.cardContentItemNormalStyle,
+          reverse
+            ? style.cardContentItemReverseStyle
+            : style.cardContentItemNormalStyle,
         )}
       >
         {imageIcon}
@@ -30,10 +32,10 @@ const CardContentItem = ({
             <span>{title}</span>
           </h2>
           <span className={style.textDescStyle}>{desc}</span>
-          <LearnMore title={moreTitle} href={utmUrl ?? ''} />
+          <LearnMore title={moreTitle} href={getUtmParams(moreHref) ?? ""} />
         </div>
       </div>
     </div>
-  );
-};
-export default CardContentItem;
+  )
+}
+export default CardContentItem

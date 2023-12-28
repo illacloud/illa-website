@@ -8,10 +8,10 @@
   @apply lg:text-[16px] lg:leading-[28px];
 }
 .logoContainerStyle {
-  @apply flex justify-center items-center w-full  flex-wrap gap-x-[16px] gap-y-[8px];
-  @apply lg:gap-x-[40px];
+  @apply w-full grid grid-cols-2 gap-y-[24px] gap-x-[12px];
+  @apply lg:gap-x-[40px] lg:flex lg:justify-center lg:items-center;
 }
 
 .logoStyle {
-  @apply w-auto h-[20px] lg:h-[40px];
+  @apply h-[28px] lg:h-[40px] w-auto;
 }

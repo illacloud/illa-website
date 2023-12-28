@@ -13,7 +13,7 @@
   @apply flex flex-col justify-center items-start gap-[12px] xl:gap-[24px] rounded-[16px];
 }
 .templateHeaderLabel {
-  @apply text-tech-purple-01 font-[600] text-[14px] leading-[32px] xl:text-[18px];
+  @apply text-tech-purple-03 font-[600] text-[14px] leading-[32px] xl:text-[18px];
 }
 .templateHeaderTitle {
   @apply font-[700] text-[20px] leading-[28px] xl:text-[32px] xl:leading-[56px];

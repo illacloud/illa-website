@@ -8,17 +8,17 @@
   @apply flex-col-reverse lg:flex-row-reverse;
 }
 
-.cardContentItemNormalStyle{
+.cardContentItemNormalStyle {
   @apply flex-col-reverse lg:flex-row;
 }
 
 .cardIContentItemContainerStyle {
-  @apply flex p-[16px] items-start gap-[20px] bg-[#141414] rounded-[8px];
+  @apply flex p-[16px] items-start gap-[20px] bg-[#141414] rounded-[8px] flex-nowrap;
   @apply lg:p-[40px] lg:rounded-[16px] lg:gap-[40px];
 }
 
 .textContainerStyle {
-  @apply flex flex-col items-start gap-[16px] lg:gap-[32px];
+  @apply w-full flex flex-col items-start gap-[16px] lg:gap-[32px];
 }
 .textTitleStye {
   @apply text-white-01 font-[700] leading-[22px] text-[18px] lg:text-[36px] lg:leading-[44px];

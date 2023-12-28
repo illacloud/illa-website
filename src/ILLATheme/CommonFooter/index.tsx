@@ -1,39 +1,39 @@
-import style from './index.module.css';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import ILLA_LOGO from '@site/static/img/logo.svg';
-import WHITE_LOGO from '@site/static/img/whiteLogo.svg';
-import { useTransform, motion, useScroll } from 'framer-motion';
-import { FooterItems } from './FooterItem';
-import { sendTagEvent } from '@site/src/utils/gtag';
-import { saveAs } from 'file-saver';
-import { useElementFirstShow } from '@site/src/hooks/useElementFirstShow';
-import { useRef, FC, useCallback } from 'react';
-import LocaleDropdownNavbarItem from '@theme/NavbarItem/LocaleDropdownNavbarItem';
-import { FOOTER_CONTENT } from './constants';
-import Translate, { translate } from '@docusaurus/Translate';
-import { ICommonFooterProps } from './interface';
+import style from "./index.module.css"
+import clsx from "clsx"
+import Link from "@docusaurus/Link"
+import ILLA_LOGO from "@site/static/img/logo.svg"
+import WHITE_LOGO from "@site/static/img/whiteLogo.svg"
+import { useTransform, motion, useScroll } from "framer-motion"
+import { FooterItems } from "./FooterItem"
+import { sendTagEvent } from "@site/src/utils/gtag"
+import { saveAs } from "file-saver"
+import { useElementFirstShow } from "@site/src/hooks/useElementFirstShow"
+import { useRef, FC, useCallback } from "react"
+import LocaleDropdownNavbarItem from "@theme/NavbarItem/LocaleDropdownNavbarItem"
+import { FOOTER_CONTENT } from "./constants"
+import Translate, { translate } from "@docusaurus/Translate"
+import { ICommonFooterProps } from "./interface"
 
 const CommonFooter: FC<ICommonFooterProps> = ({
   whiteTheme = false,
   scrollStart,
   scrollEnd,
 }) => {
-  const ref = useRef(null);
+  const ref = useRef(null)
   const reportShow = useCallback(() => {
     sendTagEvent({
-      action: 'click',
-      category: 'homepage_body_code_anywhere_show',
-    });
-  }, []);
-  useElementFirstShow(ref, reportShow);
+      action: "click",
+      category: "homepage_body_code_anywhere_show",
+    })
+  }, [])
+  useElementFirstShow(ref, reportShow)
 
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll()
   const translateY = useTransform(
     scrollYProgress,
     [scrollStart, scrollEnd],
     [-150, 0],
-  );
+  )
 
   return (
     <motion.footer
@@ -41,7 +41,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
       className={clsx(
         style.footerContainer,
         style.mobileFooterContainer,
-        whiteTheme ? 'bg-white-01' : 'bg-black',
+        whiteTheme ? "bg-white-01" : "bg-black",
       )}
       style={{ translateY }}
     >
@@ -50,8 +50,8 @@ const CommonFooter: FC<ICommonFooterProps> = ({
           <div className="flex flex-col items-start gap-[16px]" key={title}>
             <span
               className={clsx(
-                'font-[500] text-[18px] leading-[28px]',
-                whiteTheme ? 'text-[#0B0C0F]' : 'text-white-01',
+                "font-[500] text-[18px] leading-[28px]",
+                whiteTheme ? "text-[#0B0C0F]" : "text-white-01",
               )}
             >
               {title}
@@ -62,36 +62,39 @@ const CommonFooter: FC<ICommonFooterProps> = ({
               )}
               {items.length <= 6 &&
                 items.map(
-                  ({ label, href = '', tagCategory, icon, downloadName }) => {
+                  ({ label, href = "", tagCategory, icon, downloadName }) => {
                     if (downloadName) {
                       return (
                         <span
                           key={label}
                           className={clsx(
                             style.footerItem,
-                            whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+                            whiteTheme ? "text-[#1D2129]" : "text-white-02",
                           )}
                           onClick={() => {
                             sendTagEvent({
-                              action: 'click',
+                              action: "click",
                               category: tagCategory,
-                              label: label,
-                              value: href,
-                            });
-                            saveAs(href, downloadName);
+                            })
+                            saveAs(href, downloadName)
                           }}
                         >
                           {label}
                         </span>
-                      );
+                      )
                     } else {
                       return (
-                        <Link key={label} href={href}>
+                        <Link
+                          key={label}
+                          href={href}
+                          target="_self"
+                          className="hover:no-underline"
+                        >
                           {icon ? (
                             <span
                               className={clsx(
-                                'flex flex-row items-center gap-[8px]',
-                                whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+                                "flex flex-row items-center gap-[8px]",
+                                whiteTheme ? "text-[#1D2129]" : "text-white-02",
                               )}
                             >
                               {icon}
@@ -99,16 +102,14 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                                 className={clsx(
                                   style.footerItem,
                                   whiteTheme
-                                    ? 'text-[#1D2129]'
-                                    : 'text-white-02',
+                                    ? "text-[#1D2129]"
+                                    : "text-white-02",
                                 )}
                                 onClick={() => {
                                   sendTagEvent({
-                                    action: 'click',
+                                    action: "click",
                                     category: tagCategory,
-                                    label: label,
-                                    value: href,
-                                  });
+                                  })
                                 }}
                               >
                                 {label}
@@ -118,22 +119,20 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                             <span
                               className={clsx(
                                 style.footerItem,
-                                whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+                                whiteTheme ? "text-[#1D2129]" : "text-white-02",
                               )}
                               onClick={() => {
                                 sendTagEvent({
-                                  action: 'click',
+                                  action: "click",
                                   category: tagCategory,
-                                  label: label,
-                                  value: href,
-                                });
+                                })
                               }}
                             >
                               {label}
                             </span>
                           )}
                         </Link>
-                      );
+                      )
                     }
                   },
                 )}
@@ -148,18 +147,18 @@ const CommonFooter: FC<ICommonFooterProps> = ({
 
           <span
             className={clsx(
-              'hidden xl:block',
-              whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+              "hidden lg:block",
+              whiteTheme ? "text-[#1D2129]" : "text-white-02",
             )}
           >
             <Translate id="slogan-1">Build AI Driven Business App</Translate>
           </span>
         </div>
         <div>
-          <div className="flex flex-row justify-center items-center gap-[16px] xl:gap-[32px] ">
+          <div className="flex flex-row justify-center items-center gap-[16px] lg:gap-[32px] ">
             <div
               className={clsx(
-                'flex flex-row gap-[4px] xl:gap-[8px] px-[4px] items-center',
+                "flex flex-row gap-[4px] lg:gap-[8px] px-[4px] items-center",
                 style.localSelectContainer,
               )}
             >
@@ -169,41 +168,39 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                 items={[]}
               />
             </div>
-            <Link href="https://docs.illacloud.com/privacy-policy">
+            <Link
+              href="https://docs.illacloud.com/privacy-policy"
+              target="_self"
+            >
               <span
                 className={clsx(
                   style.footerItem,
-                  whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+                  whiteTheme ? "text-[#1D2129]" : "text-white-02",
                 )}
                 onClick={() => {
                   sendTagEvent({
-                    action: 'click',
-                    category: 'homepage_footer_privacy_policy_click',
-                    label: translate({
-                      id: 'footer.privacy-policy',
-                      message: 'Privacy policy',
-                    }),
-                  });
+                    action: "click",
+                    category: "homepage_footer_privacy_policy_click",
+                  })
                 }}
               >
                 <Translate id="footer.privacy-policy">Privacy policy</Translate>
               </span>
             </Link>
-            <Link href="https://docs.illacloud.com/terms-of-service">
+            <Link
+              href="https://docs.illacloud.com/terms-of-service"
+              target="_self"
+            >
               <span
                 className={clsx(
                   style.footerItem,
-                  whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+                  whiteTheme ? "text-[#1D2129]" : "text-white-02",
                 )}
                 onClick={() => {
                   sendTagEvent({
-                    action: 'click',
-                    category: 'homepage_footer_terms_of_service_click',
-                    label: translate({
-                      id: 'footer.terms-of-service',
-                      message: 'Terms of service',
-                    }),
-                  });
+                    action: "click",
+                    category: "homepage_footer_terms_of_service_click",
+                  })
                 }}
               >
                 <Translate id="footer.terms-of-service">
@@ -215,7 +212,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
         </div>
       </div>
     </motion.footer>
-  );
-};
+  )
+}
 
-export default CommonFooter;
+export default CommonFooter

@@ -1,15 +1,15 @@
-const blogPluginExports = require("@docusaurus/plugin-content-blog");
-const utils = require("@docusaurus/utils");
-const path = require("path");
+const blogPluginExports = require("@docusaurus/plugin-content-blog")
+const utils = require("@docusaurus/utils")
+const path = require("path")
 
-const defaultBlogPlugin = blogPluginExports.default;
+const defaultBlogPlugin = blogPluginExports.default
 
 const pluginDataDirRoot = path.join(
   ".docusaurus",
   "docusaurus-plugin-content-blog",
-);
+)
 const aliasedSource = (source) =>
-  `~blog/${utils.posixPath(path.relative(pluginDataDirRoot, source))}`;
+  `~blog/${utils.posixPath(path.relative(pluginDataDirRoot, source))}`
 
 function paginateBlogPosts({
   blogPosts,
@@ -18,18 +18,18 @@ function paginateBlogPosts({
   blogDescription,
   postsPerPageOption,
 }) {
-  const totalCount = blogPosts.length;
+  const totalCount = blogPosts.length
   const postsPerPage =
-    postsPerPageOption === "ALL" ? totalCount : postsPerPageOption;
+    postsPerPageOption === "ALL" ? totalCount : postsPerPageOption
 
-  const numberOfPages = Math.ceil(totalCount / postsPerPage);
+  const numberOfPages = Math.ceil(totalCount / postsPerPage)
 
-  const pages = [];
+  const pages = []
 
   function permalink(page) {
     return page > 0
       ? utils.normalizeUrl([basePageUrl, `page/${page + 1}`])
-      : basePageUrl;
+      : basePageUrl
   }
 
   for (let page = 0; page < numberOfPages; page += 1) {
@@ -48,16 +48,16 @@ function paginateBlogPosts({
         blogDescription,
         blogTitle,
       },
-    });
+    })
   }
 
-  return pages;
+  return pages
 }
 
 function getMultipleRandomElement(arr, num) {
-  const shuffled = [...arr].sort(() => 0.5 - Math.random());
+  const shuffled = [...arr].sort(() => 0.5 - Math.random())
 
-  return shuffled.slice(0, num);
+  return shuffled.slice(0, num)
 }
 
 function getReletadPosts(allBlogPosts, metadata) {
@@ -66,9 +66,9 @@ function getReletadPosts(allBlogPosts, metadata) {
       post.metadata.frontMatter.tags?.some((tag) =>
         metadata.frontMatter.tags?.includes(tag),
       ) && post.metadata.title !== metadata.title,
-  );
+  )
 
-  const randomThreeRelatedPosts = getMultipleRandomElement(relatedPosts, 3);
+  const randomThreeRelatedPosts = getMultipleRandomElement(relatedPosts, 3)
 
   const filteredPostInfos = randomThreeRelatedPosts.map((post) => {
     return {
@@ -79,10 +79,10 @@ function getReletadPosts(allBlogPosts, metadata) {
       authors: post.metadata.authors,
       readingTime: post.metadata.readingTime,
       date: post.metadata.date,
-    };
-  });
+    }
+  })
 
-  return filteredPostInfos;
+  return filteredPostInfos
 }
 
 function getAuthorPosts(allBlogPosts, metadata) {
@@ -90,9 +90,9 @@ function getAuthorPosts(allBlogPosts, metadata) {
     (post) =>
       post.metadata.frontMatter.authors === metadata.frontMatter.authors &&
       post.metadata.title !== metadata.title,
-  );
+  )
 
-  const randomThreeAuthorPosts = getMultipleRandomElement(authorPosts, 3);
+  const randomThreeAuthorPosts = getMultipleRandomElement(authorPosts, 3)
 
   const filteredPostInfos = randomThreeAuthorPosts.map((post) => {
     return {
@@ -103,16 +103,16 @@ function getAuthorPosts(allBlogPosts, metadata) {
       authors: post.metadata.authors,
       readingTime: post.metadata.readingTime,
       date: post.metadata.date,
-    };
-  });
+    }
+  })
 
-  return filteredPostInfos;
+  return filteredPostInfos
 }
 
 async function blogPluginExtended(...pluginArgs) {
-  const blogPluginInstance = await defaultBlogPlugin(...pluginArgs);
+  const blogPluginInstance = await defaultBlogPlugin(...pluginArgs)
 
-  const { blogTitle, blogDescription, postsPerPage } = pluginArgs[1];
+  const { blogTitle, blogDescription, postsPerPage } = pluginArgs[1]
 
   return {
     // Add all properties of the default blog plugin so existing functionality is preserved
@@ -121,20 +121,19 @@ async function blogPluginExtended(...pluginArgs) {
      * Override the default `contentLoaded` hook to access blog posts data
      */
     contentLoaded: async function (data) {
-      const { content: blogContents, actions } = data;
-      const { addRoute, createData } = actions;
+      const { content: blogContents, actions } = data
+      const { addRoute, createData } = actions
       const {
         blogPosts: allBlogPosts,
         blogTags,
         blogTagsListPath,
-      } = blogContents;
+      } = blogContents
 
-
-      const blogItemsToMetadata = {};
+      const blogItemsToMetadata = {}
 
       function blogPostItemsModule(items) {
         return items.map((postId) => {
-          const blogPostMetadata = blogItemsToMetadata[postId];
+          const blogPostMetadata = blogItemsToMetadata[postId]
 
           return {
             content: {
@@ -144,19 +143,17 @@ async function blogPluginExtended(...pluginArgs) {
                 truncated: true,
               },
             },
-          };
-        });
+          }
+        })
       }
-
 
       const featuredBlogPosts = allBlogPosts.filter(
         (post) => post.metadata.frontMatter.is_featured === true,
-      );
-
+      )
 
       const blogPosts = allBlogPosts.filter(
         (post) => post.metadata.frontMatter.is_featured !== true,
-      );
+      )
 
       const basePageUrl = blogTagsListPath.split("/tags")[0]
 
@@ -166,24 +163,23 @@ async function blogPluginExtended(...pluginArgs) {
         blogTitle,
         blogDescription,
         postsPerPageOption: postsPerPage,
-      });
+      })
 
       // Create routes for blog entries.
       await Promise.all(
         allBlogPosts.map(async (blogPost) => {
-          const { id, metadata } = blogPost;
+          const { id, metadata } = blogPost
 
-          const relatedPosts = getReletadPosts(allBlogPosts, metadata);
+          const relatedPosts = getReletadPosts(allBlogPosts, metadata)
 
-          const authorPosts = getAuthorPosts(allBlogPosts, metadata);
+          const authorPosts = getAuthorPosts(allBlogPosts, metadata)
 
           await createData(
             // Note that this created data path must be in sync with
             // metadataPath provided to mdx-loader.
             `${utils.docuHash(metadata.source)}.json`,
             JSON.stringify({ ...metadata, relatedPosts, authorPosts }, null, 2),
-          );
-
+          )
 
           addRoute({
             path: metadata.permalink,
@@ -192,34 +188,33 @@ async function blogPluginExtended(...pluginArgs) {
             modules: {
               content: metadata.source,
             },
-          });
+          })
 
-          blogItemsToMetadata[id] = metadata;
+          blogItemsToMetadata[id] = metadata
         }),
-      );
+      )
 
       // Create routes for blog's paginated list entries.
       await Promise.all(
         blogListPaginated.map(async (listPage) => {
-          const { metadata, items } = listPage;
-          const { permalink } = metadata;
+          const { metadata, items } = listPage
+          const { permalink } = metadata
 
           const pageMetadataPath = await createData(
             `${utils.docuHash(permalink)}.json`,
             JSON.stringify(metadata, null, 2),
-          );
+          )
 
           const tagsProp = Object.values(blogTags).map((tag) => ({
             label: tag.label,
             permalink: tag.permalink,
             count: tag.items.length,
-          }));
+          }))
 
           const tagsPropPath = await createData(
             `${utils.docuHash(`${blogTagsListPath}-tags`)}.json`,
             JSON.stringify(tagsProp, null, 2),
-          );
-
+          )
 
           addRoute({
             path: permalink,
@@ -234,9 +229,9 @@ async function blogPluginExtended(...pluginArgs) {
               metadata: aliasedSource(pageMetadataPath),
               tags: aliasedSource(tagsPropPath),
             },
-          });
+          })
         }),
-      );
+      )
 
       // const authorsArray = allBlogPosts
       //   .map((post) => post.metadata.frontMatter.authors)
@@ -273,7 +268,7 @@ async function blogPluginExtended(...pluginArgs) {
 
       // Tags. This is the last part so we early-return if there are no tags.
       if (Object.keys(blogTags).length === 0) {
-        return;
+        return
       }
 
       async function createTagsListPage() {
@@ -281,12 +276,12 @@ async function blogPluginExtended(...pluginArgs) {
           label: tag.label,
           permalink: tag.permalink,
           count: tag.items.length,
-        }));
+        }))
 
         const tagsPropPath = await createData(
           `${utils.docuHash(`${blogTagsListPath}-tags`)}.json`,
           JSON.stringify(tagsProp, null, 2),
-        );
+        )
 
         addRoute({
           path: blogTagsListPath,
@@ -295,39 +290,39 @@ async function blogPluginExtended(...pluginArgs) {
           modules: {
             tags: aliasedSource(tagsPropPath),
           },
-        });
+        })
       }
 
       async function createTagPostsListPage(tag) {
         await Promise.all(
           tag.pages.map(async (blogPaginated) => {
-            const { metadata, items } = blogPaginated;
+            const { metadata, items } = blogPaginated
             const tagProp = {
               label: tag.label,
               permalink: tag.permalink,
               allTagsPath: blogTagsListPath,
               count: tag.items.length,
-            };
+            }
             const tagPropPath = await createData(
               `${utils.docuHash(metadata.permalink)}.json`,
               JSON.stringify(tagProp, null, 2),
-            );
+            )
 
             const listMetadataPath = await createData(
               `${utils.docuHash(metadata.permalink)}-list.json`,
               JSON.stringify(metadata, null, 2),
-            );
+            )
 
             const tagsProp = Object.values(blogTags).map((tag) => ({
               label: tag.label,
               permalink: tag.permalink,
               count: tag.items.length,
-            }));
+            }))
 
             const tagsPropPath = await createData(
               `${utils.docuHash(`${blogTagsListPath}-tags`)}.json`,
               JSON.stringify(tagsProp, null, 2),
-            );
+            )
 
             addRoute({
               path: metadata.permalink,
@@ -339,18 +334,18 @@ async function blogPluginExtended(...pluginArgs) {
                 tags: aliasedSource(tagsPropPath),
                 listMetadata: aliasedSource(listMetadataPath),
               },
-            });
+            })
           }),
-        );
+        )
       }
 
-      await createTagsListPage();
-      await Promise.all(Object.values(blogTags).map(createTagPostsListPage));
+      await createTagsListPage()
+      await Promise.all(Object.values(blogTags).map(createTagPostsListPage))
     },
-  };
+  }
 }
 
 module.exports = {
   ...blogPluginExports,
   default: blogPluginExtended,
-};
+}

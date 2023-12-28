@@ -2,6 +2,6 @@
   height: auto;
   grid-row: 3;
   grid-column: 1;
-  @apply flex flex-row items-center gap-[8px] font-[500] text-[14px] leading-[17px] text-tech-purple-03 cursor-pointer;
+  @apply flex flex-row items-center gap-[8px] font-[500] text-[14px] leading-[17px] text-tech-purple-03 hover:text-tech-purple-03 cursor-pointer;
   @apply lg:text-[16px] lg:leading-[19px];
 }

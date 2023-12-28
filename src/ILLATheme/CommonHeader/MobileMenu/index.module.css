@@ -1,0 +1,4 @@
+.menuItemStyle {
+  @apply w-full no-underline hover:no-underline active:no-underline cursor-pointer flex flex-row flex-nowrap items-center h-[40px] gap-[8px];
+  @apply font-medium text-[16px];
+}

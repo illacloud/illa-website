@@ -22,7 +22,6 @@
     "@docusaurus/theme-common": "^3.0.1",
     "@docusaurus/utils-common": "^3.0.1",
     "@headlessui/react": "^1.7.17",
-    "@illa-design/react": "^1.1.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "file-saver": "^2.0.5",
@@ -32,11 +31,13 @@
     "react-dom": "^18.0.0",
     "react-share": "^5.0.3",
     "react-use": "^17.4.2",
+    "swiper": "^11.0.5",
     "title-case": "^4.2.0"
   },
   "devDependencies": {
     "@crowdin/cli": "^3.15.0",
     "@docusaurus/module-type-aliases": "3.0.1",
+    "@docusaurus/plugin-content-pages": "^3.0.1",
     "@docusaurus/theme-classic": "^3.0.1",
     "@docusaurus/tsconfig": "3.0.1",
     "@docusaurus/types": "3.0.1",
@@ -50,6 +51,7 @@
     "postcss": "^8.4.32",
     "postcss-import": "^15.1.0",
     "postcss-nesting": "^12.0.2",
+    "prettier": "^3.1.1",
     "tailwindcss": "^3.4.0",
     "typescript": "~5.2.2"
   },

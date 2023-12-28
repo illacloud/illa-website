@@ -1,39 +1,42 @@
-import { useState } from 'react';
-import { sendTagEvent } from '@site/src/utils/gtag';
-import style from '../index.module.css';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import Translate from '@docusaurus/Translate';
+import { useState } from "react"
+import { sendTagEvent } from "@site/src/utils/gtag"
+import style from "../index.module.css"
+import clsx from "clsx"
+import Link from "@docusaurus/Link"
+import Translate from "@docusaurus/Translate"
 
 export const FooterItems = ({ items, whiteTheme }) => {
-  const [showMore, setShowMore] = useState(false);
+  const [showMore, setShowMore] = useState(false)
 
   const handleShowMore = () => {
-    setShowMore(!showMore);
+    setShowMore(!showMore)
     sendTagEvent({
-      action: 'click',
+      action: "click",
       category: showMore
-        ? 'homepage_footer_show_less'
-        : 'homepage_footer_show_more',
-    });
-  };
+        ? "homepage_footer_show_less"
+        : "homepage_footer_show_more",
+    })
+  }
 
   return (
     <>
-      {items.slice(0, 6).map(({ label, href = '', tagCategory }) => (
-        <Link key={label} to={href}>
+      {items.slice(0, 6).map(({ label, href = "", tagCategory }) => (
+        <Link
+          key={label}
+          to={href}
+          target="_self"
+          className="hover:no-underline"
+        >
           <span
             className={clsx(
               style.footerItem,
-              whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+              whiteTheme ? "text-[#1D2129]" : "text-white-02",
             )}
             onClick={() => {
               sendTagEvent({
-                action: 'click',
+                action: "click",
                 category: tagCategory,
-                label: label,
-                value: href,
-              });
+              })
             }}
           >
             {label}
@@ -41,20 +44,23 @@ export const FooterItems = ({ items, whiteTheme }) => {
         </Link>
       ))}
       {showMore &&
-        items.slice(6).map(({ label, href = '', tagCategory }) => (
-          <Link key={label} href={href}>
+        items.slice(6).map(({ label, href = "", tagCategory }) => (
+          <Link
+            key={label}
+            href={href}
+            target="_self"
+            className="hover:no-underline"
+          >
             <span
               className={clsx(
                 style.footerItem,
-                whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+                whiteTheme ? "text-[#1D2129]" : "text-white-02",
               )}
               onClick={() => {
                 sendTagEvent({
-                  action: 'click',
+                  action: "click",
                   category: tagCategory,
-                  label: label,
-                  value: href,
-                });
+                })
               }}
             >
               {label}
@@ -64,8 +70,8 @@ export const FooterItems = ({ items, whiteTheme }) => {
       <span
         className={clsx(
           style.footerItem,
-          'underline',
-          whiteTheme ? 'text-[#1D2129]' : 'text-white-02',
+          "underline",
+          whiteTheme ? "text-[#1D2129]" : "text-white-02",
         )}
         onClick={handleShowMore}
       >
@@ -76,5 +82,5 @@ export const FooterItems = ({ items, whiteTheme }) => {
         )}
       </span>
     </>
-  );
-};
+  )
+}
