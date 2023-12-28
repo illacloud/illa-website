@@ -1,37 +1,64 @@
-import React, { Fragment, FC } from 'react';
-import { MENU_ITEMS } from './constants';
-import { IHeaderMenuProps, NavbarItemType } from './interface';
-import { Menu, Transition } from '@headlessui/react';
-import ChevronDownIcon from '@site/static/img/public/arrow.svg';
-import Link from '@docusaurus/Link';
-import clsx from 'clsx';
+import React, { Fragment, FC } from "react"
+import { MENU_ITEMS, OPERATE_MENU_ITEMS } from "../constants"
+import { IHeaderMenuProps } from "../interface"
+import { Menu, Transition } from "@headlessui/react"
+import ChevronDownIcon from "@site/static/img/public/arrow.svg"
+import Link from "@docusaurus/Link"
+import clsx from "clsx"
+import { sendTagEvent } from "@site/src/utils/gtag"
+import style from "./index.module.css"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { Solutions } from "../SolutionsItem"
 
 export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
-  const { whiteTheme } = props;
+  const { whiteTheme } = props
+  const getUtmParams = useUtmParams()
   return (
-    <>
-      {MENU_ITEMS.map((item) => {
-        if (item.isPopover) {
+    <div className="w-full flex items-center justify-between">
+      <div className={style.menuItemContainerStyle}>
+        <Solutions whiteTheme={whiteTheme} />
+        {MENU_ITEMS.map((item) => {
+          if (item.isPopover === false) {
+            return (
+              <Link
+                key={item.label}
+                target="_self"
+                to={getUtmParams(item.href)}
+                onClick={() => {
+                  sendTagEvent({
+                    action: "click",
+                    category: item.category,
+                  })
+                }}
+                className={clsx(
+                  style.menuItemStyle,
+                  whiteTheme
+                    ? "text-gray-02 hover:text-gray-02"
+                    : "text-white-01 hover:text-white-01",
+                )}
+              >
+                {item.label}
+              </Link>
+            )
+          }
           return (
             <Menu
               as="div"
-              className={clsx(
-                'relative inline-block text-left py-3 px-4 font-medium',
-              )}
+              className={style.popoverContainerStyle}
               key={item.label}
             >
               <Menu.Button
                 className={clsx(
-                  'flex gap-[8px] items-center text-[14px]',
-                  whiteTheme ? 'text-gray-02' : 'text-white-01',
+                  style.popoverItemStyle,
+                  whiteTheme ? "text-gray-02" : "text-white-01",
                 )}
               >
                 {item.label}
                 <ChevronDownIcon
                   aria-hidden="true"
                   className={clsx(
-                    'w-3 h-3',
-                    whiteTheme ? 'text-gray-02' : 'text-white-01',
+                    "w-[12px] h-[12px]",
+                    whiteTheme ? "text-gray-02" : "text-white-01",
                   )}
                 />
               </Menu.Button>
@@ -46,26 +73,35 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
               >
                 <Menu.Items
                   className={clsx(
-                    'absolute left-0 right-0 mt-2 origin-top-right rounded-md shadow-[0px_2px_16px_0px_rgba(0,0,0,0.16)]  focus:outline-none py-[4px] ',
-                    whiteTheme ? 'bg-white-01' : 'bg-gray-02',
+                    style.popoverPanelStyle,
+                    whiteTheme ? "bg-white-01" : "bg-gray-02",
                   )}
                 >
                   {item.items.map((subItem) => (
                     <Menu.Item key={subItem.label}>
-                      {({ active }) => (
+                      {() => (
                         <button
                           className={clsx(
-                            'group flex  items-center justify-center text-[14px]  leading-10 w-full',
-                            whiteTheme ? 'text-gray-02' : 'text-white-01',
+                            style.panelItemContainerStyle,
+                            whiteTheme
+                              ? "text-gray-02 hover:bg-garyBlue-09"
+                              : "text-white-01 hover:bg-white-09",
                           )}
+                          onClick={() => {
+                            sendTagEvent({
+                              action: "click",
+                              category: subItem.category,
+                            })
+                          }}
                         >
                           <Link
-                            href={subItem.link}
+                            to={getUtmParams(subItem.href)}
+                            target="_self"
                             className={clsx(
-                              'hover:no-underline font-medium	',
+                              style.panelItemStyle,
                               whiteTheme
-                                ? 'text-gray-02 hover:text-gray-02'
-                                : 'text-white-01 hover:text-white-01',
+                                ? "text-gray-02 hover:text-gray-02"
+                                : "text-white-01 hover:text-white-01",
                             )}
                           >
                             {subItem.label}
@@ -77,24 +113,39 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
                 </Menu.Items>
               </Transition>
             </Menu>
-          );
-        }
-
-        return (
-          <Link
-            key={item.label}
-            to={(item as NavbarItemType).href}
-            className={clsx(
-              'px-4 text-[14px] hover:no-underline font-medium',
-              whiteTheme
-                ? 'text-gray-02 hover:text-gray-02'
-                : 'text-white-01 hover:text-white-01',
-            )}
-          >
-            {item.label}
-          </Link>
-        );
-      })}
-    </>
-  );
-};
+          )
+        })}
+      </div>
+      <div className={style.menuItemContainerStyle}>
+        {OPERATE_MENU_ITEMS.map((item) => {
+          return (
+            <Link
+              key={item.label}
+              to={getUtmParams(item.href)}
+              target="_self"
+              className={clsx(
+                style.operateItemStyle,
+                whiteTheme
+                  ? "text-gray-02 hover:text-gray-02 border-gray-02 "
+                  : "text-white-01 hover:text-white-01 border-white-01 ",
+                item.hasBorder ? "border-[1px]" : "border-0",
+              )}
+              onClick={() => {
+                sendTagEvent({
+                  action: "click",
+                  category: item.category,
+                })
+                item.gaAction &&
+                  sendTagEvent({
+                    action: item.gaAction,
+                  })
+              }}
+            >
+              {item.label}
+            </Link>
+          )
+        })}
+      </div>
+    </div>
+  )
+}

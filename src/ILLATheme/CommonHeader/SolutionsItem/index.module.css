@@ -1,0 +1,24 @@
+.popoverItemStyle {
+  @apply flex gap-[8px] items-center text-[14px]  text-left py-[12px] px-[16px] font-medium;
+}
+
+.popoverPanelStyle {
+  @apply absolute left-0 mt-[8px] origin-top-right rounded-md shadow-[0px_2px_16px_0px_rgba(0,0,0,0.16)]  focus:outline-none py-[4px];
+  @apply flex flex-col gap-[24px] px-[4px] py-[24px]  w-[340px];
+}
+
+.subTitleStyle {
+  @apply text-[16px] font-[700] px-[32px] leading-[24px];
+}
+
+.panelItemContainerStyle {
+  @apply flex items-start w-full px-[32px] gap-[16px] hover:no-underline;
+}
+
+.panelItemStyle {
+  @apply text-[14px]  leading-[22px]  font-medium;
+}
+
+.panelItemDescStyle {
+  @apply text-[12px]  leading-[16px]  font-[400];
+}

@@ -112,7 +112,8 @@ const Comments = () => {
             key={userName}
             className={clsx(
               style.borderStyle,
-              index !== 0 ? 'xl:mt-[16px]' : '',
+              style.mobileGap,
+              index !== 0 ? 'lg:mt-[16px]' : '',
             )}
           >
             <div className={style.commentsItemStyle}>

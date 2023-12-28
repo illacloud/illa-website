@@ -1,6 +1,6 @@
 .cardContentContainerStyle {
   @apply w-full flex flex-col gap-[20px] items-center;
-  @apply xl:gap-[64px];
+  @apply lg:gap-[64px];
 }
 
 .headerContainerStyle {
@@ -8,15 +8,19 @@
 }
 .textTitleStye {
   @apply text-white-01 font-[700] text-[20px];
-  @apply xl:text-[40px];
+  @apply lg:text-[40px];
 }
 
 .textTitleNumStyle {
   @apply font-[400] text-[24px] font-eurostile;
-  @apply xl:text-[48px];
+  @apply lg:text-[48px];
 }
 
 .textDescStyle {
   @apply max-w-full font-[400] text-[12px] leading-[16px] text-center;
-  @apply xl:text-[14px] xl:leading-[22px] xl:max-w-[488px];
+  @apply lg:text-[14px] lg:leading-[22px] lg:max-w-[488px];
+}
+
+.imgStyle {
+  @apply w-full h-auto;
 }

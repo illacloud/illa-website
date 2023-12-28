@@ -1,18 +1,20 @@
-import { Fragment } from 'react';
-import styles from './style.module.css';
-import { sendTagEvent } from '@site/src/utils/gtag';
-import { LearnMore } from '../LearnMore';
-import { TEMPLATE_CONFIG } from '@site/src/config/landingPage/landingTemplate';
+import { Fragment } from "react"
+import styles from "./style.module.css"
+import { sendTagEvent } from "@site/src/utils/gtag"
+import { LearnMore } from "../LearnMore"
+import { TEMPLATE_CONFIG } from "@site/src/config/landingPage/landingTemplate"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
 export const LpTemplate = () => {
+  const getUtmParams = useUtmParams()
   const onClick = (target: string) => {
     sendTagEvent({
-      action: 'click',
-      category: 'landing_page_try_now',
-      label: 'Try now',
+      action: "click",
+      category: "landing_page_try_now",
+      label: "Try now",
       value: target,
-    });
-  };
+    })
+  }
 
   return (
     <div className={styles.templateContainer}>
@@ -24,7 +26,7 @@ export const LpTemplate = () => {
               <h3 className={styles.templateHeaderTitle}>{title}</h3>
               <span className={styles.templateHeaderDesc}>{description}</span>
               <LearnMore
-                href={link}
+                href={getUtmParams(link)}
                 btnText={btnText}
                 onClick={() => onClick(target)}
               />
@@ -49,7 +51,7 @@ export const LpTemplate = () => {
                         </span>
                       </div>
                       <LearnMore
-                        href={itemLink}
+                        href={getUtmParams(itemLink)}
                         btnText={btnText}
                         onClick={() => onClick(target)}
                       />
@@ -61,5 +63,5 @@ export const LpTemplate = () => {
         ),
       )}
     </div>
-  );
-};
+  )
+}

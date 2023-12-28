@@ -1,27 +1,33 @@
 .borderStyle {
-  @apply p-[1px] rounded-[8px];
-  @apply xl:rounded-[16px];
+  @apply w-full p-[1px] rounded-[8px];
+  @apply lg:rounded-[16px];
   background: linear-gradient(0deg, #000 0%, #242424 100%);
 }
-.cardIContentItemContainerStyle {
-  @apply flex p-[16px] items-start gap-[20px] bg-[#141414] rounded-[8px];
-  @apply xl:p-[40px] xl:rounded-[16px] xl:gap-[40px];
+
+.cardContentItemReverseStyle {
+  @apply flex-col-reverse lg:flex-row-reverse;
 }
 
-.imgStyle {
-  @apply w-full xl:w-[528px] xl:flex-none;
+.cardContentItemNormalStyle {
+  @apply flex-col-reverse lg:flex-row;
 }
+
+.cardIContentItemContainerStyle {
+  @apply flex p-[16px] items-start gap-[20px] bg-[#141414] rounded-[8px] flex-nowrap;
+  @apply lg:p-[40px] lg:rounded-[16px] lg:gap-[40px];
+}
+
 .textContainerStyle {
-  @apply flex flex-col items-start gap-[16px] xl:gap-[32px];
+  @apply w-full flex flex-col items-start gap-[16px] lg:gap-[32px];
 }
 .textTitleStye {
-  @apply text-white-01 font-[700] leading-[22px] text-[18px] xl:text-[36px] xl:leading-[44px];
+  @apply text-white-01 font-[700] leading-[22px] text-[18px] lg:text-[36px] lg:leading-[44px];
 }
 
 .textTitleNumStyle {
-  @apply font-[400] text-[20px] xl:text-[40px] font-eurostile;
+  @apply font-[400] text-[20px] lg:text-[40px] font-eurostile;
 }
 
 .textDescStyle {
-  @apply text-white-02 font-[400] text-[12px] xl:text-[14px] leading-[16px] xl:leading-[22px];
+  @apply text-white-02 font-[400] text-[12px] lg:text-[14px] leading-[16px] lg:leading-[22px];
 }

@@ -1,0 +1,92 @@
+.baseLinkButtonStyle {
+  @apply font-[600] leading-[28px] text-center cursor-pointer flex justify-center items-center relative overflow-hidden;
+}
+
+.baseLinkButtonStyle:hover {
+  @apply no-underline;
+}
+
+.smallSizeStyle {
+  @apply min-w-[240px] h-[48px] rounded-[32px] text-[14px];
+}
+
+.normalSizeStyle {
+  @apply min-w-[320px] h-[56px] rounded-[24px] text-[16px];
+}
+
+.largeSizeStyle {
+  @apply min-w-[320px] h-[64px] rounded-[32px] text-[16px];
+}
+
+.darkColorStyle {
+  @apply bg-garyBlue-01 text-white-01;
+  box-shadow: 0px 4px 8px 0px rgba(21, 21, 29, 0.45);
+}
+.darkColorStyle:hover {
+  @apply text-white-01;
+}
+
+.lightColorStyle {
+  @apply bg-white-01 text-garyBlue-01;
+  box-shadow: 0px 2px 24.8px 0px #6100ff;
+}
+.lightColorStyle:hover {
+  @apply text-garyBlue-01;
+}
+
+.baseArrowStyle {
+  @apply flex justify-center items-center rounded-full;
+  box-shadow: 0px 4px 8px rgba(35, 21, 47, 0.62);
+}
+.baseArrowStyle svg {
+  @apply w-[16px] h-auto;
+}
+.smallArrowStyle {
+  @apply w-[32px] h-[32px] mr-[8px];
+}
+.normalArrowStyle {
+  @apply w-[40px] h-[40px] mr-[8px];
+}
+.largeArrowStyle {
+  @apply w-[40px] h-[40px] mr-[12px];
+}
+
+.darkArrowStyle {
+  @apply text-garyBlue-01;
+  background: linear-gradient(180deg, #d1ccf2 0%, #fff 100%);
+}
+
+.lightArrowStyle {
+  @apply text-white-01;
+  background: linear-gradient(180deg, #312578 0%, #0b0c0f 100%);
+}
+
+.linkButtonBgStyle {
+  @apply absolute z-[0] w-full h-full flex justify-end items-center;
+  transition: all 0.3s ease-in-out;
+}
+
+.baseLinkButtonStyle:hover .linkButtonBgStyle {
+  transform: translateX(-10%);
+}
+
+.linesStyle {
+  @apply flex gap-[10px] h-full w-full items-center absolute z-[-1];
+}
+
+.lineContainerStyle {
+  @apply w-[26px] h-full flex justify-center flex-none;
+  transform: rotate(20deg);
+}
+
+.lineStyle {
+  @apply w-[1px] h-full bg-garyBlue-01;
+}
+
+.darkLineStyle {
+  @apply bg-[#39393E];
+}
+
+.lightLineStyle {
+  @apply bg-[#F0F0F4];
+}

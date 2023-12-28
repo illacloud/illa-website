@@ -1,316 +1,292 @@
-import DiscordIcon from '@site/static/img/public/discord.svg';
-import GithubIcon from '@site/static/img/public/github.svg';
-import LinkedInIcon from '@site/static/img/public/linkedin.svg';
-import ProductHuntIcon from '@site/static/img/public/productHunt.svg';
-import TwitterIcon from '@site/static/img/public/twitter.svg';
-import { translate } from '@docusaurus/Translate';
-import { IFootContentItem } from './interface';
+import DiscordIcon from "@site/static/img/public/discord.svg"
+import GithubIcon from "@site/static/img/public/github.svg"
+import LinkedInIcon from "@site/static/img/public/linkedin.svg"
+import ProductHuntIcon from "@site/static/img/public/productHunt.svg"
+import TwitterIcon from "@site/static/img/public/twitter.svg"
+import { translate } from "@docusaurus/Translate"
+import { IFootContentItem } from "./interface"
 
 export const Community: IFootContentItem[] = [
   {
     icon: <GithubIcon />,
-    href: 'https://github.com/illacloud/illa-builder',
-    tagCategory: 'homepage_footer_github_click',
-    label: 'GitHub',
+    href: "https://github.com/illacloud/illa-builder",
+    tagCategory: "homepage_footer_github_click",
+    label: "GitHub",
   },
   {
     icon: <TwitterIcon />,
-    href: 'https://twitter.com/illacloudhq',
-    tagCategory: 'homepage_footer_twitter_click',
-    label: 'Twitter',
+    href: "https://twitter.com/illacloudhq",
+    tagCategory: "homepage_footer_twitter_click",
+    label: "Twitter",
   },
   {
     icon: <DiscordIcon />,
-    href: 'https://discord.com/invite/illacloud',
-    tagCategory: 'homepage_footer_discord_click',
-    label: 'Discord',
+    href: "https://discord.com/invite/illacloud",
+    tagCategory: "homepage_footer_discord_click",
+    label: "Discord",
   },
   {
     icon: <ProductHuntIcon />,
-    href: 'https://www.producthunt.com/posts/illa',
-    tagCategory: 'homepage_footer_producthunt_click',
-    label: 'ProductHunt',
+    href: "https://www.producthunt.com/posts/illa",
+    tagCategory: "homepage_footer_producthunt_click",
+    label: "ProductHunt",
   },
   {
     icon: <LinkedInIcon />,
-    href: 'https://www.linkedin.com/company/illacloud/',
-    tagCategory: 'homepage_footer_linkedin_click',
-    label: 'LinkedIn',
+    href: "https://www.linkedin.com/company/illacloud/",
+    tagCategory: "homepage_footer_linkedin_click",
+    label: "LinkedIn",
   },
-];
+]
 
 const AboutUs: IFootContentItem[] = [
   {
     label: translate({
-      message: 'Status',
-      id: 'footer.status',
+      message: "Status",
+      id: "footer.status",
     }),
-    href: 'https://status.illacloud.com/',
-    tagCategory: 'homepage_footer_status_click',
-    target: 'Status',
+    href: "https://status.illacloud.com/",
+    tagCategory: "homepage_footer_status_click",
   },
   {
     label: translate({
-      message: 'Roadmap',
-      id: 'footer.roadmap',
+      message: "Roadmap",
+      id: "footer.roadmap",
     }),
-    href: 'https://github.com/orgs/illacloud/projects/4',
-    tagCategory: 'homepage_footer_roadmap_click',
-    target: 'Roadmap',
+    href: "https://github.com/orgs/illacloud/projects/4",
+    tagCategory: "homepage_footer_roadmap_click",
   },
   {
     label: translate({
-      message: 'Changelog',
-      id: 'footer.changelog',
+      message: "Changelog",
+      id: "footer.changelog",
     }),
-    href: 'https://github.com/illacloud/illa-builder/releases',
-    tagCategory: 'homepage_footer_changelog_click',
-    target: 'Changelog',
+    href: "https://github.com/illacloud/illa-builder/releases",
+    tagCategory: "homepage_footer_changelog_click",
   },
   {
     label: translate({
-      message: 'Media Kit',
-      id: 'footer.media',
+      message: "Media Kit",
+      id: "footer.media",
     }),
-    href: 'https://illa-cloud-storage.illacloud.com/system-assets/media-kit/illa_media_kit.20230228.zip',
-    downloadName: 'ILLA Media Kit.zip',
-    tagCategory: 'homepage_footer_mediakit_click',
+    href: "https://illa-cloud-storage.illacloud.com/system-assets/media-kit/illa_media_kit.20230228.zip",
+    downloadName: "ILLA Media Kit.zip",
+    tagCategory: "homepage_footer_mediakit_click",
   },
-];
+]
 
-const Product: IFootContentItem[] = [
+const Solution: IFootContentItem[] = [
   {
     label: translate({
-      message: 'ILLA Drive',
-      id: 'footer.drive',
+      id: "ai_header.solutions_title.image_generator",
+      message: "temp title 1",
     }),
-    href: '/illadrive',
-    tagCategory: 'homepage_footer_drive_click',
-    target: 'drive',
+    href: "image-generator",
+    tagCategory: "homepage_menu_solutions_image_generator_click",
   },
   {
     label: translate({
-      message: 'ILLA AI',
-      id: 'footer.cloud',
+      id: "ai_header.solutions_title.ai_voice_generator",
+      message: "temp title 2",
     }),
-    href: '/illacloud',
-    tagCategory: 'homepage_footer_cloud_click',
-    target: 'cloud',
+    href: "image-generator",
+    tagCategory: "homepage_menu_solutions_ai_voice_generator_click",
   },
   {
     label: translate({
-      message: 'Self host',
-      id: 'footer.selfhost',
+      id: "ai_header.solutions_title.dashboard",
+      message: "temp title 22",
     }),
-    href: '/illa-self-host',
-    tagCategory: 'homepage_footer_self_host_click',
-    target: 'self_host',
+    href: "image-generator",
+    tagCategory: "homepage_menu_solutions_dashboard_click",
   },
-];
+]
 
 const Components: IFootContentItem[] = [
   {
     label: translate({
-      message: 'Table',
-      id: 'footer.table',
+      message: "Table",
+      id: "footer.table",
     }),
-    href: '/components/Tables',
-    tagCategory: 'homepage_footer_table_click',
-    target: 'footer_table',
+    href: "/components/Tables",
+    tagCategory: "homepage_footer_table_click",
   },
   {
     label: translate({
-      message: 'Chart',
-      id: 'footer.chart',
+      message: "Chart",
+      id: "footer.chart",
     }),
-    href: '/components/Chart',
-    tagCategory: 'homepage_footer_chart_click',
-    target: 'footer_chart',
+    href: "/components/Chart",
+    tagCategory: "homepage_footer_chart_click",
   },
   {
     label: translate({
-      message: 'Upload',
-      id: 'footer.upload',
+      message: "Upload",
+      id: "footer.upload",
     }),
-    href: '/components/Upload',
-    tagCategory: 'homepage_footer_upload_click',
-    target: 'footer_upload',
+    href: "/components/Upload",
+    tagCategory: "homepage_footer_upload_click",
   },
   {
     label: translate({
-      message: 'Switch',
-      id: 'footer.switch',
+      message: "Switch",
+      id: "footer.switch",
     }),
-    href: '/components/Switch',
-    tagCategory: 'homepage_footer_switch_click',
-    target: 'footer_switch',
+    href: "/components/Switch",
+    tagCategory: "homepage_footer_switch_click",
   },
   {
     label: translate({
-      message: 'Select',
-      id: 'footer.select',
+      message: "Select",
+      id: "footer.select",
     }),
-    href: '/components/Select',
-    tagCategory: 'homepage_footer_select_click',
-    target: 'footer_select',
+    href: "/components/Select",
+    tagCategory: "homepage_footer_select_click",
   },
   {
     label: translate({
-      message: 'Radio Group',
-      id: 'footer.radio_group',
+      message: "Radio Group",
+      id: "footer.radio_group",
     }),
-    href: '/components/Radio%20group',
-    tagCategory: 'homepage_footer_radio_group_click',
-    target: 'footer_radio_group',
+    href: "/components/Radio%20group",
+    tagCategory: "homepage_footer_radio_group_click",
   },
   {
     label: translate({
-      message: 'Checkbox Group',
-      id: 'footer.checkbox_group',
+      message: "Checkbox Group",
+      id: "footer.checkbox_group",
     }),
-    href: '/components/Checkbox%20Group',
-    tagCategory: 'homepage_footer_checkbox_group_click',
-    target: 'footer_checkbox_group',
+    href: "/components/Checkbox%20Group",
+    tagCategory: "homepage_footer_checkbox_group_click",
   },
   {
     label: translate({
-      message: 'PDF',
-      id: 'footer.pdf',
+      message: "PDF",
+      id: "footer.pdf",
     }),
-    href: '/components/PDF',
-    tagCategory: 'homepage_footer_pdf_click',
-    target: 'footer_pdf',
+    href: "/components/PDF",
+    tagCategory: "homepage_footer_pdf_click",
   },
   {
     label: translate({
-      message: 'Video',
-      id: 'footer.video',
+      message: "Video",
+      id: "footer.video",
     }),
-    href: '/components/Video',
-    tagCategory: 'homepage_footer_video_click',
-    target: 'footer_video',
+    href: "/components/Video",
+    tagCategory: "homepage_footer_video_click",
   },
-];
+]
 
 const Integrations: IFootContentItem[] = [
   {
     label: translate({
-      message: 'MySQL',
-      id: 'footer.mysql',
+      message: "MySQL",
+      id: "footer.mysql",
     }),
-    href: '/integrations/MySQL',
-    tagCategory: 'homepage_footer_mysql_click',
-    target: 'footer_mysql',
+    href: "/integrations/MySQL",
+    tagCategory: "homepage_footer_mysql_click",
   },
   {
     label: translate({
-      message: 'PostgreSQL',
-      id: 'footer.postgre',
+      message: "PostgreSQL",
+      id: "footer.postgre",
     }),
-    href: '/integrations/PostgreSQL',
-    tagCategory: 'homepage_footer_postgre_click',
-    target: 'footer_postgre',
+    href: "/integrations/PostgreSQL",
+    tagCategory: "homepage_footer_postgre_click",
   },
   {
     label: translate({
-      message: 'MongoDB',
-      id: 'footer.mongodb',
+      message: "MongoDB",
+      id: "footer.mongodb",
     }),
-    href: '/integrations/MongoDB',
-    tagCategory: 'homepage_footer_mongodb_click',
-    target: 'footer_mongodb',
+    href: "/integrations/MongoDB",
+    tagCategory: "homepage_footer_mongodb_click",
   },
   {
     label: translate({
-      message: 'Firebase',
-      id: 'footer.firebase',
+      message: "Firebase",
+      id: "footer.firebase",
     }),
-    href: '/integrations/Firebase',
-    tagCategory: 'homepage_footer_firebase_click',
-    target: 'footer_firebase',
+    href: "/integrations/Firebase",
+    tagCategory: "homepage_footer_firebase_click",
   },
   {
     label: translate({
-      message: 'Elastic Search',
-      id: 'footer.elasticsearch',
+      message: "Elastic Search",
+      id: "footer.elasticsearch",
     }),
-    href: '/integrations/Elastic%20Search',
-    tagCategory: 'homepage_footer_elastic_search_click',
-    target: 'footer_elastic_search',
+    href: "/integrations/Elastic%20Search",
+    tagCategory: "homepage_footer_elastic_search_click",
   },
   {
     label: translate({
-      message: 'Microsoft SQL Server',
-      id: 'footer.mssql',
+      message: "Microsoft SQL Server",
+      id: "footer.mssql",
     }),
-    href: '/integrations/Microsoft%20SQL%20Server',
-    tagCategory: 'homepage_footer_mssql_click',
-    target: 'footer_mssql',
+    href: "/integrations/Microsoft%20SQL%20Server",
+    tagCategory: "homepage_footer_mssql_click",
   },
   {
     label: translate({
-      message: 'Supabase',
-      id: 'footer.supabase',
+      message: "Supabase",
+      id: "footer.supabase",
     }),
-    href: '/integrations/Supabase%20DB',
-    tagCategory: 'homepage_footer_supabase',
-    target: 'footer_supabase',
+    href: "/integrations/Supabase%20DB",
+    tagCategory: "homepage_footer_supabase",
   },
   {
     label: translate({
-      message: 'DynamoDB',
-      id: 'footer.dynamo',
+      message: "DynamoDB",
+      id: "footer.dynamo",
     }),
-    href: '/integrations/Amazon%20DynamoDB',
-    tagCategory: 'homepage_footer_dynamo',
-    target: 'footer_dynamo',
+    href: "/integrations/Amazon%20DynamoDB",
+    tagCategory: "homepage_footer_dynamo",
   },
   {
     label: translate({
-      message: 'Hugging Face Inference API',
-      id: 'footer.hf',
+      message: "Hugging Face Inference API",
+      id: "footer.hf",
     }),
-    href: '/integrations/Hugging%20Face%20Inference%20API',
-    tagCategory: 'homepage_footer_hf_api_click',
-    target: 'footer_hf',
+    href: "/integrations/Hugging%20Face%20Inference%20API",
+    tagCategory: "homepage_footer_hf_api_click",
   },
-];
+]
 
-export const footerContent = [
+export const FOOTER_CONTENT = [
   {
     title: translate({
-      message: 'Components',
-      id: 'footer.components',
+      message: "Components",
+      id: "footer.components",
     }),
     items: Components,
   },
 
   {
     title: translate({
-      message: 'Integrations',
-      id: 'footer.integrations',
+      message: "Integrations",
+      id: "footer.integrations",
     }),
     items: Integrations,
   },
-  // {
-  //   title: translate({
-  //     message: 'Products',
-  //     id: 'footer.product',
-  //   }),
-  //   items: Product,
-  // },
   {
     title: translate({
-      message: 'Company',
-      id: 'footer.company',
+      message: "Solution",
+      id: "ai_header.solutions_title.solutions",
+    }),
+    items: Solution,
+  },
+  {
+    title: translate({
+      message: "Company",
+      id: "footer.company",
     }),
     items: AboutUs,
   },
   {
     title: translate({
-      message: 'Community',
-      id: 'footer.community',
+      message: "Community",
+      id: "footer.community",
     }),
     items: Community,
   },
-];
+]

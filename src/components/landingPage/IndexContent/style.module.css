@@ -20,7 +20,7 @@
 }
 
 .itemImage {
-  @apply w-[120px] h-[120px] rounded-[13px] bg-tech-purple-07 flex justify-center items-center;
+  @apply w-[120px] h-[120px] rounded-[13px] bg-tech-purple-08 flex justify-center items-center;
 }
 
 .itemNameCommon {

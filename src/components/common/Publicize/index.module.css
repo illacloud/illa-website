@@ -1,5 +1,5 @@
 .publicize {
-  @apply hidden xl:block bg-white/[0.04] rounded-[20px] cursor-pointer mx-auto;
+  @apply hidden lg:block bg-white/[0.04] rounded-[20px] cursor-pointer mx-auto;
   @apply text-white min-w-[400px] h-[40px] overflow-hidden px-[25px];
   @apply text-[14px] leading-[22px] font-[400] relative;
   @apply border-[1px] border-solid border-white/[0.12];
@@ -7,7 +7,7 @@
 }
 .publicizeStyle {
   @apply object-none object-center w-[402px] h-[124px] absolute top-[50%] left-[50%] z-[0] opacity-[0.16];
-  @apply xl:w-[579px] xl:h-[179px] flex flex-row items-center justify-between;
+  @apply lg:w-[579px] lg:h-[179px] flex flex-row items-center justify-between;
   filter: blur(23px);
   transform: translate(-50%, -50%);
   background: linear-gradient(

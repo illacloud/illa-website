@@ -1,0 +1,15 @@
+.solutionContainerStyle {
+  @apply w-full flex flex-nowrap;
+}
+
+.contentContainerStyle {
+  @apply w-full flex flex-none flex-col items-center gap-[12px] px-[8px];
+}
+
+.contentContainerStyle svg {
+  @apply w-full h-auto;
+}
+
+.contentLabelStyle {
+  @apply text-white-01 text-[14px] font-[600] text-center leading-[20px];
+}

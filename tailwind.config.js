@@ -666,6 +666,9 @@ module.exports = {
       "blog-xl": "1440px",
       "blog-2xl": "1584px",
       walkthrough: "976px",
+      'sm': "640px",
+      'lg': "960px",
+      "xl": "1440px",
     },
   },
   plugins: [

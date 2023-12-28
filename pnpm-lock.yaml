@@ -47,6 +47,9 @@ dependencies:
   react-use:
     specifier: ^17.4.2
     version: 17.4.2(react-dom@18.2.0)(react@18.2.0)
+  swiper:
+    specifier: ^11.0.5
+    version: 11.0.5
   title-case:
     specifier: ^4.2.0
     version: 4.2.0
@@ -58,6 +61,9 @@ devDependencies:
   '@docusaurus/module-type-aliases':
     specifier: 3.0.1
     version: 3.0.1(react-dom@18.2.0)(react@18.2.0)
+  '@docusaurus/plugin-content-pages':
+    specifier: ^3.0.1
+    version: 3.0.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
   '@docusaurus/theme-classic':
     specifier: ^3.0.1
     version: 3.0.1(@types/react@18.2.45)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
@@ -97,6 +103,9 @@ devDependencies:
   postcss-nesting:
     specifier: ^12.0.2
     version: 12.0.2(postcss@8.4.32)
+  prettier:
+    specifier: ^3.1.1
+    version: 3.1.1
   tailwindcss:
     specifier: ^3.4.0
     version: 3.4.0
@@ -7046,6 +7055,12 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
+
   /pretty-error@4.0.0:
     resolution: {integrity: sha512-AoJ5YMAcXKYxKhuJGdcvse+Voc6v1RgnsR3nWcYU7q4t6z0Q6T86sv5Zq8VIRbOWWFpvdGE83LtdSMNd+6Y0xw==}
     dependencies:
@@ -8117,6 +8132,11 @@ packages:
       csso: 4.2.0
       picocolors: 1.0.0
       stable: 0.1.8
+
+  /swiper@11.0.5:
+    resolution: {integrity: sha512-rhCwupqSyRnWrtNzWzemnBLMoyYuoDgGgspAm/8iBD3jCvAWycPLH4Z3TB0O5520DHLzMx94yUMH/B9Efpa48w==}
+    engines: {node: '>= 4.7.0'}
+    dev: false
 
   /tailwindcss@3.4.0:
     resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}

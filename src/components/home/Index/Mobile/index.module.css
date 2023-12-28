@@ -1,0 +1,34 @@
+.bannerContainer {
+  @apply w-full px-[20px] h-full flex flex-col items-center justify-center  gap-[32px] relative overflow-hidden lg:hidden py-[32px];
+}
+
+.textContainerStyle {
+  @apply w-full flex flex-col items-center gap-[24px];
+}
+.sloganStyle {
+  @apply text-white-01 text-[36px] text-center font-[700]  leading-[40px];
+}
+
+.descStyle {
+  @apply text-white-01 text-[14px] text-center leading-[17px];
+}
+
+.linkGroupItemStyle {
+  @apply flex flex-col items-center gap-[8px];
+}
+
+.colorDescLeftStyle {
+  @apply font-[700];
+  background: linear-gradient(90deg, #ff33ba 0.77%, #ffb7e7 100.77%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.colorDescRightStyle {
+  @apply font-[700];
+  background: linear-gradient(90deg, #1effff 0%, #c9ffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,23 +1,24 @@
-import React from 'react';
-import style from './index.module.css';
-import { sendTagEvent } from '@site/src/utils/gtag';
-import Link from '@docusaurus/Link';
-import GithubIcon from '@site/static/img/public/github.svg';
-import Translate from '@docusaurus/Translate';
-
-export const DefaultStars = 6500;
+import React from "react"
+import style from "./index.module.css"
+import { sendTagEvent } from "@site/src/utils/gtag"
+import Link from "@docusaurus/Link"
+import GithubIcon from "@site/static/img/public/github.svg"
+import Translate from "@docusaurus/Translate"
 
 const Publicize = ({ stars }) => {
   return (
-    <Link href="https://github.com/illacloud/illa-builder">
+    <Link
+      href="https://github.com/illacloud/illa-builder"
+      target="_self"
+      className="hover:no-underline"
+    >
       <div
         className={style.publicize}
         onClick={() => {
           sendTagEvent({
-            action: 'click',
-            category: 'homepage_body_github_banner_click',
-            label: 'github_banner',
-          });
+            action: "click",
+            category: "homepage_body_github_banner_click",
+          })
         }}
       >
         <span className={style.publicizeStyle} />
@@ -31,7 +32,7 @@ const Publicize = ({ stars }) => {
                   <Translate id="title.github">Github</Translate>
                 </span>
                 <span className="inline-block w-[45px] text-center">
-                  {stars || DefaultStars}
+                  {stars}
                 </span>
                 <span>
                   <Translate id="title.stars">Stars</Translate>
@@ -45,7 +46,7 @@ const Publicize = ({ stars }) => {
         </span>
       </div>
     </Link>
-  );
-};
+  )
+}
 
-export default Publicize;
+export default Publicize

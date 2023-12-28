@@ -1,5 +1,6 @@
-import style from './index.module.css';
-import Translate from '@docusaurus/Translate';
+import style from "./index.module.css"
+import Translate from "@docusaurus/Translate"
+import AllConstantIcon from "@site/static/img/home3/allContant/allContant.svg"
 const AllContent = () => {
   return (
     <div className={style.allContentContainer}>
@@ -8,11 +9,8 @@ const AllContent = () => {
           ILLA Cloud integrates everything
         </Translate>
       </h1>
-      <div className="w-[1200px] w-full">
-        {/* Todo: src 需要看一下 */}
-        <img src="https://cdn.illacloud.com/official-website/img/home/allContent.png" />
-      </div>
+      <AllConstantIcon className="w-full h-auto" />
     </div>
-  );
-};
-export default AllContent;
+  )
+}
+export default AllContent

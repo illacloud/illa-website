@@ -1,0 +1,54 @@
+.containerStyle {
+  @apply flex text-title grow-0 text-white-01 flex-col  items-center font-bold px-[20px];
+}
+
+.canvasContainerStyle {
+  @apply w-full h-screen overflow-hidden absolute z-[-1];
+}
+
+.contentContainer {
+  @apply flex justify-center flex-col items-center gap-[24px] py-[64px];
+  @apply lg:max-w-[1040px] lg:gap-[56px] lg:pt-[150px] lg:pb-[100px];
+  @apply xl:max-w-[1200px] xl:w-[1200px];
+}
+.contentContainer svg {
+  @apply w-full h-auto;
+}
+
+.textContainerStyle {
+  @apply w-full relative z-[2] flex justify-center flex-col items-center gap-[24px];
+}
+
+.sloganStyle {
+  @apply text-center text-[36px] leading-[40px] font-[800];
+  @apply lg:text-[56px] lg:leading-[88px];
+}
+
+.colorSloganStyle {
+  background: linear-gradient(90deg, #00ee8a 0%, #2c66fa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.descStyle {
+  @apply w-full font-normal text-[14px] leading-[17px] px-[20px] text-center;
+  @apply lg:leading-[22px];
+}
+
+.buttonContainerStyle {
+  @apply flex items-center flex-col content-between gap-[24px] text-[16px] leading-[28px] font-[500];
+}
+
+.bannerImageStyle {
+  @apply w-full flex items-center justify-center pt-[64px];
+}
+
+.demoContainerStyle {
+  @apply w-full relative;
+  perspective: 1040px;
+}
+
+.demoImgStyle {
+  @apply lg:block hidden w-full max-w-full relative;
+  transform-origin: center;
+}
