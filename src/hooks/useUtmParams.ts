@@ -1,8 +1,10 @@
 import useIsBrowser from "@docusaurus/useIsBrowser"
+import { useBaseUrlUtils } from "@docusaurus/useBaseUrl"
 
 export const useUtmParams = () => {
   const isBrowser = useIsBrowser()
   const location = isBrowser ? window.location.href : "fetching location..."
+  const { withBaseUrl } = useBaseUrlUtils()
 
   const getUtmParams = (url: string) => {
     if (isBrowser) {
@@ -14,7 +16,7 @@ export const useUtmParams = () => {
         const utm_campaign = searchParams.get("utm_campaign")
         let mergeURL = url
         if (url.startsWith("/") && !url.startsWith("http")) {
-          mergeURL = window.location.origin + url
+          mergeURL = window.location.origin + withBaseUrl(url)
         }
         const targetURL = new URL(mergeURL)
 
