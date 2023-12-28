@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>My Site2222 Blog</title>
+        <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/blog</link>
-        <description>My Site2222 Blog</description>
+        <description>ILLA Cloud Blog</description>
         <lastBuildDate>Fri, 15 Dec 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
@@ -277,17 +277,29 @@ You frequently check pod status. The alias lets you type <code>k get pods</code>
             <pubDate>Mon, 02 Oct 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[We'll explore the key features of our CRM app, the technologies we used.]]></description>
             <content:encoded><![CDATA[<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/crm-general.gif" alt="Image description" class="img_CfaS"></p>
-<p>I want to introduce our newest example app – a full-fledged React CRM (Customer Relationship Management) application built using refine, Ant Design, and GraphQL.</p>
+<p>I want to introduce our newest example app – a full-fledged React CRM (Customer
+Relationship Management) application built using refine, Ant Design, and
+GraphQL.</p>
 <p>👉 <a href="https://example.crm.refine.dev/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
-<p>👉 <a href="https://github.com/refinedev/refine/tree/master/examples/app-crm" target="_blank" rel="noopener noreferrer">You can find the source code on GitHub here</a></p>
-<p>This example is open-source, which means anyone can freely utilize and customize the source code as they see fit. It's not just another application; it's a comprehensive solution that boasts all the features and functionalities required for an accurate enterprise-level application.</p>
-<p>Moreover, this application serves as a guiding light for all developers. Whether you're a seasoned pro or just starting, our project is a valuable resource that can be used as a reference to better understand best practices and modern development techniques.</p>
-<p>We'll publish an article series and Video tutorials on YouTube on building this CRM app from scratch. You can follow the refine to get notified when it's ready!</p>
-<p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a>
-GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
+<p>👉
+<a href="https://github.com/refinedev/refine/tree/master/examples/app-crm" target="_blank" rel="noopener noreferrer">You can find the source code on GitHub here</a></p>
+<p>This example is open-source, which means anyone can freely utilize and customize
+the source code as they see fit. It's not just another application; it's a
+comprehensive solution that boasts all the features and functionalities required
+for an accurate enterprise-level application.</p>
+<p>Moreover, this application serves as a guiding light for all developers. Whether
+you're a seasoned pro or just starting, our project is a valuable resource that
+can be used as a reference to better understand best practices and modern
+development techniques.</p>
+<p>We'll publish an article series and Video tutorials on YouTube on building this
+CRM app from scratch. You can follow the refine to get notified when it's ready!</p>
+<p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a> GitHub:
+<a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>This article briefly overviews the CRM application built using refine, an open-source React framework designed for rapidly developing web applications.</p>
-<p>We'll explore the key features of our CRM app, the technologies we used, and how you can adapt this template for various business needs.</p>
+<p>This article briefly overviews the CRM application built using refine, an
+open-source React framework designed for rapidly developing web applications.</p>
+<p>We'll explore the key features of our CRM app, the technologies we used, and how
+you can adapt this template for various business needs.</p>
 <p>Step we'll cover:</p>
 <ul>
 <li><a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#key-features-of-the-crm-app">Key Features of the CRM App</a></li>
@@ -296,76 +308,126 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
 <li><a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-the-crm-app">Key Features of the CRM App<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#key-features-of-the-crm-app" class="hash-link" aria-label="Direct link to Key Features of the CRM App" title="Direct link to Key Features of the CRM App">​</a></h2>
-<p>Our CRM application is feature-rich and comes with everything you need to manage customer relationships efficiently:</p>
+<p>Our CRM application is feature-rich and comes with everything you need to manage
+customer relationships efficiently:</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="dashboard">Dashboard<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#dashboard" class="hash-link" aria-label="Direct link to Dashboard" title="Direct link to Dashboard">​</a></h3>
-<p>The Dashboard provides an at-a-glance overview of your CRM activities. It displays key metrics, recent customer interactions, and upcoming events, offering valuable insights to help you make informed decisions.</p>
+<p>The Dashboard provides an at-a-glance overview of your CRM activities. It
+displays key metrics, recent customer interactions, and upcoming events,
+offering valuable insights to help you make informed decisions.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/halx7sfl9ctke1fu3w35.png" alt="Image" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="calendar-integration">Calendar Integration<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#calendar-integration" class="hash-link" aria-label="Direct link to Calendar Integration" title="Direct link to Calendar Integration">​</a></h3>
-<p>Effortlessly manage appointments, meetings, and important events with the integrated Calendar feature. Stay organized and ensure you never miss a crucial interaction with your customers.</p>
+<p>Effortlessly manage appointments, meetings, and important events with the
+integrated Calendar feature. Stay organized and ensure you never miss a crucial
+interaction with your customers.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2v8ghazuheiznefwat9.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="scrumboard-project-kanban">Scrumboard-Project Kanban<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#scrumboard-project-kanban" class="hash-link" aria-label="Direct link to Scrumboard-Project Kanban" title="Direct link to Scrumboard-Project Kanban">​</a></h3>
-<p>Our Scrumboard or Project Kanban page streamlines project management. Visualize project progress, manage tasks, and facilitate team collaboration with ease. Move tasks through customizable boards to keep your projects on track.</p>
+<p>Our Scrumboard or Project Kanban page streamlines project management. Visualize
+project progress, manage tasks, and facilitate team collaboration with ease.
+Move tasks through customizable boards to keep your projects on track.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0hcll7tbqx3t71i6v7a9.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="sales-pipeline">Sales Pipeline<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#sales-pipeline" class="hash-link" aria-label="Direct link to Sales Pipeline" title="Direct link to Sales Pipeline">​</a></h3>
-<p>Effectively manage your sales process from lead generation to deal closure. The Sales Pipeline provides a visual representation of your sales stages, helping your team prioritize leads and track conversions.</p>
+<p>Effectively manage your sales process from lead generation to deal closure. The
+Sales Pipeline provides a visual representation of your sales stages, helping
+your team prioritize leads and track conversions.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5uoj722wasvw2fx8z49.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="companies">Companies<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#companies" class="hash-link" aria-label="Direct link to Companies" title="Direct link to Companies">​</a></h3>
-<p>The Companies page allows you to organize and categorize your business contacts. Maintain detailed profiles for each company, including contact information, communication history, and associated contacts.</p>
+<p>The Companies page allows you to organize and categorize your business contacts.
+Maintain detailed profiles for each company, including contact information,
+communication history, and associated contacts.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gjlahcc1icfthu2n31ar.png" alt="Imag" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="contacts">Contacts<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#contacts" class="hash-link" aria-label="Direct link to Contacts" title="Direct link to Contacts">​</a></h3>
-<p>Manage individual contacts efficiently using the Contacts page. Keep track of customer interactions, schedule follow-ups, and access critical contact information quickly.</p>
+<p>Manage individual contacts efficiently using the Contacts page. Keep track of
+customer interactions, schedule follow-ups, and access critical contact
+information quickly.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4c0ef7tv7nktax4gt3oz.png" alt="Imag" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="quotes">Quotes<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#quotes" class="hash-link" aria-label="Direct link to Quotes" title="Direct link to Quotes">​</a></h3>
-<p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate professional quotes for your customers, track their status, and convert them into sales.</p>
+<p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate
+professional quotes for your customers, track their status, and convert them
+into sales.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9rqj0pzgkrure7ov5mr9.png" alt="Image" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="administration">Administration<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#administration" class="hash-link" aria-label="Direct link to Administration" title="Direct link to Administration">​</a></h3>
-<p>The Administration section empowers you to configure and customize your CRM application to suit your specific business needs. Manage user roles, access permissions, and system settings effortlessly.</p>
+<p>The Administration section empowers you to configure and customize your CRM
+application to suit your specific business needs. Manage user roles, access
+permissions, and system settings effortlessly.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m5deq6ceue79kloeuryz.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="authentication--authorization">Authentication &amp; Authorization<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#authentication--authorization" class="hash-link" aria-label="Direct link to Authentication &amp; Authorization" title="Direct link to Authentication &amp; Authorization">​</a></h3>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m1r04i2h0cf1jegasbte.png" alt="Image description" class="img_CfaS"></p>
-<p>This example app is a comprehensive set of features that ensures you can streamline your customer interactions, project management, and sales processes, all within a single, user-friendly platform. Whether you're managing contacts, tracking sales, or overseeing projects, our CRM app provides the tools you need for success.</p>
+<p>This example app is a comprehensive set of features that ensures you can
+streamline your customer interactions, project management, and sales processes,
+all within a single, user-friendly platform. Whether you're managing contacts,
+tracking sales, or overseeing projects, our CRM app provides the tools you need
+for success.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="technologies-used">Technologies Used<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#technologies-used" class="hash-link" aria-label="Direct link to Technologies Used" title="Direct link to Technologies Used">​</a></h2>
-<p>Our CRM app's modular structure and use of open-source tools make it adaptable to various business needs. So you can build all kinds of web apps like internal tools, admin panels, or dashboards on top of it.</p>
+<p>Our CRM app's modular structure and use of open-source tools make it adaptable
+to various business needs. So you can build all kinds of web apps like internal
+tools, admin panels, or dashboards on top of it.</p>
 <p>To bring our CRM app to life, we leveraged several cutting-edge technologies:</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="1-refine">1. refine<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#1-refine" class="hash-link" aria-label="Direct link to 1. refine" title="Direct link to 1. refine">​</a></h3>
-<p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM application. It offers a wide range of tools and components for easily building data-intensive applications.</p>
-<p>refine's internal hooks and components simplify the development process and eliminate repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.</p>
+<p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM
+application. It offers a wide range of tools and components for easily building
+data-intensive applications.</p>
+<p>refine's internal hooks and components simplify the development process and
+eliminate repetitive tasks by providing industry-standard solutions for crucial
+aspects of a project, including authentication, access control, routing,
+networking, state management, and i18n.</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="2-ant-design">2. Ant Design<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#2-ant-design" class="hash-link" aria-label="Direct link to 2. Ant Design" title="Direct link to 2. Ant Design">​</a></h3>
-<p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and responsive user interface that our CRM app needed. Its pre-built components saved us time and effort.</p>
-<p>It's consistent and polished UI components ensured a professional and user-friendly interface. refine has a built-in integration for Ant Design.</p>
+<p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and
+responsive user interface that our CRM app needed. Its pre-built components
+saved us time and effort.</p>
+<p>It's consistent and polished UI components ensured a professional and
+user-friendly interface. refine has a built-in integration for Ant Design.</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="3-graphql">3. GraphQL<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#3-graphql" class="hash-link" aria-label="Direct link to 3. GraphQL" title="Direct link to 3. GraphQL">​</a></h3>
-<p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and updating from our server. Additionally, we integrated <a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a> to manage real-time modifications.</p>
-<p>For instance, on the Project Kanban page, tasks get updated automatically when cards are dragged and dropped between sections.</p>
+<p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and
+updating from our server. Additionally, we integrated
+<a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a>
+to manage real-time modifications.</p>
+<p>For instance, on the Project Kanban page, tasks get updated automatically when
+cards are dragged and dropped between sections.</p>
 <p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/real-time.gif" alt="Image" class="img_CfaS"></p>
-<p>GraphQL's efficient data-fetching capabilities made working with large datasets a breeze. It's flexibility allowed us to tailor our queries to our exact requirements.</p>
-<p>refine has built-in data provider support for GraphQL.You can set it up during the project creation phase.</p>
+<p>GraphQL's efficient data-fetching capabilities made working with large datasets
+a breeze. It's flexibility allowed us to tailor our queries to our exact
+requirements.</p>
+<p>refine has built-in data provider support for GraphQL.You can set it up during
+the project creation phase.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#best-practices-and-ecosystem-integration" class="hash-link" aria-label="Direct link to Best Practices and Ecosystem Integration" title="Direct link to Best Practices and Ecosystem Integration">​</a></h2>
-<p>Throughout the development process, we adhered to best practices and incorporated elements from the broader ecosystem. This ensures our CRM app is not only functional but also scalable and maintainable.</p>
-<p>The group responsible for the CRM example app is the core refine framework team. Feel free to explore the best practices within the ecosystem!</p>
+<p>Throughout the development process, we adhered to best practices and
+incorporated elements from the broader ecosystem. This ensures our CRM app is
+not only functional but also scalable and maintainable.</p>
+<p>The group responsible for the CRM example app is the core refine framework team.
+Feel free to explore the best practices within the ecosystem!</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template" class="hash-link" aria-label="Direct link to Where Can You Use This CRM As A Reference Template?" title="Direct link to Where Can You Use This CRM As A Reference Template?">​</a></h2>
-<p>Our CRM template isn't limited to just one use case. You can adapt it for various purposes, including:</p>
+<p>Our CRM template isn't limited to just one use case. You can adapt it for
+various purposes, including:</p>
 <ul>
-<li><strong>B2B Applications</strong>: Streamline customer interactions in a business-to-business context.</li>
-<li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or departmental tasks and interactions.</li>
-<li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as the foundation for creating all sorts of CRUD applications.</li>
+<li><strong>B2B Applications</strong>: Streamline customer interactions in a
+business-to-business context.</li>
+<li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or
+departmental tasks and interactions.</li>
+<li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as
+the foundation for creating all sorts of CRUD applications.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/react-crm-with-refine#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>In this article, we've introduced you to our CRM application built with refine. We've highlighted its key features, the technologies we used, and the advantages of our approach. With this CRM template, you have the power to tailor your customer relationship management system to meet your unique business needs. Whether you're running a B2B operation, need an efficient internal tool, or want a versatile CRUD application, our CRM template has you covered.</p>]]></content:encoded>
+<p>In this article, we've introduced you to our CRM application built with refine.
+We've highlighted its key features, the technologies we used, and the advantages
+of our approach. With this CRM template, you have the power to tailor your
+customer relationship management system to meet your unique business needs.
+Whether you're running a B2B operation, need an efficient internal tool, or want
+a versatile CRUD application, our CRM template has you covered.</p>]]></content:encoded>
             <category>refine</category>
             <category>react</category>
         </item>

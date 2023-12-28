@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/ja/blog</id>
-    <title>My Site2222 Blog</title>
+    <title>ILLA Cloud Blog</title>
     <updated>2023-12-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/ja/blog"/>
-    <subtitle>My Site2222 Blog</subtitle>
-    <icon>https://illacloud.github.io/illa-website/ja/img/favicon.ico</icon>
+    <subtitle>ILLA Cloud Blog</subtitle>
+    <icon>https://illacloud.github.io/illa-website/ja/img/public/favicon.ico</icon>
     <rights>Copyright © 2023 ILLA.</rights>
     <entry>
         <title type="html"><![CDATA[Kubectl Cheat Sheet - With Examples]]></title>
@@ -280,17 +280,29 @@ You frequently check pod status. The alias lets you type <code>k get pods</code>
         <updated>2023-10-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We'll explore the key features of our CRM app, the technologies we used.]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/crm-general.gif" alt="Image description" class="img_CfaS"></p>
-<p>I want to introduce our newest example app – a full-fledged React CRM (Customer Relationship Management) application built using refine, Ant Design, and GraphQL.</p>
+<p>I want to introduce our newest example app – a full-fledged React CRM (Customer
+Relationship Management) application built using refine, Ant Design, and
+GraphQL.</p>
 <p>👉 <a href="https://example.crm.refine.dev/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
-<p>👉 <a href="https://github.com/refinedev/refine/tree/master/examples/app-crm" target="_blank" rel="noopener noreferrer">You can find the source code on GitHub here</a></p>
-<p>This example is open-source, which means anyone can freely utilize and customize the source code as they see fit. It's not just another application; it's a comprehensive solution that boasts all the features and functionalities required for an accurate enterprise-level application.</p>
-<p>Moreover, this application serves as a guiding light for all developers. Whether you're a seasoned pro or just starting, our project is a valuable resource that can be used as a reference to better understand best practices and modern development techniques.</p>
-<p>We'll publish an article series and Video tutorials on YouTube on building this CRM app from scratch. You can follow the refine to get notified when it's ready!</p>
-<p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a>
-GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
+<p>👉
+<a href="https://github.com/refinedev/refine/tree/master/examples/app-crm" target="_blank" rel="noopener noreferrer">You can find the source code on GitHub here</a></p>
+<p>This example is open-source, which means anyone can freely utilize and customize
+the source code as they see fit. It's not just another application; it's a
+comprehensive solution that boasts all the features and functionalities required
+for an accurate enterprise-level application.</p>
+<p>Moreover, this application serves as a guiding light for all developers. Whether
+you're a seasoned pro or just starting, our project is a valuable resource that
+can be used as a reference to better understand best practices and modern
+development techniques.</p>
+<p>We'll publish an article series and Video tutorials on YouTube on building this
+CRM app from scratch. You can follow the refine to get notified when it's ready!</p>
+<p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a> GitHub:
+<a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#introduction" class="hash-link" aria-label="Introduction への直接リンク" title="Introduction への直接リンク">​</a></h2>
-<p>This article briefly overviews the CRM application built using refine, an open-source React framework designed for rapidly developing web applications.</p>
-<p>We'll explore the key features of our CRM app, the technologies we used, and how you can adapt this template for various business needs.</p>
+<p>This article briefly overviews the CRM application built using refine, an
+open-source React framework designed for rapidly developing web applications.</p>
+<p>We'll explore the key features of our CRM app, the technologies we used, and how
+you can adapt this template for various business needs.</p>
 <p>Step we'll cover:</p>
 <ul>
 <li><a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#key-features-of-the-crm-app">Key Features of the CRM App</a></li>
@@ -299,76 +311,126 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
 <li><a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-the-crm-app">Key Features of the CRM App<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#key-features-of-the-crm-app" class="hash-link" aria-label="Key Features of the CRM App への直接リンク" title="Key Features of the CRM App への直接リンク">​</a></h2>
-<p>Our CRM application is feature-rich and comes with everything you need to manage customer relationships efficiently:</p>
+<p>Our CRM application is feature-rich and comes with everything you need to manage
+customer relationships efficiently:</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="dashboard">Dashboard<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#dashboard" class="hash-link" aria-label="Dashboard への直接リンク" title="Dashboard への直接リンク">​</a></h3>
-<p>The Dashboard provides an at-a-glance overview of your CRM activities. It displays key metrics, recent customer interactions, and upcoming events, offering valuable insights to help you make informed decisions.</p>
+<p>The Dashboard provides an at-a-glance overview of your CRM activities. It
+displays key metrics, recent customer interactions, and upcoming events,
+offering valuable insights to help you make informed decisions.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/halx7sfl9ctke1fu3w35.png" alt="Image" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="calendar-integration">Calendar Integration<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#calendar-integration" class="hash-link" aria-label="Calendar Integration への直接リンク" title="Calendar Integration への直接リンク">​</a></h3>
-<p>Effortlessly manage appointments, meetings, and important events with the integrated Calendar feature. Stay organized and ensure you never miss a crucial interaction with your customers.</p>
+<p>Effortlessly manage appointments, meetings, and important events with the
+integrated Calendar feature. Stay organized and ensure you never miss a crucial
+interaction with your customers.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2v8ghazuheiznefwat9.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="scrumboard-project-kanban">Scrumboard-Project Kanban<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#scrumboard-project-kanban" class="hash-link" aria-label="Scrumboard-Project Kanban への直接リンク" title="Scrumboard-Project Kanban への直接リンク">​</a></h3>
-<p>Our Scrumboard or Project Kanban page streamlines project management. Visualize project progress, manage tasks, and facilitate team collaboration with ease. Move tasks through customizable boards to keep your projects on track.</p>
+<p>Our Scrumboard or Project Kanban page streamlines project management. Visualize
+project progress, manage tasks, and facilitate team collaboration with ease.
+Move tasks through customizable boards to keep your projects on track.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0hcll7tbqx3t71i6v7a9.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="sales-pipeline">Sales Pipeline<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#sales-pipeline" class="hash-link" aria-label="Sales Pipeline への直接リンク" title="Sales Pipeline への直接リンク">​</a></h3>
-<p>Effectively manage your sales process from lead generation to deal closure. The Sales Pipeline provides a visual representation of your sales stages, helping your team prioritize leads and track conversions.</p>
+<p>Effectively manage your sales process from lead generation to deal closure. The
+Sales Pipeline provides a visual representation of your sales stages, helping
+your team prioritize leads and track conversions.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5uoj722wasvw2fx8z49.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="companies">Companies<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#companies" class="hash-link" aria-label="Companies へ��の直接リンク" title="Companies への直接リンク">​</a></h3>
-<p>The Companies page allows you to organize and categorize your business contacts. Maintain detailed profiles for each company, including contact information, communication history, and associated contacts.</p>
+<p>The Companies page allows you to organize and categorize your business contacts.
+Maintain detailed profiles for each company, including contact information,
+communication history, and associated contacts.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gjlahcc1icfthu2n31ar.png" alt="Imag" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="contacts">Contacts<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#contacts" class="hash-link" aria-label="Contacts への直接リンク" title="Contacts への直接リンク">​</a></h3>
-<p>Manage individual contacts efficiently using the Contacts page. Keep track of customer interactions, schedule follow-ups, and access critical contact information quickly.</p>
+<p>Manage individual contacts efficiently using the Contacts page. Keep track of
+customer interactions, schedule follow-ups, and access critical contact
+information quickly.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4c0ef7tv7nktax4gt3oz.png" alt="Imag" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="quotes">Quotes<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#quotes" class="hash-link" aria-label="Quotes への直接リンク" title="Quotes への直接リンク">​</a></h3>
-<p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate professional quotes for your customers, track their status, and convert them into sales.</p>
+<p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate
+professional quotes for your customers, track their status, and convert them
+into sales.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9rqj0pzgkrure7ov5mr9.png" alt="Image" class="img_CfaS"></p>
 <br>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="administration">Administration<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#administration" class="hash-link" aria-label="Administration への直接リンク" title="Administration への直接リンク">​</a></h3>
-<p>The Administration section empowers you to configure and customize your CRM application to suit your specific business needs. Manage user roles, access permissions, and system settings effortlessly.</p>
+<p>The Administration section empowers you to configure and customize your CRM
+application to suit your specific business needs. Manage user roles, access
+permissions, and system settings effortlessly.</p>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m5deq6ceue79kloeuryz.png" alt="Image description" class="img_CfaS"></p>
 <br>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="authentication--authorization">Authentication &amp; Authorization<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#authentication--authorization" class="hash-link" aria-label="Authentication &amp; Authorization への直接リンク" title="Authentication &amp; Authorization への直接リンク">​</a></h3>
 <p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m1r04i2h0cf1jegasbte.png" alt="Image description" class="img_CfaS"></p>
-<p>This example app is a comprehensive set of features that ensures you can streamline your customer interactions, project management, and sales processes, all within a single, user-friendly platform. Whether you're managing contacts, tracking sales, or overseeing projects, our CRM app provides the tools you need for success.</p>
+<p>This example app is a comprehensive set of features that ensures you can
+streamline your customer interactions, project management, and sales processes,
+all within a single, user-friendly platform. Whether you're managing contacts,
+tracking sales, or overseeing projects, our CRM app provides the tools you need
+for success.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="technologies-used">Technologies Used<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#technologies-used" class="hash-link" aria-label="Technologies Used への直接リンク" title="Technologies Used への直接リンク">​</a></h2>
-<p>Our CRM app's modular structure and use of open-source tools make it adaptable to various business needs. So you can build all kinds of web apps like internal tools, admin panels, or dashboards on top of it.</p>
+<p>Our CRM app's modular structure and use of open-source tools make it adaptable
+to various business needs. So you can build all kinds of web apps like internal
+tools, admin panels, or dashboards on top of it.</p>
 <p>To bring our CRM app to life, we leveraged several cutting-edge technologies:</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="1-refine">1. refine<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#1-refine" class="hash-link" aria-label="1. refine への直接リンク" title="1. refine への直接リンク">​</a></h3>
-<p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM application. It offers a wide range of tools and components for easily building data-intensive applications.</p>
-<p>refine's internal hooks and components simplify the development process and eliminate repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.</p>
+<p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM
+application. It offers a wide range of tools and components for easily building
+data-intensive applications.</p>
+<p>refine's internal hooks and components simplify the development process and
+eliminate repetitive tasks by providing industry-standard solutions for crucial
+aspects of a project, including authentication, access control, routing,
+networking, state management, and i18n.</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="2-ant-design">2. Ant Design<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#2-ant-design" class="hash-link" aria-label="2. Ant Design への直接リンク" title="2. Ant Design への直接リンク">​</a></h3>
-<p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and responsive user interface that our CRM app needed. Its pre-built components saved us time and effort.</p>
-<p>It's consistent and polished UI components ensured a professional and user-friendly interface. refine has a built-in integration for Ant Design.</p>
+<p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and
+responsive user interface that our CRM app needed. Its pre-built components
+saved us time and effort.</p>
+<p>It's consistent and polished UI components ensured a professional and
+user-friendly interface. refine has a built-in integration for Ant Design.</p>
 <h3 class="anchor anchorWithStickyNavbar_dXVO" id="3-graphql">3. GraphQL<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#3-graphql" class="hash-link" aria-label="3. GraphQL への直接リンク" title="3. GraphQL への直接リンク">​</a></h3>
-<p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and updating from our server. Additionally, we integrated <a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a> to manage real-time modifications.</p>
-<p>For instance, on the Project Kanban page, tasks get updated automatically when cards are dragged and dropped between sections.</p>
+<p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and
+updating from our server. Additionally, we integrated
+<a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a>
+to manage real-time modifications.</p>
+<p>For instance, on the Project Kanban page, tasks get updated automatically when
+cards are dragged and dropped between sections.</p>
 <p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/real-time.gif" alt="Image" class="img_CfaS"></p>
-<p>GraphQL's efficient data-fetching capabilities made working with large datasets a breeze. It's flexibility allowed us to tailor our queries to our exact requirements.</p>
-<p>refine has built-in data provider support for GraphQL.You can set it up during the project creation phase.</p>
+<p>GraphQL's efficient data-fetching capabilities made working with large datasets
+a breeze. It's flexibility allowed us to tailor our queries to our exact
+requirements.</p>
+<p>refine has built-in data provider support for GraphQL.You can set it up during
+the project creation phase.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#best-practices-and-ecosystem-integration" class="hash-link" aria-label="Best Practices and Ecosystem Integration への直接リンク" title="Best Practices and Ecosystem Integration への直接リンク">​</a></h2>
-<p>Throughout the development process, we adhered to best practices and incorporated elements from the broader ecosystem. This ensures our CRM app is not only functional but also scalable and maintainable.</p>
-<p>The group responsible for the CRM example app is the core refine framework team. Feel free to explore the best practices within the ecosystem!</p>
+<p>Throughout the development process, we adhered to best practices and
+incorporated elements from the broader ecosystem. This ensures our CRM app is
+not only functional but also scalable and maintainable.</p>
+<p>The group responsible for the CRM example app is the core refine framework team.
+Feel free to explore the best practices within the ecosystem!</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template" class="hash-link" aria-label="Where Can You Use This CRM As A Reference Template? への直接リンク" title="Where Can You Use This CRM As A Reference Template? への直接リンク">​</a></h2>
-<p>Our CRM template isn't limited to just one use case. You can adapt it for various purposes, including:</p>
+<p>Our CRM template isn't limited to just one use case. You can adapt it for
+various purposes, including:</p>
 <ul>
-<li><strong>B2B Applications</strong>: Streamline customer interactions in a business-to-business context.</li>
-<li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or departmental tasks and interactions.</li>
-<li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as the foundation for creating all sorts of CRUD applications.</li>
+<li><strong>B2B Applications</strong>: Streamline customer interactions in a
+business-to-business context.</li>
+<li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or
+departmental tasks and interactions.</li>
+<li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as
+the foundation for creating all sorts of CRUD applications.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/react-crm-with-refine#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>In this article, we've introduced you to our CRM application built with refine. We've highlighted its key features, the technologies we used, and the advantages of our approach. With this CRM template, you have the power to tailor your customer relationship management system to meet your unique business needs. Whether you're running a B2B operation, need an efficient internal tool, or want a versatile CRUD application, our CRM template has you covered.</p>]]></content>
+<p>In this article, we've introduced you to our CRM application built with refine.
+We've highlighted its key features, the technologies we used, and the advantages
+of our approach. With this CRM template, you have the power to tailor your
+customer relationship management system to meet your unique business needs.
+Whether you're running a B2B operation, need an efficient internal tool, or want
+a versatile CRUD application, our CRM template has you covered.</p>]]></content>
         <author>
             <name>Gao Wei</name>
             <uri>https://github.com/wgao19</uri>
@@ -413,7 +475,7 @@ GitHub: <a href="https://github.com/refinedev/refine" target="_blank" rel="noope
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
         <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_Ztdk alert alert--success"><div class="admonitionHeading_wuvZ"><span class="admonitionIcon_bKMe"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_YstZ"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-js codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token operator">&lt;</span><span class="token plain">button onClick</span><span class="token operator">=</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">alert</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">'button clicked!'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token operator">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token plain">button</span><span class="token operator">&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
+<div class="theme-admonition theme-admonition-tip admonition_Ztdk alert alert--success"><div class="admonitionHeading_wuvZ"><span class="admonitionIcon_bKMe"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>ヒント</div><div class="admonitionContent_YstZ"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-js codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token operator">&lt;</span><span class="token plain">button onClick</span><span class="token operator">=</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">alert</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">'button clicked!'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token operator">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token plain">button</span><span class="token operator">&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
         <author>
             <name>Sébastien Lorber</name>
             <uri>https://sebastienlorber.com</uri>
