@@ -36,6 +36,13 @@ export const TAB_OPTIONS = [
     }),
     value: 4,
   },
+  {
+    label: translate({
+      id: "ai_header.solutions_title.admin_panel",
+      message: "Admin Panel",
+    }),
+    value: 5,
+  },
 ]
 
 export const SOLUTIONS_IMAGE = [
@@ -119,6 +126,22 @@ export const SOLUTIONS_IMAGE = [
     appID: "ILAcx4p1C7W3",
     value: 4,
   },
+  {
+    content: (
+      <img
+        src="https://cdn.illacloud.com/illa-website/test/imageGenerate2.svg"
+        className="w-full"
+      />
+    ),
+    contentBg: (
+      <img
+        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
+        className="w-full"
+      />
+    ),
+    appID: "ILAcx4p1C7W3",
+    value: 5,
+  },
 ]
 
 const MOBILE_SOLUTIONS_IMAGE = [
@@ -158,6 +181,14 @@ const MOBILE_SOLUTIONS_IMAGE = [
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        className="w-full"
+      />
+    ),
+  },
+  {
+    content: (
+      <img
+        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
         className="w-full"
       />
     ),

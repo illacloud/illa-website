@@ -17,7 +17,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.image_generator",
-        message: "temp title 1",
+        message: "Image generator",
       }),
       description: translate({
         id: "ai_header.solutions_description.image_generator",
@@ -30,7 +30,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.ai_voice_generator",
-        message: "temp title 2",
+        message: "AI Voice Generator",
       }),
       description: translate({
         id: "ai_header.solutions_description.ai_voice_generator",
@@ -43,7 +43,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.dashboard",
-        message: "temp title 22",
+        message: "Dashboard",
       }),
       description: translate({
         id: "ai_header.solutions_description.dashboard",
@@ -56,7 +56,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.cms",
-        message: "temp title 3",
+        message: "CMS",
       }),
       description: translate({
         id: "ai_header.solutions_description.cms",
@@ -69,7 +69,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.crm",
-        message: "temp title 4",
+        message: "CRM",
       }),
       description: translate({
         id: "ai_header.solutions_description.crm",
@@ -82,7 +82,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.admin_panel",
-        message: "temp title 5",
+        message: "Admin Panel",
       }),
       description: translate({
         id: "ai_header.solutions_description.admin_panel",
