@@ -2,7 +2,7 @@ import React from "react";
 import Link from "@docusaurus/Link";
 import { useBlogPost } from "@docusaurus/theme-common/internal";
 import BlogPostItemContainer from "@theme/BlogPostItem/Container";
-
+import Tag from "@theme/Tag"
 import { Date } from "@site/src/components/blog/common/date";
 import clsx from "clsx";
 
@@ -45,20 +45,17 @@ export default function BlogPostItem({ className }) {
           )}
         >
           {tags.map((tag) => (
-            <Link
-              className={clsx(
-                "text-xs",
-                "bg-gray-100 dark:bg-gray-700",
-                "text-gray-600 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-400",
-                "no-underline",
-                "rounded",
-                "px-2 py-1",
-              )}
-              href={tag.permalink}
-              key={tag.permalink}
-            >
-              {tag.label}
-            </Link>
+            <Tag className={clsx(
+              "text-xs",
+              "bg-gray-100 dark:bg-gray-700",
+              "text-gray-600 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-400",
+              "no-underline",
+              "rounded",
+              "px-2 py-1",
+            )}
+              permalink={tag.permalink}
+              key={tag.permalink} label={tag.label} />
+
           ))}
         </div>
         <div className="mb-2 md:mb-4">

@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 
-export default function Tag({ permalink, label, isActive }) {
+export default function Tag({ permalink, label, isActive, className }) {
     return (
         <Link
             href={permalink}
@@ -16,6 +16,7 @@ export default function Tag({ permalink, label, isActive }) {
                 "px-2",
                 isActive && "bg-gray-200 text-gray-500",
                 isActive && "dark-bg-gray-700 text-gray-300",
+                className
             )}
         >
             {label}
