@@ -40,6 +40,9 @@ const config: Config = {
         theme: {
           customCss: ["./src/ILLATheme/css/custom.css", "./src/css/custom.css"],
         },
+        gtag: {
+          trackingID: "G-QW745VE33W",
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -49,53 +52,24 @@ const config: Config = {
     colorMode: {
       defaultMode: "dark",
     },
-    navbar: {
-      title: "ILLA",
-      logo: {
-        alt: "ILLA",
-        srcDark: "img/logo.svg",
-        src: "img/whiteLogo.svg",
-        width: "51px",
-        height: "24px",
+    metadata: [
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
       },
-      items: [{ to: "/blog", label: "Blog", position: "left" }],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
+      {
+        name: "twitter:site",
+        content: "@illaCloudHQ",
+      },
+      {
+        name: "twitter:creator",
+        content: "@illaCloudHQ",
+      },
+      {
+        property: "og:image",
+        content: "img/social-card-large.png",
+      },
+    ],
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
@@ -130,29 +104,6 @@ const config: Config = {
         },
       }
     },
-    // function svgFix() {
-    //   return {
-    //     name: 'svg-fix',
-    //     configureWebpack(config) {
-    //       const svgRuleIndex = config.module.rules.findIndex((r) =>
-    //         r.test.test('file.svg'),
-    //       );
-    //       const svgrConfigIndex = config.module.rules[
-    //         svgRuleIndex
-    //       ].oneOf.findIndex((r) => {
-    //         if (!Array.isArray(r.use) || r.use.length === 0) return false;
-    //         return r.use[0].loader.indexOf('@svgr/webpack') !== -1;
-    //       });
-    //       if (svgRuleIndex === -1 || svgrConfigIndex === -1) return;
-
-    //       config.module.rules[svgRuleIndex].oneOf[
-    //         svgrConfigIndex
-    //       ].use[0].options.svgoConfig.plugins[0].params.overrides.cleanupIDs =
-    //         false;
-    //       return config;
-    //     },
-    //   };
-    // },
     async function taildindcss() {
       return {
         name: "docusaurus-tailwindcss",
@@ -185,6 +136,9 @@ const config: Config = {
       },
     ],
     "./plugins/solution-plugin.js",
+    "./plugins/linkedin.js",
+    "./plugins/twitter.js",
+    "./plugins/chatwoot.js",
   ],
 }
 

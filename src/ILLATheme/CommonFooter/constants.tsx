@@ -79,7 +79,7 @@ const Solution: IFootContentItem[] = [
   {
     label: translate({
       id: "ai_header.solutions_title.image_generator",
-      message: "temp title 1",
+      message: "Image generator",
     }),
     href: "image-generator",
     tagCategory: "homepage_menu_solutions_image_generator_click",
@@ -87,7 +87,7 @@ const Solution: IFootContentItem[] = [
   {
     label: translate({
       id: "ai_header.solutions_title.ai_voice_generator",
-      message: "temp title 2",
+      message: "AI Voice Generator",
     }),
     href: "image-generator",
     tagCategory: "homepage_menu_solutions_ai_voice_generator_click",
@@ -95,7 +95,31 @@ const Solution: IFootContentItem[] = [
   {
     label: translate({
       id: "ai_header.solutions_title.dashboard",
-      message: "temp title 22",
+      message: "Dashboard",
+    }),
+    href: "image-generator",
+    tagCategory: "homepage_menu_solutions_dashboard_click",
+  },
+  {
+    label: translate({
+      id: "ai_header.solutions_title.cms",
+      message: "CMS",
+    }),
+    href: "image-generator",
+    tagCategory: "homepage_menu_solutions_dashboard_click",
+  },
+  {
+    label: translate({
+      id: "ai_header.solutions_title.crm",
+      message: "CRM",
+    }),
+    href: "image-generator",
+    tagCategory: "homepage_menu_solutions_dashboard_click",
+  },
+  {
+    label: translate({
+      id: "ai_header.solutions_title.admin_panel",
+      message: "Admin Panel",
     }),
     href: "image-generator",
     tagCategory: "homepage_menu_solutions_dashboard_click",
@@ -270,7 +294,7 @@ export const FOOTER_CONTENT = [
   },
   {
     title: translate({
-      message: "Solution",
+      message: "Solutions",
       id: "ai_header.solutions_title.solutions",
     }),
     items: Solution,

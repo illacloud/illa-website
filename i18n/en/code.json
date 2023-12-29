@@ -12,13 +12,22 @@
     "message": "Media Kit"
   },
   "ai_header.solutions_title.image_generator": {
-    "message": "temp title 1"
+    "message": "Image generator"
   },
   "ai_header.solutions_title.ai_voice_generator": {
-    "message": "temp title 2"
+    "message": "AI Voice Generator"
   },
   "ai_header.solutions_title.dashboard": {
-    "message": "temp title 22"
+    "message": "Dashboard"
+  },
+  "ai_header.solutions_title.cms": {
+    "message": "CMS"
+  },
+  "ai_header.solutions_title.crm": {
+    "message": "CRM"
+  },
+  "ai_header.solutions_title.admin_panel": {
+    "message": "Admin Panel"
   },
   "footer.table": {
     "message": "Table"
@@ -110,20 +119,11 @@
   "ai_header.solutions_description.dashboard": {
     "message": "temp title 22"
   },
-  "ai_header.solutions_title.cms": {
-    "message": "temp title 3"
-  },
   "ai_header.solutions_description.cms": {
     "message": "temp title 3"
   },
-  "ai_header.solutions_title.crm": {
-    "message": "temp title 4"
-  },
   "ai_header.solutions_description.crm": {
     "message": "temp title 4"
-  },
-  "ai_header.solutions_title.admin_panel": {
-    "message": "temp title 5"
   },
   "ai_header.solutions_description.admin_panel": {
     "message": "temp title 5"
@@ -200,7 +200,109 @@
   "faq.content.5.answer": {
     "message": "Yes, ILLA Cloud offers technical support to its users. If you encounter any issues or have questions about the platform's features, you can reach out to our support team for assistance. We are dedicated to helping you have a seamless experience with ILLA Cloud."
   },
+  "pricing.sub-title": {
+    "message": "Build AI Driven Business App"
+  },
+  "pricing.title": {
+    "message": "Pricing"
+  },
+  "pricing.page-desc": {
+    "message": "With the launch of ILLA Cloud Billing, you'll gain access to exclusive features such as Audit Logs and Public App. Our billing system is based on members with editing rights, including owner, admin, and editor roles. Once you subscribe, you can add unlimited viewers at no extra cost."
+  },
+  "pricing.meta-desc": {
+    "message": "Start free with all the features individual developers or small teams need to build internal applications."
+  },
+  "pricing.billing.pricing.premium.feature.builder.viewer": {
+    "message": "FREE for unlimited viewers"
+  },
+  "pricing.billing.pricing.premium.feature.builder.audit_log": {
+    "message": "Audit logs"
+  },
+  "pricing.billing.pricing.premium.feature.builder.public": {
+    "message": "App public"
+  },
+  "pricing.billing.pricing.premium.feature.builder.sql": {
+    "message": "AI SQL Generation"
+  },
+  "pricing.billing.pricing.premium.feature.builder.history": {
+    "message": "Backup editing history & restore"
+  },
+  "pricing.billing.pricing.premium.feature.builder.theme": {
+    "message": "Custom themes for your apps ( coming soon )"
+  },
+  "pricing.billing.pricing.premium.feature.builder.multi_environment": {
+    "message": "Multi-environment ( coming soon )"
+  },
+  "pricing.billing.pricing.premium.feature.builder.deployed_version": {
+    "message": "Keep deployed versions & revert ( coming soon )"
+  },
+  "pricing.billing.pricing.premium.feature.agent.gpt": {
+    "message": "Access to more models such as GPT-4, \nGPT-3.5-turbo-16k"
+  },
+  "pricing.billing.pricing.colla.feature.storage": {
+    "message": "Storage"
+  },
+  "pricing.billing.pricing.colla.feature.traffic": {
+    "message": "Traffic"
+  },
+  "pricing.billing.pricing.colla.feature.token": {
+    "message": "AI Agent"
+  },
+  "pricing.faq.title": {
+    "message": "Frequently Asked Questions"
+  },
+  "pricing.faq.content.0.question": {
+    "message": "Who are the users that are charged for the product?"
+  },
+  "pricing.faq.content.0.answer": {
+    "message": "Users with editing permissions (editor) are charged for the product."
+  },
+  "pricing.faq.content.1.question": {
+    "message": "What are the different types of editors?"
+  },
+  "pricing.faq.content.1.answer": {
+    "message": "The different types of editors are owner, admin, and editor."
+  },
+  "pricing.faq.content.2.question": {
+    "message": "Are viewers charged for using the product?"
+  },
+  "pricing.faq.content.2.answer": {
+    "message": "No, viewers are not charged for using the product."
+  },
+  "pricing.faq.content.3.question": {
+    "message": "How to invite a viewer?"
+  },
+  "pricing.faq.content.3.answer": {
+    "message": "To invite a viewer, you need to upgrade the team to any of the Plus, Premium, or Enterprise plans and invite the user via email or link."
+  },
+  "pricing.faq.content.4.question": {
+    "message": "What services does ILLA Cloud provide?"
+  },
+  "pricing.faq.content.4.answer": {
+    "message": "ILLA Builder, ILLA Drive and AI Agent."
+  },
+  "pricing.faq.content.5.question": {
+    "message": "What is ILLA Drive?"
+  },
+  "pricing.faq.content.5.answer": {
+    "message": "ILLA Drive is a CDN (Content Delivery Network) that allows storing any files and distributing them to users through the company's websites or other products. Usage of storage and traffic is billed separately."
+  },
+  "pricing.faq.content.6.question": {
+    "message": "What is AI Agent?"
+  },
+  "pricing.faq.content.6.answer": {
+    "message": "We provide an open-source AI Agent community with thousands of AI Agents provided by prompt experts and enthusiasts. Everyone can run or modify these AI Agents."
+  },
+  "pricing.faq.content.7.question": {
+    "message": "How is billing done for AI Agent usage?"
+  },
+  "pricing.faq.content.7.answer": {
+    "message": "Billing for AI Agent usage is based on Colla, which is a billing concept within ILLA. Colla measures the resources consumed during the runtime of AI Agents."
+  },
   "landingPage.components.meta.title": {
+    "message": "ILLA Cloud Components"
+  },
+  "landingPage.components.meta.description": {
     "message": "Learn how to use the prebuilt components to customize your app in ILLA Cloud."
   },
   "landingPage.components.headerContent.title": {
@@ -276,6 +378,9 @@
     "message": "The 'Video' component in ILLA Cloud is a display element that allows users to play and interact with videos within the application."
   },
   "landingPage.integrations.meta.title": {
+    "message": "ILLA Cloud Integrations"
+  },
+  "landingPage.integrations.meta.description": {
     "message": "Learn how to use the integrations to access and work with data resource."
   },
   "landingPage.integrations.headerContent.title": {
@@ -380,11 +485,61 @@
     "message": "Older Entries",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
   "footer.less": {
     "message": "Show less"
   },
   "footer.more": {
     "message": "Show more"
+  },
+  "website_4.solution.use_this_template": {
+    "message": "Try demo now!"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "learn_more": {
+    "message": "Learn more"
+  },
+  "call-to-action.title": {
+    "message": "Start Building Apps with ILLA Cloud"
+  },
+  "call-to-action.desc": {
+    "message": "Any internal tool you need can be built using ILLA Cloud in 1 minute."
+  },
+  "call-to-action.button-1": {
+    "message": "Try Cloud for free"
+  },
+  "call-to-action.button-2": {
+    "message": "sign in with GitHub"
+  },
+  "title.github": {
+    "message": "Github"
+  },
+  "title.stars": {
+    "message": "Stars"
+  },
+  "title.star-us": {
+    "message": "Star us"
+  },
+  "pricing.billing.pricing.premium.desc": {
+    "message": "Upgrade your team to access advanced features"
+  },
+  "pricing.billing.pricing.premium.price": {
+    "message": "/month/editor"
+  },
+  "pricing.billing.pricing.colla.desc": {
+    "message": "Used to pay for value-added services in ILLA Cloud"
+  },
+  "pricing.billing.pricing.colla.price": {
+    "message": "/month/5k Colla"
+  },
+  "pricing.billing.plus-btn": {
+    "message": "Upgrade"
   },
   "landingPageDetail.audio.name": {
     "message": "Audio"
@@ -1337,41 +1492,13 @@
   "landingPage.back_to_components": {
     "message": "Back to components"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
   },
-  "call-to-action.title": {
-    "message": "Start Building Apps with ILLA Cloud"
-  },
-  "call-to-action.desc": {
-    "message": "Any internal tool you need can be built using ILLA Cloud in 1 minute."
-  },
-  "call-to-action.button-1": {
-    "message": "Try Cloud for free"
-  },
-  "call-to-action.button-2": {
-    "message": "sign in with GitHub"
-  },
-  "learn_more": {
-    "message": "Learn more"
-  },
-  "title.github": {
-    "message": "Github"
-  },
-  "title.stars": {
-    "message": "Stars"
-  },
-  "title.star-us": {
-    "message": "Star us"
-  },
-  "theme.blog.post.readMore": {
-    "message": "Read More",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
-  },
-  "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
   },
   "content.all.title": {
     "message": "ILLA Cloud integrates everything"
@@ -1470,7 +1597,13 @@
     "message": "Trusted by thousands of teams"
   },
   "description": {
-    "message": "Empower your team with {AIAgent} and advanced low-code tools to\n  create {businessApp}"
+    "message": "Empower your team with {AIAgent} and advanced low-code tools to create {businessApp}"
+  },
+  "website_4.description.ai_agent": {
+    "message": "AI Agent"
+  },
+  "website_4.description.business_app": {
+    "message": "business app"
   },
   "illa-Cloud": {
     "message": "Get start"
@@ -1481,22 +1614,17 @@
   "join-community": {
     "message": "Join Discord"
   },
-  "website_4.description.ai_agent": {
-    "message": "AI Agent"
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
   },
-  "website_4.description.business_app": {
-    "message": "business app"
-  },
-  "website_4.solution.use_this_template": {
-    "message": "Try demo now!"
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "Archive",
@@ -1505,6 +1633,10 @@
   "theme.blog.archive.description": {
     "message": "Archive",
     "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Blog post page navigation",
@@ -1542,13 +1674,13 @@
     "message": "light mode",
     "description": "The name for the light color mode"
   },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Docs pages",
@@ -1573,6 +1705,10 @@
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1589,10 +1725,6 @@
     "message": "latest version",
     "description": "The label used for the latest version suggestion link label"
   },
-  "theme.common.editThisPage": {
-    "message": "Edit this page",
-    "description": "The link label to edit the current page"
-  },
   "theme.common.headingLinkTitle": {
     "message": "Direct link to {heading}",
     "description": "Title for link to heading"
@@ -1608,10 +1740,6 @@
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
-  },
-  "theme.NotFound.title": {
-    "message": "Page Not Found",
-    "description": "The title of the 404 page"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versions",
@@ -1665,10 +1793,6 @@
     "message": "Copy",
     "description": "The copy button label on code blocks"
   },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
-  },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
     "message": "Expand sidebar category '{label}'",
     "description": "The ARIA label to expand the sidebar category"
@@ -1677,29 +1801,21 @@
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
     "description": "The ARIA label for the main navigation"
-  },
-  "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
-    "description": "The first paragraph of the 404 page"
-  },
-  "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
-    "description": "The 2nd paragraph of the 404 page"
-  },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Collapse sidebar",
@@ -1709,9 +1825,13 @@
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
   },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Close navigation bar",

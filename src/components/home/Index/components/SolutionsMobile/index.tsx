@@ -1,7 +1,7 @@
 import { FC } from "react"
 import style from "./index.module.css"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { MOBILE_SOLUTIONS_IMAGE } from "../../constants"
+import { MOBILE_SOLUTIONS } from "../../constants"
 import "swiper/css"
 import { Autoplay } from "swiper/modules"
 
@@ -14,7 +14,7 @@ const SolutionsMobile: FC = () => {
         delay: 3000,
       }}
     >
-      {MOBILE_SOLUTIONS_IMAGE.map((item) => (
+      {MOBILE_SOLUTIONS.map((item) => (
         <SwiperSlide key={item.label}>
           <div className={style.contentContainerStyle}>
             {item.content}
