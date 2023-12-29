@@ -25,7 +25,6 @@
 }
 
 .colorSloganStyle {
-  background: linear-gradient(90deg, #00ee8a 0%, #2c66fa 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -51,4 +50,9 @@
 .demoImgStyle {
   @apply lg:block hidden w-full max-w-full relative;
   transform-origin: center;
+}
+
+.linkButtonStyle {
+  @apply absolute bottom-[40px] z-[2] left-[50%];
+  transform: translateX(-50%);
 }
