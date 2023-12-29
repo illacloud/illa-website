@@ -153,52 +153,7 @@
     "message": "Anmelden"
   },
   "nav.signup": {
-    "message": "Registrieren"
-  },
-  "meta.title": {
-    "message": "ILLA Cloud | Build AI Driven Business App"
-  },
-  "meta.description": {
-    "message": "Ermächtigen Sie Ihr Team mit AI Agent und fortgeschrittenen Low-Code-Tools um Business-Apps zu erstellen"
-  },
-  "faq.title": {
-    "message": "Häufig gestellte Fragen"
-  },
-  "faq.content.0.question": {
-    "message": "Welche Art von Inhalt kann ich mit ILLA AI erstellen?"
-  },
-  "faq.content.0.answer": {
-    "message": "Sie können jede beliebige interne Anwendung oder das AI Tool erstellen, das Sie benötigen, und Sie können auch die AI in interne Anwendungen integrieren. Zum Beispiel ein Dashboard, ein Admin-Panel, Datei-Content-Management, Kundenmanagementsystem, Werkzeug zur Erzeugung von Texten, das Werkzeug zur Erzeugung von Bildern und anderen Dateien."
-  },
-  "faq.content.1.question": {
-    "message": "Wer kann ILLA Cloud nutzen?"
-  },
-  "faq.content.1.answer": {
-    "message": "Egal, ob Sie Produktmanager, Komplettentwickler, Projektmanager, Datenanalyse... nyone kann ILLA Cloud zur Erstellung von Werkzeugen verwenden: Von der Erstellung von Front-End-Schnittstellen mit Drag-and-Drop-Komponenten bis hin zur Integration in Datenquellen und der Generierung von Abfragen mit Hilfe von AI-Unterstützung, ILLA bietet eine vereinfachte Erfahrung, die unnötige Komplexitäten beseitigt. Sie müssen kein Technologieexperte sein, um Ihre eigenen Anwendungen zu erstellen."
-  },
-  "faq.content.2.question": {
-    "message": "Wie kann ich von der ILLA Cloud profitieren?"
-  },
-  "faq.content.2.answer": {
-    "message": "ILLA KI reduziert nicht nur die Kosten für den Bau Ihrer Werkzeuge, sondern integriert auch alle gewünschten KI-Fähigkeiten Ihre Arbeit effizienter zu gestalten und in kürzester Zeit wertvolle Inhalte zu generieren."
-  },
-  "faq.content.3.question": {
-    "message": "Kann ich den AI Agent an meine spezifischen Geschäftsbedürfnisse anpassen?"
-  },
-  "faq.content.3.answer": {
-    "message": "Ja, Sie können das! KI Agent basiert auf einem großen Sprachmodell und kann an bestimmte Aufgaben angepasst werden. Sie können das Verhalten des AI Agenten anhand Ihrer geschäftlichen Anforderungen definieren. Durch die Verwendung von ILLA Builder können Sie Daten in den AI Agent einfügen und es so trainieren, dass bestimmte Aufgaben wie Textverarbeitung erledigt werden und die Verarbeitung natürlicher Sprachen."
-  },
-  "faq.content.4.question": {
-    "message": "Welche Datenquellen unterstützt ILLA?"
-  },
-  "faq.content.4.answer": {
-    "message": "ILLA unterstützt die Integration mit einer Vielzahl von Datenquellen, darunter PostgreSQL, MongoDB, REST API, GraphQL, Google Sheets und mehr. Sie können sich schnell mit einer beliebigen Datenquelle verbinden, ohne Code zu schreiben, was den nahtlosen Zugriff auf Ihre gewünschten Daten ermöglicht."
-  },
-  "faq.content.5.question": {
-    "message": "Gibt es technische Unterstützung für ILLA Cloud-Benutzer?"
-  },
-  "faq.content.5.answer": {
-    "message": "Ja, ILLA Cloud bietet seinen Benutzern technische Unterstützung. Wenn Sie auf Probleme stoßen oder Fragen zu den Funktionen der Plattform haben, können Sie sich an unser Support-Team wenden. Wir helfen Ihnen, eine nahtlose Erfahrung mit ILLA Cloud zu machen."
+    "message": "Kostenlos loslegen"
   },
   "pricing.sub-title": {
     "message": "Baue AI Driven Business App"
@@ -473,6 +428,51 @@
   "landingPage.integrations.classify.api.airtable.description": {
     "message": "Eine flexible und kollaborative Plattform zur nahtlosen Verwaltung von Projekten, Daten und Teams."
   },
+  "meta.title": {
+    "message": "ILLA Cloud | Build AI Driven Business App"
+  },
+  "meta.description": {
+    "message": "Ermächtigen Sie Ihr Team mit AI Agent und fortgeschrittenen Low-Code-Tools um Business-Apps zu erstellen"
+  },
+  "faq.title": {
+    "message": "Häufig gestellte Fragen"
+  },
+  "faq.content.0.question": {
+    "message": "Welche Art von Inhalt kann ich mit ILLA AI erstellen?"
+  },
+  "faq.content.0.answer": {
+    "message": "Sie können jede beliebige interne Anwendung oder das AI Tool erstellen, das Sie benötigen, und Sie können auch die AI in interne Anwendungen integrieren. Zum Beispiel ein Dashboard, ein Admin-Panel, Datei-Content-Management, Kundenmanagementsystem, Werkzeug zur Erzeugung von Texten, das Werkzeug zur Erzeugung von Bildern und anderen Dateien."
+  },
+  "faq.content.1.question": {
+    "message": "Wer kann ILLA Cloud nutzen?"
+  },
+  "faq.content.1.answer": {
+    "message": "Egal, ob Sie Produktmanager, Komplettentwickler, Projektmanager, Datenanalyse... nyone kann ILLA Cloud zur Erstellung von Werkzeugen verwenden: Von der Erstellung von Front-End-Schnittstellen mit Drag-and-Drop-Komponenten bis hin zur Integration in Datenquellen und der Generierung von Abfragen mit Hilfe von AI-Unterstützung, ILLA bietet eine vereinfachte Erfahrung, die unnötige Komplexitäten beseitigt. Sie müssen kein Technologieexperte sein, um Ihre eigenen Anwendungen zu erstellen."
+  },
+  "faq.content.2.question": {
+    "message": "Wie kann ich von der ILLA Cloud profitieren?"
+  },
+  "faq.content.2.answer": {
+    "message": "ILLA KI reduziert nicht nur die Kosten für den Bau Ihrer Werkzeuge, sondern integriert auch alle gewünschten KI-Fähigkeiten Ihre Arbeit effizienter zu gestalten und in kürzester Zeit wertvolle Inhalte zu generieren."
+  },
+  "faq.content.3.question": {
+    "message": "Kann ich den AI Agent an meine spezifischen Geschäftsbedürfnisse anpassen?"
+  },
+  "faq.content.3.answer": {
+    "message": "Ja, Sie können das! KI Agent basiert auf einem großen Sprachmodell und kann an bestimmte Aufgaben angepasst werden. Sie können das Verhalten des AI Agenten anhand Ihrer geschäftlichen Anforderungen definieren. Durch die Verwendung von ILLA Builder können Sie Daten in den AI Agent einfügen und es so trainieren, dass bestimmte Aufgaben wie Textverarbeitung erledigt werden und die Verarbeitung natürlicher Sprachen."
+  },
+  "faq.content.4.question": {
+    "message": "Welche Datenquellen unterstützt ILLA?"
+  },
+  "faq.content.4.answer": {
+    "message": "ILLA unterstützt die Integration mit einer Vielzahl von Datenquellen, darunter PostgreSQL, MongoDB, REST API, GraphQL, Google Sheets und mehr. Sie können sich schnell mit einer beliebigen Datenquelle verbinden, ohne Code zu schreiben, was den nahtlosen Zugriff auf Ihre gewünschten Daten ermöglicht."
+  },
+  "faq.content.5.question": {
+    "message": "Gibt es technische Unterstützung für ILLA Cloud-Benutzer?"
+  },
+  "faq.content.5.answer": {
+    "message": "Ja, ILLA Cloud bietet seinen Benutzern technische Unterstützung. Wenn Sie auf Probleme stoßen oder Fragen zu den Funktionen der Plattform haben, können Sie sich an unser Support-Team wenden. Wir helfen Ihnen, eine nahtlose Erfahrung mit ILLA Cloud zu machen."
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navigation der Blog-Liste",
     "description": "The ARIA label for the blog pagination"
@@ -484,6 +484,17 @@
   "theme.blog.paginator.olderEntries": {
     "message": "Ältere Einträge",
     "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Ein Beitrag|{count} Beiträge",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} getaggt mit \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.posts_tagged_with": {
+    "message": "Beiträge getaggt mit"
   },
   "theme.NotFound.title": {
     "message": "Seite nicht gefunden",
@@ -501,9 +512,6 @@
   "theme.blog.post.readingTime.plurals": {
     "message": "1 min gelesen|{readingTime} min gelesen",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "learn_more": {
-    "message": "Mehr erfahren"
   },
   "call-to-action.title": {
     "message": "Erstelle Apps mit ILLA-Cloud starten"
@@ -525,6 +533,9 @@
   },
   "title.star-us": {
     "message": "Markiere uns"
+  },
+  "learn_more": {
+    "message": "Mehr erfahren"
   },
   "pricing.billing.pricing.premium.desc": {
     "message": "Verbessern Sie Ihr Team, um auf erweiterte Funktionen zuzugreifen"
@@ -1096,6 +1107,12 @@
   "landingPageDetail.video.metaDescription": {
     "message": "Erfahren Sie, wie Sie mithilfe von Videokomponenten Trainingsvideos, Produktdemos, Tutorials und mehr mit ILLA Cloud erstellen können."
   },
+  "landingPage.build_with": {
+    "message": "Build mit {name}"
+  },
+  "landingPage.back_to_components": {
+    "message": "Zurück zu Komponenten"
+  },
   "landingPageDetail.airtable.name": {
     "message": "Airtable"
   },
@@ -1486,12 +1503,6 @@
   "landingPageDetail.tiDB.metaDescription": {
     "message": "Lernen Sie mit ILLA Cloud, der Open-Source Low-Code-Plattform zum Erstellen interner Tools, wie Sie sich mit Ihrer TiDB-Datenbank verbinden und mit ihnen intern intern kommunizieren können."
   },
-  "landingPage.build_with": {
-    "message": "Build mit {name}"
-  },
-  "landingPage.back_to_components": {
-    "message": "Zurück zu Komponenten"
-  },
   "theme.NotFound.p1": {
     "message": "Wir konnten nicht finden, was Sie suchten.",
     "description": "The first paragraph of the 404 page"
@@ -1606,7 +1617,7 @@
     "message": "geschäftliche App"
   },
   "illa-Cloud": {
-    "message": "Los geht's"
+    "message": "Los geht's!"
   },
   "stars": {
     "message": "Startet"
@@ -1649,14 +1660,6 @@
   "theme.blog.post.paginator.olderPost": {
     "message": "Älterer Beitrag",
     "description": "The blog post button label to navigate to the older/next post"
-  },
-  "theme.blog.post.plurals": {
-    "message": "Ein Beitrag|{count} Beiträge",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.tagTitle": {
-    "message": "{nPosts} getaggt mit \"{tagName}\"",
-    "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
     "message": "Alle Tags anzeigen",
@@ -1705,10 +1708,6 @@
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
-  "theme.common.editThisPage": {
-    "message": "Diese Seite bearbeiten",
-    "description": "The link label to edit the current page"
-  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Dies ist eine unveröffentlichte Dokumentation für {siteTitle} {versionLabel} Version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1724,6 +1723,10 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "neueste Version",
     "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Diese Seite bearbeiten",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "Direkter Link zu {heading}",
@@ -1793,6 +1796,10 @@
     "message": "Kopieren",
     "description": "The copy button label on code blocks"
   },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Wortumbruch umschalten",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
     "message": "Sidebar Kategorie '{label} ' erweitern",
     "description": "The ARIA label to expand the sidebar category"
@@ -1801,21 +1808,21 @@
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "Wortumbruch umschalten",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
-  },
   "theme.NavBar.navAriaLabel": {
     "message": "Haupt",
     "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Sprachen",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "Auf dieser Seite",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
+  "theme.docs.breadcrumbs.home": {
+    "message": "Startseite",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Seitenleiste einklappen",
@@ -1825,13 +1832,9 @@
     "message": "Seitenleiste einklappen",
     "description": "The title attribute for collapse button of doc sidebar"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Sprachen",
-    "description": "The label for the mobile language switcher dropdown"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "Startseite",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Navigationsleiste schließen",

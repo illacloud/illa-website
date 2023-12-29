@@ -1,15 +1,15 @@
 {
   "footer.status": {
-    "message": "状态"
+    "message": "运行状态"
   },
   "footer.roadmap": {
-    "message": "路径图"
+    "message": "产品路线图"
   },
   "footer.changelog": {
     "message": "更新日志"
   },
   "footer.media": {
-    "message": "媒体套件"
+    "message": "媒体资料"
   },
   "ai_header.solutions_title.image_generator": {
     "message": "图像生成器"
@@ -30,7 +30,7 @@
     "message": "管理面板"
   },
   "footer.table": {
-    "message": "表"
+    "message": "表格"
   },
   "footer.chart": {
     "message": "图表"
@@ -42,10 +42,10 @@
     "message": "交换机"
   },
   "footer.select": {
-    "message": "选择"
+    "message": "下拉选择"
   },
   "footer.radio_group": {
-    "message": "无线电组"
+    "message": "单选框组"
   },
   "footer.checkbox_group": {
     "message": "复选框组"
@@ -69,16 +69,16 @@
     "message": "Firebase"
   },
   "footer.elasticsearch": {
-    "message": "弹性搜索"
+    "message": "Elastic Search"
   },
   "footer.mssql": {
-    "message": "Microsoft SQL 服务器"
+    "message": "Microsoft SQL Server"
   },
   "footer.supabase": {
     "message": "Supabase"
   },
   "footer.dynamo": {
-    "message": "动态DB"
+    "message": "DynamoDB"
   },
   "footer.hf": {
     "message": "Hugging Face Inference API"
@@ -87,7 +87,7 @@
     "message": "组件"
   },
   "footer.integrations": {
-    "message": "集成"
+    "message": "数据集成"
   },
   "ai_header.solutions_title.solutions": {
     "message": "解答"
@@ -102,7 +102,7 @@
     "message": "创建 AI 驱动的业务应用程序"
   },
   "footer.privacy-policy": {
-    "message": "隐私政策"
+    "message": "隐私协议"
   },
   "footer.terms-of-service": {
     "message": "服务条款"
@@ -132,7 +132,7 @@
     "message": "资源"
   },
   "sub_nav.resource.integrations": {
-    "message": "集成"
+    "message": "数据集成"
   },
   "sub_nav.resource.components": {
     "message": "组件"
@@ -141,64 +141,19 @@
     "message": "定价"
   },
   "nav.doc": {
-    "message": "门"
+    "message": "文档"
   },
   "nav.blog": {
     "message": "博客"
   },
   "nav.contact": {
-    "message": "书牌演示"
+    "message": "预约演示"
   },
   "nav.login": {
     "message": "登录"
   },
   "nav.signup": {
-    "message": "注册"
-  },
-  "meta.title": {
-    "message": "ILLA Cloud | 构建AI驱动商业应用程序"
-  },
-  "meta.description": {
-    "message": "使用 AI 代理和高级低代码工具赋予您的团队创建商业应用"
-  },
-  "faq.title": {
-    "message": "常见问题"
-  },
-  "faq.content.0.question": {
-    "message": "我可以通过 ILLA AI构建什么样的内容？"
-  },
-  "faq.content.0.answer": {
-    "message": "您可以构建您需要的任何内部应用程序或 AI 工具，您也可以将AI 与内部应用程序集成。 例如，一个仪表板、一个管理面板、文件内容管理、客户管理系统、文本生成工具、图像工具、电子邮件生成工具等。"
-  },
-  "faq.content.1.question": {
-    "message": "谁可以使用 ILLA 云？"
-  },
-  "faq.content.1.answer": {
-    "message": "您是否是一个产品管理员、全堆栈开发者、项目管理员、数据分析员... nyone 可以使用 ILLA 云构造工具：从设计带有拖放组件的前端接口到与数据源集成并使用 AI 援助生成查询 国际法协会提供了一种精简的经验，消除了不必要的复杂性。 您不需要是技术专家才能创建您自己的应用程序。"
-  },
-  "faq.content.2.question": {
-    "message": "我如何能够从ILLA 云中受益？"
-  },
-  "faq.content.2.answer": {
-    "message": "ILLA AI 不仅可以降低构建您的工具的成本，而且还可以整合您想要的任何AI 能力， 使您的工作更有效率，并使您能够在更少的时间内生成更宝贵的内容。"
-  },
-  "faq.content.3.question": {
-    "message": "我能根据我的特定业务需要自定义AI Agent吗？"
-  },
-  "faq.content.3.answer": {
-    "message": "是的，你可以！AI Agent基于一个大型语言模型，可以自定义来执行特定任务。 您可以根据您的业务要求定义AI Agent的行为。 通过使用 ILLA 生成器，您可以将数据输入到 AI 代理人并训练它完成指定的任务，例如文本处理。 图像识别和自然语言处理。"
-  },
-  "faq.content.4.question": {
-    "message": "ILLA 支持什么数据来源？"
-  },
-  "faq.content.4.answer": {
-    "message": "ILLA 支持与包括PostgreSQL、MongoDB、REST API、GraphQL、Google Sheets在内的各种数据源集成。 您可以在没有写入代码的情况下快速连接到任何数据源，允许无缝访问您所需的数据。"
-  },
-  "faq.content.5.question": {
-    "message": "ILLA 云用户是否有任何技术支持？"
-  },
-  "faq.content.5.answer": {
-    "message": "是的，ILLA Cloud向用户提供技术支持。 如果您遇到任何问题或对平台的功能有疑问，您可以联系我们的支持团队寻求帮助。 我们致力于帮助你在ILLA Cloud上拥有无缝的体验。"
+    "message": "免费开始"
   },
   "pricing.sub-title": {
     "message": "创建 AI 驱动的业务应用程序"
@@ -473,6 +428,51 @@
   "landingPage.integrations.classify.api.airtable.description": {
     "message": "一个灵活和可协作的平台，用以管理项目、数据和团队。"
   },
+  "meta.title": {
+    "message": "ILLA Cloud | 构建AI驱动商业应用程序"
+  },
+  "meta.description": {
+    "message": "使用 AI 代理和高级低代码工具赋予您的团队创建商业应用"
+  },
+  "faq.title": {
+    "message": "常见问题"
+  },
+  "faq.content.0.question": {
+    "message": "我可以通过 ILLA AI构建什么样的内容？"
+  },
+  "faq.content.0.answer": {
+    "message": "您可以构建您需要的任何内部应用程序或 AI 工具，您也可以将AI 与内部应用程序集成。 例如，一个仪表板、一个管理面板、文件内容管理、客户管理系统、文本生成工具、图像工具、电子邮件生成工具等。"
+  },
+  "faq.content.1.question": {
+    "message": "谁可以使用 ILLA 云？"
+  },
+  "faq.content.1.answer": {
+    "message": "您是否是一个产品管理员、全堆栈开发者、项目管理员、数据分析员... nyone 可以使用 ILLA 云构造工具：从设计带有拖放组件的前端接口到与数据源集成并使用 AI 援助生成查询 国际法协会提供了一种精简的经验，消除了不必要的复杂性。 您不需要是技术专家才能创建您自己的应用程序。"
+  },
+  "faq.content.2.question": {
+    "message": "我如何能够从ILLA 云中受益？"
+  },
+  "faq.content.2.answer": {
+    "message": "ILLA AI 不仅可以降低构建您的工具的成本，而且还可以整合您想要的任何AI 能力， 使您的工作更有效率，并使您能够在更少的时间内生成更宝贵的内容。"
+  },
+  "faq.content.3.question": {
+    "message": "我能根据我的特定业务需要自定义AI Agent吗？"
+  },
+  "faq.content.3.answer": {
+    "message": "是的，你可以！AI Agent基于一个大型语言模型，可以自定义来执行特定任务。 您可以根据您的业务要求定义AI Agent的行为。 通过使用 ILLA 生成器，您可以将数据输入到 AI 代理人并训练它完成指定的任务，例如文本处理。 图像识别和自然语言处理。"
+  },
+  "faq.content.4.question": {
+    "message": "ILLA 支持什么数据来源？"
+  },
+  "faq.content.4.answer": {
+    "message": "ILLA 支持与包括PostgreSQL、MongoDB、REST API、GraphQL、Google Sheets在内的各种数据源集成。 您可以在没有写入代码的情况下快速连接到任何数据源，允许无缝访问您所需的数据。"
+  },
+  "faq.content.5.question": {
+    "message": "ILLA 云用户是否有任何技术支持？"
+  },
+  "faq.content.5.answer": {
+    "message": "是的，ILLA Cloud向用户提供技术支持。 如果您遇到任何问题或对平台的功能有疑问，您可以联系我们的支持团队寻求帮助。 我们致力于帮助你在ILLA Cloud上拥有无缝的体验。"
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "博客列表导航",
     "description": "The ARIA label for the blog pagination"
@@ -485,12 +485,23 @@
     "message": "较早的文章",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
+  "theme.blog.post.plurals": {
+    "message": "一篇博文| {count} 篇博文",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} 篇博文含有标签“{tagName}”",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.posts_tagged_with": {
+    "message": "贴标签的帖子"
+  },
   "theme.NotFound.title": {
     "message": "找不到页面",
     "description": "The title of the 404 page"
   },
   "footer.less": {
-    "message": "显示更少的"
+    "message": "显示更少"
   },
   "footer.more": {
     "message": "显示更多"
@@ -499,11 +510,8 @@
     "message": "现在尝试演示！"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
+    "message": "阅读需 {readingTime} 分钟",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "learn_more": {
-    "message": "了解更多"
   },
   "call-to-action.title": {
     "message": "使用 ILLA 云启动构建应用程序"
@@ -525,6 +533,9 @@
   },
   "title.star-us": {
     "message": "给我们加星"
+  },
+  "learn_more": {
+    "message": "了解更多"
   },
   "pricing.billing.pricing.premium.desc": {
     "message": "升级您的团队以访问高级功能"
@@ -683,154 +694,154 @@
     "message": "使用 ILLA Cloud 中的日期组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.date.description": {
-    "message": "ILLA 云中的日期组件通过提供基于日历的接口，简化了日期选择，提高了与日期有关的数据管理的效率和准确性。 例如，用户可以创建事件注册表单，并使用日期组件允许用户选择事件日期。 减少与日期有关的错误，简化登记程序。"
+    "message": "ILLA Cloud中的Date组件通过提供基于日历的界面简化了日期的选择，提高了日期相关数据管理的效率和准确性。例如，用户可以创建一个用于事件注册的表单，并使用Date组件允许用户选择活动日期，减少日期相关错误的可能性并简化注册过程。"
   },
   "landingPageDetail.date.metaTitle": {
-    "message": "ILLA 云 | 日期组件"
+    "message": "ILLA Cloud | 日期"
   },
   "landingPageDetail.date.metaDescription": {
-    "message": "学习如何在ILLA Cloud中使用日期组件，这是用于构建内部工具的开放源码低代码平台。"
+    "message": "学习如何在ILLA Cloud中使用日期组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.dateRange.name": {
     "message": "Date Range"
   },
   "landingPageDetail.dateRange.title": {
-    "message": "使用 ILLA 云中的日期范围组件来建立内部工具只需点击几次。"
+    "message": "使用 ILLA Cloud 中的日期范围组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.dateRange.description": {
-    "message": "ILLA 云流中的“日期范围”组件提供基于日历的接口，节省用户的时间和精力，从而选择日期范围。 例如，用户可以创建报告并使用“日期范围”组件来允许用户选择数据分析的日期范围。 • 简化程序并提高效率。"
+    "message": "ILLA Cloud 中的“日期范围”组件通过提供基于日历的界面简化了日期范围的选择，节省了用户的时间和精力。例如，用户可以创建报告并使用“日期范围”组件允许用户选择数据分析的日期范围，简化流程，提高效率。"
   },
   "landingPageDetail.dateRange.metaTitle": {
-    "message": "ILLA 云 | 日期范围组件"
+    "message": "ILLA Cloud | 日期范围组件"
   },
   "landingPageDetail.dateRange.metaDescription": {
     "message": "学习如何在ILLA Cloud中使用日期范围组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.dateTime.name": {
-    "message": "日期时间"
+    "message": "Date Time"
   },
   "landingPageDetail.dateTime.title": {
-    "message": "使用ILLA 云中的日期时间组件在几次点击中构建内部工具。"
+    "message": "使用 ILLA Cloud 中的日期时间组件，只需单击几下即可构建内部工具。"
   },
   "landingPageDetail.dateTime.description": {
-    "message": "ILLA 云中的日期时间部分通过提供基于日历的接口，简化了日期和时间选择，提高了数据管理的效率和准确性。 例如， 用户可以创建预约计划表单，并使用“日期时间”组件允许用户选择特定的日期和时间。 减少计划错误和简化过程的可能性。"
+    "message": "ILLA Cloud中的日期时间组件通过提供基于日历的界面简化了日期和时间的选择，提高了数据管理的效率和准确性。允许用户选择具体的日期和时间，减少调度错误的可能性并简化流程。"
   },
   "landingPageDetail.dateTime.metaTitle": {
-    "message": "ILLA 云日期时间组件 - 选择并显示日期和时间"
+    "message": "ILLA Cloud日期时间组件 - 选择并显示日期和时间"
   },
   "landingPageDetail.dateTime.metaDescription": {
-    "message": "学习如何使用日期时间组件来创建表格、调查、仪表板以及更多与 ILLA 云。"
+    "message": "学习如何使用日期时间组件创建表单、调查、仪表板和更多与 ILLA Cloud。"
   },
   "landingPageDetail.divider.name": {
-    "message": "分隔符"
+    "message": "Divider"
   },
   "landingPageDetail.divider.title": {
-    "message": "使用 ILLA 云端的分隔组件来建立内部工具，只需点击几次。"
+    "message": "使用 ILLA Cloud 中的分割线组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.divider.description": {
-    "message": "ILLA Cloud中的“分隔符”组件是一个视觉元素，它对不同的内容部分、改进导航和组织进行了明确区分。 通过使用分红器，用户可以通过快速找到他们所需要的信息来节省时间，而不必通过有线或无组织的内容进行搜索。 改进用户体验。"
+    "message": "ILLA Cloud 中的“分割线”组件是一种视觉元素，可以在内容的不同部分之间创建清晰的区别，从而改进导航和组织。通过使用分割线，用户可以通过快速找到所需的信息来节省时间，而无需在混乱或杂乱无章的情况下进行搜索内容，提升用户体验。"
   },
   "landingPageDetail.divider.metaTitle": {
-    "message": "ILLA Cloud | Divider Component"
+    "message": "ILLA Cloud | 分割线组件"
   },
   "landingPageDetail.divider.metaDescription": {
-    "message": "学习如何在ILLA Cloud中使用分隔符组件，这是一个开源的低代码平台来构建内部工具。"
+    "message": "学习如何在ILLA Cloud中使用分隔符组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.editableText.name": {
-    "message": "可编辑文本"
+    "message": "Editable text"
   },
   "landingPageDetail.editableText.title": {
-    "message": "在 ILLA 云中使用可编辑的文本组件来创建内部工具，只需点击几次。"
+    "message": "使用 ILLA Cloud 中的可编辑文本组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.editableText.description": {
-    "message": "ILLA 云中可编辑的文本组件允许用户在一个行文本输入框中输入和编辑文本。 和输入的文本可以显示为热门文本。 此组件可以通过快速简易的编辑文本来节省用户的时间。 例如， 一个用户可以创建一个收集用户反馈的表单，并使用“可编辑文本”组件来允许用户在提交之前编辑其评论。 这有助于企业通过减少对往来通信的需求来提高效率。"
+    "message": "ILLA Cloud中的可编辑文本组件允许用户在一行文本输入框中输入和编辑文本，输入的文本可以悬停显示。该组件可以通过提供一种快速简便的方式来编辑文本来节省用户的时间。例如，用户可以创建一个收集用户反馈的表单，并使用“可编辑文本”组件允许用户在提交之前编辑他们的评论。这可以通过减少来回通信的需求来帮助企业提高效率。"
   },
   "landingPageDetail.editableText.metaTitle": {
-    "message": "ILLA 云 | 可编辑文本组件"
+    "message": "ILLA Cloud | 可编辑文本组件"
   },
   "landingPageDetail.editableText.metaDescription": {
-    "message": "学习如何在ILLA Cloud中使用可编辑的文本组件，这是一个用于构建内部工具的低代码平台。"
+    "message": "学习如何在ILLA Cloud中使用可编辑文本组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.form.name": {
-    "message": "形式"
+    "message": "Form"
   },
   "landingPageDetail.form.title": {
-    "message": "使用 ILLA 云中的表单组件在几次点击中构建内部工具。"
+    "message": "使用 ILLA Cloud 中的表单组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.form.description": {
-    "message": "ILLA 云中的“表单”组件允许用户输入和提交所需信息，提供了收集和处理数据的有效方法。 它可以通过使数据输入过程标准化，减少错误，使数据更易于整理和分析，从而节省时间。 例如，公司可以使用表格组件来收集雇员信息。 如联系方式和工作位置，便于为人力资源目的整理数据。"
+    "message": "ILLA Cloud 中的“表单”组件允许用户输入和提交所需信息，提供了一种收集和处理数据的有效方式。它可以通过标准化数据输入流程、减少错误以及更轻松地组织和分析数据来节省时间。例如，公司可以使用 Form 组件来收集员工信息，例如联系方式和工作职位，并轻松地为人力资源目的组织数据。"
   },
   "landingPageDetail.form.metaTitle": {
-    "message": "ILLA 云|表单组件"
+    "message": "ILLA Cloud | 表单组件"
   },
   "landingPageDetail.form.metaDescription": {
-    "message": "学习如何在 ILLA Cloud 中使用表单组件，这是一个用于构建内部工具的低代码平台。"
+    "message": "学习如何在ILLA Cloud中使用表单组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.icon.name": {
-    "message": "图标"
+    "message": "Icon"
   },
   "landingPageDetail.icon.title": {
-    "message": "在 ILLA 云中使用图标组件来建立内部工具，只需点击几次。"
+    "message": "使用 ILLA Cloud 中的图标组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.icon.description": {
-    "message": "ILLA 云中的图标组件为用户插入预建图标提供了一个快速和简单的方式。 • 提高申请的视觉吸引力和可用性。 例如，用户可以在电子商务应用程序中插入购物车图标来代表购物车功能。 在创建自定义图标和改善用户体验方面节省时间和精力。"
+    "message": "ILLA Cloud 中的图标组件为用户提供了一种快速简便的方式来插入预建图标，提高了应用程序的视觉吸引力和可用性。例如，用户可以插入购物车图标来表示购物车功能电子商务应用程序，节省创建自定义图标的时间和精力并改善用户体验。"
   },
   "landingPageDetail.icon.metaTitle": {
-    "message": "ILLA 云 | 图标组件"
+    "message": "ILLA Cloud | 图标组件"
   },
   "landingPageDetail.icon.metaDescription": {
-    "message": "学习如何在ILLA Cloud中使用图标组件，ILLA Cloud是构建内部工具的开源低代码平台。"
+    "message": "学习如何在ILLA Cloud中使用图标组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.image.name": {
-    "message": "图片"
+    "message": "Image"
   },
   "landingPageDetail.image.title": {
-    "message": "使用ILLA 云中的图像组件在几次点击中构建内部工具。"
+    "message": "使用 ILLA Cloud 中的图像组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.image.description": {
-    "message": "ILLA 云中的图像组件为用户提供了一种直截了当的方式来显示图像，增强了图像的视觉吸引力和获取信息。 例如，用户可以使用“图像”组件在电子商务应用程序中显示产品图像。 • 节省时间和精力，使产品能够有明确和有吸引力的代表性。"
+    "message": "ILLA Cloud 中的图像组件为用户提供了一种直接显示图像的方式，增强了视觉吸引力和信息的可访问性。例如，用户可以使用“图像”组件在电子商务应用程序中显示产品图像，从而节省时间努力提供清晰且有吸引力的产品展示。"
   },
   "landingPageDetail.image.metaTitle": {
-    "message": "ILLA 云映像组件 - 在您的应用程序中显示和管理图像"
+    "message": "ILLA Cloud 图像组件 - 在您的应用程序中显示和管理图像"
   },
   "landingPageDetail.image.metaDescription": {
-    "message": "学习如何使用图像组件来创建画廊、滑块、缩略图以及更多与 ILLA 云。"
+    "message": "学习如何使用图像组件来创建画廊、滑块、缩略图以及更多与 ILLA Cloud。"
   },
   "landingPageDetail.input.name": {
     "message": "Input"
   },
   "landingPageDetail.input.title": {
-    "message": "使用 ILLA 云中的输入组件来创建内部工具只需点击几次。"
+    "message": "使用 ILLA Cloud 中的输入组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.input.description": {
-    "message": "在ILLA Cloud中，带有左标签的输入组件消除了手工数据输入，节省了时间，提高了效率。 它使用户能够方便地提供所需的资料，以便进一步处理。 例如，它可以用来收集客户联系信息，简化数据收集和处理工作流程。 收集到的数据可用于客户细分、有针对性的营销活动和客户支助，提供有效和节省时间的解决办法。"
+    "message": "在 ILLA Cloud 中，带有左侧标签的 Input 组件消除了手动数据输入，从而节省了时间并提高了效率。它允许用户轻松提供进一步处理所需的信息。例如，它可用于收集客户联系信息，简化数据收集和处理工作流程。收集的数据可用于客户细分、有针对性的营销活动和客户支持，从而提供高效且省时的解决方案。"
   },
   "landingPageDetail.input.metaTitle": {
-    "message": "ILLA Cloud | Input Component "
+    "message": "ILLA Cloud | 输入框组件 "
   },
   "landingPageDetail.input.metaDescription": {
     "message": "学习如何在ILLA Cloud中使用输入组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.list.name": {
-    "message": "列表"
+    "message": "List"
   },
   "landingPageDetail.list.title": {
-    "message": "使用 ILLA 云中的列表组件在几次点击中生成内部工具。"
+    "message": "使用 ILLA Cloud 中的列表组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.list.description": {
-    "message": "清单构成部分为查看和管理数据提供了一种有组织和有效的方式。 允许用户快速访问和操纵信息以节省时间。 例如，销售经理可以利用清单组件查看和跟踪客户订单，迅速查明趋势并作出以数据为导向的决定。 总的来说，清单的组成部分可以提高生产率和加强数据分析。"
+    "message": "List 组件提供了一种有组织且高效的方式来查看和管理数据，通过允许用户快速访问和操作信息来节省用户时间。例如，销售经理可以使用 List 组件来查看和跟踪客户订单，快速识别趋势和制定数据驱动的决策。总的来说，List 组件可以提高生产力并增强数据分析。"
   },
   "landingPageDetail.list.metaTitle": {
-    "message": "ILLA 云列表组件 - 创建可重复的数据行"
+    "message": "ILLA Cloud 列表组件 - 创建可重复的数据行"
   },
   "landingPageDetail.list.metaDescription": {
-    "message": "学习如何使用列表组件来创建画廊、滑块、表格和更多与 ILLA 云。"
+    "message": "学习如何使用列表组件来创建画廊、滑块、表格和更多与 ILLA Cloud。"
   },
   "landingPageDetail.menu.name": {
-    "message": "菜单"
+    "message": "Menu"
   },
   "landingPageDetail.menu.title": {
-    "message": "使用 ILLA 云中的菜单组件在几次点击中生成内部工具。"
+    "message": "使用 ILLA Cloud 中的菜单组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.menu.description": {
     "message": "通过使用 Menu 组件，用户可以快速访问不同的选项，而无需浏览多个页面，从而节省时间并提高效率。例如，用户可以使用 Menu 组件访问软件应用程序的各种功能，从而使他们可以轻松访问经常使用的功能并简化他们的工作流程。"
@@ -869,118 +880,118 @@
     "message": "ILLA Cloud | 多选组件"
   },
   "landingPageDetail.multiselect.metaDescription": {
-    "message": "学习如何在 ILLA Cloud 中使用 Multiselect 组件，这是一个开源的低代码平台来构建内部工具。"
+    "message": "学习如何在 ILLA Cloud 中使用多项选择组件，这是一个用于构建工具的低代码平台。"
   },
   "landingPageDetail.numberInput.name": {
     "message": "Number input"
   },
   "landingPageDetail.numberInput.title": {
-    "message": "使用 ILLA 云中的数字输入组件来创建内部工具只需点击几次。"
+    "message": "使用 ILLA Cloud 中的数字输入组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.numberInput.description": {
-    "message": "在ILLA Cloud中，带有左标签的数字输入组件允许用户输入数字值。 提供一个简化的接口，用于快速和简单的输入。 此组件可以通过取消手动输入数据的需要来节省用户的时间。 例如，用户可以创建订单表单，其中包括“数字输入”组件，以收集每个项目的数量和价格。 这可以帮助企业节省时间和减少处理订单时的错误。"
+    "message": "在ILLA Cloud中，带有左标签的数字输入组件允许用户输入数字值。 提供一个简化的接口，用于快速和简单的输入。 此组件可以通过取消手动输入数据的需要来节省用户的时间。 或者举例说，用户可以创建订单表单，其中包括“数字输入”组件，以收集每个项目的数量和价格。 这可以帮助企业节省时间和减少处理订单时的错误。"
   },
   "landingPageDetail.numberInput.metaTitle": {
-    "message": "ILLA 云 | 数字输入组件"
+    "message": "ILLA Cloud | 数字输入组件"
   },
   "landingPageDetail.numberInput.metaDescription": {
-    "message": "学习如何在 ILLA Cloud 中使用数字输入组件，这是用于构建内部工具的开源低代码平台。"
+    "message": "学习如何在 ILLA Cloud 中使用数字输入组件，这是一个用于构建工具的低代码平台。"
   },
   "landingPageDetail.pdf.name": {
     "message": "PDF"
   },
   "landingPageDetail.pdf.title": {
-    "message": "使用 ILLA 云中的 PDF 组件来创建内部工具，只需点击几次。"
+    "message": "使用 ILLA Cloud 中的 PDF 组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.pdf.description": {
-    "message": "ILLA 云中的“PDF”组件允许用户在应用程序中查看并与 PDF 文件交互，节省时间并简化文档管理。 例如，用户可以轻松地访问和批注PDF文件，而不必在不同的软件或应用程序之间进行切换，提高生产率和工作流程效率。"
+    "message": "ILLA Cloud 中的“PDF”组件允许用户在应用程序中查看 PDF 文件并与之交互，从而节省时间并简化文档管理。例如，用户可以轻松访问和注释 PDF 文档，而无需在不同的软件或应用程序之间切换，从而提高生产力和工作流程效率。"
   },
   "landingPageDetail.pdf.metaTitle": {
-    "message": "ILLA 云 | PDF 组件"
+    "message": "ILLA Cloud | PDF 组件"
   },
   "landingPageDetail.pdf.metaDescription": {
-    "message": "学习如何使用 ILLA Cloud中的 PDF 组件，这是用于构建内部工具的开源低码平台。"
+    "message": "学习如何在ILLA Cloud中使用PDF 组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.radioButton.name": {
-    "message": "单选按钮"
+    "message": "Radio Button"
   },
   "landingPageDetail.radioButton.title": {
-    "message": "使用 ILLA 云中的无线电按钮组件在几次点击中构建内部工具。"
+    "message": "使用 ILLA Cloud 中的单选按钮组件，只需单击几下即可构建内部工具。"
   },
   "landingPageDetail.radioButton.description": {
-    "message": "无线电按钮组件是用户从多个选项中选择一个选项的快捷和有效的方式， • 避免混淆和精简决策过程。 例如，调查表可以使用无线电按钮组件来允许用户选择他们的年龄组。 通过简化数据输入程序，节省时间。"
+    "message": "Radio Button 组件是用户从多个选项中选择一个选项的快速有效方式，避免混淆并简化决策过程。例如，调查表可以使用 Radio Button 组件让用户选择他们的年龄组、性别或首选联系方式，通过简化数据输入过程节省时间。"
   },
   "landingPageDetail.radioButton.metaTitle": {
-    "message": "ILLA 云|无线电按钮组件"
+    "message": "ILLA Cloud | 单选按钮组件"
   },
   "landingPageDetail.radioButton.metaDescription": {
-    "message": " 学习如何在ILLA Cloud中使用无线电按钮组件，这是一个用于构建内部工具的开源低码平台。"
+    "message": " 学习如何在 ILLA Cloud 中使用单选按钮，这是一个用于构建工具的低代码平台。"
   },
   "landingPageDetail.radioGroup.name": {
-    "message": "无线电组"
+    "message": "Radio group"
   },
   "landingPageDetail.radioGroup.title": {
-    "message": "使用ILLA 云中的无线电组组件在几次点击中构建内部工具。"
+    "message": "使用 ILLA Cloud 中的单选框组只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.radioGroup.description": {
-    "message": "ILLA Cloud中的无线电组组件为用户从列表中选择一个选项提供了一个简单而有效的方式。 保存时间和减少错误。 例如，用户可以创建事件注册表单，并使用“无线电组”组件允许用户选择他们喜欢的事件。 • 简化登记程序并提高效率。"
+    "message": "ILLA Cloud 中的单选框组组件为用户提供了一种直接有效的方式来从列表中选择一个选项，从而节省时间并减少错误。例如，用户可以创建一个用于事件注册的表单并使用单选框组组件来允许用户选择他们喜欢的事件，简化注册过程并提高效率。"
   },
   "landingPageDetail.radioGroup.metaTitle": {
-    "message": "ILLA 云无线电组组件 - 使用简易构建内部工具"
+    "message": "ILLA Cloud 单选框组组件 - 使用简易构建内部工具"
   },
   "landingPageDetail.radioGroup.metaDescription": {
-    "message": "学习如何使用 ILLA Cloud 创建表单、调查、仪表板和更多信息。"
+    "message": "学习如何使用 ILLA Cloud 创建表单、调查、仪表板和更多与 ILLA Cloud。"
   },
   "landingPageDetail.rate.name": {
-    "message": "速率"
+    "message": "Rate"
   },
   "landingPageDetail.rate.title": {
-    "message": "使用ILLA 云中的速率组件在几次点击中构建内部工具。"
+    "message": "使用 ILLA Cloud 中的 Rate 组件 只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.rate.description": {
-    "message": "ILLA Cloud中的“比率”组件为用户评级产品、服务或经验提供了一个快速和简单的方式，为提供反馈节省时间。 例如，用户可以使用费率组件来评分最近的购买或体验。 帮助企业根据客户反馈改善其产品和服务。"
+    "message": "ILLA Cloud 中的“评分”组件为用户提供了一种快速简便的方式来对产品、服务或体验进行评分，从而节省了提供反馈的时间。例如，用户可以使用评分组件对最近的购买或体验进行评分，从而帮助企业根据客户反馈改进他们的产品和服务。"
   },
   "landingPageDetail.rate.metaTitle": {
-    "message": "ILLA Cloud | 给组件评分"
+    "message": "ILLA Cloud | 评分组件"
   },
   "landingPageDetail.rate.metaDescription": {
-    "message": "学习如何在ILLA Cloud中使用Rate 组件，这是一个用于构建内部工具的低代码平台。 "
+    "message": "学习如何在ILLA Cloud中使用评分组件，这是一个用于构建内部工具的低代码平台。 "
   },
   "landingPageDetail.select.name": {
-    "message": "选择"
+    "message": "Select"
   },
   "landingPageDetail.select.title": {
-    "message": "使用 ILLA 云中的选择组件来创建内部工具只需点击几次。"
+    "message": "使用 ILLA Cloud 中的选择组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.select.description": {
-    "message": "ILLA 云中的选择组件允许用户从选项列表中选择。 提供一种方便用户和高空间效率的数据输入方法，从而节省用户的时间并提高效率。 例如，用户可以创建一个调查表单，并使用“选择”组件为用户提供一系列选项供他们选择： 简化程序并确保数据收集准确。"
+    "message": "ILLA Cloud 中的 Select 组件允许用户从选项列表中进行选择，提供一种用户友好且节省空间的方式来输入数据，这可以节省用户的时间并提高效率。例如，用户可以创建调查表并使用“选择”组件提供一系列选项供用户选择，简化流程并确保准确收集数据。"
   },
   "landingPageDetail.select.metaTitle": {
-    "message": "ILLA 云选择组件 - 从简易选择列表中选择一个选项"
+    "message": "ILLA Cloud 选择组件 - 从选择列表中选择一个选项"
   },
   "landingPageDetail.select.metaDescription": {
-    "message": "学习如何在 ILLA 云中选择组件，从选项列表中选择。"
+    "message": "学习如何在 ILLA Cloud中选择组件，从选项列表中选择。"
   },
   "landingPageDetail.statistics.name": {
-    "message": "统计"
+    "message": "Statistics"
   },
   "landingPageDetail.statistics.title": {
-    "message": "使用 ILLA 云端的统计组件来建立内部工具，只需点击几次。"
+    "message": "使用 ILLA Cloud 中的统计组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.statistics.description": {
-    "message": "ILLA 云中的“统计”组件旨在帮助用户以视觉吸引力和易于理解的方式显示数字数据。 • 改进数据分析和决策。 例如，用户可以使用统计组件创建一个仪表盘，用条形图等各种视觉格式显示销售数据， 绘制图表和直线图，节省时间以创建自定义的视觉化和快速清晰的数据概述。"
+    "message": "ILLA Cloud中的'Statistics'组件旨在帮助用户以视觉上吸引人且易于理解的方式显示数值数据，从而改进数据分析和决策。例如，用户可以使用Statistics组件创建仪表板以条形图、饼图和折线图等各种视觉格式显示销售数据，从而节省创建自定义可视化效果的时间并提供快速清晰的数据概览。"
   },
   "landingPageDetail.statistics.metaTitle": {
-    "message": "ILLA 云 | 统计组件"
+    "message": "ILLA Cloud | 统计组件"
   },
   "landingPageDetail.statistics.metaDescription": {
     "message": "学习如何在ILLA Cloud中使用统计组件，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.switch.name": {
-    "message": "交换机"
+    "message": "Switch"
   },
   "landingPageDetail.switch.title": {
-    "message": "使用 ILLA 云中的切换组件来建立内部工具，只需点击几次。"
+    "message": "使用 ILLA Cloud 中的开关组件，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.switch.description": {
     "message": "ILLA 云中的开关组件为用户打开或关闭特定设置或功能提供了一种直观和方便用户的方式。 • 节省时间和提高效率。 例如， 一个用户可以创建一个通知系统，并使用“开关”组件来允许用户打开或关闭特定事件的通知。 例如新消息或更新，减少不必要的中断。"
@@ -1096,6 +1107,12 @@
   "landingPageDetail.video.metaDescription": {
     "message": "学习如何使用视频组件来创建培训视频、产品演示、教程以及更多与 ILLA Cloud。"
   },
+  "landingPage.build_with": {
+    "message": "用 {name} 构建"
+  },
+  "landingPage.back_to_components": {
+    "message": "返回组件页面"
+  },
   "landingPageDetail.airtable.name": {
     "message": "Airtable"
   },
@@ -1133,10 +1150,10 @@
     "message": "与 ILLA 云连接到Clickhouse，只需几次点击即可建立内部工具。"
   },
   "landingPageDetail.clickhouse.description": {
-    "message": "通过ILLA Cloud的ClickHouse集成，您可以快速配置并连接到ClickHouse数据库，以优化您的数据管理并简化您的工作流量。 他的整合简化了使用ClickHouse查询的数据管理，从而使您可以轻松地操纵数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或者举例说，您可以从ClickHouse表格中检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 通过ILLA Cloud的ClickHouse集成，您可以简化您的数据管理流程，并利用ClickHouse的强大功能来提高您的生产率。"
+    "message": "通过 ILLA Cloud 的 ClickHouse 集成，您可以快速配置并连接到您的 ClickHouse 数据库，以优化您的数据管理并简化您的工作流程。该集成使用 ClickHouse 查询简化了数据管理，使您可以轻松操作数据。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 ClickHouse 表中检索数据并添加一个按钮，单击该按钮时将执行查询以更新数据或批准请求。通过 ILLA Cloud 的 ClickHouse 集成，您可以简化数据管理流程并利用 ClickHouse 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.clickhouse.metaTitle": {
-    "message": "ILLA 云 | ClickHouse 集成"
+    "message": "ILLA Cloud | ClickHouse 集成"
   },
   "landingPageDetail.clickhouse.metaDescription": {
     "message": "学习如何使用ILLA Cloud，与任何ClickHouse数据库连接和交互，这是一个用于建立内部工具的开源低代码平台。"
@@ -1145,43 +1162,43 @@
     "message": "CouchDB"
   },
   "landingPageDetail.couchdb.title": {
-    "message": "通过 ILLA 云连接到CouchDB 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 CouchDB，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.couchdb.description": {
-    "message": "通过ILLA Cloud的CouchDB集成，您可以快速配置并连接到您的CouchDB数据库，以优化您的数据管理并简化您的工作流量。 他的整合简化了数据管理使用 CouchDB 查询，允许您轻松地操纵数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或例如，您可以从CouchDB数据库检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 通过ILLA Cloud的CouchDB集成，您可以简化您的数据管理流程，并利用CouchDB的强大功能来提高您的生产率。"
+    "message": "借助 ILLA Cloud 的 CouchDB 集成，您可以快速配置并连接到您的 CouchDB 数据库，以优化您的数据管理并简化您的工作流程。该集成使用 CouchDB 查询简化了数据管理，使您可以轻松操作数据。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 CouchDB 数据库中检索数据并添加一个按钮，单击该按钮会执行查询以更新数据或批准请求。通过 ILLA Cloud 的 CouchDB 集成，您可以简化数据管理流程并利用 CouchDB 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.couchdb.metaTitle": {
-    "message": "ILLA 云 | CouchDB 集成"
+    "message": "ILLA Cloud | CouchDB 集成"
   },
   "landingPageDetail.couchdb.metaDescription": {
-    "message": "学习如何将您的CouchDB 数据库连接到 ILLA 云，这是一个用于构建内部工具的低代码平台。"
+    "message": "学习如何将您的CouchDB 数据库连接到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.dynamodb.name": {
-    "message": "Amazon 动态DB"
+    "message": "Amazon DynamoDB"
   },
   "landingPageDetail.dynamodb.title": {
-    "message": "通过 ILLA 云连接到 Amazon DynamoDB 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Amazon DynamoDB，只需单击几下即可构建内部工具。"
   },
   "landingPageDetail.dynamodb.description": {
-    "message": "通过 ILLA 云端的亚马逊动态数据库集成，您可以快速配置并连接到您的动态数据库，以优化您的数据管理并简化您的工作流量。 他整合使用动态数据库查询简化了数据管理，从而使您可以轻松地操纵数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或者例如，您可以从动态数据库表中检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 通过ILLA Cloud的亚马逊动态数据库集成，您可以简化您的数据管理流程，并利用动态数据库的强大功能来提高您的生产力。"
+    "message": "借助 ILLA Cloud 的 Amazon DynamoDB 集成，您可以快速配置并连接到 DynamoDB 数据库，以优化数据管理并简化工作流程。该集成使用 DynamoDB 查询简化了数据管理，让您可以轻松操作数据。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 DynamoDB 表中检索数据并添加一个按钮，单击该按钮会执行查询以更新数据或批准请求。通过 ILLA Cloud 的 Amazon DynamoDB 集成，您可以简化数据管理流程并利用 DynamoDB 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.dynamodb.metaTitle": {
-    "message": "ILLA 云 | Amazon DynamoDB 集成"
+    "message": "ILLA Cloud | Amazon DynamoDB 集成"
   },
   "landingPageDetail.dynamodb.metaDescription": {
-    "message": "学习如何连接您的 Amazon DynamoDB 数据库到 ILLA 云，这是一个用于构建内部工具的低代码平台。 "
+    "message": "学习如何连接您的 Amazon DynamoDB 数据库到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。 "
   },
   "landingPageDetail.elasticsearch.name": {
-    "message": "弹性搜索"
+    "message": "Elastic Search"
   },
   "landingPageDetail.elasticsearch.title": {
-    "message": "连接到Elastic Search 与 ILLA Cloud 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Elastic Search，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.elasticsearch.description": {
-    "message": "与 ILLA Cloud 的Elastic 搜索集成. 您可以快速配置并连接到您的 Elastic 搜索集群，以优化您的数据管理并增强您的工作流量。 他的整合使用弹性搜索查询简化了数据管理，让您可以轻松地搜索和检索数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或例如，您可以从弹性搜索索引中检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 通过ILLA Cloud的Elastic Search 集成，您可以简化您的数据管理流程，并利用Elastic Search 的强大功能来提高您的生产率。"
+    "message": "借助 ILLA Cloud 的 Elastic Search 集成，您可以快速配置并连接到 Elastic Search 集群，以优化数据管理并增强工作流程。该集成使用 Elastic Search 查询简化了数据管理，让您可以轻松搜索和检索数据。您可以通过提供输入（包括必要的查询）并结合基于应用的验证检查来安全地添加或写入数据。数据或批准请求。借助 ILLA Cloud 的 Elastic Search 集成，您可以简化数据管理流程并利用 Elastic Search 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.elasticsearch.metaTitle": {
-    "message": "ILLA 云 | Elastic 搜索集成"
+    "message": "ILLA Cloud | Elastic Search 集成"
   },
   "landingPageDetail.elasticsearch.metaDescription": {
     "message": "学习如何使用ILLA Cloud与您的Elastic Search 数据库连接和交互，这是用于构建内部工具的开源低代码平台。 "
@@ -1190,73 +1207,73 @@
     "message": "Firebase"
   },
   "landingPageDetail.firebase.title": {
-    "message": "与 ILLA 云连接到防火基，只需几次点击即可建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Firebase，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.firebase.description": {
-    "message": "通过ILLA Cloud的防火基集成，您可以快速配置并连接到您的 Firebase数据库，以优化您的数据管理并简化您的工作流程。 他的整合简化了数据管理使用 Firebase 查询和 API 调用，使您能够轻松地操作数据并执行复杂的操作。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或例如，您可以从火基集合中检索数据并添加一个按钮， 当点击时，执行 API 调用以更新数据或批准请求。 通过ILLA Cloud的防火基集成，您可以简化您的数据管理流程，并利用Firebase的强大功能来提高您的生产率。"
+    "message": "通过 ILLA Cloud 的 Firebase 集成，您可以快速配置并连接到您的 Firebase 数据库，以优化您的数据管理并简化您的工作流程。该集成使用 Firebase 查询和 API 调用简化了数据管理，使您可以轻松地操纵数据并执行复杂的操作。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 Firebase 集合中检索数据并添加一个按钮，单击该按钮时会执行 API 调用以更新数据或批准请求。借助 ILLA Cloud 的 Firebase 集成，您可以简化数据管理流程并利用 Firebase 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.firebase.metaTitle": {
-    "message": "ILLA Cloud | 火基集成"
+    "message": "ILLA Cloud | Firebase 集成"
   },
   "landingPageDetail.firebase.metaDescription": {
-    "message": "学习如何连接您的 Firebase 数据库到 ILLA 云，这是一个用于构建内部工具的低代码平台。 "
+    "message": "学习如何连接您的 Firebase 数据库到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。 "
   },
   "landingPageDetail.googlesheets.name": {
-    "message": "谷歌工作表"
+    "message": "Google Sheets"
   },
   "landingPageDetail.googlesheets.title": {
-    "message": "通过 ILLA 云连接到 Google Sheets 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Google Sheets，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.googlesheets.description": {
-    "message": "使用ILLA 云端的Google表集集成。 您可以快速和轻松地连接到您的谷歌表电子表格，以优化您的数据管理和简化您的工作流量。 他的整合简化了数据管理，允许您使用 Google Sheets API读取、写入和操纵来自Google Sheet电子表格的数据。 您可以安全地添加或写入数据，方法是提供输入，包括必要的 API 通话，并且包含基于应用程序的验证检查。 或例如，您可以从谷歌工作表电子表格中检索数据并添加一个按钮， 当点击时，执行 API 调用以更新数据或批准请求。 通过ILLA Cloud的Google表集集成，您可以简化您的数据管理流程，并利用谷歌表的强大功能来提高您的生产率。"
+    "message": "通过 ILLA Cloud 的 Google Sheets 集成，您可以快速轻松地连接到您的 Google Sheets 电子表格，以优化您的数据管理并简化您的工作流程。该集成允许您使用 Google 读取、写入和操作 Google Sheets 电子表格中的数据，从而简化了数据管理表格 API。您可以通过提供输入（包括必要的 API 调用）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 Google 表格电子表格中检索数据并添加一个按钮，单击该按钮时会执行 API 调用更新数据或批准请求。通过 ILLA Cloud 的 Google Sheets 集成，您可以简化数据管理流程并利用 Google Sheets 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.googlesheets.metaTitle": {
-    "message": "ILLA 云Google表集集成 - 连接并管理您的谷歌表数据"
+    "message": "ILLA Cloud Google 表格集成 - 连接和管理您的Google 表数据"
   },
   "landingPageDetail.googlesheets.metaDescription": {
-    "message": "学习如何使用 Google 表集成来创建仪表板、报告、表格以及更多与 ILLA 云。"
+    "message": "学习如何使用Google sheet来创建仪表板、报告、调查以及更多与 ILLA Cloud。"
   },
   "landingPageDetail.graphql.name": {
-    "message": "图形QL"
+    "message": "GraphQL"
   },
   "landingPageDetail.graphql.title": {
-    "message": "通过 ILLA 云连接到 GraphQL 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 GraphQL，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.graphql.description": {
-    "message": "使用 ILLA 云图形QL 集成。 您可以快速和轻松地配置并连接到您的 GraphQL API，以优化您的数据管理并简化您的工作流量。 他整合简化了数据管理，允许您轻松地检索和操纵您的 GraphQL API。 您可以通过提供包括必要的 GraphQL 查询和包含基于应用程序的验证检查来安全地添加或写入数据。 或者举例说，您可以从 GraphQL API 检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 通过ILLA Cloud的 GraphQL 集成，您可以简化您的数据管理流程，并利用GraphQL 的强大功能来提高您的生产力。"
+    "message": "通过 ILLA Cloud 的 GraphQL 集成，您可以快速轻松地配置和连接到您的 GraphQL API，以优化您的数据管理并简化您的工作流程。该集成允许您轻松地从 GraphQL API 检索和操作数据，从而简化了数据管理。您可以通过提供输入（包括必要的 GraphQL 查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 GraphQL API 检索数据并添加一个按钮，单击该按钮会执行查询以更新数据或批准请求。通过 ILLA Cloud 的 GraphQL 集成，您可以简化数据管理流程并利用 GraphQL 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.graphql.metaTitle": {
-    "message": "ILLA 云 | GraphQL 集成"
+    "message": "ILLA Cloud | GraphQL 集成"
   },
   "landingPageDetail.graphql.metaDescription": {
-    "message": "学习如何将您的 GraphQL API 连接到 ILLA 云，这是一个用于构建内部工具的低代码平台。 "
+    "message": "学习如何将您的 GraphQL API 连接到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。 "
   },
   "landingPageDetail.huggingface.name": {
     "message": "Hugging Face Inference API"
   },
   "landingPageDetail.huggingface.title": {
-    "message": "通过 ILLA 云连接到 Hugging Face Inference API 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Hugging Face Inference API，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.huggingface.description": {
-    "message": "使用 ILLA Cloud 的 Hugging Face Inference API 集成 您可以快速和轻松地连接到 Hugging Facebook强大的天然语言处理模型，以优化您的数据管理并简化您的工作流量。 他的整合通过利用Hugging Facebook的 API 端点简化了数据管理，让您能够轻松地检索和操纵数据。 您可以安全地添加或写入数据，方法是提供输入，包括必要的 API 通话，并且包含基于应用程序的验证检查。 或 例如： 您可以从外部来源检索文本数据，然后通过 Hugging Face API 来进行感情分析或语言翻译。 使用 ILLA Cloud 的 Hugging Face Inference API 集成 您可以简化您的数据管理流程，并利用Hugging Facebook的自然语言处理模型的强大功能来提高您的生产力。"
+    "message": "通过 ILLA Cloud 的 Hugging Face Inference API 集成，您可以快速轻松地连接到 Hugging Face 强大的自然语言处理模型，以优化您的数据管理并简化您的工作流程。该集成通过利用 Hugging Face 的 API 端点简化了数据管理，允许您检索和轻松操作数据。您可以通过提供输入（包括必要的 API 调用）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从外部源检索文本数据并通过 Hugging Face API 调用传递它以执行情绪分析或语言翻译。通过 ILLA Cloud 的 Hugging Face Inference API 集成，您可以简化数据管理流程并利用 Hugging Face 自然语言处理模型的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.huggingface.metaTitle": {
-    "message": "ILLA 云雾化引入API 集成-连接和使用 ML 模型"
+    "message": "ILLA Cloud Hugging Face Inference API 集成 - 连接并使用ML模型"
   },
   "landingPageDetail.huggingface.metaDescription": {
-    "message": "在 ILLA 云端的 Hugging Face Inference API 集成允许用户连接和使用超过130 000台机器学习模型。 "
+    "message": "在 ILLA Cloud的 Hugging Face Inference API 集成允许用户连接和使用超过130 000台机器学习模型。 "
   },
   "landingPageDetail.huggingfaceendpoint.name": {
-    "message": "隐藏面部输入端点"
+    "message": "Hugging Face Inference Endpoint"
   },
   "landingPageDetail.huggingfaceendpoint.title": {
-    "message": "与 ILLA 云端连接到 Hugging Face Inference Endpoint，只需几次点击即可建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Hugging Face Inference API，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.huggingfaceendpoint.description": {
-    "message": "使用 ILLA 云端悬浮着物端点集成。 您可以快速和轻松地配置并连接到Hugging Facebook强大的自然语言处理模型，以优化您的数据管理并简化您的工作流量。 他的整合通过利用Hugging Facebook的 API 端点简化了数据管理，让您能够轻松地检索和操纵数据。 您可以安全地添加或写入数据，方法是提供输入，包括必要的 API 通话，并且包含基于应用程序的验证检查。 或 例如： 您可以从外部来源检索文本数据并通过 Hugging Face inference 端点传递，以进行感情分析或语言翻译。 使用 ILLA 云端悬浮着物端点集成。 您可以简化您的数据管理流程，并利用Hugging Facebook的自然语言处理模型的强大功能来提高您的生产力。"
+    "message": "通过 ILLA Cloud 的 Hugging Face Inference Endpoint 集成，您可以快速轻松地配置和连接到 Hugging Face 强大的自然语言处理模型，以优化您的数据管理并简化您的工作流程。该集成通过利用 Hugging Face 的 API 端点简化了数据管理，使您能够轻松检索和操作数据。您可以通过提供输入（包括必要的 API 调用）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从外部源检索文本数据并将其传递给拥抱面推理端点以执行情绪分析或语言翻译。通过 ILLA Cloud 的 Hugging Face Inference Endpoint 集成，您可以简化数据管理流程并利用 Hugging Face 自然语言处理模型的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.huggingfaceendpoint.metaTitle": {
-    "message": "ILLA Cloud | 散播面部启始点集成"
+    "message": "ILLA Cloud | Hugging Face Inference Endpoint 集成"
   },
   "landingPageDetail.huggingfaceendpoint.metaDescription": {
     "message": "学习如何使用ILLA Cloud与任何Hugging Face Inference End点连接和交互，ILLA Cloud是用于构建内部工具的开源低代码平台。 "
@@ -1265,10 +1282,10 @@
     "message": "Hydra"
   },
   "landingPageDetail.hydra.title": {
-    "message": "通过 ILLA 云连接到 Hydra，只需点击几次即可建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Hydra，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.hydra.description": {
-    "message": "“与ILLA Cloud的Hydra集成， 您可以快速和轻松地连接到开源后端服务器平台，以优化您的数据管理并简化您的工作流量。\r\n通过利用Hydra的 API 端点来简化数据管理，让您可以轻松地操纵您的 Hydraa 数据库、存储和认证服务中的数据。 您可以安全地添加或写入数据，方法是提供输入，包括必要的 API 通话，并且包含基于应用程序的验证检查。\r\n例如，您可以从Hydra数据库检索数据并添加一个按钮， 当点击时，执行 API 调用以更新数据或批准请求。 通过ILLA Cloud的Hydra集成，您可以简化您的数据管理流程，并利用Hydra的强大功能来提高您的生产率。”"
+    "message": "“与ILLA Cloud的Hydra集成， 您可以快速和轻松地连接到开源后端服务器平台，以优化您的数据管理并简化您的工作流量。\n通过利用Hydra的 API 端点来简化数据管理，让您可以轻松地操纵您的 Hydraa 数据库、存储和认证服务中的数据。 您可以安全地添加或写入数据，方法是提供输入，包括必要的 API 通话，并且包含基于应用程序的验证检查。\n例如，您可以从Hydra数据库检索数据并添加一个按钮， 当点击时，执行 API 调用以更新数据或批准请求。 通过ILLA Cloud的Hydra集成，您可以简化您的数据管理流程，并利用Hydra的强大功能来提高您的生产率。”"
   },
   "landingPageDetail.hydra.metaTitle": {
     "message": "Hydra"
@@ -1280,43 +1297,43 @@
     "message": "MariaDB"
   },
   "landingPageDetail.mariadb.title": {
-    "message": "用ILLA 云连接到MariaDB，只需几次点击即可建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 MariaDB，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.mariadb.description": {
-    "message": "与ILLA Cloud的MariaDB 集成 您可以快速和轻松地配置并连接到您的MariaDB数据库，以优化您的数据管理并简化您的工作流量。 他的整合简化了使用 SQL 的数据管理，允许您操作表、检索数据并轻松执行复杂的查询。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或例如，您可以从MariaDB 表获取雇员的数据并添加一个按钮， 当点击时，运行一个 SQL 查询来更新雇员的信息或批准请求。 通过ILLA Cloud的MariaDB集成，你可以最大限度地发挥你的数据源的潜力并以最低的努力提高你的生产率。"
+    "message": "通过 ILLA Cloud 的 MariaDB 集成，您可以快速轻松地配置和连接到您的 MariaDB 数据库，以优化您的数据管理并简化您的工作流程。该集成使用 SQL 简化了数据管理，使您可以轻松地操作表、检索数据和执行复杂的查询.您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 MariaDB 表中获取员工的数据并添加一个按钮，单击该按钮将运行 SQL 查询更新员工信息或批准请求。借助 ILLA Cloud 的 MariaDB 集成，您可以最大限度地发挥数据源的潜力，并以最小的努力提高您的工作效率。"
   },
   "landingPageDetail.mariadb.metaTitle": {
     "message": "ILLA Cloud | MariaDB 集成"
   },
   "landingPageDetail.mariadb.metaDescription": {
-    "message": "学习如何使用ILLA Cloud与您的MariaDB 数据库连接和互动，该是一个用于构建内部工具的开源低代码平台。"
+    "message": "学习如何使用ILLA Cloud与您的MariaDB 数据库连接和交互，这是用于构建内部工具的开源低代码平台。"
   },
   "landingPageDetail.mongodb.name": {
     "message": "MongoDB"
   },
   "landingPageDetail.mongodb.title": {
-    "message": "通过 ILLA 云连接到 MongoDB 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 MongoDB，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.mongodb.description": {
-    "message": "通过ILLA Cloud的 MongoDB 集成，您可以快速配置并连接到您的 MongoDB 数据库，以优化您的数据管理并简化您的工作流量。 他的整合简化了使用 MongoDB 查询的数据管理，允许您轻松地操纵数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或例如，您可以从 MongoDB 集合中检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 通过ILLA Cloud的MongoDB集成，您可以简化您的数据管理流程，并利用MongoDB的强大功能来提高您的生产力。"
+    "message": "通过 ILLA Cloud 的 MongoDB 集成，您可以快速配置和连接到您的 MongoDB 数据库，以优化您的数据管理并简化您的工作流程。该集成使用 MongoDB 查询简化了数据管理，使您可以轻松操作数据。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 MongoDB 集合中检索数据并添加一个按钮，单击该按钮会执行查询以更新数据或批准请求。通过 ILLA Cloud 的 MongoDB 集成，您可以简化数据管理流程并利用 MongoDB 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.mongodb.metaTitle": {
-    "message": "ILLA 云 | MongoDB 集成"
+    "message": "ILLA Cloud | MongodB 集成"
   },
   "landingPageDetail.mongodb.metaDescription": {
-    "message": "学习如何使用ILLA Cloud与您的 MongoDB 数据库连接和交互，ILLA Cloud是建立内部工具的开源低代码平台。 "
+    "message": "学习如何使用ILLA Cloud与您的MongoDB 数据库连接和交互，这是用于构建内部工具的开源低代码平台。 "
   },
   "landingPageDetail.mssql.name": {
-    "message": "Microsoft SQL 服务器"
+    "message": "Microsoft SQL Server"
   },
   "landingPageDetail.mssql.title": {
-    "message": "使用 ILLA 云连接到 Microsoft SQL 服务器，只需几次点击即可建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Microsoft SQL Server，只需单击几下即可构建内部工具。"
   },
   "landingPageDetail.mssql.description": {
-    "message": "与 ILLA Cloud 的 Microsoft SQL 服务器集成 您可以快速配置并连接到您的 SQL Server 数据库，以优化您的数据管理并简化您的工作流量。 他的整合简化了使用 SQL 查询的数据管理，允许您轻松地操纵数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或者举例说，您可以从 SQL Server 表中检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 与 ILLA Cloud 的 Microsoft SQL 服务器集成 您可以简化您的数据管理流程，并利用SQL服务器的强大功能来提高您的生产率。"
+    "message": "借助 ILLA Cloud 的 Microsoft SQL Server 集成，您可以快速配置并连接到 SQL Server 数据库，以优化数据管理并简化工作流程。该集成使用 SQL 查询简化了数据管理，使您可以轻松操作数据。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 SQL Server 表中检索数据并添加一个按钮，单击该按钮会执行查询以更新数据或批准请求。通过 ILLA Cloud 的 Microsoft SQL Server 集成，您可以简化数据管理流程并利用 SQL Server 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.mssql.metaTitle": {
-    "message": "ILLA Cloud | Microsoft SQL 服务器集成"
+    "message": "ILLA Cloud | Microsoft SQL Server 集成"
   },
   "landingPageDetail.mssql.metaDescription": {
     "message": "学习如何将您的 Microsoft SQL Server 数据库连接到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。 "
@@ -1325,40 +1342,40 @@
     "message": "MySQL"
   },
   "landingPageDetail.mysql.title": {
-    "message": "通过 ILLA 云连接到 MySQL 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 MySQL，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.mysql.description": {
-    "message": "整合ILLA 云与 MySQL 可以极大地提高您的工作流程并简化您的流程。 只需几个简单的步骤，您就可以连接ILLA 云到您的 MySQL 数据库。 允许您创建用户界面，以强大的新方式与您的数据交互。 是否需要读取数据到表网格，创建仪表盘， 或添加自定义操作，运行 SQL 查询以写入您的数据库。ILLA 云使之更容易安全和高效地完成。 y 连接到您的 MySQL 数据与 ILLA 云，您可以避免无意删除和其他昂贵的错误。 例如，如果您用MySQL表管理员工费用 您可以使用 ILLA 云读取您的数据到控制面板，甚至添加一个动作，回到您的数据库更新每笔费用的批准状态。 而且用ILLA Cloud的简单接口，您可以定义您想要采取的行动，以明确和系统的方式进行。 使您的工作流程更加优化，并精简您的流程。"
+    "message": "将 ILLA Cloud 与 MySQL 集成可以极大地增强您的工作流程并简化流程。只需几个简单的步骤，您就可以将 ILLA Cloud 连接到您的 MySQL 数据库，使您能够创建以强大的新方式与您的数据交互的用户界面。无论您是需要将数据读入表格网格、创建仪表板，还是添加运行 SQL 查询的自定义操作以写入数据库，ILLA Cloud 都能让您安全高效地轻松完成这些操作。通过使用 ILLA Cloud 连接到您的 MySQL 数据，您可以避免意外删除和其他代价高昂的错误。例如，如果您使用 MySQL 表管理员工费用，您可以使用 ILLA Cloud 将数据读入仪表板，甚至添加一个写回数据库的操作以更新每项费用的批准状态。借助 ILLA Cloud 的简单界面，您可以以清晰和系统的方式定义您想要采取的行动，从而轻松优化您的工作流程并简化您的流程。"
   },
   "landingPageDetail.mysql.metaTitle": {
-    "message": "ILLA 云 | MySQL 集成"
+    "message": "ILLA Cloud | MySQL 集成"
   },
   "landingPageDetail.mysql.metaDescription": {
-    "message": "学习如何将您的 MySQL 数据库连接到 ILLA 云，这是一个用于构建内部工具的低代码平台。 "
+    "message": "学习如何将您的 MySQL 数据库连接到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。 "
   },
   "landingPageDetail.neon.name": {
     "message": "Neon"
   },
   "landingPageDetail.neon.title": {
-    "message": "连接到 Neon 与 ILLA 云端，只需点击几次即可建立内部工具。"
+    "message": "连接到 Neon 与 ILLA Cloud，只需点击几次即可建立内部工具。"
   },
   "landingPageDetail.neon.description": {
-    "message": "完全管理的多云Postgres，带有慷慨的免费级。我们分离存储和计算以提供自动化、分支和无底层存储。"
+    "message": "完全管理的multi-cloud Postgres，免费试用。分离存储和计算以提供自动化、分支和无底层存储。"
   },
   "landingPageDetail.neon.metaTitle": {
-    "message": "ILLA 云集成-连接到多云端Postgres"
+    "message": "ILLA Cloud集成-连接到multi-cloud Postgres"
   },
   "landingPageDetail.neon.metaDescription": {
-    "message": "学习如何将您的Neon数据库连接到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。"
+    "message": "学习如何将您的 Neon 数据库连接到 ILLA Cloud，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.oracledb.name": {
     "message": "Oracle DB"
   },
   "landingPageDetail.oracledb.title": {
-    "message": "通过 ILLA 云连接到 Oracle DB 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Oracle DB，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.oracledb.description": {
-    "message": "通过ILLA Cloud的Oracle DB集成，您可以快速配置并连接到您的Oracle数据库，以优化您的数据管理并简化您的工作流量。 他的整合简化了使用 SQL 查询的数据管理，允许您轻松地操纵数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或者举例说，您可以从 Oracle 数据库表中检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 随着ILLA Cloud的Oracle DB集成，您可以简化您的数据管理流程，并利用Oracle DB的强大功能来提高您的生产力。"
+    "message": "借助 ILLA Cloud 的 Oracle DB 集成，您可以快速配置并连接到 Oracle 数据库，以优化数据管理并简化工作流程。该集成使用 SQL 查询简化了数据管理，使您可以轻松操作数据。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 Oracle 数据库表中检索数据并添加一个按钮，单击该按钮会执行查询以更新数据或批准请求。借助 ILLA Cloud 的 Oracle DB 集成，您可以简化数据管理流程并利用 Oracle DB 的强大功能来提高生产力。"
   },
   "landingPageDetail.oracledb.metaTitle": {
     "message": "ILLA Cloud | Oracle DB 集成"
@@ -1370,106 +1387,106 @@
     "message": "PostgreSQL"
   },
   "landingPageDetail.postgresql.title": {
-    "message": "与 ILLA 云连接到 PostgreSQL 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 PostgreSQL，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.postgresql.description": {
-    "message": "通过 ILLA Cloud 的 PostgreSQL 集成，您可以快速配置并连接到您的 PostgreSQL 数据库以优化您的数据源，并且性能可靠。 他的整合简化了数据管理与 SQL 的程序，使您可以轻松地操纵表格并执行复杂的查询。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或者例如，假定您想要从 PostgreSQL 表检索员工数据，并批准一次点击的请假请求。 在这种情况下，您可以创建一个运行SQL查询的按钮，将雇员的请求标记为已批准的请求。 通过ILLA Cloud的 PostgreSQL 集成，您可以简化您的数据管理流程，并且更加可靠。"
+    "message": "借助 ILLA Cloud 的 PostgreSQL 集成，您可以快速配置并连接到您的 PostgreSQL 数据库，以可靠的性能优化您的数据源。该集成使用 SQL 简化了数据管理，使您可以轻松地操作表格和执行复杂的查询。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，假设您想要从 PostgreSQL 表中检索员工数据并通过单击批准休假请求。在这种情况下，您可以创建一个运行 SQL 查询的按钮，将员工的请求标记为已批准。借助 ILLA Cloud 的 PostgreSQL 集成，您可以轻松自信地简化数据管理流程。"
   },
   "landingPageDetail.postgresql.metaTitle": {
-    "message": "ILLA Cloud | PostgreSQL 数据库集成"
+    "message": "ILLA Cloud | PostgreSQL 数据库整合"
   },
   "landingPageDetail.postgresql.metaDescription": {
-    "message": "学习如何使用 ILLA Cloud，与任何PostgreSQL 数据库连接和交互，ILLA Cloud是用于建立内部工具的开源低代码平台。 "
+    "message": "学习如何使用ILLA Cloud与您的PostgreSQL 数据库连接和交互，这是用于构建内部工具的开源低代码平台。 "
   },
   "landingPageDetail.redis.name": {
-    "message": "雷迪斯"
+    "message": "Redis"
   },
   "landingPageDetail.redis.title": {
-    "message": "连接到 Redis 与 ILLA 云，只需几次点击即可建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Redis，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.redis.description": {
-    "message": "通过 ILLA Cloud 的 Redis 集成，您可以快速配置并连接到您的 Redis 数据库，以优化您的数据管理并增强您的工作流量。 他的整合简化了使用Redis命令的数据管理，从而使您可以轻松地操作数据。 您可以通过提供输入，包括必要的命令，并且包含基于应用程序的验证检查来安全地添加或写入数据。 或例如，您可以从Redis数据库检索数据并添加一个按钮， 当点击时，执行 Redis 命令来更新数据或批准请求。 通过ILLA Cloud的 Redis 集成，您可以简化您的数据管理流程，并利用Redis 的强大功能来提高您的生产率。"
+    "message": "通过 ILLA Cloud 的 Redis 集成，您可以快速配置并连接到您的 Redis 数据库，以优化您的数据管理并增强您的工作流程。该集成使用 Redis 命令简化了数据管理，让您可以轻松地操作数据。您可以通过提供输入（包括必要的命令）并结合基于应用程序的验证检查来安全地添加或写入数据。数据或批准请求。借助 ILLA Cloud 的 Redis 集成，您可以简化数据管理流程并利用 Redis 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.redis.metaTitle": {
     "message": "ILLA Cloud Redis 集成 - 连接和管理您的Redis 数据库"
   },
   "landingPageDetail.redis.metaDescription": {
-    "message": "学习如何使用 Redis 集成来使用Redis 命令、创建仪表板、报告、表格以及更多通过 ILLA 云来操纵数据。"
+    "message": "学习如何使用 Redis 集成来使用Redis 命令、创建仪表板、报告、表格以及更多与 ILLA Cloud"
   },
   "landingPageDetail.restapi.name": {
     "message": "REST API"
   },
   "landingPageDetail.restapi.title": {
-    "message": "连接到任何RESTFL API 并使用ILLA 云构建自定义工具（分钟）"
+    "message": "连接到任何 RESTful API 并在几分钟内使用 ILLA Cloud 构建自定义工具"
   },
   "landingPageDetail.restapi.description": {
-    "message": "通过 ILLA 云端的 REST API 集成，您可以快速和轻松地连接到任何RESTful API 以优化您的数据管理并简化您的工作流量。 他的整合简化了数据管理，使用RESTFF API 端点，使您可以轻松地检索和操纵数据。 您可以安全地添加或写入数据，方法是提供输入，包括必要的 API 通话，并且包含基于应用程序的验证检查。 或者举例说，您可以从外部RESTful API中检索数据并添加一个按钮， 当点击时，进行电话更新数据或批准请求。 通过ILLA Cloud的 REST API 集成，您可以简化您的数据管理流程，并利用RESTful API的强大功能来提高您的生产率。"
+    "message": "借助 ILLA Cloud 的 REST API 集成，您可以快速轻松地连接到任何 RESTful API，以优化数据管理并简化工作流程。该集成使用 RESTful API 端点简化了数据管理，使您可以轻松检索和操作数据。您可以通过提供输入（包括必要的 API 调用）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从外部 RESTful API 检索数据并添加一个按钮，单击该按钮会调用更新数据或批准请求。通过 ILLA Cloud 的 REST API 集成，您可以简化数据管理流程并利用 RESTful API 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.restapi.metaTitle": {
-    "message": "ILLA 云 | REST API 集成"
+    "message": "ILLA Cloud | REST API 集成"
   },
   "landingPageDetail.restapi.metaDescription": {
-    "message": "学习如何使用ILLA Cloud与任何REST API 端点连接和交互，这是一个用于构建内部工具的开源低代码平台。"
+    "message": "学习如何使用ILLA Cloud与任何REST API服务器连接和交互，这是一个用于建立内部工具的开源低代码平台。"
   },
   "landingPageDetail.s3.name": {
     "message": "S3"
   },
   "landingPageDetail.s3.title": {
-    "message": "使用 ILLA 云连接到 Amazon S3 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Amazon S3，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.s3.description": {
-    "message": "与 ILLA Cloud的 Amazon S3 集成 您可以快速和轻松地配置并连接到您的 Amazon S3 存储器，以优化您的数据管理并简化您的工作流量。 他整合简化了数据管理，通过使用 S3 API 端点，让您可以轻松阅读、写入和操纵您的S3 桶中的数据。 您可以安全地添加或写入数据，方法是提供输入，包括必要的 API 通话，并且包含基于应用程序的验证检查。 或者举例说，您可以从 S3 桶中检索数据并添加一个按钮， 当点击时，执行 API 调用以更新数据或批准请求。 与 ILLA Cloud的 Amazon S3 集成 您可以简化您的数据管理流程，并利用Amazon S3存储的强大功能来提高您的生产率。"
+    "message": "借助 ILLA Cloud 的 Amazon S3 集成，您可以快速轻松地配置和连接到您的 Amazon S3 存储，以优化您的数据管理并简化您的工作流程。该集成通过利用 S3 API 端点简化了数据管理，允许您读取、写入和操作数据轻松从您的 S3 存储桶中。您可以通过提供输入（包括必要的 API 调用）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 S3 存储桶中检索数据并添加一个按钮，单击该按钮会执行 API 调用以更新数据或批准请求。通过 ILLA Cloud 的 Amazon S3 集成，您可以简化数据管理流程并利用 Amazon S3 存储的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.s3.metaTitle": {
-    "message": "ILLA 云 | S3 集成"
+    "message": "ILLA Cloud | S3 集成"
   },
   "landingPageDetail.s3.metaDescription": {
-    "message": "学习如何在 ILLA Cloud 中使用 S3 组件，这是一个用于构建内部工具的低代码平台。"
+    "message": "学习如何在ILLA Cloud中使用S3，这是一个用于构建内部工具的低代码平台。"
   },
   "landingPageDetail.smtp.name": {
     "message": "SMTP"
   },
   "landingPageDetail.smtp.title": {
-    "message": "通过 ILLA 云连接到 SMTP 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 SMTP，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.smtp.description": {
-    "message": "与 ILLA Cloud 的 SMTP 集成. 您可以快速和轻松地配置并连接到您的 SMTP 服务器，以优化您的电子邮件管理并简化您的工作流量。 他的整合简化了电子邮件管理，允许您直接从您的 ILLA 云应用程序发送和接收电子邮件。 您可以通过提供输入包括必需的 SMTP 参数和包含基于应用程序的验证检查来安全地发送电子邮件。 或者举例说，当某个事件在您的应用程序中触发时，您可以自动向用户发送电子邮件。 通过ILLA Cloud的SMTP集成，您可以简化您的电子邮件管理流程，并利用SMTP的强大功能来提高您的生产率。"
+    "message": "通过 ILLA Cloud 的 SMTP 集成，您可以快速轻松地配置和连接到您的 SMTP 服务器，以优化您的电子邮件管理并简化您的工作流程。该集成允许您直接从您的 ILLA Cloud 应用程序发送和接收电子邮件，从而简化了电子邮件管理。您可以通过提供输入（包括必要的 SMTP 参数）并结合基于应用程序的验证检查来安全地发送电子邮件。例如，您可以在应用程序中触发特定事件时向用户发送自动电子邮件。通过 ILLA Cloud 的 SMTP 集成，您可以简化电子邮件管理流程并利用 SMTP 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.smtp.metaTitle": {
-    "message": "ILLA 云 | SMTP 集成"
+    "message": "ILLA Cloud | SMTP 集成"
   },
   "landingPageDetail.smtp.metaDescription": {
-    "message": "学习如何使用ILLA Cloud与任何SMTP服务器连接和交互，ILLA Cloud是一个用于构建内部工具的开源低代码平台。"
+    "message": "学习如何使用ILLA Cloud与任何SMTP服务器连接和交互，这是一个用于建立内部工具的开源低代码平台。"
   },
   "landingPageDetail.snowflake.name": {
-    "message": "雪花"
+    "message": "Snowflake"
   },
   "landingPageDetail.snowflake.title": {
-    "message": "使用 ILLA 云连接到 Snowflake 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 Snowflake，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.snowflake.description": {
-    "message": "通过ILLA Cloud的雪花集成，您可以快速配置并连接到您的雪花数据仓库，以优化您的数据管理并简化您的工作流。 他的整合简化了使用 Snowflake SQL 查询的数据管理，允许您轻松地操作数据。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或者举例说，您可以从雪花表中检索数据并添加一个按钮， 当点击时，执行更新数据或批准请求的查询。 通过ILLA Cloud的雪花集成，您可以简化您的数据管理流程，并利用雪花的强大功能来提高您的生产力。"
+    "message": "借助 ILLA Cloud 的 Snowflake 集成，您可以快速配置并连接到 Snowflake 数据仓库，以优化数据管理并简化工作流程。该集成使用 Snowflake SQL 查询简化了数据管理，使您可以轻松操作数据。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 Snowflake 表中检索数据并添加一个按钮，单击该按钮会执行查询以更新数据或批准请求。通过 ILLA Cloud 的 Snowflake 集成，您可以简化数据管理流程并利用 Snowflake 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.snowflake.metaTitle": {
-    "message": "ILLA 云 | 雪花集成"
+    "message": "ILLA Cloud | Snowflake 集成"
   },
   "landingPageDetail.snowflake.metaDescription": {
-    "message": "学习如何使用 ILLA Cloud与您的Snowflake数据库连接和交互，该云是用于构建内部工具的开源低代码平台。"
+    "message": "学习如何使用ILLA Cloud与您的Snowflake 数据库连接和交互，这是用于构建内部工具的开源低代码平台。"
   },
   "landingPageDetail.supabaseDB.name": {
     "message": "Supabase DB"
   },
   "landingPageDetail.supabaseDB.title": {
-    "message": "通过 ILLA 云连接到 SupabaseDB 并在几次点击中建立内部工具。"
+    "message": "使用 ILLA Cloud 连接到 SupabaseDB，只需点击几下即可构建内部工具。"
   },
   "landingPageDetail.supabaseDB.description": {
-    "message": "通过ILLA Cloud的 SupabaseDB 集成，您可以快速配置并连接到您的 SupabaseDB 数据库，以优化您的数据管理并简化您的工作流程。 他的整合简化了数据管理，使用 SupabaseDB 查询和 API 调用，使您可以轻松地操作数据并执行复杂的操作。 您可以安全地添加或写入数据，包括提供必要的查询，并且包含基于应用程序的验证检查。 或者例如，您可以从 SupabaseDB 表中检索数据并添加一个按钮， 当点击时，执行 API 调用以更新数据或批准请求。 通过ILLA Cloud的 SupabaseDB 集成，您可以简化您的数据管理流程，并利用SupabaseDB 的强大功能来提高您的生产力。"
+    "message": "借助 ILLA Cloud 的 SupabaseDB 集成，您可以快速配置并连接到您的 SupabaseDB 数据库，以优化数据管理并简化工作流程。该集成使用 SupabaseDB 查询和 API 调用简化了数据管理，使您可以轻松操作数据并执行复杂的操作。您可以通过提供输入（包括必要的查询）并结合基于应用程序的验证检查来安全地添加或写入数据。例如，您可以从 SupabaseDB 表中检索数据并添加一个按钮，单击该按钮时将执行 API 调用以更新数据或批准请求。通过 ILLA Cloud 的 SupabaseDB 集成，您可以简化数据管理流程并利用 SupabaseDB 的强大功能来提高您的工作效率。"
   },
   "landingPageDetail.supabaseDB.metaTitle": {
-    "message": "ILLA 云 | Supabase DB 集成"
+    "message": "ILLA Cloud | Supabase DB 集成"
   },
   "landingPageDetail.supabaseDB.metaDescription": {
-    "message": "学习如何使用 ILLA Cloud与任何 Supabase 数据库连接和交互，这是用于构建内部工具的开源低代码平台。"
+    "message": "学习如何使用ILLA Cloud与任何 Supabase 数据库连接和交互，这是一个用于建立内部工具的开源低代码平台。"
   },
   "landingPageDetail.tiDB.name": {
     "message": "TiDB"
@@ -1485,12 +1502,6 @@
   },
   "landingPageDetail.tiDB.metaDescription": {
     "message": "学习如何使用 ILLA Cloud，与您的 TiDB 数据库连接和交互，ILLA Cloud是用于构建内部工具的开源低代码平台。"
-  },
-  "landingPage.build_with": {
-    "message": "用 {name} 构建"
-  },
-  "landingPage.back_to_components": {
-    "message": "返回组件页面"
   },
   "theme.NotFound.p1": {
     "message": "我们找不到你想要的东西。",
@@ -1606,7 +1617,7 @@
     "message": "业务应用"
   },
   "illa-Cloud": {
-    "message": "开始游戏"
+    "message": "开始！"
   },
   "stars": {
     "message": "开始"
@@ -1619,7 +1630,7 @@
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "阅读 {title} 的全文",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.ErrorPageContent.title": {
@@ -1649,14 +1660,6 @@
   "theme.blog.post.paginator.olderPost": {
     "message": "较早的帖子",
     "description": "The blog post button label to navigate to the older/next post"
-  },
-  "theme.blog.post.plurals": {
-    "message": "一篇博文| {count} 篇博文",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.tagTitle": {
-    "message": "{nPosts} 篇博文含有标签“{tagName}”",
-    "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
     "message": "查看所有标签",
@@ -1705,10 +1708,6 @@
   "theme.docs.versionBadge.label": {
     "message": "版本：{versionLabel}"
   },
-  "theme.common.editThisPage": {
-    "message": "编辑此页面",
-    "description": "The link label to edit the current page"
-  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "这是尚未发行的 {siteTitle} {versionLabel} 版本文档。",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1725,20 +1724,24 @@
     "message": "最新版本",
     "description": "The label used for the latest version suggestion link label"
   },
+  "theme.common.editThisPage": {
+    "message": "编辑此页面",
+    "description": "The link label to edit the current page"
+  },
   "theme.common.headingLinkTitle": {
     "message": "Direct link to {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " on {date}",
+    "message": " 时间：{date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " by {user}",
+    "message": " 编辑：{user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Last updated{atDate}{byUser}",
+    "message": "最后更新在 {atDate}，由 {byUser} 撰写",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
@@ -1793,29 +1796,33 @@
     "message": "复制",
     "description": "The copy button label on code blocks"
   },
-  "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
-    "description": "The ARIA label to expand the sidebar category"
-  },
-  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
-    "description": "The ARIA label to collapse the sidebar category"
-  },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "切换单词换行",
     "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "展开侧边栏分类 “{label}”",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "折叠侧边栏分类 “{label}”",
+    "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
     "message": "主要的",
     "description": "The ARIA label for the main navigation"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "语文",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "在本页",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "折叠侧边栏",
@@ -1825,13 +1832,9 @@
     "message": "折叠侧边栏",
     "description": "The title attribute for collapse button of doc sidebar"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "语文",
-    "description": "The label for the mobile language switcher dropdown"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "主页",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "关闭导航栏",
