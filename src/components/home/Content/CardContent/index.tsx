@@ -17,7 +17,12 @@ const CARD_CONTENT = {
   }),
   items: [
     {
-      imageIcon: <Step1Icon className={style.imgStyle} />,
+      imageIcon: (
+        <img
+          src="https://cdn.illacloud.com/illa-website/home/step/step1.webp"
+          className={style.imgStyle}
+        />
+      ),
       title: translate({
         id: "how_to_use.step1_title.create_ai_agent_for",
         message: "Create AI Agent for a specific purpose",
@@ -34,7 +39,12 @@ const CARD_CONTENT = {
       moreHref: "https://illa.ai",
     },
     {
-      imageIcon: <Step2Icon className={style.imgStyle} />,
+      imageIcon: (
+        <img
+          src="https://cdn.illacloud.com/illa-website/home/step/step2.webp"
+          className={style.imgStyle}
+        />
+      ),
       title: translate({
         id: "how_to_use.step2_title.build_the_frontend_p",
         message: "Build the frontend page in a few minutes",
@@ -52,7 +62,12 @@ const CARD_CONTENT = {
       reverse: true,
     },
     {
-      imageIcon: <Step3Icon className={style.imgStyle} />,
+      imageIcon: (
+        <img
+          src="https://cdn.illacloud.com/illa-website/home/step/step3.webp"
+          className={style.imgStyle}
+        />
+      ),
       title: translate({
         id: "how_to_use.step3_title.connect_to_your_data",
         message: "Connect to your data sources and AI Agents",
@@ -81,20 +96,22 @@ const CardContent = () => {
         </h1>
         <span className={style.textDescStyle}>{CARD_CONTENT.desc}</span>
       </div>
-      {CARD_CONTENT.items.map(
-        ({ imageIcon, title, desc, moreHref, moreTitle, reverse }, i) => (
-          <CardContentItem
-            key={title}
-            imageIcon={imageIcon}
-            desc={desc}
-            title={title}
-            moreTitle={moreTitle}
-            reverse={reverse}
-            moreHref={moreHref}
-            stepNum={i + 1}
-          />
-        ),
-      )}
+      <div className={style.cardContainerStyle}>
+        {CARD_CONTENT.items.map(
+          ({ imageIcon, title, desc, moreHref, moreTitle, reverse }, i) => (
+            <CardContentItem
+              key={title}
+              imageIcon={imageIcon}
+              desc={desc}
+              title={title}
+              moreTitle={moreTitle}
+              reverse={reverse}
+              moreHref={moreHref}
+              stepNum={i + 1}
+            />
+          ),
+        )}
+      </div>
     </div>
   )
 }

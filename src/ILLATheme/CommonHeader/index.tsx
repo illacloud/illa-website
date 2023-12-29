@@ -103,7 +103,7 @@ export const CommonHeader = ({ trackProgress, whiteTheme }: Props) => {
                 "gap-[8px]",
               )}
             >
-              <HeaderMenu whiteTheme={whiteTheme} />
+              <HeaderMenu whiteTheme={whiteTheme} hasBgColor={hasBgColor} />
             </div>
 
             <MobileMenu

@@ -25,7 +25,7 @@ export const SolutionLayout = (props: Record<string, any>) => {
         <div className="w-full overflow-visible  bg-black relative z-[1]">
           <CommonHeader />
           <FirstScreen {...metaProps} />
-          <div className="w-full lg:max-w-[1040px] xl:max-w-[1200px] mx-auto px-[20px]">
+          <div className="w-full lg:max-w-[680px] mx-auto px-[20px] pb-[100px] lg:pb-[200px]">
             <div className="refine-prose markdown">
               <MDXContent>{children}</MDXContent>
             </div>

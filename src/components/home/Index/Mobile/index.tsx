@@ -68,7 +68,7 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
             })
           }}
         >
-          <Translate id="illa-Cloud">Get start</Translate>
+          <Translate id="illa-Cloud">Get started!</Translate>
         </LinkButton>
       </div>
       <div className="flex items-center gap-[40px]">

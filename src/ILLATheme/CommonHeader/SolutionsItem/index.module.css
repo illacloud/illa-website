@@ -3,8 +3,8 @@
 }
 
 .popoverPanelStyle {
-  @apply absolute left-0 mt-[8px] origin-top-right rounded-md shadow-[0px_2px_16px_0px_rgba(0,0,0,0.16)]  focus:outline-none py-[4px];
-  @apply flex flex-col gap-[24px] px-[4px] py-[24px]  w-[340px];
+  @apply absolute left-0 mt-[8px] origin-top-right border-[1px] border-[#2E2E30] bg-[#1b1c1d] focus:outline-none py-[4px] rounded-[16px];
+  @apply flex flex-col gap-[24px] px-[16px] py-[24px]  w-[340px];
 }
 
 .subTitleStyle {
@@ -12,7 +12,7 @@
 }
 
 .panelItemContainerStyle {
-  @apply flex items-start w-full px-[32px] gap-[16px] hover:no-underline;
+  @apply flex items-start w-full px-[16px] py-[12px] gap-[16px] rounded-[8px] hover:no-underline hover:bg-white/[0.04];
 }
 
 .panelItemStyle {

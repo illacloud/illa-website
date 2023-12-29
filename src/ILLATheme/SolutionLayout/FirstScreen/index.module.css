@@ -48,7 +48,7 @@
 }
 
 .demoImgStyle {
-  @apply lg:block hidden w-full max-w-full relative;
+  @apply lg:block hidden w-full max-w-full relative rounded-[12px] overflow-hidden;
   transform-origin: center;
 }
 
