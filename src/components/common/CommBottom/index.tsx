@@ -117,8 +117,7 @@ const CommBottom: FC<ICommonBottom> = ({
               Try Cloud for free
             </Translate>
           </Link>
-          <Link
-            target="_self"
+          <button
             className={clsx(
               style.commBottomBtn,
               "gap-[10px]",
@@ -150,7 +149,7 @@ const CommBottom: FC<ICommonBottom> = ({
                 sign in with GitHub
               </Translate>
             </span>
-          </Link>
+          </button>
         </div>
       </div>
     </div>
