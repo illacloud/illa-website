@@ -29,7 +29,6 @@ export const LearnMore: FC<ILearnMoreProps> = ({
   return (
     <Link
       ref={ref}
-      target="_self"
       className={clsx(style.learnMore, customClass)}
       onClick={onClick}
       href={href}

@@ -22,7 +22,6 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
             return (
               <Link
                 key={item.label}
-                target="_self"
                 to={getUtmParams(item.href)}
                 onClick={() => {
                   sendTagEvent({
@@ -96,7 +95,6 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
                         >
                           <Link
                             to={getUtmParams(subItem.href)}
-                            target="_self"
                             className={clsx(
                               style.panelItemStyle,
                               whiteTheme
@@ -122,7 +120,6 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
             <Link
               key={item.label}
               to={getUtmParams(item.href)}
-              target="_self"
               className={clsx(
                 style.operateItemStyle,
                 whiteTheme

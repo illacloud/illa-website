@@ -58,7 +58,6 @@ export const Solutions: FC<{ whiteTheme: boolean }> = ({ whiteTheme }) => {
                 {() => (
                   <Link
                     to={getUtmParams(subItem.href)}
-                    target="_self"
                     className={clsx(style.panelItemContainerStyle)}
                     onClick={() => {
                       sendTagEvent({

@@ -1,1 +1,1 @@
-export { ILLABlogLayout as default } from "@site/src/ILLATheme/BlogLayout";
+export { ILLABlogLayout as default } from "@site/src/ILLATheme/BlogLayout"

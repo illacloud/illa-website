@@ -87,7 +87,6 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                         <Link
                           key={label}
                           href={href}
-                          target="_self"
                           className="hover:no-underline"
                         >
                           {icon ? (
@@ -168,10 +167,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                 items={[]}
               />
             </div>
-            <Link
-              href="https://docs.illacloud.com/privacy-policy"
-              target="_self"
-            >
+            <Link href="https://docs.illacloud.com/privacy-policy">
               <span
                 className={clsx(
                   style.footerItem,
@@ -187,10 +183,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                 <Translate id="footer.privacy-policy">Privacy policy</Translate>
               </span>
             </Link>
-            <Link
-              href="https://docs.illacloud.com/terms-of-service"
-              target="_self"
-            >
+            <Link href="https://docs.illacloud.com/terms-of-service">
               <span
                 className={clsx(
                   style.footerItem,

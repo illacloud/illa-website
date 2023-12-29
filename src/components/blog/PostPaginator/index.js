@@ -1,14 +1,14 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-
-import { Date } from "@site/src/components/blog/common/date";
-import clsx from "clsx";
+import React from "react"
+import Link from "@docusaurus/Link"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { Date } from "@site/src/components/blog/common/date"
+import clsx from "clsx"
 
 export const PostPaginator = ({ posts, title }) => {
+  const getUtmParams = useUtmParams()
   if (posts.length < 1) {
-    return null;
+    return null
   }
-
   return (
     <div
       className={clsx(
@@ -39,7 +39,7 @@ export const PostPaginator = ({ posts, title }) => {
               )}
             >
               <Link
-                to={post.permalink}
+                to={getUtmParams(post.permalink)}
                 rel="dofollow"
                 className={clsx(
                   "font-bold",
@@ -53,10 +53,7 @@ export const PostPaginator = ({ posts, title }) => {
               </Link>
 
               <p
-                className={clsx(
-                  "font-sm",
-                  "text-gray-700 dark:text-gray-400",
-                )}
+                className={clsx("font-sm", "text-gray-700 dark:text-gray-400")}
               >
                 {post.description}
               </p>
@@ -65,15 +62,12 @@ export const PostPaginator = ({ posts, title }) => {
                 id="post-info"
                 className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
               >
-                <Date
-                  date={post.date}
-                  formattedDate={post.formattedDate}
-                />
+                <Date date={post.date} formattedDate={post.formattedDate} />
               </div>
             </div>
           ))}
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

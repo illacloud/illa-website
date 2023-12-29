@@ -1,13 +1,14 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-import { useBlogPost } from "@docusaurus/theme-common/internal";
-import BlogPostItemContainer from "@theme/BlogPostItem/Container";
+import React from "react"
+import Link from "@docusaurus/Link"
+import { useBlogPost } from "@docusaurus/theme-common/internal"
+import BlogPostItemContainer from "@theme/BlogPostItem/Container"
 import Tag from "@theme/Tag"
-import { Date } from "@site/src/components/blog/common/date";
-import clsx from "clsx";
+import { Date } from "@site/src/components/blog/common/date"
+import clsx from "clsx"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
 export default function BlogPostItem({ className }) {
-  const { metadata } = useBlogPost();
+  const { metadata } = useBlogPost()
   const {
     permalink,
     title,
@@ -16,14 +17,15 @@ export default function BlogPostItem({ className }) {
     frontMatter,
     description,
     tags,
-  } = metadata;
+  } = metadata
 
-  const author = metadata.authors[0];
+  const author = metadata.authors[0]
+  const getUtmParams = useUtmParams()
 
   return (
     <BlogPostItemContainer className={className}>
       <div>
-        <Link itemProp="url" to={permalink}>
+        <Link itemProp="url" to={getUtmParams(permalink)}>
           <div className="not-prose relative m-0 h-40 hover:brightness-90">
             <img
               src={`https://refine-web.imgix.net${frontMatter.image?.replace(
@@ -45,17 +47,19 @@ export default function BlogPostItem({ className }) {
           )}
         >
           {tags.map((tag) => (
-            <Tag className={clsx(
-              "text-xs",
-              "bg-gray-100 dark:bg-gray-700",
-              "text-gray-600 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-400",
-              "no-underline",
-              "rounded",
-              "px-2 py-1",
-            )}
+            <Tag
+              className={clsx(
+                "text-xs",
+                "bg-gray-100 dark:bg-gray-700",
+                "text-gray-600 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-400",
+                "no-underline",
+                "rounded",
+                "px-2 py-1",
+              )}
               permalink={tag.permalink}
-              key={tag.permalink} label={tag.label} />
-
+              key={tag.permalink}
+              label={tag.label}
+            />
           ))}
         </div>
         <div className="mb-2 md:mb-4">
@@ -102,5 +106,5 @@ export default function BlogPostItem({ className }) {
         </div>
       </div>
     </BlogPostItemContainer>
-  );
+  )
 }

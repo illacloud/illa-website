@@ -96,7 +96,6 @@ const CommBottom: FC<ICommonBottom> = ({
         <div className="flex flex-col lg:flex-row gap-[24px] w-full lg:w-auto">
           <Link
             to={getUtmParams(CLOUD_URL)}
-            target="_self"
             className={clsx(
               style.commBottomBtn,
               whiteTheme

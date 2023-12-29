@@ -7,7 +7,7 @@ import Translate from "@docusaurus/Translate"
 export const UpgradeButton = () => {
   const getUtmParams = useUtmParams()
   return (
-    <Link href={getUtmParams(CLOUD_URL)} target="_self">
+    <Link href={getUtmParams(CLOUD_URL)}>
       <span className={style.upgradeButtonStyle}>
         <Translate id="pricing.billing.plus-btn">Upgrade</Translate>
       </span>

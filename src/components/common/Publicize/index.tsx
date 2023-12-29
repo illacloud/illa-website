@@ -9,7 +9,6 @@ const Publicize = ({ stars }) => {
   return (
     <Link
       href="https://github.com/illacloud/illa-builder"
-      target="_self"
       className="hover:no-underline"
     >
       <div
