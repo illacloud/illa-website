@@ -2,17 +2,32 @@
   @apply flex gap-[8px] items-center text-[14px]  text-left py-[12px] px-[16px] font-medium;
 }
 
-.popoverPanelStyle {
-  @apply absolute left-0 mt-[8px] origin-top-right border-[1px] border-[#2E2E30] bg-[#1b1c1d] focus:outline-none py-[4px] rounded-[16px];
+.basePopoverPanelStyle {
+  @apply absolute left-0 mt-[8px] origin-top-right border-[1px] focus:outline-none py-[4px] rounded-[16px];
   @apply flex flex-col gap-[24px] px-[16px] py-[24px]  w-[340px];
+}
+.darkPopoverPanelStyle {
+  @apply border-[#2E2E30] bg-[#1b1c1d];
+}
+
+.lightPopoverPanelStyle {
+  @apply border-garyBlue-09 bg-white-01;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
 .subTitleStyle {
-  @apply text-[16px] font-[700] px-[32px] leading-[24px];
+  @apply text-[16px]  text-start font-[700] px-[16px] leading-[24px];
 }
 
-.panelItemContainerStyle {
-  @apply flex items-start w-full px-[16px] py-[12px] gap-[16px] rounded-[8px] hover:no-underline hover:bg-white/[0.04];
+.basePanelItemContainerStyle {
+  @apply flex items-start w-full px-[16px] py-[12px] gap-[16px] rounded-[8px] hover:no-underline;
+}
+
+.darkPanelItemContainerStyle {
+  @apply hover:bg-white/[0.04];
+}
+.lightPanelItemContainerStyle {
+  @apply hover:bg-garyBlue-09;
 }
 
 .panelItemStyle {

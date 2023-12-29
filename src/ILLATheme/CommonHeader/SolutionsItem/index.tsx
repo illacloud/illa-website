@@ -38,8 +38,10 @@ export const Solutions: FC<{ whiteTheme: boolean }> = ({ whiteTheme }) => {
       >
         <Menu.Items
           className={clsx(
-            style.popoverPanelStyle,
-            whiteTheme ? "bg-white-01" : "bg-gray-02",
+            style.basePopoverPanelStyle,
+            whiteTheme
+              ? style.lightPopoverPanelStyle
+              : style.darkPopoverPanelStyle,
           )}
         >
           <span
@@ -58,7 +60,12 @@ export const Solutions: FC<{ whiteTheme: boolean }> = ({ whiteTheme }) => {
                 {() => (
                   <Link
                     to={getUtmParams(subItem.href)}
-                    className={clsx(style.panelItemContainerStyle)}
+                    className={clsx(
+                      style.basePanelItemContainerStyle,
+                      whiteTheme
+                        ? style.lightPanelItemContainerStyle
+                        : style.darkPanelItemContainerStyle,
+                    )}
                     onClick={() => {
                       sendTagEvent({
                         action: "click",
