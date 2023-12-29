@@ -7,13 +7,15 @@ import { MENU_ITEMS, SOLUTIONS } from "../constants"
 import LocaleDropdownNavbarItem from "@theme/NavbarItem/LocaleDropdownNavbarItem"
 import CloseWhiteIcon from "@site/static/img/public/close.svg"
 import { CONTACT_US_URL } from "./constant"
-import Translate, { translate } from "@docusaurus/Translate"
+import Translate from "@docusaurus/Translate"
 import { Disclosure } from "@headlessui/react"
 import { MenuItem } from "./menuItem"
 import style from "./index.module.css"
 import ChevronDownIcon from "@site/static/img/public/arrow.svg"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
 const MobileMenu = ({ menuExpand, closeMenu }) => {
+  const getUtmParams = useUtmParams()
   useEffect(() => {
     if (menuExpand) {
       document.body.style.overflow = "hidden"
@@ -32,8 +34,7 @@ const MobileMenu = ({ menuExpand, closeMenu }) => {
     >
       <div className="justify-between  w-full h-[64px] flex items-center mb-[40px]">
         <Link
-          href="/"
-          target="_self"
+          href={getUtmParams("/")}
           className="flex items-center w-[42.5px] h-[20px]"
         >
           <IllaLogoWhiteIcon />
@@ -72,7 +73,6 @@ const MobileMenu = ({ menuExpand, closeMenu }) => {
       </div>
       <Link
         href={CONTACT_US_URL}
-        target="_self"
         onClick={() => {
           sendTagEvent({
             action: "click",

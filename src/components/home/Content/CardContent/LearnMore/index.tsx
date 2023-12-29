@@ -16,7 +16,6 @@ const LearnMore: FC<ILearnMoreProps> = ({
     <Link
       className={clsx(style.swipeMore, leftPadding ? "lg:pl-[30px]" : "")}
       to={href}
-      target="_self"
       onClick={() => {
         sendTagEvent({
           action: "click",

@@ -21,12 +21,7 @@ export const FooterItems = ({ items, whiteTheme }) => {
   return (
     <>
       {items.slice(0, 6).map(({ label, href = "", tagCategory }) => (
-        <Link
-          key={label}
-          to={href}
-          target="_self"
-          className="hover:no-underline"
-        >
+        <Link key={label} to={href} className="hover:no-underline">
           <span
             className={clsx(
               style.footerItem,
@@ -45,12 +40,7 @@ export const FooterItems = ({ items, whiteTheme }) => {
       ))}
       {showMore &&
         items.slice(6).map(({ label, href = "", tagCategory }) => (
-          <Link
-            key={label}
-            href={href}
-            target="_self"
-            className="hover:no-underline"
-          >
+          <Link key={label} href={href} className="hover:no-underline">
             <span
               className={clsx(
                 style.footerItem,

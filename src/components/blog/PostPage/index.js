@@ -1,27 +1,26 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-import { useBlogPost } from "@docusaurus/theme-common/internal";
-import { blogPostContainerID } from "@docusaurus/utils-common";
-import MDXContent from "@theme/MDXContent";
-import BlogPostItemContainer from "@theme/BlogPostItem/Container";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import React from "react"
+import Link from "@docusaurus/Link"
+import { useBlogPost } from "@docusaurus/theme-common/internal"
+import { blogPostContainerID } from "@docusaurus/utils-common"
+import MDXContent from "@theme/MDXContent"
+import BlogPostItemContainer from "@theme/BlogPostItem/Container"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import {
   LinkedinShareButton,
   RedditShareButton,
   TwitterShareButton,
   RedditIcon,
   LinkedinIcon,
-} from "react-share";
-import clsx from "clsx";
+} from "react-share"
+import clsx from "clsx"
 
-import { Date } from "@site/src/components/blog/common/date";
-import { ReadingTime } from "@site/src/components/blog/common/reading-time";
-
+import { Date } from "@site/src/components/blog/common/date"
+import { ReadingTime } from "@site/src/components/blog/common/reading-time"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import DiscordAndGithubBanner from "@site/src/components/blog/discord-and-github-banner"
 
-
 export const BlogPostPageView = ({ children }) => {
-  const { metadata, isBlogPostPage } = useBlogPost();
+  const { metadata, isBlogPostPage } = useBlogPost()
   const {
     permalink,
     title,
@@ -32,12 +31,13 @@ export const BlogPostPageView = ({ children }) => {
     tags,
     description,
     authors,
-  } = metadata;
-  const author = authors[0];
+  } = metadata
+  const author = authors[0]
+  const getUtmParams = useUtmParams()
 
   const {
     siteConfig: { url },
-  } = useDocusaurusContext();
+  } = useDocusaurusContext()
 
   return (
     <BlogPostItemContainer
@@ -62,7 +62,7 @@ export const BlogPostPageView = ({ children }) => {
         )}
       >
         <Link
-          to="/blog"
+          to={getUtmParams("/blog")}
           className={clsx("!text-gray-500 text-sm no-underline")}
         >
           ← Back to blog
@@ -112,11 +112,7 @@ export const BlogPostPageView = ({ children }) => {
       <div className="blog-sm:px-6">
         <div className="mb-6 text-sm">
           <div
-            className={clsx(
-              "flex",
-              "justify-between",
-              "sm:flex-row flex-col",
-            )}
+            className={clsx("flex", "justify-between", "sm:flex-row flex-col")}
           >
             <div className="flex justify-center items-center gap-2"></div>
             <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
@@ -137,7 +133,7 @@ export const BlogPostPageView = ({ children }) => {
           {isBlogPostPage ? (
             title
           ) : (
-            <Link itemProp="url" to={permalink}>
+            <Link itemProp="url" to={getUtmParams(permalink)}>
               {title}
             </Link>
           )}
@@ -151,5 +147,5 @@ export const BlogPostPageView = ({ children }) => {
         </div>
       </div>
     </BlogPostItemContainer>
-  );
-};
+  )
+}

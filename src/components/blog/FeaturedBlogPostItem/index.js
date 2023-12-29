@@ -1,13 +1,14 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-import { useBlogPost } from "@docusaurus/theme-common/internal";
-import BlogPostItemContainer from "@theme/BlogPostItem/Container";
+import React from "react"
+import Link from "@docusaurus/Link"
+import { useBlogPost } from "@docusaurus/theme-common/internal"
+import BlogPostItemContainer from "@theme/BlogPostItem/Container"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
-import { Date } from "@site/src/components/blog/common/date";
-import clsx from "clsx";
+import { Date } from "@site/src/components/blog/common/date"
+import clsx from "clsx"
 
 export const FeaturedBlogPostItem = () => {
-  const { metadata } = useBlogPost();
+  const { metadata } = useBlogPost()
   const {
     permalink,
     title,
@@ -16,13 +17,14 @@ export const FeaturedBlogPostItem = () => {
     frontMatter,
     description,
     tags,
-  } = metadata;
+  } = metadata
 
-  const author = metadata.authors[0];
+  const author = metadata.authors[0]
+  const getUtmParams = useUtmParams()
 
   return (
     <BlogPostItemContainer>
-      <Link itemProp="url" to={permalink}>
+      <Link itemProp="url" to={getUtmParams(permalink)}>
         <div className="not-prose relative m-0 h-40 hover:brightness-90 md:h-64">
           <img
             src={`https://refine-web.imgix.net${frontMatter.image?.replace(
@@ -52,7 +54,7 @@ export const FeaturedBlogPostItem = () => {
                 "rounded",
                 "px-2 py-1",
               )}
-              href={tag.permalink}
+              href={getUtmParams(tag.permalink)}
               key={tag.permalink}
             >
               {tag.label}
@@ -62,7 +64,7 @@ export const FeaturedBlogPostItem = () => {
         <div className="mb-2 md:mb-4 2xl:mb-6">
           <Link
             itemProp="url"
-            to={permalink}
+            to={getUtmParams(permalink)}
             className="no-underline hover:no-underline"
             rel="noopener dofollow"
           >
@@ -104,5 +106,5 @@ export const FeaturedBlogPostItem = () => {
         </div>
       </div>
     </BlogPostItemContainer>
-  );
-};
+  )
+}

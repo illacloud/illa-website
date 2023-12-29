@@ -29,11 +29,11 @@ async function microsoftClarity() {
             innerHTML: `<img
             height="1"
             width="1"
-            style={{ display: 'none' }}
+            style="display:none"
             alt=""
             src="https://px.ads.linkedin.com/collect/?pid=4707852&fmt=gif"
           />`
-          }
+          },
         ]
       };
     },

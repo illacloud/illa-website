@@ -8,7 +8,6 @@ export const MenuItem: React.FC<IMenuItemProps> = ({ item }) => {
   return (
     <Link
       to={item.href}
-      target="_self"
       className={style.menuItemStyle}
       onClick={() => {
         sendTagEvent({

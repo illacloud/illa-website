@@ -75,7 +75,6 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
         <Link
           href="https://github.com/illacloud/illa-builder"
           className={style.linkGroupItemStyle}
-          target="_self"
           onClick={() => {
             sendTagEvent({
               action: "click",
@@ -93,7 +92,6 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
         </Link>
         <Link
           href="https://discord.com/invite/illacloud"
-          target="_self"
           className="flex flex-col items-center gap-[8px]"
           onClick={() => {
             sendTagEvent({

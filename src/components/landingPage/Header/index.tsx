@@ -28,7 +28,7 @@ export const LpHeader: FC<IHeaderProps> = ({
         )}
       >
         {isShowBack && (
-          <Link href={getUtmParams(`/${prevPagePath}`)} target="_self">
+          <Link href={getUtmParams(`/${prevPagePath}`)}>
             <span
               className={style.back}
               onClick={() => {
@@ -52,7 +52,6 @@ export const LpHeader: FC<IHeaderProps> = ({
         <Link
           className={style.headerGo}
           href={getUtmParams(CLOUD_URL)}
-          target="_self"
           onClick={() => {
             sendTagEvent({
               action: "click",

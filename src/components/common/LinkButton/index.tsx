@@ -24,7 +24,6 @@ const LinkButton: FC<LinkButtonProps> = ({
   return (
     <Link
       to={href}
-      target="_self"
       onClick={handleClick}
       className={clsx(
         style.baseLinkButtonStyle,

@@ -1,10 +1,8 @@
 import useIsBrowser from "@docusaurus/useIsBrowser"
-import { useBaseUrlUtils } from "@docusaurus/useBaseUrl"
 
 export const useUtmParams = () => {
   const isBrowser = useIsBrowser()
   const location = isBrowser ? window.location.href : "fetching location..."
-  const { withBaseUrl } = useBaseUrlUtils()
 
   const getUtmParams = (url: string) => {
     if (isBrowser) {
@@ -16,15 +14,21 @@ export const useUtmParams = () => {
         const utm_campaign = searchParams.get("utm_campaign")
         let mergeURL = url
         if (url.startsWith("/") && !url.startsWith("http")) {
-          mergeURL = window.location.origin + withBaseUrl(url)
+          const [pathname, search] = url.split("?")
+          const searchParams = new URLSearchParams(search)
+          utm_source && searchParams.append("utm_source", utm_source!)
+          utm_medium && searchParams.append("utm_medium", utm_medium!)
+          utm_campaign && searchParams.append("utm_campaign", utm_campaign!)
+          mergeURL = pathname + "?" + searchParams.toString()
+          return mergeURL
+        } else {
+          const targetURL = new URL(mergeURL)
+          utm_source && targetURL.searchParams.append("utm_source", utm_source)
+          utm_medium && targetURL.searchParams.append("utm_medium", utm_medium)
+          utm_campaign &&
+            targetURL.searchParams.append("utm_campaign", utm_campaign)
+          return targetURL.toString()
         }
-        const targetURL = new URL(mergeURL)
-
-        utm_source && targetURL.searchParams.append("utm_source", utm_source)
-        utm_medium && targetURL.searchParams.append("utm_medium", utm_medium)
-        utm_campaign &&
-          targetURL.searchParams.append("utm_campaign", utm_campaign)
-        return targetURL.toString()
       } catch (e) {
         return url
       }

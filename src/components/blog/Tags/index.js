@@ -1,16 +1,17 @@
-import React from "react";
-import Link from "@docusaurus/Link";
-import { useBlogPost } from "@docusaurus/theme-common/internal";
-import clsx from "clsx";
+import React from "react"
+import Link from "@docusaurus/Link"
+import { useBlogPost } from "@docusaurus/theme-common/internal"
+import clsx from "clsx"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
 export const Tags = () => {
-  const { metadata } = useBlogPost();
-
+  const { metadata } = useBlogPost()
+  const getUtmParams = useUtmParams()
   return (
     <div className="flex flex-wrap gap-2 pb-6 pl-1">
       {metadata.tags.map((tag) => (
         <Link
-          to={tag.permalink}
+          to={getUtmParams(tag.permalink)}
           className={clsx(
             "text-xs",
             "bg-gray-100 dark:bg-gray-700",
@@ -27,5 +28,5 @@ export const Tags = () => {
         </Link>
       ))}
     </div>
-  );
-};
+  )
+}
