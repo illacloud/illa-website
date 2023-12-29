@@ -90,3 +90,9 @@
 .lightLineStyle {
   @apply bg-[#F0F0F4];
 }
+
+@media screen and (max-width: 960px) {
+  .linkButtonBgStyle {
+    transform: translateX(0) !important;
+  }
+}

@@ -165,6 +165,10 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                 dropdownItemsBefore={[]}
                 dropdownItemsAfter={[]}
                 items={[]}
+                className={clsx(
+                  whiteTheme ? "text-[#1D2129]" : "text-white-02",
+                  "px-0",
+                )}
               />
             </div>
             <Link

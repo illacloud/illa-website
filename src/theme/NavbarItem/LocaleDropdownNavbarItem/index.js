@@ -11,6 +11,7 @@ export default function LocaleDropdownNavbarItem({
   dropdownItemsBefore,
   dropdownItemsAfter,
   queryString = "",
+  whiteTheme = false,
   ...props
 }) {
   const {
@@ -50,7 +51,6 @@ export default function LocaleDropdownNavbarItem({
     <DropdownNavbarItem
       {...props}
       mobile={mobile}
-      className="px-0 text-white-01"
       label={
         <>
           <IconLanguage className={styles.iconLanguage} />

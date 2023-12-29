@@ -105,7 +105,11 @@ const FirstScreen: FC<IFirstScreenProps> = ({
               </LinkButton>
             </div>
           </motion.div>
-          <img className="lg:hidden block w-full" src={image} alt={imageAlt} />
+          <img
+            className="lg:hidden block w-full rounded-[8px]"
+            src={image}
+            alt={imageAlt}
+          />
         </div>
       </div>
     </div>
