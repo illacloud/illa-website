@@ -40,6 +40,9 @@ const config: Config = {
         theme: {
           customCss: ["./src/ILLATheme/css/custom.css", "./src/css/custom.css"],
         },
+        gtag: {
+          trackingID: "G-QW745VE33W",
+        },
       } satisfies Preset.Options,
     ],
   ],
