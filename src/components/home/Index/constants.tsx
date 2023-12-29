@@ -1,22 +1,39 @@
+import { translate } from "@docusaurus/Translate"
+
 export const TAB_OPTIONS = [
   {
-    label: "Image generator",
+    label: translate({
+      id: "ai_header.solutions_title.image_generator",
+      message: "Image generator",
+    }),
     value: 0,
   },
   {
-    label: "AI Voice Generator",
+    label: translate({
+      id: "ai_header.solutions_title.ai_voice_generator",
+      message: "AI Voice Generator",
+    }),
     value: 1,
   },
   {
-    label: "Dashboard",
+    label: translate({
+      id: "ai_header.solutions_title.dashboard",
+      message: "Dashboard",
+    }),
     value: 2,
   },
   {
-    label: "CMS",
+    label: translate({
+      id: "ai_header.solutions_title.cms",
+      message: "CMS",
+    }),
     value: 3,
   },
   {
-    label: "CRM",
+    label: translate({
+      id: "ai_header.solutions_title.crm",
+      message: "CRM",
+    }),
     value: 4,
   },
 ]
@@ -104,55 +121,52 @@ export const SOLUTIONS_IMAGE = [
   },
 ]
 
-export const MOBILE_SOLUTIONS_IMAGE = [
+const MOBILE_SOLUTIONS_IMAGE = [
   {
-    label: "Image generator",
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
         className="w-full"
       />
     ),
-    value: 0,
   },
   {
-    label: "AI Voice Generator",
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
         className="w-full"
       />
     ),
-    value: 1,
   },
   {
-    label: "Dashboard",
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
         className="w-full"
       />
     ),
-    value: 2,
   },
   {
-    label: "CMS",
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
         className="w-full"
       />
     ),
-    value: 3,
   },
   {
-    label: "CRM",
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
         className="w-full"
       />
     ),
-    value: 4,
   },
 ]
+
+export const MOBILE_SOLUTIONS = MOBILE_SOLUTIONS_IMAGE.map((item, i) => {
+  return {
+    ...item,
+    ...TAB_OPTIONS[i],
+  }
+})
