@@ -20,6 +20,15 @@
   "ai_header.solutions_title.dashboard": {
     "message": "Dashboard"
   },
+  "ai_header.solutions_title.cms": {
+    "message": "CMS"
+  },
+  "ai_header.solutions_title.crm": {
+    "message": "CRM"
+  },
+  "ai_header.solutions_title.admin_panel": {
+    "message": "Admin Panel"
+  },
   "footer.table": {
     "message": "Table"
   },
@@ -110,20 +119,11 @@
   "ai_header.solutions_description.dashboard": {
     "message": "temp title 22"
   },
-  "ai_header.solutions_title.cms": {
-    "message": "CMS"
-  },
   "ai_header.solutions_description.cms": {
     "message": "temp title 3"
   },
-  "ai_header.solutions_title.crm": {
-    "message": "CRM"
-  },
   "ai_header.solutions_description.crm": {
     "message": "temp title 4"
-  },
-  "ai_header.solutions_title.admin_panel": {
-    "message": "temp title 5"
   },
   "ai_header.solutions_description.admin_panel": {
     "message": "temp title 5"
@@ -495,6 +495,16 @@
   "footer.more": {
     "message": "Show more"
   },
+  "website_4.solution.use_this_template": {
+    "message": "Try demo now!"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "learn_more": {
+    "message": "Learn more"
+  },
   "call-to-action.title": {
     "message": "Start Building Apps with ILLA Cloud"
   },
@@ -516,13 +526,6 @@
   "title.star-us": {
     "message": "Star us"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "learn_more": {
-    "message": "Learn more"
-  },
   "pricing.billing.pricing.premium.desc": {
     "message": "Upgrade your team to access advanced features"
   },
@@ -537,12 +540,6 @@
   },
   "pricing.billing.plus-btn": {
     "message": "Upgrade"
-  },
-  "landingPage.build_with": {
-    "message": "Build with {name}"
-  },
-  "landingPage.back_to_components": {
-    "message": "Back to components"
   },
   "landingPageDetail.audio.name": {
     "message": "Audio"
@@ -1489,8 +1486,11 @@
   "landingPageDetail.tiDB.metaDescription": {
     "message": "Learn how to connect and interact with your TiDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
   },
-  "content.all.title": {
-    "message": "ILLA Cloud integrates everything"
+  "landingPage.build_with": {
+    "message": "Build with {name}"
+  },
+  "landingPage.back_to_components": {
+    "message": "Back to components"
   },
   "theme.NotFound.p1": {
     "message": "We could not find what you were looking for.",
@@ -1499,6 +1499,9 @@
   "theme.NotFound.p2": {
     "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
+  },
+  "content.all.title": {
+    "message": "ILLA Cloud integrates everything"
   },
   "how_to_use.title.3_steps_to_customize": {
     "message": "steps to customize your AI tools"
@@ -1619,9 +1622,6 @@
     "message": "Read more about {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
-  "website_4.solution.use_this_template": {
-    "message": "Try demo now!"
-  },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
@@ -1674,13 +1674,13 @@
     "message": "light mode",
     "description": "The name for the light color mode"
   },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Docs pages",
@@ -1705,6 +1705,10 @@
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1720,10 +1724,6 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "latest version",
     "description": "The label used for the latest version suggestion link label"
-  },
-  "theme.common.editThisPage": {
-    "message": "Edit this page",
-    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "Direct link to {heading}",
@@ -1777,6 +1777,10 @@
     "message": "Close",
     "description": "The ARIA label for close button of announcement bar"
   },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
   "theme.CodeBlock.copied": {
     "message": "Copied",
     "description": "The copied button label on code blocks"
@@ -1789,14 +1793,6 @@
     "message": "Copy",
     "description": "The copy button label on code blocks"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
-  },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
     "message": "Expand sidebar category '{label}'",
     "description": "The ARIA label to expand the sidebar category"
@@ -1804,6 +1800,10 @@
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
@@ -1813,9 +1813,9 @@
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Collapse sidebar",
@@ -1825,17 +1825,25 @@
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.docs.breadcrumbs.home": {
     "message": "Home page",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
     "message": "← Back to main menu",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Expand sidebar",
@@ -1844,14 +1852,6 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  },
-  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
-    "description": "The ARIA label for close button of mobile sidebar"
-  },
-  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Try again",
