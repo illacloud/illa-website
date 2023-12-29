@@ -11,8 +11,9 @@ import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import { Solutions } from "../SolutionsItem"
 
 export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
-  const { whiteTheme } = props
+  const { whiteTheme, hasBgColor } = props
   const getUtmParams = useUtmParams()
+
   return (
     <div className="w-full flex items-center justify-between">
       <div className={style.menuItemContainerStyle}>
@@ -125,7 +126,8 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
                 whiteTheme
                   ? "text-gray-02 hover:text-gray-02 border-gray-02 "
                   : "text-white-01 hover:text-white-01 border-white-01 ",
-                item.hasBorder ? "border-[1px]" : "border-0",
+                item.hasBorder && !hasBgColor ? "border-[1px]" : "border-0",
+                item.hasBorder && hasBgColor && style.operateItemStyleBg,
               )}
               onClick={() => {
                 sendTagEvent({

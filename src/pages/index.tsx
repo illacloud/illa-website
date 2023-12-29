@@ -15,6 +15,8 @@ export default function Home(): JSX.Element {
     <>
       <Head>
         <html data-active-page="index" />
+        <meta name="twitter:title" content={HOME_META_INFO.title} />
+        <meta name="twitter:description" content={HOME_META_INFO.description} />
       </Head>
       <CommonLayout {...HOME_META_INFO}>
         <div className="bg-black overflow-visible w-full relative z-[1]">

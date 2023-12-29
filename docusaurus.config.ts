@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer"
 import type { Config } from "@docusaurus/types"
 import type * as Preset from "@docusaurus/preset-classic"
+import { DEFAULT_KEYWORDS } from "./src/constants/meta"
 
 const config: Config = {
   title: "ILLA Cloud",
@@ -66,7 +67,15 @@ const config: Config = {
         content: "@illaCloudHQ",
       },
       {
-        property: "og:image",
+        name: "keywords",
+        content: DEFAULT_KEYWORDS,
+      },
+      {
+        name: "og:image",
+        content: "img/social-card-large.png",
+      },
+      {
+        name: "twitter:image",
         content: "img/social-card-large.png",
       },
     ],

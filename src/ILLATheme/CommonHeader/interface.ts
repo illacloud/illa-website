@@ -28,6 +28,7 @@ export interface IMenuItemProps {
 
 export interface IHeaderMenuProps {
   whiteTheme?: boolean
+  hasBgColor?: boolean
 }
 
 export interface OperateItemProps {

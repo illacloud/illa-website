@@ -55,7 +55,7 @@ export const SOLUTIONS_IMAGE = [
     ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        src="https://cdn.illacloud.com/illa-website/test/Browser%202.png"
         className="w-full"
       />
     ),
@@ -87,7 +87,7 @@ export const SOLUTIONS_IMAGE = [
     ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        src="https://cdn.illacloud.com/illa-website/test/Browser.png"
         className="w-full"
       />
     ),
@@ -149,7 +149,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
-        className="w-full"
+        className="w-full max-w-[320px]"
       />
     ),
   },
@@ -157,7 +157,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
-        className="w-full"
+        className="w-full max-w-[320px]"
       />
     ),
   },
@@ -165,7 +165,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
-        className="w-full"
+        className="w-full max-w-[320px]"
       />
     ),
   },
@@ -173,7 +173,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
-        className="w-full"
+        className="w-full max-w-[320px]"
       />
     ),
   },
@@ -181,7 +181,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
-        className="w-full"
+        className="w-full max-w-[320px]"
       />
     ),
   },
@@ -189,7 +189,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
     content: (
       <img
         src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
-        className="w-full"
+        className="w-full max-w-[320px]"
       />
     ),
   },

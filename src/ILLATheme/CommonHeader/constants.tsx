@@ -168,7 +168,7 @@ export const OPERATE_MENU_ITEMS = [
   {
     label: translate({
       id: "nav.signup",
-      message: "Sign up",
+      message: "Get started for free",
     }),
     hasBorder: true,
     href: CLOUD_URL,

@@ -15,25 +15,23 @@ const CardContentItem = ({
   const getUtmParams = useUtmParams()
 
   return (
-    <div className={style.borderStyle}>
-      <div
-        className={clsx(
-          style.cardIContentItemContainerStyle,
-          reverse
-            ? style.cardContentItemReverseStyle
-            : style.cardContentItemNormalStyle,
-        )}
-      >
-        {imageIcon}
-        <div className={style.textContainerStyle}>
-          <h2 className={style.textTitleStye}>
-            <span className={style.textTitleNumStye}>{stepNum}.</span>
-            <br />
-            <span>{title}</span>
-          </h2>
-          <span className={style.textDescStyle}>{desc}</span>
-          <LearnMore title={moreTitle} href={getUtmParams(moreHref) ?? ""} />
-        </div>
+    <div
+      className={clsx(
+        style.cardIContentItemContainerStyle,
+        reverse
+          ? style.cardContentItemReverseStyle
+          : style.cardContentItemNormalStyle,
+      )}
+    >
+      {imageIcon}
+      <div className={style.textContainerStyle}>
+        <h2 className={style.textTitleStye}>
+          <span className={style.textTitleNumStye}>{stepNum}.</span>
+          <br />
+          <span>{title}</span>
+        </h2>
+        <span className={style.textDescStyle}>{desc}</span>
+        <LearnMore title={moreTitle} href={getUtmParams(moreHref) ?? ""} />
       </div>
     </div>
   )

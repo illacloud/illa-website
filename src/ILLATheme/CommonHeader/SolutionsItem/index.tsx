@@ -52,7 +52,7 @@ export const Solutions: FC<{ whiteTheme: boolean }> = ({ whiteTheme }) => {
           >
             {SOLUTIONS?.subPanelTitle}
           </span>
-          <div className="w-full flex flex-col gap-[16px]">
+          <div className="w-full flex flex-col">
             {SOLUTIONS.items.map((subItem) => (
               <Menu.Item key={subItem.label}>
                 {() => (

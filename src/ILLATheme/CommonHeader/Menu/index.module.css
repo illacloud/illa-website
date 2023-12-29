@@ -29,3 +29,8 @@
 .operateItemStyle {
   @apply px-[24px] py-[8px] flex justify-center items-center gap-[8px] rounded-[20px] hover:no-underline font-medium;
 }
+
+.operateItemStyleBg {
+  @apply border-[1px] border-transparent;
+  background: linear-gradient(90deg, #9734e4 0%, #712eff 100%);
+}

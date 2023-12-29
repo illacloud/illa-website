@@ -82,7 +82,7 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
                 })
               }}
             >
-              <Translate id="illa-Cloud">Get start</Translate>
+              <Translate id="illa-Cloud">Get started!</Translate>
             </LinkButton>
           </div>
         </div>

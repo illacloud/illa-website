@@ -22,5 +22,10 @@
 }
 
 .imgStyle {
-  @apply w-full h-auto;
+  @apply w-full lg:w-[431px] xl:w-[532px] h-auto rounded-[8px];
+}
+
+.cardContainerStyle {
+  @apply w-full flex flex-col gap-[20px] items-center;
+  @apply lg:gap-[32px];
 }

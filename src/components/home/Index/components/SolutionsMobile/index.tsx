@@ -8,8 +8,11 @@ import { Autoplay } from "swiper/modules"
 const SolutionsMobile: FC = () => {
   return (
     <Swiper
-      className={style.solutionContainerStyle}
       modules={[Autoplay]}
+      centeredSlides
+      slidesPerView="auto"
+      spaceBetween={0}
+      className="w-auto"
       autoplay={{
         delay: 3000,
       }}

@@ -27,7 +27,7 @@
 }
 
 .solutionImageContainerStyle {
-  @apply w-full relative overflow-hidden flex flex-row;
+  @apply w-full relative overflow-hidden flex flex-row rounded-[12px];
 }
 .solutionImageContainerStyle svg {
   @apply w-full h-auto;
