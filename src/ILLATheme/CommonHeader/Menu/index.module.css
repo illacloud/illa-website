@@ -31,6 +31,6 @@
 }
 
 .operateItemStyleBg {
-  @apply border-[1px] border-transparent;
+  @apply border-[1px] border-transparent text-white-01 hover:text-white-01;
   background: linear-gradient(90deg, #9734e4 0%, #712eff 100%);
 }
