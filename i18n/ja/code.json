@@ -153,52 +153,7 @@
     "message": "ログイン"
   },
   "nav.signup": {
-    "message": "新規登録"
-  },
-  "meta.title": {
-    "message": "ILLA Cloud | AI駆動型ビジネスアプリを構築"
-  },
-  "meta.description": {
-    "message": "AI Agent と高度なローコードツールを使用してビジネスアプリを作成できるようにします"
-  },
-  "faq.title": {
-    "message": "よく寄せられる質問"
-  },
-  "faq.content.0.question": {
-    "message": "ILLA AIではどのようなコンテンツを作成できますか?"
-  },
-  "faq.content.0.answer": {
-    "message": "必要なあらゆる内部アプリケーションやAIツールを構築することができ、AIを内部アプリケーションと統合することもできます。 たとえば、ダッシュボード、管理パネル、ファイルコンテンツ管理、顧客管理システム、テキスト生成ツール、画像生成ツール、電子メール生成ツールなどです。"
-  },
-  "faq.content.1.question": {
-    "message": "誰がILLAクラウドを利用できますか?"
-  },
-  "faq.content.1.answer": {
-    "message": "プロダクトマネージャー、フルスタック開発者、プロジェクトマネージャー、データアナリストのいずれでも... nynone は ILLA Cloud を使用してツールを構築することができます: ドラッグアンドドロップコンポーネントによるフロントエンドインターフェースの設計から、データソースとの統合、および AI アシスタントを使用したクエリの生成まで。 ILLAは、不必要な複雑性を排除する合理化された経験を提供します。 独自のアプリケーションを作成するために、技術の専門家である必要はありません。"
-  },
-  "faq.content.2.question": {
-    "message": "ILLA クラウドからどのように利益を得ることができますか?"
-  },
-  "faq.content.2.answer": {
-    "message": "ILLA AIは、ツールを構築するコストを削減するだけでなく、希望するあらゆるAI機能を統合します。 仕事を効率化し貴重なコンテンツを短時間で生成することができます"
-  },
-  "faq.content.3.question": {
-    "message": "AIエージェントを特定のビジネスニーズに合わせてカスタマイズすることはできますか?"
-  },
-  "faq.content.3.answer": {
-    "message": "AIエージェントは大規模な言語モデルに基づいており、特定のタスクを実行するようにカスタマイズできます。 ビジネス要件に基づいて、AI Agent の動作を定義できます。 ILLA Builderを使用することで、AIエージェントにデータを入力し、テキスト処理などの指定されたタスクを達成するためにトレーニングすることができます。 画像認識と自然言語処理です"
-  },
-  "faq.content.4.question": {
-    "message": "ILLAはどのようなデータソースをサポートしていますか?"
-  },
-  "faq.content.4.answer": {
-    "message": "ILLAは、PostgreSQL、MongoDB、REST API、GraphQL、Google Sheetなど、さまざまなデータソースとの統合をサポートしています。 コードを記述することなく、任意のデータソースにすばやく接続できるため、目的のデータにシームレスにアクセスできます。"
-  },
-  "faq.content.5.question": {
-    "message": "ILLA クラウドユーザーの技術サポートはありますか?"
-  },
-  "faq.content.5.answer": {
-    "message": "はい、ILLA クラウドは、ユーザーに技術サポートを提供します。 プラットフォームの機能に関する問題や質問がある場合は、サポートチームまでお問い合わせください。 ILLA Cloudでシームレスな体験をお届けすることに専念しています。"
+    "message": "無料で始める"
   },
   "pricing.sub-title": {
     "message": "AI駆動型ビジネスアプリを構築"
@@ -473,6 +428,51 @@
   "landingPage.integrations.classify.api.airtable.description": {
     "message": "プロジェクト、データ、チームをシームレスに管理するための柔軟で協調的なプラットフォーム。"
   },
+  "meta.title": {
+    "message": "ILLA Cloud | AI駆動型ビジネスアプリを構築"
+  },
+  "meta.description": {
+    "message": "AI Agent と高度なローコードツールを使用してビジネスアプリを作成できるようにします"
+  },
+  "faq.title": {
+    "message": "よく寄せられる質問"
+  },
+  "faq.content.0.question": {
+    "message": "ILLA AIではどのようなコンテンツを作成できますか?"
+  },
+  "faq.content.0.answer": {
+    "message": "必要なあらゆる内部アプリケーションやAIツールを構築することができ、AIを内部アプリケーションと統合することもできます。 たとえば、ダッシュボード、管理パネル、ファイルコンテンツ管理、顧客管理システム、テキスト生成ツール、画像生成ツール、電子メール生成ツールなどです。"
+  },
+  "faq.content.1.question": {
+    "message": "誰がILLAクラウドを利用できますか?"
+  },
+  "faq.content.1.answer": {
+    "message": "プロダクトマネージャー、フルスタック開発者、プロジェクトマネージャー、データアナリストのいずれでも... nynone は ILLA Cloud を使用してツールを構築することができます: ドラッグアンドドロップコンポーネントによるフロントエンドインターフェースの設計から、データソースとの統合、および AI アシスタントを使用したクエリの生成まで。 ILLAは、不必要な複雑性を排除する合理化された経験を提供します。 独自のアプリケーションを作成するために、技術の専門家である必要はありません。"
+  },
+  "faq.content.2.question": {
+    "message": "ILLA クラウドからどのように利益を得ることができますか?"
+  },
+  "faq.content.2.answer": {
+    "message": "ILLA AIは、ツールを構築するコストを削減するだけでなく、希望するあらゆるAI機能を統合します。 仕事を効率化し貴重なコンテンツを短時間で生成することができます"
+  },
+  "faq.content.3.question": {
+    "message": "AIエージェントを特定のビジネスニーズに合わせてカスタマイズすることはできますか?"
+  },
+  "faq.content.3.answer": {
+    "message": "AIエージェントは大規模な言語モデルに基づいており、特定のタスクを実行するようにカスタマイズできます。 ビジネス要件に基づいて、AI Agent の動作を定義できます。 ILLA Builderを使用することで、AIエージェントにデータを入力し、テキスト処理などの指定されたタスクを達成するためにトレーニングすることができます。 画像認識と自然言語処理です"
+  },
+  "faq.content.4.question": {
+    "message": "ILLAはどのようなデータソースをサポートしていますか?"
+  },
+  "faq.content.4.answer": {
+    "message": "ILLAは、PostgreSQL、MongoDB、REST API、GraphQL、Google Sheetなど、さまざまなデータソースとの統合をサポートしています。 コードを記述することなく、任意のデータソースにすばやく接続できるため、目的のデータにシームレスにアクセスできます。"
+  },
+  "faq.content.5.question": {
+    "message": "ILLA クラウドユーザーの技術サポートはありますか?"
+  },
+  "faq.content.5.answer": {
+    "message": "はい、ILLA クラウドは、ユーザーに技術サポートを提供します。 プラットフォームの機能に関する問題や質問がある場合は、サポートチームまでお問い合わせください。 ILLA Cloudでシームレスな体験をお届けすることに専念しています。"
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "ブログ一覧ページのナビゲーション",
     "description": "The ARIA label for the blog pagination"
@@ -484,6 +484,17 @@
   "theme.blog.paginator.olderEntries": {
     "message": "古い項目",
     "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.plurals": {
+    "message": "1 つの投稿|{count} 投稿",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} は \"{tagName} \" でタグ付けされています",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.posts_tagged_with": {
+    "message": "タグ付けされた投稿"
   },
   "theme.NotFound.title": {
     "message": "ページが見つかりません",
@@ -501,9 +512,6 @@
   "theme.blog.post.readingTime.plurals": {
     "message": "1分間の読み取り|{readingTime} 分間の読み取り",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "learn_more": {
-    "message": "もっと詳しく"
   },
   "call-to-action.title": {
     "message": "ILLA クラウドを使ったアプリの構築を開始"
@@ -525,6 +533,9 @@
   },
   "title.star-us": {
     "message": "星印を付ける"
+  },
+  "learn_more": {
+    "message": "もっと詳しく"
   },
   "pricing.billing.pricing.premium.desc": {
     "message": "チームをアップグレードして高度な機能にアクセスする"
@@ -1096,6 +1107,12 @@
   "landingPageDetail.video.metaDescription": {
     "message": "ILLA Cloud を使用してトレーニングビデオ、製品デモ、チュートリアルなどの作成にビデオコンポーネントを使用する方法を学びます。"
   },
+  "landingPage.build_with": {
+    "message": "{name} でビルド"
+  },
+  "landingPage.back_to_components": {
+    "message": "コンポーネントに戻る"
+  },
   "landingPageDetail.airtable.name": {
     "message": "Airtable"
   },
@@ -1486,12 +1503,6 @@
   "landingPageDetail.tiDB.metaDescription": {
     "message": "内部ツールを構築するためのオープンソースのローコードプラットフォーム、ILLA Cloudを使用してTiDBデータベースに接続して対話する方法を学びます。"
   },
-  "landingPage.build_with": {
-    "message": "{name} でビルド"
-  },
-  "landingPage.back_to_components": {
-    "message": "コンポーネントに戻る"
-  },
   "theme.NotFound.p1": {
     "message": "お探しのものが見つかりませんでした。",
     "description": "The first paragraph of the 404 page"
@@ -1606,7 +1617,7 @@
     "message": "ビジネスアプリ"
   },
   "illa-Cloud": {
-    "message": "始めよう"
+    "message": "始めましょう！"
   },
   "stars": {
     "message": "開始"
@@ -1649,14 +1660,6 @@
   "theme.blog.post.paginator.olderPost": {
     "message": "以前の投稿",
     "description": "The blog post button label to navigate to the older/next post"
-  },
-  "theme.blog.post.plurals": {
-    "message": "1 つの投稿|{count} 投稿",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.tagTitle": {
-    "message": "{nPosts} は \"{tagName} \" でタグ付けされています",
-    "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
     "message": "すべてのタグを表示",
@@ -1705,10 +1708,6 @@
   "theme.docs.versionBadge.label": {
     "message": "バージョン: {versionLabel}"
   },
-  "theme.common.editThisPage": {
-    "message": "このページを編集",
-    "description": "The link label to edit the current page"
-  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "これは、 {siteTitle} {versionLabel} バージョンの未リリースのドキュメントです。",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1724,6 +1723,10 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "最新バージョン",
     "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "このページを編集",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "{heading} への直接リンク",
@@ -1793,6 +1796,10 @@
     "message": "コピー",
     "description": "The copy button label on code blocks"
   },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "ワードラップの切り替え",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
     "message": "サイドバーカテゴリ '{label} ' を展開",
     "description": "The ARIA label to expand the sidebar category"
@@ -1801,21 +1808,21 @@
     "message": "サイドバーカテゴリ「{label}」を閉じる",
     "description": "The ARIA label to collapse the sidebar category"
   },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "ワードラップの切り替え",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
-  },
   "theme.NavBar.navAriaLabel": {
     "message": "メイン",
     "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "言語",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "このページ",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
+  "theme.docs.breadcrumbs.home": {
+    "message": "ホームページ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "サイドバーを閉じる",
@@ -1825,13 +1832,9 @@
     "message": "サイドバーを閉じる",
     "description": "The title attribute for collapse button of doc sidebar"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "言語",
-    "description": "The label for the mobile language switcher dropdown"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "ホームページ",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "ナビゲーションバーを閉じる",
