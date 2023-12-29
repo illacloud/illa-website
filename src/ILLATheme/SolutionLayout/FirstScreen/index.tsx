@@ -19,6 +19,7 @@ interface IFirstScreenProps {
   colorEnd: string
   appID: string
   image: string
+  imageAlt: string
 }
 
 const FirstScreen: FC<IFirstScreenProps> = ({
@@ -29,6 +30,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
   colorEnd,
   appID,
   image,
+  imageAlt,
 }) => {
   const getUtmParams = useUtmParams()
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
@@ -85,7 +87,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
               scale: scale,
             }}
           >
-            <img src={image} width="100%" alt="" />
+            <img src={image} width="100%" alt={imageAlt} />
             <div className={style.linkButtonStyle}>
               <LinkButton
                 href={handleDemoHref(appID)}
@@ -103,7 +105,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
               </LinkButton>
             </div>
           </motion.div>
-          <img className="lg:hidden block w-full" src={image} alt="" />
+          <img className="lg:hidden block w-full" src={image} alt={imageAlt} />
         </div>
       </div>
     </div>
