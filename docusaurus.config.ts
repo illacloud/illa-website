@@ -133,29 +133,6 @@ const config: Config = {
         },
       }
     },
-    // function svgFix() {
-    //   return {
-    //     name: 'svg-fix',
-    //     configureWebpack(config) {
-    //       const svgRuleIndex = config.module.rules.findIndex((r) =>
-    //         r.test.test('file.svg'),
-    //       );
-    //       const svgrConfigIndex = config.module.rules[
-    //         svgRuleIndex
-    //       ].oneOf.findIndex((r) => {
-    //         if (!Array.isArray(r.use) || r.use.length === 0) return false;
-    //         return r.use[0].loader.indexOf('@svgr/webpack') !== -1;
-    //       });
-    //       if (svgRuleIndex === -1 || svgrConfigIndex === -1) return;
-
-    //       config.module.rules[svgRuleIndex].oneOf[
-    //         svgrConfigIndex
-    //       ].use[0].options.svgoConfig.plugins[0].params.overrides.cleanupIDs =
-    //         false;
-    //       return config;
-    //     },
-    //   };
-    // },
     async function taildindcss() {
       return {
         name: "docusaurus-tailwindcss",
@@ -188,6 +165,9 @@ const config: Config = {
       },
     ],
     "./plugins/solution-plugin.js",
+    "./plugins/linkedin.js",
+    "./plugins/twitter.js",
+    "./plugins/chatwoot.js",
   ],
 }
 
