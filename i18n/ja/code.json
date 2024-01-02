@@ -111,22 +111,22 @@
     "message": "ユースケース別ソリューション"
   },
   "ai_header.solutions_description.image_generator": {
-    "message": "temp desc 1"
+    "message": "AIで画像を生成し、アイデアのコミュニケーションをより効率的にします。"
   },
   "ai_header.solutions_description.ai_voice_generator": {
-    "message": "temp desc 2"
+    "message": "AIで画像を生成し、アイデアのコミュニケーションをより効率的にします。"
   },
   "ai_header.solutions_description.dashboard": {
-    "message": "temp title 22"
+    "message": "包括的なデータ分析ダッシュボードを構築し、最小限の投資でビジネスの成長を促進します。"
   },
   "ai_header.solutions_description.cms": {
-    "message": "temp title 3"
+    "message": "あらゆるプラットフォーム、Web、モバイルアプリで一貫したコンテンツ体験を提供します"
   },
   "ai_header.solutions_description.crm": {
-    "message": "temp title 4"
+    "message": "より迅速な取引を完了するための販売CRMソリューション"
   },
   "ai_header.solutions_description.admin_panel": {
-    "message": "temp title 5"
+    "message": "データを管理したり操作を実行したりするために、10倍の速度で管理パネルを構築します。"
   },
   "nav.resource": {
     "message": "リソース"
@@ -155,14 +155,8 @@
   "nav.signup": {
     "message": "無料で始める"
   },
-  "pricing.sub-title": {
-    "message": "AI駆動型ビジネスアプリを構築"
-  },
   "pricing.title": {
     "message": "価格"
-  },
-  "pricing.page-desc": {
-    "message": "ILLA Cloud Billing の導入により、監査ログや公開アプリなどの特別な機能にアクセスできます。 請求システムは、オーナー、管理者、編集者の役割を含む編集権限を持つメンバーに基づいています。 購読すると、無制限の視聴者を追加料金なしで追加できます。"
   },
   "pricing.meta-desc": {
     "message": "個々の開発者や小規模なチームが内部アプリケーションを構築するために必要なすべての機能を無料で開始します。"
@@ -473,6 +467,12 @@
   "faq.content.5.answer": {
     "message": "はい、ILLA クラウドは、ユーザーに技術サポートを提供します。 プラットフォームの機能に関する問題や質問がある場合は、サポートチームまでお問い合わせください。 ILLA Cloudでシームレスな体験をお届けすることに専念しています。"
   },
+  "pricing.sub-title": {
+    "message": "AI駆動型ビジネスアプリを構築"
+  },
+  "pricing.page-desc": {
+    "message": "ILLA Cloud Billing の導入により、監査ログや公開アプリなどの特別な機能にアクセスできます。 請求システムは、オーナー、管理者、編集者の役割を含む編集権限を持つメンバーに基づいています。 購読すると、無制限の視聴者を追加料金なしで追加できます。"
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "ブログ一覧ページのナビゲーション",
     "description": "The ARIA label for the blog pagination"
@@ -513,6 +513,9 @@
     "message": "1分間の読み取り|{readingTime} 分間の読み取り",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
+  "learn_more": {
+    "message": "もっと詳しく"
+  },
   "call-to-action.title": {
     "message": "ILLA クラウドを使ったアプリの構築を開始"
   },
@@ -533,24 +536,6 @@
   },
   "title.star-us": {
     "message": "星印を付ける"
-  },
-  "learn_more": {
-    "message": "もっと詳しく"
-  },
-  "pricing.billing.pricing.premium.desc": {
-    "message": "チームをアップグレードして高度な機能にアクセスする"
-  },
-  "pricing.billing.pricing.premium.price": {
-    "message": "/month/editor"
-  },
-  "pricing.billing.pricing.colla.desc": {
-    "message": "ILLA Cloud の付加価値サービスの支払いに使用"
-  },
-  "pricing.billing.pricing.colla.price": {
-    "message": "/month/5k Colla"
-  },
-  "pricing.billing.plus-btn": {
-    "message": "アップグレードする"
   },
   "landingPageDetail.audio.name": {
     "message": "オーディオ"
@@ -1107,12 +1092,6 @@
   "landingPageDetail.video.metaDescription": {
     "message": "ILLA Cloud を使用してトレーニングビデオ、製品デモ、チュートリアルなどの作成にビデオコンポーネントを使用する方法を学びます。"
   },
-  "landingPage.build_with": {
-    "message": "{name} でビルド"
-  },
-  "landingPage.back_to_components": {
-    "message": "コンポーネントに戻る"
-  },
   "landingPageDetail.airtable.name": {
     "message": "Airtable"
   },
@@ -1503,6 +1482,27 @@
   "landingPageDetail.tiDB.metaDescription": {
     "message": "内部ツールを構築するためのオープンソースのローコードプラットフォーム、ILLA Cloudを使用してTiDBデータベースに接続して対話する方法を学びます。"
   },
+  "pricing.billing.pricing.premium.desc": {
+    "message": "チームをアップグレードして高度な機能にアクセスする"
+  },
+  "pricing.billing.pricing.premium.price": {
+    "message": "/month/editor"
+  },
+  "pricing.billing.pricing.colla.desc": {
+    "message": "ILLA Cloud の付加価値サービスの支払いに使用"
+  },
+  "pricing.billing.pricing.colla.price": {
+    "message": "/month/5k Colla"
+  },
+  "pricing.billing.plus-btn": {
+    "message": "アップグレードする"
+  },
+  "landingPage.build_with": {
+    "message": "{name} でビルド"
+  },
+  "landingPage.back_to_components": {
+    "message": "コンポーネントに戻る"
+  },
   "theme.NotFound.p1": {
     "message": "お探しのものが見つかりませんでした。",
     "description": "The first paragraph of the 404 page"
@@ -1521,31 +1521,31 @@
     "message": "ドラッグ＆ドロップのコンポーネントを使用してツールを構築し、AI エージェントをカスタマイズし、データソースに接続します。 AIをニーズやデータに合わせたスマートツールとして活用することで、よりインテリジェントな作業を実現します。"
   },
   "how_to_use.step1_title.create_ai_agent_for": {
-    "message": "特定の目的のためにAIエージェントを作成する"
+    "message": "UIをデザインするためにコンポーネントをドラッグ＆ドロップします"
   },
   "how_to_use.step1_description.you_can_create_an_ai": {
-    "message": "特定の目的のためにAIエージェントを作成し、特定のタスク、仕事、または日常生活でより役に立つようにすることができます。 "
+    "message": "コンポーネントをドラッグ&ドロップすることで、アプリの UI を素早く構築し、任意の機能を実装できます。"
   },
   "how_to_use.step1_button.ai_agent_marketplace": {
-    "message": "AIエージェントマーケットプレイスformat@@0"
+    "message": "ILLA を使用して UI の構築を開始"
   },
   "how_to_use.step2_title.build_the_frontend_p": {
-    "message": "数分でフロントエンドページを構築する"
+    "message": "データソースに接続"
   },
   "how_to_use.step2_description.by_dragging_and_drop": {
-    "message": "コンポーネントをドラッグ&ドロップすることで、ツールのインターフェイスを素早く構築し、任意の機能を実装できます。"
+    "message": "MySQL、PostgreSQL、その他のデータベース、REST API、GraphQLなど、独自のデータソースに接続します。1分でCRUD アプリをビルドします。"
   },
   "how_to_use.step2_button.illa_app_marketplace": {
-    "message": "ILLAアプリ市場"
+    "message": "データソースを使ったアプリの構築を開始"
   },
   "how_to_use.step3_title.connect_to_your_data": {
-    "message": "データソースとAIエージェントに接続"
+    "message": "AIエージェントの設定と接続"
   },
   "how_to_use.step3_description.enable_data_integrat": {
-    "message": "AIエージェントは、お客様の要件とデータに基づいて特定のタスクを実行します。"
+    "message": "AIエージェントをアプリに統合し、AI開発スキルを必要とせずにインテリジェント分析、コンテンツ生成などのAI機能を利用できるようにします。"
   },
   "how_to_use.step3_button.supported_data_sourc": {
-    "message": "サポートされているデータソース"
+    "message": "AI駆動アプリの構築を開始"
   },
   "testimonial.title.user_testimonials": {
     "message": "ユーザーの声"
@@ -1677,13 +1677,13 @@
     "message": "ライトモード",
     "description": "The name for the light color mode"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "パンくずリスト",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} アイテム",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "パンくずリスト",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "ドキュメントページ",
@@ -1708,6 +1708,14 @@
   "theme.docs.versionBadge.label": {
     "message": "バージョン: {versionLabel}"
   },
+  "theme.common.editThisPage": {
+    "message": "このページを編集",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} への直接リンク",
+    "description": "Title for link to heading"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "これは、 {siteTitle} {versionLabel} バージョンの未リリースのドキュメントです。",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1723,14 +1731,6 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "最新バージョン",
     "description": "The label used for the latest version suggestion link label"
-  },
-  "theme.common.editThisPage": {
-    "message": "このページを編集",
-    "description": "The link label to edit the current page"
-  },
-  "theme.common.headingLinkTitle": {
-    "message": "{heading} への直接リンク",
-    "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
     "message": " {date}",
@@ -1780,10 +1780,6 @@
     "message": "閉じる",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "ブログの最近の投稿ナビゲーション",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
   "theme.CodeBlock.copied": {
     "message": "コピーしました",
     "description": "The copied button label on code blocks"
@@ -1795,6 +1791,10 @@
   "theme.CodeBlock.copy": {
     "message": "コピー",
     "description": "The copy button label on code blocks"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "ブログの最近の投稿ナビゲーション",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "ワードラップの切り替え",
@@ -1812,17 +1812,9 @@
     "message": "メイン",
     "description": "The ARIA label for the main navigation"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "言語",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "このページ",
     "description": "The label used by the button on the collapsible TOC component"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "ホームページ",
-    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "サイドバーを閉じる",
@@ -1832,9 +1824,17 @@
     "message": "サイドバーを閉じる",
     "description": "The title attribute for collapse button of doc sidebar"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "言語",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ホームページ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "ナビゲーションバーを閉じる",

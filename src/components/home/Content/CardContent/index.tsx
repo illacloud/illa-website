@@ -1,9 +1,7 @@
 import style from "./index.module.css"
 import CardContentItem from "./CardContentItem"
 import { translate } from "@docusaurus/Translate"
-import Step1Icon from "@site/static/img/home3/cardContent/step1.svg"
-import Step2Icon from "@site/static/img/home3/cardContent/step2.svg"
-import Step3Icon from "@site/static/img/home3/cardContent/step3.svg"
+import { CLOUD_URL } from "@site/src/constants/url"
 
 const CARD_CONTENT = {
   title: translate({
@@ -25,18 +23,18 @@ const CARD_CONTENT = {
       ),
       title: translate({
         id: "how_to_use.step1_title.create_ai_agent_for",
-        message: "Create AI Agent for a specific purpose",
+        message: "Drag and drop components to design UI",
       }),
       desc: translate({
         id: "how_to_use.step1_description.you_can_create_an_ai",
         message:
-          "You can create an AI Agent for a specific purpose and make it more helpful at specific tasks, at work, or in your daily life. ",
+          "By dragging and dropping components, you can quickly build the UI of the apps and implement any functionality you desire.",
       }),
       moreTitle: translate({
         id: "how_to_use.step1_button.ai_agent_marketplace",
-        message: "AI Agent Marketplace",
+        message: "Start building UI with ILLA",
       }),
-      moreHref: "https://illa.ai",
+      moreHref: CLOUD_URL,
     },
     {
       imageIcon: (
@@ -47,18 +45,18 @@ const CARD_CONTENT = {
       ),
       title: translate({
         id: "how_to_use.step2_title.build_the_frontend_p",
-        message: "Build the frontend page in a few minutes",
+        message: "Connect to your data sources",
       }),
       desc: translate({
         id: "how_to_use.step2_description.by_dragging_and_drop",
         message:
-          "By dragging and dropping components, you can quickly build the interface of the tool and implement any functionality you desire.",
+          "Connect to your own data sources, including MySQL, PostgreSQL, and other databases, REST APIs, GraphQL, etc. Build CRUD apps in just one minute.",
       }),
       moreTitle: translate({
         id: "how_to_use.step2_button.illa_app_marketplace",
-        message: "ILLA App Marketplace",
+        message: "Start building Apps with your data sources",
       }),
-      moreHref: "https://illa.ai/app",
+      moreHref: CLOUD_URL,
       reverse: true,
     },
     {
@@ -70,18 +68,18 @@ const CARD_CONTENT = {
       ),
       title: translate({
         id: "how_to_use.step3_title.connect_to_your_data",
-        message: "Connect to your data sources and AI Agents",
+        message: "Configure and connect to AI agents",
       }),
       desc: translate({
         id: "how_to_use.step3_description.enable_data_integrat",
         message:
-          "Enable data integration and automation. AI Agent will perform specific tasks based on your requirements and data.",
+          "Integrating AI agents into your app and empower it with AI capabilities such as intelligent analysis, content generation, and more, without AI development skills.",
       }),
       moreTitle: translate({
         id: "how_to_use.step3_button.supported_data_sourc",
-        message: "Supported data sources",
+        message: "Start building AI driven apps",
       }),
-      moreHref: "https://www.illacloud.com/integrations",
+      moreHref: CLOUD_URL,
     },
   ],
 }

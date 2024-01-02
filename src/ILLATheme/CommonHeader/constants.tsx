@@ -21,10 +21,11 @@ export const SOLUTIONS: NavbarPopoverItemType = {
       }),
       description: translate({
         id: "ai_header.solutions_description.image_generator",
-        message: "temp desc 1",
+        message:
+          "Generate images with AI. Make the communication of ideas more efficient.",
       }),
       icon: <Temp1 className="w-[24px] h-[24px] pt-[4px]" />,
-      href: "/test",
+      href: "/image-generator",
       category: "homepage_menu_solutions_image_generator_click",
     },
     {
@@ -34,10 +35,11 @@ export const SOLUTIONS: NavbarPopoverItemType = {
       }),
       description: translate({
         id: "ai_header.solutions_description.ai_voice_generator",
-        message: "temp desc 2",
+        message:
+          "Generate images with AI. Make the communication of ideas more efficient.",
       }),
       icon: <Temp2 className="w-[24px] h-[24px] pt-[4px]" />,
-      href: "image-generator",
+      href: "/ai-voice-generator",
       category: "homepage_menu_solutions_ai_voice_generator_click",
     },
     {
@@ -47,10 +49,11 @@ export const SOLUTIONS: NavbarPopoverItemType = {
       }),
       description: translate({
         id: "ai_header.solutions_description.dashboard",
-        message: "temp title 22",
+        message:
+          "Build comprehensive data analysis dashboards and drive your business growth with minimal investment.",
       }),
       icon: <Temp1 className="w-[24px] h-[24px] pt-[4px]" />,
-      href: "image-generator",
+      href: "/dashboard",
       category: "homepage_menu_solutions_dashboard_click",
     },
     {
@@ -60,10 +63,11 @@ export const SOLUTIONS: NavbarPopoverItemType = {
       }),
       description: translate({
         id: "ai_header.solutions_description.cms",
-        message: "temp title 3",
+        message:
+          "Deliver consistent content experiences across any platform, web or mobile app",
       }),
       icon: <Temp1 className="w-[24px] h-[24px] pt-[4px]" />,
-      href: "image-generator",
+      href: "/cms",
       category: "homepage_menu_solutions_cms_click",
     },
     {
@@ -73,10 +77,10 @@ export const SOLUTIONS: NavbarPopoverItemType = {
       }),
       description: translate({
         id: "ai_header.solutions_description.crm",
-        message: "temp title 4",
+        message: "Better sales CRM solution to close deals faster",
       }),
       icon: <Temp1 className="w-[24px] h-[24px]" />,
-      href: "image-generator",
+      href: "/crm",
       category: "homepage_menu_solutions_crm_click",
     },
     {
@@ -86,10 +90,11 @@ export const SOLUTIONS: NavbarPopoverItemType = {
       }),
       description: translate({
         id: "ai_header.solutions_description.admin_panel",
-        message: "temp title 5",
+        message:
+          "Build admin panels at 10x speed to manage data or perform operations",
       }),
       icon: <Temp1 className="w-[24px] h-[24px]" />,
-      href: "image-generator",
+      href: "/admin-panel",
       category: "homepage_menu_solutions_admin_panel_click",
     },
   ],

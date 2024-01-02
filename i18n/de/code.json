@@ -111,22 +111,22 @@
     "message": "Lösungen nach Anwendungsfall"
   },
   "ai_header.solutions_description.image_generator": {
-    "message": "temp desc 1"
+    "message": "Erstellen Sie Bilder mit AI. Machen Sie die Kommunikation von Ideen effizienter."
   },
   "ai_header.solutions_description.ai_voice_generator": {
-    "message": "temp desc 2"
+    "message": "Erstellen Sie Bilder mit AI. Machen Sie die Kommunikation von Ideen effizienter."
   },
   "ai_header.solutions_description.dashboard": {
-    "message": "temp Titel 22"
+    "message": "Erstellen Sie umfassende Datenanalyse-Dashboards und treiben Sie Ihr Geschäftswachstum mit minimalem Investitionsaufwand an."
   },
   "ai_header.solutions_description.cms": {
-    "message": "temp Titel 3"
+    "message": "Bieten Sie konsistente Inhaltserlebnisse für jede Plattform, Web oder mobile App"
   },
   "ai_header.solutions_description.crm": {
-    "message": "temp Titel 4"
+    "message": "Bessere Vertriebs-CRM-Lösung, um Transaktionen schneller abzuschließen"
   },
   "ai_header.solutions_description.admin_panel": {
-    "message": "temp Titel 5"
+    "message": "Erstellen Sie Admin-Panels mit 10x Geschwindigkeit um Daten zu verwalten oder Operationen durchzuführen"
   },
   "nav.resource": {
     "message": "Ressource"
@@ -155,14 +155,8 @@
   "nav.signup": {
     "message": "Kostenlos loslegen"
   },
-  "pricing.sub-title": {
-    "message": "Baue AI Driven Business App"
-  },
   "pricing.title": {
     "message": "Preis"
-  },
-  "pricing.page-desc": {
-    "message": "Mit dem Start von ILLA Cloud Billing erhalten Sie Zugriff auf exklusive Funktionen wie Audit-Logs und öffentliche App. Unser Abrechnungssystem basiert auf Mitgliedern mit Bearbeitungsrechten, einschließlich Eigentümer-, Admin- und Redakteur-Rollen. Sobald Sie sich angemeldet haben, können Sie unbegrenzte Zuschauer kostenlos hinzufügen."
   },
   "pricing.meta-desc": {
     "message": "Beginnen Sie kostenlos mit allen Funktionen, die einzelne Entwickler oder kleine Teams benötigen, um interne Anwendungen zu erstellen."
@@ -473,6 +467,12 @@
   "faq.content.5.answer": {
     "message": "Ja, ILLA Cloud bietet seinen Benutzern technische Unterstützung. Wenn Sie auf Probleme stoßen oder Fragen zu den Funktionen der Plattform haben, können Sie sich an unser Support-Team wenden. Wir helfen Ihnen, eine nahtlose Erfahrung mit ILLA Cloud zu machen."
   },
+  "pricing.sub-title": {
+    "message": "Baue AI Driven Business App"
+  },
+  "pricing.page-desc": {
+    "message": "Mit dem Start von ILLA Cloud Billing erhalten Sie Zugriff auf exklusive Funktionen wie Audit-Logs und öffentliche App. Unser Abrechnungssystem basiert auf Mitgliedern mit Bearbeitungsrechten, einschließlich Eigentümer-, Admin- und Redakteur-Rollen. Sobald Sie sich angemeldet haben, können Sie unbegrenzte Zuschauer kostenlos hinzufügen."
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Navigation der Blog-Liste",
     "description": "The ARIA label for the blog pagination"
@@ -513,6 +513,9 @@
     "message": "1 min gelesen|{readingTime} min gelesen",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
+  "learn_more": {
+    "message": "Mehr erfahren"
+  },
   "call-to-action.title": {
     "message": "Erstelle Apps mit ILLA-Cloud starten"
   },
@@ -533,24 +536,6 @@
   },
   "title.star-us": {
     "message": "Markiere uns"
-  },
-  "learn_more": {
-    "message": "Mehr erfahren"
-  },
-  "pricing.billing.pricing.premium.desc": {
-    "message": "Verbessern Sie Ihr Team, um auf erweiterte Funktionen zuzugreifen"
-  },
-  "pricing.billing.pricing.premium.price": {
-    "message": "/Monat/Editor"
-  },
-  "pricing.billing.pricing.colla.desc": {
-    "message": "Verwendet um Mehrwertdienste in ILLA Cloud zu bezahlen"
-  },
-  "pricing.billing.pricing.colla.price": {
-    "message": "/Monat/5k Colla"
-  },
-  "pricing.billing.plus-btn": {
-    "message": "Upgrade"
   },
   "landingPageDetail.audio.name": {
     "message": "Audio"
@@ -1107,12 +1092,6 @@
   "landingPageDetail.video.metaDescription": {
     "message": "Erfahren Sie, wie Sie mithilfe von Videokomponenten Trainingsvideos, Produktdemos, Tutorials und mehr mit ILLA Cloud erstellen können."
   },
-  "landingPage.build_with": {
-    "message": "Build mit {name}"
-  },
-  "landingPage.back_to_components": {
-    "message": "Zurück zu Komponenten"
-  },
   "landingPageDetail.airtable.name": {
     "message": "Airtable"
   },
@@ -1503,6 +1482,27 @@
   "landingPageDetail.tiDB.metaDescription": {
     "message": "Lernen Sie mit ILLA Cloud, der Open-Source Low-Code-Plattform zum Erstellen interner Tools, wie Sie sich mit Ihrer TiDB-Datenbank verbinden und mit ihnen intern intern kommunizieren können."
   },
+  "pricing.billing.pricing.premium.desc": {
+    "message": "Verbessern Sie Ihr Team, um auf erweiterte Funktionen zuzugreifen"
+  },
+  "pricing.billing.pricing.premium.price": {
+    "message": "/Monat/Editor"
+  },
+  "pricing.billing.pricing.colla.desc": {
+    "message": "Verwendet um Mehrwertdienste in ILLA Cloud zu bezahlen"
+  },
+  "pricing.billing.pricing.colla.price": {
+    "message": "/Monat/5k Colla"
+  },
+  "pricing.billing.plus-btn": {
+    "message": "Upgrade"
+  },
+  "landingPage.build_with": {
+    "message": "Build mit {name}"
+  },
+  "landingPage.back_to_components": {
+    "message": "Zurück zu Komponenten"
+  },
   "theme.NotFound.p1": {
     "message": "Wir konnten nicht finden, was Sie suchten.",
     "description": "The first paragraph of the 404 page"
@@ -1521,31 +1521,31 @@
     "message": "Erstellen Sie Werkzeuge durch Drag-and-Drop Komponenten, passen Sie Ihren KI Agent an, verbinden Sie sich mit Ihren Datenquellen, und machen Sie die KI zu einem intelligenten Werkzeug, das auf Ihre Bedürfnisse und Daten zugeschnitten ist und Ihre Arbeit intelligenter macht."
   },
   "how_to_use.step1_title.create_ai_agent_for": {
-    "message": "KI-Agent für einen bestimmten Zweck erstellen"
+    "message": "Ziehen und Ablegen von Komponenten zum Design der Benutzeroberfläche"
   },
   "how_to_use.step1_description.you_can_create_an_ai": {
-    "message": "Sie können einen AI Agent für einen bestimmten Zweck erstellen und ihn bei bestimmten Aufgaben, am Arbeitsplatz oder in Ihrem täglichen Leben hilfreicher machen. "
+    "message": "Durch Ziehen und Ablegen von Komponenten können Sie schnell die Oberfläche der Apps erstellen und alle gewünschten Funktionen implementieren."
   },
   "how_to_use.step1_button.ai_agent_marketplace": {
-    "message": "KI-Agenten-Marktplatz"
+    "message": "Erstelle UI mit ILLA"
   },
   "how_to_use.step2_title.build_the_frontend_p": {
-    "message": "Erstellen Sie die Frontend-Seite in wenigen Minuten"
+    "message": "Mit Ihren Datenquellen verbinden"
   },
   "how_to_use.step2_description.by_dragging_and_drop": {
-    "message": "Durch Ziehen und Ablegen von Komponenten können Sie schnell die Schnittstelle des Werkzeugs erstellen und alle gewünschten Funktionen implementieren."
+    "message": "Verbinden Sie sich mit Ihren eigenen Datenquellen, einschließlich MySQL, PostgreSQL und anderen Datenbanken, REST APIs, GraphQL, etc. Erstellen Sie CRUD Apps in nur einer Minute."
   },
   "how_to_use.step2_button.illa_app_marketplace": {
-    "message": "ILLA App Marketplace"
+    "message": "Beginnen Sie mit der Erstellung von Apps mit Ihren Datenquellen"
   },
   "how_to_use.step3_title.connect_to_your_data": {
-    "message": "Verbinden Sie sich mit Ihren Datenquellen und KI-Agenten"
+    "message": "Konfigurieren und Verbinden mit KI-Agenten"
   },
   "how_to_use.step3_description.enable_data_integrat": {
-    "message": "Datenintegration und -automatisierung aktivieren. Der AI Agent führt spezifische Aufgaben basierend auf Ihren Anforderungen und Daten aus."
+    "message": "Integration von KI-Agenten in Ihre App und ermöglichen sie mit KI-Fähigkeiten wie intelligente Analyse, Erstellung von Inhalten und mehr ohne KI-Entwicklungsfähigkeiten."
   },
   "how_to_use.step3_button.supported_data_sourc": {
-    "message": "Unterstützte Datenquellen"
+    "message": "Erstelle KI-getriebene Apps"
   },
   "testimonial.title.user_testimonials": {
     "message": "Benutzermeinungen"
@@ -1677,13 +1677,13 @@
     "message": "lichtmodus",
     "description": "The name for the light color mode"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} Elemente",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Docs-Seiten",
@@ -1708,6 +1708,14 @@
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
+  "theme.common.editThisPage": {
+    "message": "Diese Seite bearbeiten",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direkter Link zu {heading}",
+    "description": "Title for link to heading"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Dies ist eine unveröffentlichte Dokumentation für {siteTitle} {versionLabel} Version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1723,14 +1731,6 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "neueste Version",
     "description": "The label used for the latest version suggestion link label"
-  },
-  "theme.common.editThisPage": {
-    "message": "Diese Seite bearbeiten",
-    "description": "The link label to edit the current page"
-  },
-  "theme.common.headingLinkTitle": {
-    "message": "Direkter Link zu {heading}",
-    "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
     "message": " auf {date}",
@@ -1780,10 +1780,6 @@
     "message": "Schließen",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Aktuelle Blog-Beitragsnavigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
   "theme.CodeBlock.copied": {
     "message": "Kopiert",
     "description": "The copied button label on code blocks"
@@ -1795,6 +1791,10 @@
   "theme.CodeBlock.copy": {
     "message": "Kopieren",
     "description": "The copy button label on code blocks"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Aktuelle Blog-Beitragsnavigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Wortumbruch umschalten",
@@ -1812,17 +1812,9 @@
     "message": "Haupt",
     "description": "The ARIA label for the main navigation"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Sprachen",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "Auf dieser Seite",
     "description": "The label used by the button on the collapsible TOC component"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "Startseite",
-    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Seitenleiste einklappen",
@@ -1832,9 +1824,17 @@
     "message": "Seitenleiste einklappen",
     "description": "The title attribute for collapse button of doc sidebar"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Sprachen",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Startseite",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Navigationsleiste schließen",
