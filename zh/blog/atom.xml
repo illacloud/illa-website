@@ -2,529 +2,441 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/zh/blog</id>
     <title>ILLA Cloud Blog</title>
-    <updated>2023-12-15T00:00:00.000Z</updated>
+    <updated>2024-01-02T04:45:39.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/zh/blog"/>
     <subtitle>ILLA Cloud Blog</subtitle>
     <icon>https://illacloud.github.io/illa-website/zh/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
     <entry>
-        <title type="html"><![CDATA[Kubectl Cheat Sheet - With Examples]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet"/>
-        <updated>2023-12-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kubectl is a very handy tool if you want to manage your applications deployed in Kubernetes.]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>Kubernetes is a famous container orchestration tool that is very popular in modern software development. If you are using Kubernetes, you must have used Kubectl, which is the command line tool to manage your Kubernetes applications. This guide will walk you through the most frequently used commands for Kubectl. Not only will we discuss the important commands, but we will also discuss the practical code examples and the common errors that are faced during their execution. Some examples of what it can do includes:</p>
+        <title type="html"><![CDATA[Quickly create a personalized data dashboard for your boss]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024"/>
+        <updated>2024-01-02T04:45:39.000Z</updated>
+        <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></summary>
+        <content type="html"><![CDATA[<p>Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.</p>
+<p>After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.</p>
+<p>Using efficient tools to leave work early every day.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Direct link to Some issues in the construction" title="Direct link to Some issues in the construction">​</a></h2>
+<p>The business of each company is distributed across different systems, and there are some connections between these systems. Some data needs to be queried using databases:</p>
 <ul>
-<li>Management of your pods</li>
-<li>Management of your deployments</li>
-<li>Management of your services</li>
-<li>And many more</li>
+<li>Postgresql</li>
+<li>Mysql</li>
+<li>MongoDB</li>
+<li>...</li>
 </ul>
-<p>Now, we may not be able to cover each and every command, but be assured that the commands discussed below will certainly be of value if your application is using Kubernetes. Let's start with the basic one i.e. installation and setup of Kubectl.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="setup-and-basic-commands">Setup and Basic Commands<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#setup-and-basic-commands" class="hash-link" aria-label="Direct link to Setup and Basic Commands" title="Direct link to Setup and Basic Commands">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="installing-kubectl-version">Installing kubectl: version<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#installing-kubectl-version" class="hash-link" aria-label="Direct link to Installing kubectl: version" title="Direct link to Installing kubectl: version">​</a></h3>
-<p>Checks kubectl installation and version.</p>
-<p><strong>Common errors:</strong> command not found (No kubectl installed).</p>
-<p>Refused connection to localhost:8080: Kubernetes cluster is not running or kubectl is misconfigured.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="basic-syntax">Basic Syntax<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#basic-syntax" class="hash-link" aria-label="Direct link to Basic Syntax" title="Direct link to Basic Syntax">​</a></h3>
-<p>The basic syntax of any kubectl command is: <code>kubectl [command] Type [name] [flags]</code>
-Note that 'TYPE' and 'NAME' are context-dependent and may not be required in that order.</p>
-<p><strong>Common Flags:</strong></p>
-<p>Command include get, describe, and create.</p>
-<p>Type: pod, service.</p>
-<p>Name: Optional for commanding all resources of a type.</p>
-<p>Optional flags, like <code>--namespace</code> .</p>
-<p><strong>Example:</strong> <code>kubectl get pods -n mynamespace</code></p>
-<p>This command lists all 'mynamespace' pods.</p>
-<p><strong>Common Flags:</strong></p>
-<p>Use the -n or --namespace flag to specify the namespace.</p>
-<p>Use <code>kubectl get pods -n mynamespace</code> with -o or --output for output formats like json or yaml. E.g. <code>kubectl get pod mypod json</code></p>
-<p><strong>Common Errors:</strong> Invalid namespace or output format can cause server errors like "Not Found".</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="cluster-management-and-context">Cluster Management and Context<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#cluster-management-and-context" class="hash-link" aria-label="Direct link to Cluster Management and Context" title="Direct link to Cluster Management and Context">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="viewing-cluster-info">Viewing Cluster Info<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#viewing-cluster-info" class="hash-link" aria-label="Direct link to Viewing Cluster Info" title="Direct link to Viewing Cluster Info">​</a></h3>
-<p><code>kubectl cluster-info</code></p>
-<p>Displays cluster master and service endpoints.</p>
-<p><strong>Common Flags:</strong></p>
-<p><code>--kubeconfig</code> This option specifies the kubeconfig file.</p>
-<p><strong>Common Errors:</strong> Unable to connect to server due to network or connection issues.</p>
-<p><strong>Example:</strong> <code>kubectl cluster-info --kubeconfig=/myconfig</code></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="switching-context">Switching Context<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#switching-context" class="hash-link" aria-label="Direct link to Switching Context" title="Direct link to Switching Context">​</a></h3>
-<p>Switches one context to another.</p>
-<p><code>kubectl config use-context [context_name]</code></p>
-<p><strong>Common Flags:</strong> It is most of the time used without any specific flags</p>
-<p><strong>Common Errors:</strong></p>
-<p><code>error: no context exists with the name: [context_name]</code> : If context does not exist.</p>
-<p><strong>Example:</strong> <code>kubectl config use-context staging-context</code></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="working-with-namespaces">Working with Namespaces<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#working-with-namespaces" class="hash-link" aria-label="Direct link to Working with Namespaces" title="Direct link to Working with Namespaces">​</a></h2>
-<p>Kubernetes namespaces segment and manage resources. Important namespace operations are below.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namespace-creation">Namespace Creation<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#namespace-creation" class="hash-link" aria-label="Direct link to Namespace Creation" title="Direct link to Namespace Creation">​</a></h3>
-<p>This simple command creates a Kubernetes namespace. Due to its specific functionality, it has few variants and flags.
-<strong>Example:</strong></p>
-<p>Create a dev namespace using: <code>kubectl create namespace dev</code></p>
-<p><strong>Common Errors:</strong></p>
-<p>Trying to create an existing namespace.
-<strong>Common flags:</strong></p>
+<p>Some data comes from different types of microservices, possibly obtained from a specific API:</p>
 <ul>
-<li><code>--dry-run</code> Shows the namespace without creating it.</li>
-<li><code>-o [format]</code> Outputs details in yaml or json format.</li>
+<li>User Detail API</li>
+<li>Product Detail API</li>
+<li>...</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namespace-listing">Namespace Listing<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#namespace-listing" class="hash-link" aria-label="Direct link to Namespace Listing" title="Direct link to Namespace Listing">​</a></h3>
-<p>This command displays all Kubernetes namespaces.</p>
-<p><strong>Example:</strong>
-Simple list: <code>kubectl get namespaces</code>
-Detailed list: <code>kubectl get namespaces -o wide</code></p>
-<p><strong>Common Errors:</strong>
-Using wrong flags or formats.</p>
-<p><strong>Common Flags:</strong></p>
+<p>The most challenging thing is that some data requires merging and secondary processing of both database and API data.</p>
+<p>These issues make it very troublesome to build a personalized data dashboard. If starting development from scratch, we need to adapt to different data sources, leading to a steep increase in engineering costs.</p>
+<p>Therefore, we need a flexible tool for displaying data dashboards, as "development" is not the most important; "display" is.</p>
+<p>This tool needs some objective advantages:</p>
 <ul>
-<li><code>-o wide</code>: Shows namespace details like age.</li>
-<li><code>-o json</code> or <code>-o yaml</code> The details are output in JSON or YAML.</li>
-<li><code>--show-labels</code>: It shows Namespace labels.</li>
+<li>Rich charts to display data from different dimensions.</li>
+<li>Support for various mainstream data sources.</li>
+<li>Simple installation and usage.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="namespace-deletion">Namespace Deletion<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#namespace-deletion" class="hash-link" aria-label="Direct link to Namespace Deletion" title="Direct link to Namespace Deletion">​</a></h3>
-<p><code>kubectl delete [namespace_name]</code></p>
-<p>This removes a namespace and its resources. Be careful since this is an irreversible operation.</p>
-<p><strong>Example:</strong>
-You can delete test namespace using: <code>Run kubectl delete namespace test</code></p>
-<p><strong>Common Errors:</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="Direct link to How to solve" title="Direct link to How to solve">​</a></h2>
+<p>Here, I recommend a user-friendly open-source project called ILLA Cloud. ILLA Cloud is a low-code tool specifically designed to address scenarios with personalized requirements.</p>
+<p>📙 Official website: <a href="https://illa.cloud/?utm_source=juejin" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
+<p>⏬ Github repository: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
+<p>⭐ Github Stars: 9k</p>
+<p>Below is a demo using fake data, depicting the sales situation of a product in a company, including:</p>
 <ul>
-<li>
-<p>Trying to delete a system or nonexistent namespace.</p>
-</li>
-<li>
-<p>Not migrating or backing up namespace resources.</p>
-<p><strong>Common Flags:</strong></p>
-</li>
+<li>Monthly sales growth trends</li>
+<li>Monthly revenue</li>
+<li>Total revenue obtained</li>
+<li>Number of purchasers</li>
+<li>Detailed information about each purchasing user</li>
 </ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/data-dashboard.png" alt="data_dashboard" class="img_CfaS"></p>
+<p>This chart uses several components:</p>
 <ul>
-<li><code>--grace-period=[seconds]</code> Allows setting a grace period before deletion.</li>
-<li>Use <code>--force</code> to delete the namespace forecibly.</li>
-<li><code>--cascade</code> : Decides whether to delete namespace resources or not.</li>
+<li>Data Grid</li>
+<li>Chart</li>
+<li>Statistic</li>
+<li>Menu</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="management-of-pods-and-deployment">Management of pods and deployment<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#management-of-pods-and-deployment" class="hash-link" aria-label="Direct link to Management of pods and deployment" title="Direct link to Management of pods and deployment">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="pods-creating">Pods Creating<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#pods-creating" class="hash-link" aria-label="Direct link to Pods Creating" title="Direct link to Pods Creating">​</a></h3>
-<p>Pods are created with <code>kubectl run [pod_name]. --image=[image_name]</code></p>
-<p><strong>Common Flags:</strong></p>
+<p>It was quickly built through drag and drop. The data sources come from:</p>
 <ul>
-<li><code>--env</code> Configure environment variables.</li>
-<li><code>-l, --labels</code> Labels the pod.</li>
-<li><code>--dry-run</code> Simulate pod-making. It is useful for testing on QA/Staging before deployment to production.</li>
+<li>Supabase: A Serverless Postgresql</li>
+<li>API</li>
 </ul>
-<p><strong>Example:</strong>
-Using the 'nginx' image to create 'nginx-pod' <code>kubectl run nginx-pod --image=nginx</code></p>
-<p><strong>Common Error:</strong>
-The <code>Error: image not found</code> error occurs when the container image does not exist.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="get-list-of-pods">Get list of pods<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#get-list-of-pods" class="hash-link" aria-label="Direct link to Get list of pods" title="Direct link to Get list of pods">​</a></h3>
-<p>See all the pods in currently set namespace <code>kubectl get pods</code></p>
-<p><strong>Common Flags</strong>:</p>
+<p>ILLA supports various data sources, allowing quick retrieval of data from a wide range of mainstream sources.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/integration.png" alt="integration" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="Direct link to AI-driven" title="Direct link to AI-driven">​</a></h2>
+<p>ILLA not only provides a dashboard but also allows the queried data to be processed further using LLM (Language Model). For example, a set of messy data can be processed into another format as required, enabling alignment of data from multiple sources.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h2>
+<p>Building a beautiful dashboard is quick and easy using drag and drop within a few minutes.</p>
+<p>Moreover, compared to various traditional BI tools, ILLA Cloud:</p>
 <ul>
-<li><code>-o wide </code> To display the details like node name.</li>
-<li><code>--show-labels</code> Labels also display for each pod.
-<strong>Example:</strong>
-<code>kubectl get pods -o wide</code> will show all pods with all their details.</li>
+<li>Supports data querying from both databases and APIs</li>
+<li>Simple installation, directly usable on the web page without any downloads</li>
+<li>For secondary data processing, uses Javascript for direct and simple processing</li>
+<li>Supports various mainstream charts, meeting most requirements</li>
+<li>The Transformer feature effectively solves the problem of merging and processing data between multiple sources, eliminating worries about data format issues</li>
 </ul>
-<p><strong>Common Error:</strong>
-The <code>No resources found</code> error occurs when the namespace has no pods.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="deleting-pods">Deleting Pods<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#deleting-pods" class="hash-link" aria-label="Direct link to Deleting Pods" title="Direct link to Deleting Pods">​</a></h3>
-<p>The command to delete a pod is <code>kubectl delete pod [pod_name]</code></p>
-<p><strong>Common Flags:</strong></p>
-<ul>
-<li><code>--grace-period</code>: Pause before killing the pod forcibly.</li>
-<li><code>--force</code>: Immediately delete pod forcibly.</li>
-</ul>
-<p><strong>Example:</strong></p>
-<p><code>kubectl delete nginx-pod</code> removes 'nginx-pod'.</p>
-<p><strong>Common Error:</strong>
-A common error is <code>Pod not found</code> when the pod does not exist.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="creating-deployments">Creating Deployments<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#creating-deployments" class="hash-link" aria-label="Direct link to Creating Deployments" title="Direct link to Creating Deployments">​</a></h3>
-<p>Creates a deployment with its name and image <code>kubectl create deployment [name] --image=[image]</code></p>
-<p><strong>Common Flags:</strong></p>
-<ul>
-<li><code>--replicas</code> Set desired number of replicas.</li>
-<li>Run <code>--dry-run</code> to simulate deployment instead of actual deployment.</li>
-</ul>
-<p><strong>Example:</strong>
-Use the 'nginx' image to create 'nginx-deployment' <code>kubectl create deployment nginx-deployment --image=nginx</code></p>
-<p><strong>Common Error:</strong>
-Image format errors often result in <code>Invalid image name</code> errors.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="listing-deployments">Listing deployments<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#listing-deployments" class="hash-link" aria-label="Direct link to Listing deployments" title="Direct link to Listing deployments">​</a></h3>
-<p>Shows namespace deployments <code>kubectl get deployments</code></p>
-<p><strong>Common Flags:</strong>
-<code>-o wide</code> Shows extra details like replica count.</p>
-<p><strong>Example:</strong></p>
-<p>Displays all deployments <code>kubectl get deployments</code></p>
-<p><strong>Common Error:</strong>
-The <code>No resources found</code> error occurs when the namespace has no deployments.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="handling-services-and-nodes"><strong>Handling Services and Nodes</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#handling-services-and-nodes" class="hash-link" aria-label="Direct link to handling-services-and-nodes" title="Direct link to handling-services-and-nodes">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="manage-services">Manage Services<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#manage-services" class="hash-link" aria-label="Direct link to Manage Services" title="Direct link to Manage Services">​</a></h3>
-<p>Overview
-<code>kubectl get services</code> helps users quickly view all Kubernetes cluster services and their status.</p>
-<p><strong>Common Flags</strong>:</p>
-<ul>
-<li><code>-o wide</code> : Provides additional details for each service.</li>
-<li><code>--all-namespaces</code> You can see all the services present in all the namespaces.</li>
-<li>`--watch```Monitors service changes and updates display.</li>
-</ul>
-<p><strong>Example:</strong>
-<code>kubectl get services -o wide</code>
-This command will display all default namespace services in detail.</p>
-<p><strong>Common Error:</strong>
-<code>Services' service-name' not found</code> Typing a service name incorrectly or querying a nonexistent service.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="list-nodes">List Nodes<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#list-nodes" class="hash-link" aria-label="Direct link to List Nodes" title="Direct link to List Nodes">​</a></h3>
-<p>Command <code>kubectl get nodes</code> displays all cluster nodes for size and health assessment.</p>
-<p><strong>Common Flags:</strong></p>
-<ul>
-<li><code>-o wide</code> Displays extra details like IP addresses, OS, kernel version, etc.</li>
-<li><code>--selecto</code> Filters nodes by label.</li>
-<li><code>--showlabels</code> Shows node labels.</li>
-</ul>
-<p><strong>Example:</strong>
-<code>kubectl get nodes --selector=environment=production</code> This command displays all production nodes.</p>
-<p><strong>Common Error:</strong>
-<code>Connection to server localhost:8080 refused</code> Usually due to incorrect kubectl configuration or inaccessible Kubernetes clusters.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advanced-resource-management">Advanced Resource Management<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#advanced-resource-management" class="hash-link" aria-label="Direct link to Advanced Resource Management" title="Direct link to Advanced Resource Management">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-labels">Kubectl Labels<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#kubectl-labels" class="hash-link" aria-label="Direct link to Kubectl Labels" title="Direct link to Kubectl Labels">​</a></h3>
-<p>Kubernetes labels are key-value pairs on pods. They organize and select object subsets. The command <code>kubectl get pods -l </code> retrieves pods by label.</p>
-<p><strong>Common Flags:</strong></p>
-<ul>
-<li><code>--l</code> or <code>--selector</code>: Specifies label selector</li>
-<li><code>--all-namespaces</code> searches all namespaces</li>
-<li><code>-o' or </code>--output` Outputs the format (yaml, json)</li>
-</ul>
-<p><strong>Example:</strong>
-<code>kubectl get pods -l app=myApp</code> lists all pods with the label "app" equal to myApp.</p>
-<p><strong>Common Error</strong>:
-Incorrect label names or values often result in no results. Ensure pod labels are correct.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="scale-deployments-with-kubectl">Scale deployments with kubectl<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#scale-deployments-with-kubectl" class="hash-link" aria-label="Direct link to Scale deployments with kubectl" title="Direct link to Scale deployments with kubectl">​</a></h3>
-<p>Scaling deployments involves changing the number of pod replicas (instances). The <code>kubectl scale</code> command does this magic.</p>
-<p><strong>Common Flags:</strong></p>
-<ul>
-<li><code>--replicas</code> Specifies number of copies needed</li>
-<li><code>--current-replicas</code> Current replica count (For conditional scaling)</li>
-<li><code>--timeout:</code>Time to wait for scale operation completion</li>
-</ul>
-<p><strong>Example:</strong></p>
-<p><code>kubectl scale deployment myDeployment --replicas=5</code> scales myDeployment to 5 replicas.</p>
-<p><strong>Common Error</strong>:
-A <code>deployment not found</code> error often occurs when scaling a nonexistent or misnamed deployment. The deployment name must be in the current namespace.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="debugging-and-logs"><strong>Debugging and Logs</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#debugging-and-logs" class="hash-link" aria-label="Direct link to debugging-and-logs" title="Direct link to debugging-and-logs">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="log-access">Log Access<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#log-access" class="hash-link" aria-label="Direct link to Log Access" title="Direct link to Log Access">​</a></h3>
-<p>Kubernetes pod logs can be retrieved using <code>kubectl logs [pod_name]</code>. Understanding pod-running applications and diagnosing issues requires this command.</p>
-<p><strong>Example:</strong>
-<code>kubectl logs my-app-pod</code> will show logs of the pod named "my-app-pod".</p>
-<p><strong>Common Error:</strong>
-<code>Error from server (NotFound): pods "my-app-pod" not found</code> This error occurs when the Kubernetes cluster does not have any pod with this name.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="tailing-logs">Tailing Logs<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#tailing-logs" class="hash-link" aria-label="Direct link to Tailing Logs" title="Direct link to Tailing Logs">​</a></h3>
-<p>You can stream or "tail" pod logs with <code>kubectl logs -f [pod_name]</code>. This helps monitor log outputs in real-time, especially in dynamic environments.</p>
-<p><strong>Example:</strong>
-<code>kubectl logs -f my-app-pod</code> Logs from the pod "my-app-pod" will be streamed live by this command.</p>
-<p><strong>Common Error:</strong>
-<code>Error from server (NotFound): pods "my-app-pod" not found</code>. This error means the Kubernetes cluster does not have the specified pod.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="secrets-and-configmaps"><strong>Secrets and ConfigMaps</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#secrets-and-configmaps" class="hash-link" aria-label="Direct link to secrets-and-configmaps" title="Direct link to secrets-and-configmaps">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="creating-secrets">Creating Secrets<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#creating-secrets" class="hash-link" aria-label="Direct link to Creating Secrets" title="Direct link to Creating Secrets">​</a></h3>
-<p>Kubernetes secrets store and manage passwords, OAuth tokens, and ssh keys. You can easily create these secrets with <code>kubectl create secret generic [secret_name] --from-literal=[key]=[value]</code></p>
-<p><strong>Common Flags:</strong></p>
-<ul>
-<li><code>--from-literal</code> This flag specifies secret data as key-value pairs on the command line.</li>
-<li><code>--from-file</code> Create secret from a file. In this case file name would be considered the key and its content will be the value.</li>
-<li><code>--dry-run</code> Displays the object that would be sent to the cluster without actually sending it.</li>
-<li></li>
-<li><code>--output</code> or `-o' sets the output format (yaml or json).</li>
-</ul>
-<p><strong>Example:</strong>
-<code>kubectl create secret generic my-secret --from-literal=password=myStrongPassword</code></p>
-<p>This command creates a secret named my-secret with one entry: password and myStrongPassword.</p>
-<p><strong>Common Error:</strong></p>
-<p>Incorrect or malformed key-value pairs are common when creating secrets. Following key=value format is essential.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="using-configmaps">Using ConfigMaps<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#using-configmaps" class="hash-link" aria-label="Direct link to Using ConfigMaps" title="Direct link to Using ConfigMaps">​</a></h3>
-<p>Kubernetes ConfigMaps stores non-confidential data in key-value pairs. Configuration files, command-line arguments, environment variables, port numbers, etc. can be stored there. The format is <code>kubectl create configmap [name] --from-literal=[key]=[value]</code></p>
-<p><strong>Common Flags</strong></p>
-<p>Same as creating secrets (see above)</p>
-<p><strong>Example:</strong></p>
-<p><code>kubectl create configmap app-config --from-literal=app_mode=production</code></p>
-<p>A ConfigMap named "app-config" with app_mode set to production is created.</p>
-<p><strong>Common Error:</strong></p>
-<p>When using <code>--from-file</code>, referencing nonexistent files or directories is a common error. Verify file paths are correct and accessible.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="useful-tips-and-tricks"><strong>Useful Tips and Tricks</strong><a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#useful-tips-and-tricks" class="hash-link" aria-label="Direct link to useful-tips-and-tricks" title="Direct link to useful-tips-and-tricks">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="aliases-for-efficiency">Aliases for efficiency<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#aliases-for-efficiency" class="hash-link" aria-label="Direct link to Aliases for efficiency" title="Direct link to Aliases for efficiency">​</a></h3>
-<p>Using aliases for kubectl can speed up workflow by reducing keystrokes for each command.</p>
-<p><strong>Example:</strong></p>
-<p><code>Alias k=kubectl</code>
-You frequently check pod status. The alias lets you type <code>k get pods</code> instead of typing the whole word of kubectl.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="kubectl-autocomplete-for-faster-command-completion">Kubectl Autocomplete for Faster Command Completion<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#kubectl-autocomplete-for-faster-command-completion" class="hash-link" aria-label="Direct link to Kubectl Autocomplete for Faster Command Completion" title="Direct link to Kubectl Autocomplete for Faster Command Completion">​</a></h3>
-<p>Kubectl supports command-line autocompletion, saving significant time. This feature speeds up command, argument, and resource name completion.</p>
-<p><strong>Setting up autocomplete:</strong></p>
-<p>Source the autocomplete script in your shell's configuration file. For bash, You can add <code>source &lt;(kubectl completion bash) </code>to your <code>.bashrc</code>. Add <code>source &lt;(kubectl completion zsh)</code> to your <code>.zshrc</code> file for zsh.</p>
-<p>After setting up, typing a command like <code>kubectl get pod</code> and pressing tab completes this command to <code>kubectl get pods</code>.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="using-kubectl-port-forward-for-accessing-services-locally">Using Kubectl Port-Forward for Accessing Services Locally<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#using-kubectl-port-forward-for-accessing-services-locally" class="hash-link" aria-label="Direct link to Using Kubectl Port-Forward for Accessing Services Locally" title="Direct link to Using Kubectl Port-Forward for Accessing Services Locally">​</a></h3>
-<p>When using <code>kubectl port-forward</code>, you can access and interact with internal Kubernetes cluster services from your local machine.</p>
-<p><strong>Example:</strong></p>
-<p>Use <code>kubectl port-forward svc/my-web-app 5000:8080</code> to forward a cluster service on port 8080.</p>
-<p>The service's port 8080 receives traffic from your local machine's port 5000, so you can access the application at <a href="http://localhost:5000/" target="_blank" rel="noopener noreferrer">http://localhost:5000</a> in your browser.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/kubectl-cheat-sheet#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>Kubetcl is a very handy tool if you want to manage your applications deployed in Kubernetes. Whether you are a novice or a seasoned practitioner, this guide will help you on every step of your Kubernetes journey, whether you are creating a pod or scaling your cluster.</p>
-<p>Give special attention to the different tips and tricks mentioned in this article because they will save you a lot of time and effort. We encourage you to try the commands mentioned in this article and get your hands dirty; that's the best way to master Kubectl.</p>]]></content>
+<p>As an open-source project, ILLA Cloud also supports secondary development, with an active community for collaboration with other developers. No need to worry about maintenance issues.</p>
+<p>Additionally, ILLA Cloud can not only build data dashboards but also quickly create exclusive management dashboards, accelerating your business iteration.</p>
+<p>As a low-code tool, ILLA Cloud also supports collaboration among multiple people, allowing them to build dashboards together.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/collaboration.png" alt="collaboration" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>After using ILLA Cloud, there's no need to worry about the boss's personalized requirements. Within a few minutes, you can build a personalized data dashboard for the boss, becoming a highly efficient employee. Why not give it a try now!</p>]]></content>
         <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <category label="kubernetes" term="kubernetes"/>
-        <category label="docker" term="docker"/>
+        <category label="data dashboard" term="data dashboard"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building a Complete React CRM App with Refine, Ant Design and GraphQL]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine"/>
-        <updated>2023-10-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We'll explore the key features of our CRM app, the technologies we used.]]></summary>
-        <content type="html"><![CDATA[<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/crm-general.gif" alt="Image description" class="img_CfaS"></p>
-<p>I want to introduce our newest example app – a full-fledged React CRM (Customer
-Relationship Management) application built using refine, Ant Design, and
-GraphQL.</p>
-<p>👉 <a href="https://example.crm.refine.dev/" target="_blank" rel="noopener noreferrer">Live Demo</a></p>
-<p>👉
-<a href="https://github.com/refinedev/refine/tree/master/examples/app-crm" target="_blank" rel="noopener noreferrer">You can find the source code on GitHub here</a></p>
-<p>This example is open-source, which means anyone can freely utilize and customize
-the source code as they see fit. It's not just another application; it's a
-comprehensive solution that boasts all the features and functionalities required
-for an accurate enterprise-level application.</p>
-<p>Moreover, this application serves as a guiding light for all developers. Whether
-you're a seasoned pro or just starting, our project is a valuable resource that
-can be used as a reference to better understand best practices and modern
-development techniques.</p>
-<p>We'll publish an article series and Video tutorials on YouTube on building this
-CRM app from scratch. You can follow the refine to get notified when it's ready!</p>
-<p>Twitter: <a href="https://twitter.com/refine_dev" target="_blank" rel="noopener noreferrer">https://twitter.com/refine_dev</a> GitHub:
-<a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">https://github.com/refinedev/refine</a></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>This article briefly overviews the CRM application built using refine, an
-open-source React framework designed for rapidly developing web applications.</p>
-<p>We'll explore the key features of our CRM app, the technologies we used, and how
-you can adapt this template for various business needs.</p>
-<p>Step we'll cover:</p>
+        <title type="html"><![CDATA[Low Code vs Traditional Development: Optimal Efficiency in Choice]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional"/>
+        <updated>2024-01-02T04:45:39.000Z</updated>
+        <summary type="html"><![CDATA[With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.]]></summary>
+        <content type="html"><![CDATA[<p>With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-launching-a-transient-business-initiative">When Launching a Transient Business Initiative<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#when-launching-a-transient-business-initiative" class="hash-link" aria-label="Direct link to When Launching a Transient Business Initiative" title="Direct link to When Launching a Transient Business Initiative">​</a></h2>
+<p>In the dynamic landscape of frequent holidays and special occasions, creating distinct online experiences becomes imperative. Each company may have its unique marketing days, requiring engaging activities. Crafting these online marketing campaigns inevitably poses a development challenge, necessitating substantial resource allocation. While the need for visually captivating designs is evident, the overall complexity may not justify significant development costs, especially when the lifecycle is limited to 1-2 weeks. In such cases, opting for low-code tools emerges as a financially prudent decision. Here, we advocate for a specific low-code solution.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="addressing-user-facing-components-webflow">Addressing User-Facing Components: Webflow<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#addressing-user-facing-components-webflow" class="hash-link" aria-label="Direct link to Addressing User-Facing Components: Webflow" title="Direct link to Addressing User-Facing Components: Webflow">​</a></h3>
+<p>Webflow, with its intuitive drag-and-drop interface and designer-friendly adjustments, facilitates the creation of visually stunning landing pages. This approach allows users to interact with an aesthetically pleasing website, and remarkably, only requires the expertise of a single designer. Furthermore, Webflow offers an array of templates that can be easily customized, enabling the swift construction of an exquisite website.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/webflow.png" alt="webflow" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="managing-business-operations-illa-cloud">Managing Business Operations: ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#managing-business-operations-illa-cloud" class="hash-link" aria-label="Direct link to Managing Business Operations: ILLA Cloud" title="Direct link to Managing Business Operations: ILLA Cloud">​</a></h3>
+<p>Regardless of the frontend technology used, an effective management tool is indispensable for overseeing business operations.</p>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>, as an out-of-the-box low-code tool, empowers developers to rapidly construct internal tools using straightforward JavaScript, eliminating the need to create new projects.</p>
 <ul>
-<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#key-features-of-the-crm-app">Key Features of the CRM App</a></li>
-<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#technologies-used">Technologies Used</a></li>
-<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration</a></li>
-<li><a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?</a></li>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-the-crm-app">Key Features of the CRM App<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#key-features-of-the-crm-app" class="hash-link" aria-label="Direct link to Key Features of the CRM App" title="Direct link to Key Features of the CRM App">​</a></h2>
-<p>Our CRM application is feature-rich and comes with everything you need to manage
-customer relationships efficiently:</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="dashboard">Dashboard<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#dashboard" class="hash-link" aria-label="Direct link to Dashboard" title="Direct link to Dashboard">​</a></h3>
-<p>The Dashboard provides an at-a-glance overview of your CRM activities. It
-displays key metrics, recent customer interactions, and upcoming events,
-offering valuable insights to help you make informed decisions.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/halx7sfl9ctke1fu3w35.png" alt="Image" class="img_CfaS"></p>
-<br>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="calendar-integration">Calendar Integration<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#calendar-integration" class="hash-link" aria-label="Direct link to Calendar Integration" title="Direct link to Calendar Integration">​</a></h3>
-<p>Effortlessly manage appointments, meetings, and important events with the
-integrated Calendar feature. Stay organized and ensure you never miss a crucial
-interaction with your customers.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m2v8ghazuheiznefwat9.png" alt="Image description" class="img_CfaS"></p>
-<br>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="scrumboard-project-kanban">Scrumboard-Project Kanban<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#scrumboard-project-kanban" class="hash-link" aria-label="Direct link to Scrumboard-Project Kanban" title="Direct link to Scrumboard-Project Kanban">​</a></h3>
-<p>Our Scrumboard or Project Kanban page streamlines project management. Visualize
-project progress, manage tasks, and facilitate team collaboration with ease.
-Move tasks through customizable boards to keep your projects on track.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0hcll7tbqx3t71i6v7a9.png" alt="Image description" class="img_CfaS"></p>
-<br>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="sales-pipeline">Sales Pipeline<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#sales-pipeline" class="hash-link" aria-label="Direct link to Sales Pipeline" title="Direct link to Sales Pipeline">​</a></h3>
-<p>Effectively manage your sales process from lead generation to deal closure. The
-Sales Pipeline provides a visual representation of your sales stages, helping
-your team prioritize leads and track conversions.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5uoj722wasvw2fx8z49.png" alt="Image description" class="img_CfaS"></p>
-<br>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="companies">Companies<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#companies" class="hash-link" aria-label="Direct link to Companies" title="Direct link to Companies">​</a></h3>
-<p>The Companies page allows you to organize and categorize your business contacts.
-Maintain detailed profiles for each company, including contact information,
-communication history, and associated contacts.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gjlahcc1icfthu2n31ar.png" alt="Imag" class="img_CfaS"></p>
-<br>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="contacts">Contacts<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#contacts" class="hash-link" aria-label="Direct link to Contacts" title="Direct link to Contacts">​</a></h3>
-<p>Manage individual contacts efficiently using the Contacts page. Keep track of
-customer interactions, schedule follow-ups, and access critical contact
-information quickly.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4c0ef7tv7nktax4gt3oz.png" alt="Imag" class="img_CfaS"></p>
-<br>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="quotes">Quotes<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#quotes" class="hash-link" aria-label="Direct link to Quotes" title="Direct link to Quotes">​</a></h3>
-<p>Create, send, and manage quotes seamlessly with the Quotes feature. Generate
-professional quotes for your customers, track their status, and convert them
-into sales.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9rqj0pzgkrure7ov5mr9.png" alt="Image" class="img_CfaS"></p>
-<br>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="administration">Administration<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#administration" class="hash-link" aria-label="Direct link to Administration" title="Direct link to Administration">​</a></h3>
-<p>The Administration section empowers you to configure and customize your CRM
-application to suit your specific business needs. Manage user roles, access
-permissions, and system settings effortlessly.</p>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m5deq6ceue79kloeuryz.png" alt="Image description" class="img_CfaS"></p>
-<br>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="authentication--authorization">Authentication &amp; Authorization<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#authentication--authorization" class="hash-link" aria-label="Direct link to Authentication &amp; Authorization" title="Direct link to Authentication &amp; Authorization">​</a></h3>
-<p><img loading="lazy" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m1r04i2h0cf1jegasbte.png" alt="Image description" class="img_CfaS"></p>
-<p>This example app is a comprehensive set of features that ensures you can
-streamline your customer interactions, project management, and sales processes,
-all within a single, user-friendly platform. Whether you're managing contacts,
-tracking sales, or overseeing projects, our CRM app provides the tools you need
-for success.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="technologies-used">Technologies Used<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#technologies-used" class="hash-link" aria-label="Direct link to Technologies Used" title="Direct link to Technologies Used">​</a></h2>
-<p>Our CRM app's modular structure and use of open-source tools make it adaptable
-to various business needs. So you can build all kinds of web apps like internal
-tools, admin panels, or dashboards on top of it.</p>
-<p>To bring our CRM app to life, we leveraged several cutting-edge technologies:</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="1-refine">1. refine<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#1-refine" class="hash-link" aria-label="Direct link to 1. refine" title="Direct link to 1. refine">​</a></h3>
-<p><a href="https://github.com/refinedev/refine" target="_blank" rel="noopener noreferrer">refine</a> served as the backbone of our CRM
-application. It offers a wide range of tools and components for easily building
-data-intensive applications.</p>
-<p>refine's internal hooks and components simplify the development process and
-eliminate repetitive tasks by providing industry-standard solutions for crucial
-aspects of a project, including authentication, access control, routing,
-networking, state management, and i18n.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="2-ant-design">2. Ant Design<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#2-ant-design" class="hash-link" aria-label="Direct link to 2. Ant Design" title="Direct link to 2. Ant Design">​</a></h3>
-<p><a href="https://ant.design/" target="_blank" rel="noopener noreferrer">Ant Design</a>, a popular UI library, provided the sleek and
-responsive user interface that our CRM app needed. Its pre-built components
-saved us time and effort.</p>
-<p>It's consistent and polished UI components ensured a professional and
-user-friendly interface. refine has a built-in integration for Ant Design.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="3-graphql">3. GraphQL<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#3-graphql" class="hash-link" aria-label="Direct link to 3. GraphQL" title="Direct link to 3. GraphQL">​</a></h3>
-<p>We used <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a> for effective data retrieval and
-updating from our server. Additionally, we integrated
-<a href="https://www.apollographql.com/docs/react/data/subscriptions/" target="_blank" rel="noopener noreferrer">GraphQL Subscriptions</a>
-to manage real-time modifications.</p>
-<p>For instance, on the Project Kanban page, tasks get updated automatically when
-cards are dragged and dropped between sections.</p>
-<p><img loading="lazy" src="https://refine.ams3.cdn.digitaloceanspaces.com/CRM-app/real-time.gif" alt="Image" class="img_CfaS"></p>
-<p>GraphQL's efficient data-fetching capabilities made working with large datasets
-a breeze. It's flexibility allowed us to tailor our queries to our exact
-requirements.</p>
-<p>refine has built-in data provider support for GraphQL.You can set it up during
-the project creation phase.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-practices-and-ecosystem-integration">Best Practices and Ecosystem Integration<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#best-practices-and-ecosystem-integration" class="hash-link" aria-label="Direct link to Best Practices and Ecosystem Integration" title="Direct link to Best Practices and Ecosystem Integration">​</a></h2>
-<p>Throughout the development process, we adhered to best practices and
-incorporated elements from the broader ecosystem. This ensures our CRM app is
-not only functional but also scalable and maintainable.</p>
-<p>The group responsible for the CRM example app is the core refine framework team.
-Feel free to explore the best practices within the ecosystem!</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="where-can-you-use-this-crm-as-a-reference-template">Where Can You Use This CRM As A Reference Template?<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#where-can-you-use-this-crm-as-a-reference-template" class="hash-link" aria-label="Direct link to Where Can You Use This CRM As A Reference Template?" title="Direct link to Where Can You Use This CRM As A Reference Template?">​</a></h2>
-<p>Our CRM template isn't limited to just one use case. You can adapt it for
-various purposes, including:</p>
-<ul>
-<li><strong>B2B Applications</strong>: Streamline customer interactions in a
-business-to-business context.</li>
-<li><strong>Internal Tools</strong>: Use it as an internal tool to manage employee or
-departmental tasks and interactions.</li>
-<li><strong>All CRUD Applications</strong>: The template's versatility means it can serve as
-the foundation for creating all sorts of CRUD applications.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/react-crm-with-refine#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>In this article, we've introduced you to our CRM application built with refine.
-We've highlighted its key features, the technologies we used, and the advantages
-of our approach. With this CRM template, you have the power to tailor your
-customer relationship management system to meet your unique business needs.
-Whether you're running a B2B operation, need an efficient internal tool, or want
-a versatile CRUD application, our CRM template has you covered.</p>]]></content>
+<p>Compared to scenarios relying on component libraries, ILLA Cloud boasts a 10x faster construction speed for the aforementioned tools. Additionally, ILLA Cloud supports collaborative editing among multiple team members, fostering efficient teamwork.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<p>The synergy of these two tools expedites the creation of business requirements in marketing scenarios. This synergistic approach minimizes the need for extensive development resources while addressing the demand for quick response and deployment. Consequently, it propels the business iteration speed to new heights.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-initiating-a-novel-business-venture">When Initiating a Novel Business Venture<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#when-initiating-a-novel-business-venture" class="hash-link" aria-label="Direct link to When Initiating a Novel Business Venture" title="Direct link to When Initiating a Novel Business Venture">​</a></h2>
+<p>The commencement of a project necessitates a thorough evaluation of its characteristics. For comprehensive toC products such as social platforms, gaming applications, or IM services, the recommendation leans towards traditional development methodologies. This ensures a high degree of flexibility in adapting to evolving requirements.</p>
+<p>For ventures centered around retail or services, the utilization of Shopify for frontend presentation proves advantageous. This choice guarantees widespread distribution of products while curbing development costs. Furthermore, Shopify supports customization, catering to diverse business needs effectively.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/shopify.png" alt="shopify" class="img_CfaS"></p>
+<p>In instances where a swift development of an app or website is paramount, direct coding may offer a faster solution. Therefore, the selection of an appropriate solution heavily relies on the unique attributes of the scenario.</p>
+<p>If the backend functionality of Shopify falls short of requirements, the integration of ILLA Cloud can bridge the gap, providing a platform for customized management.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>In the decision-making process for selecting development tools, a multifaceted approach is recommended. While direct coding provides unparalleled flexibility, it does come at the cost of development speed. The strategic integration of low-code tools and SaaS solutions can yield substantial gains in productivity.</p>
+<p>For operations demanding flexibility and essential to the core business, traditional development methods remain the preferred choice. The agility and control afforded by traditional development methods result in products that are highly tailored to specific needs.</p>
+<p>Ultimately, there is no one-size-fits-all solution; the best choice is the one that aligns most closely with the unique requirements of the scenario at hand.</p>]]></content>
         <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <category label="refine" term="refine"/>
+        <category label="low code" term="low code"/>
+        <category label="traditional development" term="traditional development"/>
+        <category label="javascript" term="javascript"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024 has arrived, should I choose MUI?]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/mui-2024</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/mui-2024"/>
+        <updated>2024-01-02T04:45:39.000Z</updated>
+        <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></summary>
+        <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains highly prosperous. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
+<p>In general, every company building web applications tends to select a component library. These libraries address a significant amount of repetitive work, offering readily usable components such as Select, Input, CheckBox, and more. These components, customizable through styles or pre-existing attractive styles, enable the rapid creation of beautiful websites without the need to build extensive foundational features from scratch.</p>
+<p>To summarize, component libraries are typically used in two scenarios:</p>
+<ul>
+<li>External tools: Directly targeted at company users, usually adhering to the company's style, more aesthetically pleasing, and responsive.</li>
+<li>Internal tools: Aimed at internal use by company employees, focusing on aesthetic design while prioritizing rapid functionality implementation.</li>
+</ul>
+<p>Next, we will analyze two component libraries based on the following points:</p>
+<ol>
+<li>Design</li>
+<li>Richness of Features</li>
+<li>How to Choose in Different Scenarios</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-choices-for-internal-tool-scenarios">Other Choices for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#other-choices-for-internal-tool-scenarios" class="hash-link" aria-label="Direct link to Other Choices for Internal Tool Scenarios" title="Direct link to Other Choices for Internal Tool Scenarios">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
+<ul>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
+</ul>
+<p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#features-of-mui" class="hash-link" aria-label="Direct link to Features of MUI" title="Direct link to Features of MUI">​</a></h2>
+<p>Some detailed data about MUI:</p>
+<ul>
+<li>⭐ Github Stars: 90k</li>
+<li>⏬ NPM Downloads: 3,263,852 downloads per week</li>
+<li>💪🏼 First Release Date: Nov 6, 2014</li>
+</ul>
+<p>MUI, as a longstanding project maintained since 2014, boasts almost a decade of stability. Its high star count and weekly download numbers ensure that the community remains consistently active.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/mui.png" alt="mui" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#design" class="hash-link" aria-label="Direct link to Design" title="Direct link to Design">​</a></h3>
+<p>In terms of design, MUI strictly adheres to Google's renowned Material Design. MUI's customization capabilities are extensive, catering to a wide range of internal and external scenarios. Many well-known open-source projects use MUI for front-end development. For most functionalities, MUI provides comprehensive support.</p>
+<p>In addition to common features like:</p>
+<ul>
+<li>Colors</li>
+<li>Border radii</li>
+<li>Dark mode / Light mode</li>
+</ul>
+<p>MUI supports complete configurations of fonts, font sizes, colors, and margins, making it a powerful tool as a project with ten years of development.</p>
+<p>Regarding CSS support, MUI has its custom system, utilizing emotionjs for style adjustments in the overall layout. This may come with a learning curve and may not be as developer-friendly for direct development, requiring documentation consultation for certain style modifications.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#richness-of-features" class="hash-link" aria-label="Direct link to Richness of Features" title="Direct link to Richness of Features">​</a></h3>
+<p>MUI's component types are highly complex, divided into several dimensions:</p>
+<p>These include:</p>
+<ul>
+<li>MUI Core: Basic functional components of MUI, including a multitude of foundational components and a style system.</li>
+<li>MUI X: High-performance and complex components of MUI, including high-performance tables, charts, etc.</li>
+</ul>
+<p>If you are developing a highly complex system, you can use MUI's full suite solution. However, MUI X is a paid component library, and a subscription fee may be required.</p>
+<p>MUI is a heavyweight repository with extensive code and a long maintenance history. Its high customizability makes it suitable for large projects. In the MUI repository, you can find a wealth of features.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#how-to-choose" class="hash-link" aria-label="Direct link to How to Choose" title="Direct link to How to Choose">​</a></h2>
+<p>✅ Advantages</p>
+<p>If you want to develop large projects, have high customization requirements, and wish to use high-performance data components and chart components, especially in scenarios with high business complexity and are willing to subscribe to MUI X, it is recommended to use MUI for development. Its flexible configuration and plethora of components can fully meet your requirements.</p>
+<p>❌ Disadvantages</p>
+<p>If you need a lightweight framework and prefer to use a CSS-only solution for layout adjustments, it is not recommended here. MUI has a comprehensive proprietary design system, comes with a certain learning curve, and Material Design's aesthetics may not suit everyone. In such cases, exploring other open-source repositories might be more suitable.</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="UI Library" term="UI Library"/>
+        <category label="Shadcn UI" term="Shadcn UI"/>
+        <category label="React" term="React"/>
+        <category label="javascript" term="javascript"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elegant Use of nvm for Node.js Management on Mac in 2024]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024"/>
+        <updated>2024-01-02T04:45:39.000Z</updated>
+        <summary type="html"><![CDATA[Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.]]></summary>
+        <content type="html"><![CDATA[<p>Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.</p>
+<p>The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.</p>
+<p>Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.</p>
+<p>The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="recommending-an-open-source-project-for-backend-development">Recommending an Open Source Project for Backend Development<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#recommending-an-open-source-project-for-backend-development" class="hash-link" aria-label="Direct link to Recommending an Open Source Project for Backend Development" title="Direct link to Recommending an Open Source Project for Backend Development">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that enables the rapid construction of internal tools using simple JS, without the need to create new projects.</p>
+<ul>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
+</ul>
+<p>Compared to scenarios built with component libraries, ILLA Cloud allows for 10x faster construction of the mentioned tools. Additionally, ILLA Cloud supports collaboration among multiple users, facilitating teamwork for rapid customization of backend capabilities.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction-to-nvm">Introduction to nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#introduction-to-nvm" class="hash-link" aria-label="Direct link to Introduction to nvm" title="Direct link to Introduction to nvm">​</a></h2>
+<p>⏬ GitHub Repository: <a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener noreferrer">https://github.com/nvm-sh/nvm</a></p>
+<p>⭐ GitHub Stars: 72.4k</p>
+<p>💪🏼 First Release Date: Dec 22, 2014</p>
+<p>nvm is an open-source project that has been maintained for nearly 10 years. Positive reviews have kept this project robust and, through continuous maintenance, it has become a perfect solution for "Node.js version management."</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="installing-nvm">Installing nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#installing-nvm" class="hash-link" aria-label="Direct link to Installing nvm" title="Direct link to Installing nvm">​</a></h2>
+<p>Since we are using a Mac for development, I strongly recommend using <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a> for package management and then using <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a> to install nvm.</p>
+<p>To install Homebrew, it is recommended to use the installation script. It requires minimal configuration and allows immediate use. Moreover, Homebrew makes it easy to uninstall repositories cleanly if needed.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Running this command will install the latest version of Homebrew, automatically handling the installation of Xcode Command Tools in the MacOS environment.</p>
+<p>Of course, all of this is automated. Below is an installation process example.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/homebrew-install.png" alt="homebrew_install" class="img_CfaS"></p>
+<p>After a short wait, we can proceed with the installation of nvm using the installed Homebrew.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew install nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>After confirming agreement, nvm will be completely installed. If you decide you don't want it anymore, you can use the following command to uninstall:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"># delete nvm if you don't need it.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew uninstall nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="using-nvm">Using nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#using-nvm" class="hash-link" aria-label="Direct link to Using nvm" title="Direct link to Using nvm">​</a></h2>
+<p>Once nvm is installed, here are some commonly used commands to help you get started. These commands should fulfill your daily needs.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm list</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The "list" command displays various mainstream Node.js versions. You can install versions according to your needs, and it will also show the currently used Node.js version on your machine. It will display some codenames.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-list.png" alt="nvm_list" class="img_CfaS"></p>
+<p>For example, "lts/gallim" is the version name for Node.js v16. To install using this codename, nvm will automatically install the latest version of v16. It's quite convenient. You can also use this command to check the currently used version.</p>
+<p>Another command allows you to check the current Node.js version:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; node --version</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>After entering this command, you can verify whether the Node.js version has been successfully switched.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm install stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The second command installs a specific Node.js version; "stable" refers to a specific version number. You can also use the codename for a particular version. For example, to install "Node.js 18," you would use "nvm install 18." Here, I'm installing the "stable" version. nvm will automatically determine the latest Stable version and install it for me. After successful installation, it will automatically switch to the installed version.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/stable-install.png" alt="stable-install" class="img_CfaS"></p>
+<p>Where there's an installation command, there's also an uninstallation command. Use:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm uninstall stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>To delete the corresponding version.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-uninstall.png" alt="nvm-uninstall" class="img_CfaS"></p>
+<p>Once you've learned how to install and uninstall, the next important step is version switching.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm use stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The "use" command allows you to quickly switch between Node.js versions currently in use. You can also use the "stable" codename. This way, you can quickly switch between versions for different projects.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-use.png" alt="nvm-use" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>This article has explained the entire process for a beginner, from installing to using nvm. You can quickly try it out and better manage your Node.js versions.</p>
+<p>Node.js version management is a long-discussed issue, and nvm is an excellent open-source project that effectively addresses this problem. Of course, no project is perfect. If you have other recommendations, feel free to leave a comment and let more people know about outstanding projects—that's the mission of open-source enthusiasts!</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="nvm" term="nvm"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="mac" term="mac"/>
+        <category label="javascript" term="javascript"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024 has arrived, should I choose Shadcn UI?]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024"/>
+        <updated>2024-01-02T04:45:39.000Z</updated>
+        <summary type="html"><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.]]></summary>
+        <content type="html"><![CDATA[<p>Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.</p>
+<p>After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.</p>
+<p>Using efficient tools to leave work early every day.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Direct link to Some issues in the construction" title="Direct link to Some issues in the construction">​</a></h2>
+<p>The business of each company is distributed across different systems, and there are some connections between these systems. Some data needs to be queried using databases:</p>
+<ul>
+<li>Postgresql</li>
+<li>Mysql</li>
+<li>MongoDB</li>
+<li>...</li>
+</ul>
+<p>Some data comes from different types of microservices, possibly obtained from a specific API:</p>
+<ul>
+<li>User Detail API</li>
+<li>Product Detail API</li>
+<li>...</li>
+</ul>
+<p>The most challenging thing is that some data requires merging and secondary processing of both database and API data.</p>
+<p>These issues make it very troublesome to build a personalized data dashboard. If starting development from scratch, we need to adapt to different data sources, leading to a steep increase in engineering costs.</p>
+<p>Therefore, we need a flexible tool for displaying data dashboards, as "development" is not the most important; "display" is.</p>
+<p>This tool needs some objective advantages:</p>
+<ul>
+<li>Rich charts to display data from different dimensions.</li>
+<li>Support for various mainstream data sources.</li>
+<li>Simple installation and usage.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="Direct link to How to solve" title="Direct link to How to solve">​</a></h2>
+<p>Here, I recommend a user-friendly open-source project called ILLA Cloud. ILLA Cloud is a low-code tool specifically designed to address scenarios with personalized requirements.</p>
+<p>📙 Official website: <a href="https://illa.cloud/?utm_source=juejin" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
+<p>⏬ Github repository: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
+<p>⭐ Github Stars: 9k</p>
+<p>Below is a demo using fake data, depicting the sales situation of a product in a company, including:</p>
+<ul>
+<li>Monthly sales growth trends</li>
+<li>Monthly revenue</li>
+<li>Total revenue obtained</li>
+<li>Number of purchasers</li>
+<li>Detailed information about each purchasing user</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/data-dashboard.png" alt="data_dashboard" class="img_CfaS"></p>
+<p>This chart uses several components:</p>
+<ul>
+<li>Data Grid</li>
+<li>Chart</li>
+<li>Statistic</li>
+<li>Menu</li>
+</ul>
+<p>It was quickly built through drag and drop. The data sources come from:</p>
+<ul>
+<li>Supabase: A Serverless Postgresql</li>
+<li>API</li>
+</ul>
+<p>ILLA supports various data sources, allowing quick retrieval of data from a wide range of mainstream sources.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/integration.png" alt="integration" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="Direct link to AI-driven" title="Direct link to AI-driven">​</a></h2>
+<p>ILLA not only provides a dashboard but also allows the queried data to be processed further using LLM (Language Model). For example, a set of messy data can be processed into another format as required, enabling alignment of data from multiple sources.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h2>
+<p>Building a beautiful dashboard is quick and easy using drag and drop within a few minutes.</p>
+<p>Moreover, compared to various traditional BI tools, ILLA Cloud:</p>
+<ul>
+<li>Supports data querying from both databases and APIs</li>
+<li>Simple installation, directly usable on the web page without any downloads</li>
+<li>For secondary data processing, uses Javascript for direct and simple processing</li>
+<li>Supports various mainstream charts, meeting most requirements</li>
+<li>The Transformer feature effectively solves the problem of merging and processing data between multiple sources, eliminating worries about data format issues</li>
+</ul>
+<p>As an open-source project, ILLA Cloud also supports secondary development, with an active community for collaboration with other developers. No need to worry about maintenance issues.</p>
+<p>Additionally, ILLA Cloud can not only build data dashboards but also quickly create exclusive management dashboards, accelerating your business iteration.</p>
+<p>As a low-code tool, ILLA Cloud also supports collaboration among multiple people, allowing them to build dashboards together.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/collaboration.png" alt="collaboration" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>After using ILLA Cloud, there's no need to worry about the boss's personalized requirements. Within a few minutes, you can build a personalized data dashboard for the boss, becoming a highly efficient employee. Why not give it a try now!</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="shadcn-ui" term="shadcn-ui"/>
         <category label="react" term="react"/>
+        <category label="javascript" term="javascript"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/welcome</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <title type="html"><![CDATA[Shadcn vs MUI: A Comparative Analysis of Strengths and Weaknesses]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui"/>
+        <updated>2024-01-02T04:45:39.000Z</updated>
+        <summary type="html"><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.]]></summary>
+        <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
+<p>In general, companies choose a component library when building web applications to streamline repetitive work. Component libraries offer ready-to-use components such as Select, Input, CheckBox, etc., allowing users to create beautiful websites quickly without the need to build extensive foundational features from scratch.</p>
+<p>To summarize, component libraries are typically used in two scenarios:</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li>External Tools: Directly facing company users, often with a company's distinct style, emphasizing aesthetics and responsiveness.</li>
+<li>Internal Tools: For internal use by company employees, focusing on aesthetic design and rapid functionality implementation.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img loading="lazy" alt="Docusaurus Plushie" src="https://illacloud.github.io/illa-website/zh/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_CfaS"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<p>Next, we will analyze two component libraries based on the following criteria:</p>
+<ol>
+<li>Design</li>
+<li>Richness of Features</li>
+<li>How to Choose for Different Scenarios</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-options-for-internal-tool-scenarios">Other Options for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#other-options-for-internal-tool-scenarios" class="hash-link" aria-label="Direct link to Other Options for Internal Tool Scenarios" title="Direct link to Other Options for Internal Tool Scenarios">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is a ready-to-use low-code tool that allows for the quick construction of internal tools using simple JavaScript without the need to create new projects.</p>
+<ul>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
+</ul>
+<p>Compared to building scenarios with component libraries, ILLA Cloud enables 10x faster tool construction and supports collaboration among team members for simultaneous editing.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-shadcn-ui">Features of Shadcn UI<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#features-of-shadcn-ui" class="hash-link" aria-label="Direct link to Features of Shadcn UI" title="Direct link to Features of Shadcn UI">​</a></h2>
+<p>Some detailed data about Shadcn:</p>
+<ul>
+<li>⭐ Github Stars: 37k</li>
+<li>⏬ NPM Downloads: 23,962 downloads per week</li>
+<li>💪🏼 First Release Date: Mar 8, 2023</li>
+</ul>
+<p>Shadcn UI is a relatively new project that gained impressive recognition, achieving 37k stars in less than a year. It seems that outstanding open-source projects can easily gain widespread approval.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/shadcn-ui.png" alt="shadcn-ui" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#design" class="hash-link" aria-label="Direct link to Design" title="Direct link to Design">​</a></h3>
+<p>Shadcn UI leans towards a business style in its design, featuring a clean UI suitable for internal tools and serious application scenarios. Shadcn UI also supports custom themes, although it seems limited to:</p>
+<ul>
+<li>Colors</li>
+<li>Rounded corners</li>
+<li>Dark mode / Light mode</li>
+<li>Predefined "Default Style" and "New York Style"</li>
+</ul>
+<p>In terms of design details such as font and font size, the control appears limited, satisfying basic design needs. However, for external tool scenarios, it may have some limitations.</p>
+<p>Shadcn UI supports both CSS and CSS-in-JS solutions. The CSS-in-JS solution uses <a href="https://stitches.dev/" target="_blank" rel="noopener noreferrer">Stitches</a>, and while CSS defaults to traditional CSS, additional configuration may be needed for less and sass, and it is not out-of-the-box.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#richness-of-features" class="hash-link" aria-label="Direct link to Richness of Features" title="Direct link to Richness of Features">​</a></h3>
+<p>The library's richness of features is sufficient for daily development needs, supporting and providing complete callbacks for most capabilities. Shadcn UI supports essential capabilities, including but not limited to SSR, accessibility, and animation. For more advanced requirements like extremely rich charts and high-performance tables, it seems not fully supported, but ongoing project development is likely to address these needs.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#features-of-mui" class="hash-link" aria-label="Direct link to Features of MUI" title="Direct link to Features of MUI">​</a></h2>
+<p>Some detailed data about MUI:</p>
+<ul>
+<li>⭐ Github Stars: 90k</li>
+<li>⏬ NPM Downloads: 3,263,852 downloads per week</li>
+<li>💪🏼 First Release Date: Nov 6, 2014</li>
+</ul>
+<p>As an established project, MUI has been maintained since 2014, boasting almost 10 years of stability. The high number of stars and weekly downloads ensures a continuously active community.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/mui.png" alt="mui" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design-1">Design<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#design-1" class="hash-link" aria-label="Direct link to Design" title="Direct link to Design">​</a></h3>
+<p>In terms of design, MUI strictly adheres to Google's well-known Material Design. MUI offers extensive customization capabilities to meet most internal and external scenarios, with many well-known open-source projects using MUI for frontend development. For most functionalities, MUI provides comprehensive support.</p>
+<p>In addition to common features like colors, rounded corners, and dark/light modes, MUI supports complete customization of fonts, font sizes, colors, padding, and margins. As a project with ten years of development, MUI's functionality is powerful.</p>
+<p>In terms of CSS support, MUI has its custom system, using emotionjs for style adjustment in the overall layout. This may involve a learning curve and may not be as developer-friendly, requiring documentation consultation for some style modifications.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features-1">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#richness-of-features-1" class="hash-link" aria-label="Direct link to Richness of Features" title="Direct link to Richness of Features">​</a></h3>
+<p>MUI categorizes its components into several dimensions:</p>
+<ul>
+<li>MUI Core: Basic functional components and a style system.</li>
+<li>MUI X: High-performance and complex components, including high-performance tables, charts, etc.</li>
+</ul>
+<p>For developing a complex system, you can use MUI's comprehensive solution. However, MUI X is a paid component library, requiring a subscription fee.</p>
+<p>MUI is a heavyweight repository with extensive code and a long maintenance history, offering high customizability, making it suitable for large projects. The repository contains numerous features.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#how-to-choose" class="hash-link" aria-label="Direct link to How to Choose" title="Direct link to How to Choose">​</a></h2>
+<p>If you are a curious open-source enthusiast who does not need highly customized UI for product development, and there are no complex data processing requirements, Shadcn UI is recommended. It is more lightweight, simpler to configure, but less powerful. However, it is sufficient for internal tool scenarios.</p>
+<p>If you need a component library for developing large and complex projects, require intricate charts, high-performance data components, and are willing to invest in a fee without looking for additional solutions, you can choose MUI. Its powerful capabilities make it an excellent choice for developing medium to large projects.</p>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
-        </author>
-        <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/mdx-blog-post</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_Ztdk alert alert--success"><div class="admonitionHeading_wuvZ"><span class="admonitionIcon_bKMe"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_YstZ"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-js codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token operator">&lt;</span><span class="token plain">button onClick</span><span class="token operator">=</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token arrow operator">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:rgb(80, 250, 123)">alert</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">'button clicked!'</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token operator">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span><span class="token plain">button</span><span class="token operator">&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/long-blog-post</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
-        </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/first-blog-post</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
-        </author>
-        <category label="hola" term="hola"/>
-        <category label="docusaurus" term="docusaurus"/>
+        <category label="UI Library" term="UI Library"/>
+        <category label="Shadcn UI" term="Shadcn UI"/>
+        <category label="React" term="React"/>
     </entry>
 </feed>
