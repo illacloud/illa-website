@@ -2,7 +2,7 @@ import Head from "@docusaurus/Head"
 import { CommonLayout } from "../ILLATheme/CommonLayout"
 import { CommonHeader } from "../ILLATheme/CommonHeader"
 import CommonFooter from "../ILLATheme/CommonFooter"
-import { HOME_META_INFO } from "../config/Home"
+import { HOME_META_INFO, HOME_SCHEMA_DATA } from "../config/Home"
 import NewContent from "../components/home/Content"
 import BannerPC from "../components/home/Index/PC"
 import BannerMobile from "../components/home/Index/Mobile"
@@ -17,9 +17,12 @@ export default function Home(): JSX.Element {
         <html data-active-page="index" />
         <meta name="twitter:title" content={HOME_META_INFO.title} />
         <meta name="twitter:description" content={HOME_META_INFO.description} />
+        <script type="application/ld+json">
+          {JSON.stringify(HOME_SCHEMA_DATA)}
+        </script>
       </Head>
       <CommonLayout {...HOME_META_INFO}>
-        <div className="bg-black overflow-visible w-full relative z-[1] font-sans">
+        <div className="bg-garyBlue-01 overflow-visible w-full relative z-[1] font-sans">
           <CommonHeader />
           <BannerPC githubStarts={githubStarts} />
           <BannerMobile githubStarts={githubStarts} />

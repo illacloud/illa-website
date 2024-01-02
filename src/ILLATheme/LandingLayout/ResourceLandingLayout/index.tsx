@@ -1,10 +1,10 @@
-import { FC } from 'react';
-import LandingLayout from '../../LandingLayout';
-import { IResourceLandingLayoutProps } from './interface';
-import { LpHeader } from '../../../components/landingPage/Header';
-import styles from './style.module.css';
-import { IndexContent } from '../../../components/landingPage/IndexContent';
-import CommBottom from '../../../components/common/CommBottom';
+import { FC } from "react"
+import LandingLayout from "../../LandingLayout"
+import { IResourceLandingLayoutProps } from "./interface"
+import { LpHeader } from "../../../components/landingPage/Header"
+import styles from "./style.module.css"
+import { IndexContent } from "../../../components/landingPage/IndexContent"
+import CommBottom from "../../../components/common/CommBottom"
 const ResourceLandingLayout: FC<IResourceLandingLayoutProps> = (props) => {
   const {
     title,
@@ -13,13 +13,15 @@ const ResourceLandingLayout: FC<IResourceLandingLayoutProps> = (props) => {
     contentConfig,
     pageName,
     footerConfig,
-  } = props;
+    schemaData,
+  } = props
   return (
     <LandingLayout
       title={title}
       description={description}
       whiteTheme
       footerConfig={footerConfig}
+      schemaData={schemaData}
     >
       <div className="w-full relative z-[1] bg-white-01">
         <div className={styles.lpContainer}>
@@ -35,7 +37,7 @@ const ResourceLandingLayout: FC<IResourceLandingLayoutProps> = (props) => {
         <CommBottom whiteTheme scrollStart={0.763} scrollEnd={0.81} />
       </div>
     </LandingLayout>
-  );
-};
+  )
+}
 
-export default ResourceLandingLayout;
+export default ResourceLandingLayout

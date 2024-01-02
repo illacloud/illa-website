@@ -27,7 +27,7 @@ const ContentItems: FC<IContentItemsProps> = ({ contentList, pageName }) => {
         key={name}
       >
         {pageName === "integrations" && (
-          <img src={logo} alt={name} className="h-[24px] xl:h-[40px]" />
+          <img src={logo} alt={name} className="h-[24px] lg:h-[40px]" />
         )}
         {pageName === "components" && (
           <div className={styles.itemImage}>
@@ -35,7 +35,7 @@ const ContentItems: FC<IContentItemsProps> = ({ contentList, pageName }) => {
           </div>
         )}
         <div className="flex flex-col items-start gap-[8px]">
-          <h3 className="xl:h-[26px] h-[20px] overflow-hidden">
+          <h3 className="lg:h-[26px] h-[20px] overflow-hidden">
             <span
               className={clsx(
                 styles.itemNameCommon,
@@ -63,7 +63,7 @@ const ContentItems: FC<IContentItemsProps> = ({ contentList, pageName }) => {
 export const IndexContent: FC<IIndexContentProps> = (props) => {
   const { content, pageName } = props
   return (
-    <div className="flex flex-col gap-[24px] pb-[60px] xl:pb-[100px]">
+    <div className="flex flex-col gap-[24px] pb-[60px] lg:pb-[100px]">
       {content.map(({ title, contentList }) => {
         return (
           <Fragment key={title}>
