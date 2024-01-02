@@ -55,6 +55,10 @@ const config: Config = {
     },
     metadata: [
       {
+        name: "og:type",
+        content: "website",
+      },
+      {
         name: "twitter:card",
         content: "summary_large_image",
       },
