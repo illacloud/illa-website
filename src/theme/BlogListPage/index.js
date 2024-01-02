@@ -1,6 +1,5 @@
 import React from "react"
 import clsx from "clsx"
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import {
   PageMetadata,
   HtmlClassNameProvider,
@@ -11,18 +10,17 @@ import BlogListPaginator from "@theme/BlogListPaginator"
 import SearchMetadata from "@theme/SearchMetadata"
 import BlogPostItems from "@theme/BlogPostItems"
 import { FeaturedBlogPostItems } from "../../components/blog/FeaturedBlogPostItems"
+import Head from "@docusaurus/Head"
+import { BLOG_META_INFO } from "@site/src/config/Blog"
 
-function BlogListPageMetadata(props) {
-  const { metadata } = props
-  const {
-    siteConfig: { title: siteTitle },
-  } = useDocusaurusContext()
-  const { blogDescription, blogTitle, permalink } = metadata
-  const isBlogOnlyMode = permalink === "/"
-  const title = isBlogOnlyMode ? siteTitle : blogTitle
+function BlogListPageMetadata() {
   return (
     <>
-      <PageMetadata title={title} description={blogDescription} />
+      <Head>
+        <meta name="twitter:title" content={BLOG_META_INFO.title} />
+        <meta name="twitter:description" content={BLOG_META_INFO.description} />
+      </Head>
+      <PageMetadata {...BLOG_META_INFO} />
       <SearchMetadata tag="blog_posts_list" />
     </>
   )
@@ -83,7 +81,7 @@ export default function BlogListPage(props) {
         ThemeClassNames.page.blogListPage,
       )}
     >
-      <BlogListPageMetadata {...props} />
+      <BlogListPageMetadata />
       <BlogListPageContent {...props} />
     </HtmlClassNameProvider>
   )

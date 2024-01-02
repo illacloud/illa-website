@@ -72,11 +72,11 @@ const config: Config = {
       },
       {
         name: "og:image",
-        content: "img/social-card-large.png",
+        content: "/img/social-card-large.png",
       },
       {
         name: "twitter:image",
-        content: "img/social-card-large.png",
+        content: "/img/social-card-large.png",
       },
     ],
     prism: {
