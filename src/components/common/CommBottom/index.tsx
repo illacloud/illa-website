@@ -72,7 +72,7 @@ const CommBottom: FC<ICommonBottom> = ({
         )}
       />
       <div className="flex flex-col items-center gap-[24px] w-full lg:w-[800px] lg:h-[210px]">
-        <h1
+        <h2
           className={clsx(
             style.commBottomTitle,
             whiteTheme ? style.whiteBottomTitle : style.bottomTitle,
@@ -81,7 +81,7 @@ const CommBottom: FC<ICommonBottom> = ({
           <Translate id="call-to-action.title">
             Start Building Apps with ILLA Cloud
           </Translate>
-        </h1>
+        </h2>
         <p
           className={clsx(
             style.commBottomDesc,
