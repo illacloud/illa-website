@@ -4,11 +4,11 @@ import AllConstantIcon from "@site/static/img/home3/allContant/allContant.svg"
 const AllContent = () => {
   return (
     <div className={style.allContentContainer}>
-      <h1 className={style.allContentTitle}>
+      <h2 className={style.allContentTitle}>
         <Translate id="content.all.title">
           ILLA Cloud integrates everything
         </Translate>
-      </h1>
+      </h2>
       <AllConstantIcon className="w-full h-auto" />
     </div>
   )

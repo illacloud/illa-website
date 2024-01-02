@@ -14,7 +14,7 @@ const FAQ: FC<FAQProps> = ({ title, content }) => {
 
   return (
     <div className={style.faqContainer}>
-      <span className={style.faqTitle}>{title}</span>
+      <h2 className={style.faqTitle}>{title}</h2>
       <div className="w-full flex flex-col gap-[8px]">
         {content.map((item) => (
           <Disclosure as="div" key={item.question} className="w-full">
