@@ -30,7 +30,7 @@ const Pricing: FC = () => {
       </Head>
       <CommonLayout {...PRICING_META_INFO}>
         <PricingMask height={containerHeight} />
-        <div ref={ref} className="w-full px-0">
+        <div ref={ref} className="w-full px-0 font-sans">
           <div className="w-full relative z-[1]">
             <CommonHeader />
             <div className="w-full text-white flex flex-col lg:gap-[120px] gap-[60px] lg:pt-[40px] bg-transparent">

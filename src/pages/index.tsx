@@ -19,7 +19,7 @@ export default function Home(): JSX.Element {
         <meta name="twitter:description" content={HOME_META_INFO.description} />
       </Head>
       <CommonLayout {...HOME_META_INFO}>
-        <div className="bg-black overflow-visible w-full relative z-[1]">
+        <div className="bg-black overflow-visible w-full relative z-[1] font-sans">
           <CommonHeader />
           <BannerPC githubStarts={githubStarts} />
           <BannerMobile githubStarts={githubStarts} />
