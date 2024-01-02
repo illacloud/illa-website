@@ -74,14 +74,6 @@ const config: Config = {
         name: "keywords",
         content: DEFAULT_KEYWORDS,
       },
-      {
-        name: "og:image",
-        content: "/img/social-card-large.png",
-      },
-      {
-        name: "twitter:image",
-        content: "/img/social-card-large.png",
-      },
     ],
     prism: {
       theme: prismThemes.github,
