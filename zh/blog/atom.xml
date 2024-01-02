@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/zh/blog</id>
     <title>ILLA Cloud Blog</title>
-    <updated>2024-01-02T10:34:42.000Z</updated>
+    <updated>2024-01-02T11:12:41.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/zh/blog"/>
     <subtitle>ILLA Cloud Blog</subtitle>
@@ -12,12 +12,12 @@
         <title type="html"><![CDATA[Quickly create a personalized data dashboard for your boss]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024"/>
-        <updated>2024-01-02T10:34:42.000Z</updated>
+        <updated>2024-01-02T11:12:41.000Z</updated>
         <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></summary>
         <content type="html"><![CDATA[<p>Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.</p>
 <p>After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.</p>
 <p>Using efficient tools to leave work early every day.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Some issues in the construction的直接链接" title="Some issues in the construction的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Direct link to Some issues in the construction" title="Direct link to Some issues in the construction">​</a></h2>
 <p>The business of each company is distributed across different systems, and there are some connections between these systems. Some data needs to be queried using databases:</p>
 <ul>
 <li>Postgresql</li>
@@ -40,7 +40,7 @@
 <li>Support for various mainstream data sources.</li>
 <li>Simple installation and usage.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="How to solve的直接链接" title="How to solve的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="Direct link to How to solve" title="Direct link to How to solve">​</a></h2>
 <p>Here, I recommend a user-friendly open-source project called ILLA Cloud. ILLA Cloud is a low-code tool specifically designed to address scenarios with personalized requirements.</p>
 <p>📙 Official website: <a href="https://illa.cloud/?utm_source=juejin" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
 <p>⏬ Github repository: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
@@ -68,9 +68,9 @@
 </ul>
 <p>ILLA supports various data sources, allowing quick retrieval of data from a wide range of mainstream sources.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/integration.png" alt="integration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="AI-driven的直接链接" title="AI-driven的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="Direct link to AI-driven" title="Direct link to AI-driven">​</a></h2>
 <p>ILLA not only provides a dashboard but also allows the queried data to be processed further using LLM (Language Model). For example, a set of messy data can be processed into another format as required, enabling alignment of data from multiple sources.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Advantages的直接链接" title="Advantages的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h2>
 <p>Building a beautiful dashboard is quick and easy using drag and drop within a few minutes.</p>
 <p>Moreover, compared to various traditional BI tools, ILLA Cloud:</p>
 <ul>
@@ -84,7 +84,7 @@
 <p>Additionally, ILLA Cloud can not only build data dashboards but also quickly create exclusive management dashboards, accelerating your business iteration.</p>
 <p>As a low-code tool, ILLA Cloud also supports collaboration among multiple people, allowing them to build dashboards together.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/collaboration.png" alt="collaboration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Conclusion的直接链接" title="Conclusion的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>After using ILLA Cloud, there's no need to worry about the boss's personalized requirements. Within a few minutes, you can build a personalized data dashboard for the boss, becoming a highly efficient employee. Why not give it a try now!</p>]]></content>
         <author>
             <name>Owen Chen</name>
@@ -93,54 +93,13 @@
         <category label="data dashboard" term="data dashboard"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Low Code vs Traditional Development: Optimal Efficiency in Choice]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional"/>
-        <updated>2024-01-02T10:34:42.000Z</updated>
-        <summary type="html"><![CDATA[With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.]]></summary>
-        <content type="html"><![CDATA[<p>With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-launching-a-transient-business-initiative">When Launching a Transient Business Initiative<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#when-launching-a-transient-business-initiative" class="hash-link" aria-label="When Launching a Transient Business Initiative的直接链接" title="When Launching a Transient Business Initiative的直接链接">​</a></h2>
-<p>In the dynamic landscape of frequent holidays and special occasions, creating distinct online experiences becomes imperative. Each company may have its unique marketing days, requiring engaging activities. Crafting these online marketing campaigns inevitably poses a development challenge, necessitating substantial resource allocation. While the need for visually captivating designs is evident, the overall complexity may not justify significant development costs, especially when the lifecycle is limited to 1-2 weeks. In such cases, opting for low-code tools emerges as a financially prudent decision. Here, we advocate for a specific low-code solution.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="addressing-user-facing-components-webflow">Addressing User-Facing Components: Webflow<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#addressing-user-facing-components-webflow" class="hash-link" aria-label="Addressing User-Facing Components: Webflow的直接链接" title="Addressing User-Facing Components: Webflow的直接链接">​</a></h3>
-<p>Webflow, with its intuitive drag-and-drop interface and designer-friendly adjustments, facilitates the creation of visually stunning landing pages. This approach allows users to interact with an aesthetically pleasing website, and remarkably, only requires the expertise of a single designer. Furthermore, Webflow offers an array of templates that can be easily customized, enabling the swift construction of an exquisite website.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/webflow.png" alt="webflow" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="managing-business-operations-illa-cloud">Managing Business Operations: ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#managing-business-operations-illa-cloud" class="hash-link" aria-label="Managing Business Operations: ILLA Cloud的直接链接" title="Managing Business Operations: ILLA Cloud的直接链接">​</a></h3>
-<p>Regardless of the frontend technology used, an effective management tool is indispensable for overseeing business operations.</p>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>, as an out-of-the-box low-code tool, empowers developers to rapidly construct internal tools using straightforward JavaScript, eliminating the need to create new projects.</p>
-<ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
-</ul>
-<p>Compared to scenarios relying on component libraries, ILLA Cloud boasts a 10x faster construction speed for the aforementioned tools. Additionally, ILLA Cloud supports collaborative editing among multiple team members, fostering efficient teamwork.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>The synergy of these two tools expedites the creation of business requirements in marketing scenarios. This synergistic approach minimizes the need for extensive development resources while addressing the demand for quick response and deployment. Consequently, it propels the business iteration speed to new heights.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-initiating-a-novel-business-venture">When Initiating a Novel Business Venture<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#when-initiating-a-novel-business-venture" class="hash-link" aria-label="When Initiating a Novel Business Venture的直接链接" title="When Initiating a Novel Business Venture的直接链接">​</a></h2>
-<p>The commencement of a project necessitates a thorough evaluation of its characteristics. For comprehensive toC products such as social platforms, gaming applications, or IM services, the recommendation leans towards traditional development methodologies. This ensures a high degree of flexibility in adapting to evolving requirements.</p>
-<p>For ventures centered around retail or services, the utilization of Shopify for frontend presentation proves advantageous. This choice guarantees widespread distribution of products while curbing development costs. Furthermore, Shopify supports customization, catering to diverse business needs effectively.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/shopify.png" alt="shopify" class="img_CfaS"></p>
-<p>In instances where a swift development of an app or website is paramount, direct coding may offer a faster solution. Therefore, the selection of an appropriate solution heavily relies on the unique attributes of the scenario.</p>
-<p>If the backend functionality of Shopify falls short of requirements, the integration of ILLA Cloud can bridge the gap, providing a platform for customized management.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#conclusion" class="hash-link" aria-label="Conclusion的直接链接" title="Conclusion的直接链接">​</a></h2>
-<p>In the decision-making process for selecting development tools, a multifaceted approach is recommended. While direct coding provides unparalleled flexibility, it does come at the cost of development speed. The strategic integration of low-code tools and SaaS solutions can yield substantial gains in productivity.</p>
-<p>For operations demanding flexibility and essential to the core business, traditional development methods remain the preferred choice. The agility and control afforded by traditional development methods result in products that are highly tailored to specific needs.</p>
-<p>Ultimately, there is no one-size-fits-all solution; the best choice is the one that aligns most closely with the unique requirements of the scenario at hand.</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="low code" term="low code"/>
-        <category label="traditional development" term="traditional development"/>
-        <category label="javascript" term="javascript"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[2024 has arrived, should I choose MUI?]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/mui-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/mui-2024"/>
-        <updated>2024-01-02T10:34:42.000Z</updated>
+        <updated>2024-01-02T11:12:41.000Z</updated>
         <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains highly prosperous. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Why Choose a Component Library?的直接链接" title="Why Choose a Component Library?的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
 <p>In general, every company building web applications tends to select a component library. These libraries address a significant amount of repetitive work, offering readily usable components such as Select, Input, CheckBox, and more. These components, customizable through styles or pre-existing attractive styles, enable the rapid creation of beautiful websites without the need to build extensive foundational features from scratch.</p>
 <p>To summarize, component libraries are typically used in two scenarios:</p>
 <ul>
@@ -153,7 +112,7 @@
 <li>Richness of Features</li>
 <li>How to Choose in Different Scenarios</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-choices-for-internal-tool-scenarios">Other Choices for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#other-choices-for-internal-tool-scenarios" class="hash-link" aria-label="Other Choices for Internal Tool Scenarios的直接链接" title="Other Choices for Internal Tool Scenarios的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-choices-for-internal-tool-scenarios">Other Choices for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#other-choices-for-internal-tool-scenarios" class="hash-link" aria-label="Direct link to Other Choices for Internal Tool Scenarios" title="Direct link to Other Choices for Internal Tool Scenarios">​</a></h2>
 <p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
 <ul>
 <li>Web &amp; App Admin Panel</li>
@@ -162,7 +121,7 @@
 </ul>
 <p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#features-of-mui" class="hash-link" aria-label="Features of MUI的直接链接" title="Features of MUI的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#features-of-mui" class="hash-link" aria-label="Direct link to Features of MUI" title="Direct link to Features of MUI">​</a></h2>
 <p>Some detailed data about MUI:</p>
 <ul>
 <li>⭐ Github Stars: 90k</li>
@@ -171,7 +130,7 @@
 </ul>
 <p>MUI, as a longstanding project maintained since 2014, boasts almost a decade of stability. Its high star count and weekly download numbers ensure that the community remains consistently active.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/mui.png" alt="mui" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#design" class="hash-link" aria-label="Design的直接链接" title="Design的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#design" class="hash-link" aria-label="Direct link to Design" title="Direct link to Design">​</a></h3>
 <p>In terms of design, MUI strictly adheres to Google's renowned Material Design. MUI's customization capabilities are extensive, catering to a wide range of internal and external scenarios. Many well-known open-source projects use MUI for front-end development. For most functionalities, MUI provides comprehensive support.</p>
 <p>In addition to common features like:</p>
 <ul>
@@ -181,7 +140,7 @@
 </ul>
 <p>MUI supports complete configurations of fonts, font sizes, colors, and margins, making it a powerful tool as a project with ten years of development.</p>
 <p>Regarding CSS support, MUI has its custom system, utilizing emotionjs for style adjustments in the overall layout. This may come with a learning curve and may not be as developer-friendly for direct development, requiring documentation consultation for certain style modifications.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#richness-of-features" class="hash-link" aria-label="Richness of Features的直接链接" title="Richness of Features的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#richness-of-features" class="hash-link" aria-label="Direct link to Richness of Features" title="Direct link to Richness of Features">​</a></h3>
 <p>MUI's component types are highly complex, divided into several dimensions:</p>
 <p>These include:</p>
 <ul>
@@ -190,7 +149,7 @@
 </ul>
 <p>If you are developing a highly complex system, you can use MUI's full suite solution. However, MUI X is a paid component library, and a subscription fee may be required.</p>
 <p>MUI is a heavyweight repository with extensive code and a long maintenance history. Its high customizability makes it suitable for large projects. In the MUI repository, you can find a wealth of features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#how-to-choose" class="hash-link" aria-label="How to Choose的直接链接" title="How to Choose的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#how-to-choose" class="hash-link" aria-label="Direct link to How to Choose" title="Direct link to How to Choose">​</a></h2>
 <p>✅ Advantages</p>
 <p>If you want to develop large projects, have high customization requirements, and wish to use high-performance data components and chart components, especially in scenarios with high business complexity and are willing to subscribe to MUI X, it is recommended to use MUI for development. Its flexible configuration and plethora of components can fully meet your requirements.</p>
 <p>❌ Disadvantages</p>
@@ -205,16 +164,57 @@
         <category label="javascript" term="javascript"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Low Code vs Traditional Development: Optimal Efficiency in Choice]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional"/>
+        <updated>2024-01-02T11:12:41.000Z</updated>
+        <summary type="html"><![CDATA[With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.]]></summary>
+        <content type="html"><![CDATA[<p>With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-launching-a-transient-business-initiative">When Launching a Transient Business Initiative<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#when-launching-a-transient-business-initiative" class="hash-link" aria-label="Direct link to When Launching a Transient Business Initiative" title="Direct link to When Launching a Transient Business Initiative">​</a></h2>
+<p>In the dynamic landscape of frequent holidays and special occasions, creating distinct online experiences becomes imperative. Each company may have its unique marketing days, requiring engaging activities. Crafting these online marketing campaigns inevitably poses a development challenge, necessitating substantial resource allocation. While the need for visually captivating designs is evident, the overall complexity may not justify significant development costs, especially when the lifecycle is limited to 1-2 weeks. In such cases, opting for low-code tools emerges as a financially prudent decision. Here, we advocate for a specific low-code solution.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="addressing-user-facing-components-webflow">Addressing User-Facing Components: Webflow<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#addressing-user-facing-components-webflow" class="hash-link" aria-label="Direct link to Addressing User-Facing Components: Webflow" title="Direct link to Addressing User-Facing Components: Webflow">​</a></h3>
+<p>Webflow, with its intuitive drag-and-drop interface and designer-friendly adjustments, facilitates the creation of visually stunning landing pages. This approach allows users to interact with an aesthetically pleasing website, and remarkably, only requires the expertise of a single designer. Furthermore, Webflow offers an array of templates that can be easily customized, enabling the swift construction of an exquisite website.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/webflow.png" alt="webflow" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="managing-business-operations-illa-cloud">Managing Business Operations: ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#managing-business-operations-illa-cloud" class="hash-link" aria-label="Direct link to Managing Business Operations: ILLA Cloud" title="Direct link to Managing Business Operations: ILLA Cloud">​</a></h3>
+<p>Regardless of the frontend technology used, an effective management tool is indispensable for overseeing business operations.</p>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>, as an out-of-the-box low-code tool, empowers developers to rapidly construct internal tools using straightforward JavaScript, eliminating the need to create new projects.</p>
+<ul>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
+</ul>
+<p>Compared to scenarios relying on component libraries, ILLA Cloud boasts a 10x faster construction speed for the aforementioned tools. Additionally, ILLA Cloud supports collaborative editing among multiple team members, fostering efficient teamwork.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<p>The synergy of these two tools expedites the creation of business requirements in marketing scenarios. This synergistic approach minimizes the need for extensive development resources while addressing the demand for quick response and deployment. Consequently, it propels the business iteration speed to new heights.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-initiating-a-novel-business-venture">When Initiating a Novel Business Venture<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#when-initiating-a-novel-business-venture" class="hash-link" aria-label="Direct link to When Initiating a Novel Business Venture" title="Direct link to When Initiating a Novel Business Venture">​</a></h2>
+<p>The commencement of a project necessitates a thorough evaluation of its characteristics. For comprehensive toC products such as social platforms, gaming applications, or IM services, the recommendation leans towards traditional development methodologies. This ensures a high degree of flexibility in adapting to evolving requirements.</p>
+<p>For ventures centered around retail or services, the utilization of Shopify for frontend presentation proves advantageous. This choice guarantees widespread distribution of products while curbing development costs. Furthermore, Shopify supports customization, catering to diverse business needs effectively.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/shopify.png" alt="shopify" class="img_CfaS"></p>
+<p>In instances where a swift development of an app or website is paramount, direct coding may offer a faster solution. Therefore, the selection of an appropriate solution heavily relies on the unique attributes of the scenario.</p>
+<p>If the backend functionality of Shopify falls short of requirements, the integration of ILLA Cloud can bridge the gap, providing a platform for customized management.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>In the decision-making process for selecting development tools, a multifaceted approach is recommended. While direct coding provides unparalleled flexibility, it does come at the cost of development speed. The strategic integration of low-code tools and SaaS solutions can yield substantial gains in productivity.</p>
+<p>For operations demanding flexibility and essential to the core business, traditional development methods remain the preferred choice. The agility and control afforded by traditional development methods result in products that are highly tailored to specific needs.</p>
+<p>Ultimately, there is no one-size-fits-all solution; the best choice is the one that aligns most closely with the unique requirements of the scenario at hand.</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="low code" term="low code"/>
+        <category label="traditional development" term="traditional development"/>
+        <category label="javascript" term="javascript"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Elegant Use of nvm for Node.js Management on Mac in 2024]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024"/>
-        <updated>2024-01-02T10:34:42.000Z</updated>
+        <updated>2024-01-02T11:12:41.000Z</updated>
         <summary type="html"><![CDATA[Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.]]></summary>
         <content type="html"><![CDATA[<p>Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.</p>
 <p>The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.</p>
 <p>Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.</p>
 <p>The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="recommending-an-open-source-project-for-backend-development">Recommending an Open Source Project for Backend Development<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#recommending-an-open-source-project-for-backend-development" class="hash-link" aria-label="Recommending an Open Source Project for Backend Development的直接链接" title="Recommending an Open Source Project for Backend Development的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="recommending-an-open-source-project-for-backend-development">Recommending an Open Source Project for Backend Development<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#recommending-an-open-source-project-for-backend-development" class="hash-link" aria-label="Direct link to Recommending an Open Source Project for Backend Development" title="Direct link to Recommending an Open Source Project for Backend Development">​</a></h2>
 <p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that enables the rapid construction of internal tools using simple JS, without the need to create new projects.</p>
 <ul>
 <li>Web &amp; App Admin Panel</li>
@@ -223,12 +223,12 @@
 </ul>
 <p>Compared to scenarios built with component libraries, ILLA Cloud allows for 10x faster construction of the mentioned tools. Additionally, ILLA Cloud supports collaboration among multiple users, facilitating teamwork for rapid customization of backend capabilities.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction-to-nvm">Introduction to nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#introduction-to-nvm" class="hash-link" aria-label="Introduction to nvm的直接链接" title="Introduction to nvm的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction-to-nvm">Introduction to nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#introduction-to-nvm" class="hash-link" aria-label="Direct link to Introduction to nvm" title="Direct link to Introduction to nvm">​</a></h2>
 <p>⏬ GitHub Repository: <a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener noreferrer">https://github.com/nvm-sh/nvm</a></p>
 <p>⭐ GitHub Stars: 72.4k</p>
 <p>💪🏼 First Release Date: Dec 22, 2014</p>
 <p>nvm is an open-source project that has been maintained for nearly 10 years. Positive reviews have kept this project robust and, through continuous maintenance, it has become a perfect solution for "Node.js version management."</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="installing-nvm">Installing nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#installing-nvm" class="hash-link" aria-label="Installing nvm的直接链接" title="Installing nvm的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="installing-nvm">Installing nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#installing-nvm" class="hash-link" aria-label="Direct link to Installing nvm" title="Direct link to Installing nvm">​</a></h2>
 <p>Since we are using a Mac for development, I strongly recommend using <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a> for package management and then using <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a> to install nvm.</p>
 <p>To install Homebrew, it is recommended to use the installation script. It requires minimal configuration and allows immediate use. Moreover, Homebrew makes it easy to uninstall repositories cleanly if needed.</p>
 <div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
@@ -239,7 +239,7 @@
 <div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew install nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>After confirming agreement, nvm will be completely installed. If you decide you don't want it anymore, you can use the following command to uninstall:</p>
 <div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"># delete nvm if you don't need it.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew uninstall nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="using-nvm">Using nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#using-nvm" class="hash-link" aria-label="Using nvm的直接链接" title="Using nvm的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="using-nvm">Using nvm<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#using-nvm" class="hash-link" aria-label="Direct link to Using nvm" title="Direct link to Using nvm">​</a></h2>
 <p>Once nvm is installed, here are some commonly used commands to help you get started. These commands should fulfill your daily needs.</p>
 <div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm list</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>The "list" command displays various mainstream Node.js versions. You can install versions according to your needs, and it will also show the currently used Node.js version on your machine. It will display some codenames.</p>
@@ -259,7 +259,7 @@
 <div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm use stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>The "use" command allows you to quickly switch between Node.js versions currently in use. You can also use the "stable" codename. This way, you can quickly switch between versions for different projects.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-use.png" alt="nvm-use" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#conclusion" class="hash-link" aria-label="Conclusion的直接链接" title="Conclusion的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>This article has explained the entire process for a beginner, from installing to using nvm. You can quickly try it out and better manage your Node.js versions.</p>
 <p>Node.js version management is a long-discussed issue, and nvm is an excellent open-source project that effectively addresses this problem. Of course, no project is perfect. If you have other recommendations, feel free to leave a comment and let more people know about outstanding projects—that's the mission of open-source enthusiasts!</p>]]></content>
         <author>
@@ -275,12 +275,12 @@
         <title type="html"><![CDATA[2024 has arrived, should I choose Shadcn UI?]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024"/>
-        <updated>2024-01-02T10:34:42.000Z</updated>
+        <updated>2024-01-02T11:12:41.000Z</updated>
         <summary type="html"><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.]]></summary>
         <content type="html"><![CDATA[<p>Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.</p>
 <p>After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.</p>
 <p>Using efficient tools to leave work early every day.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Some issues in the construction的直接链接" title="Some issues in the construction的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Direct link to Some issues in the construction" title="Direct link to Some issues in the construction">​</a></h2>
 <p>The business of each company is distributed across different systems, and there are some connections between these systems. Some data needs to be queried using databases:</p>
 <ul>
 <li>Postgresql</li>
@@ -303,7 +303,7 @@
 <li>Support for various mainstream data sources.</li>
 <li>Simple installation and usage.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="How to solve的直接链接" title="How to solve的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="Direct link to How to solve" title="Direct link to How to solve">​</a></h2>
 <p>Here, I recommend a user-friendly open-source project called ILLA Cloud. ILLA Cloud is a low-code tool specifically designed to address scenarios with personalized requirements.</p>
 <p>📙 Official website: <a href="https://illa.cloud/?utm_source=juejin" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
 <p>⏬ Github repository: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
@@ -331,9 +331,9 @@
 </ul>
 <p>ILLA supports various data sources, allowing quick retrieval of data from a wide range of mainstream sources.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/integration.png" alt="integration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="AI-driven的直接链接" title="AI-driven的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="Direct link to AI-driven" title="Direct link to AI-driven">​</a></h2>
 <p>ILLA not only provides a dashboard but also allows the queried data to be processed further using LLM (Language Model). For example, a set of messy data can be processed into another format as required, enabling alignment of data from multiple sources.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Advantages的直接链接" title="Advantages的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h2>
 <p>Building a beautiful dashboard is quick and easy using drag and drop within a few minutes.</p>
 <p>Moreover, compared to various traditional BI tools, ILLA Cloud:</p>
 <ul>
@@ -347,7 +347,7 @@
 <p>Additionally, ILLA Cloud can not only build data dashboards but also quickly create exclusive management dashboards, accelerating your business iteration.</p>
 <p>As a low-code tool, ILLA Cloud also supports collaboration among multiple people, allowing them to build dashboards together.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/collaboration.png" alt="collaboration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Conclusion的直接链接" title="Conclusion的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>After using ILLA Cloud, there's no need to worry about the boss's personalized requirements. Within a few minutes, you can build a personalized data dashboard for the boss, becoming a highly efficient employee. Why not give it a try now!</p>]]></content>
         <author>
             <name>Owen Chen</name>
@@ -361,10 +361,10 @@
         <title type="html"><![CDATA[Shadcn vs MUI: A Comparative Analysis of Strengths and Weaknesses]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui"/>
-        <updated>2024-01-02T10:34:42.000Z</updated>
+        <updated>2024-01-02T11:12:41.000Z</updated>
         <summary type="html"><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#why-choose-a-component-library" class="hash-link" aria-label="Why Choose a Component Library?的直接链接" title="Why Choose a Component Library?的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
 <p>In general, companies choose a component library when building web applications to streamline repetitive work. Component libraries offer ready-to-use components such as Select, Input, CheckBox, etc., allowing users to create beautiful websites quickly without the need to build extensive foundational features from scratch.</p>
 <p>To summarize, component libraries are typically used in two scenarios:</p>
 <ul>
@@ -377,7 +377,7 @@
 <li>Richness of Features</li>
 <li>How to Choose for Different Scenarios</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-options-for-internal-tool-scenarios">Other Options for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#other-options-for-internal-tool-scenarios" class="hash-link" aria-label="Other Options for Internal Tool Scenarios的直接链接" title="Other Options for Internal Tool Scenarios的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-options-for-internal-tool-scenarios">Other Options for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#other-options-for-internal-tool-scenarios" class="hash-link" aria-label="Direct link to Other Options for Internal Tool Scenarios" title="Direct link to Other Options for Internal Tool Scenarios">​</a></h2>
 <p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is a ready-to-use low-code tool that allows for the quick construction of internal tools using simple JavaScript without the need to create new projects.</p>
 <ul>
 <li>Web &amp; App Admin Panel</li>
@@ -386,7 +386,7 @@
 </ul>
 <p>Compared to building scenarios with component libraries, ILLA Cloud enables 10x faster tool construction and supports collaboration among team members for simultaneous editing.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-shadcn-ui">Features of Shadcn UI<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#features-of-shadcn-ui" class="hash-link" aria-label="Features of Shadcn UI的直接链接" title="Features of Shadcn UI的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-shadcn-ui">Features of Shadcn UI<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#features-of-shadcn-ui" class="hash-link" aria-label="Direct link to Features of Shadcn UI" title="Direct link to Features of Shadcn UI">​</a></h2>
 <p>Some detailed data about Shadcn:</p>
 <ul>
 <li>⭐ Github Stars: 37k</li>
@@ -395,7 +395,7 @@
 </ul>
 <p>Shadcn UI is a relatively new project that gained impressive recognition, achieving 37k stars in less than a year. It seems that outstanding open-source projects can easily gain widespread approval.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/shadcn-ui.png" alt="shadcn-ui" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#design" class="hash-link" aria-label="Design的直接链接" title="Design的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#design" class="hash-link" aria-label="Direct link to Design" title="Direct link to Design">​</a></h3>
 <p>Shadcn UI leans towards a business style in its design, featuring a clean UI suitable for internal tools and serious application scenarios. Shadcn UI also supports custom themes, although it seems limited to:</p>
 <ul>
 <li>Colors</li>
@@ -405,9 +405,9 @@
 </ul>
 <p>In terms of design details such as font and font size, the control appears limited, satisfying basic design needs. However, for external tool scenarios, it may have some limitations.</p>
 <p>Shadcn UI supports both CSS and CSS-in-JS solutions. The CSS-in-JS solution uses <a href="https://stitches.dev/" target="_blank" rel="noopener noreferrer">Stitches</a>, and while CSS defaults to traditional CSS, additional configuration may be needed for less and sass, and it is not out-of-the-box.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#richness-of-features" class="hash-link" aria-label="Richness of Features的直接链接" title="Richness of Features的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#richness-of-features" class="hash-link" aria-label="Direct link to Richness of Features" title="Direct link to Richness of Features">​</a></h3>
 <p>The library's richness of features is sufficient for daily development needs, supporting and providing complete callbacks for most capabilities. Shadcn UI supports essential capabilities, including but not limited to SSR, accessibility, and animation. For more advanced requirements like extremely rich charts and high-performance tables, it seems not fully supported, but ongoing project development is likely to address these needs.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#features-of-mui" class="hash-link" aria-label="Features of MUI的直接链接" title="Features of MUI的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#features-of-mui" class="hash-link" aria-label="Direct link to Features of MUI" title="Direct link to Features of MUI">​</a></h2>
 <p>Some detailed data about MUI:</p>
 <ul>
 <li>⭐ Github Stars: 90k</li>
@@ -416,11 +416,11 @@
 </ul>
 <p>As an established project, MUI has been maintained since 2014, boasting almost 10 years of stability. The high number of stars and weekly downloads ensures a continuously active community.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/mui.png" alt="mui" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design-1">Design<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#design-1" class="hash-link" aria-label="Design的直接链接" title="Design的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design-1">Design<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#design-1" class="hash-link" aria-label="Direct link to Design" title="Direct link to Design">​</a></h3>
 <p>In terms of design, MUI strictly adheres to Google's well-known Material Design. MUI offers extensive customization capabilities to meet most internal and external scenarios, with many well-known open-source projects using MUI for frontend development. For most functionalities, MUI provides comprehensive support.</p>
 <p>In addition to common features like colors, rounded corners, and dark/light modes, MUI supports complete customization of fonts, font sizes, colors, padding, and margins. As a project with ten years of development, MUI's functionality is powerful.</p>
 <p>In terms of CSS support, MUI has its custom system, using emotionjs for style adjustment in the overall layout. This may involve a learning curve and may not be as developer-friendly, requiring documentation consultation for some style modifications.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features-1">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#richness-of-features-1" class="hash-link" aria-label="Richness of Features的直接链接" title="Richness of Features的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features-1">Richness of Features<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#richness-of-features-1" class="hash-link" aria-label="Direct link to Richness of Features" title="Direct link to Richness of Features">​</a></h3>
 <p>MUI categorizes its components into several dimensions:</p>
 <ul>
 <li>MUI Core: Basic functional components and a style system.</li>
@@ -428,7 +428,7 @@
 </ul>
 <p>For developing a complex system, you can use MUI's comprehensive solution. However, MUI X is a paid component library, requiring a subscription fee.</p>
 <p>MUI is a heavyweight repository with extensive code and a long maintenance history, offering high customizability, making it suitable for large projects. The repository contains numerous features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#how-to-choose" class="hash-link" aria-label="How to Choose的直接链接" title="How to Choose的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#how-to-choose" class="hash-link" aria-label="Direct link to How to Choose" title="Direct link to How to Choose">​</a></h2>
 <p>If you are a curious open-source enthusiast who does not need highly customized UI for product development, and there are no complex data processing requirements, Shadcn UI is recommended. It is more lightweight, simpler to configure, but less powerful. However, it is sufficient for internal tool scenarios.</p>
 <p>If you need a component library for developing large and complex projects, require intricate charts, high-performance data components, and are willing to invest in a fee without looking for additional solutions, you can choose MUI. Its powerful capabilities make it an excellent choice for developing medium to large projects.</p>]]></content>
         <author>
@@ -443,12 +443,12 @@
         <title type="html"><![CDATA[Best Open-Source Low-Code Platforms in 2024]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024"/>
-        <updated>2024-01-02T10:34:42.000Z</updated>
+        <updated>2024-01-02T11:12:41.000Z</updated>
         <summary type="html"><![CDATA[2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-low-code-tools">Why Choose Low-Code Tools?<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-low-code-tools" class="hash-link" aria-label="Why Choose Low-Code Tools?的直接链接" title="Why Choose Low-Code Tools?的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-low-code-tools">Why Choose Low-Code Tools?<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-low-code-tools" class="hash-link" aria-label="Direct link to Why Choose Low-Code Tools?" title="Direct link to Why Choose Low-Code Tools?">​</a></h2>
 <p>The emergence of low-code tools primarily addresses the issue of low development efficiency. These tools assist developers in rapidly constructing complete projects without starting from scratch, significantly boosting development efficiency. Development using low-code tools requires no coding; instead, developers can drag and drop components to build pages. This allows developers to focus more on implementing business logic without concerning themselves with page construction. Moreover, there is no need for any maintenance work; deploying the code to a server is sufficient, allowing developers to concentrate on business logic implementation.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-open-source">Why Choose Open Source?<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-open-source" class="hash-link" aria-label="Why Choose Open Source?的直接链接" title="Why Choose Open Source?的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-open-source">Why Choose Open Source?<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-open-source" class="hash-link" aria-label="Direct link to Why Choose Open Source?" title="Direct link to Why Choose Open Source?">​</a></h2>
 <p>As a development tool, open-source low-code tools offer several advantages:</p>
 <ul>
 <li>Editable for customization</li>
@@ -457,7 +457,7 @@
 <li>Abundant community template resources</li>
 </ul>
 <p>Choosing an open-source low-code tool can make our work twice as efficient. Open-source low-code tools are not just tools but ecosystems. We believe open source can make software more powerful, flexible, and reliable.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#illa-cloud" class="hash-link" aria-label="ILLA Cloud的直接链接" title="ILLA Cloud的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#illa-cloud" class="hash-link" aria-label="Direct link to ILLA Cloud" title="Direct link to ILLA Cloud">​</a></h2>
 <p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is a ready-to-use low-code tool enabling the swift construction of internal tools using simple JavaScript, without the need for new projects.</p>
 <ul>
 <li>Web &amp; App Admin Panel</li>
@@ -475,7 +475,7 @@
 <li><a href="https://illacloud.com/solutions-cms" target="_blank" rel="noopener noreferrer">CMS</a></li>
 <li><a href="https://www.illacloud.com/solutions-admin-panel" target="_blank" rel="noopener noreferrer">Admin Panel</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith">Appsmith<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#appsmith" class="hash-link" aria-label="Appsmith的直接链接" title="Appsmith的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith">Appsmith<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#appsmith" class="hash-link" aria-label="Direct link to Appsmith" title="Direct link to Appsmith">​</a></h2>
 <p>Appsmith is an open-source low-code tool with the motto "Build the tools you can’t buy off the shelf." It is a developer-friendly tool driven by JS and supports quick UI panel construction through drag-and-drop.</p>
 <p>Just a few steps are needed to build a complete project:</p>
 <ul>
@@ -484,7 +484,7 @@
 <li>Customize and control with code</li>
 </ul>
 <p>Appsmith's development team hails from India, making it a promising project.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet">Tooljet<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#tooljet" class="hash-link" aria-label="Tooljet的直接链接" title="Tooljet的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet">Tooljet<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#tooljet" class="hash-link" aria-label="Direct link to Tooljet" title="Direct link to Tooljet">​</a></h2>
 <p>The Tooljet team, also from India, focuses on being a rapid internal tool development platform. Tooljet has the following features:</p>
 <ul>
 <li>Lightning Fast Development</li>
@@ -492,7 +492,7 @@
 <li>Boost Productivity</li>
 </ul>
 <p>Tooljet's product has significant potential and is worth keeping an eye on. With continuous accumulation over time, their product strength is sure to grow.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="budibase">Budibase<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#budibase" class="hash-link" aria-label="Budibase的直接链接" title="Budibase的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="budibase">Budibase<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#budibase" class="hash-link" aria-label="Direct link to Budibase" title="Direct link to Budibase">​</a></h2>
 <p>Budibase's team is from Europe, aiming to "Save 100s of hours building apps that make workflow." Budibase's features include:</p>
 <ul>
 <li>One platform. Many solutions.</li>
@@ -500,7 +500,7 @@
 <li>Scale with confidence</li>
 </ul>
 <p>With continuous accumulation over time, Budibase's product strength is bound to increase.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#conclusion" class="hash-link" aria-label="Conclusion的直接链接" title="Conclusion的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>These are the most promising open-source low-code tools in 2024, each with its own characteristics. Different scenarios call for different problem-solving approaches, and we hope readers can choose the most efficient solutions for development in suitable situations. Speed up your work, go home early using low-code tools.</p>]]></content>
         <author>
             <name>Owen Chen</name>
