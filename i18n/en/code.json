@@ -155,56 +155,113 @@
   "nav.signup": {
     "message": "Get started for free"
   },
+  "blog.scroll_down": {
+    "message": "Build AI Driven Business Apps with ILLA Cloud"
+  },
+  "blog.blog_desc_left_title": {
+    "message": "Struggling with internal tools?"
+  },
+  "blog.blog_desc_left_desc": {
+    "message": "Start building CRUD apps, Dashboards, Admin panels, Sales CRM, AI image generator, etc with ILLA Cloud in minutes!"
+  },
   "blog.meta.title": {
     "message": "ILLA Blogs"
   },
   "blog.meta.description": {
     "message": "A stellar repository of knowledge for developers, encompassing a wide spectrum of subjects such as frontend and backend development, AI, low-code, and ILLA Cloud, etc. Here, you can immerse yourself in cutting-edge technologies, delve into emerging trends, and engage in a vibrant exchange of experiences."
   },
-  "meta.title": {
-    "message": "ILLA Cloud | Build AI Driven Business App"
+  "pricing.title": {
+    "message": "Pricing"
   },
-  "meta.description": {
-    "message": "Empower your team with AI Agent and advanced low-code tools to create business apps"
+  "pricing.meta-desc": {
+    "message": "Start free with all the features individual developers or small teams need to build internal applications."
   },
-  "faq.title": {
+  "pricing.billing.pricing.premium.feature.builder.viewer": {
+    "message": "FREE for unlimited viewers"
+  },
+  "pricing.billing.pricing.premium.feature.builder.audit_log": {
+    "message": "Audit logs"
+  },
+  "pricing.billing.pricing.premium.feature.builder.public": {
+    "message": "App public"
+  },
+  "pricing.billing.pricing.premium.feature.builder.sql": {
+    "message": "AI SQL Generation"
+  },
+  "pricing.billing.pricing.premium.feature.builder.history": {
+    "message": "Backup editing history & restore"
+  },
+  "pricing.billing.pricing.premium.feature.builder.theme": {
+    "message": "Custom themes for your apps ( coming soon )"
+  },
+  "pricing.billing.pricing.premium.feature.builder.multi_environment": {
+    "message": "Multi-environment ( coming soon )"
+  },
+  "pricing.billing.pricing.premium.feature.builder.deployed_version": {
+    "message": "Keep deployed versions & revert ( coming soon )"
+  },
+  "pricing.billing.pricing.premium.feature.agent.gpt": {
+    "message": "Access to more models such as GPT-4, \nGPT-3.5-turbo-16k"
+  },
+  "pricing.billing.pricing.colla.feature.storage": {
+    "message": "Storage"
+  },
+  "pricing.billing.pricing.colla.feature.traffic": {
+    "message": "Traffic"
+  },
+  "pricing.billing.pricing.colla.feature.token": {
+    "message": "AI Agent"
+  },
+  "pricing.faq.title": {
     "message": "Frequently Asked Questions"
   },
-  "faq.content.0.question": {
-    "message": "What kind of content can I build with ILLA AI?"
+  "pricing.faq.content.0.question": {
+    "message": "Who are the users that are charged for the product?"
   },
-  "faq.content.0.answer": {
-    "message": "You can build any internal application or AI tool you need, and you can also integrate AI with internal applications. For example, a dashboard, an admin panel, file content management, customer management system, text generation tool, image generation tool, email generation tool, and so on."
+  "pricing.faq.content.0.answer": {
+    "message": "Users with editing permissions (editor) are charged for the product."
   },
-  "faq.content.1.question": {
-    "message": "Who can use ILLA Cloud?"
+  "pricing.faq.content.1.question": {
+    "message": "What are the different types of editors?"
   },
-  "faq.content.1.answer": {
-    "message": "Whether you are a product manager, full-stack developer, project manager, data analyst...anyone can use ILLA Cloud to build tools: From designing front-end interfaces with drag-and-drop components to integrating with data sources and generating queries using AI assistance, ILLA provides a streamlined experience that removes unnecessary complexities. You don't need to be a tech expert to create your own applications."
+  "pricing.faq.content.1.answer": {
+    "message": "The different types of editors are owner, admin, and editor."
   },
-  "faq.content.2.question": {
-    "message": "How can I benefit from ILLA Cloud?"
+  "pricing.faq.content.2.question": {
+    "message": "Are viewers charged for using the product?"
   },
-  "faq.content.2.answer": {
-    "message": "ILLA AI not only reduces the cost of building your tools but also integrates any AI capabilities you desire, making your work more efficient and enabling you to generate more valuable content in less time."
+  "pricing.faq.content.2.answer": {
+    "message": "No, viewers are not charged for using the product."
   },
-  "faq.content.3.question": {
-    "message": "Can I customize the AI Agent for my specific business needs?"
+  "pricing.faq.content.3.question": {
+    "message": "How to invite a viewer?"
   },
-  "faq.content.3.answer": {
-    "message": "Yes, you can! AI Agent is based on a large language model and can be customized to perform specific tasks. You can define the behavior of the AI Agent based on your business requirements. By using ILLA Builder, you can feed data into the AI Agent and train it to accomplish designated tasks such as text processing, image recognition, and natural language processing."
+  "pricing.faq.content.3.answer": {
+    "message": "To invite a viewer, you need to upgrade the team to any of the Plus, Premium, or Enterprise plans and invite the user via email or link."
   },
-  "faq.content.4.question": {
-    "message": "What data sources does ILLA support?"
+  "pricing.faq.content.4.question": {
+    "message": "What services does ILLA Cloud provide?"
   },
-  "faq.content.4.answer": {
-    "message": "ILLA supports integration with a variety of data sources, including PostgreSQL, MongoDB, REST API, GraphQL, Google Sheets, and more. You can swiftly connect to any data source without writing code, enabling seamless access to your desired data."
+  "pricing.faq.content.4.answer": {
+    "message": "ILLA Builder, ILLA Drive and AI Agent."
   },
-  "faq.content.5.question": {
-    "message": "Is there any technical support available for ILLA Cloud users?"
+  "pricing.faq.content.5.question": {
+    "message": "What is ILLA Drive?"
   },
-  "faq.content.5.answer": {
-    "message": "Yes, ILLA Cloud offers technical support to its users. If you encounter any issues or have questions about the platform's features, you can reach out to our support team for assistance. We are dedicated to helping you have a seamless experience with ILLA Cloud."
+  "pricing.faq.content.5.answer": {
+    "message": "ILLA Drive is a CDN (Content Delivery Network) that allows storing any files and distributing them to users through the company's websites or other products. Usage of storage and traffic is billed separately."
+  },
+  "pricing.faq.content.6.question": {
+    "message": "What is AI Agent?"
+  },
+  "pricing.faq.content.6.answer": {
+    "message": "We provide an open-source AI Agent community with thousands of AI Agents provided by prompt experts and enthusiasts. Everyone can run or modify these AI Agents."
+  },
+  "pricing.faq.content.7.question": {
+    "message": "How is billing done for AI Agent usage?"
+  },
+  "pricing.faq.content.7.answer": {
+    "message": "Billing for AI Agent usage is based on Colla, which is a billing concept within ILLA. Colla measures the resources consumed during the runtime of AI Agents."
   },
   "landingPage.components.meta.title": {
     "message": "ILLA Cloud Components"
@@ -380,107 +437,50 @@
   "landingPage.integrations.classify.api.airtable.description": {
     "message": "A flexible and collaborative platform for managing projects, data, and teams seamlessly."
   },
-  "blog.scroll_down": {
-    "message": "Build AI Driven Business Apps with ILLA Cloud"
+  "meta.title": {
+    "message": "ILLA Cloud | Build AI Driven Business App"
   },
-  "blog.blog_desc_left_title": {
-    "message": "Struggling with internal tools?"
+  "meta.description": {
+    "message": "Empower your team with AI Agent and advanced low-code tools to create business apps"
   },
-  "blog.blog_desc_left_desc": {
-    "message": "Start building CRUD apps, Dashboards, Admin panels, Sales CRM, AI image generator, etc with ILLA Cloud in minutes!"
-  },
-  "pricing.title": {
-    "message": "Pricing"
-  },
-  "pricing.meta-desc": {
-    "message": "Start free with all the features individual developers or small teams need to build internal applications."
-  },
-  "pricing.billing.pricing.premium.feature.builder.viewer": {
-    "message": "FREE for unlimited viewers"
-  },
-  "pricing.billing.pricing.premium.feature.builder.audit_log": {
-    "message": "Audit logs"
-  },
-  "pricing.billing.pricing.premium.feature.builder.public": {
-    "message": "App public"
-  },
-  "pricing.billing.pricing.premium.feature.builder.sql": {
-    "message": "AI SQL Generation"
-  },
-  "pricing.billing.pricing.premium.feature.builder.history": {
-    "message": "Backup editing history & restore"
-  },
-  "pricing.billing.pricing.premium.feature.builder.theme": {
-    "message": "Custom themes for your apps ( coming soon )"
-  },
-  "pricing.billing.pricing.premium.feature.builder.multi_environment": {
-    "message": "Multi-environment ( coming soon )"
-  },
-  "pricing.billing.pricing.premium.feature.builder.deployed_version": {
-    "message": "Keep deployed versions & revert ( coming soon )"
-  },
-  "pricing.billing.pricing.premium.feature.agent.gpt": {
-    "message": "Access to more models such as GPT-4, \nGPT-3.5-turbo-16k"
-  },
-  "pricing.billing.pricing.colla.feature.storage": {
-    "message": "Storage"
-  },
-  "pricing.billing.pricing.colla.feature.traffic": {
-    "message": "Traffic"
-  },
-  "pricing.billing.pricing.colla.feature.token": {
-    "message": "AI Agent"
-  },
-  "pricing.faq.title": {
+  "faq.title": {
     "message": "Frequently Asked Questions"
   },
-  "pricing.faq.content.0.question": {
-    "message": "Who are the users that are charged for the product?"
+  "faq.content.0.question": {
+    "message": "What kind of content can I build with ILLA AI?"
   },
-  "pricing.faq.content.0.answer": {
-    "message": "Users with editing permissions (editor) are charged for the product."
+  "faq.content.0.answer": {
+    "message": "You can build any internal application or AI tool you need, and you can also integrate AI with internal applications. For example, a dashboard, an admin panel, file content management, customer management system, text generation tool, image generation tool, email generation tool, and so on."
   },
-  "pricing.faq.content.1.question": {
-    "message": "What are the different types of editors?"
+  "faq.content.1.question": {
+    "message": "Who can use ILLA Cloud?"
   },
-  "pricing.faq.content.1.answer": {
-    "message": "The different types of editors are owner, admin, and editor."
+  "faq.content.1.answer": {
+    "message": "Whether you are a product manager, full-stack developer, project manager, data analyst...anyone can use ILLA Cloud to build tools: From designing front-end interfaces with drag-and-drop components to integrating with data sources and generating queries using AI assistance, ILLA provides a streamlined experience that removes unnecessary complexities. You don't need to be a tech expert to create your own applications."
   },
-  "pricing.faq.content.2.question": {
-    "message": "Are viewers charged for using the product?"
+  "faq.content.2.question": {
+    "message": "How can I benefit from ILLA Cloud?"
   },
-  "pricing.faq.content.2.answer": {
-    "message": "No, viewers are not charged for using the product."
+  "faq.content.2.answer": {
+    "message": "ILLA AI not only reduces the cost of building your tools but also integrates any AI capabilities you desire, making your work more efficient and enabling you to generate more valuable content in less time."
   },
-  "pricing.faq.content.3.question": {
-    "message": "How to invite a viewer?"
+  "faq.content.3.question": {
+    "message": "Can I customize the AI Agent for my specific business needs?"
   },
-  "pricing.faq.content.3.answer": {
-    "message": "To invite a viewer, you need to upgrade the team to any of the Plus, Premium, or Enterprise plans and invite the user via email or link."
+  "faq.content.3.answer": {
+    "message": "Yes, you can! AI Agent is based on a large language model and can be customized to perform specific tasks. You can define the behavior of the AI Agent based on your business requirements. By using ILLA Builder, you can feed data into the AI Agent and train it to accomplish designated tasks such as text processing, image recognition, and natural language processing."
   },
-  "pricing.faq.content.4.question": {
-    "message": "What services does ILLA Cloud provide?"
+  "faq.content.4.question": {
+    "message": "What data sources does ILLA support?"
   },
-  "pricing.faq.content.4.answer": {
-    "message": "ILLA Builder, ILLA Drive and AI Agent."
+  "faq.content.4.answer": {
+    "message": "ILLA supports integration with a variety of data sources, including PostgreSQL, MongoDB, REST API, GraphQL, Google Sheets, and more. You can swiftly connect to any data source without writing code, enabling seamless access to your desired data."
   },
-  "pricing.faq.content.5.question": {
-    "message": "What is ILLA Drive?"
+  "faq.content.5.question": {
+    "message": "Is there any technical support available for ILLA Cloud users?"
   },
-  "pricing.faq.content.5.answer": {
-    "message": "ILLA Drive is a CDN (Content Delivery Network) that allows storing any files and distributing them to users through the company's websites or other products. Usage of storage and traffic is billed separately."
-  },
-  "pricing.faq.content.6.question": {
-    "message": "What is AI Agent?"
-  },
-  "pricing.faq.content.6.answer": {
-    "message": "We provide an open-source AI Agent community with thousands of AI Agents provided by prompt experts and enthusiasts. Everyone can run or modify these AI Agents."
-  },
-  "pricing.faq.content.7.question": {
-    "message": "How is billing done for AI Agent usage?"
-  },
-  "pricing.faq.content.7.answer": {
-    "message": "Billing for AI Agent usage is based on Colla, which is a billing concept within ILLA. Colla measures the resources consumed during the runtime of AI Agents."
+  "faq.content.5.answer": {
+    "message": "Yes, ILLA Cloud offers technical support to its users. If you encounter any issues or have questions about the platform's features, you can reach out to our support team for assistance. We are dedicated to helping you have a seamless experience with ILLA Cloud."
   },
   "pricing.sub-title": {
     "message": "Build AI Driven Business App"
@@ -533,6 +533,13 @@
   "website_4.solution.use_this_template": {
     "message": "Try demo now!"
   },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "learn_more": {
+    "message": "Learn more"
+  },
   "call-to-action.title": {
     "message": "Start Building Apps with ILLA Cloud"
   },
@@ -545,395 +552,14 @@
   "call-to-action.button-2": {
     "message": "sign in with GitHub"
   },
-  "landingPageDetail.airtable.name": {
-    "message": "Airtable"
+  "title.github": {
+    "message": "Github"
   },
-  "landingPageDetail.airtable.title": {
-    "message": "Connect to Airtable with ILLA Cloud and build internal tools in just a few clicks."
+  "title.stars": {
+    "message": "Stars"
   },
-  "landingPageDetail.airtable.description": {
-    "message": "\"With ILLA Cloud's Airtable integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows. The integration simplifies data management by leveraging Airtable's API endpoints, allowing you to easily manipulate data from your Airtable databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks. For example, you can retrieve data from an Airtable database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Airtable integration, you can streamline your data management process and leverage the powerful capabilities of Airtable to enhance your productivity.\""
-  },
-  "landingPageDetail.airtable.metaTitle": {
-    "message": "Airtable"
-  },
-  "landingPageDetail.airtable.metaDescription": {
-    "message": "A flexible and collaborative platform for managing projects, data, and teams seamlessly."
-  },
-  "landingPageDetail.appwrite.name": {
-    "message": "Appwrite"
-  },
-  "landingPageDetail.appwrite.title": {
-    "message": "Connect to Appwrite with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.appwrite.description": {
-    "message": "With ILLA Cloud's Appwrite integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Appwrite's API endpoints, allowing you to easily manipulate data from your Appwrite databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an Appwrite database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Appwrite integration, you can streamline your data management process and leverage the powerful capabilities of Appwrite to enhance your productivity."
-  },
-  "landingPageDetail.appwrite.metaTitle": {
-    "message": "ILLA Cloud Appwrite Integration - Connect and Manage Your Appwrite Data"
-  },
-  "landingPageDetail.appwrite.metaDescription": {
-    "message": "Learn how to use Appwrite integration to create applications that leverage the power of Appwrite with ILLA Cloud."
-  },
-  "landingPageDetail.clickhouse.name": {
-    "message": "Clickhouse"
-  },
-  "landingPageDetail.clickhouse.title": {
-    "message": "Connect to Clickhouse with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.clickhouse.description": {
-    "message": "With ILLA Cloud's ClickHouse integration, you can quickly configure and connect to your ClickHouse database to optimize your data management and streamline your workflows.The integration simplifies data management using ClickHouse queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a ClickHouse table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's ClickHouse integration, you can streamline your data management process and leverage the powerful capabilities of ClickHouse to enhance your productivity."
-  },
-  "landingPageDetail.clickhouse.metaTitle": {
-    "message": "ILLA Cloud | ClickHouse Integration"
-  },
-  "landingPageDetail.clickhouse.metaDescription": {
-    "message": "Learn how to connect and interact with any ClickHouse database using ILLA Cloud, the open-source low-code platform for building internal tools."
-  },
-  "landingPageDetail.couchdb.name": {
-    "message": "CouchDB"
-  },
-  "landingPageDetail.couchdb.title": {
-    "message": "Connect to CouchDB with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.couchdb.description": {
-    "message": "With ILLA Cloud's CouchDB integration, you can quickly configure and connect to your CouchDB database to optimize your data management and streamline your workflows.The integration simplifies data management using CouchDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a CouchDB database and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's CouchDB integration, you can streamline your data management process and leverage the powerful capabilities of CouchDB to enhance your productivity."
-  },
-  "landingPageDetail.couchdb.metaTitle": {
-    "message": "ILLA Cloud | CouchDB Integration"
-  },
-  "landingPageDetail.couchdb.metaDescription": {
-    "message": "Learn how to connect your CouchDB database to ILLA Cloud, a low-code platform for building internal tools."
-  },
-  "landingPageDetail.dynamodb.name": {
-    "message": "Amazon DynamoDB"
-  },
-  "landingPageDetail.dynamodb.title": {
-    "message": "Connect to Amazon DynamoDB with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.dynamodb.description": {
-    "message": "With ILLA Cloud's Amazon DynamoDB integration, you can quickly configure and connect to your DynamoDB database to optimize your data management and streamline your workflows.The integration simplifies data management using DynamoDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a DynamoDB table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Amazon DynamoDB integration, you can streamline your data management process and leverage the powerful capabilities of DynamoDB to enhance your productivity."
-  },
-  "landingPageDetail.dynamodb.metaTitle": {
-    "message": "ILLA Cloud | Amazon DynamoDB Integration"
-  },
-  "landingPageDetail.dynamodb.metaDescription": {
-    "message": "Learn how to connect your Amazon DynamoDB database to ILLA Cloud, a low-code platform for building internal tools. "
-  },
-  "landingPageDetail.elasticsearch.name": {
-    "message": "Elastic Search"
-  },
-  "landingPageDetail.elasticsearch.title": {
-    "message": "Connect to Elastic Search with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.elasticsearch.description": {
-    "message": "With ILLA Cloud's Elastic Search integration, you can quickly configure and connect to your Elastic Search cluster to optimize your data management and enhance your workflows.The integration simplifies data management using Elastic Search queries, allowing you to search and retrieve data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from an Elastic Search index and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Elastic Search integration, you can streamline your data management process and leverage the powerful capabilities of Elastic Search to enhance your productivity."
-  },
-  "landingPageDetail.elasticsearch.metaTitle": {
-    "message": "ILLA Cloud | Elastic Search Integration"
-  },
-  "landingPageDetail.elasticsearch.metaDescription": {
-    "message": "Learn how to connect and interact with your Elastic Search database using ILLA Cloud, the open-source low-code platform for building internal tools. "
-  },
-  "landingPageDetail.firebase.name": {
-    "message": "Firebase"
-  },
-  "landingPageDetail.firebase.title": {
-    "message": "Connect to Firebase with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.firebase.description": {
-    "message": "With ILLA Cloud's Firebase integration, you can quickly configure and connect to your Firebase database to optimize your data management and streamline your workflows.The integration simplifies data management using Firebase queries and API calls, allowing you to easily manipulate data and perform complex operations. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a Firebase collection and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Firebase integration, you can streamline your data management process and leverage the powerful capabilities of Firebase to enhance your productivity."
-  },
-  "landingPageDetail.firebase.metaTitle": {
-    "message": "ILLA Cloud | Firebase Integration"
-  },
-  "landingPageDetail.firebase.metaDescription": {
-    "message": "Learn how to connect your Firebase database to ILLA Cloud, a low-code platform for building internal tools. "
-  },
-  "landingPageDetail.googlesheets.name": {
-    "message": "Google Sheets"
-  },
-  "landingPageDetail.googlesheets.title": {
-    "message": "Connect to Google Sheets with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.googlesheets.description": {
-    "message": "With ILLA Cloud's Google Sheets integration, you can quickly and easily connect to your Google Sheets spreadsheets to optimize your data management and streamline your workflows.The integration simplifies data management by allowing you to read, write and manipulate data from your Google Sheets spreadsheets using Google Sheets API. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from a Google Sheets spreadsheet and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Google Sheets integration, you can streamline your data management process and leverage the powerful capabilities of Google Sheets to enhance your productivity."
-  },
-  "landingPageDetail.googlesheets.metaTitle": {
-    "message": "ILLA Cloud Google Sheets Integration - Connect and Manage Your Google Sheets Data"
-  },
-  "landingPageDetail.googlesheets.metaDescription": {
-    "message": "Learn how to use Google sheet integration to create dashboards, reports, forms, and more with ILLA Cloud."
-  },
-  "landingPageDetail.graphql.name": {
-    "message": "GraphQL"
-  },
-  "landingPageDetail.graphql.title": {
-    "message": "Connect to GraphQL with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.graphql.description": {
-    "message": "With ILLA Cloud's GraphQL integration, you can quickly and easily configure and connect to your GraphQL APIs to optimize your data management and streamline your workflows.The integration simplifies data management by allowing you to easily retrieve and manipulate data from your GraphQL APIs. You can safely add or write data by providing input, including necessary GraphQL queries, and incorporating app-based validation checks.For example, you can retrieve data from a GraphQL API and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's GraphQL integration, you can streamline your data management process and leverage the powerful capabilities of GraphQL to enhance your productivity."
-  },
-  "landingPageDetail.graphql.metaTitle": {
-    "message": "ILLA Cloud | GraphQL Integration"
-  },
-  "landingPageDetail.graphql.metaDescription": {
-    "message": "Learn how to connect your GraphQL API to ILLA Cloud, a low-code platform for building internal tools. "
-  },
-  "landingPageDetail.huggingface.name": {
-    "message": "Hugging Face Inference API"
-  },
-  "landingPageDetail.huggingface.title": {
-    "message": "Connect to Hugging Face Inference API with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.huggingface.description": {
-    "message": "With ILLA Cloud's Hugging Face Inference API integration, you can quickly and easily connect to Hugging Face's powerful natural language processing models to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Hugging Face's API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve text data from an external source and pass it through a Hugging Face API call to perform sentiment analysis or language translation. With ILLA Cloud's Hugging Face Inference API integration, you can streamline your data management process and leverage the powerful capabilities of Hugging Face's natural language processing models to enhance your productivity."
-  },
-  "landingPageDetail.huggingface.metaTitle": {
-    "message": "ILLA Cloud Hugging Face Inference API Integration - Connect and Use ML Models"
-  },
-  "landingPageDetail.huggingface.metaDescription": {
-    "message": "The Hugging Face Inference API integration in ILLA Cloud allows users to connect and use over 130,000 machine learning models. "
-  },
-  "landingPageDetail.huggingfaceendpoint.name": {
-    "message": "Hugging Face Inference Endpoint"
-  },
-  "landingPageDetail.huggingfaceendpoint.title": {
-    "message": "Connect to Hugging Face Inference Endpoint with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.huggingfaceendpoint.description": {
-    "message": "With ILLA Cloud's Hugging Face Inference Endpoint integration, you can quickly and easily configure and connect to Hugging Face's powerful natural language processing models to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Hugging Face's API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve text data from an external source and pass it through a Hugging Face inference endpoint to perform sentiment analysis or language translation. With ILLA Cloud's Hugging Face Inference Endpoint integration, you can streamline your data management process and leverage the powerful capabilities of Hugging Face's natural language processing models to enhance your productivity."
-  },
-  "landingPageDetail.huggingfaceendpoint.metaTitle": {
-    "message": "ILLA Cloud | Hugging Face Inference Endpoint Integration"
-  },
-  "landingPageDetail.huggingfaceendpoint.metaDescription": {
-    "message": "Learn how to connect and interact with any Hugging Face Inference Endpoint using ILLA Cloud, the open-source low-code platform for building internal tools. "
-  },
-  "landingPageDetail.hydra.name": {
-    "message": "Hydra"
-  },
-  "landingPageDetail.hydra.title": {
-    "message": "Connect to Hydra with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.hydra.description": {
-    "message": "\"With ILLA Cloud's Hydra integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows.\r\nThe integration simplifies data management by leveraging Hydra's API endpoints, allowing you to easily manipulate data from your Hydra databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.\r\nFor example, you can retrieve data from an Hydra database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Hydra integration, you can streamline your data management process and leverage the powerful capabilities of Hydra to enhance your productivity.\""
-  },
-  "landingPageDetail.hydra.metaTitle": {
-    "message": "Hydra"
-  },
-  "landingPageDetail.hydra.metaDescription": {
-    "message": "An open source, column-oriented RDBMS built on Postgres"
-  },
-  "landingPageDetail.mariadb.name": {
-    "message": "MariaDB"
-  },
-  "landingPageDetail.mariadb.title": {
-    "message": "Connect to MariaDB with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.mariadb.description": {
-    "message": "With ILLA Cloud's MariaDB integration, you can quickly and easily configure and connect to your MariaDB database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL, allowing you to manipulate tables, retrieve data and perform complex queries with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can fetch data for an employee from a MariaDB table and add a button that, when clicked, runs an SQL query to update the employee's information or approve a request. With ILLA Cloud's MariaDB integration, you can maximize the potential of your data source and enhance your productivity with minimal effort."
-  },
-  "landingPageDetail.mariadb.metaTitle": {
-    "message": "ILLA Cloud | MariaDB Integration"
-  },
-  "landingPageDetail.mariadb.metaDescription": {
-    "message": "Learn how to connect and interact with your MariaDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
-  },
-  "landingPageDetail.mongodb.name": {
-    "message": "MongoDB"
-  },
-  "landingPageDetail.mongodb.title": {
-    "message": "Connect to MongoDB with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.mongodb.description": {
-    "message": "With ILLA Cloud's MongoDB integration, you can quickly configure and connect to your MongoDB database to optimize your data management and streamline your workflows.The integration simplifies data management using MongoDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a MongoDB collection and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's MongoDB integration, you can streamline your data management process and leverage the powerful capabilities of MongoDB to enhance your productivity."
-  },
-  "landingPageDetail.mongodb.metaTitle": {
-    "message": "ILLA Cloud | MongoDB Integration"
-  },
-  "landingPageDetail.mongodb.metaDescription": {
-    "message": "Learn how to connect and interact with your MongoDB database using ILLA Cloud, the open-source low-code platform for building internal tools. "
-  },
-  "landingPageDetail.mssql.name": {
-    "message": "Microsoft SQL Server"
-  },
-  "landingPageDetail.mssql.title": {
-    "message": "Connect to Microsoft SQL Server with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.mssql.description": {
-    "message": "With ILLA Cloud's Microsoft SQL Server integration, you can quickly configure and connect to your SQL Server database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a SQL Server table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Microsoft SQL Server integration, you can streamline your data management process and leverage the powerful capabilities of SQL Server to enhance your productivity."
-  },
-  "landingPageDetail.mssql.metaTitle": {
-    "message": "ILLA Cloud | Microsoft SQL Server Integration"
-  },
-  "landingPageDetail.mssql.metaDescription": {
-    "message": "Learn how to connect your Microsoft SQL Server database to ILLA Cloud, a low-code platform for building internal tools. "
-  },
-  "landingPageDetail.mysql.name": {
-    "message": "MySQL"
-  },
-  "landingPageDetail.mysql.title": {
-    "message": "Connect to MySQL with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.mysql.description": {
-    "message": "Integrating ILLA Cloud with MySQL can greatly enhance your workflow and streamline your processes. With just a few simple steps, you can connect ILLA Cloud to your MySQL databases, enabling you to create user interfaces that interact with your data in powerful new ways. Whether you need to read data into a table grid, create dashboards, or add custom actions that run SQL queries to write to your database, ILLA Cloud makes it easy to do so safely and efficiently.By connecting to your MySQL data with ILLA Cloud, you can avoid unintentional deletes and other costly errors. For example, if you're managing employee expenses with a MySQL table, you can use ILLA Cloud to read your data into a dashboard and even add an action that writes back to your database to update the approval status for each expense. And with ILLA Cloud's simple interface, you can define the actions you want to take in a clear and systematic way, making it easy to optimize your workflow and streamline your processes."
-  },
-  "landingPageDetail.mysql.metaTitle": {
-    "message": "ILLA Cloud | MySQL Integration"
-  },
-  "landingPageDetail.mysql.metaDescription": {
-    "message": "Learn how to connect your MySQL database to ILLA Cloud, a low-code platform for building internal tools. "
-  },
-  "landingPageDetail.neon.name": {
-    "message": "Neon"
-  },
-  "landingPageDetail.neon.title": {
-    "message": "Connect to Neon with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.neon.description": {
-    "message": "The fully managed multi-cloud Postgres with a generous free tier. We separated storage and compute to offer autoscaling, branching, and bottomless storage."
-  },
-  "landingPageDetail.neon.metaTitle": {
-    "message": "ILLA Cloud Neon Integration - Connect to the multi-cloud Postgres"
-  },
-  "landingPageDetail.neon.metaDescription": {
-    "message": "Learn how to connect your Neon database to ILLA Cloud, a low-code platform for building internal tools."
-  },
-  "landingPageDetail.oracledb.name": {
-    "message": "Oracle DB"
-  },
-  "landingPageDetail.oracledb.title": {
-    "message": "Connect to Oracle DB with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.oracledb.description": {
-    "message": "With ILLA Cloud's Oracle DB integration, you can quickly configure and connect to your Oracle database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from an Oracle database table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Oracle DB integration, you can streamline your data management process and leverage the powerful capabilities of Oracle DB to enhance your productivity."
-  },
-  "landingPageDetail.oracledb.metaTitle": {
-    "message": "ILLA Cloud | Oracle DB Integration"
-  },
-  "landingPageDetail.oracledb.metaDescription": {
-    "message": "Learn how to use the Oracle DB integration in ILLA Cloud, a low-code platform for building internal tools."
-  },
-  "landingPageDetail.postgresql.name": {
-    "message": "PostgreSQL"
-  },
-  "landingPageDetail.postgresql.title": {
-    "message": "Connect to PostgreSQL with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.postgresql.description": {
-    "message": "With ILLA Cloud's PostgreSQL integration, you can quickly configure and connect to your PostgreSQL database to optimize your data source with reliable performance.The integration simplifies data management with SQL, allowing you to easily manipulate tables and perform complex queries. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For instance, suppose you want to retrieve employee data from a PostgreSQL table and approve a leave request with a single click. In that case, you can create a button that runs an SQL query, marking the employee's request as approved. With ILLA Cloud's PostgreSQL integration, you can streamline your data management process with ease and confidence."
-  },
-  "landingPageDetail.postgresql.metaTitle": {
-    "message": "ILLA Cloud | PostgreSQL Database Integration"
-  },
-  "landingPageDetail.postgresql.metaDescription": {
-    "message": "Learn how to connect and interact with any PostgreSQL database using ILLA Cloud, the open-source low-code platform for building internal tools. "
-  },
-  "landingPageDetail.redis.name": {
-    "message": "Redis"
-  },
-  "landingPageDetail.redis.title": {
-    "message": "Connect to Redis with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.redis.description": {
-    "message": "With ILLA Cloud's Redis integration, you can quickly configure and connect to your Redis database to optimize your data management and enhance your workflows.The integration simplifies data management using Redis commands, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary commands, and incorporating app-based validation checks.For example, you can retrieve data from a Redis database and add a button that, when clicked, performs a Redis command to update the data or approve a request. With ILLA Cloud's Redis integration, you can streamline your data management process and leverage the powerful capabilities of Redis to enhance your productivity."
-  },
-  "landingPageDetail.redis.metaTitle": {
-    "message": "ILLA Cloud Redis Integration - Connect and Manage Your Redis Database"
-  },
-  "landingPageDetail.redis.metaDescription": {
-    "message": "Learn how to use Redis integration to manipulate data using Redis commands, create dashboards, reports, forms, and more with ILLA Cloud."
-  },
-  "landingPageDetail.restapi.name": {
-    "message": "REST API"
-  },
-  "landingPageDetail.restapi.title": {
-    "message": "Connect to Any RESTful API and Build Custom Tools with ILLA Cloud in Minutes"
-  },
-  "landingPageDetail.restapi.description": {
-    "message": "With ILLA Cloud's REST API integration, you can quickly and easily connect to any RESTful API to optimize your data management and streamline your workflows.The integration simplifies data management using RESTful API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an external RESTful API and add a button that, when clicked, performs a call to update the data or approve a request. With ILLA Cloud's REST API integration, you can streamline your data management process and leverage the powerful capabilities of RESTful APIs to enhance your productivity."
-  },
-  "landingPageDetail.restapi.metaTitle": {
-    "message": "ILLA Cloud | REST API Integration"
-  },
-  "landingPageDetail.restapi.metaDescription": {
-    "message": "Learn how to connect and interact with any REST API endpoint using ILLA Cloud, the open-source low-code platform for building internal tools."
-  },
-  "landingPageDetail.s3.name": {
-    "message": "S3"
-  },
-  "landingPageDetail.s3.title": {
-    "message": "Connect to Amazon S3 with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.s3.description": {
-    "message": "With ILLA Cloud's Amazon S3 integration, you can quickly and easily configure and connect to your Amazon S3 storage to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging S3 API endpoints, allowing you to read, write and manipulate data from your S3 buckets with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an S3 bucket and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Amazon S3 integration, you can streamline your data management process and leverage the powerful capabilities of Amazon S3 storage to enhance your productivity."
-  },
-  "landingPageDetail.s3.metaTitle": {
-    "message": "ILLA Cloud | S3 Integration"
-  },
-  "landingPageDetail.s3.metaDescription": {
-    "message": "Learn how to use the S3 component in ILLA Cloud, a low-code platform for building internal tools."
-  },
-  "landingPageDetail.smtp.name": {
-    "message": "SMTP"
-  },
-  "landingPageDetail.smtp.title": {
-    "message": "Connect to SMTP with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.smtp.description": {
-    "message": "With ILLA Cloud's SMTP integration, you can quickly and easily configure and connect to your SMTP server to optimize your email management and streamline your workflows.The integration simplifies email management by allowing you to send and receive emails directly from your ILLA Cloud application. You can safely send emails by providing input, including necessary SMTP parameters, and incorporating app-based validation checks.For example, you can send automated emails to users when a certain event is triggered in your application. With ILLA Cloud's SMTP integration, you can streamline your email management process and leverage the powerful capabilities of SMTP to enhance your productivity."
-  },
-  "landingPageDetail.smtp.metaTitle": {
-    "message": "ILLA Cloud | SMTP Integration"
-  },
-  "landingPageDetail.smtp.metaDescription": {
-    "message": "Learn how to connect and interact with any SMTP server using ILLA Cloud, the open-source low-code platform for building internal tools."
-  },
-  "landingPageDetail.snowflake.name": {
-    "message": "Snowflake"
-  },
-  "landingPageDetail.snowflake.title": {
-    "message": "Connect to Snowflake with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.snowflake.description": {
-    "message": "With ILLA Cloud's Snowflake integration, you can quickly configure and connect to your Snowflake data warehouse to optimize your data management and streamline your workflows.The integration simplifies data management using Snowflake SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a Snowflake table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Snowflake integration, you can streamline your data management process and leverage the powerful capabilities of Snowflake to enhance your productivity."
-  },
-  "landingPageDetail.snowflake.metaTitle": {
-    "message": "ILLA Cloud | Snowflake Integration"
-  },
-  "landingPageDetail.snowflake.metaDescription": {
-    "message": "Learn how to connect and interact with your Snowflake database using ILLA Cloud, the open-source low-code platform for building internal tools."
-  },
-  "landingPageDetail.supabaseDB.name": {
-    "message": "Supabase DB"
-  },
-  "landingPageDetail.supabaseDB.title": {
-    "message": "Connect to SupabaseDB with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.supabaseDB.description": {
-    "message": "With ILLA Cloud's SupabaseDB integration, you can quickly configure and connect to your SupabaseDB database to optimize your data management and streamline your workflows.The integration simplifies data management using SupabaseDB queries and API calls, allowing you to easily manipulate data and perform complex operations. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a SupabaseDB table and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's SupabaseDB integration, you can streamline your data management process and leverage the powerful capabilities of SupabaseDB to enhance your productivity."
-  },
-  "landingPageDetail.supabaseDB.metaTitle": {
-    "message": "ILLA Cloud | Supabase DB Integration"
-  },
-  "landingPageDetail.supabaseDB.metaDescription": {
-    "message": "Learn how to connect and interact with any Supabase DB using ILLA Cloud, the open-source low-code platform for building internal tools."
-  },
-  "landingPageDetail.tiDB.name": {
-    "message": "TiDB"
-  },
-  "landingPageDetail.tiDB.title": {
-    "message": "Connect to TiDB with ILLA Cloud and build internal tools in just a few clicks."
-  },
-  "landingPageDetail.tiDB.description": {
-    "message": "With ILLA Cloud's TiDB integration, you can seamlessly configure and connect to your TiDB database to optimize your data management and enhance your workflows.The integration simplifies data management using SQL, allowing you to manipulate tables, retrieve data and perform complex queries with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For instance, you can retrieve data for an employee from a TiDB table and add a button that runs an SQL query to update the employee's information or approve a request. With ILLA Cloud's TiDB integration, you can streamline your data management process and unlock the full potential of your data source with confidence."
-  },
-  "landingPageDetail.tiDB.metaTitle": {
-    "message": "ILLA Cloud | TiDB Integration"
-  },
-  "landingPageDetail.tiDB.metaDescription": {
-    "message": "Learn how to connect and interact with your TiDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  "title.star-us": {
+    "message": "Star us"
   },
   "landingPageDetail.audio.name": {
     "message": "Audio"
@@ -1490,22 +1116,6 @@
   "landingPageDetail.video.metaDescription": {
     "message": "Learn how to use video component to create training videos, product demos, tutorials, and more with ILLA Cloud."
   },
-  "title.github": {
-    "message": "Github"
-  },
-  "title.stars": {
-    "message": "Stars"
-  },
-  "title.star-us": {
-    "message": "Star us"
-  },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "learn_more": {
-    "message": "Learn more"
-  },
   "pricing.billing.pricing.premium.desc": {
     "message": "Upgrade your team to access advanced features"
   },
@@ -1517,6 +1127,396 @@
   },
   "pricing.billing.pricing.colla.price": {
     "message": "/month/5k Colla"
+  },
+  "landingPageDetail.airtable.name": {
+    "message": "Airtable"
+  },
+  "landingPageDetail.airtable.title": {
+    "message": "Connect to Airtable with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.airtable.description": {
+    "message": "\"With ILLA Cloud's Airtable integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows. The integration simplifies data management by leveraging Airtable's API endpoints, allowing you to easily manipulate data from your Airtable databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks. For example, you can retrieve data from an Airtable database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Airtable integration, you can streamline your data management process and leverage the powerful capabilities of Airtable to enhance your productivity.\""
+  },
+  "landingPageDetail.airtable.metaTitle": {
+    "message": "Airtable"
+  },
+  "landingPageDetail.airtable.metaDescription": {
+    "message": "A flexible and collaborative platform for managing projects, data, and teams seamlessly."
+  },
+  "landingPageDetail.appwrite.name": {
+    "message": "Appwrite"
+  },
+  "landingPageDetail.appwrite.title": {
+    "message": "Connect to Appwrite with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.appwrite.description": {
+    "message": "With ILLA Cloud's Appwrite integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Appwrite's API endpoints, allowing you to easily manipulate data from your Appwrite databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an Appwrite database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Appwrite integration, you can streamline your data management process and leverage the powerful capabilities of Appwrite to enhance your productivity."
+  },
+  "landingPageDetail.appwrite.metaTitle": {
+    "message": "ILLA Cloud Appwrite Integration - Connect and Manage Your Appwrite Data"
+  },
+  "landingPageDetail.appwrite.metaDescription": {
+    "message": "Learn how to use Appwrite integration to create applications that leverage the power of Appwrite with ILLA Cloud."
+  },
+  "landingPageDetail.clickhouse.name": {
+    "message": "Clickhouse"
+  },
+  "landingPageDetail.clickhouse.title": {
+    "message": "Connect to Clickhouse with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.clickhouse.description": {
+    "message": "With ILLA Cloud's ClickHouse integration, you can quickly configure and connect to your ClickHouse database to optimize your data management and streamline your workflows.The integration simplifies data management using ClickHouse queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a ClickHouse table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's ClickHouse integration, you can streamline your data management process and leverage the powerful capabilities of ClickHouse to enhance your productivity."
+  },
+  "landingPageDetail.clickhouse.metaTitle": {
+    "message": "ILLA Cloud | ClickHouse Integration"
+  },
+  "landingPageDetail.clickhouse.metaDescription": {
+    "message": "Learn how to connect and interact with any ClickHouse database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.couchdb.name": {
+    "message": "CouchDB"
+  },
+  "landingPageDetail.couchdb.title": {
+    "message": "Connect to CouchDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.couchdb.description": {
+    "message": "With ILLA Cloud's CouchDB integration, you can quickly configure and connect to your CouchDB database to optimize your data management and streamline your workflows.The integration simplifies data management using CouchDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a CouchDB database and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's CouchDB integration, you can streamline your data management process and leverage the powerful capabilities of CouchDB to enhance your productivity."
+  },
+  "landingPageDetail.couchdb.metaTitle": {
+    "message": "ILLA Cloud | CouchDB Integration"
+  },
+  "landingPageDetail.couchdb.metaDescription": {
+    "message": "Learn how to connect your CouchDB database to ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.dynamodb.name": {
+    "message": "Amazon DynamoDB"
+  },
+  "landingPageDetail.dynamodb.title": {
+    "message": "Connect to Amazon DynamoDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.dynamodb.description": {
+    "message": "With ILLA Cloud's Amazon DynamoDB integration, you can quickly configure and connect to your DynamoDB database to optimize your data management and streamline your workflows.The integration simplifies data management using DynamoDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a DynamoDB table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Amazon DynamoDB integration, you can streamline your data management process and leverage the powerful capabilities of DynamoDB to enhance your productivity."
+  },
+  "landingPageDetail.dynamodb.metaTitle": {
+    "message": "ILLA Cloud | Amazon DynamoDB Integration"
+  },
+  "landingPageDetail.dynamodb.metaDescription": {
+    "message": "Learn how to connect your Amazon DynamoDB database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.elasticsearch.name": {
+    "message": "Elastic Search"
+  },
+  "landingPageDetail.elasticsearch.title": {
+    "message": "Connect to Elastic Search with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.elasticsearch.description": {
+    "message": "With ILLA Cloud's Elastic Search integration, you can quickly configure and connect to your Elastic Search cluster to optimize your data management and enhance your workflows.The integration simplifies data management using Elastic Search queries, allowing you to search and retrieve data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from an Elastic Search index and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Elastic Search integration, you can streamline your data management process and leverage the powerful capabilities of Elastic Search to enhance your productivity."
+  },
+  "landingPageDetail.elasticsearch.metaTitle": {
+    "message": "ILLA Cloud | Elastic Search Integration"
+  },
+  "landingPageDetail.elasticsearch.metaDescription": {
+    "message": "Learn how to connect and interact with your Elastic Search database using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.firebase.name": {
+    "message": "Firebase"
+  },
+  "landingPageDetail.firebase.title": {
+    "message": "Connect to Firebase with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.firebase.description": {
+    "message": "With ILLA Cloud's Firebase integration, you can quickly configure and connect to your Firebase database to optimize your data management and streamline your workflows.The integration simplifies data management using Firebase queries and API calls, allowing you to easily manipulate data and perform complex operations. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a Firebase collection and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Firebase integration, you can streamline your data management process and leverage the powerful capabilities of Firebase to enhance your productivity."
+  },
+  "landingPageDetail.firebase.metaTitle": {
+    "message": "ILLA Cloud | Firebase Integration"
+  },
+  "landingPageDetail.firebase.metaDescription": {
+    "message": "Learn how to connect your Firebase database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.googlesheets.name": {
+    "message": "Google Sheets"
+  },
+  "landingPageDetail.googlesheets.title": {
+    "message": "Connect to Google Sheets with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.googlesheets.description": {
+    "message": "With ILLA Cloud's Google Sheets integration, you can quickly and easily connect to your Google Sheets spreadsheets to optimize your data management and streamline your workflows.The integration simplifies data management by allowing you to read, write and manipulate data from your Google Sheets spreadsheets using Google Sheets API. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from a Google Sheets spreadsheet and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Google Sheets integration, you can streamline your data management process and leverage the powerful capabilities of Google Sheets to enhance your productivity."
+  },
+  "landingPageDetail.googlesheets.metaTitle": {
+    "message": "ILLA Cloud Google Sheets Integration - Connect and Manage Your Google Sheets Data"
+  },
+  "landingPageDetail.googlesheets.metaDescription": {
+    "message": "Learn how to use Google sheet integration to create dashboards, reports, forms, and more with ILLA Cloud."
+  },
+  "landingPageDetail.graphql.name": {
+    "message": "GraphQL"
+  },
+  "landingPageDetail.graphql.title": {
+    "message": "Connect to GraphQL with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.graphql.description": {
+    "message": "With ILLA Cloud's GraphQL integration, you can quickly and easily configure and connect to your GraphQL APIs to optimize your data management and streamline your workflows.The integration simplifies data management by allowing you to easily retrieve and manipulate data from your GraphQL APIs. You can safely add or write data by providing input, including necessary GraphQL queries, and incorporating app-based validation checks.For example, you can retrieve data from a GraphQL API and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's GraphQL integration, you can streamline your data management process and leverage the powerful capabilities of GraphQL to enhance your productivity."
+  },
+  "landingPageDetail.graphql.metaTitle": {
+    "message": "ILLA Cloud | GraphQL Integration"
+  },
+  "landingPageDetail.graphql.metaDescription": {
+    "message": "Learn how to connect your GraphQL API to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.huggingface.name": {
+    "message": "Hugging Face Inference API"
+  },
+  "landingPageDetail.huggingface.title": {
+    "message": "Connect to Hugging Face Inference API with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.huggingface.description": {
+    "message": "With ILLA Cloud's Hugging Face Inference API integration, you can quickly and easily connect to Hugging Face's powerful natural language processing models to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Hugging Face's API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve text data from an external source and pass it through a Hugging Face API call to perform sentiment analysis or language translation. With ILLA Cloud's Hugging Face Inference API integration, you can streamline your data management process and leverage the powerful capabilities of Hugging Face's natural language processing models to enhance your productivity."
+  },
+  "landingPageDetail.huggingface.metaTitle": {
+    "message": "ILLA Cloud Hugging Face Inference API Integration - Connect and Use ML Models"
+  },
+  "landingPageDetail.huggingface.metaDescription": {
+    "message": "The Hugging Face Inference API integration in ILLA Cloud allows users to connect and use over 130,000 machine learning models. "
+  },
+  "landingPageDetail.huggingfaceendpoint.name": {
+    "message": "Hugging Face Inference Endpoint"
+  },
+  "landingPageDetail.huggingfaceendpoint.title": {
+    "message": "Connect to Hugging Face Inference Endpoint with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.huggingfaceendpoint.description": {
+    "message": "With ILLA Cloud's Hugging Face Inference Endpoint integration, you can quickly and easily configure and connect to Hugging Face's powerful natural language processing models to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging Hugging Face's API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve text data from an external source and pass it through a Hugging Face inference endpoint to perform sentiment analysis or language translation. With ILLA Cloud's Hugging Face Inference Endpoint integration, you can streamline your data management process and leverage the powerful capabilities of Hugging Face's natural language processing models to enhance your productivity."
+  },
+  "landingPageDetail.huggingfaceendpoint.metaTitle": {
+    "message": "ILLA Cloud | Hugging Face Inference Endpoint Integration"
+  },
+  "landingPageDetail.huggingfaceendpoint.metaDescription": {
+    "message": "Learn how to connect and interact with any Hugging Face Inference Endpoint using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.hydra.name": {
+    "message": "Hydra"
+  },
+  "landingPageDetail.hydra.title": {
+    "message": "Connect to Hydra with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.hydra.description": {
+    "message": "\"With ILLA Cloud's Hydra integration, you can quickly and easily connect to the open-source backend server platform to optimize your data management and streamline your workflows.\r\nThe integration simplifies data management by leveraging Hydra's API endpoints, allowing you to easily manipulate data from your Hydra databases, storage and authentication services. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.\r\nFor example, you can retrieve data from an Hydra database and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Hydra integration, you can streamline your data management process and leverage the powerful capabilities of Hydra to enhance your productivity.\""
+  },
+  "landingPageDetail.hydra.metaTitle": {
+    "message": "Hydra"
+  },
+  "landingPageDetail.hydra.metaDescription": {
+    "message": "An open source, column-oriented RDBMS built on Postgres"
+  },
+  "landingPageDetail.mariadb.name": {
+    "message": "MariaDB"
+  },
+  "landingPageDetail.mariadb.title": {
+    "message": "Connect to MariaDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mariadb.description": {
+    "message": "With ILLA Cloud's MariaDB integration, you can quickly and easily configure and connect to your MariaDB database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL, allowing you to manipulate tables, retrieve data and perform complex queries with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can fetch data for an employee from a MariaDB table and add a button that, when clicked, runs an SQL query to update the employee's information or approve a request. With ILLA Cloud's MariaDB integration, you can maximize the potential of your data source and enhance your productivity with minimal effort."
+  },
+  "landingPageDetail.mariadb.metaTitle": {
+    "message": "ILLA Cloud | MariaDB Integration"
+  },
+  "landingPageDetail.mariadb.metaDescription": {
+    "message": "Learn how to connect and interact with your MariaDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.mongodb.name": {
+    "message": "MongoDB"
+  },
+  "landingPageDetail.mongodb.title": {
+    "message": "Connect to MongoDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mongodb.description": {
+    "message": "With ILLA Cloud's MongoDB integration, you can quickly configure and connect to your MongoDB database to optimize your data management and streamline your workflows.The integration simplifies data management using MongoDB queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a MongoDB collection and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's MongoDB integration, you can streamline your data management process and leverage the powerful capabilities of MongoDB to enhance your productivity."
+  },
+  "landingPageDetail.mongodb.metaTitle": {
+    "message": "ILLA Cloud | MongoDB Integration"
+  },
+  "landingPageDetail.mongodb.metaDescription": {
+    "message": "Learn how to connect and interact with your MongoDB database using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.mssql.name": {
+    "message": "Microsoft SQL Server"
+  },
+  "landingPageDetail.mssql.title": {
+    "message": "Connect to Microsoft SQL Server with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mssql.description": {
+    "message": "With ILLA Cloud's Microsoft SQL Server integration, you can quickly configure and connect to your SQL Server database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a SQL Server table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Microsoft SQL Server integration, you can streamline your data management process and leverage the powerful capabilities of SQL Server to enhance your productivity."
+  },
+  "landingPageDetail.mssql.metaTitle": {
+    "message": "ILLA Cloud | Microsoft SQL Server Integration"
+  },
+  "landingPageDetail.mssql.metaDescription": {
+    "message": "Learn how to connect your Microsoft SQL Server database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.mysql.name": {
+    "message": "MySQL"
+  },
+  "landingPageDetail.mysql.title": {
+    "message": "Connect to MySQL with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.mysql.description": {
+    "message": "Integrating ILLA Cloud with MySQL can greatly enhance your workflow and streamline your processes. With just a few simple steps, you can connect ILLA Cloud to your MySQL databases, enabling you to create user interfaces that interact with your data in powerful new ways. Whether you need to read data into a table grid, create dashboards, or add custom actions that run SQL queries to write to your database, ILLA Cloud makes it easy to do so safely and efficiently.By connecting to your MySQL data with ILLA Cloud, you can avoid unintentional deletes and other costly errors. For example, if you're managing employee expenses with a MySQL table, you can use ILLA Cloud to read your data into a dashboard and even add an action that writes back to your database to update the approval status for each expense. And with ILLA Cloud's simple interface, you can define the actions you want to take in a clear and systematic way, making it easy to optimize your workflow and streamline your processes."
+  },
+  "landingPageDetail.mysql.metaTitle": {
+    "message": "ILLA Cloud | MySQL Integration"
+  },
+  "landingPageDetail.mysql.metaDescription": {
+    "message": "Learn how to connect your MySQL database to ILLA Cloud, a low-code platform for building internal tools. "
+  },
+  "landingPageDetail.neon.name": {
+    "message": "Neon"
+  },
+  "landingPageDetail.neon.title": {
+    "message": "Connect to Neon with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.neon.description": {
+    "message": "The fully managed multi-cloud Postgres with a generous free tier. We separated storage and compute to offer autoscaling, branching, and bottomless storage."
+  },
+  "landingPageDetail.neon.metaTitle": {
+    "message": "ILLA Cloud Neon Integration - Connect to the multi-cloud Postgres"
+  },
+  "landingPageDetail.neon.metaDescription": {
+    "message": "Learn how to connect your Neon database to ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.oracledb.name": {
+    "message": "Oracle DB"
+  },
+  "landingPageDetail.oracledb.title": {
+    "message": "Connect to Oracle DB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.oracledb.description": {
+    "message": "With ILLA Cloud's Oracle DB integration, you can quickly configure and connect to your Oracle database to optimize your data management and streamline your workflows.The integration simplifies data management using SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from an Oracle database table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Oracle DB integration, you can streamline your data management process and leverage the powerful capabilities of Oracle DB to enhance your productivity."
+  },
+  "landingPageDetail.oracledb.metaTitle": {
+    "message": "ILLA Cloud | Oracle DB Integration"
+  },
+  "landingPageDetail.oracledb.metaDescription": {
+    "message": "Learn how to use the Oracle DB integration in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.postgresql.name": {
+    "message": "PostgreSQL"
+  },
+  "landingPageDetail.postgresql.title": {
+    "message": "Connect to PostgreSQL with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.postgresql.description": {
+    "message": "With ILLA Cloud's PostgreSQL integration, you can quickly configure and connect to your PostgreSQL database to optimize your data source with reliable performance.The integration simplifies data management with SQL, allowing you to easily manipulate tables and perform complex queries. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For instance, suppose you want to retrieve employee data from a PostgreSQL table and approve a leave request with a single click. In that case, you can create a button that runs an SQL query, marking the employee's request as approved. With ILLA Cloud's PostgreSQL integration, you can streamline your data management process with ease and confidence."
+  },
+  "landingPageDetail.postgresql.metaTitle": {
+    "message": "ILLA Cloud | PostgreSQL Database Integration"
+  },
+  "landingPageDetail.postgresql.metaDescription": {
+    "message": "Learn how to connect and interact with any PostgreSQL database using ILLA Cloud, the open-source low-code platform for building internal tools. "
+  },
+  "landingPageDetail.redis.name": {
+    "message": "Redis"
+  },
+  "landingPageDetail.redis.title": {
+    "message": "Connect to Redis with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.redis.description": {
+    "message": "With ILLA Cloud's Redis integration, you can quickly configure and connect to your Redis database to optimize your data management and enhance your workflows.The integration simplifies data management using Redis commands, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary commands, and incorporating app-based validation checks.For example, you can retrieve data from a Redis database and add a button that, when clicked, performs a Redis command to update the data or approve a request. With ILLA Cloud's Redis integration, you can streamline your data management process and leverage the powerful capabilities of Redis to enhance your productivity."
+  },
+  "landingPageDetail.redis.metaTitle": {
+    "message": "ILLA Cloud Redis Integration - Connect and Manage Your Redis Database"
+  },
+  "landingPageDetail.redis.metaDescription": {
+    "message": "Learn how to use Redis integration to manipulate data using Redis commands, create dashboards, reports, forms, and more with ILLA Cloud."
+  },
+  "landingPageDetail.restapi.name": {
+    "message": "REST API"
+  },
+  "landingPageDetail.restapi.title": {
+    "message": "Connect to Any RESTful API and Build Custom Tools with ILLA Cloud in Minutes"
+  },
+  "landingPageDetail.restapi.description": {
+    "message": "With ILLA Cloud's REST API integration, you can quickly and easily connect to any RESTful API to optimize your data management and streamline your workflows.The integration simplifies data management using RESTful API endpoints, allowing you to retrieve and manipulate data with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an external RESTful API and add a button that, when clicked, performs a call to update the data or approve a request. With ILLA Cloud's REST API integration, you can streamline your data management process and leverage the powerful capabilities of RESTful APIs to enhance your productivity."
+  },
+  "landingPageDetail.restapi.metaTitle": {
+    "message": "ILLA Cloud | REST API Integration"
+  },
+  "landingPageDetail.restapi.metaDescription": {
+    "message": "Learn how to connect and interact with any REST API endpoint using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.s3.name": {
+    "message": "S3"
+  },
+  "landingPageDetail.s3.title": {
+    "message": "Connect to Amazon S3 with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.s3.description": {
+    "message": "With ILLA Cloud's Amazon S3 integration, you can quickly and easily configure and connect to your Amazon S3 storage to optimize your data management and streamline your workflows.The integration simplifies data management by leveraging S3 API endpoints, allowing you to read, write and manipulate data from your S3 buckets with ease. You can safely add or write data by providing input, including necessary API calls, and incorporating app-based validation checks.For example, you can retrieve data from an S3 bucket and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's Amazon S3 integration, you can streamline your data management process and leverage the powerful capabilities of Amazon S3 storage to enhance your productivity."
+  },
+  "landingPageDetail.s3.metaTitle": {
+    "message": "ILLA Cloud | S3 Integration"
+  },
+  "landingPageDetail.s3.metaDescription": {
+    "message": "Learn how to use the S3 component in ILLA Cloud, a low-code platform for building internal tools."
+  },
+  "landingPageDetail.smtp.name": {
+    "message": "SMTP"
+  },
+  "landingPageDetail.smtp.title": {
+    "message": "Connect to SMTP with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.smtp.description": {
+    "message": "With ILLA Cloud's SMTP integration, you can quickly and easily configure and connect to your SMTP server to optimize your email management and streamline your workflows.The integration simplifies email management by allowing you to send and receive emails directly from your ILLA Cloud application. You can safely send emails by providing input, including necessary SMTP parameters, and incorporating app-based validation checks.For example, you can send automated emails to users when a certain event is triggered in your application. With ILLA Cloud's SMTP integration, you can streamline your email management process and leverage the powerful capabilities of SMTP to enhance your productivity."
+  },
+  "landingPageDetail.smtp.metaTitle": {
+    "message": "ILLA Cloud | SMTP Integration"
+  },
+  "landingPageDetail.smtp.metaDescription": {
+    "message": "Learn how to connect and interact with any SMTP server using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.snowflake.name": {
+    "message": "Snowflake"
+  },
+  "landingPageDetail.snowflake.title": {
+    "message": "Connect to Snowflake with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.snowflake.description": {
+    "message": "With ILLA Cloud's Snowflake integration, you can quickly configure and connect to your Snowflake data warehouse to optimize your data management and streamline your workflows.The integration simplifies data management using Snowflake SQL queries, allowing you to manipulate data with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a Snowflake table and add a button that, when clicked, performs a query to update the data or approve a request. With ILLA Cloud's Snowflake integration, you can streamline your data management process and leverage the powerful capabilities of Snowflake to enhance your productivity."
+  },
+  "landingPageDetail.snowflake.metaTitle": {
+    "message": "ILLA Cloud | Snowflake Integration"
+  },
+  "landingPageDetail.snowflake.metaDescription": {
+    "message": "Learn how to connect and interact with your Snowflake database using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.supabaseDB.name": {
+    "message": "Supabase DB"
+  },
+  "landingPageDetail.supabaseDB.title": {
+    "message": "Connect to SupabaseDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.supabaseDB.description": {
+    "message": "With ILLA Cloud's SupabaseDB integration, you can quickly configure and connect to your SupabaseDB database to optimize your data management and streamline your workflows.The integration simplifies data management using SupabaseDB queries and API calls, allowing you to easily manipulate data and perform complex operations. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For example, you can retrieve data from a SupabaseDB table and add a button that, when clicked, performs an API call to update the data or approve a request. With ILLA Cloud's SupabaseDB integration, you can streamline your data management process and leverage the powerful capabilities of SupabaseDB to enhance your productivity."
+  },
+  "landingPageDetail.supabaseDB.metaTitle": {
+    "message": "ILLA Cloud | Supabase DB Integration"
+  },
+  "landingPageDetail.supabaseDB.metaDescription": {
+    "message": "Learn how to connect and interact with any Supabase DB using ILLA Cloud, the open-source low-code platform for building internal tools."
+  },
+  "landingPageDetail.tiDB.name": {
+    "message": "TiDB"
+  },
+  "landingPageDetail.tiDB.title": {
+    "message": "Connect to TiDB with ILLA Cloud and build internal tools in just a few clicks."
+  },
+  "landingPageDetail.tiDB.description": {
+    "message": "With ILLA Cloud's TiDB integration, you can seamlessly configure and connect to your TiDB database to optimize your data management and enhance your workflows.The integration simplifies data management using SQL, allowing you to manipulate tables, retrieve data and perform complex queries with ease. You can safely add or write data by providing input, including necessary queries, and incorporating app-based validation checks.For instance, you can retrieve data for an employee from a TiDB table and add a button that runs an SQL query to update the employee's information or approve a request. With ILLA Cloud's TiDB integration, you can streamline your data management process and unlock the full potential of your data source with confidence."
+  },
+  "landingPageDetail.tiDB.metaTitle": {
+    "message": "ILLA Cloud | TiDB Integration"
+  },
+  "landingPageDetail.tiDB.metaDescription": {
+    "message": "Learn how to connect and interact with your TiDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
   },
   "pricing.billing.plus-btn": {
     "message": "Upgrade"
@@ -1628,9 +1628,6 @@
   "testimonial.testimonial6_usertitle.website_administrato": {
     "message": "Website Administrator"
   },
-  "customer.title": {
-    "message": "Trusted by thousands of teams"
-  },
   "description": {
     "message": "Empower your team with {AIAgent} and advanced low-code tools to create {businessApp}"
   },
@@ -1642,6 +1639,9 @@
   },
   "illa-Cloud": {
     "message": "Get started!"
+  },
+  "customer.title": {
+    "message": "Trusted by thousands of teams"
   },
   "stars": {
     "message": "Starts"
@@ -1732,6 +1732,10 @@
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1747,10 +1751,6 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "latest version",
     "description": "The label used for the latest version suggestion link label"
-  },
-  "theme.common.editThisPage": {
-    "message": "Edit this page",
-    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "Direct link to {heading}",
@@ -1776,6 +1776,10 @@
     "message": "Tags:",
     "description": "The label alongside a tag list"
   },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
   "theme.admonition.caution": {
     "message": "caution",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -1800,14 +1804,6 @@
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
-    "description": "The ARIA label for close button of announcement bar"
-  },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
   "theme.CodeBlock.copied": {
     "message": "Copied",
     "description": "The copied button label on code blocks"
@@ -1819,6 +1815,10 @@
   "theme.CodeBlock.copy": {
     "message": "Copy",
     "description": "The copy button label on code blocks"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Toggle word wrap",
@@ -1836,17 +1836,13 @@
     "message": "Main",
     "description": "The ARIA label for the main navigation"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
-    "description": "The ARIA label for the home page in the breadcrumbs"
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Collapse sidebar",
@@ -1860,17 +1856,21 @@
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
   },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Close navigation bar",
     "description": "The ARIA label for close button of mobile sidebar"
   },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
-  },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Toggle navigation bar",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Expand sidebar",
