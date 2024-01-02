@@ -1,6 +1,10 @@
 import FAQ from "@site/src/components/common/FAQ"
 import CommBottom from "@site/src/components/common/CommBottom"
-import { FAQ_CONTENT, PRICING_META_INFO } from "@site/src/config/Pricing"
+import {
+  FAQ_CONTENT,
+  PRICING_META_INFO,
+  PRICING_SCHEMA_DATA,
+} from "@site/src/config/Pricing"
 import { CommonLayout } from "@site/src/ILLATheme/CommonLayout"
 import { CommonHeader } from "@site/src/ILLATheme/CommonHeader"
 import CommonFooter from "@site/src/ILLATheme/CommonFooter"
@@ -27,6 +31,9 @@ const Pricing: FC = () => {
           name="twitter:description"
           content={PRICING_META_INFO.description}
         />
+        <script type="application/ld+json">
+          {JSON.stringify(PRICING_SCHEMA_DATA)}
+        </script>
       </Head>
       <CommonLayout {...PRICING_META_INFO}>
         <PricingMask height={containerHeight} />

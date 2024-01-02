@@ -1,5 +1,5 @@
 .contentTitle {
-  @apply mt-[60px] xl:mt-[100px] font-[600] text-[20px] leading-[28px];
+  @apply mt-[60px] lg:mt-[100px] font-[600] text-[20px] leading-[28px];
 }
 
 .itemsContainer {
@@ -8,7 +8,7 @@
 
 .item {
   @apply flex flex-col gap-[12px] p-[16px] justify-center items-start rounded-[16px];
-  @apply xl:gap-[24px] xl:p-[32px];
+  @apply lg:gap-[24px] lg:p-[32px];
 }
 
 .itemBg {
@@ -25,10 +25,10 @@
 
 .itemNameCommon {
   @apply capitalize font-[600] text-[16px] overflow-ellipsis line-clamp-1;
-  @apply xl:text-[18px];
+  @apply lg:text-[18px];
 }
 .itemNameIntegrations {
-  @apply leading-[20px] xl:leading-[26px];
+  @apply leading-[20px] lg:leading-[26px];
 }
 .itemNameComponents {
   @apply leading-[24px];
@@ -36,5 +36,5 @@
 
 .itemDescription {
   @apply font-[400] text-[12px] leading-[16px] overflow-ellipsis line-clamp-4;
-  @apply xl:text-[14px] xl:leading-[24px] xl:line-clamp-3;
+  @apply lg:text-[14px] lg:leading-[24px] lg:line-clamp-3;
 }

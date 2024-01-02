@@ -1,13 +1,20 @@
-import Head from '@docusaurus/Head';
-import { CommonLayout } from '../CommonLayout';
-import { CommonHeader } from '../CommonHeader';
-import CommonFooter from '..//CommonFooter';
-import { FC } from 'react';
-import { ILandingLayoutProps } from './interface';
+import Head from "@docusaurus/Head"
+import { CommonLayout } from "../CommonLayout"
+import { CommonHeader } from "../CommonHeader"
+import CommonFooter from "..//CommonFooter"
+import { FC } from "react"
+import { ILandingLayoutProps } from "./interface"
 
 const LandingLayout: FC<ILandingLayoutProps> = (props) => {
-  const { title, description, whiteTheme, children, keywords, footerConfig } =
-    props;
+  const {
+    title,
+    description,
+    whiteTheme,
+    children,
+    keywords,
+    footerConfig,
+    schemaData,
+  } = props
 
   return (
     <>
@@ -28,6 +35,11 @@ const LandingLayout: FC<ILandingLayoutProps> = (props) => {
           content={description}
         />
         {keywords && <meta name="keywords" content={keywords} />}
+        {schemaData && (
+          <script type="application/ld+json">
+            {JSON.stringify(schemaData)}
+          </script>
+        )}
       </Head>
       <CommonLayout
         description={description}
@@ -35,7 +47,7 @@ const LandingLayout: FC<ILandingLayoutProps> = (props) => {
         title={title}
       >
         <CommonHeader whiteTheme={whiteTheme} />
-        {children}
+        <div className="w-full px-[20px]">{children}</div>
         <CommonFooter
           scrollStart={footerConfig.scrollStart}
           scrollEnd={footerConfig.scrollEnd}
@@ -43,7 +55,7 @@ const LandingLayout: FC<ILandingLayoutProps> = (props) => {
         />
       </CommonLayout>
     </>
-  );
-};
+  )
+}
 
-export default LandingLayout;
+export default LandingLayout

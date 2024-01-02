@@ -1,9 +1,10 @@
-import ResourceLandingLayout from '../../ILLATheme/LandingLayout/ResourceLandingLayout';
+import ResourceLandingLayout from "../../ILLATheme/LandingLayout/ResourceLandingLayout"
 import {
   COMPONENTS_META_INFO,
+  COMPONENTS_SCHEMA_DATA,
   INDEX_COMPONENTS_CONTENT_DATA,
   INDEX_COMPONENTS_HEADER_DATA,
-} from '../../config/landingPage/components';
+} from "../../config/landingPage/components"
 
 export default function () {
   return (
@@ -12,11 +13,12 @@ export default function () {
       description={COMPONENTS_META_INFO.description}
       headerConfig={INDEX_COMPONENTS_HEADER_DATA}
       contentConfig={INDEX_COMPONENTS_CONTENT_DATA}
+      schemaData={COMPONENTS_SCHEMA_DATA}
       pageName="components"
       footerConfig={{
         scrollStart: 0.81,
         scrollEnd: 1,
       }}
     />
-  );
+  )
 }

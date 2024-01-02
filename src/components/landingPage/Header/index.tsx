@@ -24,7 +24,7 @@ export const LpHeader: FC<IHeaderProps> = ({
       <div
         className={clsx(
           style.lpHeaderLeft,
-          isShowBack ? "w-full" : "xl:pt-[48px] xl:w-[570px] w-full ",
+          isShowBack ? "w-full" : "lg:pt-[48px] lg:w-[570px] w-full ",
         )}
       >
         {isShowBack && (
@@ -67,7 +67,7 @@ export const LpHeader: FC<IHeaderProps> = ({
         </Link>
       </div>
       {!isShowBack && (
-        <img src={leftImage} alt="" className="w-full xl:w-[550px]" />
+        <img src={leftImage} alt="" className="w-full lg:w-[550px]" />
       )}
     </div>
   )
