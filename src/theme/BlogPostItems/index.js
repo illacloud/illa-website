@@ -1,9 +1,9 @@
-import React from "react";
-import { BlogPostProvider } from "@docusaurus/theme-common/internal";
-import TagsList from "@theme/TagsList";
-
-import BlogPostItem from "@theme/BlogPostItem";
-import clsx from "clsx";
+import React from "react"
+import { BlogPostProvider } from "@docusaurus/theme-common/internal"
+import TagsList from "@theme/TagsList"
+import Translate from "@docusaurus/Translate"
+import BlogPostItem from "@theme/BlogPostItem"
+import clsx from "clsx"
 
 export default function BlogPostItems({
   items,
@@ -19,8 +19,8 @@ export default function BlogPostItems({
         "blog-md:px-7",
         "blog-2xl:px-0",
         !isAuthorPage &&
-        !isTagsPage &&
-        "blog-sm:pb-16 blog-md:pb-8 blog-2xl:pb-12 pb-10",
+          !isTagsPage &&
+          "blog-sm:pb-16 blog-md:pb-8 blog-2xl:pb-12 pb-10",
         !isAuthorPage && !isTagsPage && "blog-md:pt-16 blog-2xl:pt-20",
         (isAuthorPage || isTagsPage) && "py-8",
         "max-w-[512px]",
@@ -49,7 +49,7 @@ export default function BlogPostItems({
                 "font-semibold",
               )}
             >
-              All Posts
+              <Translate id="blog.all_posts">All Posts</Translate>
             </h2>
             <p
               className={clsx(
@@ -59,11 +59,17 @@ export default function BlogPostItems({
                 "text-gray-500 dark:text-gray-400",
               )}
             >
-              <b>refine technical blog</b> - a resource for
-              refine, front-end ecosystem, and web development.
-              Here, we publish insightful articles that demystify
-              complex concepts, explore new trends, and provide
-              helpful tips to enhance your coding journey.
+              <b>
+                <Translate id="blog.all_posts_desc_bold">ILLA Blogs</Translate>
+              </b>
+              <Translate id="blog.all_posts_desc">
+                ｜A stellar repository of knowledge for developers, encompassing
+                a wide spectrum of subjects such as frontend and backend
+                development, AI, low-code, and ILLA Cloud, etc. Here, you can
+                immerse yourself in cutting-edge technologies, delve into
+                emerging trends, and engage in a vibrant exchange of
+                experiences.
+              </Translate>
             </p>
           </div>
           <TagsList tags={tags} />
@@ -91,5 +97,5 @@ export default function BlogPostItems({
         ))}
       </div>
     </div>
-  );
+  )
 }

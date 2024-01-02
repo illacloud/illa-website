@@ -1,8 +1,6 @@
 import React from "react"
 import { CommonLayout } from "../CommonLayout"
 import { CommonHeader } from "../CommonHeader"
-import clsx from "clsx"
-import { BannerModal } from "../../components/banner/modal"
 import CommonFooter from "../CommonFooter"
 import MDXContent from "@theme/MDXContent"
 import { useBlogPost } from "@docusaurus/theme-common/internal"

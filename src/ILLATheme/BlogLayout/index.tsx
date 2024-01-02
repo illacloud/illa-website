@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import { CommonLayout } from "../CommonLayout"
 import { CommonHeader } from "../CommonHeader"
-// import { BlogFooter } from './blog-footer';
 import clsx from "clsx"
 import { useMotionValueEvent, useScroll } from "framer-motion"
 import { BannerSidebar } from "../../components/banner/siderBar"

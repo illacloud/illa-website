@@ -88,10 +88,10 @@ const CardContent = () => {
   return (
     <div className={style.cardContentContainerStyle}>
       <div className={style.headerContainerStyle}>
-        <h1 className={style.textTitleStye}>
+        <h2 className={style.textTitleStye}>
           <span className={style.textTitleNumStyle}>3&nbsp;</span>
           {CARD_CONTENT.title}
-        </h1>
+        </h2>
         <span className={style.textDescStyle}>{CARD_CONTENT.desc}</span>
       </div>
       <div className={style.cardContainerStyle}>

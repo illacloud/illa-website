@@ -25,11 +25,11 @@ const CardContentItem = ({
     >
       {imageIcon}
       <div className={style.textContainerStyle}>
-        <h2 className={style.textTitleStye}>
+        <h3 className={style.textTitleStye}>
           <span className={style.textTitleNumStye}>{stepNum}.</span>
           <br />
           <span>{title}</span>
-        </h2>
+        </h3>
         <span className={style.textDescStyle}>{desc}</span>
         <LearnMore title={moreTitle} href={getUtmParams(moreHref) ?? ""} />
       </div>
