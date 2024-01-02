@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[7357],{663:e=>{e.exports=JSON.parse('{"label":"Shadcn UI","permalink":"/illa-website/zh/blog/tags/shadcn-ui","allTagsPath":"/illa-website/zh/blog/tags","count":3}')}}]);

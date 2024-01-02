@@ -10,7 +10,7 @@
             "url": "https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024",
             "title": "Quickly create a personalized data dashboard for your boss",
             "summary": "Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.",
-            "date_modified": "2024-01-02T07:43:32.000Z",
+            "date_modified": "2024-01-02T10:32:04.000Z",
             "author": {
                 "name": "Owen Chen",
                 "url": "https://github.com/smallSohoSolo"
@@ -25,7 +25,7 @@
             "url": "https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional",
             "title": "Low Code vs Traditional Development: Optimal Efficiency in Choice",
             "summary": "With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.",
-            "date_modified": "2024-01-02T07:43:32.000Z",
+            "date_modified": "2024-01-02T10:32:04.000Z",
             "author": {
                 "name": "Owen Chen",
                 "url": "https://github.com/smallSohoSolo"
@@ -42,7 +42,7 @@
             "url": "https://illacloud.github.io/illa-website/zh/blog/mui-2024",
             "title": "2024 has arrived, should I choose MUI?",
             "summary": "Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.",
-            "date_modified": "2024-01-02T07:43:32.000Z",
+            "date_modified": "2024-01-02T10:32:04.000Z",
             "author": {
                 "name": "Owen Chen",
                 "url": "https://github.com/smallSohoSolo"
@@ -60,7 +60,7 @@
             "url": "https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024",
             "title": "Elegant Use of nvm for Node.js Management on Mac in 2024",
             "summary": "Node.js, as the foundation of frontend capabilities, is no longer just a \"JS Server Runtime.\" Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.",
-            "date_modified": "2024-01-02T07:43:32.000Z",
+            "date_modified": "2024-01-02T10:32:04.000Z",
             "author": {
                 "name": "Owen Chen",
                 "url": "https://github.com/smallSohoSolo"
@@ -78,7 +78,7 @@
             "url": "https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024",
             "title": "2024 has arrived, should I choose Shadcn UI?",
             "summary": "2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.",
-            "date_modified": "2024-01-02T07:43:32.000Z",
+            "date_modified": "2024-01-02T10:32:04.000Z",
             "author": {
                 "name": "Owen Chen",
                 "url": "https://github.com/smallSohoSolo"
@@ -95,7 +95,7 @@
             "url": "https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui",
             "title": "Shadcn vs MUI: A Comparative Analysis of Strengths and Weaknesses",
             "summary": "2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.",
-            "date_modified": "2024-01-02T07:43:32.000Z",
+            "date_modified": "2024-01-02T10:32:04.000Z",
             "author": {
                 "name": "Owen Chen",
                 "url": "https://github.com/smallSohoSolo"
@@ -104,6 +104,22 @@
                 "UI Library",
                 "Shadcn UI",
                 "React"
+            ]
+        },
+        {
+            "id": "https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024",
+            "content_html": "<p>2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.</p>\n<h2 class=\"anchor anchorWithStickyNavbar_dXVO\" id=\"why-choose-low-code-tools\">Why Choose Low-Code Tools?<a href=\"https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-low-code-tools\" class=\"hash-link\" aria-label=\"Why Choose Low-Code Tools?的直接链接\" title=\"Why Choose Low-Code Tools?的直接链接\">​</a></h2>\n<p>The emergence of low-code tools primarily addresses the issue of low development efficiency. These tools assist developers in rapidly constructing complete projects without starting from scratch, significantly boosting development efficiency. Development using low-code tools requires no coding; instead, developers can drag and drop components to build pages. This allows developers to focus more on implementing business logic without concerning themselves with page construction. Moreover, there is no need for any maintenance work; deploying the code to a server is sufficient, allowing developers to concentrate on business logic implementation.</p>\n<h2 class=\"anchor anchorWithStickyNavbar_dXVO\" id=\"why-choose-open-source\">Why Choose Open Source?<a href=\"https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-open-source\" class=\"hash-link\" aria-label=\"Why Choose Open Source?的直接链接\" title=\"Why Choose Open Source?的直接链接\">​</a></h2>\n<p>As a development tool, open-source low-code tools offer several advantages:</p>\n<ul>\n<li>Editable for customization</li>\n<li>Deployable independently</li>\n<li>Community collaboration for faster issue resolution</li>\n<li>Abundant community template resources</li>\n</ul>\n<p>Choosing an open-source low-code tool can make our work twice as efficient. Open-source low-code tools are not just tools but ecosystems. We believe open source can make software more powerful, flexible, and reliable.</p>\n<h2 class=\"anchor anchorWithStickyNavbar_dXVO\" id=\"illa-cloud\">ILLA Cloud<a href=\"https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#illa-cloud\" class=\"hash-link\" aria-label=\"ILLA Cloud的直接链接\" title=\"ILLA Cloud的直接链接\">​</a></h2>\n<p><a href=\"https://illacloud.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ILLA Cloud</a> is a ready-to-use low-code tool enabling the swift construction of internal tools using simple JavaScript, without the need for new projects.</p>\n<ul>\n<li>Web &amp; App Admin Panel</li>\n<li>Data Dashboard</li>\n<li>Customized B2B Tools</li>\n</ul>\n<p>Compared to scenarios built with component libraries, ILLA Cloud allows for 10x faster tool construction and supports collaborative editing among team members.</p>\n<p><img loading=\"lazy\" src=\"https://cdn.illacloud.com/illa-website/blog/top5-low-code-2024/dashboard.png\" alt=\"dashboard\" class=\"img_CfaS\"></p>\n<p>Examples include:</p>\n<ul>\n<li><a href=\"https://illacloud.com/solutions-crm\" target=\"_blank\" rel=\"noopener noreferrer\">CRM</a></li>\n<li><a href=\"https://www.illacloud.com/solutions-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Data Dashboard</a></li>\n<li><a href=\"https://illacloud.com/solutions-image-generator\" target=\"_blank\" rel=\"noopener noreferrer\">Text to Image Generator</a></li>\n<li><a href=\"https://illacloud.com/solutions-ai-voice-generator\" target=\"_blank\" rel=\"noopener noreferrer\">AI Voice Generator</a></li>\n<li><a href=\"https://illacloud.com/solutions-cms\" target=\"_blank\" rel=\"noopener noreferrer\">CMS</a></li>\n<li><a href=\"https://www.illacloud.com/solutions-admin-panel\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Panel</a></li>\n</ul>\n<h2 class=\"anchor anchorWithStickyNavbar_dXVO\" id=\"appsmith\">Appsmith<a href=\"https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#appsmith\" class=\"hash-link\" aria-label=\"Appsmith的直接链接\" title=\"Appsmith的直接链接\">​</a></h2>\n<p>Appsmith is an open-source low-code tool with the motto \"Build the tools you can’t buy off the shelf.\" It is a developer-friendly tool driven by JS and supports quick UI panel construction through drag-and-drop.</p>\n<p>Just a few steps are needed to build a complete project:</p>\n<ul>\n<li>Bring in data from any data source</li>\n<li>Drag and drop widgets to build UI</li>\n<li>Customize and control with code</li>\n</ul>\n<p>Appsmith's development team hails from India, making it a promising project.</p>\n<h2 class=\"anchor anchorWithStickyNavbar_dXVO\" id=\"tooljet\">Tooljet<a href=\"https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#tooljet\" class=\"hash-link\" aria-label=\"Tooljet的直接链接\" title=\"Tooljet的直接链接\">​</a></h2>\n<p>The Tooljet team, also from India, focuses on being a rapid internal tool development platform. Tooljet has the following features:</p>\n<ul>\n<li>Lightning Fast Development</li>\n<li>Budget Friendly</li>\n<li>Boost Productivity</li>\n</ul>\n<p>Tooljet's product has significant potential and is worth keeping an eye on. With continuous accumulation over time, their product strength is sure to grow.</p>\n<h2 class=\"anchor anchorWithStickyNavbar_dXVO\" id=\"budibase\">Budibase<a href=\"https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#budibase\" class=\"hash-link\" aria-label=\"Budibase的直接链接\" title=\"Budibase的直接链接\">​</a></h2>\n<p>Budibase's team is from Europe, aiming to \"Save 100s of hours building apps that make workflow.\" Budibase's features include:</p>\n<ul>\n<li>One platform. Many solutions.</li>\n<li>Apps made easier. Workflows made faster.</li>\n<li>Scale with confidence</li>\n</ul>\n<p>With continuous accumulation over time, Budibase's product strength is bound to increase.</p>\n<h2 class=\"anchor anchorWithStickyNavbar_dXVO\" id=\"conclusion\">Conclusion<a href=\"https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#conclusion\" class=\"hash-link\" aria-label=\"Conclusion的直接链接\" title=\"Conclusion的直接链接\">​</a></h2>\n<p>These are the most promising open-source low-code tools in 2024, each with its own characteristics. Different scenarios call for different problem-solving approaches, and we hope readers can choose the most efficient solutions for development in suitable situations. Speed up your work, go home early using low-code tools.</p>",
+            "url": "https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024",
+            "title": "Best Open-Source Low-Code Platforms in 2024",
+            "summary": "2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.",
+            "date_modified": "2024-01-02T10:32:04.000Z",
+            "author": {
+                "name": "Owen Chen",
+                "url": "https://github.com/smallSohoSolo"
+            },
+            "tags": [
+                "low-code",
+                "open-source"
             ]
         }
     ]
