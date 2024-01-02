@@ -17,9 +17,8 @@ export const SolutionLayout = (props: Record<string, any>) => {
   return (
     <>
       <Head>
-        <html data-active-page="index" />
-        <title>{metaProps?.title}</title>
-        <meta property="og:title" content={metaProps?.title} />
+        <meta name="twitter:title" content={metaProps.title} />
+        <meta name="twitter:description" content={metaProps.description} />
       </Head>
       <CommonLayout {...metaProps}>
         <div className="w-full overflow-visible  bg-black relative z-[1]">

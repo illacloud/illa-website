@@ -45,6 +45,12 @@ export const TAB_OPTIONS = [
   },
 ]
 
+//   1. Image generator: ILAcx4p1C7Bc
+//   2. AI Voice Generator:  ILAcx4p1C7Bb
+//   3. Dashboard: ILAcx4p1C7Xz
+//   4. CMS: ILAcx4p1C72G
+//   5. CRM: ILAcx4p1C7N5
+//   6. Admin Panel: ILAcx4p1C7Oy
 export const SOLUTIONS_IMAGE = [
   {
     content: (
@@ -59,7 +65,7 @@ export const SOLUTIONS_IMAGE = [
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7W3",
+    appID: "ILAcx4p1C7Bc",
     value: 0,
   },
   {
@@ -75,7 +81,7 @@ export const SOLUTIONS_IMAGE = [
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7W3",
+    appID: "ILAcx4p1C7Bb",
     value: 1,
   },
   {
@@ -91,7 +97,7 @@ export const SOLUTIONS_IMAGE = [
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7W3",
+    appID: "ILAcx4p1C7Xz",
     value: 2,
   },
   {
@@ -107,7 +113,7 @@ export const SOLUTIONS_IMAGE = [
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7W3",
+    appID: "ILAcx4p1C72G",
     value: 3,
   },
   {
@@ -123,7 +129,7 @@ export const SOLUTIONS_IMAGE = [
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7W3",
+    appID: "ILAcx4p1C7N5",
     value: 4,
   },
   {
@@ -139,7 +145,7 @@ export const SOLUTIONS_IMAGE = [
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7W3",
+    appID: "ILAcx4p1C7Oy",
     value: 5,
   },
 ]
