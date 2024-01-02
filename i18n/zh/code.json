@@ -111,22 +111,22 @@
     "message": "使用案例解决方法"
   },
   "ai_header.solutions_description.image_generator": {
-    "message": "临时首页 1"
+    "message": "使用 AI生成图像。提高思想交流的效率。"
   },
   "ai_header.solutions_description.ai_voice_generator": {
-    "message": "temp desc 2"
+    "message": "使用 AI生成图像。提高思想交流的效率。"
   },
   "ai_header.solutions_description.dashboard": {
-    "message": "临时标题 22"
+    "message": "建立全面的数据分析仪表板，用最少的投资推动您的商业增长。"
   },
   "ai_header.solutions_description.cms": {
-    "message": "临时标题 3"
+    "message": "在任何平台、网络或移动应用中提供一致的内容体验"
   },
   "ai_header.solutions_description.crm": {
-    "message": "临时标题 4"
+    "message": "更好的销售客户关系解决方案以更快地关闭交易"
   },
   "ai_header.solutions_description.admin_panel": {
-    "message": "临时标题 5"
+    "message": "以10倍的速度构建管理面板来管理数据或执行操作"
   },
   "nav.resource": {
     "message": "资源"
@@ -155,14 +155,8 @@
   "nav.signup": {
     "message": "免费开始"
   },
-  "pricing.sub-title": {
-    "message": "创建 AI 驱动的业务应用程序"
-  },
   "pricing.title": {
     "message": "定价"
-  },
-  "pricing.page-desc": {
-    "message": "随着ILLA 云计票的启动，您将获得专用功能，如审核日志和公共应用。 我们的账单系统基于成员的编辑权，包括所有者、管理者和编辑者角色。 一旦您订阅，您可以免费添加无限观众。"
   },
   "pricing.meta-desc": {
     "message": "开始免费的所有功能，个人开发者或小团队需要构建内部应用程序。"
@@ -473,6 +467,12 @@
   "faq.content.5.answer": {
     "message": "是的，ILLA Cloud向用户提供技术支持。 如果您遇到任何问题或对平台的功能有疑问，您可以联系我们的支持团队寻求帮助。 我们致力于帮助你在ILLA Cloud上拥有无缝的体验。"
   },
+  "pricing.sub-title": {
+    "message": "创建 AI 驱动的业务应用程序"
+  },
+  "pricing.page-desc": {
+    "message": "随着ILLA 云计票的启动，您将获得专用功能，如审核日志和公共应用。 我们的账单系统基于成员的编辑权，包括所有者、管理者和编辑者角色。 一旦您订阅，您可以免费添加无限观众。"
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "博客列表导航",
     "description": "The ARIA label for the blog pagination"
@@ -513,6 +513,9 @@
     "message": "阅读需 {readingTime} 分钟",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
+  "learn_more": {
+    "message": "了解更多"
+  },
   "call-to-action.title": {
     "message": "使用 ILLA 云启动构建应用程序"
   },
@@ -533,24 +536,6 @@
   },
   "title.star-us": {
     "message": "给我们加星"
-  },
-  "learn_more": {
-    "message": "了解更多"
-  },
-  "pricing.billing.pricing.premium.desc": {
-    "message": "升级您的团队以访问高级功能"
-  },
-  "pricing.billing.pricing.premium.price": {
-    "message": "/月/编辑器"
-  },
-  "pricing.billing.pricing.colla.desc": {
-    "message": "用于支付ILLA 云端的增值服务"
-  },
-  "pricing.billing.pricing.colla.price": {
-    "message": "/month/5k Colla"
-  },
-  "pricing.billing.plus-btn": {
-    "message": "升级"
   },
   "landingPageDetail.audio.name": {
     "message": "Audio"
@@ -1107,12 +1092,6 @@
   "landingPageDetail.video.metaDescription": {
     "message": "学习如何使用视频组件来创建培训视频、产品演示、教程以及更多与 ILLA Cloud。"
   },
-  "landingPage.build_with": {
-    "message": "用 {name} 构建"
-  },
-  "landingPage.back_to_components": {
-    "message": "返回组件页面"
-  },
   "landingPageDetail.airtable.name": {
     "message": "Airtable"
   },
@@ -1503,6 +1482,27 @@
   "landingPageDetail.tiDB.metaDescription": {
     "message": "学习如何使用 ILLA Cloud，与您的 TiDB 数据库连接和交互，ILLA Cloud是用于构建内部工具的开源低代码平台。"
   },
+  "pricing.billing.pricing.premium.desc": {
+    "message": "升级您的团队以访问高级功能"
+  },
+  "pricing.billing.pricing.premium.price": {
+    "message": "/月/编辑器"
+  },
+  "pricing.billing.pricing.colla.desc": {
+    "message": "用于支付ILLA 云端的增值服务"
+  },
+  "pricing.billing.pricing.colla.price": {
+    "message": "/month/5k Colla"
+  },
+  "pricing.billing.plus-btn": {
+    "message": "升级"
+  },
+  "landingPage.build_with": {
+    "message": "用 {name} 构建"
+  },
+  "landingPage.back_to_components": {
+    "message": "返回组件页面"
+  },
   "theme.NotFound.p1": {
     "message": "我们找不到你想要的东西。",
     "description": "The first paragraph of the 404 page"
@@ -1521,31 +1521,31 @@
     "message": "通过拖放组件创建工具，定制您的 AI 代理，连接到您的数据源 并使AI 成为适合您需要和数据的智能工具，使您的工作更加智能。"
   },
   "how_to_use.step1_title.create_ai_agent_for": {
-    "message": "为特定目的创建 AI 代理"
+    "message": "拖放组件以设计界面"
   },
   "how_to_use.step1_description.you_can_create_an_ai": {
-    "message": "您可以为特定目的创建一个 AI 代理人，并使它对特定任务、工作或日常生活更有帮助。 "
+    "message": "通过拖放组件, 您可以快速构建应用程序的 UI 并实现您想要的任何功能。"
   },
   "how_to_use.step1_button.ai_agent_marketplace": {
-    "message": "AI 代理市场"
+    "message": "开始使用 ILLA 构建界面"
   },
   "how_to_use.step2_title.build_the_frontend_p": {
-    "message": "几分钟后构建前端页面"
+    "message": "连接到您的数据源"
   },
   "how_to_use.step2_description.by_dragging_and_drop": {
-    "message": "通过拖放组件, 您可以快速构建工具的接口并实现您想要的任何功能。"
+    "message": "连接到您自己的数据源，包括MySQL、PostgreSQL和其他数据库、REST API、GraphQL等。仅在一分钟内构建CRUD应用程序。"
   },
   "how_to_use.step2_button.illa_app_marketplace": {
-    "message": "ILLA 应用市场"
+    "message": "使用您的数据源开始构建应用"
   },
   "how_to_use.step3_title.connect_to_your_data": {
-    "message": "连接到您的数据源和 AI 代理"
+    "message": "配置并连接到 AI 代理"
   },
   "how_to_use.step3_description.enable_data_integrat": {
-    "message": "启用数据集成和自动化。AI Agent将根据您的要求和数据执行特定任务。"
+    "message": "将AI 代理人纳入您的应用，并赋予它智能分析、 内容生成和更多功能，并且没有AI 开发技能。"
   },
   "how_to_use.step3_button.supported_data_sourc": {
-    "message": "支持的数据源"
+    "message": "开始Building AI 驱动应用"
   },
   "testimonial.title.user_testimonials": {
     "message": "用户感言"
@@ -1677,13 +1677,13 @@
     "message": "浅色模式",
     "description": "The name for the light color mode"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "面包屑导航",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} 篇内容",
     "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "面包屑导航",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "文档页面",
@@ -1708,6 +1708,14 @@
   "theme.docs.versionBadge.label": {
     "message": "版本：{versionLabel}"
   },
+  "theme.common.editThisPage": {
+    "message": "编辑此页面",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "这是尚未发行的 {siteTitle} {versionLabel} 版本文档。",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -1723,14 +1731,6 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "最新版本",
     "description": "The label used for the latest version suggestion link label"
-  },
-  "theme.common.editThisPage": {
-    "message": "编辑此页面",
-    "description": "The link label to edit the current page"
-  },
-  "theme.common.headingLinkTitle": {
-    "message": "Direct link to {heading}",
-    "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
     "message": " 时间：{date}",
@@ -1780,10 +1780,6 @@
     "message": "关闭",
     "description": "The ARIA label for close button of announcement bar"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "博客最近帖子导航",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
   "theme.CodeBlock.copied": {
     "message": "已复制",
     "description": "The copied button label on code blocks"
@@ -1795,6 +1791,10 @@
   "theme.CodeBlock.copy": {
     "message": "复制",
     "description": "The copy button label on code blocks"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "博客最近帖子导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "切换单词换行",
@@ -1812,17 +1812,9 @@
     "message": "主要的",
     "description": "The ARIA label for the main navigation"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "语文",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "在本页",
     "description": "The label used by the button on the collapsible TOC component"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "主页",
-    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "折叠侧边栏",
@@ -1832,9 +1824,17 @@
     "message": "折叠侧边栏",
     "description": "The title attribute for collapse button of doc sidebar"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "语文",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "主页",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "关闭导航栏",
