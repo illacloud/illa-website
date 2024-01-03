@@ -1,21 +1,21 @@
 .containerStyle {
-  @apply flex h-full  mb-[60px] lg:h-[calc(100vh-77px)]  overflow-hidden text-title grow-0 text-white-01 flex-col  items-center font-bold px-[20px] relative;
+  @apply flex h-full  mb-[60px]  overflow-hidden text-title grow-0 text-white-01 flex-col  items-center font-bold px-[20px] relative;
   @apply lg:mb-[120px];
 }
 
 .indexBgStyle {
-  @apply hidden lg:block w-full lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];
+  @apply hidden lg:block w-full lg:min-h-[1200px]  overflow-hidden absolute z-[-1];
 }
 .indexBgStyle img {
   @apply w-full lg:h-[1034px] h-auto absolute bottom-0;
 }
 .canvasContainerStyle {
-  @apply w-full h-full  lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];
+  @apply w-full h-full overflow-hidden absolute z-[-1];
 }
 
 .contentContainer {
-  @apply flex h-full flex-col items-center gap-[24px] relative pt-[64px];
-  @apply lg:max-w-[1040px] lg:gap-[56px] lg:pt-[150px];
+  @apply flex h-full flex-col items-center justify-between gap-[24px] relative pt-[64px];
+  @apply lg:max-w-[1040px] lg:gap-[56px] lg:pt-[150px] lg:min-h-[1200px];
   @apply xl:max-w-[1200px] xl:w-[1200px];
 }
 .contentContainer svg {
@@ -50,7 +50,7 @@
 }
 
 .demoContainerStyle {
-  @apply w-full lg:absolute h-auto bottom-0 z-[2];
+  @apply w-full lg:relative h-auto bottom-0 z-[2];
   perspective: 1040px;
 }
 
