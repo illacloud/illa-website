@@ -73,7 +73,7 @@ export const Solutions: FC<{ whiteTheme: boolean }> = ({ whiteTheme }) => {
                       })
                     }}
                   >
-                    {subItem.icon}
+                    <span className="pt-[4px]">{subItem.icon}</span>
                     <span className="w-full flex flex-col">
                       <span
                         className={clsx(
