@@ -3,9 +3,9 @@ import Link from "@docusaurus/Link"
 import { useBlogPost } from "@docusaurus/theme-common/internal"
 import BlogPostItemContainer from "@theme/BlogPostItem/Container"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
-
 import { Date } from "@site/src/components/blog/common/date"
 import clsx from "clsx"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const FeaturedBlogPostItem = () => {
   const { metadata } = useBlogPost()
@@ -22,9 +22,11 @@ export const FeaturedBlogPostItem = () => {
   const author = metadata.authors[0]
   const getUtmParams = useUtmParams()
 
+  const fixedPermalink = fixedPath(permalink)
+
   return (
     <BlogPostItemContainer>
-      <Link itemProp="url" to={getUtmParams(permalink)}>
+      <Link itemProp="url" to={getUtmParams(fixedPermalink)}>
         <div className="not-prose relative m-0 h-40 hover:brightness-90 md:h-64">
           <img
             src={`${frontMatter.image}?h=256`}
@@ -51,7 +53,7 @@ export const FeaturedBlogPostItem = () => {
                 "rounded",
                 "px-2 py-1",
               )}
-              href={getUtmParams(tag.permalink)}
+              href={getUtmParams(fixedPath(tag.permalink))}
               key={tag.permalink}
             >
               {tag.label}
@@ -61,7 +63,7 @@ export const FeaturedBlogPostItem = () => {
         <div className="mb-2 md:mb-4 2xl:mb-6">
           <Link
             itemProp="url"
-            to={getUtmParams(permalink)}
+            to={getUtmParams(fixedPermalink)}
             className="no-underline hover:no-underline"
             rel="noopener dofollow"
           >

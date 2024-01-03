@@ -19,13 +19,15 @@ export default function BlogPostItem({ className }) {
     tags,
   } = metadata
 
+  const fixedPermalink = `${permalink}/`
+
   const author = metadata.authors[0]
   const getUtmParams = useUtmParams()
 
   return (
     <BlogPostItemContainer className={className}>
       <div>
-        <Link itemProp="url" to={getUtmParams(permalink)}>
+        <Link itemProp="url" to={getUtmParams(fixedPermalink)}>
           <div className="not-prose relative m-0 h-40 hover:brightness-90">
             <img
               src={`${frontMatter.image}?h=160`}
@@ -53,7 +55,7 @@ export default function BlogPostItem({ className }) {
                 "rounded",
                 "px-2 py-1",
               )}
-              permalink={tag.permalink}
+              permalink={tag.fixedPermalink}
               key={tag.permalink}
               label={tag.label}
             />
@@ -62,7 +64,7 @@ export default function BlogPostItem({ className }) {
         <div className="mb-2 md:mb-4">
           <Link
             itemProp="url"
-            to={permalink}
+            to={fixedPermalink}
             className="no-underline hover:no-underline"
             rel="noopener dofollow"
           >

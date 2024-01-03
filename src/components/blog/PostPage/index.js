@@ -18,6 +18,7 @@ import { Date } from "@site/src/components/blog/common/date"
 import { ReadingTime } from "@site/src/components/blog/common/reading-time"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import DiscordAndGithubBanner from "@site/src/components/blog/discord-and-github-banner"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const BlogPostPageView = ({ children }) => {
   const { metadata, isBlogPostPage } = useBlogPost()
@@ -34,6 +35,8 @@ export const BlogPostPageView = ({ children }) => {
   } = metadata
   const author = authors[0]
   const getUtmParams = useUtmParams()
+
+  const fixedPermalink = fixedPath(permalink)
 
   const {
     siteConfig: { url },
@@ -62,7 +65,7 @@ export const BlogPostPageView = ({ children }) => {
         )}
       >
         <Link
-          to={getUtmParams("/blog")}
+          to={getUtmParams("/blog/")}
           className={clsx("!text-white-04 text-sm no-underline")}
         >
           ← Back to blog
@@ -72,7 +75,7 @@ export const BlogPostPageView = ({ children }) => {
           <TwitterShareButton
             windowWidth={750}
             windowHeight={800}
-            url={url + permalink}
+            url={url + fixedPermalink}
             className="flex"
             title={title}
             hashtags={tags.map((tag) => tag.label)}
@@ -83,13 +86,13 @@ export const BlogPostPageView = ({ children }) => {
             className="flex"
             windowWidth={750}
             windowHeight={600}
-            url={url + permalink}
+            url={url + fixedPermalink}
             title={title}
           >
             <RedditIcon size={26} round />
           </RedditShareButton>
           <LinkedinShareButton
-            url={url + permalink}
+            url={url + fixedPermalink}
             title={title}
             source={url}
             summary={description}
@@ -130,7 +133,7 @@ export const BlogPostPageView = ({ children }) => {
           {isBlogPostPage ? (
             title
           ) : (
-            <Link itemProp="url" to={getUtmParams(permalink)}>
+            <Link itemProp="url" to={getUtmParams(fixedPermalink)}>
               {title}
             </Link>
           )}

@@ -3,6 +3,7 @@ import Link from "@docusaurus/Link"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import { Date } from "@site/src/components/blog/common/date"
 import clsx from "clsx"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const PostPaginator = ({ posts, title }) => {
   const getUtmParams = useUtmParams()
@@ -39,7 +40,7 @@ export const PostPaginator = ({ posts, title }) => {
               )}
             >
               <Link
-                to={getUtmParams(post.permalink)}
+                to={getUtmParams(fixedPath(post.permalink))}
                 rel="dofollow"
                 className={clsx(
                   "font-bold",
