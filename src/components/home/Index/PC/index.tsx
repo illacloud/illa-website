@@ -47,14 +47,14 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
             <span className={style.descStyle}>
               <Interpolate
                 values={{
-                  businessApp: (
+                  AIAgent: (
                     <span className={style.colorDescLeftStyle}>
                       <Translate id="website_4.description.ai_agent">
                         AI Agent
                       </Translate>
                     </span>
                   ),
-                  AIAgent: (
+                  businessApp: (
                     <span className={style.colorDescRightStyle}>
                       <Translate id="website_4.description.business_app">
                         business app
