@@ -55,7 +55,7 @@ export default function BlogPostItem({ className }) {
                 "rounded",
                 "px-2 py-1",
               )}
-              permalink={tag.fixedPermalink}
+              permalink={tag.permalink}
               key={tag.permalink}
               label={tag.label}
             />
