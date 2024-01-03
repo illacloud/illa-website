@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_BOT_TOKEN }}
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
