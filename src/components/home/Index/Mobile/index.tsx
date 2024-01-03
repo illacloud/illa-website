@@ -19,7 +19,7 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
   const description = translate({
     id: "description",
     message:
-      "Build { businessApp } with low code, make automated { flow }, create { AIAgent } easily",
+      "Build {businessApp} with low code, make automated {flow}, create {AIAgent} easily",
   })
 
   useEffect(() => {

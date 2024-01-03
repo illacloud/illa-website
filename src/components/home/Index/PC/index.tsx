@@ -14,7 +14,7 @@ import Interpolate from "@docusaurus/Interpolate"
 const description = translate({
   id: "description",
   message:
-    "Build { businessApp } with low code, make automated { flow }, create { AIAgent } easily",
+    "Build {businessApp} with low code, make automated {flow}, create {AIAgent} easily",
 })
 
 const BannerPC: FC<IBannerPCProps> = (props) => {
