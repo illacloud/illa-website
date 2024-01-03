@@ -106,23 +106,22 @@ const Solutions: FC = () => {
               >
                 {item.content}
               </div>
-            </div>
-
-            <div className={style.linkButtonStyle}>
-              <LinkButton
-                href={handleDemoHref(item.appID)}
-                size="small"
-                colorType="dark"
-                handleClick={() => {
-                  sendTagEvent({
-                    action: "solution_try_for_free",
-                  })
-                }}
-              >
-                <Translate id="website_4.solution.use_this_template">
-                  Try now
-                </Translate>
-              </LinkButton>
+              <div className={style.linkButtonStyle}>
+                <LinkButton
+                  href={handleDemoHref(item.appID)}
+                  size="small"
+                  colorType="dark"
+                  handleClick={() => {
+                    sendTagEvent({
+                      action: "solution_try_for_free",
+                    })
+                  }}
+                >
+                  <Translate id="website_4.solution.use_this_template">
+                    Try now
+                  </Translate>
+                </LinkButton>
+              </div>
             </div>
           </Fragment>
         ))}
