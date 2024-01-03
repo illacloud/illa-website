@@ -27,7 +27,7 @@ jobs:
         'beta' }}
     env:
       ILLA_APP_ENV: ${{ vars.ILLA_APP_ENV }}
-      ILLA_URL: https://illa.cloud
+      ILLA_URL: "https://illacloud.com"
       
     steps:
       - uses: actions/checkout@v3

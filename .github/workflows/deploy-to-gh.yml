@@ -14,7 +14,7 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     env:
-      ILLA_URL: "https://illa.cloud"
+      ILLA_URL: "https://illacloud.github.io"
       ILLA_BASE_URL: "/illa-website/"
       
     steps:
