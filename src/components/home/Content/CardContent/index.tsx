@@ -19,6 +19,10 @@ const CARD_CONTENT = {
         <img
           src="https://cdn.illacloud.com/illa-website/home/step/step1.webp"
           className={style.imgStyle}
+          alt={translate({
+            id: "how_to_use.step1_title.create_ai_agent_for",
+            message: "Drag and drop components to design UI",
+          })}
         />
       ),
       title: translate({
@@ -41,6 +45,10 @@ const CARD_CONTENT = {
         <img
           src="https://cdn.illacloud.com/illa-website/home/step/step2.webp"
           className={style.imgStyle}
+          alt={translate({
+            id: "how_to_use.step2_title.build_the_frontend_p",
+            message: "Connect to your data sources",
+          })}
         />
       ),
       title: translate({
@@ -64,6 +72,10 @@ const CARD_CONTENT = {
         <img
           src="https://cdn.illacloud.com/illa-website/home/step/step3.webp"
           className={style.imgStyle}
+          alt={translate({
+            id: "how_to_use.step3_title.connect_to_your_data",
+            message: "Configure and connect to AI agents",
+          })}
         />
       ),
       title: translate({
