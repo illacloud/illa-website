@@ -2,13 +2,12 @@
   @apply flex h-full  mb-[60px] lg:h-[calc(100vh-77px)]  overflow-hidden text-title grow-0 text-white-01 flex-col  items-center font-bold px-[20px] relative;
   @apply lg:mb-[120px];
 }
-/* @apply my-[64px] lg:pt-[150px] lg:pb-[100px]; */
 
 .indexBgStyle {
   @apply w-full h-full lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];
 }
-.indexBgStyle svg {
-  @apply w-full h-auto absolute bottom-0;
+.indexBgStyle img {
+  @apply w-full lg:h-[1034px] h-auto absolute bottom-0;
 }
 .canvasContainerStyle {
   @apply w-full h-full  lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];

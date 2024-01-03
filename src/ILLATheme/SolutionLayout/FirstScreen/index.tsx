@@ -5,12 +5,10 @@ import { usePaintBg } from "@site/src/hooks/usePaintBg"
 import style from "./index.module.css"
 import Translate from "@docusaurus/Translate"
 import LinkButton from "@site/src/components/common/LinkButton"
-import Link from "@docusaurus/Link"
 import Interpolate from "@docusaurus/Interpolate"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { addUrlParams } from "@site/src/utils/urlParams"
 import { CLOUD_URL, DEMO_BASE_URL } from "@site/src/constants/url"
-import IndexBgSvg from "@site/static/img/solutions/indexBg.svg"
 
 interface IFirstScreenProps {
   slogan: string
@@ -38,7 +36,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
   const containerRef = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll()
 
-  const rotateX = useTransform(scrollYProgress, [0, 0.015], [15, 0])
+  const rotateX = useTransform(scrollYProgress, [0, 0.015], [10, 0])
   const scale = useTransform(scrollYProgress, [0, 0.015], [0.95, 1])
   const scrollY = useTransform(scrollYProgress, [0, 0.015], ["15%", "0%"])
 
@@ -60,7 +58,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
         <canvas ref={canvasRef} />
       </div>
       <span className={style.indexBgStyle}>
-        <IndexBgSvg />
+        <img src={require("/img/solutions/indexBg.webp")?.default} alt="" />
       </span>
       <div className={style.contentContainer}>
         <div className={style.textContainerStyle}>
