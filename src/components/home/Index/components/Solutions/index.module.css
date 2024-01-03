@@ -27,14 +27,14 @@
 }
 
 .solutionImageContainerStyle {
-  @apply w-full relative overflow-hidden flex flex-row rounded-[12px];
+  @apply w-full relative overflow-hidden flex flex-row rounded-[12px] rounded-b-none;
 }
 .solutionImageContainerStyle svg {
   @apply w-full h-auto;
 }
 
 .solutionBaseBgStyle {
-  @apply w-full flex-none transition-opacity duration-500 ease-in-out;
+  @apply w-ful overflow-hiddenl flex-none transition-opacity duration-500 ease-in-out;
 }
 
 .solutionSelectBgStyle {
@@ -46,7 +46,7 @@
 }
 
 .solutionBaseImageStyle {
-  @apply absolute bottom-0 z-[1] left-[50%] transition-opacity duration-500 ease-in-out opacity-100 delay-200 rounded-[8px];
+  @apply absolute bottom-0 z-[1] left-[50%] transition-opacity duration-500 ease-in-out opacity-100 delay-200 rounded-[8px] rounded-b-none;
   @apply lg:w-[715px];
   @apply xl:w-[825px];
   transform: translateX(-50%);
