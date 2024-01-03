@@ -4,7 +4,7 @@
 }
 
 .indexBgStyle {
-  @apply w-full h-full lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];
+  @apply hidden lg:block w-full lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];
 }
 .indexBgStyle img {
   @apply w-full lg:h-[1034px] h-auto absolute bottom-0;
@@ -55,7 +55,7 @@
 }
 
 .demoImgStyle {
-  @apply lg:block hidden w-full max-w-full relative rounded-[12px] overflow-hidden;
+  @apply lg:block hidden w-full max-w-full relative rounded-[12px] rounded-b-none overflow-hidden;
   transform-origin: center;
 }
 
