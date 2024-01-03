@@ -1,8 +1,12 @@
 import { MenuItemType, NavbarPopoverItemType } from "./interface"
 import { translate } from "@docusaurus/Translate"
 import { CLOUD_URL } from "@site/src/constants/url"
-import Temp1 from "@site/static/img/solutions/temp1.svg"
-import Temp2 from "@site/static/img/solutions/temp2.svg"
+import ImageGeneratorIcon from "@site/static/img/solutions/image-generator.svg"
+import VoiceGeneratorIcon from "@site/static/img/solutions/voice-generator.svg"
+import DashboardIcon from "@site/static/img/solutions/dashboard.svg"
+import CmsIcon from "@site/static/img/solutions/cms.svg"
+import CrmIcon from "@site/static/img/solutions/crm.svg"
+import AdminPanelIcon from "@site/static/img/solutions/admin-panel.svg"
 
 export const SOLUTIONS: NavbarPopoverItemType = {
   label: translate({
@@ -24,7 +28,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
         message:
           "Generate images with AI. Make the communication of ideas more efficient.",
       }),
-      icon: <Temp1 className="w-[24px] h-[24px] pt-[4px]" />,
+      icon: <ImageGeneratorIcon className="w-[24px] h-[24px]" />,
       href: "/image-generator",
       category: "homepage_menu_solutions_image_generator_click",
     },
@@ -38,7 +42,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
         message:
           "Generate images with AI. Make the communication of ideas more efficient.",
       }),
-      icon: <Temp2 className="w-[24px] h-[24px] pt-[4px]" />,
+      icon: <VoiceGeneratorIcon className="w-[24px] h-[24px]" />,
       href: "/ai-voice-generator",
       category: "homepage_menu_solutions_ai_voice_generator_click",
     },
@@ -52,7 +56,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
         message:
           "Build comprehensive data analysis dashboards and drive your business growth with minimal investment.",
       }),
-      icon: <Temp1 className="w-[24px] h-[24px] pt-[4px]" />,
+      icon: <DashboardIcon className="w-[24px] h-[24px]" />,
       href: "/dashboard",
       category: "homepage_menu_solutions_dashboard_click",
     },
@@ -66,7 +70,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
         message:
           "Deliver consistent content experiences across any platform, web or mobile app",
       }),
-      icon: <Temp1 className="w-[24px] h-[24px] pt-[4px]" />,
+      icon: <CmsIcon className="w-[24px] h-[24px]" />,
       href: "/cms",
       category: "homepage_menu_solutions_cms_click",
     },
@@ -79,7 +83,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
         id: "ai_header.solutions_description.crm",
         message: "Better sales CRM solution to close deals faster",
       }),
-      icon: <Temp1 className="w-[24px] h-[24px]" />,
+      icon: <CrmIcon className="w-[24px] h-[24px]" />,
       href: "/crm",
       category: "homepage_menu_solutions_crm_click",
     },
@@ -93,7 +97,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
         message:
           "Build admin panels at 10x speed to manage data or perform operations",
       }),
-      icon: <Temp1 className="w-[24px] h-[24px]" />,
+      icon: <AdminPanelIcon className="w-[24px] h-[24px]" />,
       href: "/admin-panel",
       category: "homepage_menu_solutions_admin_panel_click",
     },
