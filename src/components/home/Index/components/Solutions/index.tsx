@@ -98,14 +98,14 @@ const Solutions: FC = () => {
               )}
             >
               {item.contentBg}
-            </div>
-            <div
-              className={clsx(
-                style.solutionBaseImageStyle,
-                selectIndex === item.value && style.solutionSelectImageStyle,
-              )}
-            >
-              {item.content}
+              <div
+                className={clsx(
+                  style.solutionBaseImageStyle,
+                  selectIndex === item.value && style.solutionSelectImageStyle,
+                )}
+              >
+                {item.content}
+              </div>
             </div>
 
             <div className={style.linkButtonStyle}>
