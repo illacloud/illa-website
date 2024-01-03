@@ -18,7 +18,7 @@ const DiscordAndGithubBanner = () => {
         </div>
       </div>
       <div className="flex flex-col gap-4 w-full md:w-auto">
-        <Link to={getUtmParams("https://discord.gg/refine")}>
+        <Link to={getUtmParams("https://discord.gg/illacloud")}>
           <button className="w-full md:w-60 h-12 px-8 py-2.5 bg-white rounded-3xl justify-center items-center gap-2.5 inline-flex">
             <svg
               width="25"
@@ -50,7 +50,7 @@ const DiscordAndGithubBanner = () => {
             </div>
           </button>
         </Link>
-        <Link to={getUtmParams("https://discord.gg/refine")}>
+        <Link to={getUtmParams("https://github.com/illacloud/illa-builder")}>
           <button className="w-full md:w-60 h-12 px-8 py-2.5 bg-white bg-opacity-10 rounded-3xl justify-center items-center gap-2.5 inline-flex">
             <svg
               width="24"
