@@ -14,7 +14,7 @@ import Interpolate from "@docusaurus/Interpolate"
 const description = translate({
   id: "description",
   message:
-    "Empower your team with {AIAgent} and advanced low-code tools to create {businessApp}",
+    "Build { businessApp } with low code, make automated { flow }, create { AIAgent } easily",
 })
 
 const BannerPC: FC<IBannerPCProps> = (props) => {
@@ -48,16 +48,23 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
               <Interpolate
                 values={{
                   AIAgent: (
-                    <span className={style.colorDescLeftStyle}>
+                    <span className={style.colorDescAgentStyle}>
                       <Translate id="website_4.description.ai_agent">
                         AI Agent
                       </Translate>
                     </span>
                   ),
                   businessApp: (
-                    <span className={style.colorDescRightStyle}>
+                    <span className={style.colorDescAppStyle}>
                       <Translate id="website_4.description.business_app">
-                        business app
+                        website&app
+                      </Translate>
+                    </span>
+                  ),
+                  flow: (
+                    <span className={style.colorDescFlowStyle}>
+                      <Translate id="website_4.description.flow">
+                        flow
                       </Translate>
                     </span>
                   ),

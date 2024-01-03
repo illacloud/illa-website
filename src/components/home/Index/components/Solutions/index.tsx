@@ -99,16 +99,14 @@ const Solutions: FC = () => {
             >
               {item.contentBg}
             </div>
-            {item.content && (
-              <div
-                className={clsx(
-                  style.solutionBaseImageStyle,
-                  selectIndex === item.value && style.solutionSelectImageStyle,
-                )}
-              >
-                {item.content}
-              </div>
-            )}
+            <div
+              className={clsx(
+                style.solutionBaseImageStyle,
+                selectIndex === item.value && style.solutionSelectImageStyle,
+              )}
+            >
+              {item.content}
+            </div>
 
             <div className={style.linkButtonStyle}>
               <LinkButton
@@ -122,7 +120,7 @@ const Solutions: FC = () => {
                 }}
               >
                 <Translate id="website_4.solution.use_this_template">
-                  Try demo now
+                  Try now
                 </Translate>
               </LinkButton>
             </div>
