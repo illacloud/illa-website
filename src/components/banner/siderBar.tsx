@@ -15,7 +15,7 @@ const description = translate({
     "Start building CRUD apps, Dashboards, Admin panels, Sales CRM, AI image generator, etc with ILLA Cloud in minutes!",
 })
 const image =
-  "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/banners/app-crm.png"
+  "https://cdn.illacloud.com/illa-website/home/blogIcon/sideBarIcon.webp"
 
 export const BannerSidebar = ({ shouldShowBanner }) => {
   const getUtmParams = useUtmParams()
@@ -44,7 +44,7 @@ export const BannerSidebar = ({ shouldShowBanner }) => {
           "overflow-hidden",
         )}
       >
-        <img src={image} alt={"refine App screenshot"} loading="lazy" />
+        <img src={image} alt={text} loading="lazy" />
       </Link>
 
       <h2 className={clsx("text-2xl font-semibold", "text-gray-0")}>{text}</h2>
