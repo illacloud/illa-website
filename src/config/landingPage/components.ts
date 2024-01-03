@@ -83,7 +83,7 @@ export const INDEX_COMPONENTS_CONTENT_DATA = [
           id: "landingPage.components.classify.inputs.radioGroup.title",
           message: "Radio group",
         }),
-        path: "Radio group",
+        path: "RadioGroup",
         description: translate({
           id: "landingPage.components.classify.inputs.radioGroup.description",
           message:
@@ -94,7 +94,7 @@ export const INDEX_COMPONENTS_CONTENT_DATA = [
         logo: "https://cdn.illacloud.com/official-website/img/official-site/components-new/Cover%20Check%20Box.svg",
         name: translate({
           id: "landingPage.components.classify.inputs.checkboxGroup.title",
-          message: "Checkbox Group",
+          message: "CheckboxGroup",
         }),
         path: "Checkbox Group",
         description: translate({

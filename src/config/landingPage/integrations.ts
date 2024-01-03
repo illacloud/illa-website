@@ -110,7 +110,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       },
       {
         name: "Oracle DB",
-        path: "Oracle DB",
+        path: "OracleDB",
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/oracledb.svg",
         description: translate({
           id: "landingPage.integrations.classify.database.oracleDB.description",
@@ -121,7 +121,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       {
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/Elastic%20search.svg",
         name: "Elastic Search",
-        path: "Elastic Search",
+        path: "ElasticSearch",
         description: translate({
           id: "landingPage.integrations.classify.database.elasticSearch.description",
           message:
@@ -150,7 +150,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       },
       {
         name: "Microsoft SQL Server",
-        path: "Microsoft SQL Server",
+        path: "MicrosoftSQLServer",
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/msdb.svg",
         description: translate({
           id: "landingPage.integrations.classify.database.mssql.description",
@@ -161,7 +161,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       {
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/supabase.svg",
         name: "Supabase DB",
-        path: "Supabase DB",
+        path: "SupabaseDB",
         description: translate({
           id: "landingPage.integrations.classify.database.supabaseDB.description",
           message:
@@ -200,7 +200,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       {
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/dynamoDB.svg",
         name: "Amazon DynamoDB",
-        path: "Amazon DynamoDB",
+        path: "AmazonDynamoDB",
         description: translate({
           id: "landingPage.integrations.classify.database.dynamoDB.description",
           message:
@@ -228,7 +228,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       {
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/huggingface.svg",
         name: "Hugging Face Inference API ",
-        path: "Hugging Face Inference API",
+        path: "HuggingFaceInferenceAPI",
         description: translate({
           id: "landingPage.integrations.classify.api.hfAPI.description",
           message:
@@ -238,7 +238,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       {
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/huggingface-1.svg",
         name: "Hugging Face Inference Endpoint",
-        path: "Hugging Face Inference Endpoint",
+        path: "HuggingFaceInferenceEndpoint",
         description: translate({
           id: "landingPage.integrations.classify.api.hfEndpoint.description",
           message:
@@ -248,7 +248,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       {
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/rest%20api.svg",
         name: "REST API",
-        path: "REST API",
+        path: "RESTAPI",
         description: translate({
           id: "landingPage.integrations.classify.api.restAPI.description",
           message:
@@ -287,7 +287,7 @@ export const INDEX_INTEGRATIONS_CONTENT_DATA = [
       },
       {
         name: "Google Sheets",
-        path: "Google Sheets",
+        path: "GoogleSheets",
         logo: "https://cdn.illacloud.com/official-website/img/official-site/intergration/Google%20sheets.svg",
         description: translate({
           id: "landingPage.integrations.classify.api.googleSheets.description",
