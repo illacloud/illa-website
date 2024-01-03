@@ -212,7 +212,7 @@ module.exports = {
         titleWeb: "5rem",
       },
       fontFamily: {
-        sans: ["var(--primary-font-sans)", ...defaultTheme.fontFamily.sans],
+        sans: [...defaultTheme.fontFamily.sans],
         mono: ["Source Code Pro", ...defaultTheme.fontFamily.mono],
         montserrat: ["Montserrat", ...defaultTheme.fontFamily.serif],
         disket: ["Disket Mono", ...defaultTheme.fontFamily.mono],
