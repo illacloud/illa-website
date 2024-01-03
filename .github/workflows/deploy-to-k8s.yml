@@ -18,7 +18,7 @@ env:
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
+    name: Deploy to k8s
     runs-on: ubuntu-latest
     environment:
       name:
@@ -27,6 +27,7 @@ jobs:
         'beta' }}
     env:
       ILLA_APP_ENV: ${{ vars.ILLA_APP_ENV }}
+      ILLA_URL: https://illa.cloud
       
     steps:
       - uses: actions/checkout@v3
