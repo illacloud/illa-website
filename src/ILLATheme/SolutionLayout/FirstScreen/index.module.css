@@ -38,7 +38,7 @@
 }
 .descStyle {
   @apply w-full font-normal text-[14px] leading-[17px] px-[20px] text-center;
-  @apply lg:leading-[22px];
+  @apply lg:leading-[22px] lg:max-w-[800px];
 }
 
 .buttonContainerStyle {
