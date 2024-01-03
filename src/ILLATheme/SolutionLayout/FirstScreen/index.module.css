@@ -1,14 +1,22 @@
 .containerStyle {
-  @apply flex text-title grow-0 text-white-01 flex-col  items-center font-bold px-[20px];
+  @apply flex h-full  mb-[60px] lg:h-[calc(100vh-77px)]  overflow-hidden text-title grow-0 text-white-01 flex-col  items-center font-bold px-[20px] relative;
+  @apply lg:mb-[120px];
 }
+/* @apply my-[64px] lg:pt-[150px] lg:pb-[100px]; */
 
+.indexBgStyle {
+  @apply w-full h-full lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];
+}
+.indexBgStyle svg {
+  @apply w-full h-auto absolute bottom-0;
+}
 .canvasContainerStyle {
-  @apply w-full h-screen overflow-hidden absolute z-[-1];
+  @apply w-full h-full  lg:h-[calc(100vh-77px)] overflow-hidden absolute z-[-1];
 }
 
 .contentContainer {
-  @apply flex justify-center flex-col items-center gap-[24px] py-[64px];
-  @apply lg:max-w-[1040px] lg:gap-[56px] lg:pt-[150px] lg:pb-[100px];
+  @apply flex h-full flex-col items-center gap-[24px] relative pt-[64px];
+  @apply lg:max-w-[1040px] lg:gap-[56px] lg:pt-[150px];
   @apply xl:max-w-[1200px] xl:w-[1200px];
 }
 .contentContainer svg {
@@ -43,7 +51,7 @@
 }
 
 .demoContainerStyle {
-  @apply w-full relative;
+  @apply w-full lg:absolute h-auto bottom-0 z-[2];
   perspective: 1040px;
 }
 
@@ -53,6 +61,6 @@
 }
 
 .linkButtonStyle {
-  @apply absolute bottom-[40px] z-[2] left-[50%];
+  @apply absolute lg:bottom-[40px] bottom-[16px] z-[2] left-[50%];
   transform: translateX(-50%);
 }

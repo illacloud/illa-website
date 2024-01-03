@@ -4,7 +4,7 @@ export const TAB_OPTIONS = [
   {
     label: translate({
       id: "ai_header.solutions_title.image_generator",
-      message: "Image generator",
+      message: "AI Image Generator",
     }),
     value: 0,
   },
@@ -18,21 +18,21 @@ export const TAB_OPTIONS = [
   {
     label: translate({
       id: "ai_header.solutions_title.dashboard",
-      message: "Dashboard",
+      message: "Data Analysis Dashboard",
     }),
     value: 2,
   },
   {
     label: translate({
       id: "ai_header.solutions_title.cms",
-      message: "CMS",
+      message: "Content Management",
     }),
     value: 3,
   },
   {
     label: translate({
       id: "ai_header.solutions_title.crm",
-      message: "CRM",
+      message: "Sales CRM",
     }),
     value: 4,
   },

@@ -79,7 +79,7 @@ const Solution: IFootContentItem[] = [
   {
     label: translate({
       id: "ai_header.solutions_title.image_generator",
-      message: "Image generator",
+      message: "AI Image Generator",
     }),
     href: "/image-generator",
     tagCategory: "homepage_menu_solutions_image_generator_click",
@@ -95,7 +95,7 @@ const Solution: IFootContentItem[] = [
   {
     label: translate({
       id: "ai_header.solutions_title.dashboard",
-      message: "Dashboard",
+      message: "Data Analysis Dashboard",
     }),
     href: "/dashboard",
     tagCategory: "homepage_menu_solutions_dashboard_click",
@@ -103,7 +103,7 @@ const Solution: IFootContentItem[] = [
   {
     label: translate({
       id: "ai_header.solutions_title.cms",
-      message: "CMS",
+      message: "Content Management",
     }),
     href: "/cms",
     tagCategory: "homepage_menu_solutions_dashboard_click",
@@ -111,7 +111,7 @@ const Solution: IFootContentItem[] = [
   {
     label: translate({
       id: "ai_header.solutions_title.crm",
-      message: "CRM",
+      message: "Sales CRM",
     }),
     href: "/crm",
     tagCategory: "homepage_menu_solutions_dashboard_click",

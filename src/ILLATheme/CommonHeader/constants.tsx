@@ -11,7 +11,7 @@ import AdminPanelIcon from "@site/static/img/solutions/admin-panel.svg"
 export const SOLUTIONS: NavbarPopoverItemType = {
   label: translate({
     id: "ai_header.solutions_title.solutions",
-    message: "Solution",
+    message: "Solutions",
   }),
   subPanelTitle: translate({
     id: "ai_header.solutions_sub_title.solutions_by_use_case",
@@ -21,7 +21,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.image_generator",
-        message: "Image generator",
+        message: "AI Image Generator",
       }),
       description: translate({
         id: "ai_header.solutions_description.image_generator",
@@ -40,7 +40,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
       description: translate({
         id: "ai_header.solutions_description.ai_voice_generator",
         message:
-          "Generate images with AI. Make the communication of ideas more efficient.",
+          "Translation and redubbing, enabling efficient production of video content for diverse language regions.",
       }),
       icon: <VoiceGeneratorIcon className="w-[24px] h-[24px]" />,
       href: "/ai-voice-generator",
@@ -49,7 +49,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.dashboard",
-        message: "Dashboard",
+        message: "Data Analysis Dashboard",
       }),
       description: translate({
         id: "ai_header.solutions_description.dashboard",
@@ -63,7 +63,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.cms",
-        message: "CMS",
+        message: "Content Management",
       }),
       description: translate({
         id: "ai_header.solutions_description.cms",
@@ -77,7 +77,7 @@ export const SOLUTIONS: NavbarPopoverItemType = {
     {
       label: translate({
         id: "ai_header.solutions_title.crm",
-        message: "CRM",
+        message: "Sales CRM",
       }),
       description: translate({
         id: "ai_header.solutions_description.crm",
