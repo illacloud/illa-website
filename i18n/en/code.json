@@ -179,51 +179,6 @@
   "blog.meta.description": {
     "message": "A stellar repository of knowledge for developers, encompassing a wide spectrum of subjects such as frontend and backend development, AI, low-code, and ILLA Cloud, etc. Here, you can immerse yourself in cutting-edge technologies, delve into emerging trends, and engage in a vibrant exchange of experiences."
   },
-  "meta.title": {
-    "message": "ILLA Cloud | Build AI Driven Business App"
-  },
-  "meta.description": {
-    "message": "Empower your team with AI Agent and advanced low-code tools to create business apps"
-  },
-  "faq.title": {
-    "message": "Frequently Asked Questions"
-  },
-  "faq.content.0.question": {
-    "message": "What kind of content can I build with ILLA AI?"
-  },
-  "faq.content.0.answer": {
-    "message": "You can build any internal application or AI tool you need, and you can also integrate AI with internal applications. For example, a dashboard, an admin panel, file content management, customer management system, text generation tool, image generation tool, email generation tool, and so on."
-  },
-  "faq.content.1.question": {
-    "message": "Who can use ILLA Cloud?"
-  },
-  "faq.content.1.answer": {
-    "message": "Whether you are a product manager, full-stack developer, project manager, data analyst...anyone can use ILLA Cloud to build tools: From designing front-end interfaces with drag-and-drop components to integrating with data sources and generating queries using AI assistance, ILLA provides a streamlined experience that removes unnecessary complexities. You don't need to be a tech expert to create your own applications."
-  },
-  "faq.content.2.question": {
-    "message": "How can I benefit from ILLA Cloud?"
-  },
-  "faq.content.2.answer": {
-    "message": "ILLA AI not only reduces the cost of building your tools but also integrates any AI capabilities you desire, making your work more efficient and enabling you to generate more valuable content in less time."
-  },
-  "faq.content.3.question": {
-    "message": "Can I customize the AI Agent for my specific business needs?"
-  },
-  "faq.content.3.answer": {
-    "message": "Yes, you can! AI Agent is based on a large language model and can be customized to perform specific tasks. You can define the behavior of the AI Agent based on your business requirements. By using ILLA Builder, you can feed data into the AI Agent and train it to accomplish designated tasks such as text processing, image recognition, and natural language processing."
-  },
-  "faq.content.4.question": {
-    "message": "What data sources does ILLA support?"
-  },
-  "faq.content.4.answer": {
-    "message": "ILLA supports integration with a variety of data sources, including PostgreSQL, MongoDB, REST API, GraphQL, Google Sheets, and more. You can swiftly connect to any data source without writing code, enabling seamless access to your desired data."
-  },
-  "faq.content.5.question": {
-    "message": "Is there any technical support available for ILLA Cloud users?"
-  },
-  "faq.content.5.answer": {
-    "message": "Yes, ILLA Cloud offers technical support to its users. If you encounter any issues or have questions about the platform's features, you can reach out to our support team for assistance. We are dedicated to helping you have a seamless experience with ILLA Cloud."
-  },
   "pricing.meta-desc": {
     "message": "Start free with all the features individual developers or small teams need to build internal applications."
   },
@@ -488,6 +443,51 @@
   "landingPage.integrations.classify.api.airtable.description": {
     "message": "A flexible and collaborative platform for managing projects, data, and teams seamlessly."
   },
+  "meta.title": {
+    "message": "ILLA Cloud | Build AI Driven Business App"
+  },
+  "meta.description": {
+    "message": "Empower your team with AI Agent and advanced low-code tools to create business apps"
+  },
+  "faq.title": {
+    "message": "Frequently Asked Questions"
+  },
+  "faq.content.0.question": {
+    "message": "What kind of content can I build with ILLA AI?"
+  },
+  "faq.content.0.answer": {
+    "message": "You can build any internal application or AI tool you need, and you can also integrate AI with internal applications. For example, a dashboard, an admin panel, file content management, customer management system, text generation tool, image generation tool, email generation tool, and so on."
+  },
+  "faq.content.1.question": {
+    "message": "Who can use ILLA Cloud?"
+  },
+  "faq.content.1.answer": {
+    "message": "Whether you are a product manager, full-stack developer, project manager, data analyst...anyone can use ILLA Cloud to build tools: From designing front-end interfaces with drag-and-drop components to integrating with data sources and generating queries using AI assistance, ILLA provides a streamlined experience that removes unnecessary complexities. You don't need to be a tech expert to create your own applications."
+  },
+  "faq.content.2.question": {
+    "message": "How can I benefit from ILLA Cloud?"
+  },
+  "faq.content.2.answer": {
+    "message": "ILLA AI not only reduces the cost of building your tools but also integrates any AI capabilities you desire, making your work more efficient and enabling you to generate more valuable content in less time."
+  },
+  "faq.content.3.question": {
+    "message": "Can I customize the AI Agent for my specific business needs?"
+  },
+  "faq.content.3.answer": {
+    "message": "Yes, you can! AI Agent is based on a large language model and can be customized to perform specific tasks. You can define the behavior of the AI Agent based on your business requirements. By using ILLA Builder, you can feed data into the AI Agent and train it to accomplish designated tasks such as text processing, image recognition, and natural language processing."
+  },
+  "faq.content.4.question": {
+    "message": "What data sources does ILLA support?"
+  },
+  "faq.content.4.answer": {
+    "message": "ILLA supports integration with a variety of data sources, including PostgreSQL, MongoDB, REST API, GraphQL, Google Sheets, and more. You can swiftly connect to any data source without writing code, enabling seamless access to your desired data."
+  },
+  "faq.content.5.question": {
+    "message": "Is there any technical support available for ILLA Cloud users?"
+  },
+  "faq.content.5.answer": {
+    "message": "Yes, ILLA Cloud offers technical support to its users. If you encounter any issues or have questions about the platform's features, you can reach out to our support team for assistance. We are dedicated to helping you have a seamless experience with ILLA Cloud."
+  },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Blog list page navigation",
     "description": "The ARIA label for the blog pagination"
@@ -531,7 +531,7 @@
     "message": "Show more"
   },
   "website_4.solution.use_this_template": {
-    "message": "Try demo now!"
+    "message": "Try demo now"
   },
   "theme.blog.post.readingTime.plurals": {
     "message": "One min read|{readingTime} min read",
@@ -558,9 +558,6 @@
   "title.star-us": {
     "message": "Star us"
   },
-  "learn_more": {
-    "message": "Learn more"
-  },
   "pricing.billing.pricing.premium.desc": {
     "message": "Upgrade your team to access advanced features"
   },
@@ -575,6 +572,9 @@
   },
   "pricing.billing.plus-btn": {
     "message": "Upgrade"
+  },
+  "learn_more": {
+    "message": "Learn more"
   },
   "landingPageDetail.audio.name": {
     "message": "Audio"
@@ -1521,12 +1521,6 @@
   "landingPageDetail.tiDB.metaDescription": {
     "message": "Learn how to connect and interact with your TiDB database using ILLA Cloud, the open-source low-code platform for building internal tools."
   },
-  "landingPage.build_with": {
-    "message": "Build with {name}"
-  },
-  "landingPage.back_to_components": {
-    "message": "Back to components"
-  },
   "theme.NotFound.p1": {
     "message": "We could not find what you were looking for.",
     "description": "The first paragraph of the 404 page"
@@ -1535,8 +1529,47 @@
     "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
   },
+  "landingPage.build_with": {
+    "message": "Build with {name}"
+  },
+  "landingPage.back_to_components": {
+    "message": "Back to components"
+  },
   "content.all.title": {
     "message": "ILLA Cloud integrates everything"
+  },
+  "how_to_use.title.3_steps_to_customize": {
+    "message": "steps to customize your AI tools"
+  },
+  "how_to_use.description.build_tools_through": {
+    "message": "Build tools through drag-and-drop components, customize your AI Agent, connect to your data sources, and make AI a smart tool tailored to your needs and data, making your work more intelligent."
+  },
+  "how_to_use.step1_title.create_ai_agent_for": {
+    "message": "Drag and drop components to design UI"
+  },
+  "how_to_use.step1_description.you_can_create_an_ai": {
+    "message": "By dragging and dropping components, you can quickly build the UI of the apps and implement any functionality you desire."
+  },
+  "how_to_use.step1_button.ai_agent_marketplace": {
+    "message": "Start building UI with ILLA"
+  },
+  "how_to_use.step2_title.build_the_frontend_p": {
+    "message": "Connect to your data sources"
+  },
+  "how_to_use.step2_description.by_dragging_and_drop": {
+    "message": "Connect to your own data sources, including MySQL, PostgreSQL, and other databases, REST APIs, GraphQL, etc. Build CRUD apps in just one minute."
+  },
+  "how_to_use.step2_button.illa_app_marketplace": {
+    "message": "Start building Apps with your data sources"
+  },
+  "how_to_use.step3_title.connect_to_your_data": {
+    "message": "Configure and connect to AI agents"
+  },
+  "how_to_use.step3_description.enable_data_integrat": {
+    "message": "Integrating AI agents into your app and empower it with AI capabilities such as intelligent analysis, content generation, and more, without AI development skills."
+  },
+  "how_to_use.step3_button.supported_data_sourc": {
+    "message": "Start building AI driven apps"
   },
   "testimonial.title.user_testimonials": {
     "message": "User Testimonials"
@@ -1595,6 +1628,9 @@
   "testimonial.testimonial6_usertitle.website_administrato": {
     "message": "Website Administrator"
   },
+  "customer.title": {
+    "message": "Trusted by thousands of teams"
+  },
   "description": {
     "message": "Empower your team with {AIAgent} and advanced low-code tools to create {businessApp}"
   },
@@ -1604,50 +1640,11 @@
   "website_4.description.business_app": {
     "message": "business app"
   },
-  "illa-Cloud": {
-    "message": "Get started!"
-  },
-  "stars": {
-    "message": "Starts"
+  "first_button": {
+    "message": "Get started"
   },
   "join-community": {
     "message": "Join Discord"
-  },
-  "customer.title": {
-    "message": "Trusted by thousands of teams"
-  },
-  "how_to_use.title.3_steps_to_customize": {
-    "message": "steps to customize your AI tools"
-  },
-  "how_to_use.description.build_tools_through": {
-    "message": "Build tools through drag-and-drop components, customize your AI Agent, connect to your data sources, and make AI a smart tool tailored to your needs and data, making your work more intelligent."
-  },
-  "how_to_use.step1_title.create_ai_agent_for": {
-    "message": "Drag and drop components to design UI"
-  },
-  "how_to_use.step1_description.you_can_create_an_ai": {
-    "message": "By dragging and dropping components, you can quickly build the UI of the apps and implement any functionality you desire."
-  },
-  "how_to_use.step1_button.ai_agent_marketplace": {
-    "message": "Start building UI with ILLA"
-  },
-  "how_to_use.step2_title.build_the_frontend_p": {
-    "message": "Connect to your data sources"
-  },
-  "how_to_use.step2_description.by_dragging_and_drop": {
-    "message": "Connect to your own data sources, including MySQL, PostgreSQL, and other databases, REST APIs, GraphQL, etc. Build CRUD apps in just one minute."
-  },
-  "how_to_use.step2_button.illa_app_marketplace": {
-    "message": "Start building Apps with your data sources"
-  },
-  "how_to_use.step3_title.connect_to_your_data": {
-    "message": "Configure and connect to AI agents"
-  },
-  "how_to_use.step3_description.enable_data_integrat": {
-    "message": "Integrating AI agents into your app and empower it with AI capabilities such as intelligent analysis, content generation, and more, without AI development skills."
-  },
-  "how_to_use.step3_button.supported_data_sourc": {
-    "message": "Start building AI driven apps"
   },
   "theme.blog.post.readMore": {
     "message": "Read More",
@@ -1776,10 +1773,6 @@
     "message": "Tags:",
     "description": "The label alongside a tag list"
   },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
-    "description": "The ARIA label for close button of announcement bar"
-  },
   "theme.admonition.caution": {
     "message": "caution",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -1804,9 +1797,9 @@
     "message": "warning",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.CodeBlock.copied": {
     "message": "Copied",
@@ -1819,6 +1812,10 @@
   "theme.CodeBlock.copy": {
     "message": "Copy",
     "description": "The copy button label on code blocks"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
     "message": "Expand sidebar category '{label}'",
@@ -1840,10 +1837,6 @@
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
@@ -1851,6 +1844,10 @@
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
