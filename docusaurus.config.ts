@@ -9,16 +9,13 @@ const config: Config = {
   favicon: "img/public/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://illacloud.github.io",
+  url: process.env.ILLA_URL,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/illa-website/",
+  baseUrl: process.env.ILLA_BASE_URL?process.env.ILLA_BASE_URL:"/",
+  organizationName: process.env.ILLA_BASE_URL?"illacloud":"", // Usually your GitHub org/user name.
+  projectName: process.env.ILLA_BASE_URL?"illa-website":"", // Usually your repo name.
   staticDirectories: ["public", "static"],
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "illacloud", // Usually your GitHub org/user name.
-  projectName: "illa-website", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",

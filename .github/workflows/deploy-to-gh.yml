@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-    # Review gh actions docs if you want to further define triggers, paths, etc
-    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+      - develop
 
 permissions:
   contents: write
@@ -17,6 +16,10 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    env:
+      ILLA_URL: "https://illacloud.github.io"
+      ILLA_BASE_URL: "/illa-website/"
+      
     steps:
       - uses: actions/checkout@v3
 
@@ -49,8 +52,6 @@ jobs:
       - name: Build website
         run: pnpm build
 
-      # Popular action to deploy to GitHub Pages:
-      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
