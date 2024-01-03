@@ -7,7 +7,7 @@
 }
 
 .bgStyle {
-  @apply absolute top-[0px] z-[0] w-full h-[382px] object-top object-none;
+  @apply hidden lg:block absolute top-[0px] z-[0] w-full h-[382px] object-top object-none;
 }
 
 .bgStyle::-webkit-media-controls-enclosure,
