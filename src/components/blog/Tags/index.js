@@ -15,7 +15,7 @@ export const Tags = () => {
           className={clsx(
             "text-xs",
             "bg-gray-100 dark:bg-gray-700",
-            "text-gray-600 dark:text-gray-400",
+            "text-gray-600 dark:text-white-04 dark:hover:text-white-01",
             "rounded",
             "py-1",
             "px-2",

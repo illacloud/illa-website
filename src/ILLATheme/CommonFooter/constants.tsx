@@ -81,7 +81,7 @@ const Solution: IFootContentItem[] = [
       id: "ai_header.solutions_title.image_generator",
       message: "Image generator",
     }),
-    href: "image-generator",
+    href: "/image-generator",
     tagCategory: "homepage_menu_solutions_image_generator_click",
   },
   {
@@ -89,7 +89,7 @@ const Solution: IFootContentItem[] = [
       id: "ai_header.solutions_title.ai_voice_generator",
       message: "AI Voice Generator",
     }),
-    href: "image-generator",
+    href: "/ai-voice-generator",
     tagCategory: "homepage_menu_solutions_ai_voice_generator_click",
   },
   {
@@ -97,7 +97,7 @@ const Solution: IFootContentItem[] = [
       id: "ai_header.solutions_title.dashboard",
       message: "Dashboard",
     }),
-    href: "image-generator",
+    href: "/dashboard",
     tagCategory: "homepage_menu_solutions_dashboard_click",
   },
   {
@@ -105,7 +105,7 @@ const Solution: IFootContentItem[] = [
       id: "ai_header.solutions_title.cms",
       message: "CMS",
     }),
-    href: "image-generator",
+    href: "/cms",
     tagCategory: "homepage_menu_solutions_dashboard_click",
   },
   {
@@ -113,7 +113,7 @@ const Solution: IFootContentItem[] = [
       id: "ai_header.solutions_title.crm",
       message: "CRM",
     }),
-    href: "image-generator",
+    href: "/crm",
     tagCategory: "homepage_menu_solutions_dashboard_click",
   },
   {
@@ -121,7 +121,7 @@ const Solution: IFootContentItem[] = [
       id: "ai_header.solutions_title.admin_panel",
       message: "Admin Panel",
     }),
-    href: "image-generator",
+    href: "/admin-panel",
     tagCategory: "homepage_menu_solutions_dashboard_click",
   },
 ]

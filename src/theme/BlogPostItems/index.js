@@ -56,7 +56,7 @@ export default function BlogPostItems({
                 "text-sm blog-md:text-base blog-lg:text-xl",
                 "blog-md:max-w-[624px]",
                 "mt-6 lg:mt-0",
-                "text-gray-500 dark:text-gray-400",
+                "text-gray-500 dark:text-gray-200",
               )}
             >
               <b>

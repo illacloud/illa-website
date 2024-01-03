@@ -1,6 +1,5 @@
 import style from "./index.module.css"
 import Translate from "@docusaurus/Translate"
-import AllConstantIcon from "@site/static/img/home3/allContant/allContant.svg"
 const AllContent = () => {
   return (
     <div className={style.allContentContainer}>
@@ -9,7 +8,11 @@ const AllContent = () => {
           ILLA Cloud integrates everything
         </Translate>
       </h2>
-      <AllConstantIcon className="w-full h-auto" />
+      <img
+        className="w-full h-auto"
+        src="https://cdn.illacloud.com/illa-website/home/all-content/all-content.webp"
+        alt="ILLA Cloud integrates everything"
+      />
     </div>
   )
 }

@@ -1,8 +1,8 @@
-import React from 'react';
-import Tag from '@theme/Tag';
-import { titleCase } from 'title-case';
-import clsx from 'clsx';
-import { Disclosure, Transition } from '@headlessui/react';
+import React from "react"
+import Tag from "@theme/Tag"
+import { titleCase } from "title-case"
+import clsx from "clsx"
+import { Disclosure, Transition } from "@headlessui/react"
 
 const ChevronDownIcon = () => (
   <svg
@@ -19,60 +19,60 @@ const ChevronDownIcon = () => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
 const mapLabel = (label) => {
   // remove `-`
-  label = label.replace(/-/g, ' ');
+  label = label.replace(/-/g, " ")
 
   // replace
   const replace = [
-    ['typescript', 'TypeScript'],
-    ['javascript', 'JavaScript'],
-    ['chakra ui', 'Chakra UI'],
-    ['material ui', 'Material UI'],
-    ['nextjs', 'Next.js'],
-    ['nestjs', 'NestJS'],
-    ['css', 'CSS'],
-  ];
+    ["typescript", "TypeScript"],
+    ["javascript", "JavaScript"],
+    ["chakra ui", "Chakra UI"],
+    ["material ui", "Material UI"],
+    ["nextjs", "Next.js"],
+    ["nestjs", "NestJS"],
+    ["css", "CSS"],
+  ]
 
   replace.forEach((element) => {
-    label = label.replace(element[0], element[1]);
-  });
+    label = label.replace(element[0], element[1])
+  })
 
   // title case
-  return titleCase(label);
-};
+  return titleCase(label)
+}
 
 const Desktop = ({
   tags,
   collapsed,
   onShowMoreClick,
 }: {
-  tags: any;
-  collapsed: boolean;
-  onShowMoreClick: (collapsed: boolean) => void;
+  tags: any
+  collapsed: boolean
+  onShowMoreClick: (collapsed: boolean) => void
 }) => {
   return (
     <div
       className={clsx(
-        'hidden lg:flex',
-        'not-prose',
-        'justify-between',
-        'items-start',
-        'bg-gray-50 dark:bg-gray-800',
-        'rounded-xl p-4 2xl:p-6',
+        "hidden lg:flex",
+        "not-prose",
+        "justify-between",
+        "items-start",
+        "bg-gray-50 dark:bg-gray-800",
+        "rounded-xl p-4 2xl:p-6",
       )}
     >
       <ul
-        className={clsx('overflow-hidden', 'flex-1', collapsed && 'h-8')}
+        className={clsx("overflow-hidden", "flex-1", collapsed && "h-8")}
         style={{
           margin: 0,
           padding: 0,
         }}
       >
         {tags.map((tag) => (
-          <li className={clsx('inline-flex', 'm-1')} key={tag.permalink}>
+          <li className={clsx("inline-flex", "m-1")} key={tag.permalink}>
             <Tag {...tag} label={mapLabel(tag.label)} />
           </li>
         ))}
@@ -80,26 +80,26 @@ const Desktop = ({
       <label
         onClick={() => onShowMoreClick(!collapsed)}
         className={clsx(
-          'flex',
-          'items-center',
-          'gap-1',
-          'cursor-pointer',
-          'flex-shrink',
-          'no-underline hover:no-underline',
-          'text-xs',
-          'bg-gray-100 dark:bg-gray-600',
-          'text-gray-600 dark:text-gray-400',
-          'rounded',
-          'py-1',
-          'px-2',
-          'mt-1',
+          "flex",
+          "items-center",
+          "gap-1",
+          "cursor-pointer",
+          "flex-shrink",
+          "no-underline hover:no-underline",
+          "text-xs",
+          "bg-gray-100 dark:bg-gray-600",
+          "text-gray-600 dark:text-gray-400",
+          "rounded",
+          "py-1",
+          "px-2",
+          "mt-1",
         )}
       >
         Show More <ChevronDownIcon />
       </label>
     </div>
-  );
-};
+  )
+}
 
 const Mobile = ({ tags }: { tags: any }) => {
   return (
@@ -108,17 +108,17 @@ const Mobile = ({ tags }: { tags: any }) => {
         {({ open }) => (
           <div
             className={clsx(
-              'rounded-[4px]',
-              'border border-gray-100 dark:border-gray-700',
+              "rounded-[4px]",
+              "border border-gray-100 dark:border-gray-700",
             )}
           >
             <Disclosure.Button
               className={clsx(
-                'bg-gray-50 dark:bg-gray-800',
-                'border-b border-gray-100 dark:border-gray-700',
-                'w-full',
-                'flex items-center gap-3',
-                'px-2 py-2',
+                "bg-gray-50 dark:bg-gray-800",
+                "border-b border-gray-100 dark:border-gray-700",
+                "w-full",
+                "flex items-center gap-3",
+                "px-2 py-2",
               )}
             >
               {/* <TriangleDownIcon
@@ -132,7 +132,7 @@ const Mobile = ({ tags }: { tags: any }) => {
                                 )}
                             /> */}
               <span
-                className={clsx('text-sm', 'dark:text-gray-0 text-gray-900')}
+                className={clsx("text-sm", "dark:text-gray-0 text-gray-900")}
               >
                 Blog Post Tags
               </span>
@@ -148,7 +148,7 @@ const Mobile = ({ tags }: { tags: any }) => {
             >
               <Disclosure.Panel className="h-[200px] overflow-auto p-2 sm:h-[232px] sm:p-6">
                 <ul
-                  className={clsx('overflow-hidden', 'flex-1')}
+                  className={clsx("overflow-hidden", "flex-1")}
                   style={{
                     margin: 0,
                     padding: 0,
@@ -156,7 +156,7 @@ const Mobile = ({ tags }: { tags: any }) => {
                 >
                   {tags.map((tag) => (
                     <li
-                      className={clsx('inline-flex', 'm-1')}
+                      className={clsx("inline-flex", "m-1")}
                       key={tag.permalink}
                     >
                       <Tag {...tag} label={mapLabel(tag.label)} />
@@ -169,33 +169,33 @@ const Mobile = ({ tags }: { tags: any }) => {
         )}
       </Disclosure>
     </div>
-  );
-};
+  )
+}
 
 export default function TagsList({ tags }) {
-  const [collapsed, setCollapsed] = React.useState(true);
+  const [collapsed, setCollapsed] = React.useState(true)
   const priorityTags = [
-    'refine',
-    'react',
-    'nextjs',
-    'typescript',
-    'tutorial',
-    'material-ui',
-    'ant-design',
-    'docker',
-    'comparison',
-  ];
+    "refine",
+    "react",
+    "nextjs",
+    "typescript",
+    "tutorial",
+    "material-ui",
+    "ant-design",
+    "docker",
+    "comparison",
+  ]
 
   const sortedTags = (tags ?? []).sort((a, b) => {
-    const aIndex = priorityTags.indexOf(a.label);
-    const bIndex = priorityTags.indexOf(b.label);
+    const aIndex = priorityTags.indexOf(a.label)
+    const bIndex = priorityTags.indexOf(b.label)
 
     if (aIndex === -1) {
-      return bIndex === -1 ? 0 : 1;
+      return bIndex === -1 ? 0 : 1
     } else {
-      return bIndex === -1 ? -1 : aIndex - bIndex;
+      return bIndex === -1 ? -1 : aIndex - bIndex
     }
-  });
+  })
 
   return (
     <>
@@ -206,5 +206,5 @@ export default function TagsList({ tags }) {
       />
       <Mobile tags={sortedTags} />
     </>
-  );
+  )
 }
