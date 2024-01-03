@@ -4,21 +4,21 @@
         <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/ja/blog</link>
         <description>ILLA Cloud Blog</description>
-        <lastBuildDate>Wed, 03 Jan 2024 08:14:13 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Jan 2024 08:20:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>Copyright © 2024 ILLA.</copyright>
         <item>
             <title><![CDATA[Quickly create a personalized data dashboard for your boss]]></title>
-            <link>https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024</link>
-            <guid>https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024</guid>
-            <pubDate>Wed, 03 Jan 2024 08:14:13 GMT</pubDate>
+            <link>https://illacloud.github.io/illa-website/ja/blog/build-dashboard</link>
+            <guid>https://illacloud.github.io/illa-website/ja/blog/build-dashboard</guid>
+            <pubDate>Wed, 03 Jan 2024 08:20:52 GMT</pubDate>
             <description><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></description>
             <content:encoded><![CDATA[<p>Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.</p>
 <p>After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.</p>
 <p>Using efficient tools to leave work early every day.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Some issues in the construction への直接リンク" title="Some issues in the construction への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/ja/blog/build-dashboard#some-issues-in-the-construction" class="hash-link" aria-label="Some issues in the construction への直接リンク" title="Some issues in the construction への直接リンク">​</a></h2>
 <p>The business of each company is distributed across different systems, and there are some connections between these systems. Some data needs to be queried using databases:</p>
 <ul>
 <li>Postgresql</li>
@@ -41,7 +41,7 @@
 <li>Support for various mainstream data sources.</li>
 <li>Simple installation and usage.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="How to solve への直接リンク" title="How to solve への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/ja/blog/build-dashboard#how-to-solve" class="hash-link" aria-label="How to solve への直接リンク" title="How to solve への直接リンク">​</a></h2>
 <p>Here, I recommend a user-friendly open-source project called ILLA Cloud. ILLA Cloud is a low-code tool specifically designed to address scenarios with personalized requirements.</p>
 <p>📙 Official website: <a href="https://illa.cloud/?utm_source=juejin" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
 <p>⏬ Github repository: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
@@ -69,9 +69,9 @@
 </ul>
 <p>ILLA supports various data sources, allowing quick retrieval of data from a wide range of mainstream sources.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/integration.png" alt="integration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="AI-driven への直接リンク" title="AI-driven への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/ja/blog/build-dashboard#ai-driven" class="hash-link" aria-label="AI-driven への直接リンク" title="AI-driven への直接リンク">​</a></h2>
 <p>ILLA not only provides a dashboard but also allows the queried data to be processed further using LLM (Language Model). For example, a set of messy data can be processed into another format as required, enabling alignment of data from multiple sources.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Advantages への直接リンク" title="Advantages への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/ja/blog/build-dashboard#advantages" class="hash-link" aria-label="Advantages への直接リンク" title="Advantages への直接リンク">​</a></h2>
 <p>Building a beautiful dashboard is quick and easy using drag and drop within a few minutes.</p>
 <p>Moreover, compared to various traditional BI tools, ILLA Cloud:</p>
 <ul>
@@ -85,7 +85,7 @@
 <p>Additionally, ILLA Cloud can not only build data dashboards but also quickly create exclusive management dashboards, accelerating your business iteration.</p>
 <p>As a low-code tool, ILLA Cloud also supports collaboration among multiple people, allowing them to build dashboards together.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/collaboration.png" alt="collaboration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/build-dashboard#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
 <p>After using ILLA Cloud, there's no need to worry about the boss's personalized requirements. Within a few minutes, you can build a personalized data dashboard for the boss, becoming a highly efficient employee. Why not give it a try now!</p>]]></content:encoded>
             <category>data dashboard</category>
         </item>
@@ -93,7 +93,7 @@
             <title><![CDATA[Low Code vs Traditional Development: Optimal Efficiency in Choice]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/lowcode-vs-traditional</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/lowcode-vs-traditional</guid>
-            <pubDate>Wed, 03 Jan 2024 08:14:13 GMT</pubDate>
+            <pubDate>Wed, 03 Jan 2024 08:20:52 GMT</pubDate>
             <description><![CDATA[With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.]]></description>
             <content:encoded><![CDATA[<p>With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-launching-a-transient-business-initiative">When Launching a Transient Business Initiative<a href="https://illacloud.github.io/illa-website/ja/blog/lowcode-vs-traditional#when-launching-a-transient-business-initiative" class="hash-link" aria-label="When Launching a Transient Business Initiative への直接リンク" title="When Launching a Transient Business Initiative への直接リンク">​</a></h2>
@@ -130,7 +130,7 @@
             <title><![CDATA[2024 has arrived, should I choose MUI?]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/mui-2024</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/mui-2024</guid>
-            <pubDate>Wed, 03 Jan 2024 08:14:13 GMT</pubDate>
+            <pubDate>Wed, 03 Jan 2024 08:20:52 GMT</pubDate>
             <description><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></description>
             <content:encoded><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains highly prosperous. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Why Choose a Component Library? への直接リンク" title="Why Choose a Component Library? への直接リンク">​</a></h2>
@@ -197,7 +197,7 @@
             <title><![CDATA[Elegant Use of nvm for Node.js Management on Mac in 2024]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024</guid>
-            <pubDate>Wed, 03 Jan 2024 08:14:13 GMT</pubDate>
+            <pubDate>Wed, 03 Jan 2024 08:20:52 GMT</pubDate>
             <description><![CDATA[Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.]]></description>
             <content:encoded><![CDATA[<p>Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.</p>
 <p>The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.</p>
@@ -260,80 +260,63 @@
             <title><![CDATA[2024 has arrived, should I choose Shadcn UI?]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024</guid>
-            <pubDate>Wed, 03 Jan 2024 08:14:13 GMT</pubDate>
+            <pubDate>Wed, 03 Jan 2024 08:20:52 GMT</pubDate>
             <description><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.]]></description>
-            <content:encoded><![CDATA[<p>Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.</p>
-<p>After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.</p>
-<p>Using efficient tools to leave work early every day.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-issues-in-the-construction">Some issues in the construction<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#some-issues-in-the-construction" class="hash-link" aria-label="Some issues in the construction への直接リンク" title="Some issues in the construction への直接リンク">​</a></h2>
-<p>The business of each company is distributed across different systems, and there are some connections between these systems. Some data needs to be queried using databases:</p>
+            <content:encoded><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#why-choose-a-component-library" class="hash-link" aria-label="Why Choose a Component Library? への直接リンク" title="Why Choose a Component Library? への直接リンク">​</a></h2>
+<p>In general, companies choose a component library when building web applications to streamline repetitive tasks. Component libraries offer a range of out-of-the-box components like Select, Input, CheckBox, etc. These components, with customizable styles or built-in attractive styles, enable rapid development of aesthetically pleasing websites without starting from scratch.</p>
+<p>In summary, we typically use component libraries in two scenarios:</p>
 <ul>
-<li>Postgresql</li>
-<li>Mysql</li>
-<li>MongoDB</li>
-<li>...</li>
+<li>External tools: Directly facing company users, usually aligned with the company's style, more aesthetically pleasing, and responsive.</li>
+<li>Internal tools: Aimed at internal use by company employees, emphasizing design aesthetics and rapid functionality implementation.</li>
 </ul>
-<p>Some data comes from different types of microservices, possibly obtained from a specific API:</p>
+<p>Next, we will analyze the Shadcn UI component library based on the following points:</p>
+<ol>
+<li>Design</li>
+<li>Richness of Features</li>
+<li>How to Choose in Different Scenarios</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-choices-for-internal-tool-scenarios">Other Choices for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#other-choices-for-internal-tool-scenarios" class="hash-link" aria-label="Other Choices for Internal Tool Scenarios への直接リンク" title="Other Choices for Internal Tool Scenarios への直接リンク">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
 <ul>
-<li>User Detail API</li>
-<li>Product Detail API</li>
-<li>...</li>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
 </ul>
-<p>The most challenging thing is that some data requires merging and secondary processing of both database and API data.</p>
-<p>These issues make it very troublesome to build a personalized data dashboard. If starting development from scratch, we need to adapt to different data sources, leading to a steep increase in engineering costs.</p>
-<p>Therefore, we need a flexible tool for displaying data dashboards, as "development" is not the most important; "display" is.</p>
-<p>This tool needs some objective advantages:</p>
+<p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-shadcn-ui">Features of Shadcn UI<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#features-of-shadcn-ui" class="hash-link" aria-label="Features of Shadcn UI への直接リンク" title="Features of Shadcn UI への直接リンク">​</a></h2>
+<p>Some detailed data about Shadcn:</p>
 <ul>
-<li>Rich charts to display data from different dimensions.</li>
-<li>Support for various mainstream data sources.</li>
-<li>Simple installation and usage.</li>
+<li>⭐ Github Stars: 37k</li>
+<li>⏬ NPM Downloads: 23,962 downloads per week</li>
+<li>💪🏼 First Release Date: Mar 8, 2023</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-solve">How to solve<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#how-to-solve" class="hash-link" aria-label="How to solve への直接リンク" title="How to solve への直接リンク">​</a></h2>
-<p>Here, I recommend a user-friendly open-source project called ILLA Cloud. ILLA Cloud is a low-code tool specifically designed to address scenarios with personalized requirements.</p>
-<p>📙 Official website: <a href="https://illa.cloud/?utm_source=juejin" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
-<p>⏬ Github repository: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
-<p>⭐ Github Stars: 9k</p>
-<p>Below is a demo using fake data, depicting the sales situation of a product in a company, including:</p>
+<p>Shadcn UI is a relatively new project that gained 37k stars in less than a year, indicating its rapid recognition in the open-source community.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/shadcn-ui.png" alt="shadcn-ui" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#design" class="hash-link" aria-label="Design への直接リンク" title="Design への直接リンク">​</a></h3>
+<p>In terms of design, Shadcn UI leans towards a business style with a clean UI, suitable for internal tools and serious application scenarios. Shadcn UI supports custom themes, but it seems to offer customization only for:</p>
 <ul>
-<li>Monthly sales growth trends</li>
-<li>Monthly revenue</li>
-<li>Total revenue obtained</li>
-<li>Number of purchasers</li>
-<li>Detailed information about each purchasing user</li>
+<li>Colors</li>
+<li>Border radii</li>
+<li>Dark mode / Light mode</li>
+<li>Predefined "Default" and "New York" styles</li>
 </ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/data-dashboard.png" alt="data_dashboard" class="img_CfaS"></p>
-<p>This chart uses several components:</p>
+<p>In terms of fine-grained control, such as font and font size, it appears to lack flexibility. However, for internal tool scenarios, this level of control may be sufficient, but for external tools, it might be somewhat limiting.</p>
+<p>In terms of CSS, Shadcn UI supports both traditional CSS and CSS-in-JS, using <a href="https://stitches.dev/" target="_blank" rel="noopener noreferrer">Stitches</a> for the CSS-in-JS solution. Traditional CSS is supported by default, but additional configuration might be needed for less and sass, and it's not out-of-the-box.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#richness-of-features" class="hash-link" aria-label="Richness of Features への直接リンク" title="Richness of Features への直接リンク">​</a></h3>
+<p>The library's feature richness completely satisfies daily development needs, with most capabilities supported and comprehensive callbacks. Shadcn UI supports crucial capabilities, including but not limited to:</p>
 <ul>
-<li>Data Grid</li>
-<li>Chart</li>
-<li>Statistic</li>
-<li>Menu</li>
+<li>SSR</li>
+<li>Accessibility</li>
+<li>Animation</li>
 </ul>
-<p>It was quickly built through drag and drop. The data sources come from:</p>
-<ul>
-<li>Supabase: A Serverless Postgresql</li>
-<li>API</li>
-</ul>
-<p>ILLA supports various data sources, allowing quick retrieval of data from a wide range of mainstream sources.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/integration.png" alt="integration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ai-driven">AI-driven<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#ai-driven" class="hash-link" aria-label="AI-driven への直接リンク" title="AI-driven への直接リンク">​</a></h2>
-<p>ILLA not only provides a dashboard but also allows the queried data to be processed further using LLM (Language Model). For example, a set of messy data can be processed into another format as required, enabling alignment of data from multiple sources.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#advantages" class="hash-link" aria-label="Advantages への直接リンク" title="Advantages への直接リンク">​</a></h2>
-<p>Building a beautiful dashboard is quick and easy using drag and drop within a few minutes.</p>
-<p>Moreover, compared to various traditional BI tools, ILLA Cloud:</p>
-<ul>
-<li>Supports data querying from both databases and APIs</li>
-<li>Simple installation, directly usable on the web page without any downloads</li>
-<li>For secondary data processing, uses Javascript for direct and simple processing</li>
-<li>Supports various mainstream charts, meeting most requirements</li>
-<li>The Transformer feature effectively solves the problem of merging and processing data between multiple sources, eliminating worries about data format issues</li>
-</ul>
-<p>As an open-source project, ILLA Cloud also supports secondary development, with an active community for collaboration with other developers. No need to worry about maintenance issues.</p>
-<p>Additionally, ILLA Cloud can not only build data dashboards but also quickly create exclusive management dashboards, accelerating your business iteration.</p>
-<p>As a low-code tool, ILLA Cloud also supports collaboration among multiple people, allowing them to build dashboards together.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-dashboard/collaboration.png" alt="collaboration" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>After using ILLA Cloud, there's no need to worry about the boss's personalized requirements. Within a few minutes, you can build a personalized data dashboard for the boss, becoming a highly efficient employee. Why not give it a try now!</p>]]></content:encoded>
+<p>However, for more advanced requirements like extremely rich charts and high-performance tables, it seems not to be supported. With the continuous development of the project, it is expected that the project will evolve over time.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-ui-2024#how-to-choose" class="hash-link" aria-label="How to Choose への直接リンク" title="How to Choose への直接リンク">​</a></h2>
+<p>✅ Advantages</p>
+<p>If you are a curious open-source enthusiast, not requiring highly customized UI, and without complex data processing needs, Shadcn UI is recommended for development. It is lightweight, with simpler configuration, ready to use out-of-the-box, allowing direct development without worrying about details.</p>
+<p>❌ Disadvantages</p>
+<p>If you have a high need for UI and component customization and plan to use Shadcn UI for large projects, it is not recommended. Shadcn UI's customization capabilities are not as robust, and it does not provide out-of-the-box charts and high-performance data components. In such cases, you may need to look for other open-source projects to supplement these features.</p>]]></content:encoded>
             <category>shadcn-ui</category>
             <category>react</category>
             <category>javascript</category>
@@ -342,7 +325,7 @@
             <title><![CDATA[Shadcn vs MUI: A Comparative Analysis of Strengths and Weaknesses]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/shadcn-vs-mui</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/shadcn-vs-mui</guid>
-            <pubDate>Wed, 03 Jan 2024 08:14:13 GMT</pubDate>
+            <pubDate>Wed, 03 Jan 2024 08:20:52 GMT</pubDate>
             <description><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.]]></description>
             <content:encoded><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/ja/blog/shadcn-vs-mui#why-choose-a-component-library" class="hash-link" aria-label="Why Choose a Component Library? への直接リンク" title="Why Choose a Component Library? への直接リンク">​</a></h2>
@@ -420,7 +403,7 @@
             <title><![CDATA[Best Open-Source Low-Code Platforms in 2024]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/top-5-best-open-source-low-code-platforms-in-2024</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/top-5-best-open-source-low-code-platforms-in-2024</guid>
-            <pubDate>Wed, 03 Jan 2024 08:14:13 GMT</pubDate>
+            <pubDate>Wed, 03 Jan 2024 08:20:52 GMT</pubDate>
             <description><![CDATA[2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.]]></description>
             <content:encoded><![CDATA[<p>2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-low-code-tools">Why Choose Low-Code Tools?<a href="https://illacloud.github.io/illa-website/ja/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-low-code-tools" class="hash-link" aria-label="Why Choose Low-Code Tools? への直接リンク" title="Why Choose Low-Code Tools? への直接リンク">​</a></h2>
