@@ -6,8 +6,6 @@ import { sendTagEvent } from "@site/src/utils/gtag"
 import { MENU_ITEMS, SOLUTIONS } from "../constants"
 import LocaleDropdownNavbarItem from "@theme/NavbarItem/LocaleDropdownNavbarItem"
 import CloseWhiteIcon from "@site/static/img/public/close.svg"
-import { CONTACT_US_URL } from "./constant"
-import Translate from "@docusaurus/Translate"
 import { Disclosure } from "@headlessui/react"
 import { MenuItem } from "./menuItem"
 import style from "./index.module.css"
@@ -71,19 +69,6 @@ const MobileMenu = ({ menuExpand, closeMenu }) => {
           )
         })}
       </div>
-      <Link
-        href={CONTACT_US_URL}
-        onClick={() => {
-          sendTagEvent({
-            action: "click",
-            category: "homepage_menu_contact_click",
-          })
-          closeMenu && closeMenu()
-        }}
-        className={style.menuItemStyle}
-      >
-        <Translate id="nav.contact">Book demo</Translate>
-      </Link>
 
       <div className="max-h-[180px] overflow-y-auto list-none	">
         <LocaleDropdownNavbarItem
