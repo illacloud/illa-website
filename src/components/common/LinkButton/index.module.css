@@ -11,7 +11,7 @@
 }
 
 .normalSizeStyle {
-  @apply min-w-[320px] h-[56px] rounded-[24px] text-[16px];
+  @apply min-w-[320px] h-[56px] rounded-[28px] text-[16px];
 }
 
 .largeSizeStyle {

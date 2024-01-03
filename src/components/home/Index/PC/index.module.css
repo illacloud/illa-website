@@ -10,6 +10,13 @@
   @apply absolute top-[0px] z-[0] w-full h-[382px] object-top object-none;
 }
 
+.bgStyle::-webkit-media-controls-enclosure,
+.bgStyle::-webkit-media-controls-panel,
+.bgStyle::-webkit-media-controls-play-button,
+.bgStyle::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
 .bannerContentContainer {
   @apply flex justify-center pt-[24px] flex-col items-center gap-[186px];
   @apply lg:max-w-[1040px];
