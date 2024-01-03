@@ -34,7 +34,7 @@
 }
 
 .solutionBaseBgStyle {
-  @apply w-ful overflow-hiddenl flex-none transition-opacity duration-500 ease-in-out;
+  @apply w-ful overflow-hidden flex-none transition-opacity duration-500 ease-in-out;
 }
 
 .solutionSelectBgStyle {
