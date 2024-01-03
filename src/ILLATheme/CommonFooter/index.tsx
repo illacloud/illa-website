@@ -15,6 +15,7 @@ import Translate, { translate } from "@docusaurus/Translate"
 import { ICommonFooterProps } from "./interface"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import { POLICY, SERVICE } from "@site/src/constants/url"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 const CommonFooter: FC<ICommonFooterProps> = ({
   whiteTheme = false,
@@ -89,7 +90,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                       return (
                         <Link
                           key={label}
-                          to={getUtmParams(href)}
+                          to={getUtmParams(fixedPath(href))}
                           className="hover:no-underline"
                         >
                           {icon ? (

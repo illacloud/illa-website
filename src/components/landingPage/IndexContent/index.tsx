@@ -5,6 +5,7 @@ import clsx from "clsx"
 import { IContentItemsProps, IIndexContentProps } from "./interface"
 import { LearnMore } from "../LearnMore"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 const ContentItems: FC<IContentItemsProps> = ({ contentList, pageName }) => {
   const getUtmParams = useUtmParams()
@@ -51,7 +52,7 @@ const ContentItems: FC<IContentItemsProps> = ({ contentList, pageName }) => {
             <span className={styles.itemDescription}>{description}</span>
           </div>
           <LearnMore
-            href={getUtmParams(`/${pageName}/${path}`)}
+            href={getUtmParams(fixedPath(`/${pageName}/${path}`))}
             onClick={() => onClick(name)}
           />
         </div>
