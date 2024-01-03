@@ -11,8 +11,8 @@ export const usePaintBg = (
     const ctx = canvas.getContext("2d")
     const interval = 56
 
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
+    canvas.width = containerRef.current.clientWidth
+    canvas.height = containerRef.current.clientHeight
 
     const drawGrid = () => {
       ctx.strokeStyle = "rgba(255, 255, 255, 0.1)"

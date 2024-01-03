@@ -24,7 +24,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #9580ff;
   --ifm-color-primary-dark: #755aff;
   --ifm-color-primary-darker: #6547ff;
@@ -34,4 +34,22 @@
   --ifm-color-primary-lightest: #f5f3ff;
   --ifm-background-color: #0a0a0a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/Ubuntu-Mono-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2");
+  src: url("../fonts/JetBrainsMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Eurostile Becker";
+  src: url("../fonts/Eurostile Becker Heavy Regular.ttf") format("truetype");
 }
