@@ -10,6 +10,7 @@ import Interpolate from "@docusaurus/Interpolate"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { addUrlParams } from "@site/src/utils/urlParams"
 import { CLOUD_URL, DEMO_BASE_URL } from "@site/src/constants/url"
+import IndexBgSvg from "@site/static/img/solutions/indexBg.svg"
 
 interface IFirstScreenProps {
   slogan: string
@@ -39,6 +40,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
 
   const rotateX = useTransform(scrollYProgress, [0, 0.015], [15, 0])
   const scale = useTransform(scrollYProgress, [0, 0.015], [0.95, 1])
+  const scrollY = useTransform(scrollYProgress, [0, 0.015], ["15%", "0%"])
 
   usePaintBg(canvasRef, containerRef)
 
@@ -57,6 +59,9 @@ const FirstScreen: FC<IFirstScreenProps> = ({
       <div className={style.canvasContainerStyle}>
         <canvas ref={canvasRef} />
       </div>
+      <span className={style.indexBgStyle}>
+        <IndexBgSvg />
+      </span>
       <div className={style.contentContainer}>
         <div className={style.textContainerStyle}>
           <h1 className={style.sloganStyle}>
@@ -85,31 +90,32 @@ const FirstScreen: FC<IFirstScreenProps> = ({
             style={{
               rotateX: rotateX,
               scale: scale,
+              y: scrollY,
             }}
           >
             <img src={image} width="100%" alt={imageAlt} />
-            <div className={style.linkButtonStyle}>
-              <LinkButton
-                href={handleDemoHref(appID)}
-                size="small"
-                colorType="dark"
-                handleClick={() => {
-                  sendTagEvent({
-                    action: "solution_try_for_free",
-                  })
-                }}
-              >
-                <Translate id="website_4.solution.use_this_template">
-                  Try demo now!
-                </Translate>
-              </LinkButton>
-            </div>
           </motion.div>
           <img
             className="lg:hidden block w-full rounded-[8px]"
             src={image}
             alt={imageAlt}
           />
+        </div>
+        <div className={style.linkButtonStyle}>
+          <LinkButton
+            href={handleDemoHref(appID)}
+            size="small"
+            colorType="dark"
+            handleClick={() => {
+              sendTagEvent({
+                action: "solution_try_for_free",
+              })
+            }}
+          >
+            <Translate id="website_4.solution.use_this_template">
+              Try demo now!
+            </Translate>
+          </LinkButton>
         </div>
       </div>
     </div>
