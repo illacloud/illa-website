@@ -143,37 +143,6 @@ export const BannerModal: FC<Props> = ({
                         loading="lazy"
                       />
                     </Link>
-                    <p
-                      className={clsx(
-                        "text-2xl",
-                        "font-semibold",
-                        variant === "gray" && "bg-clip-text",
-                        variant === "gray" && "text-transparent",
-                        variant === "gray" && "bg-banner-examples-text",
-                        variant === "purple" && "text-gray-0",
-                      )}
-                    >
-                      {title}
-                    </p>
-                    {/* <LandingRainbowButton
-                      className={clsx('w-max')}
-                      buttonClassname={clsx('!px-4', '!py-4')}
-                      href={button.href}
-                      onClick={button.onClick}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <div
-                        className={clsx(
-                          'text-gray-900',
-                          'text-base',
-                          'font-bold',
-                        )}
-                      >
-                        {button.text}
-                      </div>
-                      <ArrowRightIcon className={clsx('w-4', 'h-4')} />
-                    </LandingRainbowButton> */}
                   </div>
                   <button
                     className={clsx(
