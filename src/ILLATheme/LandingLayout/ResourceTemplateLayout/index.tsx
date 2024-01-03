@@ -5,6 +5,7 @@ import { LpHeader } from "../../../components/landingPage/Header"
 import styles from "./style.module.css"
 import CommBottom from "../../../components/common/CommBottom"
 import { LpTemplate } from "../../../components/landingPage/Template"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 const ResourceTemplateLayout: FC<IResourceTemplateLayoutProps> = (props) => {
   const { title, description, headerConfig, footerConfig, schemaData } = props
@@ -26,7 +27,7 @@ const ResourceTemplateLayout: FC<IResourceTemplateLayoutProps> = (props) => {
             leftImage={headerConfig.leftImage}
             isShowBack={headerConfig.isShowBack}
             backText={headerConfig.backText}
-            prevPagePath={headerConfig.prevPagePath}
+            prevPagePath={fixedPath(headerConfig.prevPagePath)}
           />
           <LpTemplate />
         </div>

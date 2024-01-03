@@ -7,6 +7,7 @@ import clsx from "clsx"
 import { sendTagEvent } from "@site/src/utils/gtag"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import style from "./index.module.css"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const Solutions: FC<{ whiteTheme: boolean }> = ({ whiteTheme }) => {
   const getUtmParams = useUtmParams()
@@ -59,7 +60,7 @@ export const Solutions: FC<{ whiteTheme: boolean }> = ({ whiteTheme }) => {
               <Menu.Item key={subItem.label}>
                 {() => (
                   <Link
-                    to={getUtmParams(subItem.href)}
+                    to={getUtmParams(fixedPath(subItem.href))}
                     className={clsx(
                       style.basePanelItemContainerStyle,
                       whiteTheme

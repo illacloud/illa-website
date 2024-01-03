@@ -33,7 +33,7 @@ export const Community: IFootContentItem[] = [
   },
   {
     icon: <LinkedInIcon />,
-    href: "https://www.linkedin.com/company/illacloud/",
+    href: "https://www.linkedin.com/company/illacloud",
     tagCategory: "homepage_footer_linkedin_click",
     label: "LinkedIn",
   },
@@ -45,7 +45,7 @@ const AboutUs: IFootContentItem[] = [
       message: "Status",
       id: "footer.status",
     }),
-    href: "https://status.illacloud.com/",
+    href: "https://status.illacloud.com",
     tagCategory: "homepage_footer_status_click",
   },
   {

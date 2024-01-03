@@ -9,6 +9,7 @@ import { sendTagEvent } from "@site/src/utils/gtag"
 import style from "./index.module.css"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import { Solutions } from "../SolutionsItem"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
   const { whiteTheme, hasBgColor } = props
@@ -23,7 +24,7 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
             return (
               <Link
                 key={item.label}
-                to={getUtmParams(item.href)}
+                to={getUtmParams(fixedPath(item.href))}
                 onClick={() => {
                   sendTagEvent({
                     action: "click",
@@ -95,7 +96,7 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
                           }}
                         >
                           <Link
-                            to={getUtmParams(subItem.href)}
+                            to={getUtmParams(fixedPath(subItem.href))}
                             className={clsx(
                               style.panelItemStyle,
                               whiteTheme

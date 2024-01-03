@@ -5,6 +5,7 @@ import clsx from "clsx"
 import Link from "@docusaurus/Link"
 import Translate from "@docusaurus/Translate"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const FooterItems = ({ items, whiteTheme }) => {
   const [showMore, setShowMore] = useState(false)
@@ -25,7 +26,7 @@ export const FooterItems = ({ items, whiteTheme }) => {
       {items.slice(0, 6).map(({ label, href = "", tagCategory }) => (
         <Link
           key={label}
-          to={getUtmParams(href)}
+          to={getUtmParams(fixedPath(href))}
           className="hover:no-underline"
         >
           <span

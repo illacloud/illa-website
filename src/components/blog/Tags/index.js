@@ -3,6 +3,7 @@ import Link from "@docusaurus/Link"
 import { useBlogPost } from "@docusaurus/theme-common/internal"
 import clsx from "clsx"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const Tags = () => {
   const { metadata } = useBlogPost()
@@ -11,7 +12,7 @@ export const Tags = () => {
     <div className="flex flex-wrap gap-2 pb-6 pl-1">
       {metadata.tags.map((tag) => (
         <Link
-          to={getUtmParams(tag.permalink)}
+          to={getUtmParams(fixedPath(tag.permalink))}
           className={clsx(
             "text-xs",
             "bg-gray-100 dark:bg-gray-700",

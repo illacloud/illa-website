@@ -2,12 +2,13 @@ import React from "react"
 import clsx from "clsx"
 import Link from "@docusaurus/Link"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export default function Tag({ permalink, label, isActive, className }) {
   const getUtmParams = useUtmParams()
   return (
     <Link
-      to={getUtmParams(permalink)}
+      to={getUtmParams(fixedPath(permalink))}
       onClick={(e) => console.log("1234")}
       className={clsx(
         "no-underline hover:no-underline",
