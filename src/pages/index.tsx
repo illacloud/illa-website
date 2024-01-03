@@ -22,7 +22,7 @@ export default function Home(): JSX.Element {
         </script>
       </Head>
       <CommonLayout {...HOME_META_INFO}>
-        <div className="bg-garyBlue-01 overflow-visible w-full relative z-[1] font-sans">
+        <div className="bg-black overflow-visible w-full relative z-[1] font-sans">
           <CommonHeader />
           <BannerPC githubStarts={githubStarts} />
           <BannerMobile githubStarts={githubStarts} />
