@@ -96,7 +96,7 @@ export const INDEX_COMPONENTS_CONTENT_DATA = [
           id: "landingPage.components.classify.inputs.checkboxGroup.title",
           message: "CheckboxGroup",
         }),
-        path: "Checkbox Group",
+        path: "CheckboxGroup",
         description: translate({
           id: "landingPage.components.classify.inputs.checkboxGroup.description",
           message:
