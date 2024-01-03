@@ -159,14 +159,6 @@ export const MENU_ITEMS: MenuItemType[] = [
 export const OPERATE_MENU_ITEMS = [
   {
     label: translate({
-      id: "nav.contact",
-      message: "Book demo",
-    }),
-    href: "https://calendly.com/illa-demo/0295",
-    category: "homepage_menu_contact_click",
-  },
-  {
-    label: translate({
       id: "nav.login",
       message: "Login",
     }),

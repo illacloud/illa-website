@@ -7,5 +7,5 @@
 }
 
 :global .swiper-slide {
-  width: auto !important;
+  width: 320px !important;
 }

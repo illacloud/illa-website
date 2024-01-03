@@ -12,7 +12,7 @@ const SolutionsMobile: FC = () => {
       centeredSlides
       slidesPerView="auto"
       spaceBetween={0}
-      className="w-auto"
+      className="w-full"
       autoplay={{
         delay: 3000,
       }}

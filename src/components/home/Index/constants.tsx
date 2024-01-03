@@ -3,22 +3,22 @@ import { translate } from "@docusaurus/Translate"
 export const TAB_OPTIONS = [
   {
     label: translate({
-      id: "ai_header.solutions_title.image_generator",
-      message: "AI Image Generator",
+      id: "ai_header.solutions_title.dashboard",
+      message: "Data Analysis Dashboard",
     }),
     value: 0,
   },
   {
     label: translate({
-      id: "ai_header.solutions_title.ai_voice_generator",
-      message: "AI Voice Generator",
+      id: "ai_header.solutions_title.image_generator",
+      message: "AI Image Generator",
     }),
     value: 1,
   },
   {
     label: translate({
-      id: "ai_header.solutions_title.dashboard",
-      message: "Data Analysis Dashboard",
+      id: "ai_header.solutions_title.ai_voice_generator",
+      message: "AI Voice Generator",
     }),
     value: 2,
   },
@@ -45,9 +45,9 @@ export const TAB_OPTIONS = [
   },
 ]
 
+//   3. Dashboard: ILAcx4p1C7Xz
 //   1. Image generator: ILAcx4p1C7Bc
 //   2. AI Voice Generator:  ILAcx4p1C7Bb
-//   3. Dashboard: ILAcx4p1C7Xz
 //   4. CMS: ILAcx4p1C72G
 //   5. CRM: ILAcx4p1C7N5
 //   6. Admin Panel: ILAcx4p1C7Oy
@@ -55,61 +55,55 @@ export const SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerate.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/dashboard_content.webp"
         className="w-full"
       />
     ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/Browser%202.png"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/dashboard_bg.webp"
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7Bc",
+    appID: "ILAcx4p1C7Xz",
     value: 0,
   },
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerate2.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/image_generate_content.webp"
         className="w-full"
       />
     ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/image_generate_bg.webp"
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7Bb",
+    appID: "ILAcx4p1C7Bc",
     value: 1,
   },
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerate.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/ai_voice_content.webp"
         className="w-full"
       />
     ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/Browser.png"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/ai_voice_bg.webp"
         className="w-full"
       />
     ),
-    appID: "ILAcx4p1C7Xz",
+    appID: "ILAcx4p1C7Bb",
     value: 2,
   },
   {
-    content: (
-      <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerate2.svg"
-        className="w-full"
-      />
-    ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/cms_bg.webp"
         className="w-full"
       />
     ),
@@ -119,13 +113,13 @@ export const SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerate.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/crm_content.webp"
         className="w-full"
       />
     ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/crm_bg.webp"
         className="w-full"
       />
     ),
@@ -135,13 +129,13 @@ export const SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerate2.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/admin_content.webp"
         className="w-full"
       />
     ),
     contentBg: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/admin_panel_bg.webp"
         className="w-full"
       />
     ),
@@ -154,7 +148,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/mix_dashboard.webp"
         className="w-full max-w-[320px]"
       />
     ),
@@ -162,7 +156,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/mix_image_generator.webp"
         className="w-full max-w-[320px]"
       />
     ),
@@ -170,7 +164,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/mix_ai_voice.webp"
         className="w-full max-w-[320px]"
       />
     ),
@@ -178,7 +172,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/cms_bg.webp"
         className="w-full max-w-[320px]"
       />
     ),
@@ -186,7 +180,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/mix_crm.webp"
         className="w-full max-w-[320px]"
       />
     ),
@@ -194,7 +188,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
   {
     content: (
       <img
-        src="https://cdn.illacloud.com/illa-website/test/imageGenerateBg2.svg"
+        src="https://cdn.illacloud.com/illa-website/home/solutions/mix_admin_panel.webp"
         className="w-full max-w-[320px]"
       />
     ),
