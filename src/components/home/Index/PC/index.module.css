@@ -3,7 +3,7 @@
 }
 
 .canvasContainerStyle {
-  @apply w-full h-full overflow-hidden absolute z-[-1];
+  @apply w-full overflow-hidden absolute z-[-1];
 }
 
 .bgStyle {
