@@ -48,7 +48,7 @@ export default function BlogPostItem({ className }) {
               className={clsx(
                 "text-xs",
                 "bg-gray-100 dark:bg-gray-700",
-                "text-white-04 hover:text-white-01 dark:text-gray-400 dark:hover:text-gray-400",
+                "text-white-04 hover:text-white-01 dark:text-white-04 dark:hover:text-white-01",
                 "no-underline",
                 "rounded",
                 "px-2 py-1",

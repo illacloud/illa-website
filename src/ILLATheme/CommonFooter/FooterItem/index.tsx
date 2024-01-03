@@ -4,9 +4,11 @@ import style from "../index.module.css"
 import clsx from "clsx"
 import Link from "@docusaurus/Link"
 import Translate from "@docusaurus/Translate"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
 export const FooterItems = ({ items, whiteTheme }) => {
   const [showMore, setShowMore] = useState(false)
+  const getUtmParams = useUtmParams()
 
   const handleShowMore = () => {
     setShowMore(!showMore)
@@ -21,7 +23,11 @@ export const FooterItems = ({ items, whiteTheme }) => {
   return (
     <>
       {items.slice(0, 6).map(({ label, href = "", tagCategory }) => (
-        <Link key={label} to={href} className="hover:no-underline">
+        <Link
+          key={label}
+          to={getUtmParams(href)}
+          className="hover:no-underline"
+        >
           <span
             className={clsx(
               style.footerItem,
@@ -40,7 +46,11 @@ export const FooterItems = ({ items, whiteTheme }) => {
       ))}
       {showMore &&
         items.slice(6).map(({ label, href = "", tagCategory }) => (
-          <Link key={label} href={href} className="hover:no-underline">
+          <Link
+            key={label}
+            to={getUtmParams(href)}
+            className="hover:no-underline"
+          >
             <span
               className={clsx(
                 style.footerItem,

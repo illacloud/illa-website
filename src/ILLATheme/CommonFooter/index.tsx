@@ -13,6 +13,8 @@ import LocaleDropdownNavbarItem from "@theme/NavbarItem/LocaleDropdownNavbarItem
 import { FOOTER_CONTENT } from "./constants"
 import Translate, { translate } from "@docusaurus/Translate"
 import { ICommonFooterProps } from "./interface"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { POLICY, SERVICE } from "@site/src/constants/url"
 
 const CommonFooter: FC<ICommonFooterProps> = ({
   whiteTheme = false,
@@ -27,6 +29,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
     })
   }, [])
   useElementFirstShow(ref, reportShow)
+  const getUtmParams = useUtmParams()
 
   const { scrollYProgress } = useScroll()
   const translateY = useTransform(
@@ -86,7 +89,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                       return (
                         <Link
                           key={label}
-                          href={href}
+                          to={getUtmParams(href)}
                           className="hover:no-underline"
                         >
                           {icon ? (
@@ -171,10 +174,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                 )}
               />
             </div>
-            <Link
-              href="https://docs.illacloud.com/privacy-policy"
-              className="hover:no-underline"
-            >
+            <Link to={getUtmParams(POLICY)} className="hover:no-underline">
               <span
                 className={clsx(
                   style.footerItem,
@@ -190,10 +190,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                 <Translate id="footer.privacy-policy">Privacy policy</Translate>
               </span>
             </Link>
-            <Link
-              href="https://docs.illacloud.com/terms-of-service"
-              className="hover:no-underline"
-            >
+            <Link to={getUtmParams(SERVICE)} className="hover:no-underline">
               <span
                 className={clsx(
                   style.footerItem,

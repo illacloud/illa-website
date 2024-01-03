@@ -37,8 +37,8 @@ const FirstScreen: FC<IFirstScreenProps> = ({
   const containerRef = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll()
 
-  const rotateX = useTransform(scrollYProgress, [0, 0.002], [10, 0])
-  const scale = useTransform(scrollYProgress, [0, 0.002], [0.95, 1])
+  const rotateX = useTransform(scrollYProgress, [0, 0.015], [15, 0])
+  const scale = useTransform(scrollYProgress, [0, 0.015], [0.95, 1])
 
   usePaintBg(canvasRef, containerRef)
 
