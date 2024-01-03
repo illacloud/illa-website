@@ -84,7 +84,7 @@ export const HeaderMenu: FC<IHeaderMenuProps> = (props) => {
                           className={clsx(
                             style.panelItemContainerStyle,
                             whiteTheme
-                              ? "text-gray-02 hover:bg-garyBlue-09"
+                              ? "text-gray-02 hover:bg-grayBlue-09"
                               : "text-white-01 hover:bg-white-09",
                           )}
                           onClick={() => {

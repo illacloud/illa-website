@@ -63,12 +63,12 @@ export const BlogPostPageView = ({ children }) => {
       >
         <Link
           to={getUtmParams("/blog")}
-          className={clsx("!text-gray-500 text-sm no-underline")}
+          className={clsx("!text-white-04 text-sm no-underline")}
         >
           ← Back to blog
         </Link>
         <div className="flex items-center space-x-2 px-2 py-1">
-          <span className="text-gray-500 text-sm">Share on</span>
+          <span className="text-white-04 text-sm">Share on</span>
           <TwitterShareButton
             windowWidth={750}
             windowHeight={800}
@@ -112,7 +112,7 @@ export const BlogPostPageView = ({ children }) => {
             className={clsx("flex", "justify-between", "sm:flex-row flex-col")}
           >
             <div className="flex justify-center items-center gap-2"></div>
-            <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
+            <div className="flex items-center gap-2 text-gray-600 dark:text-white-04">
               <Date date={date} formattedDate={formattedDate} />
               {typeof readingTime !== "undefined" && (
                 <>

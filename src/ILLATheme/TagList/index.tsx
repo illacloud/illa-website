@@ -88,7 +88,7 @@ const Desktop = ({
           "no-underline hover:no-underline",
           "text-xs",
           "bg-gray-100 dark:bg-gray-600",
-          "text-gray-600 dark:text-gray-400",
+          "text-gray-600 dark:text-white-04",
           "rounded",
           "py-1",
           "px-2",

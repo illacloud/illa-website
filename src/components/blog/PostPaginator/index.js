@@ -53,14 +53,14 @@ export const PostPaginator = ({ posts, title }) => {
               </Link>
 
               <p
-                className={clsx("font-sm", "text-gray-700 dark:text-gray-400")}
+                className={clsx("font-sm", "text-gray-700 dark:text-white-04")}
               >
                 {post.description}
               </p>
 
               <div
                 id="post-info"
-                className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400"
+                className="flex items-center gap-2 text-sm text-gray-600 dark:text-white-04"
               >
                 <Date date={post.date} formattedDate={post.formattedDate} />
               </div>

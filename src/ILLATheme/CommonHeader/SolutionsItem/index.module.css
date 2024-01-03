@@ -11,7 +11,7 @@
 }
 
 .lightPopoverPanelStyle {
-  @apply border-garyBlue-09 bg-white-01;
+  @apply border-grayBlue-09 bg-white-01;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
 }
 
@@ -27,7 +27,7 @@
   @apply hover:bg-white/[0.04];
 }
 .lightPanelItemContainerStyle {
-  @apply hover:bg-garyBlue-09;
+  @apply hover:bg-grayBlue-09;
 }
 
 .panelItemStyle {
