@@ -6,7 +6,7 @@ import { CLOUD_URL } from "@site/src/constants/url"
 const CARD_CONTENT = {
   title: translate({
     id: "how_to_use.title.3_steps_to_customize",
-    message: "steps to customize your AI tools",
+    message: "steps to customize your business apps",
   }),
   desc: translate({
     id: "how_to_use.description.build_tools_through",

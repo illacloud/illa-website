@@ -46,7 +46,7 @@
 }
 
 .solutionBaseImageStyle {
-  @apply absolute bottom-0 z-[1] left-[50%] transition-opacity duration-500 ease-in-out opacity-0 delay-200 rounded-[8px];
+  @apply absolute bottom-0 z-[1] left-[50%] transition-opacity duration-500 ease-in-out opacity-100 delay-200 rounded-[8px];
   @apply lg:w-[715px];
   @apply xl:w-[825px];
   transform: translateX(-50%);

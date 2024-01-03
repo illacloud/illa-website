@@ -36,8 +36,8 @@ export const BannerModal: FC<Props> = ({
   }),
   variant = "purple",
   image = {
-    src: "https://refine.ams3.cdn.digitaloceanspaces.com/website/static/banners/playground.gif",
-    alt: "refine App screenshot",
+    src: "https://cdn.illacloud.com/illa-website/home/blogIcon/modalIcon.webp",
+    alt: "Build AI Driven Business Apps with ILLA Cloud",
     href: CLOUD_URL,
   },
 }) => {

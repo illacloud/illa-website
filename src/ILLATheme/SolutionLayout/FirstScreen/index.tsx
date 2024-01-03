@@ -111,7 +111,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
             }}
           >
             <Translate id="website_4.solution.use_this_template">
-              Try demo now!
+              Try now
             </Translate>
           </LinkButton>
         </div>

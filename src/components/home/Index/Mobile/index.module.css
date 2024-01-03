@@ -17,17 +17,25 @@
   @apply flex flex-col items-center gap-[8px];
 }
 
-.colorDescLeftStyle {
-  @apply font-[700];
+.colorDescAgentStyle {
+  @apply font-[600];
   background: linear-gradient(90deg, #ff33ba 0.77%, #ffb7e7 100.77%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.colorDescRightStyle {
-  @apply font-[700];
+.colorDescAppStyle {
+  @apply font-[600];
   background: linear-gradient(90deg, #1effff 0%, #c9ffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.colorDescFlowStyle {
+  @apply font-[600];
+  background: linear-gradient(90deg, #8d33ff 0%, #d1adff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
