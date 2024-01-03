@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[1043],{9232:a=>{a.exports=JSON.parse('{"label":"data dashboard","permalink":"/illa-website/de/blog/tags/data-dashboard","allTagsPath":"/illa-website/de/blog/tags","count":2}')}}]);
