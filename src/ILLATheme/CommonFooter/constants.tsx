@@ -172,7 +172,7 @@ const Components: IFootContentItem[] = [
       message: "Radio Group",
       id: "footer.radio_group",
     }),
-    href: "/components/Radio%20group",
+    href: "/components/RadioGroup",
     tagCategory: "homepage_footer_radio_group_click",
   },
   {
@@ -180,7 +180,7 @@ const Components: IFootContentItem[] = [
       message: "Checkbox Group",
       id: "footer.checkbox_group",
     }),
-    href: "/components/Checkbox%20Group",
+    href: "/components/CheckboxGroup",
     tagCategory: "homepage_footer_checkbox_group_click",
   },
   {
@@ -239,7 +239,7 @@ const Integrations: IFootContentItem[] = [
       message: "Elastic Search",
       id: "footer.elasticsearch",
     }),
-    href: "/integrations/Elastic%20Search",
+    href: "/integrations/ElasticSearch",
     tagCategory: "homepage_footer_elastic_search_click",
   },
   {
@@ -247,7 +247,7 @@ const Integrations: IFootContentItem[] = [
       message: "Microsoft SQL Server",
       id: "footer.mssql",
     }),
-    href: "/integrations/Microsoft%20SQL%20Server",
+    href: "/integrations/MicrosoftSQLServer",
     tagCategory: "homepage_footer_mssql_click",
   },
   {
@@ -255,7 +255,7 @@ const Integrations: IFootContentItem[] = [
       message: "Supabase",
       id: "footer.supabase",
     }),
-    href: "/integrations/Supabase%20DB",
+    href: "/integrations/SupabaseDB",
     tagCategory: "homepage_footer_supabase",
   },
   {
@@ -263,7 +263,7 @@ const Integrations: IFootContentItem[] = [
       message: "DynamoDB",
       id: "footer.dynamo",
     }),
-    href: "/integrations/Amazon%20DynamoDB",
+    href: "/integrations/AmazonDynamoDB",
     tagCategory: "homepage_footer_dynamo",
   },
   {
@@ -271,7 +271,7 @@ const Integrations: IFootContentItem[] = [
       message: "Hugging Face Inference API",
       id: "footer.hf",
     }),
-    href: "/integrations/Hugging%20Face%20Inference%20API",
+    href: "/integrations/HuggingFaceInferenceAPI",
     tagCategory: "homepage_footer_hf_api_click",
   },
 ]

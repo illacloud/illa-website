@@ -10,15 +10,25 @@ on:
 permissions:
   contents: write
 
+env:
+  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_BOT_TOKEN }}
+
 jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+
+      - name: Install Crowdin CLI
+        run: npm i -g @crowdin/cli
+
+      - name: Check Crowdin
+        run: crowdin -V
 
       - uses: pnpm/action-setup@v2
         with:
@@ -26,6 +36,15 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Write translations
+        run: pnpm run write-translations
+
+      - name: Upload translations
+        run: crowdin upload
+
+      - name: Download translations
+        run: crowdin download
 
       - name: Build website
         run: pnpm build
