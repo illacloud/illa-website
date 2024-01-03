@@ -22,10 +22,10 @@ export default function () {
         name: META_INFO.name,
         isShowBack: true,
         backText: translate({
-          id: 'landingPage.back_to_components',
-          message: 'Back to components',
+          id: 'landingPage.back_to_integrations',
+          message: 'Back to integrations',
         }),
-        prevPagePath: 'components',
+        prevPagePath: 'integrations',
       }}
       footerConfig={{
         scrollStart: 0.777,
