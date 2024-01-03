@@ -1,7 +1,3 @@
 User-agent: *
 Host: https://illa.cloud
 Sitemap: https://illa.cloud/sitemap.xml
-Disallow: https://cloud.illacloud.com/*
-Disallow: https://builder.illacloud.com/*
-Disallow: https://status.illacloud.com/
-Disallow: 'https://github.com/
