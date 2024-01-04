@@ -51,7 +51,7 @@ export const BlogTOCItem = ({
         level === 4 && "pl-11",
         "py-2 pr-3",
         activeId === id &&
-          ` dark:bg-gray-700 bg-gray-100 text-text-white-04 dark:text-gray-0 hover:text-white-04`,
+          ` dark:bg-gray-700 bg-gray-100 text-white-04 dark:text-white-01 hover:text-white-04`,
         activeId !== id &&
           `dark:text-white-04 hover:text-white-01 text-white-04`,
         "rounded-lg",

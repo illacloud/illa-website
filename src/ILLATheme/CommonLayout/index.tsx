@@ -27,7 +27,7 @@ export const CommonLayout = (props: any) => {
           "main-wrapper",
           "h-full",
           "flex flex-col",
-          whiteTheme ? "bg-gray-0" : "bg-gray-900",
+          whiteTheme ? "bg-gray-0" : "bg-black",
           "transition-colors",
           "duration-150",
           "ease-in-out",

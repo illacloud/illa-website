@@ -12,14 +12,14 @@ export default function Tag({ permalink, label, isActive, className }) {
       className={clsx(
         "no-underline hover:no-underline",
         "text-xs",
-        !isActive && "bg-gray-100 dark:bg-gray-700",
+        !isActive && "bg-gray-100 dark:bg-white-09",
         !isActive &&
-        "text-gray-600 dark:text-white-04 dark:hover:text-white-01",
+          "text-gray-600 dark:text-white-03 dark:hover:text-white-01",
         "rounded",
         "py-1",
         "px-2",
         isActive && "bg-gray-200 text-gray-500",
-        isActive && "dark-bg-gray-700 dark:text-white-01",
+        isActive && "dark:bg-white-09 dark:text-white-01",
         className,
       )}
     >

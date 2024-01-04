@@ -71,7 +71,7 @@ export const CommonHeader = ({ trackProgress, whiteTheme }: Props) => {
               "gap-[24px]",
             )}
           >
-            <Link to={getUtmParams("/")}  ariaLabel="Logo">
+            <Link to={getUtmParams("/")} aria-label="Logo">
               {whiteTheme ? (
                 <ILLA_LOGO className="w-[51px] h-[24px]" />
               ) : (
@@ -117,7 +117,7 @@ export const CommonHeader = ({ trackProgress, whiteTheme }: Props) => {
         {trackProgress && (
           <div className={clsx("w-full", "h-0.5", "translate")}>
             <motion.div
-              className={clsx("h-full", "bg-refine-blue")}
+              className={clsx("h-full", "bg-tech-purple-03")}
               style={{ width: progressPercentage }}
             />
           </div>

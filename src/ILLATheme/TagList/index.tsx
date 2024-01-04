@@ -60,7 +60,7 @@ const Desktop = ({
         "not-prose",
         "justify-between",
         "items-start",
-        "bg-gray-50 dark:bg-gray-800",
+        "bg-gray-50 dark:bg-white-09",
         "rounded-xl p-4 2xl:p-6",
       )}
     >
@@ -87,8 +87,8 @@ const Desktop = ({
           "flex-shrink",
           "no-underline hover:no-underline",
           "text-xs",
-          "bg-gray-100 dark:bg-gray-600",
-          "text-gray-600 dark:text-white-04 dark:hover:text-white-01",
+          "bg-gray-100 dark:bg-white-09",
+          "text-gray-600 dark:text-white-03 dark:hover:text-white-01",
           "rounded",
           "py-1",
           "px-2",
@@ -114,7 +114,7 @@ const Mobile = ({ tags }: { tags: any }) => {
           >
             <Disclosure.Button
               className={clsx(
-                "bg-gray-50 dark:bg-gray-800",
+                "bg-gray-50 dark:bg-white-09",
                 "border-b border-gray-100 dark:border-gray-700",
                 "w-full",
                 "flex items-center gap-3",
@@ -132,7 +132,7 @@ const Mobile = ({ tags }: { tags: any }) => {
                 )}
               /> */}
               <span
-                className={clsx("text-sm", "dark:text-gray-0 text-gray-900")}
+                className={clsx("text-sm", "dark:text-white-01 text-gray-900")}
               >
                 Blog Post Tags
               </span>
