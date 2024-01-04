@@ -18,8 +18,17 @@ const Pricing: FC = () => {
   const [containerHeight, setContainerHeight] = useState(0)
 
   useEffect(() => {
-    if (ref.current) {
-      setContainerHeight(ref.current.scrollHeight)
+    const item = ref.current
+    const observer = new ResizeObserver(() => {
+      if (item) {
+        setContainerHeight(item.scrollHeight)
+      }
+    })
+    observer.observe(item)
+    return () => {
+      if (observer) {
+        observer.unobserve(item)
+      }
     }
   }, [])
 
