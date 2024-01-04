@@ -11,6 +11,7 @@ import {
   TwitterShareButton,
   RedditIcon,
   LinkedinIcon,
+  TwitterIcon
 } from "react-share"
 import clsx from "clsx"
 import { Date } from "@site/src/components/blog/common/date"
@@ -76,7 +77,7 @@ export const BlogPostPageView = ({ children }) => {
             title={title}
             hashtags={tags.map((tag) => tag.label)}
           >
-            {/* <Twitter width={26} height={26} /> */}
+            <TwitterIcon width={26} height={26} round />
           </TwitterShareButton>
           <RedditShareButton
             className="flex"
