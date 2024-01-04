@@ -91,7 +91,7 @@ export const FeaturedBlogPostItem = () => {
           <span
             className={clsx(
               "text-gray-600",
-              "dark:text-white-05",
+              "dark:text-white-04",
               "text-xs 2xl:text-base",
               "leading-6",
               "no-underline",

@@ -35,7 +35,7 @@ export const PostPaginator = ({ posts, title }) => {
                 "p-5",
                 "mb-5",
                 "rounded-md",
-                "bg-gray-50 dark:bg-gray-800",
+                "bg-gray-50 dark:bg-white-09",
               )}
             >
               <Link
@@ -60,7 +60,7 @@ export const PostPaginator = ({ posts, title }) => {
 
               <div
                 id="post-info"
-                className="flex items-center gap-2 text-sm text-gray-600 dark:text-white-05"
+                className="flex items-center gap-2 text-sm text-gray-600 dark:text-white-04"
               >
                 <Date date={post.date} formattedDate={post.formattedDate} />
               </div>
