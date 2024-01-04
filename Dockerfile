@@ -1,13 +1,16 @@
-FROM nginx:stable-alpine as runner
+FROM node:lts as base
+ENV FORCE_COLOR=0
+RUN corepack enable
+WORKDIR /opt/docusaurus
 
-## copy frontend
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY illa-website-frontend.conf /etc/nginx/conf.d/illa-website-frontend.conf
-COPY ./build /opt/illa/illa-website-frontend
-RUN rm /etc/nginx/conf.d/default.conf
+FROM base as prod
+WORKDIR /opt/docusaurus
+COPY ./package.json /opt/docusaurus/
+COPY ./pnpm-lock.yaml /opt/docusaurus/
+RUN pnpm install --frozen-lockfile
+COPY ./build /opt/docusaurus/build
+COPY ./docusaurus.config.ts /opt/docusaurus/
 
-# test nginx
-RUN nginx -t
-
-# run
+FROM prod as serve
 EXPOSE 3000
+CMD ["pnpm", "serve"]
