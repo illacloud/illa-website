@@ -29,7 +29,9 @@
 .contentTextStyle {
   @apply text-white-03 text-[12px] font-[500] leading-[16px];
 }
-
+.baseQuoteStyle {
+  @apply font-eurostile text-[32px] leading-[8px] text-white-04;
+}
 .reverseQuoteStyle {
   @apply self-end;
   transform: rotate(180deg);
@@ -49,5 +51,5 @@
 
 .mobileGap::after {
   @apply block lg:hidden pb-[8px];
-  content: '';
+  content: "";
 }
