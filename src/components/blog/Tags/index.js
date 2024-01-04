@@ -14,8 +14,8 @@ export const Tags = () => {
           to={getUtmParams(tag.permalink)}
           className={clsx(
             "text-xs",
-            "bg-gray-100 dark:bg-gray-700",
-            "text-gray-600 dark:text-white-04 dark:hover:text-white-01",
+            "bg-gray-100 dark:bg-white-09",
+            "text-gray-600 dark:text-white-03 dark:hover:text-white-01",
             "rounded",
             "py-1",
             "px-2",

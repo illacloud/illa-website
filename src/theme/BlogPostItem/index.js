@@ -19,7 +19,6 @@ export default function BlogPostItem({ className }) {
     tags,
   } = metadata
 
-
   const author = metadata.authors[0]
   const getUtmParams = useUtmParams()
 
@@ -48,8 +47,8 @@ export default function BlogPostItem({ className }) {
             <Tag
               className={clsx(
                 "text-xs",
-                "bg-gray-100 dark:bg-gray-700",
-                "text-white-04 hover:text-white-01 dark:text-white-04 dark:hover:text-white-01",
+                "bg-gray-100 dark:bg-white-09",
+                "text-white-04 hover:text-white-01 dark:text-white-03 dark:hover:text-white-01",
                 "no-underline",
                 "rounded",
                 "px-2 py-1",
@@ -70,7 +69,7 @@ export default function BlogPostItem({ className }) {
             <div
               className={clsx(
                 "text-xs sm:text-sm md:text-2xl lg:text-base 2xl:text-xl",
-                "text-gray-700 dark:text-gray-200",
+                "text-gray-700 dark:text-white-01",
                 "font-lg",
                 "font-bold",
                 "leading-6",
@@ -83,7 +82,7 @@ export default function BlogPostItem({ className }) {
             className={clsx(
               "text-xs md:text-base lg:text-sm 2xl:text-lg",
               "mt-2 md:mt-4",
-              "line-clamp-3 text-gray-700 dark:text-gray-300",
+              "line-clamp-3 text-gray-700 dark:text-white-03",
             )}
           >
             {description}
@@ -93,8 +92,8 @@ export default function BlogPostItem({ className }) {
         <div className="flex items-center gap-2">
           <span
             className={clsx(
-              "text-gray-600 hover:text-gray-600",
-              "dark:text-white-04 hover:dark:text-white-01",
+              "text-gray-600",
+              "dark:text-white-04",
               "text-xs",
               "no-underline",
             )}

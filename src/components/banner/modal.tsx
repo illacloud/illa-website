@@ -129,7 +129,7 @@ export const BannerModal: FC<Props> = ({
                       rel="noopener noreferrer"
                       className={clsx(
                         "flex",
-                        "h-auto xl:h-[192px]",
+                        "h-auto",
                         "flex-shrink-0",
                         "rounded-lg",
                         "overflow-hidden",

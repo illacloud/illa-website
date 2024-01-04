@@ -4,7 +4,7 @@ import Link from "@docusaurus/Link"
 import ILLA_LOGO from "@site/static/img/logo.svg"
 import WHITE_LOGO from "@site/static/img/whiteLogo.svg"
 import { useTransform, motion, useScroll } from "framer-motion"
-import { FooterItems } from "./FooterItem"
+import { FoldItems } from "./components/FoldItems"
 import { sendTagEvent } from "@site/src/utils/gtag"
 import { saveAs } from "file-saver"
 import { useElementFirstShow } from "@site/src/hooks/useElementFirstShow"
@@ -15,6 +15,8 @@ import Translate from "@docusaurus/Translate"
 import { ICommonFooterProps } from "./interface"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import { POLICY, SERVICE } from "@site/src/constants/url"
+import { PureItem } from "./components/PureItem"
+import { LinkItem } from "./components/LinkItem"
 
 const CommonFooter: FC<ICommonFooterProps> = ({
   whiteTheme = false,
@@ -49,7 +51,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
       style={{ translateY }}
     >
       <div className={style.footerContentContainer}>
-        {FOOTER_CONTENT.map(({ title, items }) => (
+        {FOOTER_CONTENT.map(({ title, items, needFold }) => (
           <div className="flex flex-col items-start gap-[16px]" key={title}>
             <span
               className={clsx(
@@ -60,20 +62,17 @@ const CommonFooter: FC<ICommonFooterProps> = ({
               {title}
             </span>
             <div className="flex flex-col items-start gap-[8px] w-full">
-              {items.length > 6 && (
-                <FooterItems items={items} whiteTheme={whiteTheme} />
-              )}
-              {items.length <= 6 &&
+              {needFold ? (
+                <FoldItems items={items} whiteTheme={whiteTheme} />
+              ) : (
                 items.map(
                   ({ label, href = "", tagCategory, icon, downloadName }) => {
                     if (downloadName) {
                       return (
-                        <span
+                        <PureItem
                           key={label}
-                          className={clsx(
-                            style.footerItem,
-                            whiteTheme ? "text-[#1D2129]" : "text-white-02",
-                          )}
+                          whiteTheme={whiteTheme}
+                          label={label}
                           onClick={() => {
                             sendTagEvent({
                               action: "click",
@@ -81,63 +80,28 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                             })
                             saveAs(href, downloadName)
                           }}
-                        >
-                          {label}
-                        </span>
+                        />
                       )
                     } else {
                       return (
-                        <Link
+                        <LinkItem
                           key={label}
+                          whiteTheme={whiteTheme}
+                          label={label}
                           to={getUtmParams(href)}
-                          className="hover:no-underline"
-                        >
-                          {icon ? (
-                            <span
-                              className={clsx(
-                                "flex flex-row items-center gap-[8px]",
-                                whiteTheme ? "text-[#1D2129]" : "text-white-02",
-                              )}
-                            >
-                              {icon}
-                              <span
-                                className={clsx(
-                                  style.footerItem,
-                                  whiteTheme
-                                    ? "text-[#1D2129]"
-                                    : "text-white-02",
-                                )}
-                                onClick={() => {
-                                  sendTagEvent({
-                                    action: "click",
-                                    category: tagCategory,
-                                  })
-                                }}
-                              >
-                                {label}
-                              </span>
-                            </span>
-                          ) : (
-                            <span
-                              className={clsx(
-                                style.footerItem,
-                                whiteTheme ? "text-[#1D2129]" : "text-white-02",
-                              )}
-                              onClick={() => {
-                                sendTagEvent({
-                                  action: "click",
-                                  category: tagCategory,
-                                })
-                              }}
-                            >
-                              {label}
-                            </span>
-                          )}
-                        </Link>
+                          icon={icon}
+                          onClick={() => {
+                            sendTagEvent({
+                              action: "click",
+                              category: tagCategory,
+                            })
+                          }}
+                        />
                       )
                     }
                   },
-                )}
+                )
+              )}
             </div>
           </div>
         ))}

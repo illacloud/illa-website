@@ -34,7 +34,6 @@ export const BlogPostPageView = ({ children }) => {
   const author = authors[0]
   const getUtmParams = useUtmParams()
 
-
   const {
     siteConfig: { url },
   } = useDocusaurusContext()

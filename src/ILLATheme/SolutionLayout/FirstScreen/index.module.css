@@ -4,10 +4,7 @@
 }
 
 .indexBgStyle {
-  @apply hidden lg:block w-full lg:min-h-[1200px]  overflow-hidden absolute z-[-1];
-}
-.indexBgStyle img {
-  @apply w-full lg:h-[1034px] h-auto absolute bottom-0;
+  @apply hidden lg:flex justify-center w-full lg:min-h-[1200px] overflow-hidden absolute z-[-1];
 }
 .canvasContainerStyle {
   @apply w-full h-full overflow-hidden absolute z-[-1];

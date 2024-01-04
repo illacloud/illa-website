@@ -45,7 +45,7 @@ export default function BlogPostItems({
                 "!m-0 !mt-0 !mb-0 p-0",
                 "blog-lg:mb-12 blog-md:mb-8 mb-8",
                 "text-xl blog-sm:text-4xl blog-lg:text-5xl",
-                "text-gray-900 dark:text-gray-0",
+                "text-gray-900 dark:text-white-01",
                 "font-semibold",
               )}
             >

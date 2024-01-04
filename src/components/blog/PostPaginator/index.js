@@ -22,7 +22,7 @@ export const PostPaginator = ({ posts, title }) => {
       )}
     >
       <div className="blog-sm:px-6 w-full px-4">
-        <h2 className="m-0 mb-4 p-0 pl-4 text-2xl font-semibold text-gray-900 dark:text-gray-200">
+        <h2 className="m-0 mb-4 p-0 pl-4 text-2xl font-semibold text-gray-900 dark:text-white-01">
           {title}
         </h2>
         <div className="flex flex-col">
@@ -35,7 +35,7 @@ export const PostPaginator = ({ posts, title }) => {
                 "p-5",
                 "mb-5",
                 "rounded-md",
-                "bg-gray-50 dark:bg-gray-800",
+                "bg-gray-50 dark:bg-white-09",
               )}
             >
               <Link
@@ -43,9 +43,9 @@ export const PostPaginator = ({ posts, title }) => {
                 rel="dofollow"
                 className={clsx(
                   "font-bold",
-                  "text-gray-800 dark:text-gray-200",
+                  "text-gray-800 dark:text-white-01",
                   "no-underline",
-                  "hover:text-gray-800 hover:no-underline dark:hover:text-gray-200",
+                  "hover:no-underline",
                   "mb-2",
                 )}
               >
@@ -53,7 +53,7 @@ export const PostPaginator = ({ posts, title }) => {
               </Link>
 
               <p
-                className={clsx("font-sm", "text-gray-700 dark:text-white-04")}
+                className={clsx("font-sm", "text-gray-700 dark:text-white-03")}
               >
                 {post.description}
               </p>

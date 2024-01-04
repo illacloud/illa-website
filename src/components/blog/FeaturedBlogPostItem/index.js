@@ -21,7 +21,6 @@ export const FeaturedBlogPostItem = () => {
   const author = metadata.authors[0]
   const getUtmParams = useUtmParams()
 
-
   return (
     <BlogPostItemContainer>
       <Link itemProp="url" to={getUtmParams(permalink)}>
@@ -45,8 +44,8 @@ export const FeaturedBlogPostItem = () => {
             <Link
               className={clsx(
                 "text-xs",
-                "bg-gray-100 dark:bg-gray-700",
-                "text-white-04 hover:text-white-01 dark:text-white-04",
+                "bg-gray-100 dark:bg-white-09",
+                "text-white-04 dark:hover:text-white-01 dark:text-white-03",
                 "no-underline",
                 "rounded",
                 "px-2 py-1",
@@ -68,7 +67,7 @@ export const FeaturedBlogPostItem = () => {
             <div
               className={clsx(
                 "mb-2 md:mb-4 2xl:mb-6",
-                "text-gray-700 dark:text-gray-200",
+                "text-gray-700 dark:text-white-01",
                 "text-sm sm:text-2xl 2xl:text-[32px] 2xl:leading-10",
                 "font-lg",
                 "font-bold",
@@ -80,7 +79,7 @@ export const FeaturedBlogPostItem = () => {
           <div
             className={clsx(
               "line-clamp-3",
-              "text-gray-700 dark:text-gray-300",
+              "text-gray-700 dark:text-white-03",
               "text-xs md:text-base 2xl:text-xl",
             )}
           >
@@ -91,8 +90,8 @@ export const FeaturedBlogPostItem = () => {
         <div className="flex items-center gap-2">
           <span
             className={clsx(
-              "text-gray-600 hover:text-gray-600",
-              "dark:text-white-04 hover:dark:text-white-01",
+              "text-gray-600",
+              "dark:text-white-04",
               "text-xs 2xl:text-base",
               "leading-6",
               "no-underline",

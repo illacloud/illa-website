@@ -1,5 +1,4 @@
 import style from "./index.module.css"
-import QuoteIcon from "@site/static/img/home3/quote.svg"
 import clsx from "clsx"
 import { translate } from "@docusaurus/Translate"
 
@@ -118,9 +117,16 @@ const Comments = () => {
           >
             <div className={style.commentsItemStyle}>
               <div className={style.commentContentStyle}>
-                <QuoteIcon className="w-[10px]" />
+                <span className={clsx(style.baseQuoteStyle)}>“</span>
                 <span className={style.contentTextStyle}>{content}</span>
-                <QuoteIcon className={style.reverseQuoteStyle} />
+                <span
+                  className={clsx(
+                    style.reverseQuoteStyle,
+                    style.baseQuoteStyle,
+                  )}
+                >
+                  “
+                </span>
               </div>
               <span className="flex flex-col">
                 <span className={style.commentUserNameStyle}>{userName}</span>

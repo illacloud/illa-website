@@ -54,7 +54,7 @@ function BlogListPageContent(props) {
           "blog-md:block hidden",
         )}
       >
-        <div className="border-b border-gray-100 dark:border-gray-700"></div>
+        <div className="border-b border-gray-100 dark:border-white-09"></div>
       </div>
       <BlogPostItems items={paginatedPosts} tags={tags} metadata={metadata} />
       <div
@@ -64,7 +64,7 @@ function BlogListPageContent(props) {
           "blog-2xl:max-w-screen-blog-md",
           "w-full",
           "mx-auto",
-          "blog-md:border-t border-t-gray-200 dark:border-t-gray-700",
+          "blog-md:border-t border-t-gray-200 dark:border-t-white-09",
           "blog-sm:mb-16 blog-2xl:mb-20 mb-10",
         )}
       >

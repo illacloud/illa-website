@@ -6,7 +6,7 @@ import TwitterIcon from "@site/static/img/public/twitter.svg"
 import { translate } from "@docusaurus/Translate"
 import { IFootContentItem } from "./interface"
 
-export const Community: IFootContentItem[] = [
+const Community: IFootContentItem[] = [
   {
     icon: <GithubIcon />,
     href: "https://github.com/illacloud/illa-builder",
@@ -283,6 +283,7 @@ export const FOOTER_CONTENT = [
       id: "footer.components",
     }),
     items: Components,
+    needFold: true,
   },
 
   {
@@ -291,6 +292,7 @@ export const FOOTER_CONTENT = [
       id: "footer.integrations",
     }),
     items: Integrations,
+    needFold: true,
   },
   {
     title: translate({
