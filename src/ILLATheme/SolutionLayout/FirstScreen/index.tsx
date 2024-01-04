@@ -9,6 +9,7 @@ import Interpolate from "@docusaurus/Interpolate"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { addUrlParams } from "@site/src/utils/urlParams"
 import { CLOUD_URL, DEMO_BASE_URL } from "@site/src/constants/url"
+import IndexBg from "@site/static/img/solutions/indexBg.svg"
 
 interface IFirstScreenProps {
   slogan: string
@@ -58,7 +59,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
         <canvas ref={canvasRef} />
       </div>
       <span className={style.indexBgStyle}>
-        <img src={require("/img/solutions/indexBg.webp")?.default} alt="" />
+        <IndexBg className="absolute" />
       </span>
       <div className={style.contentContainer}>
         <div className={style.textContainerStyle}>
