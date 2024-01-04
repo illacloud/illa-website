@@ -34,8 +34,8 @@
   -webkit-text-fill-color: transparent;
 }
 .descStyle {
-  @apply w-full font-normal text-[14px] leading-[17px] px-[20px] text-center;
-  @apply lg:leading-[22px] lg:max-w-[800px];
+  @apply w-full font-normal text-[16px] leading-[24px] px-[20px] text-center;
+  @apply lg:max-w-[800px];
 }
 
 .buttonContainerStyle {
