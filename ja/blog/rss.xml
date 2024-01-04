@@ -10,7 +10,7 @@
         <language>ja</language>
         <copyright>Copyright © 2024 ILLA.</copyright>
         <item>
-            <title><![CDATA[ILLA Flow: A javascript-driven, developer-friendly Workflow product]]></title>
+            <title><![CDATA[ILLA Flow: A javascript-driven, developer-friendly product for creating automate workflow]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/launch-flow</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/launch-flow</guid>
             <pubDate>Fri, 05 Jan 2024 10:00:00 GMT</pubDate>
@@ -23,7 +23,7 @@
 <p>You can build your own workflow through a drag-and-drop interface, and then execute your workflow by scheduling triggers or Webhook triggers.</p>
 <p>The smooth drag-and-drop experience allows you to quickly build workflows without worrying about any integration issues. The entire system is driven by JavaScript, ensuring flexibility while also being developer-friendly.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/flow.jpeg" alt="flow" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="integrate-everything">Integrate Everything<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#integrate-everything" class="hash-link" aria-label="Integrate Everything への直接リンク" title="Integrate Everything への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="integrate-everything">Integrate Everything<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#integrate-everything" class="hash-link" aria-label="Integrate Everything への直接リンク" title="Integrate Everything へ�の直接リンク">​</a></h2>
 <p>ILLA Flow can connect to any</p>
 <ul>
 <li>RestAPI</li>
