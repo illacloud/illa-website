@@ -14,6 +14,7 @@ export default function BlogPostPageMetadata() {
       image={image}>
       <meta property="og:type" content="article" />
       <meta property="article:published_time" content={date} />
+      <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       {/* TODO double check those article meta array syntaxes, see https://ogp.me/#array */}
