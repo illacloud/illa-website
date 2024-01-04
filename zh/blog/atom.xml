@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/zh/blog</id>
     <title>ILLA Cloud Blog</title>
-    <updated>2024-01-04T05:10:13.000Z</updated>
+    <updated>2024-01-04T07:28:37.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/zh/blog"/>
     <subtitle>ILLA Cloud Blog</subtitle>
@@ -12,7 +12,7 @@
         <title type="html"><![CDATA[I created a tool that helps non-front-end engineers quickly build beautiful Web UIs.]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[Despite my background as a Backend Engineer, I frequently found myself immersed in creating numerous data dashboards and admin panels to cater to my colleagues' diverse needs. From showcasing multifaceted business data to visualizing CI/CD tasks and crafting a special Admin Panel for a Christmas event, I managed to accomplish all these in just 14 days.]]></summary>
         <content type="html"><![CDATA[<p>Hello everyone, I'm Owen, a full-stack engineer with previous experience at TikTok. My role there involved developing the platform, known for its engaging short video content, and ensuring a delightful user experience.</p>
 <p>Despite my background as a Backend Engineer, I frequently found myself immersed in creating numerous data dashboards and admin panels to cater to my colleagues' diverse needs. From showcasing multifaceted business data to visualizing CI/CD tasks and crafting a special Admin Panel for a Christmas event, I managed to accomplish all these in just 14 days.</p>
@@ -39,7 +39,7 @@
         <title type="html"><![CDATA[Quickly create a personalized data dashboard for your boss]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/build-dashboard</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/build-dashboard"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></summary>
         <content type="html"><![CDATA[<p>Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.</p>
 <p>After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.</p>
@@ -123,7 +123,7 @@
         <title type="html"><![CDATA[Low Code vs Traditional Development: Optimal Efficiency in Choice]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.]]></summary>
         <content type="html"><![CDATA[<p>With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-launching-a-transient-business-initiative">When Launching a Transient Business Initiative<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#when-launching-a-transient-business-initiative" class="hash-link" aria-label="Direct link to When Launching a Transient Business Initiative" title="Direct link to When Launching a Transient Business Initiative">​</a></h2>
@@ -164,7 +164,7 @@
         <title type="html"><![CDATA[2024 has arrived, should I choose MUI?]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/mui-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/mui-2024"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains highly prosperous. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
@@ -235,7 +235,7 @@
         <title type="html"><![CDATA[Elegant Use of nvm for Node.js Management on Mac in 2024]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/nvm-use-2024"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.]]></summary>
         <content type="html"><![CDATA[<p>Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.</p>
 <p>The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.</p>
@@ -302,7 +302,7 @@
         <title type="html"><![CDATA[2024 has arrived, should I choose Shadcn UI?]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-ui-2024#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
@@ -371,7 +371,7 @@
         <title type="html"><![CDATA[Shadcn vs MUI: A Comparative Analysis of Strengths and Weaknesses]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/zh/blog/shadcn-vs-mui#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
@@ -450,10 +450,208 @@
         <category label="React" term="React"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Top 7 Redis GUI Tools in 2023]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023"/>
+        <updated>2024-01-04T07:28:37.000Z</updated>
+        <summary type="html"><![CDATA[Looking for the best Redis GUI tool for your application? Read this blog post to learn about the top 7 Redis GUI tools in 2023 and how to use them. Find out why ILLA Cloud is the best Redis GUI tool in our opinion.]]></summary>
+        <content type="html"><![CDATA[<p>Looking for the best Redis GUI tool for your application? Read this blog post to learn about the top 7 Redis GUI tools in 2023 and how to use them. Find out why ILLA Cloud is the best Redis GUI tool in our opinion.</p>
+<p>Redis is a popular open-source, in-memory data structure store that can be used as a database, cache, message broker, and more. Redis supports various data types like strings, lists, sets, hashes, and streams. Redis also offers many features like transactions, replication, clustering, pub/sub, Lua scripting, and more.</p>
+<p>However, working with Redis can be challenging without a graphical user interface (GUI) to help you visualize and interact with your data. A Redis GUI tool can help you browse, filter, edit, and delete your Redis keys, run commands and queries, monitor performance and metrics, and more.</p>
+<p>Many Redis GUI tools are available in the market, each with its own features, pros and cons, and price. This blog post will review the top 7 Redis GUI tools in 2023 and compare them based on their functionality, usability, compatibility, and cost. We will also show you how to use ILLA Cloud, the best Redis GUI tool, to build a Redis GUI for your application.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#illa-cloud" class="hash-link" aria-label="Direct link to ILLA Cloud" title="Direct link to ILLA Cloud">​</a></h2>
+<p>ILLA Cloud is an open-source low-code platform for building internal tools. It is a powerful and flexible UI library for building web applications that connect to your databases and APIs. You can use ILLA Cloud to build anything from simple forms and tables to complex applications with advanced features.</p>
+<p>ILLA Cloud supports Redis as one of its data sources. You can connect to your Redis server or cluster using ILLA Cloud and access your data using a graphical interface. You can also run commands and queries using SQL and JavaScript. You can use template syntax to inject dynamic values into your components and queries. You can also customize and control your components with JavaScript.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-has-many-advantages-over-other-redis-gui-tools-some-of-them-are">ILLA Cloud has many advantages over other Redis GUI tools. Some of them are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#illa-cloud-has-many-advantages-over-other-redis-gui-tools-some-of-them-are" class="hash-link" aria-label="Direct link to ILLA Cloud has many advantages over other Redis GUI tools. Some of them are:" title="Direct link to ILLA Cloud has many advantages over other Redis GUI tools. Some of them are:">​</a></h3>
+<ul>
+<li>It is free and open-source. You can use ILLA Cloud without paying any fees or licenses. You can also contribute to the project on GitHub and help improve it.</li>
+<li>It is cross-platform and cloud-based. You can use ILLA Cloud on any device and operating system. You can also deploy it on your own server or use the ILLA Cloud service.</li>
+<li>It supports multiple data sources. You can connect to various databases and APIs using ILLA Cloud, such as PostgreSQL, MongoDB, MySQL, Stripe, Google Sheets, AWS S3, and more. You can also integrate with any data source connected through APIs.</li>
+<li>It has a drag-and-drop interface. You can build a user interface for your application by dragging and dropping components like tables, charts, forms, buttons, and more. You don’t need to write any HTML or CSS code.</li>
+<li>It has a rich set of components. You can use dozens of components in ILLA Cloud to meet your needs in different scenarios. You can also customize them with JavaScript.</li>
+<li>It supports JavaScript inside widgets, queries, and other components. Using JavaScript, you can add logic, transform data, and define complex workflows. You can also use template syntax to inject dynamic values into your components and queries.</li>
+<li>It has a collaborative feature. You can work with other developers on the same project by sharing links. You can also chat with them in real time and give feedback.</li>
+<li>It has a friendly community. You can join the Discord community of ILLA Cloud and get support from other users and developers. You can also share feedback, ask questions, and get updates.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="to-use-illa-cloud-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps">To use ILLA Cloud to build a Redis GUI for your application, you need to follow these steps:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#to-use-illa-cloud-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps" class="hash-link" aria-label="Direct link to To use ILLA Cloud to build a Redis GUI for your application, you need to follow these steps:" title="Direct link to To use ILLA Cloud to build a Redis GUI for your application, you need to follow these steps:">​</a></h3>
+<ul>
+<li>Sign up for a free account on the ILLA Cloud website.</li>
+<li>Create a new project and choose Redis as your data source.</li>
+<li>Enter your Redis connection details (hostname or IP address, port number, password, and database number).</li>
+<li>Click on Connect button to connect to your Redis server or cluster.</li>
+<li>Once connected, you will see your Redis keys on the left panel. You can browse, filter, and search them by name, type, or value. You can also edit or delete them by right-clicking on them.</li>
+<li>To run commands or queries on your Redis data, click on the Query tab on the top panel. You can write SQL or JavaScript in the editor. You can use template syntax to inject dynamic values into your queries. You can also use auto-completion and syntax highlighting features. You can run your queries by clicking the Run button or pressing Ctrl+Enter. You will see the results on the right panel. You can also export the results as CSV or JSON files.</li>
+<li>To build a user interface for your application, click on the Builder tab on the top panel. You will see a grid-style canvas where you can drag and drop components from the left panel. You can choose from various components like tables, charts, forms, buttons, etc. You can also customize and control your components with JavaScript. You can use template syntax to inject dynamic values into your components. You can also bind your components to your queries and data sources.</li>
+<li>To preview your application, click on the Preview button on the top right corner. You will see how your application looks and works in a browser. You can also test your components and queries and see the results.</li>
+</ul>
+<p>That’s it! You have built a Redis GUI for your application using ILLA Cloud. You can now use it to visualize and interact with your Redis data.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="redisinsight">RedisInsight<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#redisinsight" class="hash-link" aria-label="Direct link to RedisInsight" title="Direct link to RedisInsight">​</a></h2>
+<p>RedisInsight is a desktop manager for Redis that provides an intuitive and efficient UI for Redis and Redis Stack. It supports all Redis deployments, such as Redis Open Source, Redis Stack, Redis Enterprise Software, Redis Enterprise Cloud, or Amazon ElastiCache.</p>
+<p>RedisInsight allows you to browse and interact with Redis data using a graphical interface. You can also run commands and queries using a built-in CLI with auto-completion and syntax highlighting features. You can also explore the latest capabilities offered by Redis, such as documents, graphs, time series, and more.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-advantages-of-redisinsight-are">Some of the advantages of RedisInsight are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-advantages-of-redisinsight-are" class="hash-link" aria-label="Direct link to Some of the advantages of RedisInsight are:" title="Direct link to Some of the advantages of RedisInsight are:">​</a></h3>
+<ul>
+<li>It is free and easy to use. You can download RedisInsight for free and install it on your Linux, Windows, or macOS machine. You can also check out the GitHub project and provide feedback.</li>
+<li>It supports multiple operating systems and Redis deployments. You can use RedisInsight on any device and operating system. You can also connect to any Redis server or cluster using RedisInsight.</li>
+<li>It has a graphical interface for Redis data. Using a graphical interface, you can browse, filter, edit, and delete your Redis keys. You can also display data in various formats like JSON, hexadecimal, MessagePack, and more. You can also use the Tree view to group data and enhance the navigation.</li>
+<li>It has a built-in CLI for running commands and queries. You can run commands and queries using a built-in CLI with auto-completion and syntax highlighting features. You can also use the Workbench feature to run commands and queries using a Monaco Editor.</li>
+<li>It supports the latest capabilities offered by Redis. You can query, visualize, and interactively work with complex data models such as documents, graphs, time series, etc. You can also explore queryable JSON documents, full-text search, probabilistic data structures, and more.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-drawbacks-of-redisinsight-are">Some of the drawbacks of RedisInsight are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-drawbacks-of-redisinsight-are" class="hash-link" aria-label="Direct link to Some of the drawbacks of RedisInsight are:" title="Direct link to Some of the drawbacks of RedisInsight are:">​</a></h3>
+<ul>
+<li>It is not open-source. You cannot contribute to or modify the project according to your needs.</li>
+<li>It does not support multiple data sources. You cannot connect to other databases or APIs using RedisInsight.</li>
+<li>It does not have a drag-and-drop interface for building user interfaces. You cannot build a user interface for your application using RedisInsight.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="redis-desktop-manager-respapp">Redis Desktop Manager (RESP.app)<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#redis-desktop-manager-respapp" class="hash-link" aria-label="Direct link to Redis Desktop Manager (RESP.app)" title="Direct link to Redis Desktop Manager (RESP.app)">​</a></h2>
+<p>Redis Desktop Manager is a cross-platform desktop GUI for Redis. It lets you connect to multiple Redis servers and clusters and manage your data using a graphical interface. You can also run commands and queries using a built-in CLI with auto-completion and syntax highlighting features.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-advantages-of-redis-desktop-manager-are">Some of the advantages of Redis Desktop Manager are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-advantages-of-redis-desktop-manager-are" class="hash-link" aria-label="Direct link to Some of the advantages of Redis Desktop Manager are:" title="Direct link to Some of the advantages of Redis Desktop Manager are:">​</a></h3>
+<ul>
+<li>It is cross-platform and desktop-based. You can use Redis Desktop Manager on Linux, Windows, or macOS machines. You can also install it as a snap package or a docker image.</li>
+<li>It supports multiple Redis servers and clusters. You can connect to multiple Redis servers and clusters using Redis Desktop Manager. You can also import and export connections using JSON files.</li>
+<li>It has a graphical interface for Redis data. Using a graphical interface, you can browse, filter, edit, and delete your Redis keys. You can also display data in various formats like JSON, hexadecimal, MessagePack, and more. You can also use the Tree view to group data and enhance the navigation.</li>
+<li>It has a built-in CLI for running commands and queries. You can run commands and queries using a built-in CLI with auto-completion and syntax highlighting features. Using a terminal-like interface, you can also use the Console feature to run commands and queries.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-drawbacks-of-redis-desktop-manager-are">Some of the drawbacks of Redis Desktop Manager are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-drawbacks-of-redis-desktop-manager-are" class="hash-link" aria-label="Direct link to Some of the drawbacks of Redis Desktop Manager are:" title="Direct link to Some of the drawbacks of Redis Desktop Manager are:">​</a></h3>
+<ul>
+<li>It is not free or open-source. You have to pay a subscription fee to use Redis Desktop Manager. The free version has limited features and functionality.</li>
+<li>It does not support the latest capabilities offered by Redis. You cannot query, visualize, or interact with complex data models such as documents, graphs, time series, etc.</li>
+<li>It does not support multiple data sources. You cannot connect to other databases or APIs using Redis Desktop Manager.</li>
+<li>It does not have a drag-and-drop interface for building user interfaces. You cannot build a user interface for your application using Redis Desktop Manager.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="medis">Medis<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#medis" class="hash-link" aria-label="Direct link to Medis" title="Direct link to Medis">​</a></h2>
+<p>Medis is a beautiful and easy-to-use Mac database management application for Redis. It lets you connect to multiple Redis servers and clusters and manage your data using a graphical interface. You can also run commands and queries using a built-in CLI with auto-completion and syntax highlighting features.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-advantages-of-medis-are">Some of the advantages of Medis are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-advantages-of-medis-are" class="hash-link" aria-label="Direct link to Some of the advantages of Medis are:" title="Direct link to Some of the advantages of Medis are:">​</a></h3>
+<ul>
+<li>It is beautiful and easy-to-use. Medis has a sleek and intuitive design that makes it easy to use. It also has dark mode support that makes it look even better.</li>
+<li>It is Mac-based and desktop-based. You can use Medis on any Mac machine. You can also install it from the Mac App Store or download it from GitHub.</li>
+<li>It supports multiple Redis servers and clusters. You can connect to multiple Redis servers and clusters using Medis. You can also import and export connections using JSON files.</li>
+<li>It has a graphical interface for Redis data. Using a graphical interface, you can browse, filter, edit, and delete your Redis keys. You can also display data in various formats like JSON, hexadecimal, MessagePack, and more. You can also use the Tree view to group data and enhance the navigation.</li>
+<li>It has a built-in CLI for running commands and queries. You can run commands and queries using a built-in CLI with auto-completion and syntax highlighting features. Using a terminal-like interface, you can also use the Terminal feature to run commands and queries.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-drawbacks-of-medis-are">Some of the drawbacks of Medis are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-drawbacks-of-medis-are" class="hash-link" aria-label="Direct link to Some of the drawbacks of Medis are:" title="Direct link to Some of the drawbacks of Medis are:">​</a></h3>
+<ul>
+<li>It is not free or open-source. You have to pay a subscription fee to use Medis. The free version has limited features and functionality.</li>
+<li>It is only available for Mac. You cannot use Medis on other operating systems or devices.</li>
+<li>It does not support the latest capabilities offered by Redis. You cannot query, visualize, or interact with complex data models such as documents, graphs, time series, and more.</li>
+<li>It does not support multiple data sources. You cannot connect to other databases or APIs using Medis.</li>
+<li>It does not have a drag-and-drop interface for building user interfaces. You cannot build a user interface for your application using Medis.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="to-use-medis-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps">To use Medis to build a Redis GUI for your application, you need to follow these steps:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#to-use-medis-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps" class="hash-link" aria-label="Direct link to To use Medis to build a Redis GUI for your application, you need to follow these steps:" title="Direct link to To use Medis to build a Redis GUI for your application, you need to follow these steps:">​</a></h3>
+<ul>
+<li>Download Medis from the Mac App Store or GitHub.</li>
+<li>Install Medis on your Mac machine.</li>
+<li>Launch Medis and click on Add Connection button.</li>
+<li>Enter your Redis connection details (host name or IP address, port number, password, and database number).</li>
+<li>Click on Connect button to connect to your Redis server or cluster.</li>
+<li>Once connected, you will see your Redis keys on the left panel. You can browse, filter, and search them by name, type, or value. You can also edit or delete them by right-clicking on them.</li>
+<li>To run commands or queries on your Redis data, click on CLI tab on the bottom panel. You can write commands or queries in the editor. You can use auto-completion and syntax highlighting features. You can run your commands or queries by clicking on Execute button or pressing Ctrl+Enter. You will see the results on the right panel.</li>
+</ul>
+<p>That’s it! You have built a Redis GUI for your application using Medis. You can now use it to visualize and interact with your Redis data.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="redis-commander">Redis Commander<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#redis-commander" class="hash-link" aria-label="Direct link to Redis Commander" title="Direct link to Redis Commander">​</a></h2>
+<p>Redis Commander is a free and open-source Redis management tool written in Node.js. It allows you to connect to multiple Redis servers and clusters and manage your data using a web-based interface. You can also run commands and queries using a built-in CLI with auto-completion and syntax highlighting features.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-advantages-of-redis-commander-are">Some of the advantages of Redis Commander are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-advantages-of-redis-commander-are" class="hash-link" aria-label="Direct link to Some of the advantages of Redis Commander are:" title="Direct link to Some of the advantages of Redis Commander are:">​</a></h3>
+<ul>
+<li>It is free and open-source. You can use Redis Commander without paying any fees or licenses. You can also contribute to the project on GitHub and help improve it.</li>
+<li>It is web-based and cross-platform. You can use Redis Commander on any device and operating system. You need to install it on your server and access it through a web browser.</li>
+<li>It supports multiple Redis servers and clusters. You can connect to multiple Redis servers and clusters using Redis Commander. You can also import and export connections using JSON files.</li>
+<li>It has a web-based interface for Redis data. Using a web-based interface, you can browse, filter, edit, and delete your Redis keys. You can also display data in various formats like JSON, hexadecimal, MessagePack, and more. You can also use the Tree view to group data and enhance the navigation.</li>
+<li>It has a built-in CLI for running commands and queries. You can run commands and queries using a built-in CLI with auto-completion and syntax highlighting features.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-drawbacks-of-redis-commander-are">Some of the drawbacks of Redis Commander are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-drawbacks-of-redis-commander-are" class="hash-link" aria-label="Direct link to Some of the drawbacks of Redis Commander are:" title="Direct link to Some of the drawbacks of Redis Commander are:">​</a></h3>
+<ul>
+<li>It is not very stable or reliable. Redis Commander may have bugs or issues affecting its performance or functionality. It may also crash or freeze sometimes.</li>
+<li>It does not support the latest capabilities offered by Redis. You cannot query, visualize, or interact with complex data models such as documents, graphs, time series, and more.</li>
+<li>It does not support multiple data sources. You cannot connect to other databases or APIs using Redis Commander.</li>
+<li>It does not have a drag-and-drop interface for building user interfaces. You cannot build a user interface for your application using Redis Commander.</li>
+</ul>
+<p>To use Redis Commander to build a Redis GUI for your application, you need to follow these steps:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="download-redis-commander-from-github-or-npm">Download Redis Commander from GitHub or npm.<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#download-redis-commander-from-github-or-npm" class="hash-link" aria-label="Direct link to Download Redis Commander from GitHub or npm." title="Direct link to Download Redis Commander from GitHub or npm.">​</a></h3>
+<ul>
+<li>Install Redis Commander on your server using Node.js.</li>
+<li>Launch Redis Commander by running redis-commander command in your terminal.</li>
+<li>Access Redis Commander through your web browser by entering <a href="http://localhost:8081/" target="_blank" rel="noopener noreferrer">http://localhost:8081</a> in your address bar.</li>
+<li>Click on Add Redis Server button to add your Redis connection details (host name or IP address, port number, password, and database number).</li>
+<li>Click on Connect button to connect to your Redis server or cluster.</li>
+<li>Once connected, you will see your Redis keys on the left panel. You can browse, filter, and search them by name, type, or value. You can also edit or delete them by right-clicking on them.</li>
+<li>To run commands or queries on your Redis data, click on Console tab on the top panel. You can write commands or queries in the editor. You can use auto-completion and syntax highlighting features. You can run your commands or queries by clicking on Execute button or pressing Ctrl+Enter. You will see the results on the right panel.</li>
+</ul>
+<p>That’s it! You have built a Redis GUI for your application using Redis Commander. You can now use it to visualize and interact with your Redis data.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="redsmin">Redsmin<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#redsmin" class="hash-link" aria-label="Direct link to Redsmin" title="Direct link to Redsmin">​</a></h2>
+<p>Redsmin is a cloud-based Redis management service that provides a real-time interface for Redis and Redis Stack. It supports all Redis deployments, such as Redis Open Source, Redis Stack, Redis Enterprise Software, Redis Enterprise Cloud, or Amazon ElastiCache.</p>
+<p>Redsmin allows you to browse and interact with Redis data using a web-based interface. You can also run commands and queries using a built-in CLI with auto-completion and syntax highlighting features. You can also monitor the performance and metrics of your Redis server or cluster using a dashboard.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-advantages-of-redsmin-are">Some of the advantages of Redsmin are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-advantages-of-redsmin-are" class="hash-link" aria-label="Direct link to Some of the advantages of Redsmin are:" title="Direct link to Some of the advantages of Redsmin are:">​</a></h3>
+<ul>
+<li>It is cloud-based and cross-platform. You can use Redsmin on any device and operating system. You must install a proxy daemon on your server and access it through a web browser.</li>
+<li>It supports multiple Redis servers and clusters. You can connect to multiple Redis servers and clusters using Redsmin. You can also import and export connections using JSON files.</li>
+<li>It has a web-based interface for Redis data. Using a web-based interface, you can browse, filter, edit, and delete your Redis keys. You can also display data in various formats like JSON, hexadecimal, MessagePack, and more. You can also use the Tree view to group data and enhance the navigation.</li>
+<li>It has a built-in CLI for running commands and queries. You can run commands and queries using a built-in CLI with auto-completion and syntax highlighting features.</li>
+<li>It supports the latest capabilities offered by Redis. You can query, visualize, and interact with complex data models such as documents, graphs, and time series. You can also explore queryable JSON documents, full-text search, probabilistic data structures, and more.</li>
+<li>It has a dashboard for monitoring performance and metrics. You can monitor your Redis server's or cluster's performance and metrics using a dashboard. You can see commands processed in real-time and inspect slow commands. You can also troubleshoot performance issues and debug your Redis server.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-drawbacks-of-redsmin-are">Some of the drawbacks of Redsmin are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-drawbacks-of-redsmin-are" class="hash-link" aria-label="Direct link to Some of the drawbacks of Redsmin are:" title="Direct link to Some of the drawbacks of Redsmin are:">​</a></h3>
+<ul>
+<li>It is not free or open-source. You have to pay a subscription fee to use Redsmin. The free version has limited features and functionality.</li>
+<li>It requires a proxy daemon installation. You must install a proxy daemon on your server to connect to Redsmin. This may affect your security or performance.</li>
+<li>It does not support multiple data sources. You cannot connect to other databases or APIs using Redsmin.</li>
+<li>It does not have a drag-and-drop interface for building user interfaces. You cannot build a user interface for your application using Redsmin.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="to-use-redsmin-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps">To use Redsmin to build a Redis GUI for your application, you need to follow these steps:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#to-use-redsmin-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps" class="hash-link" aria-label="Direct link to To use Redsmin to build a Redis GUI for your application, you need to follow these steps:" title="Direct link to To use Redsmin to build a Redis GUI for your application, you need to follow these steps:">​</a></h3>
+<ul>
+<li>Sign up for a free account on the Redsmin website.</li>
+<li>Download and install the proxy daemon on your server using Node.js.</li>
+<li>Launch the proxy daemon by running redsmin command in your terminal.</li>
+<li>Enter your Redsmin API key when prompted.</li>
+<li>Access Redsmin through your web browser by entering <a href="https://app.redsmin.com/" target="_blank" rel="noopener noreferrer">https://app.redsmin.com</a> in your address bar.</li>
+<li>Click on Add Redis Server button to add your Redis connection details (hostname or IP address, port number, password, and database number).</li>
+<li>Click on Connect button to connect to your Redis server or cluster.</li>
+<li>Once connected, you will see your Redis keys on the left panel. You can browse, filter, and search them by name, type, or value. You can also edit or delete them by right-clicking on them.</li>
+<li>To run commands or queries on your Redis data, click on the Console tab on the top panel. You can write commands or queries in the editor. You can use auto-completion and syntax highlighting features. You can run your commands or queries by clicking on Execute button or pressing Ctrl+Enter. You will see the results on the right panel.</li>
+<li>To explore the latest capabilities offered by Redis, click on the corresponding tabs on the top panel. You can choose from various modules, such as RedisJSON, RedisGraph, and RedisTimeSeries. Using a web-based interface, you can query, visualize, and interact with complex data models.</li>
+<li>To monitor your Redis server's or cluster's performance and metrics, click on the Dashboard tab on the top panel. You can see commands processed in real-time and inspect slow commands. You can also troubleshoot performance issues and debug your Redis server.</li>
+</ul>
+<p>That’s it! You have built a Redis GUI for your application using Redsmin. You can now use it to visualize and interact with your Redis data.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="webdis">Webdis<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#webdis" class="hash-link" aria-label="Direct link to Webdis" title="Direct link to Webdis">​</a></h2>
+<p>Webdis is a simple web server that exposes Redis commands as HTTP endpoints with JSON output. It allows you to connect to your Redis server and access your data using a web browser or any HTTP client. You can also run commands and queries using HTTP requests.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-advantages-of-webdis-are">Some of the advantages of Webdis are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-advantages-of-webdis-are" class="hash-link" aria-label="Direct link to Some of the advantages of Webdis are:" title="Direct link to Some of the advantages of Webdis are:">​</a></h3>
+<ul>
+<li>It is simple and lightweight. Webdis is a simple web server that requires no installation or configuration. It is also very fast and consumes little memory.</li>
+<li>It is open-source and free. You can use Webdis without paying any fees or licenses. You can also contribute to the project on GitHub and help improve it.</li>
+<li>It supports multiple operating systems and Redis deployments. You can use Webdis on Linux, Windows, or macOS machines. You can also connect to any Redis server or cluster using Webdis.</li>
+<li>It has a web-based interface for Redis data. You can browse and interact with Redis data using a web browser or any HTTP client. You can also display data in JSON format.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="some-of-the-drawbacks-of-webdis-are">Some of the drawbacks of Webdis are:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#some-of-the-drawbacks-of-webdis-are" class="hash-link" aria-label="Direct link to Some of the drawbacks of Webdis are:" title="Direct link to Some of the drawbacks of Webdis are:">​</a></h3>
+<ul>
+<li>It is not very secure or reliable. Webdis does not support authentication or encryption for your Redis connection. It may also expose your Redis data to unauthorized access or modification.</li>
+<li>It does not support the latest capabilities offered by Redis. You cannot query, visualize, or interact with complex data models such as documents, graphs, time series, and more.</li>
+<li>It does not support multiple data sources. You cannot connect to other databases or APIs using Webdis.</li>
+<li>It does not have a built-in CLI for running commands and queries. You have to use HTTP requests to run commands and queries on your Redis data.</li>
+<li>It does not have a drag-and-drop interface for building user interfaces. You cannot build a user interface for your application using Webdis.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="to-use-webdis-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps">To use Webdis to build a Redis GUI for your application, you need to follow these steps:<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#to-use-webdis-to-build-a-redis-gui-for-your-application-you-need-to-follow-these-steps" class="hash-link" aria-label="Direct link to To use Webdis to build a Redis GUI for your application, you need to follow these steps:" title="Direct link to To use Webdis to build a Redis GUI for your application, you need to follow these steps:">​</a></h3>
+<ul>
+<li>Download Webdis from GitHub or compile it from the source code.</li>
+<li>Launch Webdis by running webdis the command in your terminal.</li>
+<li>Access Webdis through your web browser by entering <a href="http://localhost:7379/" target="_blank" rel="noopener noreferrer">http://localhost:7379</a> in your address bar.</li>
+<li>Enter your Redis command or query in the URL path after the slash. For example, <a href="http://localhost:7379/GET/foo" target="_blank" rel="noopener noreferrer">http://localhost:7379/GET/foo</a> will get the value of the key foo.</li>
+</ul>
+<p>See the result of your command or query in JSON format in your browser.
+That’s it! You have built a Redis GUI for your application using Webdis. You can now use it to access and interact with your Redis data.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/top-7-redis-gui-tools-in-2023#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>In this blog post, we have reviewed the top 7 Redis GUI tools in 2023 and compared them based on their functionality, usability, compatibility, and cost. We have also shown you how to use each tool to build a Redis GUI for your application.</p>
+<p>We hope this blog post has helped you find the best Redis GUI tool for your needs and preferences. However, if you ask us, we recommend ILLA Cloud as the best Redis GUI tool.</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="redis" term="redis"/>
+        <category label="gui" term="gui"/>
+        <category label="tools" term="tools"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Best Open-Source Low-Code Platforms in 2024]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024"/>
-        <updated>2024-01-04T05:10:13.000Z</updated>
+        <updated>2024-01-04T07:28:37.000Z</updated>
         <summary type="html"><![CDATA[2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-low-code-tools">Why Choose Low-Code Tools?<a href="https://illacloud.github.io/illa-website/zh/blog/top-5-best-open-source-low-code-platforms-in-2024#why-choose-low-code-tools" class="hash-link" aria-label="Direct link to Why Choose Low-Code Tools?" title="Direct link to Why Choose Low-Code Tools?">​</a></h2>
