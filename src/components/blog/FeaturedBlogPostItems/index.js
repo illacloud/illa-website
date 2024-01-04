@@ -1,8 +1,8 @@
-import React from "react";
-import { BlogPostProvider } from "@docusaurus/theme-common/internal";
+import React from "react"
+import { BlogPostProvider } from "@docusaurus/theme-common/internal"
 
-import { FeaturedBlogPostItem } from "../FeaturedBlogPostItem";
-import clsx from "clsx";
+import { FeaturedBlogPostItem } from "../FeaturedBlogPostItem"
+import clsx from "clsx"
 
 export const FeaturedBlogPostItems = ({ items }) => {
   return (
@@ -25,7 +25,7 @@ export const FeaturedBlogPostItems = ({ items }) => {
           "m-0 p-0",
           "blog-lg:mb-12 blog-md:mb-8 mb-10",
           "text-xl blog-sm:text-4xl blog-lg:text-5xl",
-          "text-gray-900 dark:text-gray-0",
+          "text-gray-900 dark:text-white-01",
           "px-0 blog-sm:px-6",
           "font-semibold",
         )}
@@ -44,5 +44,5 @@ export const FeaturedBlogPostItems = ({ items }) => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}

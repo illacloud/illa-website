@@ -34,7 +34,6 @@ export const BlogPostPageView = ({ children }) => {
   const author = authors[0]
   const getUtmParams = useUtmParams()
 
-
   const {
     siteConfig: { url },
   } = useDocusaurusContext()
@@ -112,7 +111,7 @@ export const BlogPostPageView = ({ children }) => {
             className={clsx("flex", "justify-between", "sm:flex-row flex-col")}
           >
             <div className="flex justify-center items-center gap-2"></div>
-            <div className="flex items-center gap-2 text-gray-600 dark:text-white-04">
+            <div className="flex items-center gap-2 text-gray-600 dark:text-white-05">
               <Date date={date} formattedDate={formattedDate} />
               {typeof readingTime !== "undefined" && (
                 <>
