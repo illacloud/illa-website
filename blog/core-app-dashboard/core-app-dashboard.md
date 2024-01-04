@@ -5,6 +5,7 @@ description: The Core App Dashboard is the nerve center of any sophisticated app
 authors: owen
 image: https://cdn.illacloud.com/illa-website/blog/core-app-dashboard/cover.png
 tags: [ low code, core app dashboard ]
+is_featured: true
 date: 2024-01-04T10:00
 ---
 
