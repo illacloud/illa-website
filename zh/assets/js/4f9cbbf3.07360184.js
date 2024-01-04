@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[6468],{2753:e=>{e.exports=JSON.parse('{"label":"low code","permalink":"/illa-website/zh/blog/tags/low-code","allTagsPath":"/illa-website/zh/blog/tags","count":4}')}}]);
