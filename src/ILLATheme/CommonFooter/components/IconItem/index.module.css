@@ -1,0 +1,3 @@
+.footerItem {
+  @apply font-[400] text-[12px] leading-[16px] cursor-pointer lg:text-[14px] lg:leading-[22px];
+}
