@@ -61,7 +61,7 @@ export const FeaturedBlogPostItem = () => {
         <div className="mb-2 md:mb-4 2xl:mb-6">
           <Link
             itemProp="url"
-            to={getUtmParams(fixedPermalink)}
+            to={getUtmParams(permalink)}
             className="no-underline hover:no-underline"
             rel="noopener dofollow"
           >
