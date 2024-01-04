@@ -93,7 +93,7 @@ export default function BlogPostItem({ className }) {
           <span
             className={clsx(
               "text-gray-600",
-              "dark:text-white-05",
+              "dark:text-white-04",
               "text-xs",
               "no-underline",
             )}
