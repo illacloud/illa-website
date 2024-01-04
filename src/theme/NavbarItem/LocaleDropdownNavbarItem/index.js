@@ -5,7 +5,6 @@ import { useLocation } from "@docusaurus/router"
 import DropdownNavbarItem from "@theme/NavbarItem/DropdownNavbarItem"
 import IconLanguage from "@theme/Icon/Language"
 import styles from "./styles.module.css"
-import { fixedPath } from "@site/src/utils/fixedPath"
 
 export default function LocaleDropdownNavbarItem({
   mobile,
@@ -26,7 +25,7 @@ export default function LocaleDropdownNavbarItem({
       fullyQualified: false,
     })}`
     // preserve ?search#hash suffix on locale switches
-    const to = `${baseTo.endsWith("/")?baseTo:fixedPath(baseTo)}${search}${hash}${queryString}`
+    const to = `${baseTo}${search}${hash}${queryString}`
 
     return {
       label: localeConfigs[locale].label,
@@ -38,9 +37,9 @@ export default function LocaleDropdownNavbarItem({
         // eslint-disable-next-line no-nested-ternary
         locale === currentLocale
           ? // Similar idea as DefaultNavbarItem: select the right Infima active
-            // class name. This cannot be substituted with isActive, because the
-            // target URLs contain `pathname://` and therefore are not NavLinks!
-            mobile
+          // class name. This cannot be substituted with isActive, because the
+          // target URLs contain `pathname://` and therefore are not NavLinks!
+          mobile
             ? "menu__link--active"
             : "dropdown__link--active"
           : "",
