@@ -1,12 +1,14 @@
 import { useState } from "react"
 import { sendTagEvent } from "@site/src/utils/gtag"
-import style from "../index.module.css"
+import style from "./index.module.css"
 import clsx from "clsx"
-import Link from "@docusaurus/Link"
 import Translate from "@docusaurus/Translate"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { LinkItem } from "../LinkItem"
 
-export const FooterItems = ({ items, whiteTheme }) => {
+const SHOULD_FOLD_ITEMS = 6
+
+export const FoldItems = ({ items, whiteTheme }) => {
   const [showMore, setShowMore] = useState(false)
   const getUtmParams = useUtmParams()
 
@@ -22,51 +24,39 @@ export const FooterItems = ({ items, whiteTheme }) => {
 
   return (
     <>
-      {items.slice(0, 6).map(({ label, href = "", tagCategory }) => (
-        <Link
-          key={label}
-          to={getUtmParams(href)}
-          className="hover:no-underline"
-        >
-          <span
-            className={clsx(
-              style.footerItem,
-              whiteTheme ? "text-[#1D2129]" : "text-white-02",
-            )}
+      {items
+        .slice(0, SHOULD_FOLD_ITEMS)
+        .map(({ label, href = "", tagCategory }) => (
+          <LinkItem
+            key={label}
+            to={getUtmParams(href)}
+            label={label}
+            whiteTheme={whiteTheme}
             onClick={() => {
               sendTagEvent({
                 action: "click",
                 category: tagCategory,
               })
             }}
-          >
-            {label}
-          </span>
-        </Link>
-      ))}
+          />
+        ))}
       {showMore &&
-        items.slice(6).map(({ label, href = "", tagCategory }) => (
-          <Link
-            key={label}
-            to={getUtmParams(href)}
-            className="hover:no-underline"
-          >
-            <span
-              className={clsx(
-                style.footerItem,
-                whiteTheme ? "text-[#1D2129]" : "text-white-02",
-              )}
+        items
+          .slice(SHOULD_FOLD_ITEMS)
+          .map(({ label, href = "", tagCategory }) => (
+            <LinkItem
+              key={label}
+              to={getUtmParams(href)}
+              label={label}
+              whiteTheme={whiteTheme}
               onClick={() => {
                 sendTagEvent({
                   action: "click",
                   category: tagCategory,
                 })
               }}
-            >
-              {label}
-            </span>
-          </Link>
-        ))}
+            />
+          ))}
       <span
         className={clsx(
           style.footerItem,
