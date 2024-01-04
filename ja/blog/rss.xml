@@ -177,6 +177,38 @@ Integration Flexibility: Retool's robust integration capabilities make it suitab
             <category>core app dashboard</category>
         </item>
         <item>
+            <title><![CDATA[ILLA Flow: A javaScript-driven, developer-friendly Workflow product]]></title>
+            <link>https://illacloud.github.io/illa-website/ja/blog/launch-flow</link>
+            <guid>https://illacloud.github.io/illa-website/ja/blog/launch-flow</guid>
+            <pubDate>Thu, 04 Jan 2024 10:00:00 GMT</pubDate>
+            <description><![CDATA[ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.]]></description>
+            <content:encoded><![CDATA[<p>Hi everyone, I'm Owen, and we are a startup company focused on low-code solutions. Our team is quite small, consisting of only 7 people.</p>
+<p>Today, we launched our new product: ILLA Flow.</p>
+<p>Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a> (You can find it after login, at the left of dashboard -&gt; Flow)</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-flow">ILLA Flow<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#illa-flow" class="hash-link" aria-label="ILLA Flow への直接リンク" title="ILLA Flow への直接リンク">​</a></h2>
+<p>ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.</p>
+<p>You can build your own workflow through a drag-and-drop interface, and then execute your workflow by scheduling triggers or Webhook triggers.</p>
+<p>The smooth drag-and-drop experience allows you to quickly build workflows without worrying about any integration issues. The entire system is driven by JavaScript, ensuring flexibility while also being developer-friendly.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/flow.jpeg" alt="flow" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="integrate-everything">Integrate Everything<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#integrate-everything" class="hash-link" aria-label="Integrate Everything への直接リンク" title="Integrate Everything への直接リンク">​</a></h2>
+<p>ILLA Flow can connect to any</p>
+<ul>
+<li>RestAPI</li>
+<li>MySQL</li>
+<li>MariaDB,</li>
+<li>PostgreSQL</li>
+<li>...</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/resource.jpeg" alt="resource" class="img_CfaS"></p>
+<p>We will strive to expand support for more connectivity features.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
+<p>ILLA Flow supports scheduled triggers and the use of Webhooks for triggering. As a low-code tool, ILLA also enables the construction of panels to drive multiple workflows, forming a complete business process. Currently, the product is entirely free and requires no costs.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/dashboard.jpeg" alt="dashboard" class="img_CfaS"></p>
+<p>Our initial intention in creating this product was to address the lack of developer-friendly workflow products on the market. We aim to build a complete low-code matrix product to provide a better experience. Moreover, we have achieved multi-person real-time collaboration, similar to the experience of editing in Figma, ensuring that a team can edit workflows together.</p>
+<p>As an early-stage product, there are still many features that are not perfect, and we hope everyone can provide valuable feedback to help us optimize it.</p>]]></content:encoded>
+            <category>workflow</category>
+        </item>
+        <item>
             <title><![CDATA[How to build a custom low code CRM in 2024]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/low-code-crm</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/low-code-crm</guid>
