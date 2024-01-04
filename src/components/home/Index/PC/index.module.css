@@ -44,7 +44,7 @@
 }
 
 .colorDescAgentStyle {
-  @apply font-[600];
+  @apply font-[600] text-[16px];
   background: linear-gradient(90deg, #ff33ba 0.77%, #ffb7e7 100.77%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -52,7 +52,7 @@
 }
 
 .colorDescAppStyle {
-  @apply font-[600];
+  @apply font-[600] text-[16px];
   background: linear-gradient(90deg, #1effff 0%, #c9ffff 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -60,7 +60,7 @@
 }
 
 .colorDescFlowStyle {
-  @apply font-[600];
+  @apply font-[600] text-[16px];
   background: linear-gradient(90deg, #8d33ff 0%, #d1adff 100%);
   background-clip: text;
   -webkit-background-clip: text;
