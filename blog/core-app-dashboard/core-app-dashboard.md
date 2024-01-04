@@ -1,5 +1,5 @@
 ---
-slug: core-app-dashboard
+slug: core-app-dashboard-2
 title: "Build core app dashboard at lightning speed"
 description: The Core App Dashboard is the nerve center of any sophisticated application. At its essence, it is a centralized interface providing comprehensive insights and controls tailored to the specifics of an application, facilitating better decision-making and management.
 authors: owen
