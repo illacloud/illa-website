@@ -57,12 +57,14 @@ export const SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/dashboard_content.webp"
         className="w-full"
+        alt="Dashboard content image"
       />
     ),
     contentBg: (
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/dashboard_bg.webp"
         className="w-full"
+        alt="Dashboard content background image"
       />
     ),
     appID: "ILAcx4p1C7Xz",
@@ -73,12 +75,14 @@ export const SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/image_generate_content.webp"
         className="w-full"
+        alt="Image generate content image"
       />
     ),
     contentBg: (
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/image_generate_bg.webp"
         className="w-full"
+        alt="Image generate background image"
       />
     ),
     appID: "ILAcx4p1C7Bc",
@@ -89,12 +93,14 @@ export const SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/ai_voice_content.webp"
         className="w-full"
+        alt="AI voice content image"
       />
     ),
     contentBg: (
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/ai_voice_bg.webp"
         className="w-full"
+        alt="AI voice content background image"
       />
     ),
     appID: "ILAcx4p1C7Bb",
@@ -105,6 +111,7 @@ export const SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/cms_bg.webp"
         className="w-full"
+        alt="CMS background image"
       />
     ),
     appID: "ILAcx4p1C72G",
@@ -115,12 +122,14 @@ export const SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/crm_content.webp"
         className="w-full"
+        alt="CRM content image"
       />
     ),
     contentBg: (
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/crm_bg.webp"
         className="w-full"
+        alt="CRM background image"
       />
     ),
     appID: "ILAcx4p1C7N5",
@@ -131,12 +140,14 @@ export const SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/admin_content.webp"
         className="w-full"
+        alt="Admin panel content image"
       />
     ),
     contentBg: (
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/admin_panel_bg.webp"
         className="w-full"
+        alt="Admin panel background image"
       />
     ),
     appID: "ILAcx4p1C7Oy",
@@ -150,6 +161,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/mix_dashboard.webp"
         className="w-full max-w-[320px]"
+        alt="Dashboard content image"
       />
     ),
   },
@@ -158,6 +170,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/mix_image_generator.webp"
         className="w-full max-w-[320px]"
+        alt="Image generator content image"
       />
     ),
   },
@@ -166,6 +179,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/mix_ai_voice.webp"
         className="w-full max-w-[320px]"
+        alt="AI voice content image"
       />
     ),
   },
@@ -174,6 +188,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/cms_bg.webp"
         className="w-full max-w-[320px]"
+        alt="CMS content image"
       />
     ),
   },
@@ -182,6 +197,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/mix_crm.webp"
         className="w-full max-w-[320px]"
+        alt="CRM content image"
       />
     ),
   },
@@ -190,6 +206,7 @@ const MOBILE_SOLUTIONS_IMAGE = [
       <img
         src="https://cdn.illacloud.com/illa-website/home/solutions/mix_admin_panel.webp"
         className="w-full max-w-[320px]"
+        alt="Admin panel content image"
       />
     ),
   },

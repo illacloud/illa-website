@@ -5,6 +5,7 @@ import { useLocation } from "@docusaurus/router"
 import DropdownNavbarItem from "@theme/NavbarItem/DropdownNavbarItem"
 import IconLanguage from "@theme/Icon/Language"
 import styles from "./styles.module.css"
+import { fixedPath } from "@site/src/utils/fixedPath"
 
 export default function LocaleDropdownNavbarItem({
   mobile,
@@ -25,7 +26,7 @@ export default function LocaleDropdownNavbarItem({
       fullyQualified: false,
     })}`
     // preserve ?search#hash suffix on locale switches
-    const to = `${baseTo}${search}${hash}${queryString}`
+    const to = `${baseTo.endsWith("/")?baseTo:fixedPath(baseTo)}${search}${hash}${queryString}`
 
     return {
       label: localeConfigs[locale].label,

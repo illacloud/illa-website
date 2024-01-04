@@ -71,7 +71,7 @@ export const CommonHeader = ({ trackProgress, whiteTheme }: Props) => {
               "gap-[24px]",
             )}
           >
-            <Link to={getUtmParams("/")}>
+            <Link to={getUtmParams("/")}  ariaLabel="Logo">
               {whiteTheme ? (
                 <ILLA_LOGO className="w-[51px] h-[24px]" />
               ) : (

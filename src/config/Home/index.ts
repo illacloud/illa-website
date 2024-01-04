@@ -24,7 +24,7 @@ export const FAQ_CONTENT = {
     {
       question: translate({
         id: "faq.content.0.question",
-        message: "What kind of content can I build with ILLA AI?",
+        message: "What kind of content can I build with ILLA Cloud?",
       }),
       answer: translate({
         id: "faq.content.0.answer",
