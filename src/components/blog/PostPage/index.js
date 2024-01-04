@@ -13,12 +13,10 @@ import {
   LinkedinIcon,
 } from "react-share"
 import clsx from "clsx"
-
 import { Date } from "@site/src/components/blog/common/date"
 import { ReadingTime } from "@site/src/components/blog/common/reading-time"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import DiscordAndGithubBanner from "@site/src/components/blog/discord-and-github-banner"
-import { fixedPath } from "@site/src/utils/fixedPath"
 
 export const BlogPostPageView = ({ children }) => {
   const { metadata, isBlogPostPage } = useBlogPost()
@@ -36,7 +34,6 @@ export const BlogPostPageView = ({ children }) => {
   const author = authors[0]
   const getUtmParams = useUtmParams()
 
-  const fixedPermalink = fixedPath(permalink)
 
   const {
     siteConfig: { url },
@@ -75,7 +72,7 @@ export const BlogPostPageView = ({ children }) => {
           <TwitterShareButton
             windowWidth={750}
             windowHeight={800}
-            url={url + fixedPermalink}
+            url={url + permalink}
             className="flex"
             title={title}
             hashtags={tags.map((tag) => tag.label)}
@@ -86,13 +83,13 @@ export const BlogPostPageView = ({ children }) => {
             className="flex"
             windowWidth={750}
             windowHeight={600}
-            url={url + fixedPermalink}
+            url={url + permalink}
             title={title}
           >
             <RedditIcon size={26} round />
           </RedditShareButton>
           <LinkedinShareButton
-            url={url + fixedPermalink}
+            url={url + permalink}
             title={title}
             source={url}
             summary={description}
@@ -133,7 +130,7 @@ export const BlogPostPageView = ({ children }) => {
           {isBlogPostPage ? (
             title
           ) : (
-            <Link itemProp="url" to={getUtmParams(fixedPermalink)}>
+            <Link itemProp="url" to={getUtmParams(permalink)}>
               {title}
             </Link>
           )}

@@ -5,6 +5,7 @@ description: Node.js, as the foundation of frontend capabilities, is no longer j
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/nvm-use/cover.png
 tags: [ nvm, nodejs, mac, javascript ]
+date: 2024-01-03T10:00
 ---
 
 Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.

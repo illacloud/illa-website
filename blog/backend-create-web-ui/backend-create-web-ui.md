@@ -5,6 +5,7 @@ description: Despite my background as a Backend Engineer, I frequently found mys
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/cover.png
 tags: [ internal tools, data dashboard, admin panel]
+date: 2024-01-03T10:00
 is_featured: true
 ---
 

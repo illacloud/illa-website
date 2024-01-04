@@ -11,11 +11,10 @@ import { useElementFirstShow } from "@site/src/hooks/useElementFirstShow"
 import { useRef, FC, useCallback } from "react"
 import LocaleDropdownNavbarItem from "@theme/NavbarItem/LocaleDropdownNavbarItem"
 import { FOOTER_CONTENT } from "./constants"
-import Translate, { translate } from "@docusaurus/Translate"
+import Translate from "@docusaurus/Translate"
 import { ICommonFooterProps } from "./interface"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import { POLICY, SERVICE } from "@site/src/constants/url"
-import { fixedPath } from "@site/src/utils/fixedPath"
 
 const CommonFooter: FC<ICommonFooterProps> = ({
   whiteTheme = false,
@@ -90,7 +89,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                       return (
                         <Link
                           key={label}
-                          to={getUtmParams(fixedPath(href))}
+                          to={getUtmParams(href)}
                           className="hover:no-underline"
                         >
                           {icon ? (
