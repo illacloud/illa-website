@@ -8,9 +8,7 @@ const PricingContent: FC = () => {
     <div className={style.pricingContent}>
       <div className="w-full flex flex-col items-center justify-center gap-[8px]">
         <span className={style.pricingContentTitleExtra}>
-          <Translate id="pricing.sub-title">
-            Build AI Driven Business App
-          </Translate>
+          <Translate id="pricing.sub-title">✌️ Free for viewers</Translate>
         </span>
         <span className={style.pricingContentTitle}>
           <Translate id="pricing.title">Pricing</Translate>
