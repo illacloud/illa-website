@@ -5,6 +5,7 @@ slug: top-5-best-open-source-low-code-platforms-in-2024
 description: 2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/top5-low-code-2024/cover.png
+date: 2024-01-03T10:00
 ---
 
 2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.

@@ -5,6 +5,7 @@ description: 2024 has arrived, and the ecosystem of React component libraries re
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/cover.png
 tags: [ shadcn-ui, react, javascript ]
+date: 2024-01-03T10:00
 ---
 
 
