@@ -9,7 +9,7 @@
     <icon>https://illacloud.github.io/illa-website/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
     <entry>
-        <title type="html"><![CDATA[ILLA Flow: A javaScript-driven, developer-friendly Workflow product]]></title>
+        <title type="html"><![CDATA[ILLA Flow: A javascript-driven, developer-friendly Workflow product]]></title>
         <id>https://illacloud.github.io/illa-website/blog/launch-flow</id>
         <link href="https://illacloud.github.io/illa-website/blog/launch-flow"/>
         <updated>2024-01-05T10:00:00.000Z</updated>
