@@ -114,7 +114,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
           <span
             className={clsx(
               "hidden lg:block",
-              whiteTheme ? "text-[#1D2129]" : "text-white-02",
+              whiteTheme ? "text-grayBlue-02" : "text-white-02",
             )}
           >
             <Translate id="slogan-1">Build AI Driven Business App</Translate>
@@ -133,7 +133,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
                 dropdownItemsAfter={[]}
                 items={[]}
                 className={clsx(
-                  whiteTheme ? "text-[#1D2129]" : "text-white-02",
+                  whiteTheme ? "text-grayBlue-02" : "text-white-02",
                   "px-0",
                 )}
               />
@@ -142,7 +142,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
               <span
                 className={clsx(
                   style.footerItem,
-                  whiteTheme ? "text-[#1D2129]" : "text-white-02",
+                  whiteTheme ? "text-grayBlue-02" : "text-white-02",
                 )}
                 onClick={() => {
                   sendTagEvent({
@@ -158,7 +158,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
               <span
                 className={clsx(
                   style.footerItem,
-                  whiteTheme ? "text-[#1D2129]" : "text-white-02",
+                  whiteTheme ? "text-grayBlue-02" : "text-white-02",
                 )}
                 onClick={() => {
                   sendTagEvent({

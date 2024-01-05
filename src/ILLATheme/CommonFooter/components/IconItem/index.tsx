@@ -18,14 +18,14 @@ export const IconItem: FC<IconItemProps> = ({
     <span
       className={clsx(
         "flex flex-row items-center gap-[8px]",
-        whiteTheme ? "text-[#1D2129]" : "text-white-02",
+        whiteTheme ? "text-grayBlue-02" : "text-white-02",
       )}
     >
       {icon}
       <span
         className={clsx(
           style.footerItem,
-          whiteTheme ? "text-[#1D2129]" : "text-white-02",
+          whiteTheme ? "text-grayBlue-02" : "text-white-02",
         )}
         onClick={onClick}
       >

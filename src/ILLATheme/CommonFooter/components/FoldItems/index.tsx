@@ -61,7 +61,7 @@ export const FoldItems = ({ items, whiteTheme }) => {
         className={clsx(
           style.footerItem,
           "underline",
-          whiteTheme ? "text-[#1D2129]" : "text-white-02",
+          whiteTheme ? "text-grayBlue-02" : "text-white-02",
         )}
         onClick={handleShowMore}
       >
