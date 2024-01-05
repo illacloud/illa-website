@@ -15,31 +15,55 @@ import {
   DASHBOARD_SCHEMA_DATA,
   IMAGE_GENERATE_SCHEMA_DATA,
 } from "@site/src/config/Solutions"
+import ImageGenerateBg from "@site/static/img/solutions/indexBg/image-generator-bg.svg"
+import VoiceGenerateBg from "@site/static/img/solutions/indexBg/voice-generator-bg.svg"
+import DashBoardBg from "@site/static/img/solutions/indexBg/dashboard-bg.svg"
+import CRMBg from "@site/static/img/solutions/indexBg/crm-bg.svg"
+import CMSBg from "@site/static/img/solutions/indexBg/cms-bg.svg"
+import AdminPanelBg from "@site/static/img/solutions/indexBg/admin-panel-bg.svg"
 
-const getSchemaData = (path: string) => {
+const getDataForPage = (path: string) => {
   const prefix = /solutions-/
   if (!prefix.test(path)) return
   const pageName = path.split(prefix)[1]
   switch (pageName) {
     case "image-generator":
-      return IMAGE_GENERATE_SCHEMA_DATA
+      return {
+        schemaData: IMAGE_GENERATE_SCHEMA_DATA,
+        bg: <ImageGenerateBg className="absolute" />,
+      }
     case "ai-voice-generator":
-      return AI_VOICE_GENERATOR_SCHEMA_DATA
+      return {
+        schemaData: AI_VOICE_GENERATOR_SCHEMA_DATA,
+        bg: <VoiceGenerateBg className="absolute" />,
+      }
     case "dashboard":
-      return DASHBOARD_SCHEMA_DATA
+      return {
+        schemaData: DASHBOARD_SCHEMA_DATA,
+        bg: <DashBoardBg className="absolute" />,
+      }
     case "cms":
-      return CMS_SCHEMA_DATA
+      return {
+        schemaData: CMS_SCHEMA_DATA,
+        bg: <CMSBg className="absolute" />,
+      }
     case "crm":
-      return CRM_SCHEMA_DATA
+      return {
+        schemaData: CRM_SCHEMA_DATA,
+        bg: <CRMBg className="absolute" />,
+      }
     case "admin-panel":
-      return ADMIN_PANEL_SCHEMA_DATA
+      return {
+        schemaData: ADMIN_PANEL_SCHEMA_DATA,
+        bg: <AdminPanelBg className="absolute" />,
+      }
   }
 }
 
 export const SolutionLayout = (props: Record<string, any>) => {
   const { children } = props
   const { frontMatter: metaProps, metadata }: any = useBlogPost()
-  const schemaData = getSchemaData(metadata.permalink)
+  const { schemaData, bg } = getDataForPage(metadata.permalink)
   return (
     <>
       <Head>
@@ -50,7 +74,7 @@ export const SolutionLayout = (props: Record<string, any>) => {
       <CommonLayout {...metaProps}>
         <div className="w-full overflow-visible  bg-black relative z-[1]">
           <CommonHeader />
-          <FirstScreen {...metaProps} />
+          <FirstScreen {...metaProps} bg={bg} />
           <div className="w-full lg:max-w-[680px] mx-auto px-[20px] pb-[100px] lg:pb-[200px]">
             <div className="refine-prose markdown">
               <MDXContent>{children}</MDXContent>
