@@ -85,7 +85,7 @@ const CommBottom: FC<ICommonBottom> = ({
         <p
           className={clsx(
             style.commBottomDesc,
-            whiteTheme ? "text-[#1D2129]" : "text-white-02",
+            whiteTheme ? "text-grayBlue-02" : "text-white-02",
           )}
         >
           <Translate id="call-to-action.desc">

@@ -4,7 +4,7 @@
 }
 
 .indexBgStyle {
-  @apply hidden lg:flex justify-center w-full lg:min-h-[1200px] overflow-hidden absolute z-[-1];
+  @apply hidden lg:flex justify-center w-full lg:h-[1200px] overflow-hidden absolute z-[-1];
 }
 .canvasContainerStyle {
   @apply w-full h-full overflow-hidden absolute z-[-1];
@@ -12,7 +12,7 @@
 
 .contentContainer {
   @apply flex h-full flex-col items-center justify-between gap-[24px] relative pt-[64px];
-  @apply lg:max-w-[1040px] lg:gap-[56px] lg:pt-[150px] lg:min-h-[1200px];
+  @apply lg:max-w-[1040px] lg:gap-[56px] lg:pt-[150px] lg:h-[1200px];
   @apply xl:max-w-[1200px] xl:w-[1200px];
 }
 .contentContainer svg {
