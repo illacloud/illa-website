@@ -31,7 +31,7 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
       <div className={style.canvasContainerStyle}>
         <canvas ref={canvasRef} />
       </div>
-      <video className={style.bgStyle} loop autoPlay muted>
+      <video className={style.bgStyle} loop autoPlay muted playsInline>
         <source
           src={require("/img/home3/bannerBg.mp4")?.default}
           type="video/mp4"

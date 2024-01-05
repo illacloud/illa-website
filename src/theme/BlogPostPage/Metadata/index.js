@@ -1,10 +1,10 @@
 import React from 'react';
-import {PageMetadata} from '@docusaurus/theme-common';
-import {useBlogPost} from '@docusaurus/theme-common/internal';
+import { PageMetadata } from '@docusaurus/theme-common';
+import { useBlogPost } from '@docusaurus/theme-common/internal';
 export default function BlogPostPageMetadata() {
-  const {assets, metadata} = useBlogPost();
-  const {title, description, date, tags, authors, frontMatter} = metadata;
-  const {keywords} = frontMatter;
+  const { assets, metadata } = useBlogPost();
+  const { title, description, date, tags, authors, frontMatter } = metadata;
+  const { keywords } = frontMatter;
   const image = assets.image ?? frontMatter.image;
   return (
     <PageMetadata
@@ -14,6 +14,9 @@ export default function BlogPostPageMetadata() {
       image={image}>
       <meta property="og:type" content="article" />
       <meta property="article:published_time" content={date} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
       {/* TODO double check those article meta array syntaxes, see https://ogp.me/#array */}
       {authors.some((author) => author.url) && (
         <meta

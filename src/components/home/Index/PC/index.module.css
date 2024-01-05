@@ -32,7 +32,7 @@
 }
 
 .descStyle {
-  @apply w-full font-normal text-[14px] leading-[22px] px-[20px] text-center;
+  @apply w-full font-normal text-[16px] leading-[24px] px-[20px] text-center;
 }
 
 .buttonContainerStyle {
@@ -44,7 +44,7 @@
 }
 
 .colorDescAgentStyle {
-  @apply font-[600] text-[16px];
+  @apply font-[600];
   background: linear-gradient(90deg, #ff33ba 0.77%, #ffb7e7 100.77%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -52,7 +52,7 @@
 }
 
 .colorDescAppStyle {
-  @apply font-[600] text-[16px];
+  @apply font-[600];
   background: linear-gradient(90deg, #1effff 0%, #c9ffff 100%);
   background-clip: text;
   -webkit-background-clip: text;

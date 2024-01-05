@@ -10,7 +10,7 @@
 }
 
 .descStyle {
-  @apply text-white-01 text-[14px] text-center leading-[17px];
+  @apply text-white-01 text-[16px] text-center leading-[24px];
 }
 
 .linkGroupItemStyle {

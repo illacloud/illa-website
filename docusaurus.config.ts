@@ -141,6 +141,7 @@ const config: Config = {
     "./plugins/linkedin.js",
     "./plugins/twitter.js",
     "./plugins/chatwoot.js",
+    "./plugins/reddit-plugin.js",
   ],
 }
 
