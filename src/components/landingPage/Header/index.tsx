@@ -42,7 +42,7 @@ export const LpHeader: FC<IHeaderProps> = ({
                 })
               }}
             >
-              <BackIcon className="text-tech-purple-01" />
+              <BackIcon className="text-tech-purple-03" />
               <span>{backText}</span>
             </span>
           </Link>
