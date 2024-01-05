@@ -37,6 +37,24 @@ ILLA Flow can connect to any
 
 We will strive to expand support for more connectivity features.
 
+## Some examples
+
+ILLA Flow supports multiple trigger types, including scheduled triggers and Webhook triggers.
+
+We use ILLA Flow to do lots of things, like:
+
+- Send a message to Slack when a new user registers
+- Report the number of stars on GitHub every day
+- Book a meeting room every day
+- ...
+
+Our engineers use ILLA Flow to automate many tasks, like:
+
+- Read some business data from databases and send to Slack every day
+- Build a CI/CD report system
+- Send email when some warning occurs
+- ...
+
 ## Conclusion
 
 ILLA Flow supports scheduled triggers and the use of Webhooks for triggering. As a low-code tool, ILLA also enables the construction of panels to drive multiple workflows, forming a complete business process. Currently, the product is entirely free and requires no costs. 
