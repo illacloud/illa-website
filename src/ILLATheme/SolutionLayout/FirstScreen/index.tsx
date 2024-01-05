@@ -1,4 +1,4 @@
-import { FC, useRef } from "react"
+import React, { FC, useRef } from "react"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import { sendTagEvent } from "@site/src/utils/gtag"
 import { usePaintBg } from "@site/src/hooks/usePaintBg"
@@ -9,7 +9,6 @@ import Interpolate from "@docusaurus/Interpolate"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { addUrlParams } from "@site/src/utils/urlParams"
 import { CLOUD_URL, DEMO_BASE_URL } from "@site/src/constants/url"
-import IndexBg from "@site/static/img/solutions/indexBg.svg"
 
 interface IFirstScreenProps {
   slogan: string
@@ -20,6 +19,7 @@ interface IFirstScreenProps {
   appID: string
   image: string
   imageAlt: string
+  bg: React.ReactNode
 }
 
 const FirstScreen: FC<IFirstScreenProps> = ({
@@ -31,6 +31,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
   appID,
   image,
   imageAlt,
+  bg,
 }) => {
   const getUtmParams = useUtmParams()
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
@@ -58,9 +59,7 @@ const FirstScreen: FC<IFirstScreenProps> = ({
       <div className={style.canvasContainerStyle}>
         <canvas ref={canvasRef} />
       </div>
-      <span className={style.indexBgStyle}>
-        <IndexBg className="absolute" />
-      </span>
+      <span className={style.indexBgStyle}>{bg}</span>
       <div className={style.contentContainer}>
         <div className={style.textContainerStyle}>
           <h1 className={style.sloganStyle}>
