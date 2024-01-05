@@ -33,6 +33,22 @@
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/resource.jpeg" alt="resource" class="img_CfaS"></p>
 <p>We will strive to expand support for more connectivity features.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-examples">Some examples<a href="https://illacloud.github.io/illa-website/zh/blog/launch-flow#some-examples" class="hash-link" aria-label="Direct link to Some examples" title="Direct link to Some examples">​</a></h2>
+<p>ILLA Flow supports multiple trigger types, including scheduled triggers and Webhook triggers.</p>
+<p>We use ILLA Flow to do lots of things, like:</p>
+<ul>
+<li>Send a message to Slack when a new user registers</li>
+<li>Report the number of stars on GitHub every day</li>
+<li>Book a meeting room every day</li>
+<li>...</li>
+</ul>
+<p>Our engineers use ILLA Flow to automate many tasks, like:</p>
+<ul>
+<li>Read some business data from databases and send to Slack every day</li>
+<li>Build a CI/CD report system</li>
+<li>Send email when some warning occurs</li>
+<li>...</li>
+</ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/launch-flow#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>ILLA Flow supports scheduled triggers and the use of Webhooks for triggering. As a low-code tool, ILLA also enables the construction of panels to drive multiple workflows, forming a complete business process. Currently, the product is entirely free and requires no costs.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/dashboard.jpeg" alt="dashboard" class="img_CfaS"></p>
