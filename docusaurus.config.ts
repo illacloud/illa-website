@@ -142,6 +142,7 @@ const config: Config = {
     "./plugins/twitter.js",
     "./plugins/chatwoot.js",
     "./plugins/reddit-plugin.js",
+    "./plugins/clearbit-plugin.js",
   ],
 }
 

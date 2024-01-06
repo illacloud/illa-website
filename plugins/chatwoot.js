@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 
-async function microsoftClarity() {
+async function chatwoot() {
   return {
     name: "docusaurus-plugin-ILLA-chatwoot",
     injectHtmlTags() {
@@ -29,4 +29,4 @@ async function microsoftClarity() {
     },
   };
 }
-exports.default = microsoftClarity;
+exports.default = chatwoot;

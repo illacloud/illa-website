@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 
-async function microsoftClarity() {
+async function linkedin() {
   return {
     name: "docusaurus-plugin-ILLA-linkedin",
     injectHtmlTags() {
@@ -39,4 +39,4 @@ async function microsoftClarity() {
     },
   };
 }
-exports.default = microsoftClarity;
+exports.default = linkedin;

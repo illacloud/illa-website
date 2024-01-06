@@ -1,7 +1,7 @@
 "use strict"
 Object.defineProperty(exports, "__esModule", { value: true })
 
-async function microsoftClarity() {
+async function reddit() {
   return {
     name: "docusaurus-plugin-ILLA-reddit-plugin",
     injectHtmlTags() {
@@ -40,4 +40,4 @@ async function microsoftClarity() {
     },
   }
 }
-exports.default = microsoftClarity
+exports.default = reddit
