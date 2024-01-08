@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[4300],{5043:e=>{e.exports=JSON.parse('{"label":"crud","permalink":"/illa-website/zh/blog/tags/crud","allTagsPath":"/illa-website/zh/blog/tags","count":1}')}}]);
