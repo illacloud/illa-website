@@ -18,9 +18,9 @@ Popular databases such as Microsoft SQL Server, Oracle MySQL Database, and Oracl
 
 Web-based GUIs are becoming increasingly popular as they allow those with access to a web browser to easily manage their databases from any system, including Windows, Linux, and Mac. Using a database GUI is a much quicker way of managing your databases. It is also far more comprehensive when compared to entering SQL statements by hand. Allowing developers easy access to any database system's functionality makes database management significantly more accessible.
 
-## Top 7 database GUIs for SQL databases
-
 ### ILLA Cloud
+
+![illa](https://cdn.illacloud.com/illa-website/blog/top-7-database-guis-for-sql-databases/illa.png)
 
 ILLA is a top-notch low-code solution that allows developers to create a feature-rich internal tool within no time. Moreover, developers using the ILLA cloud will have to spend less effort and time on web designs and other integrations.
 
@@ -29,8 +29,6 @@ The creators of ILLA have developed numerous inserts for the tool. So, the tool 
 ILLA Cloud is also one of the most popular Graphical User Interfaces (GUI) for managing SQL databases. It offers a user-friendly and intuitive interface, allowing developers to quickly change their database without manually entering complex SQL statements. ILLA Cloud also provides comprehensive cross-platform support, making it accessible from any system, including Windows, Linux, and Mac.
 
 With ILLA Cloud, users can quickly construct complex query builders with a mouse click. In addition to its great features, ILLA Cloud offers enterprise level security protocols protecting the user's data. Furthermore, users can easily extend their database by creating custom web services with ILLA's REST API platform. ILLA Cloud is the perfect choice for those looking for an easy way to manage their databases.
-
-![illa](https://cdn.illacloud.com/illa-website/blog/top-7-database-guis-for-sql-databases/illa.png)
 
 ### DBeaver
 
@@ -80,7 +78,7 @@ Dronahq is a powerful and feature-rich graphical user interface (GUI) for managi
 
 Dronahq provides extensive cross-platform support, enabling users to access their database from any system, including Windows, Linux, and Mac. It also features advanced security protocols such as role-based authentication and secure connection encryption. Furthermore, Dronahq has a powerful query builder that allows users to quickly create custom reports with the built-in reporting capabilities.
 
-## Find the one that best suits you.
+## Find the one that best suits you
 
 With the wide range of Graphical User Interfaces (GUIs) available, it is important to try out different options to find the one that best suits you. Each GUI has unique features, so users should take the time to research and weigh the pros and cons.
 
