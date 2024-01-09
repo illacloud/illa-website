@@ -1,5 +1,5 @@
 ---
-title: 'The Best Tools for Building Crud Applications in 2023'
+title: 'The Best Tools for Building Crud Applications in 2024'
 tags: [crud, tools]
 slug: the-best-tools-for-build-crud-applications
 description: CRUD applications are a type of software that allows users to create, read, update, and delete data using various interfaces such as web pages or mobile apps. CRUD stands for Create, Read, Update, and Delete, which are the four basic operations that models should be able to do on data. CRUD applications are very common in web development, as they allow users to perform basic operations on data without writing complex code.
