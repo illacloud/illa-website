@@ -2,10 +2,10 @@
 title: 'Top 7 Database GUIs for SQL databases'
 tags: [database, gui, tools]
 slug: top-7-database-guis-for-sql-databases
-description: 
+description: Database GUI tools make working with SQL databases much simpler and more efficient for developers. Many great database GUIs are available, each with different features and capabilities. In this blog post, we'll look at seven of the best database GUIs to help you choose the right one.
 authors: [ owen ]
-image: 
-date: 2024-01-08T10:00
+image: https://cdn.illacloud.com/illa-website/blog/top-7-database-guis-for-sql-databases/cover.png
+date: 2024-01-09T10:00
 ---
 
 Database GUI tools make working with SQL databases much simpler and more efficient for developers. Many great database GUIs are available, each with different features and capabilities. In this blog post, we'll look at seven of the best database GUIs to help you choose the right one.
