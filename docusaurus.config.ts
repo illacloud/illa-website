@@ -140,7 +140,6 @@ const config: Config = {
     "./plugins/solution-plugin.js",
     "./plugins/linkedin.js",
     "./plugins/twitter.js",
-    "./plugins/chatwoot.js",
     "./plugins/reddit-plugin.js",
     "./plugins/clearbit-plugin.js",
   ],

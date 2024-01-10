@@ -6,7 +6,10 @@ import ErrorPageContent from "@theme/ErrorPageContent"
 import LayoutProvider from "@theme/Layout/Provider"
 import SkipToContent from "@theme/SkipToContent"
 import { LivePreviewProvider } from "../../components/LivePreviewContext"
+import DiscordIcon from "@site/static/img/public/discord.svg"
 import clsx from "clsx"
+import Link from "@docusaurus/Link"
+import { DISCORD_URL } from "@site/src/constants/url"
 
 export const CommonLayout = (props: any) => {
   const { children, title, description, keywords, whiteTheme, image } = props
@@ -37,6 +40,12 @@ export const CommonLayout = (props: any) => {
           <LivePreviewProvider>{children}</LivePreviewProvider>
         </ErrorBoundary>
       </div>
+      <Link
+        to={DISCORD_URL}
+        className="w-[64px] h-[64px] fixed z-[99] right-[32px] bottom-[32px] flex justify-center items-center bg-[#5728DD] rounded-[50%] cursor-pointer text-white-01 hover:text-white-01"
+      >
+        <DiscordIcon width="22px" />
+      </Link>
     </LayoutProvider>
   )
 }

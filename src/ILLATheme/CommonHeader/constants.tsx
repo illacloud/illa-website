@@ -1,6 +1,6 @@
 import { MenuItemType, NavbarPopoverItemType } from "./interface"
 import { translate } from "@docusaurus/Translate"
-import { CLOUD_URL } from "@site/src/constants/url"
+import { CLOUD_URL, DISCORD_URL } from "@site/src/constants/url"
 import ImageGeneratorIcon from "@site/static/img/solutions/image-generator.svg"
 import VoiceGeneratorIcon from "@site/static/img/solutions/voice-generator.svg"
 import DashboardIcon from "@site/static/img/solutions/dashboard.svg"
@@ -157,6 +157,14 @@ export const MENU_ITEMS: MenuItemType[] = [
 ]
 
 export const OPERATE_MENU_ITEMS = [
+  {
+    label: translate({
+      id: "nav.contact",
+      message: "Contact us",
+    }),
+    href: DISCORD_URL,
+    category: "homepage_menu_discord_click",
+  },
   {
     label: translate({
       id: "nav.login",
