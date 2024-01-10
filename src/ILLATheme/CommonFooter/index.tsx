@@ -61,7 +61,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
             >
               {title}
             </span>
-            <div className="flex flex-col items-start gap-[8px] w-full">
+            <div className="flex flex-col items-start w-full gap-[8px]">
               {needFold ? (
                 <FoldItems items={items} whiteTheme={whiteTheme} />
               ) : (
