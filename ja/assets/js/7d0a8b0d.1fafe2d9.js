@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[617],{2523:e=>{e.exports=JSON.parse('{"label":"freelancer jobs","permalink":"/illa-website/ja/blog/tags/freelancer-jobs","allTagsPath":"/illa-website/ja/blog/tags","count":1}')}}]);

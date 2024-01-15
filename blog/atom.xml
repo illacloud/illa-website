@@ -2,12 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/blog</id>
     <title>ILLA Cloud Blog</title>
-    <updated>2024-01-09T10:00:00.000Z</updated>
+    <updated>2024-01-15T10:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/blog"/>
     <subtitle>ILLA Cloud Blog</subtitle>
     <icon>https://illacloud.github.io/illa-website/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
+    <entry>
+        <title type="html"><![CDATA[I developed a product that enables freelancers to create admin panels with lightning speed]]></title>
+        <id>https://illacloud.github.io/illa-website/blog/boost-freelancer</id>
+        <link href="https://illacloud.github.io/illa-website/blog/boost-freelancer"/>
+        <updated>2024-01-15T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I am currently a freelancer and once took on a web development project on a freelancer platform. The frontend part of this project didn't take much of my time, but the extensive requirements for Admin Panels consumed a lot of it.]]></summary>
+        <content type="html"><![CDATA[<p>Hello everyone, I'm Owen, a full-stack engineer with previous experience at TikTok. My role there involved developing the platform, known for its engaging short video content, and ensuring a delightful user experience.</p>
+<p>I am currently a freelancer and once took on a web development project on a freelancer platform. The frontend part of this project didn't take much of my time, but the extensive requirements for Admin Panels consumed a lot of it.</p>
+<p>All my data was stored on Supabase, and I developed a complete set of REST APIs for backend management. I realized that most of the work involved CRUD operations on Supabase. I needed a tool to help me quickly develop these Admin Panels.</p>
+<p>So, I created an open-source project to assist in the rapid development of Admin Panels. This project is named ILLA Cloud.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-is-illa-cloud">What is ILLA Cloud<a href="https://illacloud.github.io/illa-website/blog/boost-freelancer#what-is-illa-cloud" class="hash-link" aria-label="Direct link to What is ILLA Cloud" title="Direct link to What is ILLA Cloud">​</a></h2>
+<p>ILLA is a low-code tool designed for developers, allowing you to rapidly develop Admin Panels and Dashboards through a drag-and-drop interface. ILLA Cloud integrates with a wide range of common databases and data sources, including REST APIs and GraphQL.</p>
+<p>Official Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
+<p>With ILLA, you can quickly build various tools such as:</p>
+<ul>
+<li>Web &amp; App Admin Panels</li>
+<li>Data Dashboards</li>
+<li>Customized B2B Tools</li>
+</ul>
+<p>These can be created with drag-and-drop ease, requiring only a minimal amount of JavaScript for logical connections.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/boost-freelancer/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<p>ILLA also features a comprehensive set of connector tools, capable of integrating AI, databases, and various SaaS platforms. This enables your clients to quickly link the products you build with the ones they use. It supports scheduled tasks, Webhooks, and also allows for parameter passing.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/boost-freelancer/connector.png" alt="connector" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-i-created-illa-cloud">Why I created ILLA Cloud<a href="https://illacloud.github.io/illa-website/blog/boost-freelancer#why-i-created-illa-cloud" class="hash-link" aria-label="Direct link to Why I created ILLA Cloud" title="Direct link to Why I created ILLA Cloud">​</a></h2>
+<p>For freelancers, the most important thing is undoubtedly time, as time is money. I don't want to spend too much time on Admin Panels; I need a tool that helps me develop Admin Panels quickly. Additionally, for my clients, usability and aesthetic appeal are paramount. Therefore, using a low-code tool for development offers a very user-friendly experience.</p>
+<p>With drag-and-drop, I can rapidly construct an Admin Panel that directly interacts with Supabase, without needing to write any code. This tool helps me quickly develop Admin Panels, allowing me to focus on developing business logic.</p>
+<p>The reason I use Supabase is that it's an extremely user-friendly open-source project, which aids in swiftly setting up backend services. Moreover, its documentation is very accessible, making it easy for me to get started.</p>
+<p>ILLA Cloud has an integration with Supabase. With SQL, I can quickly query and modify data in Supabase, facilitating rapid development of both Dashboards and Admin Panels.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-i-recommend-illa-cloud">Why I recommend ILLA Cloud<a href="https://illacloud.github.io/illa-website/blog/boost-freelancer#why-i-recommend-illa-cloud" class="hash-link" aria-label="Direct link to Why I recommend ILLA Cloud" title="Direct link to Why I recommend ILLA Cloud">​</a></h2>
+<p>You only need to pay $20 per month for ILLA, and this fee is solely for the use of ILLA's editor, which is very freelancer-friendly. You might need to interact with numerous clients, but you don't have to pay for the users; you only pay for yourself.</p>
+<p>Additionally, ILLA comes with a ready-to-use Drive service. For file storage needs during development, you can directly use the Drive service, which aids in rapid development. Moreover, if your client has a high usage volume, you can have them recharge their account themselves, or they can come back to you for more. This can be very beneficial for closing follow-up deals.</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="freelancer" term="freelancer"/>
+        <category label="freelance" term="freelance"/>
+        <category label="upwork" term="upwork"/>
+        <category label="fiverr" term="fiverr"/>
+        <category label="freelancer.com" term="freelancer.com"/>
+        <category label="freelancer jobs" term="freelancer jobs"/>
+        <category label="freelance jobs" term="freelance jobs"/>
+        <category label="freelance work" term="freelance work"/>
+        <category label="freelance websites" term="freelance websites"/>
+        <category label="freelance website" term="freelance website"/>
+        <category label="freelance marketplace" term="freelance marketplace"/>
+        <category label="freelance marketplaces" term="freelance marketplaces"/>
+        <category label="freelance platform" term="freelance platform"/>
+        <category label="freelance platforms" term="freelance platforms"/>
+        <category label="freel" term="freel"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Top 7 Database GUIs for SQL databases]]></title>
         <id>https://illacloud.github.io/illa-website/blog/top-7-database-guis-for-sql-databases</id>

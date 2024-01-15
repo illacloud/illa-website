@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[6064],{5047:e=>{e.exports=JSON.parse('{"label":"freelance websites","permalink":"/illa-website/blog/tags/freelance-websites","allTagsPath":"/illa-website/blog/tags","count":1}')}}]);
