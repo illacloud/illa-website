@@ -72,7 +72,7 @@ const Solutions: FC = () => {
               )}
               onClick={() => handleClickTab(item.value)}
             >
-              <span className="w-full h-full relative z-[1] text-nowrap">
+              <span className="w-full h-full relative z-[1] whitespace-nowrap">
                 {item.label}
               </span>
               {item.value === selectIndex && (
