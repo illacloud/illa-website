@@ -4,7 +4,7 @@ title: I developed a product that enables freelancers to create admin panels wit
 description: I am currently a freelancer and once took on a web development project on a freelancer platform. The frontend part of this project didn't take much of my time, but the extensive requirements for Admin Panels consumed a lot of it.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/boost-freelancer/cover.webp
-tags: [ freelancer, freelance, upwork, fiverr, freelancer.com, freelancer jobs, freelance jobs, freelance work, freelance websites, freelance website, freelance marketplace, freelance marketplaces, freelance platform, freelance platforms, freelance website, freel ]
+tags: [ freelancer, freelance, upwork, fiverr, freelancer.com, freelancer jobs, freelance jobs, freelance work ]
 date: 2024-01-15T10:00
 is_featured: true
 ---
