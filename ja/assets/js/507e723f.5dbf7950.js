@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[7224],{1308:e=>{e.exports=JSON.parse('{"label":"freel","permalink":"/illa-website/ja/blog/tags/freel","allTagsPath":"/illa-website/ja/blog/tags","count":1}')}}]);

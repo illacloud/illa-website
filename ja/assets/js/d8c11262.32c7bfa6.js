@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[8049],{4778:l=>{l.exports=JSON.parse('{"label":"slack","permalink":"/illa-website/ja/blog/tags/slack","allTagsPath":"/illa-website/ja/blog/tags","count":1}')}}]);
