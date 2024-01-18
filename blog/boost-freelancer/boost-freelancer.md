@@ -6,7 +6,6 @@ authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/boost-freelancer/cover.webp
 tags: [ freelancer, freelance, upwork, fiverr, freelancer.com, freelancer jobs, freelance jobs, freelance work ]
 date: 2024-01-15T10:00
-is_featured: true
 ---
 
 Hello everyone, I'm Owen, a full-stack engineer with previous experience at TikTok. My role there involved developing the platform, known for its engaging short video content, and ensuring a delightful user experience.
