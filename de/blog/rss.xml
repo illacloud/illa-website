@@ -4,11 +4,57 @@
         <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/de/blog</link>
         <description>ILLA Cloud Blog</description>
-        <lastBuildDate>Wed, 17 Jan 2024 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 10:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
         <copyright>Copyright © 2024 ILLA.</copyright>
+        <item>
+            <title><![CDATA[Create AI Tools like building with blocks]]></title>
+            <link>https://illacloud.github.io/illa-website/de/blog/build-ai-tools</link>
+            <guid>https://illacloud.github.io/illa-website/de/blog/build-ai-tools</guid>
+            <pubDate>Fri, 19 Jan 2024 10:00:00 GMT</pubDate>
+            <description><![CDATA[AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields. However, for most people, AI remains a high-barrier technology, requiring a significant amount of time and effort to learn before it can be applied effectively in practical work.]]></description>
+            <content:encoded><![CDATA[<p>AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields. However, for most people, AI remains a high-barrier technology, requiring a significant amount of time and effort to learn before it can be applied effectively in practical work.</p>
+<p>Each of us has our own unique needs, such as building text-to-image tools or writing tools specific to our work chains. There are numerous interesting models on HuggingFace, allowing us to quickly create our own AI tools based on these models, thereby making our work more intelligent!</p>
+<p>Here is a recommended tool that allows users to build AI tools like assembling blocks:</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/de/blog/build-ai-tools#illa-cloud" class="hash-link" aria-label="Direkter Link zu ILLA Cloud" title="Direkter Link zu ILLA Cloud">​</a></h2>
+<p>The official website is: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
+<p>Github: <a href="https://illacloud.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://illacloud.com/illacloud/illa-builder</a></p>
+<p>This open-source low-code tool's slogan is: <strong>Build AI Driven Business Tools</strong>. It focuses on helping users quickly build AI-driven tools. Users can construct pages through drag-and-drop. Then, by using three major functions, they can connect to AI:</p>
+<ul>
+<li>ILLA AI Agent</li>
+<li>Models from HuggingFace</li>
+<li>RestAPI to call OpenAI's interface</li>
+</ul>
+<p>This allows for the quick creation of personalized AI tools.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="building-smart-applications">Building Smart Applications<a href="https://illacloud.github.io/illa-website/de/blog/build-ai-tools#building-smart-applications" class="hash-link" aria-label="Direkter Link zu Building Smart Applications" title="Direkter Link zu Building Smart Applications">​</a></h2>
+<p>Here we use OpenAI's text-to-image interface to build our own text-to-image panel, using tools built with ILLA Cloud, which offers certain advantages:</p>
+<p>Example here: <a href="https://illacloud.com/image-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/image-generator</a></p>
+<ul>
+<li>The generated images can be sent to any system or SaaS using the ILLA Flow feature.</li>
+<li>The models used later can be called via RestAPI or through HuggingFace's models.</li>
+<li>Built-in prompts can be added to ensure that the generated content is sufficiently customized.</li>
+<li>The ILLA AI Agent feature can enrich the content's prompts, as not everyone is familiar with writing prompts.</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/image_generate_content.webp" alt="image_generate_content" class="img_CfaS"></p>
+<p>I used several components here, quickly creating my own web panel through drag-and-drop, and then connected the logic through JavaScript, making it available for use by my team.</p>
+<p>I built two examples; another is an AI voice processing panel.</p>
+<p>Example here: <a href="https://illacloud.com/ai-voice-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/ai-voice-generator</a></p>
+<p>This panel has the following functions:</p>
+<ul>
+<li>Meeting minutes transcription</li>
+<li>Generation of meeting minutes</li>
+<li>Translation and dubbing of meeting minutes</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/mix_ai_voice.webp" alt="mix_ai_voice" class="img_CfaS"></p>
+<p>It primarily uses OpenAI's Whisper capability. There are thousands of AI capabilities, but the most important is to find what suits you. Using ILLA Cloud, you can quickly build AI applications like building blocks. Start using it now!</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/de/blog/build-ai-tools#conclusion" class="hash-link" aria-label="Direkter Link zu Conclusion" title="Direkter Link zu Conclusion">​</a></h2>
+<p>From the above introduction, we can see that using ILLA Cloud, you can quickly build your own AI tools, and ILLA Cloud has a rich array of components, basically meeting a large number of everyday business needs.</p>
+<p>ILLA's self-developed component library has made the above functions flexible enough. Come and use ILLA Cloud to build your own AI tools!</p>]]></content:encoded>
+            <category>ai</category>
+            <category>tools</category>
+        </item>
         <item>
             <title><![CDATA[Best Developer-Friendly Tool for Automating Message Sending to Slack]]></title>
             <link>https://illacloud.github.io/illa-website/de/blog/automate-send-to-slack</link>
