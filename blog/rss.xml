@@ -4,11 +4,64 @@
         <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/blog</link>
         <description>ILLA Cloud Blog</description>
-        <lastBuildDate>Fri, 19 Jan 2024 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jan 2024 12:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2024 ILLA.</copyright>
+        <item>
+            <title><![CDATA[Best Open-Source Low-Code Platform for Building Internal Tools]]></title>
+            <link>https://illacloud.github.io/illa-website/blog/internal-tool</link>
+            <guid>https://illacloud.github.io/illa-website/blog/internal-tool</guid>
+            <pubDate>Fri, 19 Jan 2024 12:00:00 GMT</pubDate>
+            <description><![CDATA[ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools. As an open-source low-code platform, using ILLA Cloud to create internal tools is a very good choice.]]></description>
+            <content:encoded><![CDATA[<p>ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools. As an open-source low-code platform, using ILLA Cloud to create internal tools is a very good choice.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-is-internal-tools">What is Internal Tools<a href="https://illacloud.github.io/illa-website/blog/internal-tool#what-is-internal-tools" class="hash-link" aria-label="Direct link to What is Internal Tools" title="Direct link to What is Internal Tools">​</a></h2>
+<p>Internal Tools refer to tools used within a team, including but not limited to various data dashboards, admin panels, etc. These tools can help the team better manage business operations and improve work efficiency. Tools drive the team's efficiency, and Internal Tools are an important part of these tools.</p>
+<p>Every team needs to create a large number of non-standardized Internal Tools based on their own needs, making their team more efficient in managing business operations and data-driven decision-making.</p>
+<p>Regardless of whether it's a large or small company, Internal Tools are very important, and each company's Internal Tools are different. Therefore, a flexible tool is needed to create Internal Tools.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-illa-cloud-can-do">What ILLA Cloud Can Do<a href="https://illacloud.github.io/illa-website/blog/internal-tool#what-illa-cloud-can-do" class="hash-link" aria-label="Direct link to What ILLA Cloud Can Do" title="Direct link to What ILLA Cloud Can Do">​</a></h2>
+<p>Github: <a href="https://illacloud.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://illacloud.com/illacloud/illa-builder</a></p>
+<p>Official Website: <a href="https://illa.cloud/" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
+<p>The main users of ILLA Cloud are backend engineers, which might be different from what most people think. A large number of backend engineers have used ILLA Cloud to build numerous data panels and management backends. After all, web development has always been a headache for backend engineers. The tools built with ILLA Cloud are indeed quite aesthetically pleasing and fast.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<p>ILLA also supports collaboration, allowing multiple people to edit a project together. Backend engineers no longer need to worry about building various internal backends. We all know the pain and tears of relying on front-end engineers.</p>
+<p>The official website also has some solutions, which currently seem to focus mainly on management backends, data panels, etc.</p>
+<ul>
+<li>AI text-to-image panel</li>
+<li>AI voice processing panel</li>
+<li>Data analysis panel</li>
+<li>Content management CMS</li>
+<li>Custom CRM</li>
+<li>Management backend</li>
+</ul>
+<p>They also support building workflows, and it seems they have done a lot of work in the low-code field, looking like a well-rounded product. It basically meets various common cases.</p>
+<p>For instance:</p>
+<ul>
+<li>Sending a message to Slack when a new user registers</li>
+<li>Daily reporting of the number of stars on GitHub</li>
+<li>Daily booking of meeting rooms</li>
+</ul>
+<p>Engineers use ILLA Flow to automatically execute many tasks, such as:</p>
+<ul>
+<li>Reading business data from a database daily and sending it to Slack</li>
+<li>Building CI/CD reporting systems</li>
+<li>Sending emails when certain warnings occur</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/connector.png" alt="connector" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-experience">User Experience<a href="https://illacloud.github.io/illa-website/blog/internal-tool#user-experience" class="hash-link" aria-label="Direct link to User Experience" title="Direct link to User Experience">​</a></h2>
+<p>I briefly experienced it, and they have really put a lot of effort into the editor's smoothness and overall experience. The overall editing experience is quite good. It includes smooth drag-and-drop capabilities and also supports collaboration.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/team.gif" alt="collabration" class="img_CfaS"></p>
+<p>Various database integration capabilities are also supported, allowing quick data reading and writing from various data sources and databases. For backend engineers, integrating various services is indeed a nightmare. In this case, ILLA has already done the work. They also support integration with Huggingface, which seems like an official collaboration. It allows for quick use of the model capabilities on Huggingface, which is indeed interesting. You can quickly create some AI-driven tools.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/resource.png" alt="resource" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/internal-tool#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>If you are choosing an open-source low-code platform, ILLA Cloud is an excellent option. It can help you quickly build Internal Tools, enhancing your team's work efficiency.</p>
+<p>Finally, it is hoped that every team can use Internal Tools to drive their business growth and build the most efficient team.</p>]]></content:encoded>
+            <category>nvm</category>
+            <category>nodejs</category>
+            <category>mac</category>
+            <category>javascript</category>
+        </item>
         <item>
             <title><![CDATA[Create AI Tools like building with blocks]]></title>
             <link>https://illacloud.github.io/illa-website/blog/build-ai-tools</link>
@@ -321,54 +374,6 @@
             <category>tools</category>
         </item>
         <item>
-            <title><![CDATA[ILLA Flow: A javascript-driven, developer-friendly product for creating automate workflow]]></title>
-            <link>https://illacloud.github.io/illa-website/blog/launch-flow</link>
-            <guid>https://illacloud.github.io/illa-website/blog/launch-flow</guid>
-            <pubDate>Fri, 05 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.]]></description>
-            <content:encoded><![CDATA[<p>Hi everyone, I'm Owen, and we are a startup company focused on low-code solutions. Our team is quite small, consisting of only 7 people.</p>
-<p>Today, we launched our new product: ILLA Flow.</p>
-<p>Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a> (You can find it after login, at the left of dashboard -&gt; Flow)</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-flow">ILLA Flow<a href="https://illacloud.github.io/illa-website/blog/launch-flow#illa-flow" class="hash-link" aria-label="Direct link to ILLA Flow" title="Direct link to ILLA Flow">​</a></h2>
-<p>ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.</p>
-<p>You can build your own workflow through a drag-and-drop interface, and then execute your workflow by scheduling triggers or Webhook triggers.</p>
-<p>The smooth drag-and-drop experience allows you to quickly build workflows without worrying about any integration issues. The entire system is driven by JavaScript, ensuring flexibility while also being developer-friendly.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/flow.jpeg" alt="flow" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="integrate-everything">Integrate Everything<a href="https://illacloud.github.io/illa-website/blog/launch-flow#integrate-everything" class="hash-link" aria-label="Direct link to Integrate Everything" title="Direct link to Integrate Everything">​</a></h2>
-<p>ILLA Flow can connect to any</p>
-<ul>
-<li>RestAPI</li>
-<li>MySQL</li>
-<li>MariaDB,</li>
-<li>PostgreSQL</li>
-<li>...</li>
-</ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/resource.jpeg" alt="resource" class="img_CfaS"></p>
-<p>We will strive to expand support for more connectivity features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-examples">Some examples<a href="https://illacloud.github.io/illa-website/blog/launch-flow#some-examples" class="hash-link" aria-label="Direct link to Some examples" title="Direct link to Some examples">​</a></h2>
-<p>ILLA Flow supports multiple trigger types, including scheduled triggers and Webhook triggers.</p>
-<p>We use ILLA Flow to do lots of things, like:</p>
-<ul>
-<li>Send a message to Slack when a new user registers</li>
-<li>Report the number of stars on GitHub every day</li>
-<li>Book a meeting room every day</li>
-<li>...</li>
-</ul>
-<p>Our engineers use ILLA Flow to automate many tasks, like:</p>
-<ul>
-<li>Read some business data from databases and send to Slack every day</li>
-<li>Build a CI/CD report system</li>
-<li>Send email when some warning occurs</li>
-<li>...</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/launch-flow#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>ILLA Flow supports scheduled triggers and the use of Webhooks for triggering. As a low-code tool, ILLA also enables the construction of panels to drive multiple workflows, forming a complete business process. Currently, the product is entirely free and requires no costs.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/dashboard.jpeg" alt="dashboard" class="img_CfaS"></p>
-<p>Our initial intention in creating this product was to address the lack of developer-friendly workflow products on the market. We aim to build a complete low-code matrix product to provide a better experience. Moreover, we have achieved multi-person real-time collaboration, similar to the experience of editing in Figma, ensuring that a team can edit workflows together.</p>
-<p>As an early-stage product, there are still many features that are not perfect, and we hope everyone can provide valuable feedback to help us optimize it.</p>]]></content:encoded>
-            <category>workflow</category>
-        </item>
-        <item>
             <title><![CDATA[10,000 Stars! This open-source low-code tool is wildly popular overseas.]]></title>
             <link>https://illacloud.github.io/illa-website/blog/popular-tool</link>
             <guid>https://illacloud.github.io/illa-website/blog/popular-tool</guid>
@@ -418,6 +423,54 @@
             <category>nodejs</category>
             <category>mac</category>
             <category>javascript</category>
+        </item>
+        <item>
+            <title><![CDATA[ILLA Flow: A javascript-driven, developer-friendly product for creating automate workflow]]></title>
+            <link>https://illacloud.github.io/illa-website/blog/launch-flow</link>
+            <guid>https://illacloud.github.io/illa-website/blog/launch-flow</guid>
+            <pubDate>Fri, 05 Jan 2024 10:00:00 GMT</pubDate>
+            <description><![CDATA[ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.]]></description>
+            <content:encoded><![CDATA[<p>Hi everyone, I'm Owen, and we are a startup company focused on low-code solutions. Our team is quite small, consisting of only 7 people.</p>
+<p>Today, we launched our new product: ILLA Flow.</p>
+<p>Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a> (You can find it after login, at the left of dashboard -&gt; Flow)</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-flow">ILLA Flow<a href="https://illacloud.github.io/illa-website/blog/launch-flow#illa-flow" class="hash-link" aria-label="Direct link to ILLA Flow" title="Direct link to ILLA Flow">​</a></h2>
+<p>ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.</p>
+<p>You can build your own workflow through a drag-and-drop interface, and then execute your workflow by scheduling triggers or Webhook triggers.</p>
+<p>The smooth drag-and-drop experience allows you to quickly build workflows without worrying about any integration issues. The entire system is driven by JavaScript, ensuring flexibility while also being developer-friendly.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/flow.jpeg" alt="flow" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="integrate-everything">Integrate Everything<a href="https://illacloud.github.io/illa-website/blog/launch-flow#integrate-everything" class="hash-link" aria-label="Direct link to Integrate Everything" title="Direct link to Integrate Everything">​</a></h2>
+<p>ILLA Flow can connect to any</p>
+<ul>
+<li>RestAPI</li>
+<li>MySQL</li>
+<li>MariaDB,</li>
+<li>PostgreSQL</li>
+<li>...</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/resource.jpeg" alt="resource" class="img_CfaS"></p>
+<p>We will strive to expand support for more connectivity features.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-examples">Some examples<a href="https://illacloud.github.io/illa-website/blog/launch-flow#some-examples" class="hash-link" aria-label="Direct link to Some examples" title="Direct link to Some examples">​</a></h2>
+<p>ILLA Flow supports multiple trigger types, including scheduled triggers and Webhook triggers.</p>
+<p>We use ILLA Flow to do lots of things, like:</p>
+<ul>
+<li>Send a message to Slack when a new user registers</li>
+<li>Report the number of stars on GitHub every day</li>
+<li>Book a meeting room every day</li>
+<li>...</li>
+</ul>
+<p>Our engineers use ILLA Flow to automate many tasks, like:</p>
+<ul>
+<li>Read some business data from databases and send to Slack every day</li>
+<li>Build a CI/CD report system</li>
+<li>Send email when some warning occurs</li>
+<li>...</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/launch-flow#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>ILLA Flow supports scheduled triggers and the use of Webhooks for triggering. As a low-code tool, ILLA also enables the construction of panels to drive multiple workflows, forming a complete business process. Currently, the product is entirely free and requires no costs.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/dashboard.jpeg" alt="dashboard" class="img_CfaS"></p>
+<p>Our initial intention in creating this product was to address the lack of developer-friendly workflow products on the market. We aim to build a complete low-code matrix product to provide a better experience. Moreover, we have achieved multi-person real-time collaboration, similar to the experience of editing in Figma, ensuring that a team can edit workflows together.</p>
+<p>As an early-stage product, there are still many features that are not perfect, and we hope everyone can provide valuable feedback to help us optimize it.</p>]]></content:encoded>
+            <category>workflow</category>
         </item>
         <item>
             <title><![CDATA[5 Best Low Code Platform in 2024]]></title>
