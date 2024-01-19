@@ -1,22 +1,18 @@
 ---
-slug: internal-tool
-title: Best Open-Source Low-Code Platform for Building Internal Tools
-description: ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools. As an open-source low-code platform, using ILLA Cloud to create internal tools is a very good choice.
+slug: popular-tool
+title: 10,000 Stars! This open-source low-code tool is wildly popular overseas.
+description: Open-source tools are common, but it's rare to see one with 10,000 stars. I'm sharing a product that has seen a crazy growth of 10,000 stars overseas. There are many low-code tools, but few are truly useful. This tool is primarily used by developers in North America, and their Discord community is very active.
 authors: [ owen ]
-image: https://cdn.illacloud.com/illa-website/blog/internal-tool/cover.webp
+image: https://cdn.illacloud.com/illa-website/blog/popular-tool/cover.png
 tags: [ nvm, nodejs, mac, javascript ]
-date: 2024-01-19T12:00
+date: 2024-01-05T10:00
 ---
 
-ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools. As an open-source low-code platform, using ILLA Cloud to create internal tools is a very good choice.
+Open-source tools are common, but it's rare to see one with 10,000 stars. I'm sharing a product that has seen a crazy growth of 10,000 stars overseas. There are many low-code tools, but few are truly useful. This tool is primarily used by developers in North America, and their Discord community is very active.
 
-## What is Internal Tools
+The community indeed has some good reviews.
 
-Internal Tools refer to tools used within a team, including but not limited to various data dashboards, admin panels, etc. These tools can help the team better manage business operations and improve work efficiency. Tools drive the team's efficiency, and Internal Tools are an important part of these tools.
-
-Every team needs to create a large number of non-standardized Internal Tools based on their own needs, making their team more efficient in managing business operations and data-driven decision-making.
-
-Regardless of whether it's a large or small company, Internal Tools are very important, and each company's Internal Tools are different. Therefore, a flexible tool is needed to create Internal Tools.
+![good](https://cdn.illacloud.com/illa-website/blog/popular-tool/good.png)
 
 ## What ILLA Cloud Can Do
 
@@ -39,6 +35,8 @@ The official website also has some solutions, which currently seem to focus main
 - Custom CRM
 - Management backend
 
+![solution](https://cdn.illacloud.com/illa-website/blog/popular-tool/solution.png)
+
 They also support building workflows, and it seems they have done a lot of work in the low-code field, looking like a well-rounded product. It basically meets various common cases.
 
 For instance:
@@ -51,20 +49,18 @@ Engineers use ILLA Flow to automatically execute many tasks, such as:
 - Building CI/CD reporting systems
 - Sending emails when certain warnings occur
 
-![connector](https://cdn.illacloud.com/illa-website/blog/internal-tool/connector.png)
+![flow](https://cdn.illacloud.com/illa-website/blog/popular-tool/flow.jpeg)
 
 ## User Experience
 
 I briefly experienced it, and they have really put a lot of effort into the editor's smoothness and overall experience. The overall editing experience is quite good. It includes smooth drag-and-drop capabilities and also supports collaboration.
 
-![collabration](https://cdn.illacloud.com/illa-website/blog/internal-tool/team.gif)
+![collabration](https://cdn.illacloud.com/illa-website/blog/popular-tool/team.gif)
 
 Various database integration capabilities are also supported, allowing quick data reading and writing from various data sources and databases. For backend engineers, integrating various services is indeed a nightmare. In this case, ILLA has already done the work. They also support integration with Huggingface, which seems like an official collaboration. It allows for quick use of the model capabilities on Huggingface, which is indeed interesting. You can quickly create some AI-driven tools.
 
-![resource](https://cdn.illacloud.com/illa-website/blog/internal-tool/resource.png)
+![resource](https://cdn.illacloud.com/illa-website/blog/popular-tool/resource.png)
 
 ## Conclusion
 
-If you are choosing an open-source low-code platform, ILLA Cloud is an excellent option. It can help you quickly build Internal Tools, enhancing your team's work efficiency.
-
-Finally, it is hoped that every team can use Internal Tools to drive their business growth and build the most efficient team.
+There are many low-code tools, but few can be practically used and implemented. ILLA seems to have been maintained for two years now, and their company is currently fully committed to this one thing. Unlike some low-code tools produced for certain purposes, they are directly addressing the needs of developers. Everyone can try it out!"
