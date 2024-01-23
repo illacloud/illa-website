@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import Link from "@docusaurus/Link"
 import IllaLogoWhiteIcon from "@site/static/img/whiteLogo.svg"
 import { sendTagEvent } from "@site/src/utils/gtag"
-import { MENU_ITEMS, SOLUTIONS } from "../constants"
+import { MENU_ITEMS, OPERATE_MENU_ITEMS, SOLUTIONS } from "../constants"
 import LocaleDropdownNavbarItem from "@theme/NavbarItem/LocaleDropdownNavbarItem"
 import CloseWhiteIcon from "@site/static/img/public/close.svg"
 import { Disclosure } from "@headlessui/react"
@@ -68,6 +68,7 @@ const MobileMenu = ({ menuExpand, closeMenu }) => {
             </Disclosure>
           )
         })}
+        <MenuItem item={OPERATE_MENU_ITEMS[0]} />
       </div>
 
       <div className="max-h-[180px] overflow-y-auto list-none	">

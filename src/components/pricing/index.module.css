@@ -1,4 +1,3 @@
-/**/
 .pricingContent {
   @apply flex flex-col justify-center items-center gap-[16px] w-full my-0 mx-auto px-[20px];
   @apply lg:gap-[24px] lg:max-w-[1200px];
