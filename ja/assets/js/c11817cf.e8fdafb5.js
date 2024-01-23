@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[4737],{3626:e=>{e.exports=JSON.parse('{"label":"citizen developer","permalink":"/illa-website/ja/blog/tags/citizen-developer","allTagsPath":"/illa-website/ja/blog/tags","count":1}')}}]);

@@ -2,12 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/de/blog</id>
     <title>ILLA Cloud Blog</title>
-    <updated>2024-01-23T10:00:00.000Z</updated>
+    <updated>2024-01-23T11:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/de/blog"/>
     <subtitle>ILLA Cloud Blog</subtitle>
     <icon>https://illacloud.github.io/illa-website/de/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
+    <entry>
+        <title type="html"><![CDATA[The Best Tools for Citizen Developers in 2024]]></title>
+        <id>https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool</id>
+        <link href="https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool"/>
+        <updated>2024-01-23T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In recent decades, application development has been the exclusive domain of IT programmers, but this might change in the future!]]></summary>
+        <content type="html"><![CDATA[<p>In recent decades, application development has been the exclusive domain of IT programmers, but this might change in the future!</p>
+<p>Considering the increasingly competitive business demands, the only way for enterprises to develop is to increase their business capabilities and accelerate delivery speeds without incurring additional costs.</p>
+<p>To address the digital challenges faced by enterprises, Citizen Development (CD) paves the way for non-technical business users (also known as Citizen Developers). Using IT-approved Low Code/No Code (LCNC) platforms, it is possible to intuitively build enterprise applications in an efficient, flexible, and user-friendly environment.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="the-value-of-citizen-development">The Value of Citizen Development<a href="https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool#the-value-of-citizen-development" class="hash-link" aria-label="Direkter Link zu The Value of Citizen Development" title="Direkter Link zu The Value of Citizen Development">​</a></h2>
+<p>According to the Project Management Institute (PMI), Citizen Development will be a disruptor of this new norm, and many low-code/no-code platforms have already demonstrated this to their clients and partners. In practical use, LCNC has proven its ability to significantly reduce the complexity of application development at a minimal cost. So far, many organizations have started adopting citizen development in their operations to stimulate rapid change and create a unique footprint in the community, thereby benefiting overall productivity. Particularly in today's digital realm, low-code/no-code plays a key role in helping businesses leverage the limitless potential offered by this new digital space and easily spark innovation.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="recommended-tools">Recommended Tools<a href="https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool#recommended-tools" class="hash-link" aria-label="Direkter Link zu Recommended Tools" title="Direkter Link zu Recommended Tools">​</a></h2>
+<p>As a Citizen Developer with basic computer skills, you'll need various tools to assist in your work. Here are some recommended tools to make your job more efficient.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool#illa-cloud" class="hash-link" aria-label="Direkter Link zu ILLA Cloud" title="Direkter Link zu ILLA Cloud">​</a></h3>
+<p>If you're considering building a business-logic oriented tool and only require a beautiful UI without pursuing complex animations and flashy pages, ILLA Cloud is recommended for development and construction.</p>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
+<ul>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
+<li>CRM</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/illa.png" alt="illa" class="img_CfaS"></p>
+<p>ILLA Cloud lets you quickly build tools through drag-and-drop without needing to write code, boosting your work efficiency by 10 times. It also natively supports team collaboration, allowing you and your colleagues to edit and build together.</p>
+<p>ILLA Cloud also features connector capabilities, enabling quick connections to other SaaS tools you use. It supports scheduled tasks, Webhooks, parameter passing, and more.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/connector.png" alt="connector" class="img_CfaS"></p>
+<p>ILLA Cloud also includes an AI Agent feature, helping you quickly build AI-driven tools, such as text analysis, voice analysis, image analysis, and more.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/agent.png" alt="agent" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="webflow">Webflow<a href="https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool#webflow" class="hash-link" aria-label="Direkter Link zu Webflow" title="Direkter Link zu Webflow">​</a></h3>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/webflow.png" alt="webflow" class="img_CfaS"></p>
+<p>If you're considering building a user-facing tool with high UI requirements, seeking complex animations and cool pages, Webflow is recommended for development and construction.</p>
+<p>Webflow naturally supports a plethora of animation functions and powerful UI configurations, allowing you to build stunning pages in a very short time. It also natively adapts to mobile devices.</p>
+<p>Webflow's community has a wealth of templates supporting various business needs, like e-commerce, blogs, corporate websites, and more.</p>
+<p>Webflow also includes a CRM backend for managing website visitors, eliminating the need for secondary development for basic management tasks and enabling quick use.</p>
+<p>Of course, Webflow also supports hosting services without any operational costs.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="supabase">Supabase<a href="https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool#supabase" class="hash-link" aria-label="Direkter Link zu Supabase" title="Direkter Link zu Supabase">​</a></h3>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/supabase.png" alt="supabase" class="img_CfaS"></p>
+<p>When you've built an online site, you'll use Webflow for the user-facing parts and ILLA Cloud for internal tools. But you're still missing an important piece.</p>
+<p>For the data in your business development, you need a place to store it.</p>
+<p>Supabase is recommended for storage, offering the following advantages:</p>
+<ul>
+<li>Developer-friendly, catering to both super complex and simple business needs.</li>
+<li>Scalable, dynamically expanding with your business, so you don't have to worry about technical issues due to rapid business growth.</li>
+<li>Supports various SDKs for compatibility with different technologies.</li>
+<li>Easy operations using SQL, as Supabase is based on PostgreSQL, allowing for quick data manipulation.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/de/blog/best-citizen-developer-tool#conclusion" class="hash-link" aria-label="Direkter Link zu Conclusion" title="Direkter Link zu Conclusion">​</a></h2>
+<p>For Citizen Developers, simple and easy-to-use tools are key to enhancing work efficiency. Choosing the right tools for your needs is crucial. Hopefully, everyone can find useful tools and become an outstanding Citizen Developer.</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="citizen developer" term="citizen developer"/>
+        <category label="citizen development" term="citizen development"/>
+        <category label="citizen developer tool" term="citizen developer tool"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Appsmith vs Retool: Which open-source low-code platform is better?]]></title>
         <id>https://illacloud.github.io/illa-website/de/blog/appsmith-vs-retool</id>
@@ -342,7 +398,7 @@
 <p>Here is a recommended tool that allows users to build AI tools like assembling blocks:</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/de/blog/build-ai-tools#illa-cloud" class="hash-link" aria-label="Direkter Link zu ILLA Cloud" title="Direkter Link zu ILLA Cloud">​</a></h2>
 <p>The official website is: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
-<p>Github: <a href="https://illacloud.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://illacloud.com/illacloud/illa-builder</a></p>
+<p>Github: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
 <p>This open-source low-code tool's slogan is: <strong>Build AI Driven Business Tools</strong>. It focuses on helping users quickly build AI-driven tools. Users can construct pages through drag-and-drop. Then, by using three major functions, they can connect to AI:</p>
 <ul>
 <li>ILLA AI Agent</li>
@@ -1282,87 +1338,5 @@ Integration Flexibility: Retool's robust integration capabilities make it suitab
         <category label="shadcn-ui" term="shadcn-ui"/>
         <category label="react" term="react"/>
         <category label="javascript" term="javascript"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shadcn vs MUI: A Comparative Analysis of Strengths and Weaknesses]]></title>
-        <id>https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui</id>
-        <link href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui"/>
-        <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.]]></summary>
-        <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#why-choose-a-component-library" class="hash-link" aria-label="Direkter Link zu Why Choose a Component Library?" title="Direkter Link zu Why Choose a Component Library?">​</a></h2>
-<p>In general, companies choose a component library when building web applications to streamline repetitive work. Component libraries offer ready-to-use components such as Select, Input, CheckBox, etc., allowing users to create beautiful websites quickly without the need to build extensive foundational features from scratch.</p>
-<p>To summarize, component libraries are typically used in two scenarios:</p>
-<ul>
-<li>External Tools: Directly facing company users, often with a company's distinct style, emphasizing aesthetics and responsiveness.</li>
-<li>Internal Tools: For internal use by company employees, focusing on aesthetic design and rapid functionality implementation.</li>
-</ul>
-<p>Next, we will analyze two component libraries based on the following criteria:</p>
-<ol>
-<li>Design</li>
-<li>Richness of Features</li>
-<li>How to Choose for Different Scenarios</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-options-for-internal-tool-scenarios">Other Options for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#other-options-for-internal-tool-scenarios" class="hash-link" aria-label="Direkter Link zu Other Options for Internal Tool Scenarios" title="Direkter Link zu Other Options for Internal Tool Scenarios">​</a></h2>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is a ready-to-use low-code tool that allows for the quick construction of internal tools using simple JavaScript without the need to create new projects.</p>
-<ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
-</ul>
-<p>Compared to building scenarios with component libraries, ILLA Cloud enables 10x faster tool construction and supports collaboration among team members for simultaneous editing.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-shadcn-ui">Features of Shadcn UI<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#features-of-shadcn-ui" class="hash-link" aria-label="Direkter Link zu Features of Shadcn UI" title="Direkter Link zu Features of Shadcn UI">​</a></h2>
-<p>Some detailed data about Shadcn:</p>
-<ul>
-<li>⭐ Github Stars: 37k</li>
-<li>⏬ NPM Downloads: 23,962 downloads per week</li>
-<li>💪🏼 First Release Date: Mar 8, 2023</li>
-</ul>
-<p>Shadcn UI is a relatively new project that gained impressive recognition, achieving 37k stars in less than a year. It seems that outstanding open-source projects can easily gain widespread approval.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/shadcn-ui.png" alt="shadcn-ui" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#design" class="hash-link" aria-label="Direkter Link zu Design" title="Direkter Link zu Design">​</a></h3>
-<p>Shadcn UI leans towards a business style in its design, featuring a clean UI suitable for internal tools and serious application scenarios. Shadcn UI also supports custom themes, although it seems limited to:</p>
-<ul>
-<li>Colors</li>
-<li>Rounded corners</li>
-<li>Dark mode / Light mode</li>
-<li>Predefined "Default Style" and "New York Style"</li>
-</ul>
-<p>In terms of design details such as font and font size, the control appears limited, satisfying basic design needs. However, for external tool scenarios, it may have some limitations.</p>
-<p>Shadcn UI supports both CSS and CSS-in-JS solutions. The CSS-in-JS solution uses <a href="https://stitches.dev/" target="_blank" rel="noopener noreferrer">Stitches</a>, and while CSS defaults to traditional CSS, additional configuration may be needed for less and sass, and it is not out-of-the-box.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#richness-of-features" class="hash-link" aria-label="Direkter Link zu Richness of Features" title="Direkter Link zu Richness of Features">​</a></h3>
-<p>The library's richness of features is sufficient for daily development needs, supporting and providing complete callbacks for most capabilities. Shadcn UI supports essential capabilities, including but not limited to SSR, accessibility, and animation. For more advanced requirements like extremely rich charts and high-performance tables, it seems not fully supported, but ongoing project development is likely to address these needs.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#features-of-mui" class="hash-link" aria-label="Direkter Link zu Features of MUI" title="Direkter Link zu Features of MUI">​</a></h2>
-<p>Some detailed data about MUI:</p>
-<ul>
-<li>⭐ Github Stars: 90k</li>
-<li>⏬ NPM Downloads: 3,263,852 downloads per week</li>
-<li>💪🏼 First Release Date: Nov 6, 2014</li>
-</ul>
-<p>As an established project, MUI has been maintained since 2014, boasting almost 10 years of stability. The high number of stars and weekly downloads ensures a continuously active community.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/mui.png" alt="mui" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design-1">Design<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#design-1" class="hash-link" aria-label="Direkter Link zu Design" title="Direkter Link zu Design">​</a></h3>
-<p>In terms of design, MUI strictly adheres to Google's well-known Material Design. MUI offers extensive customization capabilities to meet most internal and external scenarios, with many well-known open-source projects using MUI for frontend development. For most functionalities, MUI provides comprehensive support.</p>
-<p>In addition to common features like colors, rounded corners, and dark/light modes, MUI supports complete customization of fonts, font sizes, colors, padding, and margins. As a project with ten years of development, MUI's functionality is powerful.</p>
-<p>In terms of CSS support, MUI has its custom system, using emotionjs for style adjustment in the overall layout. This may involve a learning curve and may not be as developer-friendly, requiring documentation consultation for some style modifications.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features-1">Richness of Features<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#richness-of-features-1" class="hash-link" aria-label="Direkter Link zu Richness of Features" title="Direkter Link zu Richness of Features">​</a></h3>
-<p>MUI categorizes its components into several dimensions:</p>
-<ul>
-<li>MUI Core: Basic functional components and a style system.</li>
-<li>MUI X: High-performance and complex components, including high-performance tables, charts, etc.</li>
-</ul>
-<p>For developing a complex system, you can use MUI's comprehensive solution. However, MUI X is a paid component library, requiring a subscription fee.</p>
-<p>MUI is a heavyweight repository with extensive code and a long maintenance history, offering high customizability, making it suitable for large projects. The repository contains numerous features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/de/blog/shadcn-vs-mui#how-to-choose" class="hash-link" aria-label="Direkter Link zu How to Choose" title="Direkter Link zu How to Choose">​</a></h2>
-<p>If you are a curious open-source enthusiast who does not need highly customized UI for product development, and there are no complex data processing requirements, Shadcn UI is recommended. It is more lightweight, simpler to configure, but less powerful. However, it is sufficient for internal tool scenarios.</p>
-<p>If you need a component library for developing large and complex projects, require intricate charts, high-performance data components, and are willing to invest in a fee without looking for additional solutions, you can choose MUI. Its powerful capabilities make it an excellent choice for developing medium to large projects.</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="UI Library" term="UI Library"/>
-        <category label="Shadcn UI" term="Shadcn UI"/>
-        <category label="React" term="React"/>
     </entry>
 </feed>
