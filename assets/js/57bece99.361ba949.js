@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[3570],{813:e=>{e.exports=JSON.parse('{"label":"retool","permalink":"/illa-website/blog/tags/retool","allTagsPath":"/illa-website/blog/tags","count":3}')}}]);
