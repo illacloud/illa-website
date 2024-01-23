@@ -1254,15 +1254,15 @@ Integration Flexibility: Retool's robust integration capabilities make it suitab
         <category label="data dashboard" term="data dashboard"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Top 7 Redis GUI Tools in 2023]]></title>
+        <title type="html"><![CDATA[Top 7 Redis GUI Tools in 2024]]></title>
         <id>https://illacloud.github.io/illa-website/blog/top-7-redis-gui-tools-in-2023</id>
         <link href="https://illacloud.github.io/illa-website/blog/top-7-redis-gui-tools-in-2023"/>
         <updated>2023-12-20T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[Looking for the best Redis GUI tool for your application? Read this blog post to learn about the top 7 Redis GUI tools in 2023 and how to use them. Find out why ILLA Cloud is the best Redis GUI tool in our opinion.]]></summary>
-        <content type="html"><![CDATA[<p>Looking for the best Redis GUI tool for your application? Read this blog post to learn about the top 7 Redis GUI tools in 2023 and how to use them. Find out why ILLA Cloud is the best Redis GUI tool in our opinion.</p>
+        <content type="html"><![CDATA[<p>Looking for the best Redis GUI tool for your application? Read this blog post to learn about the top 7 Redis GUI tools in 2024 and how to use them. Find out why ILLA Cloud is the best Redis GUI tool in our opinion.</p>
 <p>Redis is a popular open-source, in-memory data structure store that can be used as a database, cache, message broker, and more. Redis supports various data types like strings, lists, sets, hashes, and streams. Redis also offers many features like transactions, replication, clustering, pub/sub, Lua scripting, and more.</p>
 <p>However, working with Redis can be challenging without a graphical user interface (GUI) to help you visualize and interact with your data. A Redis GUI tool can help you browse, filter, edit, and delete your Redis keys, run commands and queries, monitor performance and metrics, and more.</p>
-<p>Many Redis GUI tools are available in the market, each with its own features, pros and cons, and price. This blog post will review the top 7 Redis GUI tools in 2023 and compare them based on their functionality, usability, compatibility, and cost. We will also show you how to use ILLA Cloud, the best Redis GUI tool, to build a Redis GUI for your application.</p>
+<p>Many Redis GUI tools are available in the market, each with its own features, pros and cons, and price. This blog post will review the top 7 Redis GUI tools in 2024 and compare them based on their functionality, usability, compatibility, and cost. We will also show you how to use ILLA Cloud, the best Redis GUI tool, to build a Redis GUI for your application.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/blog/top-7-redis-gui-tools-in-2023#illa-cloud" class="hash-link" aria-label="Direct link to ILLA Cloud" title="Direct link to ILLA Cloud">​</a></h2>
 <p>ILLA Cloud is an open-source low-code platform for building internal tools. It is a powerful and flexible UI library for building web applications that connect to your databases and APIs. You can use ILLA Cloud to build anything from simple forms and tables to complex applications with advanced features.</p>
 <p>ILLA Cloud supports Redis as one of its data sources. You can connect to your Redis server or cluster using ILLA Cloud and access your data using a graphical interface. You can also run commands and queries using SQL and JavaScript. You can use template syntax to inject dynamic values into your components and queries. You can also customize and control your components with JavaScript.</p>
@@ -1441,7 +1441,7 @@ Integration Flexibility: Retool's robust integration capabilities make it suitab
 <p>See the result of your command or query in JSON format in your browser.
 That’s it! You have built a Redis GUI for your application using Webdis. You can now use it to access and interact with your Redis data.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/top-7-redis-gui-tools-in-2023#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>In this blog post, we have reviewed the top 7 Redis GUI tools in 2023 and compared them based on their functionality, usability, compatibility, and cost. We have also shown you how to use each tool to build a Redis GUI for your application.</p>
+<p>In this blog post, we have reviewed the top 7 Redis GUI tools in 2024 and compared them based on their functionality, usability, compatibility, and cost. We have also shown you how to use each tool to build a Redis GUI for your application.</p>
 <p>We hope this blog post has helped you find the best Redis GUI tool for your needs and preferences. However, if you ask us, we recommend ILLA Cloud as the best Redis GUI tool.</p>]]></content>
         <author>
             <name>Owen Chen</name>
