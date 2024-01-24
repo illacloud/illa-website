@@ -43,7 +43,7 @@ const CONTENT = {
         "Increase adaptability and control by customizing data input and output definitions through coding. This allows for greater flexibility in handling data to meet your specific requirements.",
     }),
     title: translate({
-      id: "illa_flow.how_it_works_code.js",
+      id: "illa_flow.how_it_works_code.js_color_schema",
       message: "Write {jsCode}",
     }),
     desc: translate({
