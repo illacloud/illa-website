@@ -2,28 +2,8 @@
   @apply flex items-center gap-[8px];
 }
 
-.popoverContainerStyle {
-  @apply relative inline-block text-left py-[12px] px-[16px] font-medium;
-}
-
-.popoverItemStyle {
-  @apply flex gap-[8px] items-center text-[14px];
-}
-
-.popoverPanelStyle {
-  @apply absolute left-0 right-0 mt-[8px] origin-top-right rounded-md shadow-[0px_2px_16px_0px_rgba(0,0,0,0.16)]  focus:outline-none py-[4px];
-}
-
 .menuItemStyle {
   @apply px-[16px] py-[12px] text-[14px] hover:no-underline font-medium;
-}
-
-.panelItemContainerStyle {
-  @apply flex items-center justify-center  w-full;
-}
-
-.panelItemStyle {
-  @apply text-[14px]  leading-[40px] hover:no-underline font-medium;
 }
 
 .operateItemStyle {

@@ -20,7 +20,7 @@
 }
 
 .textContainerStyle {
-  @apply w-full relative z-[2] flex justify-center flex-col items-center gap-[24px];
+  @apply w-full relative z-[2] flex justify-center flex-col items-center gap-[40px];
 }
 
 .sloganStyle {

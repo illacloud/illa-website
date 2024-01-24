@@ -1,0 +1,47 @@
+.contentWidth {
+  @apply w-full lg:max-w-[1040px] xl:max-w-[1200px];
+}
+
+.containerStyle {
+  @apply w-full relative lg:h-[1200px] flex flex-col gap-[32px] items-center  lg:pt-[80px];
+  @apply lg:justify-between;
+}
+
+.bgStyle {
+  @apply hidden lg:block absolute w-full max-h-[1200px] top-0 z-[0];
+}
+
+.contentContainerStyle {
+  @apply w-full relative z-[1]  flex flex-col gap-[24px] lg:gap-[40px];
+}
+
+.textContainerStyle {
+  @apply w-full flex flex-col gap-[16px];
+}
+
+.titleExtraStyle {
+  @apply text-[16px] font-[700] leading-[120%] self-start;
+  @apply lg:text-[24px];
+  background: linear-gradient(90deg, #1effff 0%, #c9ffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleStyle {
+  @apply text-white-01 text-[28px] font-[700] leading-[120%];
+  @apply lg:text-[64px] lg:font-[800] lg:leading-[110%];
+}
+
+.tryButtonStyle {
+  @apply bg-tech-purple-03 text-white-01;
+  @apply hover:bg-tech-purple-04 active:bg-tech-purple-02  hover:no-underline hover:text-white-01;
+  @apply w-full flex justify-center items-center rounded-[8px] text-center text-[15px] font-[500] leading-[20px] px-[16px] py-[12px];
+  @apply lg:text-[16px] lg:leading-[28px] lg:py-[14px] lg:w-[304px];
+}
+.demoContainerStyle {
+  @apply relative h-[calc(56.8122%)] w-full;
+}
+.demoStyle {
+  @apply absolute top-0 left-0 w-full h-full;
+}

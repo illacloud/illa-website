@@ -30,7 +30,13 @@ const ResourceTemplateLayout: FC<IResourceTemplateLayoutProps> = (props) => {
           />
           <LpTemplate />
         </div>
-        <CommBottom whiteTheme scrollStart={0.763} scrollEnd={0.81} />
+        <CommBottom
+          whiteTheme
+          scrollStart={0.763}
+          scrollEnd={0.81}
+          bgColorFrom="rgba(81, 106, 181, 0)"
+          bgColorEnd="rgba(81, 106, 181, 0.08)"
+        />
       </div>
     </LandingLayout>
   )

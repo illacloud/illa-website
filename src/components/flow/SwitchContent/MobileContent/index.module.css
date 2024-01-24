@@ -1,0 +1,27 @@
+.containerStyle {
+  @apply flex lg:hidden flex-col gap-[40px] w-full;
+}
+
+.contentContainerStyle {
+  @apply flex flex-col gap-[20px];
+}
+
+.tabStyle {
+  @apply flex flex-col gap-[8px];
+}
+
+.tabTitleContainerStyle {
+  @apply flex gap-[4px] items-center;
+}
+
+.tabTitleStyle {
+  @apply text-white-01 text-[216x] font-[600] leading-[120%];
+}
+
+.betaStyle {
+  @apply flex justify-center px-[4px] h-[18px] rounded-[9px] items-center bg-[#0FF]/[0.34] text-[#0FF] text-center text-[12px] font-[500] leading-[18px];
+}
+
+.tabDescStyle {
+  @apply text-white-02 text-[12px] font-[400] leading-[120%];
+}

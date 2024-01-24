@@ -1,5 +1,4 @@
 import { translate } from "@docusaurus/Translate"
-import StructureData from "@site/src/components/common/StructureData"
 
 export const HOME_META_INFO = {
   title: translate({
@@ -97,23 +96,23 @@ export const HOME_SCHEMA_DATA = {
     {
       "@type": "Organization",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#organization",
-      logo: "https://www.illacloud.com/#logo",
+      url: "https://www.illacloud.com",
+      logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "https://github.com/illacloud/illa-builder",
+        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
-        "https://www.linkedin.com/company/illacloud/",
+        "https://www.linkedin.com/company/illacloud",
       ],
     },
     {
       "@type": "WebSite",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#Website",
+      url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com/?search={search_term_string}",
+        target: "https://www.illacloud.com",
         "query-input": "required name=search_term_string",
       },
     },

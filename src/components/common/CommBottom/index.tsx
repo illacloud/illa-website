@@ -35,6 +35,8 @@ const CommBottom: FC<ICommonBottom> = ({
   scrollStart,
   scrollEnd,
   whiteTheme = false,
+  bgColorFrom = "rgba(101, 74, 236, 0)",
+  bgColorEnd = "rgba(101, 74, 236, 0.5)",
 }) => {
   const { scrollYProgress } = useScroll()
   const height = useTransform(
@@ -57,19 +59,17 @@ const CommBottom: FC<ICommonBottom> = ({
   return (
     <div ref={ref} className={style.commBottomContainer}>
       <motion.div
-        style={{ height }}
-        className={clsx(
-          style.commBottomBtnBg,
-          "hidden lg:block",
-          whiteTheme ? style.whiteBottomBg : style.bottomBg,
-        )}
+        style={{
+          height,
+          backgroundImage: `linear-gradient(180deg,${bgColorFrom}, ${bgColorEnd})`,
+        }}
+        className={clsx(style.commBottomBtnBg, "hidden lg:block")}
       />
       <div
-        className={clsx(
-          style.commBottomBtnBg,
-          "block lg:hidden h-full",
-          whiteTheme ? style.whiteBottomBg : style.bottomBg,
-        )}
+        className={clsx(style.commBottomBtnBg, "block lg:hidden h-full")}
+        style={{
+          backgroundImage: `linear-gradient(180deg,${bgColorFrom}, ${bgColorEnd})`,
+        }}
       />
       <div className="flex flex-col items-center gap-[24px] w-full lg:w-[800px] lg:h-[210px]">
         <h2

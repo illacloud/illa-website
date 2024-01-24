@@ -5,20 +5,6 @@
 .commBottomBtnBg {
   @apply absolute w-full  z-[-1] bottom-0 rounded-b-[20px];
 }
-.bottomBg {
-  background: linear-gradient(
-    180deg,
-    rgba(101, 74, 236, 0) 0%,
-    rgba(101, 74, 236, 0.5) 100%
-  );
-}
-.whiteBottomBg {
-  background: linear-gradient(
-    180deg,
-    rgba(81, 106, 181, 0) 0%,
-    rgba(81, 106, 181, 0.08) 100%
-  );
-}
 .commBottomTitle {
   @apply font-[700] text-[20px] leading-[24px] text-white-01 text-center;
   @apply lg:text-[40px] lg:leading-[48px];
