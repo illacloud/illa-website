@@ -8,7 +8,7 @@
 }
 
 .bgStyle {
-  @apply hidden lg:block absolute w-full max-h-[1200px] top-0 z-[0];
+  @apply hidden lg:block absolute max-h-[1200px] w-full h-full object-cover object-center top-0 z-[0];
 }
 
 .contentContainerStyle {

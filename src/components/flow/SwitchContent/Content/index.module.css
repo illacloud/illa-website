@@ -1,0 +1,8 @@
+.notificationStyle {
+  @apply w-[100px] z-[1] lg:w-[290px] absolute right-[24px] top-[100px] transition-opacity duration-300 ease-in-out;
+}
+
+.videoStye {
+  @apply max-w-[596px] absolute bottom-[40px] left-[50%];
+  transform: translateX(-50%);
+}

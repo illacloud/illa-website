@@ -54,7 +54,7 @@ const CONTENT = {
     }),
     desc: translate({
       id: "illa_flow.how_it_works_code.transformer",
-      message: "E-commerial: buil update product description",
+      message: "E-commerial: bulk update product description",
     }),
   },
 }
