@@ -40,6 +40,7 @@ const TabLottie: FC<TabLottieProps> = ({ content, isPlay, lottieType }) => {
       } else {
         if (animationRef.current) {
           animationRef.current.stop?.()
+          setShowNotification(false)
         }
       }
     })
@@ -69,6 +70,7 @@ const TabLottie: FC<TabLottieProps> = ({ content, isPlay, lottieType }) => {
     return () => {
       if (animationRef.current) {
         animationRef.current.destroy()
+        setShowNotification(false)
         animationRef.current = null
       }
     }
