@@ -1,4 +1,8 @@
-import { MenuItemType, NavbarPopoverItemType } from "./interface"
+import {
+  MenuItemType,
+  NavbarItemType,
+  NavbarPopoverItemType,
+} from "./interface"
 import { translate } from "@docusaurus/Translate"
 import { CLOUD_URL, DISCORD_URL } from "@site/src/constants/url"
 import ImageGeneratorIcon from "@site/static/img/solutions/image-generator.svg"
@@ -104,29 +108,46 @@ export const SOLUTIONS: NavbarPopoverItemType = {
   ],
 }
 
-export const MENU_ITEMS: MenuItemType[] = [
-  {
-    isPopover: true,
-    label: translate({ id: "nav.resource", message: "Resource" }),
-    items: [
-      {
-        label: translate({
-          id: "sub_nav.resource.integrations",
-          message: "Integrations",
-        }),
-        category: "homepage_menu_resource_integration_click",
-        href: "/integrations",
-      },
-      {
-        label: translate({
-          id: "sub_nav.resource.components",
-          message: "Components",
-        }),
-        category: "homepage_menu_resource_components_click",
-        href: "/components",
-      },
-    ],
-  },
+export const PRODUCT_ITEMS: NavbarPopoverItemType = {
+  isPopover: true,
+  label: translate({ id: "nav.resource", message: "Products" }),
+  items: [
+    {
+      label: translate({
+        id: "sub_nav.resource.illa_flow",
+        message: "ILLA Flow",
+      }),
+      category: "homepage_menu_resource_flow_click",
+      href: "/illa-flow",
+    },
+    {
+      label: translate({
+        id: "sub_nav.resource.integrations",
+        message: "Integrations",
+      }),
+      category: "homepage_menu_resource_integration_click",
+      href: "/integrations",
+    },
+    {
+      label: translate({
+        id: "sub_nav.resource.components",
+        message: "Components",
+      }),
+      category: "homepage_menu_resource_components_click",
+      href: "/components",
+    },
+    {
+      label: translate({
+        id: "nav.templates",
+        message: "Templates",
+      }),
+      category: "homepage_menu_resource_templates_click",
+      href: "https://illa.ai",
+    },
+  ],
+}
+
+export const MENU_ITEMS: NavbarItemType[] = [
   {
     isPopover: false,
     label: translate({

@@ -1,0 +1,34 @@
+.containerStyle {
+  @apply flex w-full flex-col gap-[20px] lg:gap-[40px];
+}
+
+.contentContainerStyle {
+  @apply flex flex-col gap-[20px] lg:gap-[24px] lg:flex-row;
+}
+
+.contentImageStyle {
+  @apply w-full flex rounded-[8px] bg-white-01 gap-[8px] pt-[20px];
+  @apply lg:gap-[16px] lg:pt-[40px];
+}
+
+.contentImageTopTextStyle {
+  @apply flex flex-col px-[20px] gap-[8px] lg:px-0 lg:pl-[40px];
+}
+
+.contentImageBottomTextStyle {
+  @apply flex flex-col gap-[8px] px-[20px]  lg:px-[40px];
+}
+
+.contentTitleStyle {
+  @apply text-grayBlue-02 text-[16px] font-[700] leading-[120%];
+  @apply lg:text-[24px];
+}
+
+.contentDescStyle {
+  @apply text-grayBlue-03 text-[12px] font-[400] leading-[120%];
+  @apply lg:text-[16px];
+}
+
+.imageStyle {
+  @apply w-full rounded-[8px];
+}

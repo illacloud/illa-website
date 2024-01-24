@@ -1,0 +1,27 @@
+.containerStyle {
+  @apply flex w-full flex-col gap-[40px] lg:gap-[80px];
+}
+
+.contentContainerStyle {
+  @apply flex flex-col lg:flex-row w-full rounded-[8px] bg-white-01;
+}
+
+.contentStyle {
+  @apply flex flex-col gap-[8px] pt-[20px] lg:gap-[16px]  lg:pt-[40px];
+}
+
+.contentHeaderStyle {
+  @apply flex flex-col gap-[8px] px-[20px] lg:px-[40px];
+}
+
+.contentTextStyle {
+  @apply text-[16px] font-[600] leading-[120%] text-grayBlue-02;
+  @apply lg:text-[18px] lg:leading-[110%];
+}
+
+.colorContentTextStyle {
+  background: linear-gradient(90deg, #04d67e 0%, #03dae7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

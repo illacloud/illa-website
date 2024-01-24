@@ -1,7 +1,7 @@
 import style from "./index.module.css"
 import CardContentItem from "./CardContentItem"
 import { translate } from "@docusaurus/Translate"
-import { CLOUD_URL } from "@site/src/constants/url"
+import { CLOUD_URL, FLOW_URL } from "@site/src/constants/url"
 
 const CARD_CONTENT = {
   title: translate({
@@ -92,6 +92,34 @@ const CARD_CONTENT = {
         message: "Start building AI driven apps",
       }),
       moreHref: CLOUD_URL,
+    },
+    {
+      imageIcon: (
+        <img
+          src="https://cdn.illacloud.com/illa-website/home/step/illaflow.webp"
+          className={style.imgStyle}
+          alt={translate({
+            id: "how_to_use.step4_alt.flow",
+            message:
+              "Use ILLA Flow to automate your workflow and streamline your tasks. With ILLA Flow, you can ensure that you always have the most up-to-date data at your fingertips, eliminating the need for manual updates. By automating repetitive tasks, ILLA Flow saves you time and effort, allowing you to focus on more important aspects of your work.",
+          })}
+        />
+      ),
+      title: translate({
+        id: "how_to_use.step4_title.flow",
+        message: "Automate your Workflow",
+      }),
+      desc: translate({
+        id: "how_to_use.step4_description.flow",
+        message:
+          "Use ILLA Flow to automate your workflow to ensure you always have the latest data and reduce repetitive tasks. ",
+      }),
+      moreTitle: translate({
+        id: "how_to_use.step4_button.flow",
+        message: "Learn more about ILLA Flow",
+      }),
+      moreHref: FLOW_URL,
+      reverse: true,
     },
   ],
 }

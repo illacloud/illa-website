@@ -8,7 +8,6 @@ export default function Tag({ permalink, label, isActive, className }) {
   return (
     <Link
       to={getUtmParams(permalink)}
-      onClick={(e) => console.log("1234")}
       className={clsx(
         "no-underline hover:no-underline",
         "text-xs",

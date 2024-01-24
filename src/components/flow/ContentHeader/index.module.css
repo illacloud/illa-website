@@ -1,0 +1,23 @@
+.containerStyle {
+  @apply w-full flex flex-col gap-[16px];
+  @apply lg:w-[480px] lg:items-start lg:gap-[32px];
+}
+
+.titleExtraStyle {
+  @apply text-[16px] font-[500] leading-[120%] self-start;
+  @apply lg:text-[20px];
+  background: linear-gradient(90deg, #00ee8a 0%, #30f3ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleStyle {
+  @apply text-white-01 text-[32px] font-[700] leading-[120%];
+  @apply lg:text-[56px];
+}
+
+.descStyle {
+  @apply text-white-02 text-[14px] font-[400] leading-[120%];
+  @apply lg:text-[20px];
+}

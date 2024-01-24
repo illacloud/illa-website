@@ -1,0 +1,43 @@
+.containerStyle {
+  @apply w-full flex flex-col items-start gap-[40px];
+}
+
+.tabContainerStyle {
+  @apply hidden lg:flex w-full pt-[40px] gap-[32px];
+}
+
+.tabStyle {
+  @apply flex flex-col gap-[8px] cursor-pointer flex-1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tabTitleContainerStyle {
+  @apply flex gap-[8px] items-center;
+}
+
+.tabTitleStyle {
+  @apply text-white-01 text-[24px] font-[600] leading-[110%];
+}
+
+.betaStyle {
+  @apply flex justify-center px-[8px] h-[18px] rounded-[9px] items-center bg-[#0FF]/[0.34] text-[#0FF] text-center text-[12px] font-[500] leading-[18px];
+}
+
+.tabDescStyle {
+  @apply text-white-02 text-[16px] font-[400] leading-[120%];
+}
+
+.contentContainerStyle {
+  @apply hidden lg:flex w-full  relative overflow-hidden flex-row rounded-[12px];
+}
+.baseContentStyle {
+  @apply w-full overflow-hidden flex-none transition-opacity duration-500 ease-in-out;
+}
+
+.contentSelectStyle {
+  @apply opacity-100 relative;
+}
+
+.contentUnSelectStyle {
+  @apply opacity-0 absolute z-[-1];
+}
