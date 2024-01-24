@@ -3,13 +3,13 @@ import ContentHeader from "../ContentHeader"
 import clsx from "clsx"
 import style from "./index.module.css"
 import TabLottie from "./TabLottie"
-import temp from "@site/src/constants/drag.json"
 import webhookIcon from "@site/src/constants/lottie/webhookIcon.json"
 import schedule from "@site/src/constants/lottie/schedule.json"
 import pollIcon from "@site/src/constants/lottie/pollIcon.json"
 import { TAB_LOTTIE_TYPE } from "./constants"
 import { translate } from "@docusaurus/Translate"
 import MobileContent from "./MobileContent"
+import Content from "./Content"
 
 const CONTENT = {
   header: {
@@ -67,23 +67,33 @@ const CONTENT = {
       }),
     },
   ],
-  lottieContents: [
+  constants: [
     {
       id: "Schedule",
-      lottie: temp,
+      videoSrc: "https://cdn.illacloud.com/illa-website/home/flow/schedule.mp4",
+      notification:
+        "https://cdn.illacloud.com/illa-website/home/flow/notification1.webp",
+      imageSrc:
+        "https://cdn.illacloud.com/illa-website/home/flow/schedule.webp",
     },
     {
       id: "Webhook",
-      lottie: temp,
+      videoSrc: "https://cdn.illacloud.com/illa-website/home/flow/webhook.mp4",
+      notification:
+        "https://cdn.illacloud.com/illa-website/home/flow/notification2.webp",
+      imageSrc: "https://cdn.illacloud.com/illa-website/home/flow/webhook.webp",
     },
     {
       id: "Poll",
-      lottie: temp,
+      videoSrc: "https://cdn.illacloud.com/illa-website/home/flow/poll.mp4",
+      notification:
+        "https://cdn.illacloud.com/illa-website/home/flow/notification2.webp",
+      imageSrc: "https://cdn.illacloud.com/illa-website/home/flow/poll.webp",
     },
   ],
 }
 const SwitchContent: FC = () => {
-  const { header, tabs, lottieContents } = CONTENT
+  const { header, tabs, constants } = CONTENT
   const [activeTab, setActiveTab] = useState(tabs[0].id)
   return (
     <div className={style.containerStyle}>
@@ -114,7 +124,7 @@ const SwitchContent: FC = () => {
         ))}
       </div>
       <div className={style.contentContainerStyle}>
-        {lottieContents.map((content) => (
+        {constants.map((content) => (
           <div
             key={content.id}
             className={clsx(
@@ -124,15 +134,14 @@ const SwitchContent: FC = () => {
                 : style.contentUnSelectStyle,
             )}
           >
-            <TabLottie
-              content={content.lottie}
-              isPlay={activeTab === content.id}
-              lottieType={TAB_LOTTIE_TYPE.CONTENT}
+            <Content
+              videoSrc={content.videoSrc}
+              notificationSrc={content.notification}
             />
           </div>
         ))}
       </div>
-      <MobileContent tabs={tabs} lottieContents={lottieContents} />
+      <MobileContent tabs={tabs} contents={constants} />
     </div>
   )
 }

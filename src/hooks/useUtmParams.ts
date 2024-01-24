@@ -19,7 +19,10 @@ export const useUtmParams = () => {
           utm_source && searchParams.append("utm_source", utm_source!)
           utm_medium && searchParams.append("utm_medium", utm_medium!)
           utm_campaign && searchParams.append("utm_campaign", utm_campaign!)
-          const path = pathname.endsWith("/") ? pathname.slice(0, -1) : pathname
+          const path =
+            pathname.endsWith("/") && pathname !== "/"
+              ? pathname.slice(0, -1)
+              : pathname
           mergeURL = path + "?" + searchParams.toString()
           if (mergeURL.endsWith("/")) {
             mergeURL = mergeURL.slice(0, -1)

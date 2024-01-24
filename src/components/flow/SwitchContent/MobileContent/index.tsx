@@ -11,13 +11,13 @@ interface MobileContentProps {
     desc: string
     hasExtra?: boolean
   }[]
-  lottieContents: {
+  contents: {
     id: string
-    lottie: Record<string, unknown>
+    imageSrc: string
   }[]
 }
 
-const MobileContent: FC<MobileContentProps> = ({ tabs, lottieContents }) => {
+const MobileContent: FC<MobileContentProps> = ({ tabs, contents }) => {
   return (
     <div className={style.containerStyle}>
       {tabs.map((tab, index) => (
@@ -37,10 +37,10 @@ const MobileContent: FC<MobileContentProps> = ({ tabs, lottieContents }) => {
             </div>
           </div>
           <div className={style.baseContentStyle}>
-            <TabLottie
-              content={lottieContents[index].lottie}
-              isPlay
-              lottieType={TAB_LOTTIE_TYPE.CONTENT}
+            <img
+              src={contents[index].imageSrc}
+              alt={tab.title}
+              className="w-full"
             />
           </div>
         </div>
