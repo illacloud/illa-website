@@ -3,7 +3,7 @@
 }
 
 .containerStyle {
-  @apply w-full relative lg:h-[1200px] flex flex-col gap-[32px] items-center  lg:pt-[80px];
+  @apply w-full relative  flex flex-col gap-[32px] lg:gap-[80px] items-center  lg:pt-[80px];
   @apply lg:justify-between;
 }
 
@@ -40,7 +40,8 @@
   @apply lg:text-[16px] lg:leading-[28px] lg:py-[14px] lg:w-[304px];
 }
 .demoContainerStyle {
-  @apply relative h-[calc(56.8122%)] w-full;
+  @apply relative   w-full;
+  padding-bottom: calc(50%);
 }
 .demoStyle {
   @apply absolute top-0 left-0 w-full h-full;
