@@ -10,6 +10,7 @@ import { TAB_LOTTIE_TYPE } from "./constants"
 import { translate } from "@docusaurus/Translate"
 import MobileContent from "./MobileContent"
 import Content from "./Content"
+import Translate from "@docusaurus/Translate"
 
 const CONTENT = {
   header: {
@@ -113,10 +114,16 @@ const SwitchContent: FC = () => {
               isPlay={activeTab === tab.id}
               lottieType={TAB_LOTTIE_TYPE.ICON}
             />
-            <div>
+            <div className="flex flex-col gap-[8px]">
               <div className={style.tabTitleContainerStyle}>
                 <p className={style.tabTitleStyle}>{tab.title}</p>
-                {tab.hasExtra && <span className={style.betaStyle}>Beta</span>}
+                {tab.hasExtra && (
+                  <span className={style.betaStyle}>
+                    <Translate id="illa_flow.how_it_works.coming_soon">
+                      Coming soon
+                    </Translate>
+                  </span>
+                )}
               </div>
               <p className={style.tabDescStyle}>{tab.desc}</p>
             </div>
