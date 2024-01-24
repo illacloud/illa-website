@@ -118,7 +118,7 @@ const CARD_CONTENT = {
         id: "how_to_use.step4_button.flow",
         message: "Learn more about ILLA Flow",
       }),
-      moreHref: FLOW_URL,
+      moreHref: "/illa-flow",
       reverse: true,
     },
   ],
@@ -129,7 +129,7 @@ const CardContent = () => {
     <div className={style.cardContentContainerStyle}>
       <div className={style.headerContainerStyle}>
         <h2 className={style.textTitleStye}>
-          <span className={style.textTitleNumStyle}>3&nbsp;</span>
+          <span className={style.textTitleNumStyle}>4&nbsp;</span>
           {CARD_CONTENT.title}
         </h2>
         <span className={style.textDescStyle}>{CARD_CONTENT.desc}</span>
