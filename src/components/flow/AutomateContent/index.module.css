@@ -1,0 +1,37 @@
+.containerStyle {
+  @apply flex w-full lg:max-w-[1040px] xl:max-w-[1200px] flex-col gap-[40px] lg:gap-[80px];
+}
+
+.contentContainerStyle {
+  @apply flex flex-col gap-[12px] lg:gap-[24px] lg:flex-row;
+}
+
+.contentBaseImageStyle {
+  @apply flex gap-[8px] lg:gap-[16px] rounded-[8px] bg-white-01;
+}
+.contentImageLeftStyle {
+  @apply w-full lg:w-[480px] pt-[20px] lg:pt-[40px] flex-col;
+}
+
+.contentImageRightTopStyle {
+  @apply w-full pt-[20px] lg:pt-[40px] flex-col;
+}
+
+.contentImageRightBottomStyle {
+  @apply w-full h-full  flex-col lg:flex-row pt-[20px] lg:pt-0;
+}
+
+.contentTextStyle {
+  @apply flex text-grayBlue-02 text-[16px] font-[600] leading-[110%] px-[20px];
+  @apply lg:text-[18px] lg:px-[40px] lg:leading-[120%];
+}
+.colorContentTextStyle {
+  @apply flex gap-[4px] mx-[4px] lg:gap-[8px] lg:mx-[8px];
+  background: linear-gradient(90deg, #04d67e 0%, #03dae7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imageStyle {
+  @apply w-full;
+}

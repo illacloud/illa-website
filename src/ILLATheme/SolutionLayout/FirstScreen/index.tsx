@@ -62,25 +62,43 @@ const FirstScreen: FC<IFirstScreenProps> = ({
       <span className={style.indexBgStyle}>{bg}</span>
       <div className={style.contentContainer}>
         <div className={style.textContainerStyle}>
-          <h1 className={style.sloganStyle}>
-            <Interpolate
-              values={{
-                colorSlogan: (
-                  <span
-                    className={style.colorSloganStyle}
-                    style={{
-                      backgroundImage: `linear-gradient(to right, ${colorStart}, ${colorEnd})`,
-                    }}
-                  >
-                    {colorSlogan}
-                  </span>
-                ),
+          <div className="flex flex-col gap-[16px] items-center">
+            <h1 className={style.sloganStyle}>
+              <Interpolate
+                values={{
+                  colorSlogan: (
+                    <span
+                      className={style.colorSloganStyle}
+                      style={{
+                        backgroundImage: `linear-gradient(to right, ${colorStart}, ${colorEnd})`,
+                      }}
+                    >
+                      {colorSlogan}
+                    </span>
+                  ),
+                }}
+              >
+                {slogan}
+              </Interpolate>
+            </h1>
+            <span className={style.descStyle}>{description}</span>
+          </div>
+          <div className="hidden lg:block">
+            <LinkButton
+              href={handleDemoHref(appID)}
+              colorType="light"
+              size="large"
+              handleClick={() => {
+                sendTagEvent({
+                  action: "solution_try_for_free",
+                })
               }}
             >
-              {slogan}
-            </Interpolate>
-          </h1>
-          <span className={style.descStyle}>{description}</span>
+              <Translate id="website_4.solution.use_this_template">
+                Try now
+              </Translate>
+            </LinkButton>
+          </div>
         </div>
         <div className={style.demoContainerStyle}>
           <motion.div

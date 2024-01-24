@@ -19,7 +19,14 @@ export const useUtmParams = () => {
           utm_source && searchParams.append("utm_source", utm_source!)
           utm_medium && searchParams.append("utm_medium", utm_medium!)
           utm_campaign && searchParams.append("utm_campaign", utm_campaign!)
-          mergeURL = pathname + "?" + searchParams.toString()
+          const path =
+            pathname.endsWith("/") && pathname !== "/"
+              ? pathname.slice(0, -1)
+              : pathname
+          mergeURL = path + "?" + searchParams.toString()
+          if (mergeURL.endsWith("/")) {
+            mergeURL = mergeURL.slice(0, -1)
+          }
           return mergeURL
         } else {
           const targetURL = new URL(mergeURL)
@@ -27,7 +34,12 @@ export const useUtmParams = () => {
           utm_medium && targetURL.searchParams.append("utm_medium", utm_medium)
           utm_campaign &&
             targetURL.searchParams.append("utm_campaign", utm_campaign)
-          return targetURL.toString()
+
+          const result = targetURL.toString()
+          if (result.endsWith("/")) {
+            return result.slice(0, -1)
+          }
+          return result
         }
       } catch (e) {
         return url

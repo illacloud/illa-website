@@ -3,7 +3,12 @@ import { useEffect } from "react"
 import Link from "@docusaurus/Link"
 import IllaLogoWhiteIcon from "@site/static/img/whiteLogo.svg"
 import { sendTagEvent } from "@site/src/utils/gtag"
-import { MENU_ITEMS, OPERATE_MENU_ITEMS, SOLUTIONS } from "../constants"
+import {
+  MENU_ITEMS,
+  OPERATE_MENU_ITEMS,
+  SOLUTIONS,
+  PRODUCT_ITEMS,
+} from "../constants"
 import LocaleDropdownNavbarItem from "@theme/NavbarItem/LocaleDropdownNavbarItem"
 import CloseWhiteIcon from "@site/static/img/public/close.svg"
 import { Disclosure } from "@headlessui/react"
@@ -50,7 +55,7 @@ const MobileMenu = ({ menuExpand, closeMenu }) => {
         </span>
       </div>
       <div className="flex flex-col w-full">
-        {[SOLUTIONS, ...MENU_ITEMS].map((item) => {
+        {[PRODUCT_ITEMS, SOLUTIONS, ...MENU_ITEMS].map((item) => {
           if (item?.isPopover === false) {
             return <MenuItem key={item.label} item={item} />
           }
@@ -76,6 +81,7 @@ const MobileMenu = ({ menuExpand, closeMenu }) => {
           dropdownItemsBefore={[]}
           dropdownItemsAfter={[]}
           items={[]}
+          className="pl-0 h-[40px] text-white-01"
           mobile
         />
       </div>

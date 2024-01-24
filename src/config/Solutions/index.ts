@@ -4,15 +4,25 @@ export const IMAGE_GENERATE_SCHEMA_DATA = {
     {
       "@type": "Organization",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#organization",
-      logo: "https://www.illacloud.com/#logo",
+      url: "https://www.illacloud.com",
+      logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "https://github.com/illacloud/illa-builder",
+        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
-        "https://www.linkedin.com/company/illacloud/",
+        "https://www.linkedin.com/company/illacloud",
       ],
+    },
+    {
+      "@type": "WebSite",
+      name: "ILLA Cloud",
+      url: "https://www.illacloud.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.illacloud.com",
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "WebPage",
@@ -65,15 +75,25 @@ export const AI_VOICE_GENERATOR_SCHEMA_DATA = {
     {
       "@type": "Organization",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#organization",
-      logo: "https://www.illacloud.com/#logo",
+      url: "https://www.illacloud.com",
+      logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "https://github.com/illacloud/illa-builder",
+        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
-        "https://www.linkedin.com/company/illacloud/",
+        "https://www.linkedin.com/company/illacloud",
       ],
+    },
+    {
+      "@type": "WebSite",
+      name: "ILLA Cloud",
+      url: "https://www.illacloud.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.illacloud.com",
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "WebPage",
@@ -126,15 +146,25 @@ export const DASHBOARD_SCHEMA_DATA = {
     {
       "@type": "Organization",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#organization",
-      logo: "https://www.illacloud.com/#logo",
+      url: "https://www.illacloud.com",
+      logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "https://github.com/illacloud/illa-builder",
+        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
-        "https://www.linkedin.com/company/illacloud/",
+        "https://www.linkedin.com/company/illacloud",
       ],
+    },
+    {
+      "@type": "WebSite",
+      name: "ILLA Cloud",
+      url: "https://www.illacloud.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.illacloud.com",
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "WebPage",
@@ -195,15 +225,25 @@ export const CMS_SCHEMA_DATA = {
     {
       "@type": "Organization",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#organization",
-      logo: "https://www.illacloud.com/#logo",
+      url: "https://www.illacloud.com",
+      logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "https://github.com/illacloud/illa-builder",
+        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
-        "https://www.linkedin.com/company/illacloud/",
+        "https://www.linkedin.com/company/illacloud",
       ],
+    },
+    {
+      "@type": "WebSite",
+      name: "ILLA Cloud",
+      url: "https://www.illacloud.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.illacloud.com",
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "WebPage",
@@ -264,15 +304,25 @@ export const CRM_SCHEMA_DATA = {
     {
       "@type": "Organization",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#organization",
-      logo: "https://www.illacloud.com/#logo",
+      url: "https://www.illacloud.com",
+      logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "https://github.com/illacloud/illa-builder",
+        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
-        "https://www.linkedin.com/company/illacloud/",
+        "https://www.linkedin.com/company/illacloud",
       ],
+    },
+    {
+      "@type": "WebSite",
+      name: "ILLA Cloud",
+      url: "https://www.illacloud.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.illacloud.com",
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "WebPage",
@@ -333,15 +383,25 @@ export const ADMIN_PANEL_SCHEMA_DATA = {
     {
       "@type": "Organization",
       name: "ILLA Cloud",
-      url: "https://www.illacloud.com/#organization",
-      logo: "https://www.illacloud.com/#logo",
+      url: "https://www.illacloud.com",
+      logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "https://github.com/illacloud/illa-builder",
+        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
-        "https://www.linkedin.com/company/illacloud/",
+        "https://www.linkedin.com/company/illacloud",
       ],
+    },
+    {
+      "@type": "WebSite",
+      name: "ILLA Cloud",
+      url: "https://www.illacloud.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://www.illacloud.com",
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "WebPage",

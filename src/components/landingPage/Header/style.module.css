@@ -21,7 +21,7 @@
 }
 
 .headerGo {
-  @apply bg-tech-purple-03 hover:bg-tech-purple-04 active:bg-tech-purple-02 whitespace-nowrap;
+  @apply bg-tech-purple-03 hover:bg-tech-purple-04 active:bg-tech-purple-02 whitespace-nowrap hover:no-underline hover:text-white-01;
   @apply h-[44px]  rounded-[4px] px-[16px] py-[12px] text-white-01 flex items-center justify-center font-[400] text-[16px] leading-[20px];
   @apply lg:px-[32px] lg:py-[10px] lg:h-[48px] lg:rounded-[8px] lg:font-[500] lg:text-[20px] lg:leading-[28px];
 }
