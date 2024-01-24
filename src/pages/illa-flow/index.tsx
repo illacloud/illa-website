@@ -24,7 +24,7 @@ const Flow: FC = () => {
       <CommonLayout {...FLOW_META_INFO}>
         <div className="bg-black overflow-visible w-full relative z-[1]">
           <CommonHeader />
-          <div className="w-full mx-auto px-[16px] flex flex-col items-center gap-[100px] lg:gap-[200px]  pb-[100px] lg:pb-[200px]">
+          <div className="w-full mx-auto px-[16px] lg:px-0 flex flex-col items-center gap-[100px] lg:gap-[200px]  pb-[100px] lg:pb-[200px]">
             <FirstScreen />
             <SwitchContent />
             <AutomateContent />
