@@ -1,5 +1,5 @@
 .containerStyle {
-  @apply w-full flex flex-col items-start gap-[40px];
+  @apply w-full lg:max-w-[1040px] xl:max-w-[1200px] flex flex-col items-start gap-[40px];
 }
 
 .tabContainerStyle {

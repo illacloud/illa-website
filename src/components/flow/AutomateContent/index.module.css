@@ -1,5 +1,5 @@
 .containerStyle {
-  @apply flex w-full flex-col gap-[40px] lg:gap-[80px];
+  @apply flex w-full lg:max-w-[1040px] xl:max-w-[1200px] flex-col gap-[40px] lg:gap-[80px];
 }
 
 .contentContainerStyle {
@@ -18,7 +18,7 @@
 }
 
 .contentImageRightBottomStyle {
-  @apply w-full h-full flex-col lg:flex-row pt-[20px] lg:pt-0;
+  @apply w-full h-full  flex-col lg:flex-row pt-[20px] lg:pt-0;
 }
 
 .contentTextStyle {

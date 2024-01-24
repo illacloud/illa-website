@@ -11,6 +11,10 @@ const FirstScreen: FC = () => {
   const getUtmParams = useUtmParams()
   return (
     <div className={style.containerStyle}>
+      <img
+        src="https://cdn.illacloud.com/illa-website/home/flow/flow-bg.webp"
+        className={style.bgStyle}
+      />
       <div className={clsx(style.contentContainerStyle, style.contentWidth)}>
         <div className={style.textContainerStyle}>
           <p className={style.titleExtraStyle}>
@@ -39,7 +43,7 @@ const FirstScreen: FC = () => {
           </Translate>
         </Link>
       </div>
-      <div className={style.demoContainerStyle}>
+      <div className={clsx(style.demoContainerStyle, style.contentWidth)}>
         <iframe
           src="https://demo.arcade.software/f3fbFgbkutobcljsUn04?embed"
           loading="lazy"

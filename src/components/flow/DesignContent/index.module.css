@@ -1,5 +1,5 @@
 .containerStyle {
-  @apply flex w-full flex-col gap-[20px] lg:gap-[40px];
+  @apply flex w-full lg:max-w-[1040px] xl:max-w-[1200px] flex-col gap-[20px] lg:gap-[40px];
 }
 
 .contentContainerStyle {
