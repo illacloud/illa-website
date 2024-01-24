@@ -20,4 +20,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/i18n
+/i18n/**/*.json
+/i18n/**/docusaurus-plugin-content-blog/*.md
+/i18n/**/docusaurus-plugin-content-pages/*.mdx

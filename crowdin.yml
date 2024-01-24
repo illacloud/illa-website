@@ -7,5 +7,3 @@ files:
     translation: /i18n/%two_letters_code%/**/%original_file_name%
   - source: /src/pages/**/*.mdx
     translation: /i18n/%two_letters_code%/docusaurus-plugin-content-pages/**/%original_file_name%
-  - source: /blog/**/*.md
-    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/**/%original_file_name%
