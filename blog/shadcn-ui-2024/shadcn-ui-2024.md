@@ -1,7 +1,7 @@
 ---
 slug: shadcn-ui-2024
 title: 2024 has arrived, should I choose Shadcn UI?
-description: 2024 has arrived, and the ecosystem of React component libraries remains vibrant. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.
+description: 2024 has arrived, and the ecosystem of React component libraries remains vibrant.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/shadcn-ui-2024/cover.png
 tags: [ shadcn-ui, react, javascript ]

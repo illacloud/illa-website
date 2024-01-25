@@ -1,7 +1,7 @@
 ---
 slug: backend-create-web-ui
 title: I have developed a product designed to assist backend engineers in rapidly constructing Admin Panels, Data Dashboards, and Web UIs
-description: Despite my background as a Backend Engineer, I frequently found myself immersed in creating numerous data dashboards and admin panels to cater to my colleagues' diverse needs.
+description: Despite my background as a Backend Engineer, I frequently found myself immersed in creating numerous data dashboards and admin panels
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/cover.png
 tags: [ internal tools, data dashboard, admin panel]

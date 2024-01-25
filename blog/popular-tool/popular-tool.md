@@ -1,7 +1,7 @@
 ---
 slug: internal-tool
 title: Best Open-Source Low-Code Platform for Building Internal Tools
-description: ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools.
+description: ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/internal-tool/cover.webp
 tags: [ nvm, nodejs, mac, javascript ]

@@ -6,7 +6,7 @@ tags:
     - 'React'
     - 'javascript'
 slug: mui-2024
-description: Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.
+description: Every company has its own exclusive online business, and as the business continues to update and iterate.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/mui-2024/cover.png
 date: 2024-01-03T10:00

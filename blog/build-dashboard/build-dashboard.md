@@ -1,7 +1,7 @@
 ---
 slug: build-dashboard
 title: Quickly create a personalized data dashboard for your boss
-description: Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.
+description: Every company has its own exclusive online business, and as the business continues to update and iterate.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/build-dashboard/cover.png
 tags: [ data dashboard ]

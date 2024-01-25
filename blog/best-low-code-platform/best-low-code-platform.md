@@ -1,7 +1,7 @@
 ---
 slug: best-low-code-platform
 title: 5 Best Low Code Platform in 2024 
-description: As the software industry evolves, low-code tools are increasingly gaining popularity. Implementing the right low-code tools in various business scenarios can lead to remarkable efficiency and productivity gains.
+description: As the software industry evolves, low-code tools are increasingly gaining popularity. Implementing the right low-code tools
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/cover.png
 tags: [ low code ]

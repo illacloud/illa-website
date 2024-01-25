@@ -5,7 +5,7 @@ tags:
     - 'Shadcn UI'
     - 'React'
 slug: shadcn-vs-mui
-description: 2024 has arrived, and the ecosystem of React component libraries remains thriving. This article will dissect two currently popular component libraries from several perspectives, providing an objective analysis to help users make informed choices.
+description: 2024 has arrived, and the ecosystem of React component libraries remains thriving.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/shadcn-ui-vs-mui/cover.png
 date: 2024-01-03T10:00

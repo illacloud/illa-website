@@ -2,7 +2,7 @@
 title: 'Tooljet vs Retool: Which open-source low-code platform is better?'
 tags: [tooljet, appsmith, retool]
 slug: tooljet-vs-retool
-description: The demand for efficient and easy-to-use internal tools is on the rise, and low-code platforms have emerged as the go-to solution for businesses looking to streamline their internal processes.
+description: The demand for efficient and easy-to-use internal tools is on the rise, and low-code platforms have emerged as the go-to solution for businesses.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/tooljet-retool.webp
 date: 2024-01-23T10:00
