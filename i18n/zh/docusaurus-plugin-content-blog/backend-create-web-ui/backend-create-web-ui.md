@@ -1,6 +1,6 @@
 ---
 slug: backend-create-web-ui
-title: 我开发了一个旨在帮助后端工程师快速构建管理面板、数据仪表板和Web用户界面的产品
+title: 专为后端工程师设计的最佳产品，用于创建业务工具
 description: 尽管我背景是后端工程师，但我经常发现自己沉浸在创建各种数据仪表板和管理面板中，以满足同事们多样化的需求。从展示复杂的业务数据到可视化CI/CD任务，再到为圣诞活动制作特殊的管理面板，我仅用了短短的14天就完成了所有这些任务。
 authors: [owen]
 image: https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/cover.png

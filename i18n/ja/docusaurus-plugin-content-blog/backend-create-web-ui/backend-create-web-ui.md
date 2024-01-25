@@ -1,6 +1,6 @@
 ---
 slug: backend-create-web-ui
-title: バックエンドエンジニアがAdminパネル、データダッシュボード、Web UIを迅速に構築するのをサポートする製品を開発しました
+title: バックエンドエンジニアがビジネスツールを作成するために設計された最高の製品
 description: バックエンドエンジニアとして、私は同僚の多様なニーズに応えるために多くのデータダッシュボードや管理パネルを作成することがよくありました。多様なビジネスデータを表示したり、CI/CDタスクを可視化したり、クリスマスイベント用の特別な管理パネルを作成したりすることから、これらすべてをわずか14日で達成しました。
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/cover.png
