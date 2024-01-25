@@ -1,6 +1,6 @@
 ---
 slug: boost-freelancer
-title: I developed a product that enables freelancers to create admin panels with lightning speed
+title: Best product that enables freelancers to create admin panels
 description: I am currently a freelancer and once took on a web development project on a freelancer platform.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/boost-freelancer/cover.webp
