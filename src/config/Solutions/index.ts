@@ -42,10 +42,15 @@ export const IMAGE_GENERATE_SCHEMA_DATA = {
         "Text-to-Image, transform your imaginative ideas into stunning visuals. Image-to-image, enhance your images or drafts by applying artistic styles or modifying image content based on your description.",
       image:
         "https://cdn.illacloud.com/official-website/img/solutions/ai-image1.svg",
+      totalTime: "PT10M",
       estimatedCost: {
         "@type": "MonetaryAmount",
-        currency: "",
-        value: "",
+        currency: "USD",
+        value: "0",
+      },
+      supply: {
+        "@type": "HowToSupply",
+        name: "Access ILLA Cloud and register an account to use it",
       },
       tool: {
         "@type": "HowToTool",
@@ -117,10 +122,15 @@ export const AI_VOICE_GENERATOR_SCHEMA_DATA = {
         "Speech-to-text, transcribe the audio into text and translate or summarize it. Text-to-speech, create natural AI voices instantly in any language and let your content go beyond text.",
       image:
         "https://cdn.illacloud.com/official-website/img/solutions/audio/audio-cover.svg",
+      totalTime: "PT10M",
       estimatedCost: {
         "@type": "MonetaryAmount",
-        currency: "",
-        value: "",
+        currency: "USD",
+        value: "0",
+      },
+      supply: {
+        "@type": "HowToSupply",
+        name: "Access ILLA Cloud and register an account to use it",
       },
       tool: {
         "@type": "HowToTool",
@@ -192,10 +202,15 @@ export const DASHBOARD_SCHEMA_DATA = {
         "Build comprehensive data analysis dashboards and drive your business growth with minimal investment.",
       image:
         "https://cdn.illacloud.com/official-website/img/solutions/dashboard/cover.svg",
+      totalTime: "PT10M",
       estimatedCost: {
         "@type": "MonetaryAmount",
-        currency: "",
-        value: "",
+        currency: "USD",
+        value: "0",
+      },
+      supply: {
+        "@type": "HowToSupply",
+        name: "Access ILLA Cloud and register an account to use it",
       },
       tool: {
         "@type": "HowToTool",
@@ -275,10 +290,15 @@ export const CMS_SCHEMA_DATA = {
         "Built content management system for efficient operations. AI-powered, integrate with AI capabilities, enabling you to efficiently create both visual and textual content. File management, support file storage and delivering, simplifying the content management workflow.",
       image:
         "https://cdn.illacloud.com/official-website/img/solutions/cms/cover.svg",
+      totalTime: "PT10M",
       estimatedCost: {
         "@type": "MonetaryAmount",
-        currency: "",
-        value: "",
+        currency: "USD",
+        value: "0",
+      },
+      supply: {
+        "@type": "HowToSupply",
+        name: "Access ILLA Cloud and register an account to use it",
       },
       tool: {
         "@type": "HowToTool",
@@ -358,10 +378,15 @@ export const CRM_SCHEMA_DATA = {
         "Efficiently manage all your leads, customer relationships, sales pipeline, and tasks in one place, so you can streamline your sales process and focus on closing the deals.",
       image:
         "https://cdn.illacloud.com/official-website/img/solutions/crm/cover.svg",
+      totalTime: "PT10M",
       estimatedCost: {
         "@type": "MonetaryAmount",
-        currency: "",
-        value: "",
+        currency: "USD",
+        value: "0",
+      },
+      supply: {
+        "@type": "HowToSupply",
+        name: "Access ILLA Cloud and register an account to use it",
       },
       tool: {
         "@type": "HowToTool",
@@ -441,10 +466,15 @@ export const ADMIN_PANEL_SCHEMA_DATA = {
         "Build admin panels at 10x speed to manage data or perform operations and allow developers to focus on business development.",
       image:
         "https://cdn.illacloud.com/official-website/img/solutions/dashboard/cover.svg",
+      totalTime: "PT10M",
       estimatedCost: {
         "@type": "MonetaryAmount",
-        currency: "",
-        value: "",
+        currency: "USD",
+        value: "0",
+      },
+      supply: {
+        "@type": "HowToSupply",
+        name: "Access ILLA Cloud and register an account to use it",
       },
       tool: {
         "@type": "HowToTool",
