@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[7238],{7508:e=>{e.exports=JSON.parse('{"label":"UI \u5e93","permalink":"/illa-website/zh/blog/tags/ui-\u5e93","allTagsPath":"/illa-website/zh/blog/tags","count":1}')}}]);
