@@ -527,7 +527,9 @@ keyof any 对应的类型为 number | string | symbol，是可以做对象键的
 
 ReturnType 获取 T 类型对应的返回值类型。
 
+```typescript
 type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any
+```
 
 ### Exclude
 
