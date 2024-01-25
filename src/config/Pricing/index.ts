@@ -193,7 +193,11 @@ export const PRICING_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },

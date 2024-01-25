@@ -331,7 +331,11 @@ export const INTEGRATION_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -392,7 +396,7 @@ export const INTEGRATION_SCHEMA_DATA = {
       author: "ILLA Integrations",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/features/dataSource.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description:
         "ILLA Cloud allows developers to connect to OpenAI, Hugging Face, MySQL, PostgreSQL, Snowflake...",
       name: "ILLA Integration",
@@ -402,7 +406,7 @@ export const INTEGRATION_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/intergration/mySQL.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Connect to MySQL with ILLA Cloud",
       name: "ILLA Cloud & MySQL",
     },
@@ -411,7 +415,7 @@ export const INTEGRATION_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/intergration/huggingface.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Connect to Hugging Face with ILLA Cloud",
       name: "ILLA Cloud & Hugging Face",
     },
@@ -420,7 +424,7 @@ export const INTEGRATION_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/intergration/dynamoDB.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Connect to DynamoDB with ILLA Cloud",
       name: "ILLA Cloud & DynamoDB",
     },
