@@ -2,7 +2,7 @@
 slug: backend-create-web-ui
 title: Ich habe ein Produkt entwickelt, das Backend-Ingenieuren dabei hilft, Admin-Panels, Daten-Dashboards und Web-Benutzeroberflächen schnell zu erstellen
 description: Trotz meiner Erfahrung als Backend-Ingenieur fand ich mich oft damit beschäftigt, zahlreiche Daten-Dashboards und Admin-Panels zu erstellen, um den vielfältigen Anforderungen meiner Kollegen gerecht zu werden. Vom Präsentieren komplexer Geschäftsdaten bis zur Visualisierung von CI/CD-Aufgaben und der Erstellung eines speziellen Admin-Panels für ein Weihnachtsereignis konnte ich all dies in nur 14 Tagen bewältigen.
-authors: [ Owen ]
+authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/cover.png
 tags: [ interne Tools, Daten-Dashboard, Admin-Panel]
 date: 2024-01-03T10:00
