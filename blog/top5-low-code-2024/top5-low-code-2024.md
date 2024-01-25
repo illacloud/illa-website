@@ -78,6 +78,10 @@ Budibase's team is from Europe, aiming to "Save 100s of hours building apps that
 
 With continuous accumulation over time, Budibase's product strength is bound to increase.
 
+## Superblocks
+
+Empowering business users to build custom apps, Superblocks offers agile project management tools and process automation features. With low-code development tools, it enables the creation of various applications without extensive technical skills. This platform is ideal for citizen developers looking to build applications for different industries. Embracing best practices of rapid development, Superblocks supports the creation of applications tailored to specific business needs, making it a valuable addition to enterprise application development platforms.
+
 ## Conclusion
 
 These are the most promising open-source low-code tools in 2024, each with its own characteristics. Different scenarios call for different problem-solving approaches, and we hope readers can choose the most efficient solutions for development in suitable situations. Speed up your work, go home early using low-code tools.
