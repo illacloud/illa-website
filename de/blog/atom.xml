@@ -13,7 +13,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/it-support</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/it-support"/>
         <updated>2024-01-23T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In ordinary companies, the IT department's Technical Support is responsible for managing the company's information system, database, machinery hardware equipment, etc.]]></summary>
+        <summary type="html"><![CDATA[In ordinary companies, the IT department's Technical Support is responsible for managing the company's information system, database]]></summary>
         <content type="html"><![CDATA[<p>IT Support is divided into Technical Support and Program Support.</p>
 <p>Technical Support requires technicians with a broad knowledge structure. Companies of a certain size all have an IT department, commonly referred to as network management, but not all companies have Program Support.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="job-content-of-it-support">Job Content of IT Support<a href="https://illacloud.github.io/illa-website/de/blog/it-support#job-content-of-it-support" class="hash-link" aria-label="Direkter Link zu Job Content of IT Support" title="Direkter Link zu Job Content of IT Support">​</a></h2>
@@ -337,7 +337,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/tooljet-vs-appsmith</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/tooljet-vs-appsmith"/>
         <updated>2024-01-23T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you’re considering using a low-code development platform to build applications, you may wonder whether Tooljet or Appsmith is the better option.]]></summary>
+        <summary type="html"><![CDATA[If you’re considering using a low-code development platform to build applications, you may wonder whether Tooljet or Appsmith is the better option]]></summary>
         <content type="html"><![CDATA[<p>If you’re considering using a low-code development platform to build applications, you may wonder whether Tooljet or Appsmith is the better option. Both are open-source platforms with various features to choose from, but they each have their own strengths and weaknesses. This blog post will compare Tooljet and Appsmith to help you decide which is suitable for your needs.</p>
 <p>Tooljet is excellent for those who prefer working with visual elements and drag-and-drop tools. Its user interface allows you to quickly create applications by simply dragging and dropping different components into place, making it easy and fast to build applications from the ground up. Additionally, Tooljet has powerful management features that allow you to collaborate with other users in real-time and monitor project progress.</p>
 <p>Appsmith is an excellent option for developers who want more control over their applications. It offers a wide range of great features, such as API integration, triggers, and scripts that can add complex functionality to your apps. Moreover, Appsmith also provides an intuitive code editor, making it easy to write custom code in your projects if needed.</p>
@@ -428,7 +428,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/tooljet-vs-retool</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/tooljet-vs-retool"/>
         <updated>2024-01-23T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The demand for efficient and easy-to-use internal tools is on the rise, and low-code platforms have emerged as the go-to solution for businesses looking to streamline their internal processes.]]></summary>
+        <summary type="html"><![CDATA[The demand for efficient and easy-to-use internal tools is on the rise, and low-code platforms have emerged as the go-to solution for businesses.]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/de/blog/tooljet-vs-retool#introduction" class="hash-link" aria-label="Direkter Link zu Introduction" title="Direkter Link zu Introduction">​</a></h2>
 <p>The demand for efficient and easy-to-use internal tools is on the rise, and low-code platforms have emerged as the go-to solution for businesses looking to streamline their internal processes. Retool and Tooljet are two popular low-code platforms that have attracted attention for their ability to build internal tools with ease. In this blog, we'll compare Retool and Tooljet, exploring their key features, use cases, and performance, and introduce ILLA Cloud as a supporting platform for app development and deployment.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-the-best-software-development-tool">ILLA Cloud: The best software development tool<a href="https://illacloud.github.io/illa-website/de/blog/tooljet-vs-retool#illa-cloud-the-best-software-development-tool" class="hash-link" aria-label="Direkter Link zu ILLA Cloud: The best software development tool" title="Direkter Link zu ILLA Cloud: The best software development tool">​</a></h2>
@@ -518,7 +518,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/internal-tool</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/internal-tool"/>
         <updated>2024-01-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools.]]></summary>
+        <summary type="html"><![CDATA[ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends.]]></summary>
         <content type="html"><![CDATA[<p>ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools. As an open-source low-code platform, using ILLA Cloud to create internal tools is a very good choice.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-is-internal-tools">What is Internal Tools<a href="https://illacloud.github.io/illa-website/de/blog/internal-tool#what-is-internal-tools" class="hash-link" aria-label="Direkter Link zu What is Internal Tools" title="Direkter Link zu What is Internal Tools">​</a></h2>
 <p>Internal Tools refer to tools used within a team, including but not limited to various data dashboards, admin panels, etc. These tools can help the team better manage business operations and improve work efficiency. Tools drive the team's efficiency, and Internal Tools are an important part of these tools.</p>
@@ -716,7 +716,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/top-7-database-guis-for-sql-databases</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/top-7-database-guis-for-sql-databases"/>
         <updated>2024-01-09T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Database GUI tools make working with SQL databases much simpler and more efficient for developers. Many great database GUIs are available, each with different features and capabilities.]]></summary>
+        <summary type="html"><![CDATA[Database GUI tools make working with SQL databases much simpler and more efficient for developers. Many great database GUIs are available.]]></summary>
         <content type="html"><![CDATA[<p>Database GUI tools make working with SQL databases much simpler and more efficient for developers. Many great database GUIs are available, each with different features and capabilities. In this blog post, we'll look at seven of the best database GUIs to help you choose the right one.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="database-guis-and-why-they-are-important">Database GUIs and why they are important<a href="https://illacloud.github.io/illa-website/de/blog/top-7-database-guis-for-sql-databases#database-guis-and-why-they-are-important" class="hash-link" aria-label="Direkter Link zu Database GUIs and why they are important" title="Direkter Link zu Database GUIs and why they are important">​</a></h2>
 <p>Database GUIs are essential tools for database developers, database administrators, and database management systems users. Database management tools enable database developers to edit and manage MySQL and PostgreSQL databases and browse the database schema on Windows, Linux, and macOS operating systems.</p>
@@ -962,7 +962,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/launch-flow</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/launch-flow"/>
         <updated>2024-01-05T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.]]></summary>
+        <summary type="html"><![CDATA[ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping.]]></summary>
         <content type="html"><![CDATA[<p>Hi everyone, I'm Owen, and we are a startup company focused on low-code solutions. Our team is quite small, consisting of only 7 people.</p>
 <p>Today, we launched our new product: ILLA Flow.</p>
 <p>Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a> (You can find it after login, at the left of dashboard -&gt; Flow)</p>
@@ -1014,7 +1014,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/best-low-code-platform</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/best-low-code-platform"/>
         <updated>2024-01-04T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As the software industry evolves, low-code tools are increasingly gaining popularity. Implementing the right low-code tools in various business scenarios can lead to remarkable efficiency and productivity gains.]]></summary>
+        <summary type="html"><![CDATA[As the software industry evolves, low-code tools are increasingly gaining popularity. Implementing the right low-code tools]]></summary>
         <content type="html"><![CDATA[<p>As the software industry evolves, low-code tools are increasingly gaining popularity. Implementing the right low-code tools in various business scenarios can lead to remarkable efficiency and productivity gains. This article delves into the most popular low-code tool products in 2024, offering insights and reliable recommendations for making informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-low-code-tools">Why Choose Low-Code Tools<a href="https://illacloud.github.io/illa-website/de/blog/best-low-code-platform#why-choose-low-code-tools" class="hash-link" aria-label="Direkter Link zu Why Choose Low-Code Tools" title="Direkter Link zu Why Choose Low-Code Tools">​</a></h2>
 <p>Low-code tools offer several compelling advantages, which include:</p>
@@ -1124,7 +1124,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/core-app-dashboard-2</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/core-app-dashboard-2"/>
         <updated>2024-01-04T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Core App Dashboard is the nerve center of any sophisticated application. At its essence, it is a centralized interface providing comprehensive insights and controls tailored to the specifics of an application, facilitating better decision-making and management.]]></summary>
+        <summary type="html"><![CDATA[The Core App Dashboard is the nerve center of any sophisticated application.]]></summary>
         <content type="html"><![CDATA[<p>The Core App Dashboard is the nerve center of any sophisticated application. At its essence, it is a centralized interface providing comprehensive insights and controls tailored to the specifics of an application, facilitating better decision-making and management.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-is-the-core-app-dashboard">What is the Core App Dashboard?<a href="https://illacloud.github.io/illa-website/de/blog/core-app-dashboard-2#what-is-the-core-app-dashboard" class="hash-link" aria-label="Direkter Link zu What is the Core App Dashboard?" title="Direkter Link zu What is the Core App Dashboard?">​</a></h2>
 <p>The Core App Dashboard is the nerve center of any sophisticated application. At its essence, it is a centralized interface providing comprehensive insights and controls tailored to the specifics of an application, facilitating better decision-making and management.</p>
@@ -1327,7 +1327,7 @@
         <id>https://illacloud.github.io/illa-website/de/blog/mui-2024</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/mui-2024"/>
         <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.]]></summary>
+        <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate.]]></summary>
         <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains highly prosperous. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/de/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Direkter Link zu Why Choose a Component Library?" title="Direkter Link zu Why Choose a Component Library?">​</a></h2>
 <p>In general, every company building web applications tends to select a component library. These libraries address a significant amount of repetitive work, offering readily usable components such as Select, Input, CheckBox, and more. These components, customizable through styles or pre-existing attractive styles, enable the rapid creation of beautiful websites without the need to build extensive foundational features from scratch.</p>
