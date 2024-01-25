@@ -667,42 +667,43 @@
         <category label="自动化" term="自动化"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Best product that enables freelancers to create admin panels]]></title>
+        <title type="html"><![CDATA[帮助自由职业者创建管理面板的最佳产品]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/boost-freelancer</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer"/>
         <updated>2024-01-15T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I am currently a freelancer and once took on a web development project on a freelancer platform.]]></summary>
-        <content type="html"><![CDATA[<p>Hello everyone, I'm Owen, a full-stack engineer with previous experience at TikTok. My role there involved developing the platform, known for its engaging short video content, and ensuring a delightful user experience.</p>
-<p>I am currently a freelancer and once took on a web development project on a freelancer platform. The frontend part of this project didn't take much of my time, but the extensive requirements for Admin Panels consumed a lot of it.</p>
-<p>All my data was stored on Supabase, and I developed a complete set of REST APIs for backend management. I realized that most of the work involved CRUD operations on Supabase. I needed a tool to help me quickly develop these Admin Panels.</p>
-<p>So, I created an open-source project to assist in the rapid development of Admin Panels. This project is named ILLA Cloud.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-is-illa-cloud">What is ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer#what-is-illa-cloud" class="hash-link" aria-label="Direct link to What is ILLA Cloud" title="Direct link to What is ILLA Cloud">​</a></h2>
-<p>ILLA is a low-code tool designed for developers, allowing you to rapidly develop Admin Panels and Dashboards through a drag-and-drop interface. ILLA Cloud integrates with a wide range of common databases and data sources, including REST APIs and GraphQL.</p>
-<p>Official Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
-<p>With ILLA, you can quickly build various tools such as:</p>
+        <summary type="html"><![CDATA[我目前是一名自由职业者，曾在一个自由职业平台上承接了一个网页开发项目。]]></summary>
+        <content type="html"><![CDATA[<p>大家好，我是Owen，一名曾在TikTok工作的全栈工程师。我在那里的工作内容包括开发这个平台，并确保提供愉悦的用户体验，该平台以其吸引人的短视频内容而闻名。</p>
+<p>我目前是一名自由职业者，曾在一个自由职业平台上承接了一个网页开发项目。这个项目的前端部分并没有花费我太多时间，但对管理面板的广泛需求却消耗了很多时间。</p>
+<p>我的所有数据都存储在Supabase上，我为后端管理开发了一整套REST API。我意识到大部分工作涉及到在Supabase上进行CRUD操作。我需要一个工具来帮助我快速开发这些管理面板。</p>
+<p>因此，我创建了一个开源项目，以协助快速开发管理面板。这个项目名为ILLA Cloud。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="什么是illa-cloud">什么是ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer#%E4%BB%80%E4%B9%88%E6%98%AFilla-cloud" class="hash-link" aria-label="Direct link to 什么是ILLA Cloud" title="Direct link to 什么是ILLA Cloud">​</a></h2>
+<p>ILLA是一个为开发者设计的低代码工具，允许你通过拖放界面快速开发管理面板和仪表板。ILLA Cloud与众多常见的数据库和数据源集成，包括REST API和GraphQL。</p>
+<p>官方网站：<a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
+<p>使用ILLA，你可以快速构建各种工具，如：</p>
 <ul>
-<li>Web &amp; App Admin Panels</li>
-<li>Data Dashboards</li>
-<li>Customized B2B Tools</li>
+<li>网页和应用管理面板</li>
+<li>数据仪表板</li>
+<li>定制化B2B工具</li>
 </ul>
-<p>These can be created with drag-and-drop ease, requiring only a minimal amount of JavaScript for logical connections.</p>
+<p>这些可以通过拖放轻松创建，只需要少量JavaScript来进行逻辑连接。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/boost-freelancer/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>ILLA also features a comprehensive set of connector tools, capable of integrating AI, databases, and various SaaS platforms. This enables your clients to quickly link the products you build with the ones they use. It supports scheduled tasks, Webhooks, and also allows for parameter passing.</p>
+<p>ILLA还包含一套全面的连接器工具，能够整合AI、数据库和各种SaaS平台。这使得你的客户能够快速将你构建的产品与他们使用的产品连接起来。它支持计划任务、Webhooks，并允许参数传递。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/boost-freelancer/connector.png" alt="connector" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-i-created-illa-cloud">Why I created ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer#why-i-created-illa-cloud" class="hash-link" aria-label="Direct link to Why I created ILLA Cloud" title="Direct link to Why I created ILLA Cloud">​</a></h2>
-<p>For freelancers, the most important thing is undoubtedly time, as time is money. I don't want to spend too much time on Admin Panels; I need a tool that helps me develop Admin Panels quickly. Additionally, for my clients, usability and aesthetic appeal are paramount. Therefore, using a low-code tool for development offers a very user-friendly experience.</p>
-<p>With drag-and-drop, I can rapidly construct an Admin Panel that directly interacts with Supabase, without needing to write any code. This tool helps me quickly develop Admin Panels, allowing me to focus on developing business logic.</p>
-<p>The reason I use Supabase is that it's an extremely user-friendly open-source project, which aids in swiftly setting up backend services. Moreover, its documentation is very accessible, making it easy for me to get started.</p>
-<p>ILLA Cloud has an integration with Supabase. With SQL, I can quickly query and modify data in Supabase, facilitating rapid development of both Dashboards and Admin Panels.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-i-recommend-illa-cloud">Why I recommend ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer#why-i-recommend-illa-cloud" class="hash-link" aria-label="Direct link to Why I recommend ILLA Cloud" title="Direct link to Why I recommend ILLA Cloud">​</a></h2>
-<p>You only need to pay $20 per month for ILLA, and this fee is solely for the use of ILLA's editor, which is very freelancer-friendly. You might need to interact with numerous clients, but you don't have to pay for the users; you only pay for yourself.</p>
-<p>Additionally, ILLA comes with a ready-to-use Drive service. For file storage needs during development, you can directly use the Drive service, which aids in rapid development. Moreover, if your client has a high usage volume, you can have them recharge their account themselves, or they can come back to you for more. This can be very beneficial for closing follow-up deals.</p>]]></content>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="我为什么创建illa-cloud">我为什么创建ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer#%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%9B%E5%BB%BAilla-cloud" class="hash-link" aria-label="Direct link to 我为什么创建ILLA Cloud" title="Direct link to 我为什么创建ILLA Cloud">​</a></h2>
+<p>对于自由职业者来说，最重要的无疑是时间，因为时间就是金钱。我不想在管理面板上花费太多时间；我需要一个帮助我快速开发管理面板的工具。此外，对于我的客户来说，易用性和审美吸引力至关重要。因此，使用低代码工具进行开发提供了非常用户友好的体验。</p>
+<p>通过拖放，我可以迅速构建一个直接与Supabase交互的管理面板，而无需编写任何代码。这个工具帮助我快速开发管理面板，使我能够专注于开发业务逻辑。</p>
+<p>我使用Supabase的原因是它是一个非常用户友好的开源项目，有助于迅速建立后端服务。此外，它的文档非常易于上手，使我容易开始。</p>
+<p>ILLA Cloud与Supabase有集成。使用SQL，我可以快速查询和修改Supabase中的数据，从而快速开发仪表板和管理面板。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="我为什么推荐illa-cloud">我为什么推荐ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer#%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E6%8E%A8%E8%8D%90illa-cloud" class="hash-link" aria-label="Direct link to 我为什么推荐ILLA Cloud" title="Direct link to 我为什么推荐ILLA Cloud">​</a></h2>
+<p>你只需每月支付20美元</p>
+<p>即可使用ILLA，这个费用仅用于ILLA编辑器的使用，这对自由职业者非常友好。你可能需要与众多客户互动，但你不必为用户支付费用；你只需为自己支付。</p>
+<p>此外，ILLA附带一个即用型的驱动器服务。在开发过程中，对于文件存储需求，你可以直接使用驱动器服务，这有助于快速开发。此外，如果你的客户有高使用量，你可以让他们自己为账户充值，或者他们可以回到你这里获得更多。这对于达成后续交易非常有利。</p>]]></content>
         <author>
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <category label="freelancer" term="freelancer"/>
-        <category label="freelance" term="freelance"/>
+        <category label="自由职业者" term="自由职业者"/>
+        <category label="自由职业" term="自由职业"/>
         <category label="upwork" term="upwork"/>
         <category label="fiverr" term="fiverr"/>
     </entry>
