@@ -4,11 +4,92 @@
         <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/zh/blog</link>
         <description>ILLA Cloud Blog</description>
-        <lastBuildDate>Tue, 23 Jan 2024 20:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 09:37:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>Copyright © 2024 ILLA.</copyright>
+        <item>
+            <title><![CDATA[appsmith-vs-retool/appsmith-vs-retool]]></title>
+            <link>https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool</link>
+            <guid>https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool</guid>
+            <pubDate>Thu, 25 Jan 2024 09:37:34 GMT</pubDate>
+            <description><![CDATA[在不断发展的低代码开发平台领域，Appsmith 和 Retool 已经崭露头角，它们分别提供独特的功能和能力。这些平台旨在简化应用程序开发，并使组织能够高效构建定制的内部工具。在这个全面的比较中，我们将探讨这两个平台的优点和缺点，并介绍一款顶级替代品，ILLA Cloud，以帮助您为您的低代码开发需求做出明智的选择。]]></description>
+            <content:encoded><![CDATA[<p>在不断发展的低代码开发平台领域，Appsmith 和 Retool 已经崭露头角，它们分别提供独特的功能和能力。这些平台旨在简化应用程序开发，并使组织能够高效构建定制的内部工具。在这个全面的比较中，我们将探讨这两个平台的优点和缺点，并介绍一款顶级替代品，ILLA Cloud，以帮助您为您的低代码开发需求做出明智的选择。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-最佳软件开发工具">ILLA Cloud: 最佳软件开发工具<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#illa-cloud-%E6%9C%80%E4%BD%B3%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="Direct link to ILLA Cloud: 最佳软件开发工具" title="Direct link to ILLA Cloud: 最佳软件开发工具">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> 是一个开箱即用的低代码工具，可以使用简单的JS快速构建内部工具，无需创建新项目。</p>
+<ul>
+<li>Web 和应用程序管理面板</li>
+<li>数据仪表板</li>
+<li>定制的B2B工具</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/illa.png" alt="illa" class="img_CfaS"></p>
+<p>与使用组件库构建相比，ILLA Cloud 可以实现 10 倍更快的工具构建，并支持团队内的协作编辑。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith">Appsmith<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#appsmith" class="hash-link" aria-label="Direct link to Appsmith" title="Direct link to Appsmith">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/appsmith.png" alt="appsmith" class="img_CfaS"></p>
+<p>Appsmith 是一个总部位于印度的开源平台，在低代码开发领域迅速获得了认可。它在很多方面都与 Retool 应用程序构建器具有相同的功能，使其成为一位强大的竞争对手。然而，有必要深入了解使 Appsmith 与众不同的具体特点：</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith-的优点">Appsmith 的优点：<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#appsmith-%E7%9A%84%E4%BC%98%E7%82%B9" class="hash-link" aria-label="Direct link to Appsmith 的优点：" title="Direct link to Appsmith 的优点：">​</a></h3>
+<ul>
+<li>开源优势：Appsmith 是一个开源平台，为开发人员提供访问平台源代码的机会。这种开放性鼓励协作和定制，使其成为那些需要更多控制开发环境的人的首选。</li>
+<li>云和本地部署：Appsmith 通过支持云和完全本地部署提供了灵活性。这种双重性使组织可以选择与其安全性和合规性要求相符的托管选项。</li>
+<li>活跃的开发者社区：Appsmith 在 Github 等平台上拥有不断增长的开发者社区。这种社区支持导致持续改进、及时的错误修复和新功能的开发，确保平台保持与用户需求的同步。</li>
+<li>广泛的集成选项：Appsmith 可以与各种数据库和API进行集成，使企业能够无缝连接到其数据源。这种多功能性确保您的应用程序可以与必要的数据资源互动。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith-的缺点">Appsmith 的缺点：<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#appsmith-%E7%9A%84%E7%BC%BA%E7%82%B9" class="hash-link" aria-label="Direct link to Appsmith 的缺点：" title="Direct link to Appsmith 的缺点：">​</a></h3>
+<p>缺乏自动化工作流程：一个明显的限制是 Appsmith 不支持自动化工作流程或计划任务。对于需要在其内部工具中进行复杂自动化流程的组织来说，这可能是一个不足之处。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="retool-内部工具领域的先驱">Retool: 内部工具领域的先驱<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#retool-%E5%86%85%E9%83%A8%E5%B7%A5%E5%85%B7%E9%A2%86%E5%9F%9F%E7%9A%84%E5%85%88%E9%A9%B1" class="hash-link" aria-label="Direct link to Retool: 内部工具领域的先驱" title="Direct link to Retool: 内部工具领域的先驱">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/retool.png" alt="retool" class="img_CfaS"></p>
+<p>Retool 是一个广受欢迎的开发平台，用于创建定制的内部软件。它提供了直观的拖放应用程序构建器和一组预构建的UI组件库。然而，有必要了解其优点和不足之处：</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="retool-的优点">Retool 的优点：<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#retool-%E7%9A%84%E4%BC%98%E7%82%B9" class="hash-link" aria-label="Direct link to Retool 的优点：" title="Direct link to Retool 的优点：">​</a></h3>
+<ul>
+<li>拖放应用程序构建器：Retool 提供直观的拖放应用程序构建器，使技术水平不同的用户都能轻松使用。</li>
+<li>集成库：通过广泛的集成库，Retool 简化了连接到数据库和API的过程，允许企业高效地访问和操作其数据。</li>
+<li>细粒度权限：Retool 支持基于角色的访问控制，提供安全的环境，并确保用户对工具和数据有适当的访问权限。</li>
+<li>企业功能：Retool 提供企业需求，包括单一登录（SSO）、审计日志记录和专门的企业支持。</li>
+<li>本地移动应用程序：Retool Mobile 在 Retool 环境内提供了专门的解决方案，用于构建原生的iOS和Android移动应用程序。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="retool-的缺点">Retool 的缺点：<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#retool-%E7%9A%84%E7%BC%BA%E7%82%B9" class="hash-link" aria-label="Direct link to Retool 的缺点：" title="Direct link to Retool 的缺点：">​</a></h3>
+<ul>
+<li>代码的可扩展性有限：Retool 的代码可扩展性受到限制，主要支持 JavaScript。这可能对需要更多多样化编码选项的开发人员构成挑战。</li>
+<li>性能较差：用户经常报告 Retool 应用程序</li>
+</ul>
+<p>的性能问题，原因包括基于浏览器的代码执行、单步查询和缺乏全局边缘缓存。</p>
+<ul>
+<li>工作流和计划任务有限：Retool 的工作流功能仍处于测试阶段，功能不完整。此外，它仅在 Retool Cloud 上可用，限制了自托管客户的访问。</li>
+<li>仅支持 SQL 的生成AI：Retool 的生成AI功能仅支持 SQL，可能不能完全满足开发人员在不同语言和用例中的代码生成和优化需求。</li>
+<li>传统的本地部署模式：Retool 的本地部署模式资源密集，使企业难以维护和更新。这可能会将资源从工具开发中转移。</li>
+<li>昂贵的定价：Retool 采用不灵活的定价模型，附加了高昂的平台费用，对许多组织来说昂贵。</li>
+<li>新功能的推出速度较慢：新功能有时推出速度较慢，特别是对于自托管客户来说，这会导致利用最新技术的延迟。</li>
+<li>闭源代码：Retool 是闭源的，限制了代码审计和可扩展性选项。</li>
+<li>仅支持美国云：Retool Cloud 托管在美国，这可能导致位于美国以外的用户和数据中心性能下降。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-提供最佳解决方案">ILLA Cloud 提供最佳解决方案<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#illa-cloud-%E6%8F%90%E4%BE%9B%E6%9C%80%E4%BD%B3%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88" class="hash-link" aria-label="Direct link to ILLA Cloud 提供最佳解决方案" title="Direct link to ILLA Cloud 提供最佳解决方案">​</a></h2>
+<p>ILLA 是内部工具开发的最快平台之一。它为开发人员节省了在网站设计和其他工作方面的宝贵时间。开发人员越来越倾向于选择 ILLA 的主要原因之一是其库。该平台已经构建了丰富的代码组件集合，您可以简单地拖放并在几分钟内构建复杂的应用程序。</p>
+<p>您还可以使用应用程序编程接口将 ILLA 与您选择的数据库连接起来。该平台可以卓越地将后端和前端数据整合在一起。因此，开发人员可以通过基本的数据调用实现广泛的信息互动。</p>
+<p>任何开发人员都会喜欢 ILLA，原因有两点-自由和与其他开发人员同时工作的机会。首先，开发人员可以随时在任何地方编写 JavaScript。这允许在他们的工作中获得更大的灵活性和更多的结果多样性。</p>
+<p>其次，开发人员可以在 ILLA Builder 中与其他专业人士实时共享链接。因此，他们可以在一起编辑和评论彼此的工作。换句话说，开发人员可以在一个有趣和协作的工作空间中工作。当然，这会产生更快和更好的结果。</p>
+<p>最后，开发人员在使用 ILLA 云时可以随时携带他们的工作。只需单击任何设备上的一个按钮，即可访问云并进入 ILLA 的用户界面。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="illa-的关键特点">ILLA 的关键特点<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#illa-%E7%9A%84%E5%85%B3%E9%94%AE%E7%89%B9%E7%82%B9" class="hash-link" aria-label="Direct link to ILLA 的关键特点" title="Direct link to ILLA 的关键特点">​</a></h3>
+<p>以下是您必须了解的 ILLA 的关键特点：</p>
+<ul>
+<li>ILLA 具有用于 React 组件的即用型库。</li>
+<li>令人惊奇的是，ILLA 设计工具具有 TypeScript 类型功能，并支持可预测的静态类型。</li>
+<li>ILLA Design 提供了快速且简便的导入，有助于提高开发人员的生产力。</li>
+<li>您可以访问精美设计的强大主题和组件。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="升级版的-illa-特性">升级版的 ILLA 特性<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#%E5%8D%87%E7%BA%A7%E7%89%88%E7%9A%84-illa-%E7%89%B9%E6%80%A7" class="hash-link" aria-label="Direct link to 升级版的 ILLA 特性" title="Direct link to 升级版的 ILLA 特性">​</a></h3>
+<p>以下是一些升级版的 ILLA 特性，您必须了解：</p>
+<ul>
+<li>与任何数据源的快速集成</li>
+<li>您可以将 ILLA 连接到任何主流数据库或其他数据源。此工具允许您使用前端组件从后端获取数据。</li>
+<li>实时协作以增强效率</li>
+<li>ILLA Builder 允许开发人员协作处理项目。他们可以创建和分享链接给不同的开发人员，以共同编辑其工具，并与其他团队成员实时通信。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="响应式ui库以满足您的需求">响应式UI库以满足您的需求<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#%E5%93%8D%E5%BA%94%E5%BC%8Fui%E5%BA%93%E4%BB%A5%E6%BB%A1%E8%B6%B3%E6%82%A8%E7%9A%84%E9%9C%80%E6%B1%82" class="hash-link" aria-label="Direct link to 响应式UI库以满足您的需求" title="Direct link to 响应式UI库以满足您的需求">​</a></h3>
+<p>ILLA Builder 还具有众多组件，以有效满足每位开发人员的需求。因此，开发人员可以访问拖放构建器，快速开发其所需的内部工具。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool/appsmith-vs-retool#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
+<p>总之，Retool 和 Appsmith 都是出色的低代码平台，可以帮助您快速高效地构建应用程序。然而，它们各自都有其优点和不足之处，因此在决定哪个适合您之前，考虑您的需求非常重要。如果您想要一个具有强大管理功能的更加亲手操作的平台，那么 Tooljet 可能更适合您。另一方面，如果您想要一个不需要任何编码经验的用户友好型平台，那么 Appsmith 可能更适合您。最终，一切都取决于您是哪种类型的开发人员以及您想要构建哪种类型的应用程序。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Best tools for it support]]></title>
             <link>https://illacloud.github.io/illa-website/zh/blog/it-support</link>
@@ -239,87 +320,6 @@
             <category>citizen developer</category>
             <category>citizen development</category>
             <category>citizen developer tool</category>
-        </item>
-        <item>
-            <title><![CDATA[Appsmith vs Retool: Which open-source low-code platform is better?]]></title>
-            <link>https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool</link>
-            <guid>https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool</guid>
-            <pubDate>Tue, 23 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[In the ever-evolving landscape of low-code development platforms, Appsmith and Retool have emerged as strong contenders, each offering unique features and capabilities. These platforms aim to simplify application development and empower organizations to build custom internal tools efficiently. In this comprehensive comparison, we'll explore the strengths and weaknesses of both platforms and introduce a top-tier alternative, ILLA Cloud, to help you make an informed choice for your low-code development needs.]]></description>
-            <content:encoded><![CDATA[<p>In the ever-evolving landscape of low-code development platforms, Appsmith and Retool have emerged as strong contenders, each offering unique features and capabilities. These platforms aim to simplify application development and empower organizations to build custom internal tools efficiently. In this comprehensive comparison, we'll explore the strengths and weaknesses of both platforms and introduce a top-tier alternative, ILLA Cloud, to help you make an informed choice for your low-code development needs.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-the-best-software-development-tool">ILLA Cloud: The best software development tool<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#illa-cloud-the-best-software-development-tool" class="hash-link" aria-label="Direct link to ILLA Cloud: The best software development tool" title="Direct link to ILLA Cloud: The best software development tool">​</a></h2>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
-<ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
-</ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/illa.png" alt="illa" class="img_CfaS"></p>
-<p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith">Appsmith<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#appsmith" class="hash-link" aria-label="Direct link to Appsmith" title="Direct link to Appsmith">​</a></h2>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/appsmith.png" alt="appsmith" class="img_CfaS"></p>
-<p>Appsmith, an India-based open-source platform, has quickly gained recognition in the low-code development arena. It boasts feature parity with many aspects of the Retool application builder, making it a formidable competitor. However, it's essential to delve into the specific characteristics that set Appsmith apart:</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-of-appsmith">Advantages of Appsmith:<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#advantages-of-appsmith" class="hash-link" aria-label="Direct link to Advantages of Appsmith:" title="Direct link to Advantages of Appsmith:">​</a></h3>
-<ul>
-<li>Open Source Advantage: Appsmith is an open-source platform, providing developers with access to the platform's source code. This open nature encourages collaboration and customization, making it a preferred choice for those who require greater control over their development environment.</li>
-<li>Cloud and On-Premise Deployment: Appsmith offers flexibility by supporting both cloud and fully on-premise deployments. This duality enables organizations to choose the hosting option that aligns with their security and compliance requirements.</li>
-<li>Active Developer Community: Appsmith enjoys a growing developer community on platforms like Github. This community support leads to continuous improvements, timely bug fixes, and the development of new features, ensuring the platform remains current and responsive to user needs.</li>
-<li>Extensive Integration Options: Appsmith facilitates integration with a wide array of databases and APIs, enabling businesses to connect to their data sources seamlessly. This versatility ensures that your applications can interact with the necessary data resources.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages-of-appsmith">Disadvantages of Appsmith:<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#disadvantages-of-appsmith" class="hash-link" aria-label="Direct link to Disadvantages of Appsmith:" title="Direct link to Disadvantages of Appsmith:">​</a></h3>
-<p>Lacks Automated Workflows: One notable limitation is the absence of support for automated workflows or scheduled jobs within Appsmith. This could be a drawback for organizations requiring complex automation processes in their internal tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="retool-a-pioneer-in-internal-tooling">Retool: A Pioneer in Internal Tooling<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#retool-a-pioneer-in-internal-tooling" class="hash-link" aria-label="Direct link to Retool: A Pioneer in Internal Tooling" title="Direct link to Retool: A Pioneer in Internal Tooling">​</a></h2>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/retool.png" alt="retool" class="img_CfaS"></p>
-<p>Retool is a well-established development platform for creating custom internal software. It offers an intuitive drag-and-drop application builder and a library of pre-built UI components. However, it's essential to recognize both its strengths and shortcomings:</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-of-retool">Advantages of Retool:<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#advantages-of-retool" class="hash-link" aria-label="Direct link to Advantages of Retool:" title="Direct link to Advantages of Retool:">​</a></h3>
-<ul>
-<li>Drag &amp; Drop Application Builder: Retool provides an intuitive drag-and-drop application builder, making it accessible for users with varying technical expertise.</li>
-<li>Integration Library: With an extensive library of integrations, Retool simplifies the process of connecting to databases and APIs, allowing businesses to access and manipulate their data efficiently.</li>
-<li>Granular Permissions: Retool supports role-based access controls, providing a secure environment and ensuring that users have appropriate access to tools and data.</li>
-<li>Enterprise Features: Retool caters to enterprise needs by offering features such as single sign-on (SSO), audit logging, and dedicated enterprise support.</li>
-<li>Native Mobile Apps: Retool Mobile provides a dedicated solution for building native iOS and Android mobile apps within the Retool environment.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages-of-retool">Disadvantages of Retool:<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#disadvantages-of-retool" class="hash-link" aria-label="Direct link to Disadvantages of Retool:" title="Direct link to Disadvantages of Retool:">​</a></h3>
-<ul>
-<li>Limited Extensibility with Code: Retool's code extensibility is restricted, primarily supporting JavaScript. This limitation can pose challenges for developers who require more diverse coding options.</li>
-<li>Poor Performance: Users often report performance issues with Retool applications due to browser-based code execution, single-step queries, and a lack of global edge caching.</li>
-<li>Limited Workflows &amp; Scheduled Jobs: Retool's workflow offering is still in beta and lacks full functionality. Additionally, it is only available on Retool Cloud, limiting its accessibility to self-hosted customers.</li>
-<li>SQL-Only Generative AI: Retool's generative AI functionality is limited to SQL, which may not fully meet developers' requirements for code generation and optimization in various languages and use cases.</li>
-<li>Legacy On-Premise Deployment: Retool's on-premise deployment model is resource-intensive, making it complex for businesses to maintain and update. This can divert resources away from tool development.</li>
-<li>Expensive Pricing: Retool employs an inflexible pricing model with hefty platform fees, making it expensive for many organizations.</li>
-<li>Slow Feature Rollouts: New features are sometimes slow to roll out, particularly for on-premise customers, leading to delays in leveraging the latest technologies.</li>
-<li>Closed Source Code: Retool is closed-source, limiting code audits and extensibility options.</li>
-<li>US-Cloud Only: Retool Cloud is hosted in the US, which may result in performance degradation for users and data centers outside the US.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-offers-the-best-of-both-worlds">ILLA Cloud offers the best of both worlds<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#illa-cloud-offers-the-best-of-both-worlds" class="hash-link" aria-label="Direct link to ILLA Cloud offers the best of both worlds" title="Direct link to ILLA Cloud offers the best of both worlds">​</a></h2>
-<p>ILLA is one of the fastest platforms for internal tool development. It saves developers precious time on web design and other aspects of their job. One of the main reasons developers are increasingly choosing ILLA is the library. The platform has conjured a rich collection of code components that you can simply drag and drop and build complex applications within minutes.</p>
-<p>You can also use application programming interfaces to join ILLA with a database of your choice. The platform can excellently integrate back-end and front-end data. As a result, developers can make vast information interactions possible with basic data calls.</p>
-<p>Any developer will love ILLA for two reasons-freedom and the chance to work simultaneously with other developers. Firstly, developers can write JavaScript wherever they want. This permits more flexibility in their job and increased variety in results.</p>
-<p>Secondly, developers can share links in ILLA Builder with other professionals in real time. Consequently, they can edit and comment on each other’s work as they go along. In other words, developers get to work in a fun and collaborative workspace. Naturally, this yields faster and improved results.</p>
-<p>Lastly, developers can always carry their work with them when using ILLA cloud. Just one click from any device will give them access to the cloud and bring them to ILLA’s user interface.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-illa">Key features of ILLA<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#key-features-of-illa" class="hash-link" aria-label="Direct link to Key features of ILLA" title="Direct link to Key features of ILLA">​</a></h3>
-<p>Here are the key features of ILLA you must know:</p>
-<ul>
-<li>ILLA has a ready-to-use library for React components.</li>
-<li>Most amazingly, the ILLA design tool has a typescript typing feature and supports predictable static typing.</li>
-<li>ILLA Design provides quick and easy import, which helps in improving developers’ productivity.</li>
-<li>You can access beautifully designed and powerful themes and components.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="upgraded-illa-features">Upgraded ILLA features<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#upgraded-illa-features" class="hash-link" aria-label="Direct link to Upgraded ILLA features" title="Direct link to Upgraded ILLA features">​</a></h3>
-<p>Here are some upgraded features of ILLA that you must know:</p>
-<ul>
-<li>Quick integration with any data source</li>
-<li>You can connect ILLA to any mainstream database or any other data source. This tool allows you to get data from the backend using front-end components.</li>
-<li>Real-time collaboration for enhanced efficiency</li>
-<li>ILLA Builder allows developers to work collaboratively on a project. They can create and share links to different developers to co-edit their tools and communicate with other team members in real time.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="responsive-ui-library-to-meet-your-needs">Responsive UI library to meet your needs<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#responsive-ui-library-to-meet-your-needs" class="hash-link" aria-label="Direct link to Responsive UI library to meet your needs" title="Direct link to Responsive UI library to meet your needs">​</a></h3>
-<p>ILLA Builder also has numerous components to meet every developer’s needs efficiently. So, developers can access the drag-and-drop builder to develop their desired internal tools quickly.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/appsmith-vs-retool#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>In conclusion, Tooljet and Appsmith are both excellent low-code platforms that can help you build applications quickly and efficiently. However, they each have their own strengths and weaknesses, so it’s important to consider your needs before deciding which one is right for you. If you’re looking for a more hands-on approach with powerful management features, then Tooljet may be the better option for you. On the other hand, if you want a user-friendly platform that doesn’t require any coding experience, then Appsmith may be the better choice. Ultimately, it all comes down to what type of developer you are and what type of application you want to build.</p>]]></content:encoded>
-            <category>tooljet</category>
-            <category>appsmith</category>
-            <category>retool</category>
         </item>
         <item>
             <title><![CDATA[Tooljet vs Appsmitm: Which open-source low-code platform is better?]]></title>
