@@ -382,7 +382,7 @@ type T3 = T1<number> // 'number'
 
 通常、ジェネリック条件と組み合わせて使用し、具体例を理解します。
 
-ジェネリックパラメータTが型{t: infer Test}に代入可能である場合、型Testが推論され、それ以外の場合はstring型になります。
+ジェネリックパラメータTが型`{t: infer Test}`に代入可能である場合、型Testが推論され、それ以外の場合はstring型になります。
 
 ```typescript
 type Foo<T> = T extends {t: infer Test} ? Test : string
