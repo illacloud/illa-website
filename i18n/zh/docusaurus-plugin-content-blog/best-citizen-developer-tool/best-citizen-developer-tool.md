@@ -6,6 +6,7 @@ authors: [owen]
 image: https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/cover.webp
 tags: [市民开发者，市民开发，市民开发者工具]
 date: 2024-01-23T11:00
+is_featured: true
 ---
 
 在最近几十年里，应用程序开发一直是IT程序员的专属领域，但这可能在未来会有所改变！

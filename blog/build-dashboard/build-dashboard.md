@@ -6,7 +6,6 @@ authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/build-dashboard/cover.png
 tags: [ data dashboard ]
 date: 2024-01-01T10:00
-is_featured: true
 ---
 
 Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.

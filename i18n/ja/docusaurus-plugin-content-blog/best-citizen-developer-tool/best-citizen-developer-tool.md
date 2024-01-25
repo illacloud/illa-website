@@ -6,6 +6,7 @@ authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/cover.webp
 tags: [ 市民開発者, 市民開発, 市民開発者ツール ]
 date: 2024-01-23T11:00
+is_featured: true
 ---
 
 最近の数十年間、アプリケーション開発はITプログラマーの専売特許でしたが、これは将来変わるかもしれません！

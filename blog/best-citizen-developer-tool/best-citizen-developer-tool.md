@@ -6,6 +6,7 @@ authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/cover.webp
 tags: [ citizen developer, citizen development, citizen developer tool ]
 date: 2024-01-23T11:00
+is_featured: true
 ---
 
 In recent decades, application development has been the exclusive domain of IT programmers, but this might change in the future!

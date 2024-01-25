@@ -6,6 +6,7 @@ authors: [owen]
 image: https://cdn.illacloud.com/illa-website/blog/best-citizen-developer-tool/cover.webp
 tags: [Bürgerentwickler, Bürgerentwicklung, Bürgerentwicklungs-Tool]
 date: 2024-01-23T11:00
+is_featured: true
 ---
 
 In den letzten Jahrzehnten war die Anwendungsentwicklung ausschließlich das Gebiet von IT-Programmierern, aber dies könnte sich in der Zukunft ändern!
