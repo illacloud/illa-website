@@ -381,7 +381,7 @@ type T3 = T1<number> // 'number
 
 一般是和泛型条件结合使用，结合实际例子理解：
 
-如果泛型参数 T 能赋值给类型 {t: infer Test}，那么类型是推断类型 Test，否则类型是 string。
+如果泛型参数 T 能赋值给类型 \{t: infer Test\}，那么类型是推断类型 Test，否则类型是 string。
 
 ```typescript
 type Foo<T> = T extends {t: infer Test} ? Test : string
