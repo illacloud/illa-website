@@ -416,12 +416,14 @@ type Three = Foo<{ a: number, t: () => void }> // () => void
 
 一般的なマップ型の構文は次のとおりです。
 
+```typescript
 { [ P in K ] : T }
 { [ P in K ] ?: T }
 { [ P in K ] -?: T }
 { readonly [ P in K ] : T }
 { readonly [ P in K ] ?: T }
 { -readonly [ P in K ] ?: T }
+```
 
 例を示します。すべてのプロパティをオプションに変更するためのマップ型を作成します。
 
