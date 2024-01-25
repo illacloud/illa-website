@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[9717],{3638:a=>{a.exports=JSON.parse('{"label":"core app dashboard","permalink":"/illa-website/zh/blog/tags/core-app-dashboard","allTagsPath":"/illa-website/zh/blog/tags","count":1}')}}]);
