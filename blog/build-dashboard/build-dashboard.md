@@ -1,7 +1,7 @@
 ---
 slug: build-dashboard
 title: Quickly create a personalized data dashboard for your boss
-description: Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.
+description: Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/build-dashboard/cover.png
 tags: [ data dashboard ]

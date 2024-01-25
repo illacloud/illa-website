@@ -2,7 +2,7 @@
 title: 'Tooljet vs Appsmitm: Which open-source low-code platform is better?'
 tags: [tooljet, appsmith, retool]
 slug: tooljet-vs-appsmith
-description: If you’re considering using a low-code development platform to build applications, you may wonder whether Tooljet or Appsmith is the better option. Both are open-source platforms with various features to choose from, but they each have their own strengths and weaknesses. This blog post will compare Tooljet and Appsmith to help you decide which is suitable for your needs. 
+description: If you’re considering using a low-code development platform to build applications, you may wonder whether Tooljet or Appsmith is the better option. 
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/appsmith-tooljet.webp
 date: 2024-01-23T10:00

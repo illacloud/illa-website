@@ -1,7 +1,7 @@
 ---
 slug: popular-tool
 title: 10,000 Stars! This open-source low-code tool is wildly popular overseas.
-description: Open-source tools are common, but it's rare to see one with 10,000 stars. I'm sharing a product that has seen a crazy growth of 10,000 stars overseas. There are many low-code tools, but few are truly useful. This tool is primarily used by developers in North America, and their Discord community is very active.
+description: Open-source tools are common, but it's rare to see one with 10,000 stars.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/popular-tool/cover.png
 tags: [ nvm, nodejs, mac, javascript ]

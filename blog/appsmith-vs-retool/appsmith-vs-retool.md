@@ -2,7 +2,7 @@
 title: 'Appsmith vs Retool: Which open-source low-code platform is better?'
 tags: [tooljet, appsmith, retool]
 slug: appsmith-vs-retool
-description: In the ever-evolving landscape of low-code development platforms, Appsmith and Retool have emerged as strong contenders, each offering unique features and capabilities. These platforms aim to simplify application development and empower organizations to build custom internal tools efficiently. In this comprehensive comparison, we'll explore the strengths and weaknesses of both platforms and introduce a top-tier alternative, ILLA Cloud, to help you make an informed choice for your low-code development needs. 
+description: In the ever-evolving landscape of low-code development platforms, Appsmith and Retool have emerged as strong contenders, each offering unique features and capabilities. 
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/appsmith-retool.webp
 date: 2024-01-23T10:00

@@ -1,7 +1,7 @@
 ---
 slug: low-code-crm
 title: "How to build a custom low code CRM in 2024"
-description: With the evolution of low-code platforms, an increasing number of businesses are turning to these platforms to build their operational systems. The main advantage of low-code platforms lies in their ability to rapidly iterate. This rapid iteration is key to swiftly responding to market changes, which in turn leads to quick market share acquisition. Gaining market share rapidly is essential for fast capital acquisition, and this swift capital influx fuels further rapid iteration. This cycle positions low-code platforms as the preferred choice for businesses to develop their operational systems in the coming years.Customer Relationship Management (CRM), a system essential for every business, stands as a significant application scenario for low-code platforms. This article will explore how to build a CRM system using a low-code platform.
+description: With the evolution of low-code platforms, an increasing number of businesses are turning to these platforms to build their operational systems.
 authors: owen
 image: https://cdn.illacloud.com/illa-website/blog/low-code-crm/cover.png
 tags: [ low code crm ]

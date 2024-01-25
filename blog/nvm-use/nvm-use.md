@@ -1,7 +1,7 @@
 ---
 slug: nvm-use-2024
 title: Elegant Use of nvm for Node.js Management on Mac in 2024
-description: Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.
+description: Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime."
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/nvm-use/cover.png
 tags: [ nvm, nodejs, mac, javascript ]

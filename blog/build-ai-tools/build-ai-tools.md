@@ -1,7 +1,7 @@
 ---
 slug: build-ai-tools
 title: Create AI Tools like building with blocks
-description: AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields. However, for most people, AI remains a high-barrier technology, requiring a significant amount of time and effort to learn before it can be applied effectively in practical work.
+description: AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields.
 authors: [ owen ]
 image:  https://cdn.illacloud.com/illa-website/blog/build-ai-tools/cover.png
 tags: [ ai, tools ]
