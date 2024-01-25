@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[124],{6285:e=>{e.exports=JSON.parse('{"label":"\u81ea\u52a8\u5316","permalink":"/illa-website/zh/blog/tags/\u81ea\u52a8\u5316","allTagsPath":"/illa-website/zh/blog/tags","count":1}')}}]);
