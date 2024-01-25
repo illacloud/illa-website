@@ -20,7 +20,11 @@ export const IMAGE_GENERATE_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -91,7 +95,11 @@ export const AI_VOICE_GENERATOR_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -162,7 +170,11 @@ export const DASHBOARD_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -241,7 +253,11 @@ export const CMS_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -320,7 +336,11 @@ export const CRM_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -399,7 +419,11 @@ export const ADMIN_PANEL_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },

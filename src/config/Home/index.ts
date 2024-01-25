@@ -112,7 +112,11 @@ export const HOME_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -175,7 +179,7 @@ export const HOME_SCHEMA_DATA = {
         "ILLA Cloud is a low-code platform to make users build internal tools faster.",
       thumbnailUrl:
         "https://cdn.illacloud.com/official-website/img/home/playVideoCover.png",
-      uploadDate: "2023-06-15",
+      uploadDate: "2023-06-15T08:00:00+08:00",
       duration: "PT1M20S",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/video.webm",
@@ -185,7 +189,7 @@ export const HOME_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/home3/Frame%203341.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "40+ components in ILLA Cloud",
       name: "ILLA Cloud components",
     },
@@ -194,7 +198,7 @@ export const HOME_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/home3/Frame%203340.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "SQL Generation based on OpenAI in ILLA Cloud",
       name: "ILLA Cloud SQL Generation",
     },
@@ -203,7 +207,7 @@ export const HOME_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/home3/Frame%203340%20(1).svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Real-time collaboration based on OpenAI in ILLA Cloud",
       name: "ILLA Cloud real-time collaboration",
     },
@@ -212,7 +216,7 @@ export const HOME_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/datasource/datasource.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description:
         "ILLA Cloud supports to connect multiple datasource with GUI mode. No code required. ",
       name: "ILLA Cloud data source integration",
@@ -222,7 +226,7 @@ export const HOME_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/home3/Codepartbgweb.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description:
         "Build dashboard or any other internal tools with ILLA Cloud in minutes",
       name: "Build dashboard with ILLA Cloud",
@@ -232,7 +236,7 @@ export const HOME_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/home3/Frame%203356.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Friendly CDN.Register to use, no configure required",
       name: "ILLA Drive",
     },
@@ -241,7 +245,7 @@ export const HOME_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/home/home3/Frame%203356%20(1).svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description:
         "Friendly CDN.Register to use, no configure required. Support anti-leech links",
       name: "Storage and share files via ILLA Drive",
