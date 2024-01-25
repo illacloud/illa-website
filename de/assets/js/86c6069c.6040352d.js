@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[4774],{3642:e=>{e.exports=JSON.parse('{"label":"B\xfcrgerentwicklung","permalink":"/illa-website/de/blog/tags/burgerentwicklung","allTagsPath":"/illa-website/de/blog/tags","count":1}')}}]);

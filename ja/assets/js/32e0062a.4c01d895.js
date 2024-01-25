@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[6175],{2601:a=>{a.exports=JSON.parse('{"label":"admin panel","permalink":"/illa-website/ja/blog/tags/admin-panel","allTagsPath":"/illa-website/ja/blog/tags","count":1}')}}]);
