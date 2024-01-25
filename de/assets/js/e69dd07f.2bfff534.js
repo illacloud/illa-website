@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[9886],{332:e=>{e.exports=JSON.parse('{"label":"typescript","permalink":"/illa-website/de/blog/tags/typescript","allTagsPath":"/illa-website/de/blog/tags","count":1}')}}]);
