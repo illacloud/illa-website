@@ -47,7 +47,9 @@ export const BannerSidebar = ({ shouldShowBanner }) => {
         <img src={image} alt={text} loading="lazy" />
       </Link>
 
-      <h2 className={clsx("text-2xl font-semibold", "text-gray-0")}>{text}</h2>
+      <label className={clsx("text-2xl font-semibold", "text-gray-0")}>
+        {text}
+      </label>
       <p className={clsx("text-base", "text-gray-100")}>{description}</p>
     </div>
   )
