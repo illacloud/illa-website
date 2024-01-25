@@ -240,7 +240,9 @@
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <category label="市民开发者，市民开发，市民开发者工具" term="市民开发者，市民开发，市民开发者工具"/>
+        <category label="市民开发者" term="市民开发者"/>
+        <category label="市民开发" term="市民开发"/>
+        <category label="市民开发者工具" term="市民开发者工具"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[appsmith-vs-retool]]></title>
@@ -665,7 +667,7 @@
         <category label="自动化" term="自动化"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I developed a product that enables freelancers to create admin panels with lightning speed]]></title>
+        <title type="html"><![CDATA[Best product that enables freelancers to create admin panels]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/boost-freelancer</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/boost-freelancer"/>
         <updated>2024-01-15T10:00:00.000Z</updated>
@@ -703,10 +705,6 @@
         <category label="freelance" term="freelance"/>
         <category label="upwork" term="upwork"/>
         <category label="fiverr" term="fiverr"/>
-        <category label="freelancer.com" term="freelancer.com"/>
-        <category label="freelancer jobs" term="freelancer jobs"/>
-        <category label="freelance jobs" term="freelance jobs"/>
-        <category label="freelance work" term="freelance work"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Top 7 Database GUIs for SQL databases]]></title>
@@ -1237,7 +1235,7 @@
         <category label="low code crm" term="low code crm"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[我开发了一个旨在帮助后端工程师快速构建管理面板、数据仪表板和Web用户界面的产品]]></title>
+        <title type="html"><![CDATA[专为后端工程师设计的最佳产品，用于创建业务工具]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui"/>
         <updated>2024-01-03T10:00:00.000Z</updated>
