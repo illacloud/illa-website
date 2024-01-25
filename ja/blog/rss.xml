@@ -4,11 +4,107 @@
         <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/ja/blog</link>
         <description>ILLA Cloud Blog</description>
-        <lastBuildDate>Tue, 23 Jan 2024 20:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jan 2024 11:29:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <copyright>Copyright © 2024 ILLA.</copyright>
+        <item>
+            <title><![CDATA[best-low-code-platform/best-low-code-platform]]></title>
+            <link>https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform</link>
+            <guid>https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform</guid>
+            <pubDate>Thu, 25 Jan 2024 11:29:17 GMT</pubDate>
+            <description><![CDATA[---]]></description>
+            <content:encoded><![CDATA[<hr>
+<p>slug: best-low-code-platform
+title: 2024年のベストローコードプラットフォーム5選
+description: ソフトウェア業界が進化するにつれ、ローコードツールはますます人気を集めています。適切なローコードツールを導入することで、さまざまなビジネスシナリオで効率と生産性の向上が実現できます。この記事では、2024年における最も人気のあるローコードツール製品について詳しく説明し、情報を元にした適切な選択を提供します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="authors--owen-image-httpscdnillacloudcomilla-websiteblogbest-low-code-platformcoverpngtags--ローコード-date-2024-01-04t1000">authors: [ owen ]
+image: <a href="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/cover.png" target="_blank" rel="noopener noreferrer">https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/cover.png</a>
+tags: [ ローコード ]
+date: 2024-01-04T10:00<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#authors--owen-image-httpscdnillacloudcomilla-websiteblogbest-low-code-platformcoverpngtags--%E3%83%AD%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89-date-2024-01-04t1000" class="hash-link" aria-label="authors--owen-image-httpscdnillacloudcomilla-websiteblogbest-low-code-platformcoverpngtags--ローコード-date-2024-01-04t1000 への直接リンク" title="authors--owen-image-httpscdnillacloudcomilla-websiteblogbest-low-code-platformcoverpngtags--ローコード-date-2024-01-04t1000 への直接リンク">​</a></h2>
+<p>ソフトウェア業界が進化するにつれ、ローコードツールはますます人気を集めています。さまざまなビジネスシナリオで適切なローコードツールを導入することで、驚異的な効率と生産性の向上が実現します。この記事では、2024年における最も人気のあるローコードツール製品について詳しく説明し、情報を元にした適切な選択を提供します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="なぜローコードツールを選ぶのか">なぜローコードツールを選ぶのか<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E3%81%AA%E3%81%9C%E3%83%AD%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E9%81%B8%E3%81%B6%E3%81%AE%E3%81%8B" class="hash-link" aria-label="なぜローコードツールを選ぶのか への直接リンク" title="なぜローコードツールを選ぶのか への直接リンク">​</a></h2>
+<p>ローコードツールにはいくつかの魅力的な利点があります。それには以下が含まれます：</p>
+<ul>
+<li>ゼロの運用保守コスト</li>
+<li>超高速の開発スピード</li>
+<li>広範な開発者チームへの依存の削減</li>
+<li>新しいアプリケーションの市場投入の加速</li>
+</ul>
+<p>通常、ローコードツールは内部ツールとポータルのシナリオの開発に特に適しています。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="選択の幅">選択の幅<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E9%81%B8%E6%8A%9E%E3%81%AE%E5%B9%85" class="hash-link" aria-label="選択の幅 への直接リンク" title="選択の幅 への直接リンク">​</a></h2>
+<p>私たちは、検討のために現在人気のあるローコードプラットフォームのリストをまとめました。詳細な紹介は後に続きます。</p>
+<ul>
+<li>ILLA Cloud：オープンソース</li>
+<li>Budibase：オープンソース</li>
+<li>Tooljet：オープンソース</li>
+<li>SuperBlocks：プロプライエタリ</li>
+<li>Retool：プロプライエタリ</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#illa-cloud" class="hash-link" aria-label="ILLA Cloud への直接リンク" title="ILLA Cloud への直接リンク">​</a></h2>
+<p>GitHubリンク：<a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>は、シンプルなJavaScriptを使用して内部ツールを迅速に作成する革新的なローコードツールです。新しいプロジェクトをゼロから始める必要がなくなります。</p>
+<p>主要な提供物には以下が含まれます：</p>
+<ul>
+<li>ウェブ＆アプリ管理パネル</li>
+<li>データダッシュボード</li>
+<li>カスタマイズ可能なB2Bツール</li>
+</ul>
+<p>ILLA Cloudは、従来のコンポーネントライブラリの構築よりも最大10倍高速な開発スピードを誇り、チームの効率を向上させる共同編集もサポートしています。</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/crm.webp" alt="crm" class="img_CfaS"></p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="ベストチョイス">ベストチョイス<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E3%83%99%E3%82%B9%E3%83%88%E3%83%81%E3%83%A7%E3%82%A4%E3%82%B9" class="hash-link" aria-label="ベストチョイス への直接リンク" title="ベストチョイス への直接リンク">​</a></h3>
+<p>ILLA Cloudの他のローコードツールに対するユニークな利点：</p>
+<ul>
+<li>マルチユーザーのコラボレーションサポート</li>
+<li>包括的なワークフローの機能</li>
+<li>オープンソース製品でプライベートデプロイメントのオプションがある</li>
+<li>さまざまな主要な統合に対応し、多様なデータソースに迅速に接続できる</li>
+</ul>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/team.gif" alt="team" class="img_CfaS"></p>
+<p>さらに、ILLA CloudにはAIエージェント機能が組み込まれています。このユニークな機能により、ローコードツールを使用して開発された製品にシームレスに統合できる迅速なAI駆動のライティングが可能です。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="budibase">Budibase<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#budibase" class="hash-link" aria-label="Budibase への直接リンク" title="Budibase への直接リンク">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/budibase.png" alt="budibase" class="img_CfaS"></p>
+<p>高速アプリケーション開発の領域で、Budibaseは強力なローコードプラットフォームとして登場し、開発者に迅速にカスタムアプリケーションを作成するためのツールを提供します。Budibaseの中核には、開発プロセスを簡素化するユーザーフレンドリーなビジュアル開発環境があります。この環境は、データ入力フォームからインタラクティブなダッシュボードまで、さまざまなアプリケーションのニーズに対応するプレビルトコンポーネントの多様な選択肢で充実しています。プレビルトの提供に加えて、BudibaseはカスタムCSSスタイルを設計する自由な柔軟性を提供し、アプリケーションに独自のビジュアルアイデンティティを注入する力を開発者に授けます。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="オープンソース">オープンソース<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9" class="hash-link" aria-label="オープンソース への直接リンク" title="オープンソース への直接リンク">​</a></h3>
+<p>Budibaseは明示的にオープンソースとして宣伝していませんが、その基盤には重要なヒントがあります。プラットフォームはオープンソースのテクノロジを利用しており、コミュニティ主導のイノベーションを促進しています。明確なオープンソース宣言の不在は、共同開発へのコミットメントに影響を与えませんが、確立されたオープンソースエコシステムを求める見込みのあるユーザーは、Budibaseのアーキテクチャを評価するためにさらに調査が必要かもしれません。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="利点">利点<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E5%88%A9%E7%82%B9" class="hash-link" aria-label="利点 への直接リンク" title="利点 への直接リンク">​</a></h3>
+<p>Budibaseの目立つ特徴の1つは、統合の能力です。プラットフォームは、アプリケーションがさまざまな外部サービスとシームレスに通信する現代の必要性を認識しています。プラグインが登場します。これにより、Budibaseはさまざまなサードパーティーサービスと統合できるようになり、外部ツールとサービスの機能を活用しながらBudibase環境内にとどまることができます。この統合フレンドリーなアプローチは、効率を高め、洗練された多機能アプリケーションの可能性を引き出します。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点">欠点<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E6%AC%A0%E7%82%B9" class="hash-link" aria-label="欠点 への直接リンク" title="欠点 への直接リンク">​</a></h3>
+<p>強力なツールであるため、克服する必要のある学習曲線があり、Budibaseも例外ではありません。ローコード開発に新しいユーザー、特に低コード開発に新しいユーザーの中には、初めての段階で学習曲線が少し急であるかもしれません。プラットフォームの機能と能力の幅広さは、完全にマスターするために時間と労力の一定の投資を要求します。ただし、この初期段階を乗り越えることを耐え忍ぶユーザーにとって、Budibaseは創造的な可能性を実現し、驚異的な効率で革新的なアプリケーションのアイデアを具現化できる世界への扉を開きます。</p>
+<p>低コードプラットフォームの競争の激しい環境で、Budibaseはユーザーフレンドリーなビジュアル開発、柔軟性、統合能力、価格プランのバランスを提供し、ワークフローの効率性を備えた有望な競技者として輝いており、あなたの創造的なアイデアのためのキャンバスとして、アプリケーションを敏捷性と繊細さを持って実現できるようにしています。</p>
+<p>Tooljet（ツールジェット）</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/tooljet.png" alt="Tooljet" class="img_CfaS"></p>
+<p>低コード開発の常に進化する風景の中で、Tooljetはコーディングの複雑さに立ち入らずに洗練されたウェブアプリケーションを作成できるプラットフォームとして登場し、ダイナミックな競争相手となっています。Tooljetの中核には、アプリケーション開発プロセスを効率化するためのさまざまな機能を備えた多目的ツールキットがあります。その提供の中心には、直感的にコンポーネントを組み立て、複雑なレイアウトを設計できるシームレスなドラッグアンドドロップインターフェースがあります。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴">特徴<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E7%89%B9%E5%BE%B4" class="hash-link" aria-label="特徴 への直接リンク" title="特徴 への直接リンク">​</a></h3>
+<p>モダンなアプリケーション開発の要石であるデータベースモデリングは、Tooljetの武器庫で見つけることができます。ユーザーは簡単にデータ構造を形作り、アプリケーションを特定のユースケースとビジネスニーズに合わせることができます。プラットフォームのAPI統合への重点は、実現可能な範囲を広げ、アプリケーションが外部サービスとデータソースとシームレスに接続できるようにします。この統合の能力は、リアルワールドのシナリオにシームレスに対応した、ダイナミックでデータ豊かなアプリケーションへの扉を開きます。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="オープンソース-1">オープンソース<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9-1" class="hash-link" aria-label="オープンソース への直接リンク" title="オープンソース への直接リンク">​</a></h3>
+<p>Tooljetは明示的にオープンソースであるとはブランド化していませんが、注目すべき特徴があります。それはユーザーが生成したコードをエクスポートできる能力です。この特異な属性は、開発者に彼らの創造物を完全に所有する力を与え、アプリケーションを彼ら自身のサーバーでホストできるようにします。このアプローチは、低コード開発の効率性と、従来のコーディングプラクティスに通常関連付けられている自由と制御のバランスを取ることを結合しています。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="利点-1">利点<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E5%88%A9%E7%82%B9-1" class="hash-link" aria-label="利点 への直接リンク" title="利点 への直接リンク">​</a></h3>
+<p>ユーザーからのフィードバックでは、Tooljetのユーザーフレンドリーなインターフェースが重要な利点として挙げられています。プラットフォームの直感的な性質は学習曲線を加速させ、技術的な知識が限られている人でもアプリケーションのビジョンを実現できるようにします。さらに、Tooljetは複雑なワークフローの作成を促進する能力を持つことから、ユーザーはアプリケーション内で複雑なアクションのシーケンスを編成でき、そのユーティリティを増幅させます。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点-1">欠点<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#%E6%AC%A0%E7%82%B9-1" class="hash-link" aria-label="欠点 への直接リンク" title="欠点 への直接リンク">​</a></h3>
+<p>しかし、どのツールにも制約がないわけではありません。Tooljetはさまざまな機能を備えてユーザーを支援しますが、一部のユーザーは高度なカスタマイズオプションを求めることがあるかもしれません。プラットフォームがユーザーフレンドリーで効率を重視しているため、高度な特殊な機能や複雑なデザインの微妙なニュアンスを求めるユーザーにとっては制約が生じることがあります。どんな技術でも、ユーザーは利用の容易さと特定のプロジェクト要件に基づいてカスタマイズの程度とのバランスを取る必要があります。</p>
+<p>低コード開発の世界において、Tooljetは直感的なデザイン、データモデリングの能力、API統合の機能、そして柔軟な価格モデルの組み合わせを提供する強力な競争相手として登場します。コードのエクスポートと個人のサーバーでアプリケーションをホストするプラットフォームのユニークなアプローチは、低コードの利便性とコーディングの制御との間のギャップを埋め、アプリケーション開発の世界における創造性と革新の旅に参加することを歓迎します。個人がアプリケーション開発の風景を探求しているか、効率的なソリューションを探しているビジネスであっても、Tooljetはその機能豊かなツールキットを探索し、創造性と革新の</p>
+<p>旅に乗り出すことを招待します。</p>
+<hr>
+<p>SuperBlocks（スーパーブロックス）</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/superblocks.png" alt="SuperBlocks" class="img_CfaS"></p>
+<p>SuperBlocksは、ビジネスが効率的で柔軟なソリューションを求める組織向けに堅牢でカスタマイズ可能な内部ツールを作成できる主要な低コード開発プラットフォームです。直感的なインターフェースと強力な機能を備えたSuperBlocksは、開発ニーズに対する効率的かつ柔軟なソリューションを提供します。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="superblocksの主要な特徴">SuperBlocksの主要な特徴<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#superblocks%E3%81%AE%E4%B8%BB%E8%A6%81%E3%81%AA%E7%89%B9%E5%BE%B4" class="hash-link" aria-label="SuperBlocksの主要な特徴 への直接リンク" title="SuperBlocksの主要な特徴 への直接リンク">​</a></h3>
+<ul>
+<li>ドラッグアンドドロップインターフェース：SuperBlocksはユーザーフレンドリーなドラッグアンドドロップインターフェースを提供し、ユーザーがコーディングの知識を必要とせずにビジュアルにアプリケーションを設計および構築できるようにします。この機能は開発プロセスを単純化し、非技術的なユーザーでも複雑な内部ツールを作成できるようにします。</li>
+<li>広範なコンポーネントライブラリ：SuperBlocksは、プレビルトのコンポーネントとテンプレートを提供する広範なライブラリを提供し、これらを簡単にカスタマイズしてアプリケーションに統合できます。これにより、データの可視化、フォーム入力、ワークフロー自動化などの一般的な機能に対する既製のソリューションが提供され、ゼロからこれらの機能を構築する手間と労力が節約されます。</li>
+<li>シームレスな統合：SuperBlocksはさまざまなサードパーティのサービスやAPIとシームレスに統合できるため、ユーザーは外部ツールやデータソースをアプリケーションに組み込むことができます。これにより、既存のシステムとの互換性が確保され、開発されたツールの機能性と柔軟性が向上します。</li>
+<li>協力とバージョン管理：SuperBlocksには協力機能が含まれており、チームワークを促進し、開発プロセスを効率化します。複数のチームメンバーがプロジェクトに同時に取り組むことができ、協力、フィードバックの共有、変更の追跡が容易に行えます。さらに、バージョン管理の機能により、開発者は必要に応じてアプリケーションの以前のバージョンに戻すことができます。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="superblocksの利点">SuperBlocksの利点<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform/best-low-code-platform#superblocks%E3%81%AE%E5%88%A9%E7%82%B9" class="hash-link" aria-label="SuperBlocksの利点 への直接リンク" title="SuperBlocksの利点 への直接リンク">​</a></h3>
+<ul>
+<li>高速開発：直感的なインターフェースと広範なコンポーネントライブラリにより、SuperBlocksは開発プロセスを加速します。ビジュアルアプローチと既製のコンポーネントにより、手動のコーディングの必要性が減少し、内部ツールのプロトタイピングとデプロイメントが迅速に行えます。</li>
+<li>カスタマイズ可能性：SuperBlocksはアプリケーションを特定の要件に合わせてカスタマイズできるようにします。プラットフォームはユーザーインターフェース、ワークフロー、データ統合のデザインに対する柔軟性を提供し、開発されたツールが組織の固有のニーズとブランディングガイドラインと一致することを保証します。</li>
+<li>コスト効率：低コードのソリューションを提供することで、SuperBlocksは従来の開発リソースや高額なコーディングの依存を減少させます。これにより、組織は開発チームや専門知識が必要ない内部ツールを作成および維持できるため、大幅なコスト削減が実現します。</li>
+<li>スケーラビリティ：SuperBlocksは成長するビジネスに並行してスケール設計されています。組織がシンプルな内部ツールまたは複雑なエンタープライズグレードのアプリケーションを作成する必要がある場合、SuperBlocksはスケーラビリティの要件に対応し、開発されたツールが増加するデータ量とユーザーデマンドに対応できることを確保します。</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Best tools for it support]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/it-support</link>
@@ -951,112 +1047,6 @@
 <p>Our initial intention in creating this product was to address the lack of developer-friendly workflow products on the market. We aim to build a complete low-code matrix product to provide a better experience. Moreover, we have achieved multi-person real-time collaboration, similar to the experience of editing in Figma, ensuring that a team can edit workflows together.</p>
 <p>As an early-stage product, there are still many features that are not perfect, and we hope everyone can provide valuable feedback to help us optimize it.</p>]]></content:encoded>
             <category>workflow</category>
-        </item>
-        <item>
-            <title><![CDATA[5 Best Low Code Platform in 2024]]></title>
-            <link>https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform</link>
-            <guid>https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform</guid>
-            <pubDate>Thu, 04 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[As the software industry evolves, low-code tools are increasingly gaining popularity. Implementing the right low-code tools]]></description>
-            <content:encoded><![CDATA[<p>As the software industry evolves, low-code tools are increasingly gaining popularity. Implementing the right low-code tools in various business scenarios can lead to remarkable efficiency and productivity gains. This article delves into the most popular low-code tool products in 2024, offering insights and reliable recommendations for making informed choices.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-low-code-tools">Why Choose Low-Code Tools<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#why-choose-low-code-tools" class="hash-link" aria-label="Why Choose Low-Code Tools への直接リンク" title="Why Choose Low-Code Tools への直接リンク">​</a></h2>
-<p>Low-code tools offer several compelling advantages, which include:</p>
-<ul>
-<li>Zero operational maintenance costs</li>
-<li>Ultra-fast development speed</li>
-<li>Reduced need for extensive developer teams</li>
-<li>Accelerated time-to-market for new applications</li>
-</ul>
-<p>Typically, low-code tools are particularly well-suited for developing internal tools and Portal scenarios.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="the-spectrum-of-choices">The Spectrum of Choices<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#the-spectrum-of-choices" class="hash-link" aria-label="The Spectrum of Choices への直接リンク" title="The Spectrum of Choices への直接リンク">​</a></h2>
-<p>We have compiled a list of currently popular low-code platforms for your consideration, with detailed introductions to follow.</p>
-<ul>
-<li>ILLA Cloud: Open-source</li>
-<li>Budibase: Open-source</li>
-<li>Tooljet: Open-source</li>
-<li>SuperBlocks: Proprietary</li>
-<li>Retool: Proprietary</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#illa-cloud" class="hash-link" aria-label="ILLA Cloud への直接リンク" title="ILLA Cloud への直接リンク">​</a></h2>
-<p>GitHub link: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an innovative low-code tool that facilitates the swift creation of internal tools using simple JavaScript, eliminating the need to start new projects from scratch.</p>
-<p>Key offerings include:</p>
-<ul>
-<li>Web &amp; App Administration Panels</li>
-<li>Data Dashboards</li>
-<li>Customized B2B Tools</li>
-</ul>
-<p>ILLA Cloud boasts a development speed up to 10 times faster than traditional component library building, and it also supports collaborative editing, enhancing teamwork efficiency.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/crm.webp" alt="crm" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="best-choice">Best Choice<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#best-choice" class="hash-link" aria-label="Best Choice への直接リンク" title="Best Choice への直接リンク">​</a></h3>
-<p>Unique advantages of ILLA Cloud over other low-code tools:</p>
-<ul>
-<li>Multi-user collaboration support</li>
-<li>Comprehensive workflow capabilities</li>
-<li>Open-source product with options for private deployment</li>
-<li>Compatibility with various mainstream integrations, enabling quick connection to diverse data sources</li>
-</ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/team.gif" alt="team" class="img_CfaS"></p>
-<p>Furthermore, ILLA Cloud incorporates an AI Agent feature. This unique functionality allows for rapid AI-powered writing, seamlessly integrating into any product developed using low-code tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="budibase">Budibase<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#budibase" class="hash-link" aria-label="Budibase への直接リンク" title="Budibase への直接リンク">​</a></h2>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/budibase.png" alt="budibase" class="img_CfaS"></p>
-<p>In the realm of rapid application development, Budibase emerges as a powerful low-code platform, tailored to equip developers with the tools they need to swiftly craft bespoke applications. At its core, Budibase offers a user-friendly visual development environment that simplifies the creation process. This environment is enriched with a diverse selection of pre-built components, catering to a range of application needs, from data entry forms to interactive dashboards. Beyond the pre-built offerings, Budibase extends a unique flexibility — the freedom to design custom CSS styles. This empowers developers to infuse their applications with distinct visual identities, reflecting the essence of their projects.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="opensource">Opensource<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#opensource" class="hash-link" aria-label="Opensource への直接リンク" title="Opensource への直接リンク">​</a></h3>
-<p>While Budibase doesn’t explicitly advertise itself as open source, a significant hint lies in its foundation. The platform proudly boasts its utilization of open-source technologies, fostering a sense of community-driven innovation. The absence of a clear open-source declaration doesn’t undermine its commitment to collaborative development, tapping into the power of shared knowledge and expertise. However, prospective users keen on an established open-source ecosystem might need to dig deeper into Budibase’s architecture to assess its alignment with their preferences.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#advantages" class="hash-link" aria-label="Advantages への直接リンク" title="Advantages への直接リンク">​</a></h3>
-<p>An undeniable highlight of Budibase is its prowess in integration. The platform recognizes the contemporary need for applications to communicate seamlessly with diverse external services. Enter plugins — a mechanism that empowers Budibase to integrate with a variety of third-party services. This feature propels the platform’s utility, enabling developers to harness the capabilities of external tools and services while staying within the Budibase environment. This integration-friendly approach fosters efficiency and unleashes the potential for sophisticated, multifunctional applications.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks">Drawbacks<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#drawbacks" class="hash-link" aria-label="Drawbacks への直接リンク" title="Drawbacks への直接リンク">​</a></h3>
-<p>As with any powerful tool, there’s a learning curve to conquer, and Budibase is no exception. While it holds the promise of accelerated application development, some users, particularly those new to low-code development, might initially find the learning curve a bit steep. The platform’s array of features and capabilities demands a certain investment of time and effort to master fully. However, for those who persevere through this initial phase, Budibase opens the doors to a world of creative possibilities, enabling the realization of innovative application ideas with remarkable efficiency.</p>
-<p>In the competitive landscape of low-code platforms, Budibase shines as a promising contender, offering a balance between user-friendly visual development, flexibility, integration capabilities, and an array of pricing plans. Whether you’re a seasoned developer seeking to expedite your workflow or a newcomer exploring the realm of application development, Budibase presents itself as a canvas for your creative ideas, enabling you to bring applications to life with agility and finesse.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet">Tooljet<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#tooljet" class="hash-link" aria-label="Tooljet への直接リンク" title="Tooljet への直接リンク">​</a></h2>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/tooljet.png" alt="tooljet" class="img_CfaS"></p>
-<p>In the ever-evolving landscape of low-code development, Tooljet emerges as a dynamic contender, offering a platform that empowers users to craft sophisticated web applications without delving into the intricacies of coding. At its core, Tooljet introduces a versatile toolkit equipped with an array of features aimed at streamlining the application development process. Central to its offerings is a seamless drag-and-drop interface, enabling users to intuitively assemble components and design intricate layouts.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features">Features<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#features" class="hash-link" aria-label="Features への直接リンク" title="Features への直接リンク">​</a></h3>
-<p>Database modeling, a cornerstone of modern application development, finds its place within Tooljet’s arsenal. Users can shape and mold their data structures with ease, aligning their applications with specific use cases and business needs. The platform’s emphasis on API integrations extends the boundaries of what’s achievable, allowing applications to seamlessly connect with external services and data sources. This integration prowess opens doors to dynamic, data-rich applications that respond seamlessly to real-world scenarios.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="opensource-1">Opensource<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#opensource-1" class="hash-link" aria-label="Opensource への直接リンク" title="Opensource への直接リンク">​</a></h3>
-<p>While Tooljet refrains from explicitly branding itself as open source, a notable feature stands out — the ability for users to export their generated code. This distinctive attribute empowers developers to take ownership of their creations fully, hosting applications on their servers. This approach combines the efficiency of low-code development with the freedom and control typically associated with traditional coding practices.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-1">Advantages<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#advantages-1" class="hash-link" aria-label="Advantages への直接リンク" title="Advantages への直接リンク">​</a></h3>
-<p>Feedback from users highlights Tooljet’s user-friendly interface as a significant advantage. The platform’s intuitive nature accelerates the learning curve, enabling even those with limited technical expertise to bring their application visions to life. Moreover, Tooljet’s capacity to facilitate the creation of complex workflows amplifies its utility, allowing users to orchestrate intricate sequences of actions within their applications.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages">Disadvantages<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#disadvantages" class="hash-link" aria-label="Disadvantages への直接リンク" title="Disadvantages への直接リンク">​</a></h3>
-<p>However, no tool is without its limitations. While Tooljet empowers users with an array of features, some might find themselves yearning for advanced customization options. The platform’s focus on user-friendliness and efficiency might occasionally result in constraints for users seeking highly specialized functionalities or intricate design nuances. As with any technology, users must strike a balance between the ease of use and the extent of customization based on their specific project requirements.</p>
-<p>In the realm of low-code development, Tooljet emerges as a formidable contender, offering a blend of intuitive design, data modeling prowess, API integration capabilities, and a flexible pricing model. The platform’s unique approach to exporting code and hosting applications on personal servers adds a touch of versatility, bridging the gap between low-code convenience and coding control. Whether you’re an individual exploring the application development landscape or a business seeking streamlined solutions, Tooljet invites you to navigate its feature-rich toolkit and embark on a journey of creativity and innovation.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="superblocks">SuperBlocks<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#superblocks" class="hash-link" aria-label="SuperBlocks への直接リンク" title="SuperBlocks への直接リンク">​</a></h2>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/superblocks.png" alt="superblocks" class="img_CfaS"></p>
-<p>Superblocks is a leading low-code development platform that empowers businesses to create robust and customized internal tools with ease. With its intuitive interface and powerful features, Superblocks offers a range of benefits for organizations seeking efficient and flexible solutions for their development needs.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-superblocks">Key Features of Superblocks<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#key-features-of-superblocks" class="hash-link" aria-label="Key Features of Superblocks への直接リンク" title="Key Features of Superblocks への直接リンク">​</a></h3>
-<ul>
-<li>Drag-and-Drop Interface: Superblocks provides a user-friendly drag-and-drop interface, allowing users to visually design and build their applications without the need for extensive coding knowledge. This feature simplifies the development process, enabling even non-technical users to create complex internal tools.</li>
-<li>Extensive Component Library: Superblocks offers a vast library of pre-built components and templates that can be easily customized and integrated into applications. This saves time and effort by providing ready-made solutions for common functionalities, such as data visualization, form inputs, and workflow automation.</li>
-<li>Seamless Integrations: Superblocks seamlessly integrates with various third-party services and APIs, enabling users to incorporate external tools and data sources into their applications. This ensures compatibility with existing systems and enhances the functionality and versatility of the developed tools.</li>
-<li>Collaboration and Version Control: Superblocks includes collaboration features that facilitate teamwork and streamline the development process. Multiple team members can work on a project simultaneously, making it easy to collaborate, share feedback, and track changes. Additionally, version control capabilities enable developers to revert to previous versions of the application if needed.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="benefits-of-superblocks">Benefits of Superblocks<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#benefits-of-superblocks" class="hash-link" aria-label="Benefits of Superblocks への直接リンク" title="Benefits of Superblocks への直接リンク">​</a></h3>
-<ul>
-<li>Rapid Development: With its intuitive interface and extensive component library, Superblocks accelerates the development process. The visual approach and ready-to-use components reduce the need for manual coding, enabling faster prototyping and deployment of internal tools.</li>
-<li>Customizability: Superblocks allows users to tailor their applications to specific requirements. The platform offers flexibility in designing user interfaces, workflows, and data integrations, ensuring that the developed tools align with the organization's unique needs and branding.</li>
-<li>Cost-Effectiveness: By providing a low-code solution, Superblocks reduces the reliance on traditional development resources and expensive coding efforts. This translates into significant cost savings, as organizations can create and maintain internal tools without the need for extensive development teams or specialized expertise.</li>
-<li>Scalability: Superblocks is designed to scale alongside growing businesses. Whether an organization needs to build a simple internal tool or a complex enterprise-grade application, Superblocks can accommodate the scalability requirements, ensuring that the developed tools can handle increased data volumes and user demand.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="retool">Retool<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#retool" class="hash-link" aria-label="Retool への直接リンク" title="Retool への直接リンク">​</a></h2>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/best-low-code-platform/retool.png" alt="retool" class="img_CfaS"></p>
-<p>Retool is a popular low-code development platform that empowers organizations to build internal tools with speed and efficiency. With its intuitive interface and powerful features, Retool enables businesses to create customized applications without the need for extensive coding knowledge.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-retool">Key Features of Retool<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#key-features-of-retool" class="hash-link" aria-label="Key Features of Retool への直接リンク" title="Key Features of Retool への直接リンク">​</a></h3>
-<ul>
-<li>Drag-and-Drop Interface: Retool offers a user-friendly drag-and-drop interface, allowing users to visually design and assemble their applications. This simplifies the development process, enabling both technical and non-technical users to build functional internal tools quickly.</li>
-<li>Extensive Integration Capabilities: Retool seamlessly integrates with a wide range of data sources and APIs, including databases, REST APIs, and third-party services. This allows users to leverage existing data and systems within their applications, streamlining workflows and enhancing functionality.</li>
-<li>Pre-Built Components and Templates: Retool provides a vast library of pre-built components and templates that users can leverage to accelerate development. These components cover common functionalities such as data tables, forms, charts, and authentication, saving time and effort in building these features from scratch.</li>
-<li>Real-Time Collaboration: Retool offers real-time collaboration features that enable team members to work together on projects simultaneously. This promotes collaboration, facilitates knowledge sharing, and streamlines the development process by eliminating version control issues and bottlenecks.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-of-retool">Advantages of Retool:<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#advantages-of-retool" class="hash-link" aria-label="Advantages of Retool: への直接リンク" title="Advantages of Retool: への直接リンク">​</a></h3>
-<ul>
-<li>Speed and Efficiency: Retool's intuitive interface and pre-built components allow for rapid development, reducing time-to-market for internal tools. The platform eliminates the need to start from scratch, enabling developers to focus on customizing and fine-tuning applications rather than building basic functionalities.</li>
-<li>Customizability: Despite its low-code approach, Retool offers extensive customization options. Users can tailor the appearance, behavior, and workflows of their applications to align with specific business requirements and branding guidelines.</li>
-<li>Integration Flexibility: Retool's robust integration capabilities make it suitable for organizations with diverse tech stacks. The platform can seamlessly connect with a wide range of data sources and APIs, ensuring compatibility with existing systems and allowing for seamless data flow between applications.</li>
-</ul>
-<p>Though last on the list, retool is also an excellent choice as a CRUD application. It is a drag-and-drop building blocks platform. You need to customize JavaScript in order to fetch your data from an external database.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/best-low-code-platform#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>These are the most promising low-code tools in 2024, each with its own characteristics. Different scenarios call for different problem-solving approaches, and we hope readers can choose the most efficient solutions for development in suitable situations. Speed up your work, go home early using low-code tools.</p>]]></content:encoded>
-            <category>low code</category>
         </item>
         <item>
             <title><![CDATA[Build core app dashboard at lightning speed]]></title>
