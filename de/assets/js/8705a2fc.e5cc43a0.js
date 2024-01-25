@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[2980],{6050:e=>{e.exports=JSON.parse('{"label":"traditionelle Entwicklung","permalink":"/illa-website/de/blog/tags/traditionelle-entwicklung","allTagsPath":"/illa-website/de/blog/tags","count":1}')}}]);
