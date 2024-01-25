@@ -18,7 +18,7 @@ Here is a recommended tool that allows users to build AI tools like assembling b
 
 The official website is: [https://illacloud.com](https://illacloud.com)
 
-Github: [https://illacloud.com/illacloud/illa-builder](https://illacloud.com/illacloud/illa-builder)
+Github: [https://github.com/illacloud/illa-builder](https://github.com/illacloud/illa-builder)
 
 This open-source low-code tool's slogan is: **Build AI Driven Business Tools**. It focuses on helping users quickly build AI-driven tools. Users can construct pages through drag-and-drop. Then, by using three major functions, they can connect to AI:
 

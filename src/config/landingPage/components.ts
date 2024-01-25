@@ -197,7 +197,11 @@ export const COMPONENTS_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       potentialAction: {
         "@type": "SearchAction",
-        target: "https://www.illacloud.com",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate:
+            "https://www.illacloud.com/search?q={search_term_string}",
+        },
         "query-input": "required name=search_term_string",
       },
     },
@@ -258,7 +262,7 @@ export const COMPONENTS_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/features/componentIndex.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description:
         "Build your internal tools with table, form, chart, list in ILLA Cloud",
       name: "ILLA Components",
@@ -268,7 +272,7 @@ export const COMPONENTS_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/components-new/Cover%20Table.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Build internal tools with table in ILLA Cloud",
       name: "ILLA Cloud & Table",
     },
@@ -277,7 +281,7 @@ export const COMPONENTS_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/components-new/Cover%20Chart.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Build internal tools with table in ILLA Cloud",
       name: "ILLA Cloud & Table",
     },
@@ -286,7 +290,7 @@ export const COMPONENTS_SCHEMA_DATA = {
       author: "ILLA Cloud",
       contentUrl:
         "https://cdn.illacloud.com/official-website/img/official-site/components-new/Cover%20upload.svg",
-      datePublished: "2023-06-15",
+      datePublished: "2023-06-15T08:00:00+08:00",
       description: "Build internal tools with upload in ILLA Cloud",
       name: "ILLA Cloud & Upload",
     },

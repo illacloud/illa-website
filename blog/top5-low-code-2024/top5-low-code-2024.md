@@ -39,12 +39,12 @@ Compared to scenarios built with component libraries, ILLA Cloud allows for 10x 
 
 Examples include:
 
-- [CRM](https://illacloud.com/solutions-crm)
-- [Data Dashboard](https://www.illacloud.com/solutions-dashboard)
-- [Text to Image Generator](https://illacloud.com/solutions-image-generator)
-- [AI Voice Generator](https://illacloud.com/solutions-ai-voice-generator)
-- [CMS](https://illacloud.com/solutions-cms)
-- [Admin Panel](https://www.illacloud.com/solutions-admin-panel)
+- [CRM](https://illacloud.com/crm)
+- [Data Dashboard](https://www.illacloud.com/dashboard)
+- [Text to Image Generator](https://illacloud.com/image-generator)
+- [AI Voice Generator](https://illacloud.com/ai-voice-generator)
+- [CMS](https://illacloud.com/cms)
+- [Admin Panel](https://www.illacloud.com/admin-panel)
 
 ## Appsmith
 

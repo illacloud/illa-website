@@ -20,9 +20,9 @@ Regardless of whether it's a large or small company, Internal Tools are very imp
 
 ## What ILLA Cloud Can Do
 
-Github: https://illacloud.com/illacloud/illa-builder
+Github: https://github.com/illacloud/illa-builder
 
-Official Website: https://illa.cloud
+Official Website: https://illacloud.com
 
 The main users of ILLA Cloud are backend engineers, which might be different from what most people think. A large number of backend engineers have used ILLA Cloud to build numerous data panels and management backends. After all, web development has always been a headache for backend engineers. The tools built with ILLA Cloud are indeed quite aesthetically pleasing and fast.
 
