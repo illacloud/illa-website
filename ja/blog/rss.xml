@@ -696,50 +696,50 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
             <category>javascript</category>
         </item>
         <item>
-            <title><![CDATA[Create AI Tools like building with blocks]]></title>
+            <title><![CDATA[ブロックのようにAIツールを作成する]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/build-ai-tools</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/build-ai-tools</guid>
             <pubDate>Fri, 19 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields.]]></description>
-            <content:encoded><![CDATA[<p>AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields. However, for most people, AI remains a high-barrier technology, requiring a significant amount of time and effort to learn before it can be applied effectively in practical work.</p>
-<p>Each of us has our own unique needs, such as building text-to-image tools or writing tools specific to our work chains. There are numerous interesting models on HuggingFace, allowing us to quickly create our own AI tools based on these models, thereby making our work more intelligent!</p>
-<p>Here is a recommended tool that allows users to build AI tools like assembling blocks:</p>
+            <description><![CDATA[AIの開発は、今日では新奇性ではなく、さまざまな分野で広く適用されています。]]></description>
+            <content:encoded><![CDATA[<p>AIの開発は、今日では新奇性ではなく、さまざまな分野で広く適用されています。しかし、ほとんどの人にとって、AIは高い障壁の技術であり、実用的な仕事に効果的に適用する前に、多くの時間と労力を学ぶ必要があります。</p>
+<p>私たちそれぞれには、テキストから画像への変換ツールを構築したり、仕事の連鎖に特化したツールを作成したりするなど、独自のニーズがあります。 HuggingFaceには多くの興味深いモデルがあり、これらのモデルを基に独自のAIツールを素早く作成できるようになり、私たちの仕事をより賢くすることができます！</p>
+<p>以下は、ユーザーがブロックのようにAIツールを構築できるようにする推奨ツールです：</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/ja/blog/build-ai-tools#illa-cloud" class="hash-link" aria-label="ILLA Cloud への直接リンク" title="ILLA Cloud への直接リンク">​</a></h2>
-<p>The official website is: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
+<p>公式ウェブサイト: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
 <p>Github: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
-<p>This open-source low-code tool's slogan is: <strong>Build AI Driven Business Tools</strong>. It focuses on helping users quickly build AI-driven tools. Users can construct pages through drag-and-drop. Then, by using three major functions, they can connect to AI:</p>
+<p>このオープンソースの低コードツールのスローガンは「<strong>AI駆動のビジネスツールを構築する</strong>」です。これは、ユーザーが迅速にAI駆動のツールを構築するのを支援することに焦点を当てています。ユーザーはドラッグアンドドロップを使用してページを構築し、次に3つの主要な機能を使用してAIに接続できます：</p>
 <ul>
-<li>ILLA AI Agent</li>
-<li>Models from HuggingFace</li>
-<li>RestAPI to call OpenAI's interface</li>
+<li>ILLA AIエージェント</li>
+<li>HuggingFaceのモデル</li>
+<li>OpenAIのインターフェースを呼び出すためのRestAPI</li>
 </ul>
-<p>This allows for the quick creation of personalized AI tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="building-smart-applications">Building Smart Applications<a href="https://illacloud.github.io/illa-website/ja/blog/build-ai-tools#building-smart-applications" class="hash-link" aria-label="Building Smart Applications への直接リンク" title="Building Smart Applications への直接リンク">​</a></h2>
-<p>Here we use OpenAI's text-to-image interface to build our own text-to-image panel, using tools built with ILLA Cloud, which offers certain advantages:</p>
-<p>Example here: <a href="https://illacloud.com/image-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/image-generator</a></p>
+<p>これにより、個人専用のAIツールを迅速に作成できます。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="スマートアプリケーションの構築">スマートアプリケーションの構築<a href="https://illacloud.github.io/illa-website/ja/blog/build-ai-tools#%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%A7%8B%E7%AF%89" class="hash-link" aria-label="スマートアプリケーションの構築 への直接リンク" title="スマートアプリケーションの構築 への直接リンク">​</a></h2>
+<p>ここでは、ILLA Cloudで構築されたツールを使用して、独自のテキストから画像への変換パネルを構築します。これにより、次のような利点が得られます：</p>
+<p>例: <a href="https://illacloud.com/image-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/image-generator</a></p>
 <ul>
-<li>The generated images can be sent to any system or SaaS using the ILLA Flow feature.</li>
-<li>The models used later can be called via RestAPI or through HuggingFace's models.</li>
-<li>Built-in prompts can be added to ensure that the generated content is sufficiently customized.</li>
-<li>The ILLA AI Agent feature can enrich the content's prompts, as not everyone is familiar with writing prompts.</li>
+<li>生成された画像は、ILLA Flow機能を使用して任意のシステムやSaaSに送信できます。</li>
+<li>後で使用するモデルは、RestAPIを介してまたはHuggingFaceのモデルを介して呼び出すことができます。</li>
+<li>独自のプロンプトを追加して生成されたコンテンツが十分にカスタマイズされるようにできます。</li>
+<li>ILLA AIエージェント機能を使用してコンテンツのプロンプトを充実させることができます。誰もがプロンプトの作成に精通しているわけではありませんから。</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/image_generate_content.webp" alt="image_generate_content" class="img_CfaS"></p>
-<p>I used several components here, quickly creating my own web panel through drag-and-drop, and then connected the logic through JavaScript, making it available for use by my team.</p>
-<p>I built two examples; another is an AI voice processing panel.</p>
-<p>Example here: <a href="https://illacloud.com/ai-voice-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/ai-voice-generator</a></p>
-<p>This panel has the following functions:</p>
+<p>ここではいくつかのコンポーネントを使用し、ドラッグアンドドロップを使用して独自のWebパネルを迅速に作成し、次にJavaScriptを使用してロジックを接続し、私のチームで使用できるようにしました。</p>
+<p>私は2つの例を構築しました。もう1つはAI音声処理パネルです。</p>
+<p>例: <a href="https://illacloud.com/ai-voice-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/ai-voice-generator</a></p>
+<p>このパネルには以下の機能があります：</p>
 <ul>
-<li>Meeting minutes transcription</li>
-<li>Generation of meeting minutes</li>
-<li>Translation and dubbing of meeting minutes</li>
+<li>会議の議事録の書き起こし</li>
+<li>会議の議事録の生成</li>
+<li>会議の議事録の翻訳と吹き替え</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/mix_ai_voice.webp" alt="mix_ai_voice" class="img_CfaS"></p>
-<p>It primarily uses OpenAI's Whisper capability. There are thousands of AI capabilities, but the most important is to find what suits you. Using ILLA Cloud, you can quickly build AI applications like building blocks. Start using it now!</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/build-ai-tools#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>From the above introduction, we can see that using ILLA Cloud, you can quickly build your own AI tools, and ILLA Cloud has a rich array of components, basically meeting a large number of everyday business needs.</p>
-<p>ILLA's self-developed component library has made the above functions flexible enough. Come and use ILLA Cloud to build your own AI tools!</p>]]></content:encoded>
+<p>これは主にOpenAIのWhisper機能を使用しています。数千のAI機能がありますが、最も重要なのは自分に合ったものを見つけることです。ILLA Cloudを使用すると、ブロックのように迅速にAIアプリケーションを構築できます。ぜひ今すぐご利用ください！</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/build-ai-tools#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>上記の紹介からわかるように、ILLA Cloudを使用すると迅速に独自のAIツールを構築でき、ILLA Cloudには多くのコンポーネントが含まれており、ほとんどの日常ビジネスニーズに対応できます。</p>
+<p>ILLAの自社開発コンポーネントライブラリは、上記の機能を柔軟にカスタマイズできるようにしました。ILLA Cloudを使用して独自のAIツールを構築してみてください！</p>]]></content:encoded>
             <category>ai</category>
-            <category>tools</category>
+            <category>ツール</category>
         </item>
         <item>
             <title><![CDATA[Slackへのメッセージ送信を自動化するための最適な開発者向けツール]]></title>

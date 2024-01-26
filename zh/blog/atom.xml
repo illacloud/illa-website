@@ -726,54 +726,54 @@ E：表示元素类型</p>
         <category label="javascript" term="javascript"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Create AI Tools like building with blocks]]></title>
+        <title type="html"><![CDATA[像搭积木一样创建AI工具]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/build-ai-tools</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/build-ai-tools"/>
         <updated>2024-01-19T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields.]]></summary>
-        <content type="html"><![CDATA[<p>AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields. However, for most people, AI remains a high-barrier technology, requiring a significant amount of time and effort to learn before it can be applied effectively in practical work.</p>
-<p>Each of us has our own unique needs, such as building text-to-image tools or writing tools specific to our work chains. There are numerous interesting models on HuggingFace, allowing us to quickly create our own AI tools based on these models, thereby making our work more intelligent!</p>
-<p>Here is a recommended tool that allows users to build AI tools like assembling blocks:</p>
+        <summary type="html"><![CDATA[今天的AI开发已经不再是一项新奇的技术，而是广泛应用于各个领域。]]></summary>
+        <content type="html"><![CDATA[<p>今天的AI开发已经不再是一项新奇的技术，而是广泛应用于各个领域。然而，对于大多数人来说，AI仍然是一项高门槛的技术，需要大量的时间和精力才能在实际工作中有效应用。</p>
+<p>每个人都有自己独特的需求，比如构建文本到图像的工具或编写特定于工作流程的工具。HuggingFace上有许多有趣的模型，让我们可以基于这些模型快速创建自己的AI工具，从而使我们的工作更加智能化！</p>
+<p>以下是一个推荐的工具，允许用户像搭积木一样构建AI工具：</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/build-ai-tools#illa-cloud" class="hash-link" aria-label="Direct link to ILLA Cloud" title="Direct link to ILLA Cloud">​</a></h2>
-<p>The official website is: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
-<p>Github: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
-<p>This open-source low-code tool's slogan is: <strong>Build AI Driven Business Tools</strong>. It focuses on helping users quickly build AI-driven tools. Users can construct pages through drag-and-drop. Then, by using three major functions, they can connect to AI:</p>
+<p>官方网站：<a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
+<p>Github：<a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
+<p>这个开源的低代码工具的口号是：<strong>构建AI驱动的业务工具</strong>。它专注于帮助用户快速构建AI驱动的工具。用户可以通过拖放方式构建页面，然后使用三个主要功能连接到AI：</p>
 <ul>
-<li>ILLA AI Agent</li>
-<li>Models from HuggingFace</li>
-<li>RestAPI to call OpenAI's interface</li>
+<li>ILLA AI代理</li>
+<li>来自HuggingFace的模型</li>
+<li>RestAPI调用OpenAI的接口</li>
 </ul>
-<p>This allows for the quick creation of personalized AI tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="building-smart-applications">Building Smart Applications<a href="https://illacloud.github.io/illa-website/zh/blog/build-ai-tools#building-smart-applications" class="hash-link" aria-label="Direct link to Building Smart Applications" title="Direct link to Building Smart Applications">​</a></h2>
-<p>Here we use OpenAI's text-to-image interface to build our own text-to-image panel, using tools built with ILLA Cloud, which offers certain advantages:</p>
-<p>Example here: <a href="https://illacloud.com/image-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/image-generator</a></p>
+<p>这允许快速创建个性化的AI工具。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="构建智能应用程序">构建智能应用程序<a href="https://illacloud.github.io/illa-website/zh/blog/build-ai-tools#%E6%9E%84%E5%BB%BA%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F" class="hash-link" aria-label="Direct link to 构建智能应用程序" title="Direct link to 构建智能应用程序">​</a></h2>
+<p>在这里，我们使用OpenAI的文本到图像接口来构建我们自己的文本到图像面板，使用ILLA Cloud构建的工具，它具有某些优势：</p>
+<p>示例在这里：<a href="https://illacloud.com/image-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/image-generator</a></p>
 <ul>
-<li>The generated images can be sent to any system or SaaS using the ILLA Flow feature.</li>
-<li>The models used later can be called via RestAPI or through HuggingFace's models.</li>
-<li>Built-in prompts can be added to ensure that the generated content is sufficiently customized.</li>
-<li>The ILLA AI Agent feature can enrich the content's prompts, as not everyone is familiar with writing prompts.</li>
+<li>生成的图像可以通过ILLA Flow功能发送到任何系统或SaaS。</li>
+<li>后续使用的模型可以通过RestAPI或HuggingFace的模型进行调用。</li>
+<li>可以添加内置提示以确保生成的内容足够定制。</li>
+<li>ILLA AI代理功能可以丰富内容的提示，因为不是每个人都熟悉编写提示。</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/image_generate_content.webp" alt="image_generate_content" class="img_CfaS"></p>
-<p>I used several components here, quickly creating my own web panel through drag-and-drop, and then connected the logic through JavaScript, making it available for use by my team.</p>
-<p>I built two examples; another is an AI voice processing panel.</p>
-<p>Example here: <a href="https://illacloud.com/ai-voice-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/ai-voice-generator</a></p>
-<p>This panel has the following functions:</p>
+<p>我在这里使用了几个组件，通过快速拖放创建了自己的Web面板，然后通过JavaScript连接了逻辑，使其可以供我的团队使用。</p>
+<p>我构建了两个示例；另一个是AI语音处理面板。</p>
+<p>示例在这里：<a href="https://illacloud.com/ai-voice-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/ai-voice-generator</a></p>
+<p>该面板具有以下功能：</p>
 <ul>
-<li>Meeting minutes transcription</li>
-<li>Generation of meeting minutes</li>
-<li>Translation and dubbing of meeting minutes</li>
+<li>会议记录转录</li>
+<li>会议记录生成</li>
+<li>会议记录的翻译和配音</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/mix_ai_voice.webp" alt="mix_ai_voice" class="img_CfaS"></p>
-<p>It primarily uses OpenAI's Whisper capability. There are thousands of AI capabilities, but the most important is to find what suits you. Using ILLA Cloud, you can quickly build AI applications like building blocks. Start using it now!</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/build-ai-tools#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>From the above introduction, we can see that using ILLA Cloud, you can quickly build your own AI tools, and ILLA Cloud has a rich array of components, basically meeting a large number of everyday business needs.</p>
-<p>ILLA's self-developed component library has made the above functions flexible enough. Come and use ILLA Cloud to build your own AI tools!</p>]]></content>
+<p>它主要使用了OpenAI的Whisper能力。有成千上万种AI功能，但最重要的是找到适合您的功能。使用ILLA Cloud，您可以快速构建像搭积木一样的AI应用程序。立即开始使用吧！</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/build-ai-tools#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
+<p>从上面的介绍中，我们可以看到，使用ILLA Cloud，您可以快速构建自己的AI工具，而ILLA Cloud具有丰富的组件库，基本上可以满足大量日常业务需求。</p>
+<p>ILLA自己开发的组件库使上述功能足够灵活。快来使用ILLA Cloud构建自己的AI工具吧！</p>]]></content>
         <author>
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>
         </author>
         <category label="ai" term="ai"/>
-        <category label="tools" term="tools"/>
+        <category label="工具" term="工具"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[自动发送消息到Slack的最佳开发者友好工具]]></title>

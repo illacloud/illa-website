@@ -700,50 +700,50 @@ Mit <code>T extends Length</code> wird der Typ von T eingeschränkt, er muss das
             <category>javascript</category>
         </item>
         <item>
-            <title><![CDATA[Create AI Tools like building with blocks]]></title>
-            <link>https://illacloud.github.io/illa-website/de/blog/build-ai-tools</link>
-            <guid>https://illacloud.github.io/illa-website/de/blog/build-ai-tools</guid>
+            <title><![CDATA[Erstellen Sie KI-Tools wie das Bauen mit Bausteinen]]></title>
+            <link>https://illacloud.github.io/illa-website/de/blog/künstliche-intelligenz-tools-erstellen</link>
+            <guid>https://illacloud.github.io/illa-website/de/blog/künstliche-intelligenz-tools-erstellen</guid>
             <pubDate>Fri, 19 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields.]]></description>
-            <content:encoded><![CDATA[<p>AI development has reached a point today where it's no longer a novelty, but rather widely applied in various fields. However, for most people, AI remains a high-barrier technology, requiring a significant amount of time and effort to learn before it can be applied effectively in practical work.</p>
-<p>Each of us has our own unique needs, such as building text-to-image tools or writing tools specific to our work chains. There are numerous interesting models on HuggingFace, allowing us to quickly create our own AI tools based on these models, thereby making our work more intelligent!</p>
-<p>Here is a recommended tool that allows users to build AI tools like assembling blocks:</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/de/blog/build-ai-tools#illa-cloud" class="hash-link" aria-label="Direkter Link zu ILLA Cloud" title="Direkter Link zu ILLA Cloud">​</a></h2>
-<p>The official website is: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
+            <description><![CDATA[Die KI-Entwicklung hat heute einen Punkt erreicht, an dem sie nicht mehr neu ist, sondern in verschiedenen Bereichen weit verbreitet eingesetzt wird.]]></description>
+            <content:encoded><![CDATA[<p>Die KI-Entwicklung hat heute einen Punkt erreicht, an dem sie nicht mehr neu ist, sondern in verschiedenen Bereichen weit verbreitet eingesetzt wird. Für die meisten Menschen bleibt KI jedoch eine Technologie mit hoher Einstiegshürde, die eine erhebliche Menge an Zeit und Aufwand erfordert, um sie effektiv in der praktischen Arbeit anwenden zu können.</p>
+<p>Jeder von uns hat eigene einzigartige Anforderungen, wie das Erstellen von Text-zu-Bild-Tools oder das Schreiben von Tools, die spezifisch für unsere Arbeitsabläufe sind. Es gibt zahlreiche interessante Modelle auf HuggingFace, die es uns ermöglichen, schnell unsere eigenen KI-Tools auf der Grundlage dieser Modelle zu erstellen und damit unsere Arbeit intelligenter zu gestalten!</p>
+<p>Hier ist ein empfohlenes Tool, das es Benutzern ermöglicht, KI-Tools wie das Zusammenstellen von Bausteinen zu erstellen:</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/de/blog/k%C3%BCnstliche-intelligenz-tools-erstellen#illa-cloud" class="hash-link" aria-label="Direkter Link zu ILLA Cloud" title="Direkter Link zu ILLA Cloud">​</a></h2>
+<p>Die offizielle Website ist: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
 <p>Github: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
-<p>This open-source low-code tool's slogan is: <strong>Build AI Driven Business Tools</strong>. It focuses on helping users quickly build AI-driven tools. Users can construct pages through drag-and-drop. Then, by using three major functions, they can connect to AI:</p>
+<p>Das Slogan dieses Open-Source-Low-Code-Tools lautet: <strong>Erstellen Sie KI-gesteuerte Geschäftstools</strong>. Es konzentriert sich darauf, Benutzern dabei zu helfen, schnell KI-gesteuerte Tools zu erstellen. Benutzer können Seiten durch Drag-and-Drop erstellen. Anschließend können sie über drei Hauptfunktionen eine Verbindung zur KI herstellen:</p>
 <ul>
-<li>ILLA AI Agent</li>
-<li>Models from HuggingFace</li>
-<li>RestAPI to call OpenAI's interface</li>
+<li>ILLA KI-Agent</li>
+<li>Modelle von HuggingFace</li>
+<li>RestAPI zum Aufrufen der Schnittstelle von OpenAI</li>
 </ul>
-<p>This allows for the quick creation of personalized AI tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="building-smart-applications">Building Smart Applications<a href="https://illacloud.github.io/illa-website/de/blog/build-ai-tools#building-smart-applications" class="hash-link" aria-label="Direkter Link zu Building Smart Applications" title="Direkter Link zu Building Smart Applications">​</a></h2>
-<p>Here we use OpenAI's text-to-image interface to build our own text-to-image panel, using tools built with ILLA Cloud, which offers certain advantages:</p>
-<p>Example here: <a href="https://illacloud.com/image-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/image-generator</a></p>
+<p>Dies ermöglicht die schnelle Erstellung personalisierter KI-Tools.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="erstellung-intelligenter-anwendungen">Erstellung intelligenter Anwendungen<a href="https://illacloud.github.io/illa-website/de/blog/k%C3%BCnstliche-intelligenz-tools-erstellen#erstellung-intelligenter-anwendungen" class="hash-link" aria-label="Direkter Link zu Erstellung intelligenter Anwendungen" title="Direkter Link zu Erstellung intelligenter Anwendungen">​</a></h2>
+<p>Hier verwenden wir OpenAI's Text-zu-Bild-Schnittstelle, um unser eigenes Text-zu-Bild-Panel zu erstellen, das mit ILLA Cloud erstellten Tools, die bestimmte Vorteile bietet:</p>
+<p>Beispiel hier: <a href="https://illacloud.com/image-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/image-generator</a></p>
 <ul>
-<li>The generated images can be sent to any system or SaaS using the ILLA Flow feature.</li>
-<li>The models used later can be called via RestAPI or through HuggingFace's models.</li>
-<li>Built-in prompts can be added to ensure that the generated content is sufficiently customized.</li>
-<li>The ILLA AI Agent feature can enrich the content's prompts, as not everyone is familiar with writing prompts.</li>
+<li>Die generierten Bilder können über die ILLA Flow-Funktion an jedes System oder SaaS gesendet werden.</li>
+<li>Die später verwendeten Modelle können über RestAPI oder über Modelle von HuggingFace aufgerufen werden.</li>
+<li>Integrierte Prompts können hinzugefügt werden, um sicherzustellen, dass der generierte Inhalt ausreichend angepasst ist.</li>
+<li>Die Funktion des ILLA KI-Agent kann die Prompts des Inhalts bereichern, da nicht jeder mit dem Verfassen von Prompts vertraut ist.</li>
 </ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/image_generate_content.webp" alt="image_generate_content" class="img_CfaS"></p>
-<p>I used several components here, quickly creating my own web panel through drag-and-drop, and then connected the logic through JavaScript, making it available for use by my team.</p>
-<p>I built two examples; another is an AI voice processing panel.</p>
-<p>Example here: <a href="https://illacloud.com/ai-voice-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/ai-voice-generator</a></p>
-<p>This panel has the following functions:</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/image_generate_content.webp" alt="Bild_generieren_Inhalt" class="img_CfaS"></p>
+<p>Ich habe hier mehrere Komponenten verwendet, um schnell mein eigenes Web-Panel durch Drag-and-Drop zu erstellen, und dann die Logik durch JavaScript verbunden, um es meinem Team zur Verfügung zu stellen.</p>
+<p>Ich habe zwei Beispiele erstellt; ein weiteres ist ein Panel zur Verarbeitung von KI-Stimmen.</p>
+<p>Beispiel hier: <a href="https://illacloud.com/ai-voice-generator" target="_blank" rel="noopener noreferrer">https://illacloud.com/ai-voice-generator</a></p>
+<p>Dieses Panel bietet folgende Funktionen:</p>
 <ul>
-<li>Meeting minutes transcription</li>
-<li>Generation of meeting minutes</li>
-<li>Translation and dubbing of meeting minutes</li>
+<li>Transkription von Sitzungsprotokollen</li>
+<li>Erstellung von Sitzungsprotokollen</li>
+<li>Übersetzung und Vertonung von Sitzungsprotokollen</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/build-ai-tools/mix_ai_voice.webp" alt="mix_ai_voice" class="img_CfaS"></p>
-<p>It primarily uses OpenAI's Whisper capability. There are thousands of AI capabilities, but the most important is to find what suits you. Using ILLA Cloud, you can quickly build AI applications like building blocks. Start using it now!</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/de/blog/build-ai-tools#conclusion" class="hash-link" aria-label="Direkter Link zu Conclusion" title="Direkter Link zu Conclusion">​</a></h2>
-<p>From the above introduction, we can see that using ILLA Cloud, you can quickly build your own AI tools, and ILLA Cloud has a rich array of components, basically meeting a large number of everyday business needs.</p>
-<p>ILLA's self-developed component library has made the above functions flexible enough. Come and use ILLA Cloud to build your own AI tools!</p>]]></content:encoded>
-            <category>ai</category>
-            <category>tools</category>
+<p>Es verwendet hauptsächlich die Whisper-Fähigkeit von OpenAI. Es gibt Tausende von KI-Fähigkeiten, aber das Wichtigste ist, herauszufinden, was zu Ihnen passt. Mit ILLA Cloud können Sie schnell KI-Anwendungen wie das Bauen von Bausteinen erstellen. Fangen Sie jetzt an, es zu verwenden!</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="fazit">Fazit<a href="https://illacloud.github.io/illa-website/de/blog/k%C3%BCnstliche-intelligenz-tools-erstellen#fazit" class="hash-link" aria-label="Direkter Link zu Fazit" title="Direkter Link zu Fazit">​</a></h2>
+<p>Aus der obigen Einführung geht hervor, dass Sie mit ILLA Cloud schnell Ihre eigenen KI-Tools erstellen können, und ILLA Cloud verfügt über eine reichhaltige Auswahl an Komponenten, die im Wesentlichen eine Vielzahl von alltäglichen geschäftlichen Anforderungen erfüllen.</p>
+<p>Die selbst entwickelte Komponentenbibliothek von ILLA hat die oben genannten Funktionen flexibel genug gemacht. Kommen Sie und verwenden Sie ILLA Cloud, um Ihre eigenen KI-Tools zu erstellen!</p>]]></content:encoded>
+            <category>ki</category>
+            <category>werkzeuge</category>
         </item>
         <item>
             <title><![CDATA[Das beste entwicklerfreundliche Tool zur Automatisierung von Nachrichtenversand an Slack]]></title>
