@@ -12,7 +12,7 @@ date: 2024-01-05T10:00
 
 今日、私たちは新しい製品、ILLA Flowを発売しました。
 
-ウェブサイト: https://illacloud.com (ログイン後、ダッシュボードの左側にあります -> Flow)
+ウェブサイト: [https://illacloud.com](https://illacloud.com) (ログイン後、ダッシュボードの左側にあります -> Flow)
 
 ## ILLA Flow
 
