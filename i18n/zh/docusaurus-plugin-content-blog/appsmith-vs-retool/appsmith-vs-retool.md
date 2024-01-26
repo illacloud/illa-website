@@ -1,7 +1,7 @@
 ---
-slug: 'Appsmith vs Retool: 哪个开源低代码平台更好？'
+title: 'Appsmith vs Retool: 哪个开源低代码平台更好？'
 tags: [tooljet, appsmith, retool]
-title: appsmith-vs-retool
+slug: appsmith-vs-retool
 描述: 在不断发展的低代码开发平台领域，Appsmith 和 Retool 已经崭露头角，它们分别提供独特的功能和能力。这些平台旨在简化应用程序开发，并使组织能够高效构建定制的内部工具。在这个全面的比较中，我们将探讨这两个平台的优点和缺点，并介绍一款顶级替代品，ILLA Cloud，以帮助您为您的低代码开发需求做出明智的选择。
 authors: [owen]
 image: https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/appsmith-retool.webp
