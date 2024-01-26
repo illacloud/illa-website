@@ -1055,51 +1055,51 @@ Mit <code>T extends Length</code> wird der Typ von T eingeschränkt, er muss das
         <category label="tools" term="tools"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10,000 Stars! This open-source low-code tool is wildly popular overseas.]]></title>
+        <title type="html"><![CDATA[10.000 Sterne! Dieses Open-Source Low-Code-Tool ist im Ausland äußerst beliebt.]]></title>
         <id>https://illacloud.github.io/illa-website/de/blog/popular-tool</id>
         <link href="https://illacloud.github.io/illa-website/de/blog/popular-tool"/>
         <updated>2024-01-05T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Open-source tools are common, but it's rare to see one with 10,000 stars.]]></summary>
-        <content type="html"><![CDATA[<p>Open-source tools are common, but it's rare to see one with 10,000 stars. I'm sharing a product that has seen a crazy growth of 10,000 stars overseas. There are many low-code tools, but few are truly useful. This tool is primarily used by developers in North America, and their Discord community is very active.</p>
-<p>The community indeed has some good reviews.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/good.png" alt="good" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-illa-cloud-can-do">What ILLA Cloud Can Do<a href="https://illacloud.github.io/illa-website/de/blog/popular-tool#what-illa-cloud-can-do" class="hash-link" aria-label="Direkter Link zu What ILLA Cloud Can Do" title="Direkter Link zu What ILLA Cloud Can Do">​</a></h2>
+        <summary type="html"><![CDATA[Open-Source-Tools sind häufig, aber es ist selten, eines mit 10.000 Sternen zu sehen.]]></summary>
+        <content type="html"><![CDATA[<p>Open-Source-Tools sind häufig, aber es ist selten, eines mit 10.000 Sternen zu sehen. Ich teile ein Produkt, das im Ausland einen verrückten Zuwachs von 10.000 Sternen verzeichnet hat. Es gibt viele Low-Code-Tools, aber nur wenige sind wirklich nützlich. Dieses Tool wird hauptsächlich von Entwicklern in Nordamerika verwendet, und ihre Discord-Community ist sehr aktiv.</p>
+<p>Die Community hat tatsächlich einige gute Bewertungen.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/good.png" alt="gut" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="was-illa-cloud-kann">Was ILLA Cloud kann<a href="https://illacloud.github.io/illa-website/de/blog/popular-tool#was-illa-cloud-kann" class="hash-link" aria-label="Direkter Link zu Was ILLA Cloud kann" title="Direkter Link zu Was ILLA Cloud kann">​</a></h2>
 <p>Github: <a href="https://illacloud.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://illacloud.com/illacloud/illa-builder</a></p>
-<p>Official Website: <a href="https://illa.cloud/" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
-<p>The main users of ILLA Cloud are backend engineers, which might be different from what most people think. A large number of backend engineers have used ILLA Cloud to build numerous data panels and management backends. After all, web development has always been a headache for backend engineers. The tools built with ILLA Cloud are indeed quite aesthetically pleasing and fast.</p>
+<p>Offizielle Website: <a href="https://illa.cloud/" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
+<p>Die Hauptnutzer von ILLA Cloud sind Backend-Entwickler, was sich von dem unterscheiden kann, was die meisten Menschen denken. Eine große Anzahl von Backend-Entwicklern hat ILLA Cloud verwendet, um zahlreiche Datenpanels und Verwaltungsoberflächen zu erstellen. Schließlich war die Webentwicklung schon immer ein Ärgernis für Backend-Entwickler. Die mit ILLA Cloud erstellten Tools sind tatsächlich ziemlich ästhetisch ansprechend und schnell.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>ILLA also supports collaboration, allowing multiple people to edit a project together. Backend engineers no longer need to worry about building various internal backends. We all know the pain and tears of relying on front-end engineers.</p>
-<p>The official website also has some solutions, which currently seem to focus mainly on management backends, data panels, etc.</p>
+<p>ILLA unterstützt auch die Zusammenarbeit, sodass mehrere Personen gemeinsam an einem Projekt arbeiten können. Backend-Entwickler müssen sich nicht mehr um den Aufbau verschiedener interner Backends sorgen. Wir alle kennen die Schmerzen und Tränen, die auf Front-End-Entwickler angewiesen sind.</p>
+<p>Die offizielle Website bietet auch einige Lösungen, die derzeit hauptsächlich auf Verwaltungsoberflächen, Datenpanels usw. abzielen.</p>
 <ul>
-<li>AI text-to-image panel</li>
-<li>AI voice processing panel</li>
-<li>Data analysis panel</li>
-<li>Content management CMS</li>
-<li>Custom CRM</li>
-<li>Management backend</li>
+<li>KI-Text-zu-Bild-Panel</li>
+<li>KI-Sprachverarbeitungs-Panel</li>
+<li>Datenanalyse-Panel</li>
+<li>Inhaltsverwaltungs-CMS</li>
+<li>Benutzerdefiniertes CRM</li>
+<li>Verwaltungsoberfläche</li>
 </ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/solution.png" alt="solution" class="img_CfaS"></p>
-<p>They also support building workflows, and it seems they have done a lot of work in the low-code field, looking like a well-rounded product. It basically meets various common cases.</p>
-<p>For instance:</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/solution.png" alt="lösung" class="img_CfaS"></p>
+<p>Sie unterstützen auch den Aufbau von Workflows, und es scheint, dass sie in der Low-Code-Branche viel Arbeit geleistet haben und wie ein rundes Produkt aussehen. Es erfüllt im Wesentlichen verschiedene gemeinsame Fälle.</p>
+<p>Zum Beispiel:</p>
 <ul>
-<li>Sending a message to Slack when a new user registers</li>
-<li>Daily reporting of the number of stars on GitHub</li>
-<li>Daily booking of meeting rooms</li>
+<li>Eine Nachricht an Slack senden, wenn sich ein neuer Benutzer registriert</li>
+<li>Tägliche Berichterstattung über die Anzahl der Sterne auf GitHub</li>
+<li>Tägliche Buchung von Besprechungsräumen</li>
 </ul>
-<p>Engineers use ILLA Flow to automatically execute many tasks, such as:</p>
+<p>Ingenieure verwenden ILLA Flow, um automatisch viele Aufgaben auszuführen, wie zum Beispiel:</p>
 <ul>
-<li>Reading business data from a database daily and sending it to Slack</li>
-<li>Building CI/CD reporting systems</li>
-<li>Sending emails when certain warnings occur</li>
+<li>Geschäftsdaten täglich aus einer Datenbank lesen und an Slack senden</li>
+<li>Aufbau von CI/CD-Berichtssystemen</li>
+<li>Senden von E-Mails, wenn bestimmte Warnungen auftreten</li>
 </ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/flow.jpeg" alt="flow" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-experience">User Experience<a href="https://illacloud.github.io/illa-website/de/blog/popular-tool#user-experience" class="hash-link" aria-label="Direkter Link zu User Experience" title="Direkter Link zu User Experience">​</a></h2>
-<p>I briefly experienced it, and they have really put a lot of effort into the editor's smoothness and overall experience. The overall editing experience is quite good. It includes smooth drag-and-drop capabilities and also supports collaboration.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/team.gif" alt="collabration" class="img_CfaS"></p>
-<p>Various database integration capabilities are also supported, allowing quick data reading and writing from various data sources and databases. For backend engineers, integrating various services is indeed a nightmare. In this case, ILLA has already done the work. They also support integration with Huggingface, which seems like an official collaboration. It allows for quick use of the model capabilities on Huggingface, which is indeed interesting. You can quickly create some AI-driven tools.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/resource.png" alt="resource" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/de/blog/popular-tool#conclusion" class="hash-link" aria-label="Direkter Link zu Conclusion" title="Direkter Link zu Conclusion">​</a></h2>
-<p>There are many low-code tools, but few can be practically used and implemented. ILLA seems to have been maintained for two years now, and their company is currently fully committed to this one thing. Unlike some low-code tools produced for certain purposes, they are directly addressing the needs of developers. Everyone can try it out!"</p>]]></content>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/flow.jpeg" alt="fluss" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="benutzererfahrung">Benutzererfahrung<a href="https://illacloud.github.io/illa-website/de/blog/popular-tool#benutzererfahrung" class="hash-link" aria-label="Direkter Link zu Benutzererfahrung" title="Direkter Link zu Benutzererfahrung">​</a></h2>
+<p>Ich habe es kurz ausprobiert, und sie haben wirklich viel Mühe in die reibungslose Bedienung des Editors und das Gesamterlebnis gesteckt. Die gesamte Bearbeitungserfahrung ist ziemlich gut. Sie umfasst eine reibungslose Drag-and-Drop-Funktionalität und unterstützt auch die Zusammenarbeit.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/team.gif" alt="zusammenarbeit" class="img_CfaS"></p>
+<p>Es werden auch verschiedene Datenbankintegrationen unterstützt, die schnelles Lesen und Schreiben von Daten aus verschiedenen Datenquellen und Datenbanken ermöglichen. Für Backend-Entwickler ist die Integration verschiedener Dienste tatsächlich ein Albtraum. In diesem Fall hat ILLA bereits die Arbeit erledigt. Sie unterstützen auch die Integration mit Huggingface, was wie eine offizielle Zusammenarbeit aussieht. Es ermöglicht die schnelle Nutzung der Modellfähigkeiten auf Huggingface, was in der Tat interessant ist. Sie können schnell einige KI-gesteuerte Tools erstellen.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/resource.png" alt="ressource" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="fazit">Fazit<a href="https://illacloud.github.io/illa-website/de/blog/popular-tool#fazit" class="hash-link" aria-label="Direkter Link zu Fazit" title="Direkter Link zu Fazit">​</a></h2>
+<p>Es gibt viele Low-Code-Tools, aber nur wenige können tatsächlich verwendet und umgesetzt werden. ILLA scheint seit zwei Jahren gepflegt zu werden, und ihr Unternehmen widmet sich derzeit vollständig dieser einen Sache. Im Gegensatz zu einigen für bestimmte Zwecke hergestellten Low-Code-Tools richten sie sich direkt an die Bedürfnisse von Entwicklern. Jeder kann es ausprobieren!"</p>]]></content>
         <author>
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>

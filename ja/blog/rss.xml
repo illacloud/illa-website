@@ -1002,51 +1002,47 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
             <category>tools</category>
         </item>
         <item>
-            <title><![CDATA[10,000 Stars! This open-source low-code tool is wildly popular overseas.]]></title>
+            <title><![CDATA[1万のスター！このオープンソースのローコードツールは海外で大人気です。]]></title>
             <link>https://illacloud.github.io/illa-website/ja/blog/popular-tool</link>
             <guid>https://illacloud.github.io/illa-website/ja/blog/popular-tool</guid>
             <pubDate>Fri, 05 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[Open-source tools are common, but it's rare to see one with 10,000 stars.]]></description>
-            <content:encoded><![CDATA[<p>Open-source tools are common, but it's rare to see one with 10,000 stars. I'm sharing a product that has seen a crazy growth of 10,000 stars overseas. There are many low-code tools, but few are truly useful. This tool is primarily used by developers in North America, and their Discord community is very active.</p>
-<p>The community indeed has some good reviews.</p>
+            <description><![CDATA[オープンソースのツールは一般的ですが、1万のスターを持つものは珍しいです。]]></description>
+            <content:encoded><![CDATA[<p>オープンソースのツールは一般的ですが、1万のスターを持つものは珍しいです。私は海外で1万のスターを持つ製品を共有します。ローコードツールはたくさんありますが、実際に役立つものは少ないです。このツールは主に北米の開発者によって使用され、そのDiscordコミュニティは非常に活発です。</p>
+<p>コミュニティには実際に良いレビューがあります。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/good.png" alt="good" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-illa-cloud-can-do">What ILLA Cloud Can Do<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#what-illa-cloud-can-do" class="hash-link" aria-label="What ILLA Cloud Can Do への直接リンク" title="What ILLA Cloud Can Do への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloudのできること">ILLA Cloudのできること<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#illa-cloud%E3%81%AE%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8" class="hash-link" aria-label="ILLA Cloudのできること への直接リンク" title="ILLA Cloudのできること への直接リンク">​</a></h2>
 <p>Github: <a href="https://illacloud.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://illacloud.com/illacloud/illa-builder</a></p>
-<p>Official Website: <a href="https://illa.cloud/" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
-<p>The main users of ILLA Cloud are backend engineers, which might be different from what most people think. A large number of backend engineers have used ILLA Cloud to build numerous data panels and management backends. After all, web development has always been a headache for backend engineers. The tools built with ILLA Cloud are indeed quite aesthetically pleasing and fast.</p>
+<p>公式ウェブサイト: <a href="https://illa.cloud/" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
+<p>ILLA Cloudの主要なユーザーはバックエンドエンジニアで、これは一般的な考えとは異なるかもしれません。多くのバックエンドエンジニアがILLA Cloudを使用して、多くのデータパネルや管理バックエンドを構築しています。結局のところ、ウェブ開発は常にバックエンドエンジニアにとって頭痛の種でした。ILLA Cloudで作成されたツールは、見た目も美しく、高速です。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>ILLA also supports collaboration, allowing multiple people to edit a project together. Backend engineers no longer need to worry about building various internal backends. We all know the pain and tears of relying on front-end engineers.</p>
-<p>The official website also has some solutions, which currently seem to focus mainly on management backends, data panels, etc.</p>
+<p>ILLAはまた協力をサポートしており、複数の人がプロジェクトを共同で編集できるようにしています。バックエンドエンジニアはもはやさまざまな内部バックエンドを構築する必要はありません。フロントエンドエンジニアに頼る苦労と涙を私たちはみんな知っています。</p>
+<p>公式ウェブサイトにはいくつかのソリューションもあり、現在は主に管理バックエンド、データパネルなどに焦点を当てているようです。</p>
 <ul>
-<li>AI text-to-image panel</li>
-<li>AI voice processing panel</li>
-<li>Data analysis panel</li>
-<li>Content management CMS</li>
-<li>Custom CRM</li>
-<li>Management backend</li>
+<li>AIテキストから画像へのパネル</li>
+<li>AI音声処理パネル</li>
+<li>データ分析パネル</li>
+<li>コンテンツ管理CMS</li>
+<li>カスタムCRM</li>
+<li>管理バックエンド</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/solution.png" alt="solution" class="img_CfaS"></p>
-<p>They also support building workflows, and it seems they have done a lot of work in the low-code field, looking like a well-rounded product. It basically meets various common cases.</p>
-<p>For instance:</p>
+<p>彼らはワークフローの構築もサポートしており、ローコード分野で多くの仕事を行っているようで、非常に包括的な製品のようです。基本的にさまざまな一般的なケースを満たしています。</p>
+<p>たとえば：</p>
 <ul>
-<li>Sending a message to Slack when a new user registers</li>
-<li>Daily reporting of the number of stars on GitHub</li>
-<li>Daily booking of meeting rooms</li>
+<li>新しいユーザーが登録したときにSlackにメッセージを送信する</li>
+<li>GitHubのスター数を毎日報告する</li>
+<li>会議室の毎日の予約</li>
 </ul>
-<p>Engineers use ILLA Flow to automatically execute many tasks, such as:</p>
-<ul>
-<li>Reading business data from a database daily and sending it to Slack</li>
-<li>Building CI/CD reporting systems</li>
-<li>Sending emails when certain warnings occur</li>
-</ul>
+<p>エンジニアはILLA Flowを使用して、多くのタスクを自動的に実行します。たとえば、データベースからビジネスデータを毎日読み取り、Slackに送信したり、CI/CDレポートシステムを構築したり、特定の警告が発生したときにメールを送信したりします。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/flow.jpeg" alt="flow" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-experience">User Experience<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#user-experience" class="hash-link" aria-label="User Experience への直接リンク" title="User Experience への直接リンク">​</a></h2>
-<p>I briefly experienced it, and they have really put a lot of effort into the editor's smoothness and overall experience. The overall editing experience is quite good. It includes smooth drag-and-drop capabilities and also supports collaboration.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ユーザーエクスペリエンス">ユーザーエクスペリエンス<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A8%E3%83%B3%E3%82%B9" class="hash-link" aria-label="ユーザーエクスペリエンス への直接リンク" title="ユーザーエクスペリエンス への直接リンク">​</a></h2>
+<p>私はそれを簡単に体験しましたが、エディターのスムーズさと全体的なエクスペリエンスに本当に多くの努力が払われています。全体的な編集体験はかなり良いです。スムーズなドラッグアンドドロップの機能も含まれており、協力もサポートされています。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/team.gif" alt="collabration" class="img_CfaS"></p>
-<p>Various database integration capabilities are also supported, allowing quick data reading and writing from various data sources and databases. For backend engineers, integrating various services is indeed a nightmare. In this case, ILLA has already done the work. They also support integration with Huggingface, which seems like an official collaboration. It allows for quick use of the model capabilities on Huggingface, which is indeed interesting. You can quickly create some AI-driven tools.</p>
+<p>さまざまなデータベース統合機能もサポートされており、さまざまなデータソースとデータベースからの迅速なデータの読み取りと書き込みが可能です。バックエンドエンジニアにとって、さまざまなサービスを統合することは本当に悪夢です。この場合、ILLAはすでにその作業を行っています。また、Huggingfaceとの統合もサポートしており、公式のコラボレーションのようです。Huggingfaceのモデル機能を素早く使用できるようになり、本当に興味深いです。いくつかのAI駆動のツールを迅速に作成できます。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/resource.png" alt="resource" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>There are many low-code tools, but few can be practically used and implemented. ILLA seems to have been maintained for two years now, and their company is currently fully committed to this one thing. Unlike some low-code tools produced for certain purposes, they are directly addressing the needs of developers. Everyone can try it out!"</p>]]></content:encoded>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>ローコードツールはたくさんありますが、実際に使用および実装できるものは少ないです。ILLA</p>
+<p>は現在2年間維持されており、その会社は現在これに完全に専念しています。特定の目的のために製造された一部のローコードツールとは異なり、彼らは開発者のニーズに直接対応しています。誰でも試すことができます！"</p>]]></content:encoded>
             <category>nvm</category>
             <category>nodejs</category>
             <category>mac</category>
