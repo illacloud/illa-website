@@ -81,7 +81,7 @@ If you are developing a highly complex system, you can use MUI's full suite solu
 
 MUI is a heavyweight repository with extensive code and a long maintenance history. Its high customizability makes it suitable for large projects. In the MUI repository, you can find a wealth of features.
 
-## How to Choose
+## Conclusion
 
 ✅ Advantages
 
