@@ -1,6 +1,6 @@
 ---
-slug: popular-tool
-title: 1万颗星！这个开源的低代码工具在海外非常受欢迎。
+slug: internal-tool
+title: 构建内部工具的最佳开源低代码平台
 description: 开源工具很常见，但很少见到有1万颗星的。我要分享一个在海外获得1万颗星的产品。有很多低代码工具，但真正有用的很少。这个工具主要被北美的开发人员使用，他们的Discord社区非常活跃。
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/popular-tool/cover.png

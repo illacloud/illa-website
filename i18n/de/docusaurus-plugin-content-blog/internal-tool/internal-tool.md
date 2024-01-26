@@ -1,6 +1,6 @@
 ---
-slug: popular-tool
-title: 10.000 Sterne! Dieses Open-Source Low-Code-Tool ist im Ausland äußerst beliebt.
+slug: internal-tool
+title: Beste Open-Source Low-Code Plattform zur Erstellung interner Tools
 description: Open-Source-Tools sind häufig, aber es ist selten, eines mit 10.000 Sternen zu sehen.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/popular-tool/cover.png

@@ -1,6 +1,6 @@
 ---
-slug: popular-tool
-title: 1万のスター！このオープンソースのローコードツールは海外で大人気です。
+slug: internal-tool
+title: 内部ツールを構築するための最高のオープンソース低コードプラットフォーム
 description: オープンソースのツールは一般的ですが、1万のスターを持つものは珍しいです。
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/popular-tool/cover.png
