@@ -669,63 +669,6 @@ T extends Length constraints T's type to include the length property, and the ty
         <category label="retool" term="retool"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Best Open-Source Low-Code Platform for Building Internal Tools]]></title>
-        <id>https://illacloud.github.io/illa-website/blog/internal-tool</id>
-        <link href="https://illacloud.github.io/illa-website/blog/internal-tool"/>
-        <updated>2024-01-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends.]]></summary>
-        <content type="html"><![CDATA[<p>ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools. As an open-source low-code platform, using ILLA Cloud to create internal tools is a very good choice.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-is-internal-tools">What is Internal Tools<a href="https://illacloud.github.io/illa-website/blog/internal-tool#what-is-internal-tools" class="hash-link" aria-label="Direct link to What is Internal Tools" title="Direct link to What is Internal Tools">​</a></h2>
-<p>Internal Tools refer to tools used within a team, including but not limited to various data dashboards, admin panels, etc. These tools can help the team better manage business operations and improve work efficiency. Tools drive the team's efficiency, and Internal Tools are an important part of these tools.</p>
-<p>Every team needs to create a large number of non-standardized Internal Tools based on their own needs, making their team more efficient in managing business operations and data-driven decision-making.</p>
-<p>Regardless of whether it's a large or small company, Internal Tools are very important, and each company's Internal Tools are different. Therefore, a flexible tool is needed to create Internal Tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-illa-cloud-can-do">What ILLA Cloud Can Do<a href="https://illacloud.github.io/illa-website/blog/internal-tool#what-illa-cloud-can-do" class="hash-link" aria-label="Direct link to What ILLA Cloud Can Do" title="Direct link to What ILLA Cloud Can Do">​</a></h2>
-<p>Github: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
-<p>Official Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
-<p>The main users of ILLA Cloud are backend engineers, which might be different from what most people think. A large number of backend engineers have used ILLA Cloud to build numerous data panels and management backends. After all, web development has always been a headache for backend engineers. The tools built with ILLA Cloud are indeed quite aesthetically pleasing and fast.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>ILLA also supports collaboration, allowing multiple people to edit a project together. Backend engineers no longer need to worry about building various internal backends. We all know the pain and tears of relying on front-end engineers.</p>
-<p>The official website also has some solutions, which currently seem to focus mainly on management backends, data panels, etc.</p>
-<ul>
-<li>AI text-to-image panel</li>
-<li>AI voice processing panel</li>
-<li>Data analysis panel</li>
-<li>Content management CMS</li>
-<li>Custom CRM</li>
-<li>Management backend</li>
-</ul>
-<p>They also support building workflows, and it seems they have done a lot of work in the low-code field, looking like a well-rounded product. It basically meets various common cases.</p>
-<p>For instance:</p>
-<ul>
-<li>Sending a message to Slack when a new user registers</li>
-<li>Daily reporting of the number of stars on GitHub</li>
-<li>Daily booking of meeting rooms</li>
-</ul>
-<p>Engineers use ILLA Flow to automatically execute many tasks, such as:</p>
-<ul>
-<li>Reading business data from a database daily and sending it to Slack</li>
-<li>Building CI/CD reporting systems</li>
-<li>Sending emails when certain warnings occur</li>
-</ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/connector.png" alt="connector" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-experience">User Experience<a href="https://illacloud.github.io/illa-website/blog/internal-tool#user-experience" class="hash-link" aria-label="Direct link to User Experience" title="Direct link to User Experience">​</a></h2>
-<p>I briefly experienced it, and they have really put a lot of effort into the editor's smoothness and overall experience. The overall editing experience is quite good. It includes smooth drag-and-drop capabilities and also supports collaboration.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/team.gif" alt="collabration" class="img_CfaS"></p>
-<p>Various database integration capabilities are also supported, allowing quick data reading and writing from various data sources and databases. For backend engineers, integrating various services is indeed a nightmare. In this case, ILLA has already done the work. They also support integration with Huggingface, which seems like an official collaboration. It allows for quick use of the model capabilities on Huggingface, which is indeed interesting. You can quickly create some AI-driven tools.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/resource.png" alt="resource" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/internal-tool#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>If you are choosing an open-source low-code platform, ILLA Cloud is an excellent option. It can help you quickly build Internal Tools, enhancing your team's work efficiency.</p>
-<p>Finally, it is hoped that every team can use Internal Tools to drive their business growth and build the most efficient team.</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="nvm" term="nvm"/>
-        <category label="nodejs" term="nodejs"/>
-        <category label="mac" term="mac"/>
-        <category label="javascript" term="javascript"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Create AI Tools like building with blocks]]></title>
         <id>https://illacloud.github.io/illa-website/blog/build-ai-tools</id>
         <link href="https://illacloud.github.io/illa-website/blog/build-ai-tools"/>
@@ -1053,15 +996,15 @@ T extends Length constraints T's type to include the length property, and the ty
         <category label="tools" term="tools"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[10,000 Stars! This open-source low-code tool is wildly popular overseas.]]></title>
-        <id>https://illacloud.github.io/illa-website/blog/popular-tool</id>
-        <link href="https://illacloud.github.io/illa-website/blog/popular-tool"/>
+        <title type="html"><![CDATA[Best Open-Source Low-Code Platform for Building Internal Tools]]></title>
+        <id>https://illacloud.github.io/illa-website/blog/internal-tool</id>
+        <link href="https://illacloud.github.io/illa-website/blog/internal-tool"/>
         <updated>2024-01-05T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[Open-source tools are common, but it's rare to see one with 10,000 stars.]]></summary>
         <content type="html"><![CDATA[<p>Open-source tools are common, but it's rare to see one with 10,000 stars. I'm sharing a product that has seen a crazy growth of 10,000 stars overseas. There are many low-code tools, but few are truly useful. This tool is primarily used by developers in North America, and their Discord community is very active.</p>
 <p>The community indeed has some good reviews.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/good.png" alt="good" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-illa-cloud-can-do">What ILLA Cloud Can Do<a href="https://illacloud.github.io/illa-website/blog/popular-tool#what-illa-cloud-can-do" class="hash-link" aria-label="Direct link to What ILLA Cloud Can Do" title="Direct link to What ILLA Cloud Can Do">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-illa-cloud-can-do">What ILLA Cloud Can Do<a href="https://illacloud.github.io/illa-website/blog/internal-tool#what-illa-cloud-can-do" class="hash-link" aria-label="Direct link to What ILLA Cloud Can Do" title="Direct link to What ILLA Cloud Can Do">​</a></h2>
 <p>Github: <a href="https://illacloud.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://illacloud.com/illacloud/illa-builder</a></p>
 <p>Official Website: <a href="https://illa.cloud/" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
 <p>The main users of ILLA Cloud are backend engineers, which might be different from what most people think. A large number of backend engineers have used ILLA Cloud to build numerous data panels and management backends. After all, web development has always been a headache for backend engineers. The tools built with ILLA Cloud are indeed quite aesthetically pleasing and fast.</p>
@@ -1091,12 +1034,12 @@ T extends Length constraints T's type to include the length property, and the ty
 <li>Sending emails when certain warnings occur</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/flow.jpeg" alt="flow" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-experience">User Experience<a href="https://illacloud.github.io/illa-website/blog/popular-tool#user-experience" class="hash-link" aria-label="Direct link to User Experience" title="Direct link to User Experience">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-experience">User Experience<a href="https://illacloud.github.io/illa-website/blog/internal-tool#user-experience" class="hash-link" aria-label="Direct link to User Experience" title="Direct link to User Experience">​</a></h2>
 <p>I briefly experienced it, and they have really put a lot of effort into the editor's smoothness and overall experience. The overall editing experience is quite good. It includes smooth drag-and-drop capabilities and also supports collaboration.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/team.gif" alt="collabration" class="img_CfaS"></p>
 <p>Various database integration capabilities are also supported, allowing quick data reading and writing from various data sources and databases. For backend engineers, integrating various services is indeed a nightmare. In this case, ILLA has already done the work. They also support integration with Huggingface, which seems like an official collaboration. It allows for quick use of the model capabilities on Huggingface, which is indeed interesting. You can quickly create some AI-driven tools.</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/resource.png" alt="resource" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/popular-tool#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/internal-tool#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>There are many low-code tools, but few can be practically used and implemented. ILLA seems to have been maintained for two years now, and their company is currently fully committed to this one thing. Unlike some low-code tools produced for certain purposes, they are directly addressing the needs of developers. Everyone can try it out!"</p>]]></content>
         <author>
             <name>Owen Chen</name>
@@ -1528,7 +1471,7 @@ T extends Length constraints T's type to include the length property, and the ty
 </ul>
 <p>If you are developing a highly complex system, you can use MUI's full suite solution. However, MUI X is a paid component library, and a subscription fee may be required.</p>
 <p>MUI is a heavyweight repository with extensive code and a long maintenance history. Its high customizability makes it suitable for large projects. In the MUI repository, you can find a wealth of features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/blog/mui-2024#how-to-choose" class="hash-link" aria-label="Direct link to How to Choose" title="Direct link to How to Choose">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/mui-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>✅ Advantages</p>
 <p>If you want to develop large projects, have high customization requirements, and wish to use high-performance data components and chart components, especially in scenarios with high business complexity and are willing to subscribe to MUI X, it is recommended to use MUI for development. Its flexible configuration and plethora of components can fully meet your requirements.</p>
 <p>❌ Disadvantages</p>
@@ -1540,6 +1483,73 @@ T extends Length constraints T's type to include the length property, and the ty
         <category label="UI Library" term="UI Library"/>
         <category label="Shadcn UI" term="Shadcn UI"/>
         <category label="React" term="React"/>
+        <category label="javascript" term="javascript"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elegant Use of nvm for Node.js Management on Mac in 2024]]></title>
+        <id>https://illacloud.github.io/illa-website/blog/nvm-use-2024</id>
+        <link href="https://illacloud.github.io/illa-website/blog/nvm-use-2024"/>
+        <updated>2024-01-03T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime."]]></summary>
+        <content type="html"><![CDATA[<p>Node.js, as the foundation of frontend capabilities, is no longer just a "JS Server Runtime." Numerous tool libraries, local package management, mock environments, and more are built on Node.js, making it truly the infrastructure of the frontend world.</p>
+<p>The flourishing ecosystem has made it essential for everyone to install Node.js when building frontend projects. However, with the long history of products, versioning becomes a common issue—some projects require new versions, while others need older ones. Managing multiple versions of Node.js has been a persistent challenge for developers.</p>
+<p>Currently, the open-source tool nvm addresses this issue. With simple command-line usage, developers can quickly switch between different versions of Node.js, allowing them to focus on development rather than wasting time on environment configuration.</p>
+<p>The predominant machines for frontend development are still Macbooks. Therefore, this article will explain how to elegantly install and use nvm on Mac to efficiently manage Node.js versions.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="recommending-an-open-source-project-for-backend-development">Recommending an Open Source Project for Backend Development<a href="https://illacloud.github.io/illa-website/blog/nvm-use-2024#recommending-an-open-source-project-for-backend-development" class="hash-link" aria-label="Direct link to Recommending an Open Source Project for Backend Development" title="Direct link to Recommending an Open Source Project for Backend Development">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that enables the rapid construction of internal tools using simple JS, without the need to create new projects.</p>
+<ul>
+<li>Web &amp; App Admin Panel</li>
+<li>Data Dashboard</li>
+<li>Customized B2B Tools</li>
+</ul>
+<p>Compared to scenarios built with component libraries, ILLA Cloud allows for 10x faster construction of the mentioned tools. Additionally, ILLA Cloud supports collaboration among multiple users, facilitating teamwork for rapid customization of backend capabilities.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction-to-nvm">Introduction to nvm<a href="https://illacloud.github.io/illa-website/blog/nvm-use-2024#introduction-to-nvm" class="hash-link" aria-label="Direct link to Introduction to nvm" title="Direct link to Introduction to nvm">​</a></h2>
+<p>⏬ GitHub Repository: <a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener noreferrer">https://github.com/nvm-sh/nvm</a></p>
+<p>⭐ GitHub Stars: 72.4k</p>
+<p>💪🏼 First Release Date: Dec 22, 2014</p>
+<p>nvm is an open-source project that has been maintained for nearly 10 years. Positive reviews have kept this project robust and, through continuous maintenance, it has become a perfect solution for "Node.js version management."</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="installing-nvm">Installing nvm<a href="https://illacloud.github.io/illa-website/blog/nvm-use-2024#installing-nvm" class="hash-link" aria-label="Direct link to Installing nvm" title="Direct link to Installing nvm">​</a></h2>
+<p>Since we are using a Mac for development, I strongly recommend using <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a> for package management and then using <a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a> to install nvm.</p>
+<p>To install Homebrew, it is recommended to use the installation script. It requires minimal configuration and allows immediate use. Moreover, Homebrew makes it easy to uninstall repositories cleanly if needed.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Running this command will install the latest version of Homebrew, automatically handling the installation of Xcode Command Tools in the MacOS environment.</p>
+<p>Of course, all of this is automated. Below is an installation process example.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/homebrew-install.png" alt="homebrew_install" class="img_CfaS"></p>
+<p>After a short wait, we can proceed with the installation of nvm using the installed Homebrew.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew install nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>After confirming agreement, nvm will be completely installed. If you decide you don't want it anymore, you can use the following command to uninstall:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"># delete nvm if you don't need it.</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew uninstall nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="using-nvm">Using nvm<a href="https://illacloud.github.io/illa-website/blog/nvm-use-2024#using-nvm" class="hash-link" aria-label="Direct link to Using nvm" title="Direct link to Using nvm">​</a></h2>
+<p>Once nvm is installed, here are some commonly used commands to help you get started. These commands should fulfill your daily needs.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm list</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The "list" command displays various mainstream Node.js versions. You can install versions according to your needs, and it will also show the currently used Node.js version on your machine. It will display some codenames.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-list.png" alt="nvm_list" class="img_CfaS"></p>
+<p>For example, "lts/gallim" is the version name for Node.js v16. To install using this codename, nvm will automatically install the latest version of v16. It's quite convenient. You can also use this command to check the currently used version.</p>
+<p>Another command allows you to check the current Node.js version:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; node --version</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>After entering this command, you can verify whether the Node.js version has been successfully switched.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm install stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The second command installs a specific Node.js version; "stable" refers to a specific version number. You can also use the codename for a particular version. For example, to install "Node.js 18," you would use "nvm install 18." Here, I'm installing the "stable" version. nvm will automatically determine the latest Stable version and install it for me. After successful installation, it will automatically switch to the installed version.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/stable-install.png" alt="stable-install" class="img_CfaS"></p>
+<p>Where there's an installation command, there's also an uninstallation command. Use:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm uninstall stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>To delete the corresponding version.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-uninstall.png" alt="nvm-uninstall" class="img_CfaS"></p>
+<p>Once you've learned how to install and uninstall, the next important step is version switching.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm use stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The "use" command allows you to quickly switch between Node.js versions currently in use. You can also use the "stable" codename. This way, you can quickly switch between versions for different projects.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-use.png" alt="nvm-use" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/nvm-use-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>This article has explained the entire process for a beginner, from installing to using nvm. You can quickly try it out and better manage your Node.js versions.</p>
+<p>Node.js version management is a long-discussed issue, and nvm is an excellent open-source project that effectively addresses this problem. Of course, no project is perfect. If you have other recommendations, feel free to leave a comment and let more people know about outstanding projects—that's the mission of open-source enthusiasts!</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="nvm" term="nvm"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="mac" term="mac"/>
         <category label="javascript" term="javascript"/>
     </entry>
 </feed>

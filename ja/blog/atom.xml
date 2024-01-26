@@ -700,63 +700,6 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
         <category label="retool" term="retool"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Best Open-Source Low-Code Platform for Building Internal Tools]]></title>
-        <id>https://illacloud.github.io/illa-website/ja/blog/internal-tool</id>
-        <link href="https://illacloud.github.io/illa-website/ja/blog/internal-tool"/>
-        <updated>2024-01-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends.]]></summary>
-        <content type="html"><![CDATA[<p>ILLA Cloud is an open-source low-code development platform that helps users quickly build internal tools, including data dashboards, management backends, and AI tools. As an open-source low-code platform, using ILLA Cloud to create internal tools is a very good choice.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-is-internal-tools">What is Internal Tools<a href="https://illacloud.github.io/illa-website/ja/blog/internal-tool#what-is-internal-tools" class="hash-link" aria-label="What is Internal Tools への直接リンク" title="What is Internal Tools への直接リンク">​</a></h2>
-<p>Internal Tools refer to tools used within a team, including but not limited to various data dashboards, admin panels, etc. These tools can help the team better manage business operations and improve work efficiency. Tools drive the team's efficiency, and Internal Tools are an important part of these tools.</p>
-<p>Every team needs to create a large number of non-standardized Internal Tools based on their own needs, making their team more efficient in managing business operations and data-driven decision-making.</p>
-<p>Regardless of whether it's a large or small company, Internal Tools are very important, and each company's Internal Tools are different. Therefore, a flexible tool is needed to create Internal Tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="what-illa-cloud-can-do">What ILLA Cloud Can Do<a href="https://illacloud.github.io/illa-website/ja/blog/internal-tool#what-illa-cloud-can-do" class="hash-link" aria-label="What ILLA Cloud Can Do への直接リンク" title="What ILLA Cloud Can Do への直接リンク">​</a></h2>
-<p>Github: <a href="https://github.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://github.com/illacloud/illa-builder</a></p>
-<p>Official Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
-<p>The main users of ILLA Cloud are backend engineers, which might be different from what most people think. A large number of backend engineers have used ILLA Cloud to build numerous data panels and management backends. After all, web development has always been a headache for backend engineers. The tools built with ILLA Cloud are indeed quite aesthetically pleasing and fast.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>ILLA also supports collaboration, allowing multiple people to edit a project together. Backend engineers no longer need to worry about building various internal backends. We all know the pain and tears of relying on front-end engineers.</p>
-<p>The official website also has some solutions, which currently seem to focus mainly on management backends, data panels, etc.</p>
-<ul>
-<li>AI text-to-image panel</li>
-<li>AI voice processing panel</li>
-<li>Data analysis panel</li>
-<li>Content management CMS</li>
-<li>Custom CRM</li>
-<li>Management backend</li>
-</ul>
-<p>They also support building workflows, and it seems they have done a lot of work in the low-code field, looking like a well-rounded product. It basically meets various common cases.</p>
-<p>For instance:</p>
-<ul>
-<li>Sending a message to Slack when a new user registers</li>
-<li>Daily reporting of the number of stars on GitHub</li>
-<li>Daily booking of meeting rooms</li>
-</ul>
-<p>Engineers use ILLA Flow to automatically execute many tasks, such as:</p>
-<ul>
-<li>Reading business data from a database daily and sending it to Slack</li>
-<li>Building CI/CD reporting systems</li>
-<li>Sending emails when certain warnings occur</li>
-</ul>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/connector.png" alt="connector" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-experience">User Experience<a href="https://illacloud.github.io/illa-website/ja/blog/internal-tool#user-experience" class="hash-link" aria-label="User Experience への直接リンク" title="User Experience への直接リンク">​</a></h2>
-<p>I briefly experienced it, and they have really put a lot of effort into the editor's smoothness and overall experience. The overall editing experience is quite good. It includes smooth drag-and-drop capabilities and also supports collaboration.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/team.gif" alt="collabration" class="img_CfaS"></p>
-<p>Various database integration capabilities are also supported, allowing quick data reading and writing from various data sources and databases. For backend engineers, integrating various services is indeed a nightmare. In this case, ILLA has already done the work. They also support integration with Huggingface, which seems like an official collaboration. It allows for quick use of the model capabilities on Huggingface, which is indeed interesting. You can quickly create some AI-driven tools.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/internal-tool/resource.png" alt="resource" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/internal-tool#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>If you are choosing an open-source low-code platform, ILLA Cloud is an excellent option. It can help you quickly build Internal Tools, enhancing your team's work efficiency.</p>
-<p>Finally, it is hoped that every team can use Internal Tools to drive their business growth and build the most efficient team.</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="nvm" term="nvm"/>
-        <category label="nodejs" term="nodejs"/>
-        <category label="mac" term="mac"/>
-        <category label="javascript" term="javascript"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ブロックのようにAIツールを作成する]]></title>
         <id>https://illacloud.github.io/illa-website/ja/blog/build-ai-tools</id>
         <link href="https://illacloud.github.io/illa-website/ja/blog/build-ai-tools"/>
@@ -944,137 +887,139 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
         <category label="tools" term="tools"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Best Tools for Building Crud Applications in 2024]]></title>
+        <title type="html"><![CDATA[2024 年に CRUD アプリケーションを構築するための最高のツール]]></title>
         <id>https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications</id>
         <link href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications"/>
         <updated>2024-01-08T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CRUD applications are a type of software that allows users to create, read, update, and delete data using various interfaces such as web pages or mobile apps.]]></summary>
-        <content type="html"><![CDATA[<p>CRUD applications are a type of software that allows users to create, read, update, and delete data using various interfaces such as web pages or mobile apps. CRUD stands for Create, Read, Update, and Delete, which are the four basic operations that models should be able to do on data. CRUD applications are very common in web development, as they allow users to perform basic operations on data without writing complex code.</p>
-<p>CRUD applications consist of three main components: a database, a user interface, and an API. The database is where the data is stored and retrieved. The user interface is the front end that users interact with. The API contains the code and methods that communicate with the database. Each component can use different technologies and frameworks, depending on the needs and preferences of the developer.</p>
-<p>In this blog post, we will review some of the best tools for building CRUD applications, covering each component separately. We will also provide some examples and tips on how to use them effectively.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="database">Database<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#database" class="hash-link" aria-label="Database への直接リンク" title="Database への直接リンク">​</a></h2>
-<p>The database is the core of any CRUD application, as it stores the data that users can create, read, update, and delete. There are many types of databases available, but they can be broadly categorized into two groups: relational (SQL) and non-relational (NoSQL).</p>
-<p>Relational databases use tables to store data; each table has a predefined schema and each row represents a record. Relational databases are good for structured and consistent data that requires complex queries and transactions. Some of the most popular relational databases are MySQL, PostgreSQL, Oracle, and SQL Server.</p>
-<p>Non-relational databases use collections to store data, where each collection can have a flexible schema and each document represents a record. Non-relational databases are good for unstructured and dynamic data that require high scalability and performance. Some of the most popular non-relational databases are MongoDB, CouchDB, Firebase, and DynamoDB.</p>
-<p>Choosing the right database for your CRUD application depends on several factors, such as the type and volume of data you need to store, the level of consistency and reliability you need to ensure, and the complexity and frequency of queries you need to perform. You should also consider the compatibility and integration of your database with your user interface and API tools.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="user-interface">User Interface<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#user-interface" class="hash-link" aria-label="User Interface への直接リンク" title="User Interface への直接リンク">​</a></h2>
-<p>The user interface is the front end of your CRUD application, where users can see and manipulate the data stored in your database. The user interface can be built using various technologies and frameworks, depending on the type and complexity of your application.</p>
-<p>One of the most common ways to build a user interface for a CRUD application is by using HTML, CSS, and JavaScript. HTML defines the structure and content of your web page, CSS styles the appearance and layout of your web page, and JavaScript adds interactivity and functionality to your web page. You can use plain HTML, CSS, and JavaScript or use libraries and frameworks that simplify and enhance your development process.</p>
-<p>Some of the most popular libraries and frameworks for building user interfaces are React, Angular, Vue.js, Bootstrap, Tailwind CSS, jQuery, etc. These tools provide various features and benefits for creating dynamic and responsive web pages that can communicate with your API and database.</p>
-<p>Another way to build a user interface for a CRUD application is by using low-code or no-code platforms. These platforms allow you to create web pages using drag-and-drop components and visual editors without writing much or any code. Some of the most popular low-code or no-code platforms are Budibase, Appsmith, Bubble.io, Webflow, etc. These tools are great for beginners or non-developers who want to create simple and fast CRUD applications without learning complex technologies.</p>
+        <summary type="html"><![CDATA[CRUD アプリケーションは、ウェブページやモバイルアプリなどのさまざまなインターフェースを使用して、ユーザーがデータを作成、読み取り、更新、削除できるソフトウェアの一種です。]]></summary>
+        <content type="html"><![CDATA[<p>CRUD アプリケーションは、ユーザーがデータを作成、読み取り、更新、削除できるソフトウェアの一種で、ウェブ開発において非常に一般的です。これらは、複雑なコードを書かずにデータに基本的な操作を実行できるようにするもので、CRUD は、データモデルが行うべき四つの基本操作である「作成」、「読み取り」、「更新」、「削除」を表しています。</p>
+<p>CRUD アプリケーションは、データベース、ユーザーインターフェース、API の三つの主要なコンポーネントから構成されています。データはデータベースに格納され、取得されます。ユーザーインターフェースはユーザーが対話するフロントエンドです。API にはデータベースと通信するコードとメソッドが含まれます。各コンポーネントは、開発者のニーズと好みに応じて異なる技術とフレームワークを使用できます。</p>
+<p>このブログ記事では、CRUD アプリケーションを構築するための最高のツールをいくつか紹介し、各コンポーネントを個別にカバーします。また、それらを効果的に使用する方法についてもいくつかの例とヒントを提供します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="データベース">データベース<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9" class="hash-link" aria-label="データベース への直接リンク" title="データベース への直接リンク">​</a></h2>
+<p>データベースは、ユーザーがデータを作成、読み取り、更新、削除できるようにするためのCRUD アプリケーションの中核であり、さまざまなデータベースの種類がありますが、大まかにはリレーショナル（SQL）と非リレーショナル（NoSQL）に分類できます。</p>
+<p>リレーショナルデータベースは、データを格納するためにテーブルを使用し、各テーブルには事前に定義されたスキーマがあり、各行がレコードを表します。リレーショナルデータベースは、複雑なクエリとトランザクションが必要な構造化されたデータに適しています。最も人気のあるリレーショナルデータベースのいくつかは、MySQL、PostgreSQL、Oracle、SQL Server です。</p>
+<p>非リレーショナルデータベースは、データを格納するためにコレクションを使用し、各コレクションには柔軟なスキーマがあり、各ドキュメントがレコードを表します。非リレーショナルデータベースは、高いスケーラビリティとパフォーマンスが必要な非構造化およびダイナミックなデータに適しています。最も人気のある非リレーショナルデータベースのいくつかは、MongoDB、CouchDB、Firebase、DynamoDB です。</p>
+<p>CRUD アプリケーションに適したデータベースを選択するには、データの種類とボリューム、確実性と信頼性のレベル、実行するクエリの複雑さと頻度など、いくつかの要因を考慮する必要があります。また、データベースとユーザーインターフェース、API ツールの互換性と統合も考慮するべきです。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ユーザーインターフェース">ユーザーインターフェース<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E3%83%A6%E3%83%BC%EF%BF%BD%E3%82%B6%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9" class="hash-link" aria-label="ユーザーインターフェース への直接リンク" title="ユーザーインターフェース への直接リンク">​</a></h2>
+<p>ユーザーインターフェースは、CRUD アプリケーションのフロントエンドであり、ユーザーがデータベースに格納されているデータを表示し、操作できる場所です。ユーザーインターフェースは、アプリケーションのタイプと複雑さに応じてさまざまな技術とフレームワークを使用して構築できます。</p>
+<p>CRUD アプリケーションのユーザーインターフェースを構築する最も一般的な方法の一つは、HTML、CSS、JavaScript を使用することです。HTML はウェブページの構造とコンテンツを定義し、CSS はウェブページの外観とレイアウトをスタイル付け、JavaScript はウェブページに対話性と機能を追加します。プレーンな HTML、CSS、JavaScript を使用する</p>
+<p>か、開発プロセスを簡素化し強化するライブラリやフレームワークを使用できます。</p>
+<p>ユーザーインターフェースを構築するための最も人気のあるライブラリとフレームワークのいくつかは、React、Angular、Vue.js、Bootstrap、Tailwind CSS、jQuery などです。これらのツールは、動的でレスポンシブなウェブページを作成し、API とデータベースと通信できるさまざまな機能と利点を提供します。</p>
+<p>CRUD アプリケーションのユーザーインターフェースを構築する別の方法は、ローコードまたはノーコードプラットフォームを使用することです。これらのプラットフォームでは、ドラッグアンドドロップコンポーネントとビジュアルエディタを使用してコードをほとんどまたはまったく書かずにウェブページを作成できます。最も人気のあるローコードまたはノーコードプラットフォームのいくつかは、Budibase、Appsmith、Bubble.io、Webflow などです。これらのツールは、複雑な技術を学ぶことなくシンプルで迅速なCRUD アプリケーションを作成したい初心者や非開発者向けに最適です。</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="api">API<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#api" class="hash-link" aria-label="API への直接リンク" title="API への直接リンク">​</a></h2>
-<p>The API is the bridge between your user interface and your database. It defines how your user interface can request data from your database or send data to your database using HTTP methods such as GET (read), POST (create), PUT (update), or DELETE (delete). The API also handles authentication, authorization, validation, error handling, etc.</p>
-<p>There are many ways to build an API for your CRUD application, but one of the most common ways is using REST (Representational State Transfer). REST is an architectural style that defines how resources (data) can be accessed and manipulated using standard HTTP methods and formats such as JSON or XML. REST APIs are easy to understand and use by both humans and machines.</p>
-<p>Some of the most popular tools for building REST APIs are Node.js, Express.js, Flask, Django, Ruby on Rails, Laravel, etc. These tools are frameworks that provide various features and libraries for creating and managing web servers and APIs.</p>
-<p>Another way to build an API for your CRUD application is using GraphQL. GraphQL is a query language and a runtime that allows you to define and execute queries and mutations (operations) on your data using a single endpoint. GraphQL APIs are more flexible and efficient than REST APIs, as they allow you to request or send only the data you need, avoiding over-fetching or under-fetching.</p>
-<p>Some of the most popular tools for building GraphQL APIs are Apollo Server, Prisma, Hasura, Graphene, etc. These tools are libraries or platforms that help you create and manage GraphQL servers and schemas.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tools-for-building-crud-applications">Tools For Building Crud Applications<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#tools-for-building-crud-applications" class="hash-link" aria-label="Tools For Building Crud Applications への直接リンク" title="Tools For Building Crud Applications への直接リンク">​</a></h2>
-<p>You will find many software claiming to provide ease in building useful CRUD Applications, but you need to be careful to find the ones that help in making the most compatible CRUD Applications. Let us discuss the top 7 software that can help you. We short-listed these seven tools according to client’s preferences and feasibility. We will mention their features and drawbacks so that you can choose wisely and according to your demands.</p>
+<p>API はユーザーインターフェースとデータベースの間の橋渡しです。API は、HTTP メソッド（GET（読み取り）、POST（作成）、PUT（更新）、DELETE（削除）など）を使用して、ユーザーインターフェースがデータベースからデータをリクエストする方法やデータをデータベースに送信する方法を定義します。API はまた、認証、承認、検証、エラーハンドリングなどを処理します。</p>
+<p>CRUD アプリケーションのAPIを構築する方法はさまざまですが、最も一般的な方法の一つは REST（Representational State Transfer）を使用することです。REST は、リソース（データ）が標準的なHTTPメソッドとJSONまたはXMLなどのフォーマットを使用してアクセスおよび操作できる方法を定義するアーキテクチャスタイルです。REST API は、人間と機械の両方にとって理解しやすく使用しやすいです。</p>
+<p>REST API を構築するための最も人気のあるツールのいくつかは、Node.js、Express.js、Flask、Django、Ruby on Rails、Laravel などです。これらのツールは、ウェブサーバーとAPIを作成および管理するためのさまざまな機能とライブラリを提供します。</p>
+<p>CRUD アプリケーションのAPIを構築する別の方法は、GraphQL を使用することです。GraphQL はクエリ言語およびランタイムであり、単一のエンドポイントを使用してデータに対するクエリとミューテーション（操作）を定義および実行できるようにします。GraphQL API は、必要なデータのみをリクエストまたは送信できるため、過剰な取得や不足の取得を回避できるため、REST API よりも柔軟で効率的です。</p>
+<p>GraphQL API を構築するための最も人気のあるツールのいくつかは、Apollo Server、Prisma、Hasura、Graphene などです。これらのツールは、GraphQL サーバーとスキーマを作成および管理するのに役立つライブラリまたはプラットフォームです。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="crud-アプリケーションの構築ツール">CRUD アプリケーションの構築ツール<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#crud-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%A7%8B%E7%AF%89%E3%83%84%E3%83%BC%E3%83%AB" class="hash-link" aria-label="CRUD アプリケーションの構築ツール への直接リンク" title="CRUD アプリケーションの構築ツール への直接リンク">​</a></h2>
+<p>有用な CRUD アプリケーションを構築するのに便益を提供するソフトウェアは多数ありますが、最も適した CRUD アプリケーションを構築するのに役立つものを見つける必要があります。以下では、クライアントの好みと実行可能性に基づいて、おすすめの7つのソフトウェアについて説明し、それらの特徴と欠点を紹介し、賢明な選択ができるようにします。</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud">ILLA Cloud<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#illa-cloud" class="hash-link" aria-label="ILLA Cloud への直接リンク" title="ILLA Cloud への直接リンク">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/the-best-tools-for-build-crud-applications/illa.png" alt="illa" class="img_CfaS"></p>
-<p>ILLA  Cloud is an open-source low-code platform for building internal tools. Its main aim is to help programmers develop modules to monitor data, which is one of the most tedious jobs for a developer. Another new feature in this open-source low-code app is that you can make your own customized block of code and then later put it up for sale in the marketplace.</p>
-<p>It gets connected to the mainstream database, or, alternatively, it can connect to any database through APIs. It can even add action to the chain of user events. Its backend and front-end data components are tightly integrated; hence developers can write data calls for massive information interaction.</p>
-<p>It is doubly useful for developers because it offers them the freedom to implement richer functionality. They can use {{template syntax}} for richer content.</p>
-<p>It allows real-time collaboration, making it easier for developers to interact at different ends of the world to work on it simultaneously. They can use ILLA Builder by sharing links, co-editing, and communicating for improved development efficiency.</p>
-<p>ILLA Builder has a comprehensive UI library. It has several useful components that developers can use to drop and drag to build attractive interfaces without wasting much time</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features">Features:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#features" class="hash-link" aria-label="Features: への直接リンク" title="Features: への直接リンク">​</a></h3>
+<p>ILLA Cloudは、内部ツールを構築するためのオープンソースの低コードプラットフォームです。その主な目的は、プログラマーがデータを監視するためのモジュールを開発するのを支援することであり、開発者にとって最も退屈な仕事の1つです。このオープンソースの低コードアプリの新機能のもう一つは、カスタマイズされたコードブロックを作成し、後でマーケットプレイスで販売できることです。</p>
+<p>それは主流のデータベースに接続されるか、または代替としてAPIを介して任意のデータベースに接続できます。ユーザーイベントの連鎖にアクションを追加することさえできます。バックエンドとフロントエンドのデータコンポーネントは密接に統合されており、開発者は大量の情報の相互作用のためのデータ呼び出しを書くことができます。</p>
+<p>開発者にとっては、より豊かな機能を実装する自由を提供するため、2倍に役立ちます。彼らは{{テンプレート構文}}を使用してより豊かなコンテンツを作成できます。</p>
+<p>リアルタイムのコラボレーションを可能にし、異なる場所で作業する開発者が同時に作業するのを容易にします。開発効率を向上させるために、リンクを共有し、共同編集し、コミュニケーションすることができます。</p>
+<p>ILLA Builderには包括的なUIライブラリがあります。開発者は時間を無駄にせずに魅力的なインターフェースを構築するために使用できる多くの便利なコンポーネントがあります。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴">特徴:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%89%B9%E5%BE%B4" class="hash-link" aria-label="特徴: への直接リンク" title="特徴: への直接リンク">​</a></h3>
 <ul>
-<li>It can easily be integrated with any database.</li>
-<li>You can download ILLA CLI for any of these operating systems: Windows, Linux, and MAC.</li>
-<li>It offers real-time collaboration which enables the developers to communicate for better development.</li>
-<li>It provides flexible deployment. You can use ILLA Cloud, ILLA CLI, Kubernetes, and Docker.</li>
-<li>You can easily integrate third-party APIs.</li>
-<li>It is free to share, use, copy, and update.</li>
-<li>It is constantly being polished with new updates and features.</li>
+<li>任意のデータベースと簡単に統合できます。</li>
+<li>ILLA CLIをWindows、Linux、MACのいずれかのオペレーティングシステムにダウンロードできます。</li>
+<li>開発者がコミュニケーションを取るためのリアルタイムの協力を提供します。</li>
+<li>柔軟な展開を提供します。ILLA Cloud、ILLA CLI、Kubernetes、およびDockerを使用できます。</li>
+<li>サードパーティのAPIを簡単に統合できます。</li>
+<li>共有、使用、コピー、および更新が無料です。</li>
+<li>新しいアップデートと機能で常に磨かれています。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks">Drawbacks:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#drawbacks" class="hash-link" aria-label="Drawbacks: への直接リンク" title="Drawbacks: への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点">欠点:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E6%AC%A0%E7%82%B9" class="hash-link" aria-label="欠点: への直接リンク" title="欠点: への直接リンク">​</a></h3>
 <ul>
-<li>ILLA Cloud has basically been developed for the convenience of programmers.</li>
-<li>You need to be proficient in either of the four languages to fully utilize it. JavaScript, RUST, and Forlang are its major languages.</li>
+<li>ILLA Cloudは基本的にプログラマーの利便性のために開発されました。</li>
+<li>これを十分に活用するには、JavaScript、RUST、およびForlangのいずれかを習得する必要があります。</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith">AppSmith<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#appsmith" class="hash-link" aria-label="AppSmith への直接リンク" title="AppSmith への直接リンク">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/the-best-tools-for-build-crud-applications/appsmith.png" alt="appsmith" class="img_CfaS"></p>
-<p>AppSmith was the first open-source low-code tool. It introduced the developers to a whole new world of click-and-drag programming. The standard plan consists of unlimited apps and widgets that are immensely useful for building live dashboards. This standard plan is free. It has many features; a summary of these is below:</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features-1">Features:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#features-1" class="hash-link" aria-label="Features: への直接リンク" title="Features: への直接リンク">​</a></h3>
+<p>AppSmithは最初のオープンソースの低コードツールでした。開発者にクリックアンドドラッグプログラミングの全く新しい世界を紹介しました。標準プランには無制限のアプリとウィジェットが含まれており、ライブダッシュボードを構築するのに非常に役立ちます。この標準プランは無料です。これらの特徴の要約は以下です。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴-1">特徴:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%89%B9%E5%BE%B4-1" class="hash-link" aria-label="特徴: への直接リンク" title="特徴: への直接リンク">​</a></h3>
 <ul>
-<li>It easily gets connected to your supported database.</li>
-<li>Instinctive drag-and-drop widgets prove to be very helpful and make coding even easier.</li>
-<li>A complete guide, including documentation and videos, is available for guidance.</li>
+<li>サポートされているデータベースに簡単に接続できます。</li>
+<li>直感的なドラッグアンドドロップウィジェットは非常に役立ち、コーディングをさらに簡単にします。</li>
+<li>ガイド完備で、ドキュメンテーションやビデオも利用可能です。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks-1">Drawbacks:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#drawbacks-1" class="hash-link" aria-label="Drawbacks: への直接リンク" title="Drawbacks: への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点-1">欠点:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E6%AC%A0%E7%82%B9-1" class="hash-link" aria-label="欠点: への直接リンク" title="欠点: への直接リンク">​</a></h3>
 <ul>
-<li>To fully utilize this app, you need to know JavaScript.</li>
+<li>このアプリを十分に活用するには、JavaScriptを知っている必要があります。</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="knack">Knack<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#knack" class="hash-link" aria-label="Knack への直接リンク" title="Knack への直接リンク">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/the-best-tools-for-build-crud-applications/knack.png" alt="knack" class="img_CfaS"></p>
-<p>Knack is another no-code app that is used generally used for automating manual processes. It will be problematic if you try to plug it in with an existing database. It has certain limitations, which is why it is best used for internal processes only. It will allow you to view, manage, update, analyze, and share data. The application templates for different cases start quickly. Here are a few features of this application.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features-2">Features:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#features-2" class="hash-link" aria-label="Features: への直接リンク" title="Features: への直接リンク">​</a></h3>
+<p>Knackは、一般的には手動プロセスを自動化するために使用されるノーコードアプリです。既存のデータベースと統合しようとすると問題が発生する可能性があります。特定の制限があるため、内部プロセスに最適です。データを表示、管理、更新、分析、共有することができます。さまざまなケースのアプリケーションテンプレートが迅速に開始されます。以下はこのアプリケーションのいくつかの機能です。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴-2">特徴：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%89%B9%E5%BE%B4-2" class="hash-link" aria-label="特徴： への直接リンク" title="特徴： への直接リンク">​</a></h3>
 <ul>
-<li>It supports a built-in database as well as user management, authentication, email, and notification automation workflows.</li>
-<li>Developers can easily customize it with JavaSript and CSS.</li>
-<li>A complete guide, including documentation and videos, is available for guidance.</li>
+<li>組み込みのデータベースとユーザー管理、認証、電子メール、および通知の自動ワークフローをサポートします。</li>
+<li>開発者はJavaScriptとCSSで簡単にカスタマイズできます。</li>
+<li>ガイド全般、ドキュメンテーションとビデオを含む、ガイダンス用の完全なガイドが利用可能です。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks-2">Drawbacks:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#drawbacks-2" class="hash-link" aria-label="Drawbacks: への直接リンク" title="Drawbacks: への直接リンク">​</a></h3>
-<p>The most severe drawback is its incapability to interact with other databases.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点-2">欠点：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E6%AC%A0%E7%82%B9-2" class="hash-link" aria-label="欠点： への直接リンク" title="欠点： への直接リンク">​</a></h3>
+<p>最も深刻な欠点は、他のデータベースと対話できないことです。</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="budibase">Budibase<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#budibase" class="hash-link" aria-label="Budibase への直接リンク" title="Budibase への直接リンク">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/the-best-tools-for-build-crud-applications/budibase.png" alt="budibase" class="img_CfaS"></p>
-<p>Budibase is another popular low-code tool extensively used for CRUD applications. You can easily integrate it with major databases. Below are a few prominent features of the tool.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features-3">Features:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#features-3" class="hash-link" aria-label="Features: への直接リンク" title="Features: への直接リンク">​</a></h3>
+<p>Budibaseは、CRUDアプリケーションのために広く使用されている人気のあるローコードツールです。主要なデータベースと簡単に統合できます。以下はツールのいくつかの主要な特徴です。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴-3">特徴：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%89%B9%E5%BE%B4-3" class="hash-link" aria-label="特徴： への直接リンク" title="特徴： への直接リンク">​</a></h3>
 <ul>
-<li>It has a load of widgets and other features to beautify your page.</li>
-<li>It supports an internal database but supports by connecting to an external database as well.</li>
-<li>In the shape of extensive documentation, a complete guide is also available for guidance.</li>
+<li>ページを美化するための多くのウィジェットとその他の機能があります。</li>
+<li>内部データベースをサポートしますが、外部データベースに接続することもサポートします。</li>
+<li>包括的なドキュメンテーションが利用可能で、ガイダンスも提供されています。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks-3">Drawbacks:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#drawbacks-3" class="hash-link" aria-label="Drawbacks: への直接リンク" title="Drawbacks: への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点-3">欠点：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E6%AC%A0%E7%82%B9-3" class="hash-link" aria-label="欠点： への直接リンク" title="欠点： への直接リンク">​</a></h3>
 <ul>
-<li>JavaScript, as well as technical skills, are required.</li>
-<li>No templates are available.</li>
+<li>JavaScriptおよび技術スキルが必要です。</li>
+<li>テンプレートは利用できません。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="bubble">Bubble<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#bubble" class="hash-link" aria-label="Bubble への直接リンク" title="Bubble への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="bubble">Bubble<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#bubble" class="hash-link" aria-label="Bubble への直接リン��ク" title="Bubble への直接リンク">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/the-best-tools-for-build-crud-applications/bubble.png" alt="bubble" class="img_CfaS"></p>
-<p>This much more complicated tool is not recommended for smaller internal apps.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features-4">Features:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#features-4" class="hash-link" aria-label="Features: への直接リンク" title="Features: への直接リンク">​</a></h3>
+<p>このはるかに複雑なツールは、小規模な内部アプリにはお勧めできません。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴-4">特徴：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%89%B9%E5%BE%B4-4" class="hash-link" aria-label="特徴： への直接リンク" title="特徴： への直接リンク">​</a></h3>
 <ul>
-<li>Widgets and designs are available.</li>
-<li>Perfectly capable of deployment.</li>
-<li>The volume of traffic, users, and data is unlimited.</li>
+<li>ウィジェットとデザインが利用可能です。</li>
+<li>完璧に展開できます。</li>
+<li>トラフィック、ユーザー、データのボリュームは無制限です。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks-4">Drawbacks:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#drawbacks-4" class="hash-link" aria-label="Drawbacks: への直接リンク" title="Drawbacks: への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点-4">欠点：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E6%AC%A0%E7%82%B9-4" class="hash-link" aria-label="欠点： への直接リンク" title="欠点： への直接リンク">​</a></h3>
 <ul>
-<li>It is complicated to learn.</li>
-<li>You cannot host it on your infrastructure</li>
+<li>学習が複雑です。</li>
+<li>自分のインフラストラクチャにホストすることはできません。</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="ui-bakery">UI Bakery<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#ui-bakery" class="hash-link" aria-label="UI Bakery への直接リンク" title="UI Bakery への直接リンク">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/the-best-tools-for-build-crud-applications/uibakery.png" alt="bakery" class="img_CfaS"></p>
-<p>This app is a relatively new product but is still the perfect no-code tool for building internal tools and CRUD apps because of the predefined widgets and ready-made templates. It can easily connect to SQL Databases like MySQL, Google Datasheets, and Postgres.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features-5">Features:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#features-5" class="hash-link" aria-label="Features: への直接リンク" title="Features: への直接リンク">​</a></h3>
+<p>このアプリは比較的新しい製品ですが、事前定義のウィジェットと作成済みのテンプレートがあるため、内部ツールとCRUDアプリケーションを構築するための完璧なノーコードツールです。MySQL、Googleデータシート、およびPostgresなどのSQLデータベースに簡単に接続できます。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴-5">特徴：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%89%B9%E5%BE%B4-5" class="hash-link" aria-label="特徴： への直接リンク" title="特徴： への直接リンク">​</a></h3>
 <ul>
-<li>It supports user management through Google, Twitter, and Facebook.</li>
-<li>Developers can do app hosting on a unique URL</li>
-<li>You can customize the widgets and templates.</li>
+<li>Google、Twitter、およびFacebookを介したユーザー管理をサポートします。</li>
+<li>開発者はユニークなURLでアプリのホスティングを行うことができます。</li>
+<li>ウィジェットとテンプレートをカスタマイズできます。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks-5">Drawbacks:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#drawbacks-5" class="hash-link" aria-label="Drawbacks: への直接リンク" title="Drawbacks: への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点-5">欠点：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E6%AC%A0%E7%82%B9-5" class="hash-link" aria-label="欠点： への直接リンク" title="欠点： への直接リンク">​</a></h3>
 <ul>
-<li>It is not suitable for public-facing apps, customer-facing websites, and mobile apps.</li>
-<li>You need technical staff to deal with this, as it requires a moderate level of knowledge to deal with JavaScript.</li>
+<li>一般向けアプリ、顧客向けウェブサイト、およびモバイルアプリには適していません。</li>
+<li>これに対処するために技術スタッフが必要で、JavaScriptの取り扱いには適度な知識が必要です。</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="retool">Retool<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#retool" class="hash-link" aria-label="Retool への直接リンク" title="Retool への直接リンク">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/the-best-tools-for-build-crud-applications/retool.png" alt="retool" class="img_CfaS"></p>
-<p>Though last on the list, retool is also an excellent choice as a CRUD application. It is a drag-and-drop building blocks platform. You need to customize JavaScript in order to fetch your data from an external database.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="features-6">Features:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#features-6" class="hash-link" aria-label="Features: への直接リンク" title="Features: への直接リンク">​</a></h3>
+<p>リストの最後になりますが、retoolもCRUDアプリケーションとして優れた選択肢です。これはドラッグアンドドロップのビルディングブロックプラットフォームです。外部データベースからデータを取得するにはJavaScriptをカスタマイズする必要があります。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="特徴-6">特徴：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%89%B9%E5%BE%B4-6" class="hash-link" aria-label="特徴： への直接リンク" title="特徴： への直接リンク">​</a></h3>
 <ul>
-<li>It supports built-in authorization and authentication.</li>
-<li>You can customize it with JavaScript.</li>
+<li>組み込みの認証と認可をサポートします。</li>
+<li>JavaScriptでカスタマイズできます。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="drawbacks-6">Drawbacks:<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#drawbacks-6" class="hash-link" aria-label="Drawbacks: への直接リンク" title="Drawbacks: への直接リンク">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="欠点-6">欠点：<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E6%AC%A0%E7%82%B9-6" class="hash-link" aria-label="欠点： への直接リンク" title="欠点： への直接リンク">​</a></h3>
 <ul>
-<li>Its free plan is minimal and charges at a per-end user base.</li>
-<li>You cannot use it for public-facing apps.</li>
+<li>無料プランは最小限であり、エンドユーザーベースで料金がかかります。</li>
+<li>一般向けアプリには使用できません。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>CRUD applications are a type of software that allows users to create, read, update, and delete data using various interfaces. CRUD applications consist of three main components: a database, a user interface, and an API. Each component can use different technologies and frameworks, depending on the needs and preferences of the developer.</p>
-<p>In this blog post, we reviewed some of the best tools for building CRUD applications, covering each component separately. We also provided some examples and tips on how to use them effectively. We hope this post helped you learn more about CRUD applications and how to build them.</p>
-<p>If you are looking for a tool that can help you build CRUD applications quickly and easily, we recommend you check out ILLA Cloud. ILLA Cloud is a cloud-based platform that lets you create CRUD applications without coding. You can connect to any database or API, design your user interface with drag-and-drop components, and deploy your application with one click. ILLA Cloud also provides features such as authentication, authorization, validation, error handling, etc. ILLA Cloud is the best tool for building CRUD applications in minutes.</p>]]></content>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/the-best-tools-for-build-crud-applications#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>CRUDアプリケーションは、さまざまなインターフェースを使用してデータの作成、読み取り、更新、削除をユーザーに許可するソフトウェアの一種です。CRUDアプリケーションは、データベース、ユーザーインターフェース、APIの3つの主要</p>
+<p>なコンポーネントで構成されています。各コンポーネントは、開発者のニーズと好みに応じて異なるテクノロジとフレームワークを使用できます。</p>
+<p>このブログ投稿では、CRUDアプリケーションを構築するための最高のツールのいくつかを個別にカバーしました。また、それらを効果的に使用するための例とヒントも提供しました。この投稿が、CRUDアプリケーションについての知識を深め、その構築方法を学ぶのに役立つことを願っています。</p>
+<p>CRUDアプリケーションを迅速かつ簡単に構築できるツールをお探しの場合、ILLA Cloudをご利用いただくことをお勧めします。ILLA Cloudは、コーディング不要でCRUDアプリケーションを作成できるクラウドベースのプラットフォームです。任意のデータベースやAPIに接続し、ドラッグアンドドロップコンポーネントでユーザーインターフェースを設計し、ワンクリックでアプリケーションを展開できます。ILLA Cloudは、認証、認可、バリデーション、エラーハンドリングなどの機能も提供しています。ILLA Cloudは、数分でCRUDアプリケーションを構築するための最高のツールです。</p>]]></content>
         <author>
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>
@@ -1083,15 +1028,15 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
         <category label="tools" term="tools"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1万のスター！このオープンソースのローコードツールは海外で大人気です。]]></title>
-        <id>https://illacloud.github.io/illa-website/ja/blog/popular-tool</id>
-        <link href="https://illacloud.github.io/illa-website/ja/blog/popular-tool"/>
+        <title type="html"><![CDATA[内部ツールを構築するための最高のオープンソース低コードプラットフォーム]]></title>
+        <id>https://illacloud.github.io/illa-website/ja/blog/internal-tool</id>
+        <link href="https://illacloud.github.io/illa-website/ja/blog/internal-tool"/>
         <updated>2024-01-05T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[オープンソースのツールは一般的ですが、1万のスターを持つものは珍しいです。]]></summary>
         <content type="html"><![CDATA[<p>オープンソースのツールは一般的ですが、1万のスターを持つものは珍しいです。私は海外で1万のスターを持つ製品を共有します。ローコードツールはたくさんありますが、実際に役立つものは少ないです。このツールは主に北米の開発者によって使用され、そのDiscordコミュニティは非常に活発です。</p>
 <p>コミュニティには実際に良いレビューがあります。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/good.png" alt="good" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloudのできること">ILLA Cloudのできること<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#illa-cloud%E3%81%AE%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8" class="hash-link" aria-label="ILLA Cloudのできること への直接リンク" title="ILLA Cloudのできること への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloudのできること">ILLA Cloudのできること<a href="https://illacloud.github.io/illa-website/ja/blog/internal-tool#illa-cloud%E3%81%AE%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8" class="hash-link" aria-label="ILLA Cloudのできること への直接リンク" title="ILLA Cloudのできること への直接リンク">​</a></h2>
 <p>Github: <a href="https://illacloud.com/illacloud/illa-builder" target="_blank" rel="noopener noreferrer">https://illacloud.com/illacloud/illa-builder</a></p>
 <p>公式ウェブサイト: <a href="https://illa.cloud/" target="_blank" rel="noopener noreferrer">https://illa.cloud</a></p>
 <p>ILLA Cloudの主要なユーザーはバックエンドエンジニアで、これは一般的な考えとは異なるかもしれません。多くのバックエンドエンジニアがILLA Cloudを使用して、多くのデータパネルや管理バックエンドを構築しています。結局のところ、ウェブ開発は常にバックエンドエンジニアにとって頭痛の種でした。ILLA Cloudで作成されたツールは、見た目も美しく、高速です。</p>
@@ -1116,12 +1061,12 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
 </ul>
 <p>エンジニアはILLA Flowを使用して、多くのタスクを自動的に実行します。たとえば、データベースからビジネスデータを毎日読み取り、Slackに送信したり、CI/CDレポートシステムを構築したり、特定の警告が発生したときにメールを送信したりします。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/flow.jpeg" alt="flow" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ユーザーエクスペリエンス">ユーザーエクスペリエンス<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A8%E3%83%B3%E3%82%B9" class="hash-link" aria-label="ユーザーエクスペリエンス への直接リンク" title="ユーザーエクスペリエンス への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ユーザーエクスペリエンス">ユーザーエクスペリエンス<a href="https://illacloud.github.io/illa-website/ja/blog/internal-tool#%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A8%E3%83%B3%E3%82%B9" class="hash-link" aria-label="ユーザーエクスペリエンス への直接リンク" title="ユーザーエクスペリエンス への直接リンク">​</a></h2>
 <p>私はそれを簡単に体験しましたが、エディターのスムーズさと全体的なエクスペリエンスに本当に多くの努力が払われています。全体的な編集体験はかなり良いです。スムーズなドラッグアンドドロップの機能も含まれており、協力もサポートされています。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/team.gif" alt="collabration" class="img_CfaS"></p>
 <p>さまざまなデータベース統合機能もサポートされており、さまざまなデータソースとデータベースからの迅速なデータの読み取りと書き込みが可能です。バックエンドエンジニアにとって、さまざまなサービスを統合することは本当に悪夢です。この場合、ILLAはすでにその作業を行っています。また、Huggingfaceとの統合もサポートしており、公式のコラボレーションのようです。Huggingfaceのモデル機能を素早く使用できるようになり、本当に興味深いです。いくつかのAI駆動のツールを迅速に作成できます。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/popular-tool/resource.png" alt="resource" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/popular-tool#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/internal-tool#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
 <p>ローコードツールはたくさんありますが、実際に使用および実装できるものは少ないです。ILLA</p>
 <p>は現在2年間維持されており、その会社は現在これに完全に専念しています。特定の目的のために製造された一部のローコードツールとは異なり、彼らは開発者のニーズに直接対応しています。誰でも試すことができます！"</p>]]></content>
         <author>
@@ -1134,21 +1079,21 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
         <category label="javascript" term="javascript"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ILLA Flow: A javascript-driven, developer-friendly product for creating automate workflow]]></title>
+        <title type="html"><![CDATA[ILLA Flow: JavaScript駆動、開発者向けの自動ワークフロー作成製品]]></title>
         <id>https://illacloud.github.io/illa-website/ja/blog/launch-flow</id>
         <link href="https://illacloud.github.io/illa-website/ja/blog/launch-flow"/>
         <updated>2024-01-05T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping.]]></summary>
-        <content type="html"><![CDATA[<p>Hi everyone, I'm Owen, and we are a startup company focused on low-code solutions. Our team is quite small, consisting of only 7 people.</p>
-<p>Today, we launched our new product: ILLA Flow.</p>
-<p>Website: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a> (You can find it after login, at the left of dashboard -&gt; Flow)</p>
+        <summary type="html"><![CDATA[ILLA Flowは、マインドマッピングに似た方法で完全なワークフローを構築できるワークフロー製品です。]]></summary>
+        <content type="html"><![CDATA[<p>みなさん、こんにちは。私はオーウェンで、私たちはローコードソリューションに特化したスタートアップ企業です。私たちのチームは非常に小さく、わずか7人です。</p>
+<p>今日、私たちは新しい製品、ILLA Flowを発売しました。</p>
+<p>ウェブサイト: <a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a> (ログイン後、ダッシュボードの左側にあります -&gt; Flow)</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-flow">ILLA Flow<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#illa-flow" class="hash-link" aria-label="ILLA Flow への直接リンク" title="ILLA Flow への直接リンク">​</a></h2>
-<p>ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.</p>
-<p>You can build your own workflow through a drag-and-drop interface, and then execute your workflow by scheduling triggers or Webhook triggers.</p>
-<p>The smooth drag-and-drop experience allows you to quickly build workflows without worrying about any integration issues. The entire system is driven by JavaScript, ensuring flexibility while also being developer-friendly.</p>
+<p>ILLA Flowは、マインドマッピングに似た方法で完全なワークフローを構築できるワークフロー製品で、さまざまなデータベースやAPIとの接続とスケジューリングが可能です。</p>
+<p>ドラッグアンドドロップインターフェースを使用して独自のワークフローを構築し、トリガーのスケジューリングやWebhookトリガーを使用してワークフローを実行できます。</p>
+<p>スムーズなドラッグアンドドロップのエクスペリエンスにより、統合の問題を気にせずに素早くワークフローを構築できます。システム全体はJavaScriptによって駆動されており、柔軟性を確保しながら開発者向けにも適しています。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/flow.jpeg" alt="flow" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="integrate-everything">Integrate Everything<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#integrate-everything" class="hash-link" aria-label="Integrate Everything への直接リンク" title="Integrate Everything へ�の直接リンク">​</a></h2>
-<p>ILLA Flow can connect to any</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="すべてを統合">すべてを統合<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#%E3%81%99%E3%81%B9%E3%81%A6%E3%82%92%E7%B5%B1%E5%90%88" class="hash-link" aria-label="すべてを統合 への直接リンク" title="すべてを統合 への直接リンク">​</a></h2>
+<p>ILLA Flowは、以下に接続できます</p>
 <ul>
 <li>RestAPI</li>
 <li>MySQL</li>
@@ -1157,33 +1102,32 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
 <li>...</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/resource.jpeg" alt="resource" class="img_CfaS"></p>
-<p>We will strive to expand support for more connectivity features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="some-examples">Some examples<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#some-examples" class="hash-link" aria-label="Some examples への直接リンク" title="Some examples への直接リンク">​</a></h2>
-<p>ILLA Flow supports multiple trigger types, including scheduled triggers and Webhook triggers.</p>
-<p>We use ILLA Flow to do lots of things, like:</p>
+<p>より多くの接続機能のサポートを拡充する努力をしていきます。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="いくつかの例">いくつかの例<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#%E3%81%84%E3%81%8F%E3%81%A4%E3%81%8B%E3%81%AE%E4%BE%8B" class="hash-link" aria-label="いくつかの例 への直接リンク" title="いくつかの例 への直接リンク">​</a></h2>
+<p>ILLA Flowは、スケジュールトリガーやWebhookトリガーを含む複数のトリガータイプをサポートしています。</p>
+<p>ILLA Flowを使用して、以下のようなことができます：</p>
 <ul>
-<li>Send a message to Slack when a new user registers</li>
-<li>Report the number of stars on GitHub every day</li>
-<li>Book a meeting room every day</li>
+<li>新しいユーザーが登録するとSlackにメッセージを送信</li>
+<li>GitHubでの星の数を毎日報告</li>
+<li>毎日会議室を予約</li>
 <li>...</li>
 </ul>
-<p>Our engineers use ILLA Flow to automate many tasks, like:</p>
+<p>エンジニアたちは、以下のようなタスクを自動化するためにILLA Flowを使用しています：</p>
 <ul>
-<li>Read some business data from databases and send to Slack every day</li>
-<li>Build a CI/CD report system</li>
-<li>Send email when some warning occurs</li>
+<li>データベースからビジネスデータを読み取り、毎日Slackに送信</li>
+<li>CI/CDレポートシステムを構築</li>
+<li>警告が発生した場合にメールを送信</li>
 <li>...</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>ILLA Flow supports scheduled triggers and the use of Webhooks for triggering. As a low-code tool, ILLA also enables the construction of panels to drive multiple workflows, forming a complete business process. Currently, the product is entirely free and requires no costs.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/launch-flow#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>ILLA Flowは、スケジュールトリガーとWebhooksの使用をサポートしています。ローコードツールとして、ILLAは複数のワークフローを駆動するためのパネルの構築も可能で、完全なビジネスプロセスを形成します。現在、製品は完全に無料で、費用はかかりません。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/launch-flow/dashboard.jpeg" alt="dashboard" class="img_CfaS"></p>
-<p>Our initial intention in creating this product was to address the lack of developer-friendly workflow products on the market. We aim to build a complete low-code matrix product to provide a better experience. Moreover, we have achieved multi-person real-time collaboration, similar to the experience of editing in Figma, ensuring that a team can edit workflows together.</p>
-<p>As an early-stage product, there are still many features that are not perfect, and we hope everyone can provide valuable feedback to help us optimize it.</p>]]></content>
+<p>この製品を作成した初期の意図は、市場に開発者向けのワークフロー製品が不足していることに対処することでした。私たちはより良い体験を提供するために、完全なローコードマトリックス製品を構築することを目指しています。さらに、Figmaで編集するようなチームでのリアルタイム共同編集を実現し、製品が初期段階であるため、まだ完璧ではない多くの機能があり、皆さんからの貴重なフィードバックを提供していただければ幸いです。</p>]]></content>
         <author>
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <category label="workflow" term="workflow"/>
+        <category label="ワークフロー" term="ワークフロー"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[2024年のベストローコードプラットフォーム5選]]></title>
@@ -1369,51 +1313,52 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
         <category label="コアアプリダッシュボード" term="コアアプリダッシュボード"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to build a custom low code CRM in 2024]]></title>
+        <title type="html"><![CDATA[2024年にカスタムの低コードCRMを構築する方法]]></title>
         <id>https://illacloud.github.io/illa-website/ja/blog/low-code-crm</id>
         <link href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm"/>
         <updated>2024-01-04T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With the evolution of low-code platforms, an increasing number of businesses are turning to these platforms to build their operational systems.]]></summary>
-        <content type="html"><![CDATA[<p>With the evolution of low-code platforms, an increasing number of businesses are turning to these platforms to build their operational systems. The main advantage of low-code platforms lies in their ability to rapidly iterate. This rapid iteration is key to swiftly responding to market changes, which in turn leads to quick market share acquisition. Gaining market share rapidly is essential for fast capital acquisition, and this swift capital influx fuels further rapid iteration. This cycle positions low-code platforms as the preferred choice for businesses to develop their operational systems in the coming years.</p>
-<p>Customer Relationship Management (CRM), a system essential for every business, stands as a significant application scenario for low-code platforms. This article will explore how to build a CRM system using a low-code platform.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-build-your-own-crm">Why Build Your Own CRM?<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#why-build-your-own-crm" class="hash-link" aria-label="Why Build Your Own CRM? への直接リンク" title="Why Build Your Own CRM? への直接リンク">​</a></h2>
-<p>While every business requires a CRM system, the ones currently available in the market are either too complex or overly simplistic, making it hard to meet specific business needs. As a result, many businesses opt to build their own CRM systems.</p>
-<p>Using low-code tools to build a CRM system allows for rapid iteration and swift response to market changes. This cycle cements the future of low-code platforms as the go-to solution for businesses developing operational systems.</p>
-<p>The flexible capabilities of low-code allow for quick, from-the-ground-up construction of fully customized CRM tools tailored to a company's unique requirements.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-of-low-code-platforms">Advantages of Low-Code Platforms<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#advantages-of-low-code-platforms" class="hash-link" aria-label="Advantages of Low-Code Platforms への直接リンク" title="Advantages of Low-Code Platforms への直接リンク">​</a></h2>
-<p>The primary advantage of low-code platforms is their ability to facilitate rapid iteration. This rapid iteration is crucial for quick response to market changes, which leads to swift market share and capital acquisition, feeding back into more rapid iteration. This cycle ensures that low-code platforms will remain the preferred choice for businesses building operational systems in the near future.</p>
-<p>Building a CRM with low-code means focusing solely on business logic without worrying about operational costs or design styles. It empowers everyone to develop customized systems for their company and team.</p>
-<p>Moreover, these systems are aesthetically pleasing and easily modifiable.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="building-crm-with-illa-cloud">Building CRM with ILLA Cloud<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#building-crm-with-illa-cloud" class="hash-link" aria-label="Building CRM with ILLA Cloud への直接リンク" title="Building CRM with ILLA Cloud への直接リンク">​</a></h2>
-<p>ILLA Cloud is a low-code platform that helps businesses quickly build their operational systems. It offers a wide range of components, enabling the rapid construction of business systems.</p>
+        <summary type="html"><![CDATA[低コードプラットフォームの進化と共に、ますます多くの企業がこれらのプラットフォームを使用して業務システムを構築しようとしています。]]></summary>
+        <content type="html"><![CDATA[<p>低コードプラットフォームの進化と共に、ますます多くの企業がこれらのプラットフォームを使用して業務システムを構築しようとしています。低コードプラットフォームの主要な利点は、迅速な反復が可能であることです。この迅速な反復は、市場の変化に迅速に対応する鍵であり、それが迅速な市場シェアの獲得につながります。迅速な市場シェアの獲得は、迅速な資本調達に不可欠であり、この迅速な資本流入がさらなる迅速な反復を促進します。このサイクルにより、低コードプラットフォームは今後数年間にわたり、企業が業務システムを開発するための優先選択肢として位置付けられています。</p>
+<p>顧客関係管理（CRM）は、すべてのビジネスにとって不可欠なシステムであり、低コードプラットフォームにおける重要なアプリケーションシナリオとして存在しています。この記事では、低コードプラットフォームを使用してCRMシステムを構築する方法を探ります。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="なぜ独自のcrmを構築するのか">なぜ独自のCRMを構築するのか？<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#%E3%81%AA%E3%81%9C%E7%8B%AC%E8%87%AA%E3%81%AEcrm%E3%82%92%E6%A7%8B%E7%AF%89%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8B" class="hash-link" aria-label="なぜ独自のCRMを構築するのか？ への直接リンク" title="なぜ独自のCRMを構築するのか？ への直接リンク">​</a></h2>
+<p>すべてのビジネスにはCRMシステムが必要ですが、市場で現在利用可能なものは複雑すぎるか、過度に単純化されており、特定のビジネスニーズを満たすのが難しいため、多くの企業が独自のCRMシステムを構築することを選択しています。</p>
+<p>低コードツールを使用してCRMシステムを構築することにより、迅速な反復と市場の変化に迅速に対応できます。このサイクルは、低コードプラットフォームの将来を確立し、業務システムを開発するための解決策として確立します。</p>
+<p>低コードの柔軟な機能により、企業の固有の要件に合わせた完全にカスタマイズされたCRMツールを迅速に作成できます。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="低コードプラットフォームの利点">低コードプラットフォームの利点<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#%E4%BD%8E%E3%82%B3%E3%83%BC%E3%83%89%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AE%E5%88%A9%E7%82%B9" class="hash-link" aria-label="低コードプラットフォームの利点 への直接リンク" title="低コードプラットフォームの利点 への直接リンク">​</a></h2>
+<p>低コードプラットフォームの主要な利点は、迅速な反復をサポートできる能力です。この迅速な反復は、市場の変化に迅速に対応するために重要であり、迅速な市場シェアと資本の獲得につながり、さらなる迅速な反復にフィードバックします。このサイクルにより、低コードプラットフォームは近い将来、業務システムを構築するための企業の優先選択肢として確立されます。</p>
+<p>低コードを使用してCRMを構築することは、操作コストやデザインスタイルを気にせず、ビジネスロジックに焦点を当てることを意味します。これにより、誰でも自社やチーム向けにカスタマイズされたシステムを開発できます。</p>
+<p>さらに、これらのシステムは美しく、簡単に変更できます。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloudでcrmを構築する">ILLA CloudでCRMを構築する<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#illa-cloud%E3%81%A7crm%E3%82%92%E6%A7%8B%E7%AF%89%E3%81%99%E3%82%8B" class="hash-link" aria-label="ILLA CloudでCRMを構築する への直接リンク" title="ILLA CloudでCRMを構築する への直接リンク">​</a></h2>
+<p>ILLA Cloudは、企業が迅速に業務システムを構築するのを支援する低コードプラットフォームです。様々なコンポーネントを提供し、ビジネスシステムを迅速に構築できるようにします。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/low-code-crm/crm.webp" alt="crm" class="img_CfaS"></p>
-<p>The system built with ILLA Cloud offers several features:</p>
+<p>ILLA Cloudで構築されたシステムには、以下の機能があります：</p>
 <ul>
-<li>Customer management</li>
-<li>Progress tracking</li>
-<li>Data report management</li>
+<li>顧客管理</li>
+<li>進捗トラッキング</li>
+<li>データレポート管理</li>
 </ul>
-<p>As a low-code tool, ILLA Cloud allows for unlimited customization, enabling the creation of bespoke features unique to a company.</p>
-<p>With drag-and-drop simplicity, ILLA Cloud enables rapid construction of custom UIs, allowing users to create a fully-functional low-code CRM in just minutes. This platform boasts an extensive array of common components, coupled with the ability to pull data from any database or data source. Therefore, choosing ILLA Cloud for building a low-code CRM is an exceptionally sound decision.</p>
-<p>The platform's user-friendly interface simplifies the CRM creation process, making it accessible even to those with minimal technical expertise. The vast selection of components ensures that every necessary feature can be easily integrated into the CRM system, tailored to specific business requirements.</p>
-<p>Furthermore, the seamless integration with various databases and data sources empowers businesses to consolidate and utilize their data efficiently, enhancing the CRM's effectiveness. This capability is crucial for businesses aiming to maintain a comprehensive and up-to-date customer database, which is at the core of any successful CRM system.</p>
-<p>In summary, ILLA Cloud's combination of ease-of-use, comprehensive component selection, and robust data integration capabilities makes it a top-tier choice for businesses looking to implement a low-code CRM solution.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-of-illa-cloud">Advantages of ILLA Cloud<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#advantages-of-illa-cloud" class="hash-link" aria-label="Advantages of ILLA Cloud への直接リンク" title="Advantages of ILLA Cloud への直接リンク">​</a></h2>
-<p>ILLA Cloud enables quick Web UI construction through drag-and-drop, eliminating the need for complex web technology skills. This accessibility allows anyone to create their own business systems.</p>
-<p>It requires no operational skills, as all products are fully hosted on the ILLA Cloud, eliminating operational costs.</p>
-<p>ILLA Cloud supports collaborative team updates without any additional tools.</p>
+<p>低コードツールとして、ILLA Cloudは無制限のカスタマイズを可能にし、企業に固有の特徴を持つベスポーク機能の作成をサポートします。</p>
+<p>ドラッグアンドドロップのシンプリシティを備えたILLA Cloudにより、ユーザーはわずか数分で完全な低コードCRMを作成できます。このプラットフォームは一般的なコンポーネントの幅広い配列を誇り、任意のデータベースまたはデ</p>
+<p>ータソースからデータを抽出する能力も備えています。したがって、低コードCRMを構築するためにILLA Cloudを選択することは非常に優れた決定です。</p>
+<p>このプラットフォームのユーザーフレンドリーなインターフェースは、技術的な知識が少ない人にもアクセス可能にし、多くの必要な機能が特定のビジネス要件に合わせて簡単にCRMシステムに統合できることを保証します。</p>
+<p>さらに、さまざまなデータベースやデータソースとのシームレスな統合は、データを効率的に統合し活用する能力を企業に提供し、CRMシステムの効果を高めます。これは、包括的で最新の顧客データベースを維持することが成功するCRMシステムの中核です。</p>
+<p>要約すると、ILLA Cloudの使いやすさ、包括的なコンポーネントの選択肢、堅牢なデータ統合機能の組み合わせは、低コードCRMソリューションを実装しようとしている企業にとってトップクラスの選択肢となります。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloudの利点">ILLA Cloudの利点<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#illa-cloud%E3%81%AE%E5%88%A9%E7%82%B9" class="hash-link" aria-label="ILLA Cloudの利点 への直接リンク" title="ILLA Cloudの利点 への直接リンク">​</a></h2>
+<p>ILLA Cloudは、ドラッグアンドドロップを使用して迅速なWeb UIの構築を可能にし、複雑なWeb技術スキルを必要としません。このアクセシビリティにより、誰でも独自のビジネスシステムを作成できます。</p>
+<p>ILLA Cloudは、すべての製品が完全にホストされており、操作コストを排除するため、操作スキルは必要ありません。</p>
+<p>ILLA Cloudは追加のツールなしで共同チームの更新をサポートします。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/low-code-crm/team.gif" alt="team" class="img_CfaS"></p>
-<p>ILLA also integrates complete AI capabilities. If there's a need to send text messages to customers, users can directly use the latest AI Agent within the product.</p>
-<p>We believe that building AI-Driven Business Tools is the future's preferred method.</p>
+<p>ILLAは完全なAI機能も統合しています。顧客にテキストメッセージを送信する必要がある場合、ユーザーは製品内の最新のAIエージェントを直接使用できます。</p>
+<p>私たちは、AI駆動のビジネスツールの構築が将来の優先方法であると考えています。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/low-code-crm/send.gif" alt="send" class="img_CfaS"></p>
-<p>Flexibility has always been a strength of low-code tools, and we offer industry-leading solutions to help users quickly create their corresponding products. We hope that low-code can assist every developer in building their own low-code CRM.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#conclusion" class="hash-link" aria-label="Conclusion への直接リンク" title="Conclusion への直接リンク">​</a></h2>
-<p>Every company should have its own low-code CRM, as customized needs and capabilities are key to flexible operations. We hope everyone can rapidly build business tools using low-code tools.</p>]]></content>
+<p>柔軟性は低コードツールの強みの一つであり、我々はユーザーが迅速に対応する製品を迅速に作成できる業界をリードするソリューションを提供しています。低コードを使用して独自の低コードCRMを構築するすべての開発者をサポートできることを願っています。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>すべての企業は独自の低コードCRMを持つべきであり、カスタマイズされたニーズと機能が柔軟な運用の鍵です。低コードツールを使用してビジネスツールを迅速に構築できることを願っています。</p>]]></content>
         <author>
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <category label="low code crm" term="low code crm"/>
+        <category label="低コードCRM" term="低コードCRM"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[バックエンドエンジニアがビジネスツールを作成するために設計された最高の製品]]></title>
@@ -1502,74 +1447,142 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
         <category label="javascript" term="javascript"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2024 has arrived, should I choose MUI?]]></title>
+        <title type="html"><![CDATA[2024年到来，私はMUIを選ぶべきでしょうか？]]></title>
         <id>https://illacloud.github.io/illa-website/ja/blog/mui-2024</id>
         <link href="https://illacloud.github.io/illa-website/ja/blog/mui-2024"/>
         <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate.]]></summary>
-        <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains highly prosperous. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Why Choose a Component Library? への直接リンク" title="Why Choose a Component Library? への直接リンク">​</a></h2>
-<p>In general, every company building web applications tends to select a component library. These libraries address a significant amount of repetitive work, offering readily usable components such as Select, Input, CheckBox, and more. These components, customizable through styles or pre-existing attractive styles, enable the rapid creation of beautiful websites without the need to build extensive foundational features from scratch.</p>
-<p>To summarize, component libraries are typically used in two scenarios:</p>
+        <summary type="html"><![CDATA[各企業は独自のオンラインビジネスを持っており、ビジネスは更新とイテレーションを続けています。]]></summary>
+        <content type="html"><![CDATA[<p>2024年が訪れ、Reactコンポーネントライブラリのエコシステムは依然として非常に繁栄しています。この記事では、さまざまな観点から2つの現在人気のあるコンポーネントライブラリを解説し、ユーザーがより情報を得て選択をするのに役立つ客観的な分析を提供します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="なぜコンポーネントライブラリを選ぶのか">なぜコンポーネントライブラリを選ぶのか？<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#%E3%81%AA%E3%81%9C%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%82%92%E9%81%B8%E3%81%B6%E3%81%AE%E3%81%8B" class="hash-link" aria-label="なぜコンポーネントライブラリを選ぶのか？ への直接リンク" title="なぜコンポーネントライブラリを選ぶのか？ への直接リンク">​</a></h2>
+<p>一般的に、ウェブアプリケーションを構築するすべての企業は、コンポーネントライブラリを選択する傾向があります。これらのライブラリは、選択肢、入力、チェックボックスなどの使用可能なコンポーネントを提供し、スタイルや既存の魅力的なスタイルを使用してカスタマイズでき、広範な基本的な機能をゼロから構築する必要なく、美しいウェブサイトを迅速に作成することを可能にします。</p>
+<p>要するに、コンポーネントライブラリは通常、次の2つのシナリオで使用されます：</p>
 <ul>
-<li>External tools: Directly targeted at company users, usually adhering to the company's style, more aesthetically pleasing, and responsive.</li>
-<li>Internal tools: Aimed at internal use by company employees, focusing on aesthetic design while prioritizing rapid functionality implementation.</li>
+<li>外部ツール：通常、企業のスタイルに従い、より美的でレスポンシブなユーザーに直接ターゲットを絞り込んだものです。</li>
+<li>内部ツール：企業の従業員が内部で使用することを目的とし、美的デザインに焦点を当てつつ、迅速な機能実装を優先します。</li>
 </ul>
-<p>Next, we will analyze two component libraries based on the following points:</p>
+<p>次に、以下のポイントに基づいて2つのコンポーネントライブラリを分析します：</p>
 <ol>
-<li>Design</li>
-<li>Richness of Features</li>
-<li>How to Choose in Different Scenarios</li>
+<li>デザイン</li>
+<li>機能の豊富さ</li>
+<li>異なるシナリオでの選択方法</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-choices-for-internal-tool-scenarios">Other Choices for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#other-choices-for-internal-tool-scenarios" class="hash-link" aria-label="Other Choices for Internal Tool Scenarios への直接リンク" title="Other Choices for Internal Tool Scenarios への直接リンク">​</a></h2>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="内部ツールシナリオのための他の選択肢">内部ツールシナリオのための他の選択肢<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#%E5%86%85%E9%83%A8%E3%83%84%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E4%BB%96%E3%81%AE%E9%81%B8%E6%8A%9E%E8%82%A2" class="hash-link" aria-label="内部ツールシナリオのための他の選択肢 への直接リンク" title="内部ツールシナリオのための他の選択肢 への直接リンク">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>は、新しいプロジェクトを作成する必要なしに、シンプルなJSで内部ツールを迅速に構築できる即戦力のローコードツールです。</p>
 <ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
+<li>ウェブ＆アプリ管理パネル</li>
+<li>データダッシュボード</li>
+<li>カスタマイズ可能なB2Bツール</li>
 </ul>
-<p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#features-of-mui" class="hash-link" aria-label="Features of MUI への直接リンク" title="Features of MUI への直接リンク">​</a></h2>
-<p>Some detailed data about MUI:</p>
+<p>コンポーネントライブラリを使用して構築するよりも、ILLA Cloudを使用すると10倍速くツールを構築でき、チーム内での共同編集をサポートします。</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/dashboard.png" alt="ダッシュボード" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="muiの特徴">MUIの特徴<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#mui%E3%81%AE%E7%89%B9%E5%BE%B4" class="hash-link" aria-label="MUIの特徴 への直接リンク" title="MUIの特徴 への直接リンク">​</a></h2>
+<p>MUIに関する詳細なデータ：</p>
 <ul>
-<li>⭐ Github Stars: 90k</li>
-<li>⏬ NPM Downloads: 3,263,852 downloads per week</li>
-<li>💪🏼 First Release Date: Nov 6, 2014</li>
+<li>⭐ Githubスター：90k</li>
+<li>⏬ NPMダウンロード：週に326,852回のダウンロード</li>
+<li>💪🏼 初版リリース日：2014年11月6日</li>
 </ul>
-<p>MUI, as a longstanding project maintained since 2014, boasts almost a decade of stability. Its high star count and weekly download numbers ensure that the community remains consistently active.</p>
+<p>MUIは2014年から継続的にメンテナンスされている長寿プロジェクトで、ほぼ10年間の安定性を誇っています。その高いスター数と週間ダウンロード数は、コミュニティが一貫して活発であることを保証しています。</p>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/mui.png" alt="mui" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#design" class="hash-link" aria-label="Design への直接リンク" title="Design への直接リンク">​</a></h3>
-<p>In terms of design, MUI strictly adheres to Google's renowned Material Design. MUI's customization capabilities are extensive, catering to a wide range of internal and external scenarios. Many well-known open-source projects use MUI for front-end development. For most functionalities, MUI provides comprehensive support.</p>
-<p>In addition to common features like:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="デザイン">デザイン<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3" class="hash-link" aria-label="デザイン への直接リンク" title="デザイン への直接リンク">​</a></h3>
+<p>デザインの点では、MUIは厳密にGoogleの有名なマテリアルデザインに従っています。MUIのカスタマイズ機能は広範で、内部および外部のさまざまなシナリオに対応しています。多くの有名なオープンソースプロジェクトがフロントエンド開発にMUIを使用しています。ほとんどの機能について、MUIは包括的なサポートを提供しています。</p>
+<p>一般的な機能に加えて：</p>
 <ul>
-<li>Colors</li>
-<li>Border radii</li>
-<li>Dark mode / Light mode</li>
+<li>色</li>
+<li>ボーダー半径</li>
+<li>ダークモード/ライトモード</li>
 </ul>
-<p>MUI supports complete configurations of fonts, font sizes, colors, and margins, making it a powerful tool as a project with ten years of development.</p>
-<p>Regarding CSS support, MUI has its custom system, utilizing emotionjs for style adjustments in the overall layout. This may come with a learning curve and may not be as developer-friendly for direct development, requiring documentation consultation for certain style modifications.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#richness-of-features" class="hash-link" aria-label="Richness of Features への直接リンク" title="Richness of Features への直接リンク">​</a></h3>
-<p>MUI's component types are highly complex, divided into several dimensions:</p>
-<p>These include:</p>
+<p>MUIはフォント、フォントサイズ、色、マージンの完全な設定をサポートし、10年間の開発プロジェクトとして強力なツールとなっています。</p>
+<p>CSSサポートに関して、MUIは独自のシステムを持ち、全体のレイアウトでemotionjsを利用してスタイルの調整を行います。これは学習曲線を伴い、特定のスタイル変更にはドキュメンテーションの参照が必要かもしれません。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="機能の豊富さ">機能の豊富さ<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#%E6%A9%9F%E8%83%BD%E3%81%AE%E8%B1%8A%E5%AF%8C%E3%81%95" class="hash-link" aria-label="機能の豊富さ への直接リ�ンク" title="機能の豊富さ への直接リンク">​</a></h3>
+<p>MUIの</p>
+<p>コンポーネントタイプは非常に複雑で、いくつかの次元に分かれています：</p>
+<p>これには以下が含まれます：</p>
 <ul>
-<li>MUI Core: Basic functional components of MUI, including a multitude of foundational components and a style system.</li>
-<li>MUI X: High-performance and complex components of MUI, including high-performance tables, charts, etc.</li>
+<li>MUIコア：MUIの基本的な機能コンポーネントで、多くの基本コンポーネントとスタイルシステムが含まれています。</li>
+<li>MUI X：MUIの高性能で複雑なコンポーネントで、高性能なテーブル、チャートなどが含まれています。</li>
 </ul>
-<p>If you are developing a highly complex system, you can use MUI's full suite solution. However, MUI X is a paid component library, and a subscription fee may be required.</p>
-<p>MUI is a heavyweight repository with extensive code and a long maintenance history. Its high customizability makes it suitable for large projects. In the MUI repository, you can find a wealth of features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="how-to-choose">How to Choose<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#how-to-choose" class="hash-link" aria-label="How to Choose への直接リンク" title="How to Choose への直接リンク">​</a></h2>
-<p>✅ Advantages</p>
-<p>If you want to develop large projects, have high customization requirements, and wish to use high-performance data components and chart components, especially in scenarios with high business complexity and are willing to subscribe to MUI X, it is recommended to use MUI for development. Its flexible configuration and plethora of components can fully meet your requirements.</p>
-<p>❌ Disadvantages</p>
-<p>If you need a lightweight framework and prefer to use a CSS-only solution for layout adjustments, it is not recommended here. MUI has a comprehensive proprietary design system, comes with a certain learning curve, and Material Design's aesthetics may not suit everyone. In such cases, exploring other open-source repositories might be more suitable.</p>]]></content>
+<p>非常に複雑なシステムを開発している場合、MUIの完全なソリューションを使用できます。ただし、MUI Xは有料のコンポーネントライブラリであり、サブスクリプション料金が必要かもしれません。</p>
+<p>MUIは非常に大規模なプロジェクトであり、長いメンテナンス履歴があります。MUIリポジトリでは、多くの機能が提供されています。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/mui-2024#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>✅ 利点</p>
+<p>大規模なプロジェクトを開発したい、高いカスタマイズ要件があり、高性能のデータコンポーネントやチャートコンポーネントを使用したい、特に高いビジネスの複雑さがあるシナリオで、MUI Xにサブスクライブすることを検討している場合、MUIを使用することをお勧めします。その柔軟な設定と豊富なコンポーネントは、完全に要件を満たすことができます。</p>
+<p>❌ 欠点</p>
+<p>軽量なフレームワークが必要で、レイアウト調整のためにCSSのみのソリューションを使用したい場合、ここではお勧めしません。MUIは包括的な独自のデザインシステムを持っており、学習曲線があるため、マテリアルデザインの美学がすべてに合うわけではありません。そのような場合は、他のオープンソースのリポジトリを探索することが適しているかもしれません。</p>]]></content>
         <author>
             <name>Owen Chen</name>
             <uri>https://github.com/smallSohoSolo</uri>
         </author>
-        <category label="UI Library" term="UI Library"/>
+        <category label="UIライブラリ" term="UIライブラリ"/>
         <category label="Shadcn UI" term="Shadcn UI"/>
         <category label="React" term="React"/>
+        <category label="javascript" term="javascript"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2024年のMacでのNode.js管理におけるnvmの優れた使い方]]></title>
+        <id>https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024</id>
+        <link href="https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024"/>
+        <updated>2024-01-03T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[フロントエンドの基盤としてのNode.jsは、もはや単なる「JSサーバーランタイム」ではありません。]]></summary>
+        <content type="html"><![CDATA[<p>フロントエンドの能力の基盤であるNode.jsは、もはや単なる「JSサーバーランタイム」ではありません。多くのツールライブラリ、ローカルパッケージ管理、モック環境などがNode.js上に構築され、それは本当にフロントエンドの世界のインフラストラクチャとなっています。</p>
+<p>繁栄するエコシステムは、フロントエンドプロジェクトを構築する際に、誰もがNode.jsをインストールする必要があるようにしました。しかし、製品の長い歴史から、バージョニングは一般的な問題となっており、一部のプロジェクトは新しいバージョンが必要であり、他のプロジェクトは古いバージョンが必要です。Node.jsの複数のバージョンを管理することは、開発者にとって持続的な課題でした。</p>
+<p>現在、この問題に対処するためのオープンソースツールであるnvmがあります。シンプルなコマンドラインの使用により、開発者は迅速に異なるNode.jsのバージョンを切り替えることができ、環境の設定に時間を費やすのではなく、開発に集中することができます。</p>
+<p>フロントエンド開発の主要なマシンはまだMacbooksです。したがって、この記事ではMacでnvmをエレガントにインストールして使用し、Node.jsのバージョンを効率的に管理する方法を説明します。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="バックエンド開発のためのオープンソースプロジェクトをお勧めします">バックエンド開発のためのオープンソースプロジェクトをお勧めします<a href="https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024#%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89%E9%96%8B%E7%99%BA%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E3%81%8A%E5%8B%A7%E3%82%81%E3%81%97%E3%81%BE%E3%81%99" class="hash-link" aria-label="バックエンド開発のためのオープンソースプロジェクトをお勧めします への直接リンク" title="バックエンド開発のためのオープンソースプロジェクトをお勧めします への直接リンク">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>は、新しいプロジェクトを作成する必要なしに、シンプルなJSを使用して内部ツールを迅速に構築できる即座に使用可能な低コードツールです。</p>
+<ul>
+<li>Web＆アプリの管理パネル</li>
+<li>データダッシュボード</li>
+<li>カスタマイズされたB2Bツール</li>
+</ul>
+<p>コンポーネントライブラリを使用したシナリオと比較して、ILLA Cloudを使用すると、上記のツールの10倍速い構築が可能です。また、ILLA Cloudは複数のユーザー間での協力をサポートし、バックエンド機能の迅速なカスタマイズを容易にします。</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="nvmの紹介">nvmの紹介<a href="https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024#nvm%E3%81%AE%E7%B4%B9%E4%BB%8B" class="hash-link" aria-label="nvmの紹介 への直接リンク" title="nvmの紹介 への直接リンク">​</a></h2>
+<p>⏬ GitHubリポジトリ: <a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener noreferrer">https://github.com/nvm-sh/nvm</a></p>
+<p>⭐ GitHubスター数: 72.4k</p>
+<p>💪🏼 初版リリース日: 2014年12月22日</p>
+<p>nvmは約10年間メンテナンスされているオープンソースプロジェクトです。肯定的な評価がこのプロジェクトを強化し、継続的なメンテナンスを通じて「Node.jsバージョン管理」の完璧な解決策となりました。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="nvmのインストール">nvmのインストール<a href="https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024#nvm%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB" class="hash-link" aria-label="nvmのインストール への直接リンク" title="nvmのインストール への直接リンク">​</a></h2>
+<p>開発にMacを使用しているため、パッケージ管理に<a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a>を使用し、それから<a href="https://brew.sh/" target="_blank" rel="noopener noreferrer">Homebrew</a>を使用してnvmをインストールすることを強くお勧めします。</p>
+<p>Homebrewをインストールするには、インストールスクリプトを使用することをお勧めします。最小の設定が必要で、すぐに使用できます。さらに、Homebrewは必要に応じてリポジトリをきれいにアンインストールすることを容易にします。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>このコマンドを実行すると、最新バージョンのHomebrewがインストールされ、MacOS環境でXcodeコマンドツールのインストールを自動的に処理します。</p>
+<p>もちろん、これはすべて自動化されています。以下はインストールプロセスの例です。</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/homebrew-install.png" alt="homebrew_install" class="img_CfaS"></p>
+<p>しばらく待った後、インストールされたHomebrewを使用してnvmをインストールできます。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew install nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>同意を確認した後、nvmが完全にインストールされます。不要になった場合は、以下のコマンドを使用してアンインストールできます。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"># nvmを必要ない場合は削除します。</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; brew uninstall nvm</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="nvmの使用">nvmの使用<a href="https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024#nvm%E3%81%AE%E4%BD%BF%E7%94%A8" class="hash-link" aria-label="nvmの使用 への直接リンク" title="nvmの使用 への直接リンク">​</a></h2>
+<p>nvmがインストールされたら、以下は開始時に役立つ一般的に使用され</p>
+<p>るコマンドです。これらのコマンドは日常のニーズを満たすはずです。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm list</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>「list」コマンドはさまざまな主要なNode.jsバージョンを表示します。必要に応じてバージョンをインストールでき、また、現在使用中のNode.jsバージョンも表示されます。いくつかのコードネームが表示されます。</p>
+<p>たとえば、「lts/gallim」はNode.js v16のバージョン名です。このコードネームを使用してインストールすると、nvmはv16の最新バージョンを自動的にインストールします。かなり便利です。このコマンドを使用して現在のバージョンを確認することもできます。</p>
+<p>もう1つのコマンドを使用して現在のNode.jsバージョンを確認できます。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; node --version</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>このコマンドを入力した後、Node.jsバージョンが正常に切り替えられたかどうかを確認できます。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm install stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>2番目のコマンドは特定のNode.jsバージョンをインストールします。ここで「stable」は特定のバージョン番号を指します。特定のバージョンのコードネームを使用することもできます。たとえば、「Node.js 18」をインストールするには「nvm install 18」を使用します。ここでは「stable」バージョンをインストールしています。nvmは最新の安定版を自動的に判断し、インストールしてくれます。インストールが成功したら、自動的にインストールしたバージョンに切り替わります。</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/stable-install.png" alt="stable-install" class="img_CfaS"></p>
+<p>インストールコマンドがある場所に、アンインストールコマンドもあります。次のように使用できます：</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm uninstall stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>該当するバージョンを削除します。</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-uninstall.png" alt="nvm-uninstall" class="img_CfaS"></p>
+<p>インストールとアンインストールの方法を学んだら、次の重要なステップはバージョンの切り替えです。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">&gt; nvm use stable</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>「use」コマンドを使用すると、現在使用中のNode.jsバージョンを迅速に切り替えることができます。また、コードネーム「stable」を使用することもできます。これにより、異なるプロジェクトのために異なるバージョンに迅速に切り替えることができます。</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/nvm-use/nvm-use.png" alt="nvm-use" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/nvm-use-2024#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>この記事では、初心者向けにnvmのインストールから使用までの完全なプロセスを説明しました。すぐに試して、Node.jsのバージョンをより効果的に管理できるようになるでしょう。</p>
+<p>Node.jsバージョン管理は長らく議論されてきた問題であり、nvmはこの問題を効果的に解決する優れたオープンソースプロジェクトです。もちろん、どのプロジェクトも完璧ではありません。他のお勧めがあれば、コメントを残して優れたプロジェクトについてもっと多くの人に知らせてください。それがオープンソース愛好家の使命です！</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="nvm" term="nvm"/>
+        <category label="nodejs" term="nodejs"/>
+        <category label="mac" term="mac"/>
         <category label="javascript" term="javascript"/>
     </entry>
 </feed>
