@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[2001],{3860:e=>{e.exports=JSON.parse('{"label":"\u30c7\u30fc\u30bf\u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9","permalink":"/illa-website/ja/blog/tags/\u30c7\u30fc\u30bf\u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9","allTagsPath":"/illa-website/ja/blog/tags","count":2}')}}]);
