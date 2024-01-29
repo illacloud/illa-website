@@ -9,6 +9,124 @@
     <icon>https://illacloud.github.io/illa-website/zh/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
     <entry>
+        <title type="html"><![CDATA[Die 5 beliebtesten React-Komponentenbibliotheken im Jahr 2024]]></title>
+        <id>https://illacloud.github.io/illa-website/zh/blog/react-component-library</id>
+        <link href="https://illacloud.github.io/illa-website/zh/blog/react-component-library"/>
+        <updated>2024-01-29T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[React ist eine beliebte JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen. Sie wird von vielen Unternehmen eingesetzt, darunter Facebook, Instagram, Netflix, Airbnb und Uber. React wird auch von vielen Open-Source-Projekten verwendet, wie WordPress, Drupal und Magento.]]></summary>
+        <content type="html"><![CDATA[<p>React ist eine beliebte JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen. Sie wird von vielen Unternehmen eingesetzt, darunter Facebook, Instagram, Netflix, Airbnb und Uber. React wird auch von vielen Open-Source-Projekten verwendet, wie WordPress, Drupal und Magento.</p>
+<p>Bei der Erstellung vieler Schnittstellen müssen wir eine geeignete React-Komponentenbibliothek auswählen. Diese Bibliotheken können uns helfen, Benutzeroberflächen schnell zu erstellen. Sie bieten auch viele wiederverwendbare Komponenten, wie Buttons, Formulare, Diagramme, Tabellen usw. Diese Bibliotheken bieten auch viele Funktionen wie Themen, Animationen, Routing, Zustandsverwaltung usw.</p>
+<p>Es gibt viele React-Komponentenbibliotheken auf dem Markt. Jede Bibliothek hat ihre eigenen Merkmale, Vor- und Nachteile und Preise. In diesem Blogbeitrag werden wir die 5 beliebtesten React-Komponentenbibliotheken im Jahr 2024 überprüfen und sie basierend auf ihren Merkmalen, Benutzerfreundlichkeit und Kompatibilität vergleichen.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="warum-eine-komponentenbibliothek-wählen">Warum eine Komponentenbibliothek wählen?<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#warum-eine-komponentenbibliothek-w%C3%A4hlen" class="hash-link" aria-label="Direct link to Warum eine Komponentenbibliothek wählen?" title="Direct link to Warum eine Komponentenbibliothek wählen?">​</a></h2>
+<p>Generell wählen Unternehmen beim Erstellen von Webanwendungen Komponentenbibliotheken, um sich wiederholende Aufgaben zu vereinfachen. Komponentenbibliotheken bieten eine Reihe von sofort einsatzbereiten Komponenten, wie Auswahlboxen, Eingabefelder, Kontrollkästchen usw. Diese Komponenten verfügen über anpassbare Stile oder eingebaute attraktive Stile, mit denen schnell ästhetisch ansprechende Websites erstellt werden können, ohne von Grund auf neu beginnen zu müssen.</p>
+<p>Zusammenfassend verwenden wir Komponentenbibliotheken normalerweise in zwei Szenarien:</p>
+<ul>
+<li>Externe Werkzeuge: Direkt für Unternehmensbenutzer, normalerweise konsistent mit dem Stil des Unternehmens, attraktiveres Aussehen, reaktionsfähiger.</li>
+<li>Interne Werkzeuge: Für den internen Gebrauch durch Unternehmensmitarbeiter, Schwerpunkt auf Designästhetik und schneller Funktionsumsetzung.</li>
+</ul>
+<p>Als nächstes werden wir Komponentenbibliotheken basierend auf den folgenden Aspekten analysieren:</p>
+<ol>
+<li>Vorteile</li>
+<li>Nachteile</li>
+<li>Wie man eine Auswahl trifft</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="beste-wahl-für-interne-werkzeug-szenarien">Beste Wahl für interne Werkzeug-Szenarien<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#beste-wahl-f%C3%BCr-interne-werkzeug-szenarien" class="hash-link" aria-label="Direct link to Beste Wahl für interne Werkzeug-Szenarien" title="Direct link to Beste Wahl für interne Werkzeug-Szenarien">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> ist ein sofort einsatzbereites Low-Code-Tool, das den schnellen Aufbau interner Werkzeuge mit einfachem JS ermöglicht, ohne komplexe Frontend-Projekte zu erstellen, sofort einsatzbereit, mit Drag-and-Drop zum Erstellen von UIs.</p>
+<ul>
+<li>Web- und App-Management-Panels</li>
+<li>Daten-Dashboards</li>
+<li>Benutzerdefinierte B2B-Werkzeuge</li>
+</ul>
+<p>Im Vergleich zum Aufbau mit Komponentenbibliotheken ermöglicht ILLA Cloud einen 10-mal schnelleren Werkzeugaufbau und unterstützt die kollaborative Bearbeitung im Team.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="mui">MUI<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#mui" class="hash-link" aria-label="Direct link to MUI" title="Direct link to MUI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/mui.png" alt="MUI" class="img_CfaS"></p>
+<p>⭐ GitHub-Sterne: 90k</p>
+<p>⏬ NPM-Downloads: 3,263,852 Downloads pro Woche</p>
+<p>💪🏼 Erstveröffentlichungsdatum: 6. November 2014</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="vorteile">Vorteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#vorteile" class="hash-link" aria-label="Direct link to Vorteile" title="Direct link to Vorteile">​</a></h3>
+<p>Die Komponenten von MUI sind sehr umfassend. Die Komponenten von MUI bestehen aus mehreren Teilen, einschließlich:</p>
+<ul>
+<li>MUI Core: Kernkomponenten, einschließlich</li>
+</ul>
+<p>Buttons, Formularen, Icons, Diagrammen, Tabellen usw.</p>
+<ul>
+<li>MUI X: Erweiterte Komponenten, einschließlich Datentabellen, komplexen Diagrammen usw.</li>
+</ul>
+<p>Mit MUI können Sie im Grunde alle Szenarien abdecken, ohne für komplexe Datenverarbeitungs- und Anzeigeszenarien andere Komponentenbibliotheken auswählen zu müssen.</p>
+<p>Wenn Ihnen der Stil von Material Design gefällt, ist MUI Ihre beste Wahl. Sie können ohne Änderungen eine vollständige Google-Stil-Anwendung erstellen.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="nachteile">Nachteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#nachteile" class="hash-link" aria-label="Direct link to Nachteile" title="Direct link to Nachteile">​</a></h3>
+<p>Die komplexen Datenverarbeitungskomponenten in MUI X sind kostenpflichtig.</p>
+<p>Als Implementierung von Material Design ist der Designstil von MUI ziemlich streng. Für einige Szenarien, die einen benutzerdefinierten Designstil benötigen, könnte zusätzliche Arbeit erforderlich sein.</p>
+<p>Das benutzerdefinierte Style-System von MUI verwendet EmotionJs für die gesamte Layout-Stilanpassung, was eine gewisse Lernkurve erfordern kann und möglicherweise nicht für die direkte Entwicklung geeignet ist, da Sie möglicherweise die Dokumentation konsultieren müssen, um bestimmte Stiländerungen vorzunehmen.</p>
+<p>Wenn Sie CSS-IN-JS nicht mögen, ist MUI möglicherweise nicht Ihre beste Wahl.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="shadcn-ui">Shadcn UI<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#shadcn-ui" class="hash-link" aria-label="Direct link to Shadcn UI" title="Direct link to Shadcn UI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/shadcnui.png" alt="Shadcn UI" class="img_CfaS"></p>
+<p>⭐ GitHub-Sterne: 37k</p>
+<p>⏬ NPM-Downloads: 23,962 Downloads pro Woche</p>
+<p>💪🏼 Erstveröffentlichungsdatum: 8. März 2023</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="vorteile-1">Vorteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#vorteile-1" class="hash-link" aria-label="Direct link to Vorteile" title="Direct link to Vorteile">​</a></h3>
+<p>Als relativ neues Projekt hat Shadcn UI schnell Anerkennung in der Open-Source-Community gefunden. Da Shadcn ein neu aufgebautes Projekt ist, hat es keine historischen Altlasten und kann sich besser an neue Technologiestacks anpassen.</p>
+<p>Der Designstil von Shadcn UI tendiert zu einem kommerziellen Stil mit einer sauberen Benutzeroberfläche, geeignet für interne Werkzeuge und ernsthafte Anwendungsszenarien. Shadcn UI unterstützt benutzerdefinierte Themen und verfügt über einige vorgefertigte Stile. Sie können Ihren bevorzugten Stil auswählen, installieren und ändern, was für Szenarien, die keinen benutzerdefinierten Designstil benötigen, eine schnelle Anwendungserstellung ermöglicht.</p>
+<p>Der größte Vorteil von Shadcn UI ist, dass es sich nicht um eine von npm verteilte Bibliothek handelt. Die Integration von Shadcn UI erfolgt direkt durch den Aufbau mit Code, was bedeutet, dass Sie den Code von Shadcn UI direkt ändern können, ohne zusätzlichen Aufwand.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="nachteile-1">Nachteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#nachteile-1" class="hash-link" aria-label="Direct link to Nachteile" title="Direct link to Nachteile">​</a></h3>
+<p>Das Thema von Shadcn UI basiert auf CSS-Variablen, was bedeutet, dass es IE11 nicht unterstützt. Wenn Sie IE11 unterstützen müssen, ist Shadcn UI möglicherweise nicht Ihre beste Wahl.</p>
+<p>Und die Themenanpassung von Shadcn UI basiert auf CSS-Variablen oder Tailwind CSS Utility-Klassen. Wenn Sie CSS-IN-JS verwenden, kann dies zusätzlichen Aufwand erfordern.</p>
+<p>Im Vergleich zu anderen Komponentenbibliotheken ist die Wartungszeit von Shadcn UI kürzer. Für komplexere Komponenten wie DataGrid und Chart wird derzeit keine Unterstützung angeboten. Sie müssen nach anderen Lösungen suchen, was bedeutet, dass Sie nicht mit einer Komponentenbibliothek alle Ihre Arbeiten erledigen können.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="chakra-ui">Chakra UI<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#chakra-ui" class="hash-link" aria-label="Direct link to Chakra UI" title="Direct link to Chakra UI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/chakraui.png" alt="chakra-ui" class="img_CfaS"></p>
+<p>⭐ GitHub Sterne: 35.8k</p>
+<p>⏬ NPM Downloads: 534,188 Downloads pro Woche</p>
+<p>💪🏼 Erstveröffentlichung: 7. Dezember 2019</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="vorteile-2">Vorteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#vorteile-2" class="hash-link" aria-label="Direct link to Vorteile" title="Direct link to Vorteile">​</a></h3>
+<p>Chakra UI ist eine eher kommerziell ausgerichtete Komponentenbibliothek, die keinen bestimmten Stil vorschreibt und somit dem ästhetischen Empfinden der meisten Menschen entspricht.</p>
+<p>Als Komponentenbibliothek verfügt Chakra UI über einen sehr großen Vorlagenmarkt. In diesem Markt finden Sie vollständige Vorlagen für die meisten gängigen Szenarien wie E-Commerce und SaaS-Websites. Nach dem Herunterladen können Sie die Vorlagen direkt verwenden oder anpassen.</p>
+<p>Die meisten Funktionen von Chakra UI erfordern keine Konfiguration, was bei der Erstellung eines schnellen Prototyps sehr hilfreich ist. Außerdem bietet es nativen Support für Responsive Design, sodass Sie Vorschauen auf verschiedenen Geräten erstellen können.</p>
+<p>Chakra UI ist SEO-freundlich, was für die Erstellung von SEO-freundlichen Produkten unerlässlich ist.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="nachteile-2">Nachteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#nachteile-2" class="hash-link" aria-label="Direct link to Nachteile" title="Direct link to Nachteile">​</a></h3>
+<p>Die Vielfalt der Komponenten in Chakra UI ist begrenzt. Für einige komplexe Szenarien wie Datenverarbeitung und Diagramme bietet Chakra UI keine Unterstützung, daher benötigen Sie zusätzliche Arbeit, um andere Lösungen zu finden.</p>
+<p>Es ist am besten, Chakra UI nicht für die Entwicklung komplexer Tool-Produkte und SaaS-Anwendungen zu verwenden, da die Anpassungsfähigkeit der Komponenten begrenzt ist. Die Verwendung von Chakra UI für die Erstellung von Landing Pages ist die beste Wahl.</p>
+<p>Obwohl Chakra UI über einen umfangreichen Vorlagenmarkt verfügt, sind diese Vorlagen nicht kostenlos und erfordern zusätzliche Kosten.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ant-design">Ant Design<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#ant-design" class="hash-link" aria-label="Direct link to Ant Design" title="Direct link to Ant Design">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/antd.png" alt="ant-design" class="img_CfaS"></p>
+<p>⭐ GitHub Sterne: 89.1k</p>
+<p>⏬ NPM Downloads: 1,264,151 Downloads pro Woche</p>
+<p>💪🏼 Erstveröffentlichung: 21. Juli 2015</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="vorteile-3">Vorteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#vorteile-3" class="hash-link" aria-label="Direct link to Vorteile" title="Direct link to Vorteile">​</a></h3>
+<p>Als von einem reifen, börsennotierten Unternehmen mit einem Marktwert von Milliarden Dollar unterstützte Komponentenbibliothek bietet Ant Design die beste Vielfalt und kann praktisch alle Szenarien abdecken. Außerdem ist die Komponentenbibliothek von Ant Design sehr stabil und unterliegt keinen großen Änderungen.</p>
+<p>Wenn Sie in Ihrem Arbeitsumfeld einen einheitlichen Stil für React- und Vue-Anwendungen benötigen, ist Ant Design die beste Wahl, da es nicht nur React, sondern auch Vue unterstützt.</p>
+<p>Ant Design bietet nicht nur eine Sammlung von Grundkomponenten, sondern auch eine Sammlung von Komponenten für Web3-Anwendungen. Das bedeutet, dass Sie Ant Design direkt für den Aufbau einer Web3-Anwendung verwenden können.</p>
+<p>Ant Design bietet außerdem maßgeschneiderte Komponentenbibliotheken für Datendiagramme, Big-Data-Szenarien, Karten und andere komplexe Datenvisualisierungsanforderungen.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="nachteile-3">Nachteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#nachteile-3" class="hash-link" aria-label="Direct link to Nachteile" title="Direct link to Nachteile">​</a></h3>
+<p>In Ant Design gibt es aufgrund der Vielzahl von Funktionen einige historische Altlasten, wie beispielsweise die schlechte Leistung des Tabellenkomponente. Das bedeutet, dass Sie zusätzliche Arbeit leisten müssen, um andere Lösungen zu finden.</p>
+<p>Obwohl Ant Design in Bezug auf die Breite der verfügbaren Komponenten hervorragend ist, ist es in Bezug auf die Tiefe der Anpassungsfähigkeit nicht so gut.</p>
+<p>Alle Abhängigkeiten von Ant Design werden von Ant Design selbst verwaltet, was bedeutet, dass Sie zusätzliche Arbeit leisten müssen, um sie mit Ihrer eigenen Build- und CSS-Lösung zu kompatibilisieren. Dies ist für Szenarien, in denen Sie andere Open-Source-Bibliotheken verwenden möchten, nicht besonders benutzerfreundlich.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="fluent-ui">Fluent UI<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#fluent-ui" class="hash-link" aria-label="Direct link to Fluent UI" title="Direct link to Fluent UI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/fluentui.png" alt="fluent-ui" class="img_CfaS"></p>
+<p>⭐ GitHub Sterne: 17.3k</p>
+<p>⏬ NPM Downloads: 191,170 Downloads pro Woche</p>
+<p>💪🏼 Erstveröffentlichung: 17. September 2020</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="vorteile-4">Vorteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#vorteile-4" class="hash-link" aria-label="Direct link to Vorteile" title="Direct link to Vorteile">​</a></h3>
+<p>Fluent UI wird von Microsoft offiziell gepflegt, daher entspricht der Stil von Fluent UI genau dem von Microsoft. Dies ist besonders hilfreich für Szenarien, in denen der Microsoft-Stil beibehalten werden muss.</p>
+<p>Fluent UI unterstützt viele Plattformen, einschließlich Web, React Native, iOS, Android, macOS und Windows. Dies bedeutet, dass Sie Fluent UI verwenden können, um eine plattformübergreifende Anwendung zu erstellen.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="nachteile-4">Nachteile<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#nachteile-4" class="hash-link" aria-label="Direct link to Nachteile" title="Direct link to Nachteile">​</a></h3>
+<p>Der Stil von Microsoft gefällt nicht jedem, daher ist Fluent UI möglicherweise nicht die beste Wahl, wenn Sie den Microsoft-Stil nicht mögen.</p>
+<p>Die Vielfalt der Komponenten in Fluent UI ist begrenzt. Für einige komplexe Szenarien wie Datenverarbeitung und Diagramme bietet Fluent UI keine Unterstützung, daher benötigen Sie zusätzliche Arbeit, um andere Lösungen zu finden.</p>
+<p>Die Dokumentation von Fluent UI ist nicht ausreichend, und die Verbesserung der Dokumentation ist ein wichtiger Bereich, in dem Fluent UI noch Raum zur Verbesserung hat.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="zusammenfassung">Zusammenfassung<a href="https://illacloud.github.io/illa-website/zh/blog/react-component-library#zusammenfassung" class="hash-link" aria-label="Direct link to Zusammenfassung" title="Direct link to Zusammenfassung">​</a></h2>
+<p>Wenn Sie eine umfangreiche Komponentenbibliothek benötigen und bereit sind, dafür zu bezahlen, empfehle ich die Verwendung von MUI. Wenn Sie nicht bezahlen möchten, empfehle ich die Verwendung von Ant Design.</p>
+<p>Wenn Sie eine Landing Page entwickeln, empfehle ich die Verwendung von Chakra UI.</p>
+<p>Wenn Sie den Microsoft-Stil verwenden möchten, empfehle ich die Verwendung von Fluent UI.</p>
+<p>Wenn Sie keine Komponentenbibliothek verwenden möchten und stattdessen eine Integration des Quellcodes wünschen, empfehle ich die Verwendung von Shadcn UI.</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="react" term="react"/>
+        <category label="komponente" term="komponente"/>
+        <category label="bibliothek" term="bibliothek"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[最佳的Web Worker教程]]></title>
         <id>https://illacloud.github.io/illa-website/zh/blog/web-worker-tutorial</id>
         <link href="https://illacloud.github.io/illa-website/zh/blog/web-worker-tutorial"/>
@@ -1477,77 +1595,6 @@ E：表示元素类型</p>
         </author>
         <category label="低代码" term="低代码"/>
         <category label="传统开发" term="传统开发"/>
-        <category label="javascript" term="javascript"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2024已经到来，我应该选择MUI吗？]]></title>
-        <id>https://illacloud.github.io/illa-website/zh/blog/mui-2024</id>
-        <link href="https://illacloud.github.io/illa-website/zh/blog/mui-2024"/>
-        <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[每家公司都有自己独特的在线业务，随着业务不断更新和迭代。]]></summary>
-        <content type="html"><![CDATA[<p>2024年已经到来，React组件库的生态系统仍然非常繁荣。本文将从各种角度对两个目前流行的组件库进行深入分析，提供客观的分析，以帮助用户做出更明智的选择。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="为什么选择组件库">为什么选择组件库？<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E7%BB%84%E4%BB%B6%E5%BA%93" class="hash-link" aria-label="Direct link to 为什么选择组件库？" title="Direct link to 为什么选择组件库？">​</a></h2>
-<p>一般来说，每家构建Web应用程序的公司都倾向于选择一个组件库。这些库解决了大量的重复工作，提供了可立即使用的组件，如选择框、输入框、复选框等等。这些组件可以通过样式或预定义的吸引人的样式进行自定义，可以快速创建漂亮的网站，无需从头开始构建基础功能。</p>
-<p>总结一下，组件库通常在两种情况下使用：</p>
-<ul>
-<li>外部工具：直接针对公司用户，通常遵循公司的风格，更具美感和响应性。</li>
-<li>内部工具：面向公司员工的内部使用，注重美学设计，同时优先考虑快速功能实现。</li>
-</ul>
-<p>接下来，我们将根据以下几点分析两个组件库：</p>
-<ol>
-<li>设计</li>
-<li>功能丰富程度</li>
-<li>在不同场景下的选择</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="内部工具场景的其他选择">内部工具场景的其他选择<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#%E5%86%85%E9%83%A8%E5%B7%A5%E5%85%B7%E5%9C%BA%E6%99%AF%E7%9A%84%E5%85%B6%E4%BB%96%E9%80%89%E6%8B%A9" class="hash-link" aria-label="Direct link to 内部工具场景的其��他选择" title="Direct link to 内部工具场景的其他选择">​</a></h2>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>是一个开箱即用的低代码工具，允许使用简单的JS快速构建内部工具，无需创建新项目。</p>
-<ul>
-<li>Web和App管理面板</li>
-<li>数据仪表板</li>
-<li>定制的B2B工具</li>
-</ul>
-<p>与使用组件库构建相比，ILLA Cloud可以实现10倍快速的工具构建，并支持团队内的协作编辑。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/dashboard.png" alt="仪表板" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="mui的特点">MUI的特点<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#mui%E7%9A%84%E7%89%B9%E7%82%B9" class="hash-link" aria-label="Direct link to MUI的特点" title="Direct link to MUI的特点">​</a></h2>
-<p>关于MUI的一些详细数据：</p>
-<ul>
-<li>⭐ Github星数：90k</li>
-<li>⏬ NPM下载量：每周326,3852次下载</li>
-<li>💪🏼 首次发布日期：2014年11月6日</li>
-</ul>
-<p>MUI作为一个自2014年以来一直在维护的长期项目，拥有近十年的稳定性。其高星级和每周下载量确保了社区保持持续活跃。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/mui.png" alt="MUI" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="设计">设计<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#%E8%AE%BE%E8%AE%A1" class="hash-link" aria-label="Direct link to 设计" title="Direct link to 设计">​</a></h3>
-<p>在设计方面，MUI严格遵循了Google著名的Material Design。MUI的定制能力非常广泛，适用于各种内部和外部场景。许多知名的开源项目使用MUI进行前端开发。对于大多数功能，MUI提供了全面的支持。</p>
-<p>除了常见的功能如：</p>
-<ul>
-<li>颜色</li>
-<li>边框半径</li>
-<li>暗模式/亮模式</li>
-</ul>
-<p>MUI支持完整的字体、字体大小、颜色和边距配置，使其成为一个具有十年发展历程的项目的强大工具。</p>
-<p>关于CSS支持，MUI有自己的自定义系统，使用emotionjs进行整体布局的样式调整。这可能需要一些学习曲线，可能不太适合直接开发，需要查阅文档来进行某些样式修改。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="功能丰富程度">功能丰富程度<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#%E5%8A%9F%E8%83%BD%E4%B8%B0%E5%AF%8C%E7%A8%8B%E5%BA%A6" class="hash-link" aria-label="Direct link to 功能丰富程度" title="Direct link to 功能丰富程度">​</a></h3>
-<p>MUI的组件类型非常复杂，分为几个维度：</p>
-<p>这些包括：</p>
-<ul>
-<li>MUI核心：MUI的基本功能组件，包括大量的基础组件和样式系统。</li>
-<li>MUI X：MUI的高性能和复杂组件，包括高性能的表格、图表等等。</li>
-</ul>
-<p>如果您正在开发一个高度复杂的系统，可以使用MUI的完整解决方案。然而，MUI X是一个付费的组件库，可能需要订阅费用。</p>
-<p>MUI是一个庞大的代码库，拥有广泛的代码和长时间的维护历史。它的高度可定制性使其适用于大型项目。在MUI仓库中，您可以找到大量的功能。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/mui-2024#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
-<p>✅ 优点</p>
-<p>如果您想开发大型项目，有高度的定制要求，并希望在业务复杂性较高的情况下使用高性能数据组件和图表组件，特别是在愿意订阅MUI X的情况下，建议使用MUI进行开发。其灵活的配置和丰富的组件可以完全满足您的需求。</p>
-<p>❌ 缺点</p>
-<p>如果您需要一个轻量级的框架，并倾向于使用纯CSS解决方案进行布局调整，那么不建议在这里使用MUI。MUI具有完整的专有设计系统，带有一定的学习曲线，而且Material Design的美学可能不适合每个人。在这种情况下，探索其他开源仓库可能更合适。</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="UI库" term="UI库"/>
-        <category label="Shadcn UI" term="Shadcn UI"/>
-        <category label="React" term="React"/>
         <category label="javascript" term="javascript"/>
     </entry>
 </feed>

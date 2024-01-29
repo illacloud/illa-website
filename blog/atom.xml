@@ -9,6 +9,121 @@
     <icon>https://illacloud.github.io/illa-website/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
     <entry>
+        <title type="html"><![CDATA[Most Popular 5 React Component Libraries in 2024]]></title>
+        <id>https://illacloud.github.io/illa-website/blog/react-component-library</id>
+        <link href="https://illacloud.github.io/illa-website/blog/react-component-library"/>
+        <updated>2024-01-29T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[React is a popular JavaScript library for building user interfaces. It is used by many companies, including Facebook, Instagram, Netflix, Airbnb, and Uber.]]></summary>
+        <content type="html"><![CDATA[<p>React is a popular JavaScript library for building user interfaces. It is used by many companies, including Facebook, Instagram, Netflix, Airbnb, and Uber. React is also used by many open-source projects, such as WordPress, Drupal, and Magento.</p>
+<p>When building many interfaces, it's essential to choose an appropriate React component library. These libraries can help us quickly build user interfaces. They also provide many reusable components, such as buttons, forms, charts, tables, etc. These libraries offer many features, including themes, animations, routing, state management, and more.</p>
+<p>There are many React component libraries on the market. Each library has its own features, pros and cons, and price. In this blog post, we will review the top 5 React component libraries in 2024 and compare them based on their features, ease of use, compatibility.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/blog/react-component-library#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
+<p>Typically, companies choose component libraries to build web applications to simplify repetitive tasks. Component libraries provide a range of ready-to-use components, such as dropdowns, input boxes, checkboxes, etc. These components come with customizable styles or attractive built-in styles, allowing for the rapid development of visually appealing websites without starting from scratch.</p>
+<p>In summary, we usually use component libraries in two scenarios:</p>
+<ul>
+<li>External tools: Directly facing company users, often consistent with the company's style, more aesthetically pleasing, and more responsive.</li>
+<li>Internal tools: For internal use by company employees, emphasizing design aesthetics and rapid feature implementation.</li>
+</ul>
+<p>Next, we will analyze component libraries based on the following aspects:</p>
+<ol>
+<li>Advantages</li>
+<li>Disadvantages</li>
+<li>How to make a choice</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="best-choice-for-internal-tool-scenarios">Best Choice for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/blog/react-component-library#best-choice-for-internal-tool-scenarios" class="hash-link" aria-label="Direct link to Best Choice for Internal Tool Scenarios" title="Direct link to Best Choice for Internal Tool Scenarios">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows for the rapid construction of internal tools using simple JS, without the need for complex frontend projects. It offers drag-and-drop UI building.</p>
+<ul>
+<li>Web and application management panels</li>
+<li>Data dashboards</li>
+<li>Custom B2B tools</li>
+</ul>
+<p>Compared to building with component libraries, ILLA Cloud can achieve tool construction 10 times faster and supports collaborative editing within teams.</p>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/dashboard.png" alt="dashboard" class="img_CfaS"></p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="mui">MUI<a href="https://illacloud.github.io/illa-website/blog/react-component-library#mui" class="hash-link" aria-label="Direct link to MUI" title="Direct link to MUI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/mui.png" alt="MUI" class="img_CfaS"></p>
+<p>⭐ GitHub Stars: 90k</p>
+<p>⏬ NPM Downloads: 3,263,852 per week</p>
+<p>💪🏼 Initial Release Date: November 6, 2014</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages">Advantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#advantages" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h3>
+<p>MUI's components are comprehensive, consisting of:</p>
+<ul>
+<li>MUI Core: Core components, including buttons, forms, icons, charts, tables, etc.</li>
+<li>MUI X: Advanced components, including data tables, complex charts, etc.</li>
+</ul>
+<p>Using MUI can cover all scenarios without the need for other component libraries for complex data handling and presentation.</p>
+<p>If you like the style of Material Design, MUI is your best choice. You can build a complete Google-style application without any modifications.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages">Disadvantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#disadvantages" class="hash-link" aria-label="Direct link to Disadvantages" title="Direct link to Disadvantages">​</a></h3>
+<p>Complex data handling components in MUI X require payment.</p>
+<p>MUI, as an implementation of Material Design, has a rigorous design style, which may require extra work for scenarios needing custom design styles.</p>
+<p>MUI's custom Style system uses EmotionJs for overall layout style adjustments, which may have a learning curve and might not be suitable for direct development without consulting documentation.</p>
+<p>If you dislike the CSS-IN-JS approach, MUI might not be your best choice.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="shadcn-ui">Shadcn UI<a href="https://illacloud.github.io/illa-website/blog/react-component-library#shadcn-ui" class="hash-link" aria-label="Direct link to Shadcn UI" title="Direct link to Shadcn UI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/shadcnui.png" alt="Shadcn UI" class="img_CfaS"></p>
+<p>⭐ GitHub Stars: 37k</p>
+<p>⏬ NPM Downloads: 23,962 per week</p>
+<p>💪🏼 Initial Release Date: March 8, 2023</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-1">Advantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#advantages-1" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h3>
+<p>As a relatively new project, Shadcn UI has quickly gained recognition in the open-source community. Being newly built without historical baggage, it can adapt better to new technology stacks.</p>
+<p>Shadcn UI's design style is more business-oriented, with a clean user interface suitable for internal tools and serious application scenarios. Shadcn UI supports custom themes and some preset styles, allowing for quick application builds without the need for custom design styles.</p>
+<p>Shadcn UI's biggest advantage is that it is not a library distributed by npm. Integrating Shadcn UI involves building directly with code, meaning you can modify its code without additional effort.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages-1">Disadvantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#disadvantages-1" class="hash-link" aria-label="Direct link to Disadvantages" title="Direct link to Disadvantages">​</a></h3>
+<p>Shadcn UI's theme is based on CSS variables, which means it does not support IE11. If you need IE11 support, Shadcn UI might not be the best choice.</p>
+<p>Shadcn UI's theme customization uses CSS variables or Tailwind CSS utility classes, so additional work may be needed for CSS-IN-JS users.</p>
+<p>Being relatively new, Shadcn UI may lack support for complex components like DataGrid and Chart, requiring other solutions, meaning you can't rely on a single component library for all tasks.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="chakra-ui">Chakra UI<a href="https://illacloud.github.io/illa-website/blog/react-component-library#chakra-ui" class="hash-link" aria-label="Direct link to Chakra UI" title="Direct link to Chakra UI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/chakraui.png" alt="chakra-ui" class="img_CfaS"></p>
+<p>⭐ GitHub Stars: 35.8k</p>
+<p>⏬ NPM Downloads: 534,188 per week</p>
+<p>💪🏼 Initial Release Date: December 7, 2019</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-2">Advantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#advantages-2" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h3>
+<p>Chakra UI is a commercially styled component library, not bound to any specific style, making it aesthetically pleasing for most users.</p>
+<p>As a library, Chakra UI has a vast template market, offering complete templates for mainstream scenarios like e-commerce and SaaS websites. These templates can be used directly or modified.</p>
+<p>Chakra UI's features mostly require no configuration, helpful for rapid prototyping, and natively supports responsiveness for previews on different devices.</p>
+<p>Chakra UI is SEO-friendly, essential for products requiring SEO optimization.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages-2">Disadvantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#disadvantages-2" class="hash-link" aria-label="Direct link to Disadvantages" title="Direct link to Disadvantages">​</a></h3>
+<p>Chakra UI lacks component richness for complex scenarios like data handling and charts, requiring additional solutions.</p>
+<p>It's best not to use Chakra UI for complex tool or SaaS products due to its limited component customization capabilities. Using Chakra UI for Landing Pages is the best choice.</p>
+<p>Although Chakra UI has a rich template market, these templates are not free, and additional costs are required for purchases.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="ant-design">Ant Design<a href="https://illacloud.github.io/illa-website/blog/react-component-library#ant-design" class="hash-link" aria-label="Direct link to Ant Design" title="Direct link to Ant Design">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/antd.png" alt="ant-design" class="img_CfaS"></p>
+<p>⭐ GitHub Stars: 89.1k</p>
+<p>⏬ NPM Downloads: 1,264,151 per week</p>
+<p>💪🏼 Initial Release Date: July 21, 2015</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-3">Advantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#advantages-3" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h3>
+<p>As a library maintained by a mature billion-dollar public company, Ant Design offers the best richness, covering all scenarios with stable components.</p>
+<p>If you need to unify React and Vue styles in your workspace, Ant Design is your best choice, supporting both React and Vue.</p>
+<p>Ant Design includes not only basic components but also Web3 components, allowing for direct Web3 application development.</p>
+<p>Ant Design also customizes component libraries for data charts, big data scenarios, and maps, supporting complex data screen scenarios.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages-3">Disadvantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#disadvantages-3" class="hash-link" aria-label="Direct link to Disadvantages" title="Direct link to Disadvantages">​</a></h3>
+<p>Ant Design's extensive support comes with historical baggage, such as poor performance in the Table component, requiring additional solutions.</p>
+<p>Although Ant Design excellently covers component breadth, it lacks depth in component satisfaction.</p>
+<p>All dependencies in Ant Design are maintained by Ant Design, requiring extra work to adapt your build and CSS schemes, which is unfriendly for scenarios wishing to use other open-source libraries.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="fluent-ui">Fluent UI<a href="https://illacloud.github.io/illa-website/blog/react-component-library#fluent-ui" class="hash-link" aria-label="Direct link to Fluent UI" title="Direct link to Fluent UI">​</a></h2>
+<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/react-component-library/fluentui.png" alt="fluent-ui" class="img_CfaS"></p>
+<p>⭐ GitHub Stars: 17.3k</p>
+<p>⏬ NPM Downloads: 191,170 per week</p>
+<p>💪🏼 Initial Release Date: September 17, 2020</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="advantages-4">Advantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#advantages-4" class="hash-link" aria-label="Direct link to Advantages" title="Direct link to Advantages">​</a></h3>
+<p>Maintained officially by Microsoft, Fluent UI's style is completely consistent with Microsoft's, helpful for scenarios needing to align with Microsoft's style.</p>
+<p>Fluent UI supports many platforms, including Web, React Native, iOS, Android, macOS, and Windows, allowing for the development of cross-platform applications.</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="disadvantages-4">Disadvantages<a href="https://illacloud.github.io/illa-website/blog/react-component-library#disadvantages-4" class="hash-link" aria-label="Direct link to Disadvantages" title="Direct link to Disadvantages">​</a></h3>
+<p>Not everyone likes Microsoft's style, so if you dislike it, Fluent UI might not be the best choice.</p>
+<p>Fluent UI lacks component richness for complex scenarios like data handling and charts, requiring additional solutions.</p>
+<p>Fluent UI's documentation could be improved, as documentation construction is crucial for developers.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/react-component-library#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>If you need a comprehensive component library and are willing to pay for it, MUI is recommended. If you don't want to pay, Ant Design is recommended.</p>
+<p>If you are developing a Landing Page, Chakra UI is recommended.</p>
+<p>If you want to use the Microsoft style, Fluent UI is recommended.</p>
+<p>If you don't want to introduce a component library and only want to integrate the source code, Shadcn UI is recommended.</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="react" term="react"/>
+        <category label="component" term="component"/>
+        <category label="library" term="library"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Best Web Worker Tutorial]]></title>
         <id>https://illacloud.github.io/illa-website/blog/web-worker-tutorial</id>
         <link href="https://illacloud.github.io/illa-website/blog/web-worker-tutorial"/>
@@ -1469,77 +1584,6 @@ T extends Length constraints T's type to include the length property, and the ty
         </author>
         <category label="low code" term="low code"/>
         <category label="traditional development" term="traditional development"/>
-        <category label="javascript" term="javascript"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2024 has arrived, should I choose MUI?]]></title>
-        <id>https://illacloud.github.io/illa-website/blog/mui-2024</id>
-        <link href="https://illacloud.github.io/illa-website/blog/mui-2024"/>
-        <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Every company has its own exclusive online business, and as the business continues to update and iterate.]]></summary>
-        <content type="html"><![CDATA[<p>2024 has arrived, and the ecosystem of React component libraries remains highly prosperous. This article will dissect two currently popular component libraries from various perspectives, providing an objective analysis to help users make more informed choices.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="why-choose-a-component-library">Why Choose a Component Library?<a href="https://illacloud.github.io/illa-website/blog/mui-2024#why-choose-a-component-library" class="hash-link" aria-label="Direct link to Why Choose a Component Library?" title="Direct link to Why Choose a Component Library?">​</a></h2>
-<p>In general, every company building web applications tends to select a component library. These libraries address a significant amount of repetitive work, offering readily usable components such as Select, Input, CheckBox, and more. These components, customizable through styles or pre-existing attractive styles, enable the rapid creation of beautiful websites without the need to build extensive foundational features from scratch.</p>
-<p>To summarize, component libraries are typically used in two scenarios:</p>
-<ul>
-<li>External tools: Directly targeted at company users, usually adhering to the company's style, more aesthetically pleasing, and responsive.</li>
-<li>Internal tools: Aimed at internal use by company employees, focusing on aesthetic design while prioritizing rapid functionality implementation.</li>
-</ul>
-<p>Next, we will analyze two component libraries based on the following points:</p>
-<ol>
-<li>Design</li>
-<li>Richness of Features</li>
-<li>How to Choose in Different Scenarios</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="other-choices-for-internal-tool-scenarios">Other Choices for Internal Tool Scenarios<a href="https://illacloud.github.io/illa-website/blog/mui-2024#other-choices-for-internal-tool-scenarios" class="hash-link" aria-label="Direct link to Other Choices for Internal Tool Scenarios" title="Direct link to Other Choices for Internal Tool Scenarios">​</a></h2>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
-<ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
-</ul>
-<p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="features-of-mui">Features of MUI<a href="https://illacloud.github.io/illa-website/blog/mui-2024#features-of-mui" class="hash-link" aria-label="Direct link to Features of MUI" title="Direct link to Features of MUI">​</a></h2>
-<p>Some detailed data about MUI:</p>
-<ul>
-<li>⭐ Github Stars: 90k</li>
-<li>⏬ NPM Downloads: 3,263,852 downloads per week</li>
-<li>💪🏼 First Release Date: Nov 6, 2014</li>
-</ul>
-<p>MUI, as a longstanding project maintained since 2014, boasts almost a decade of stability. Its high star count and weekly download numbers ensure that the community remains consistently active.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/mui-2024/mui.png" alt="mui" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="design">Design<a href="https://illacloud.github.io/illa-website/blog/mui-2024#design" class="hash-link" aria-label="Direct link to Design" title="Direct link to Design">​</a></h3>
-<p>In terms of design, MUI strictly adheres to Google's renowned Material Design. MUI's customization capabilities are extensive, catering to a wide range of internal and external scenarios. Many well-known open-source projects use MUI for front-end development. For most functionalities, MUI provides comprehensive support.</p>
-<p>In addition to common features like:</p>
-<ul>
-<li>Colors</li>
-<li>Border radii</li>
-<li>Dark mode / Light mode</li>
-</ul>
-<p>MUI supports complete configurations of fonts, font sizes, colors, and margins, making it a powerful tool as a project with ten years of development.</p>
-<p>Regarding CSS support, MUI has its custom system, utilizing emotionjs for style adjustments in the overall layout. This may come with a learning curve and may not be as developer-friendly for direct development, requiring documentation consultation for certain style modifications.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="richness-of-features">Richness of Features<a href="https://illacloud.github.io/illa-website/blog/mui-2024#richness-of-features" class="hash-link" aria-label="Direct link to Richness of Features" title="Direct link to Richness of Features">​</a></h3>
-<p>MUI's component types are highly complex, divided into several dimensions:</p>
-<p>These include:</p>
-<ul>
-<li>MUI Core: Basic functional components of MUI, including a multitude of foundational components and a style system.</li>
-<li>MUI X: High-performance and complex components of MUI, including high-performance tables, charts, etc.</li>
-</ul>
-<p>If you are developing a highly complex system, you can use MUI's full suite solution. However, MUI X is a paid component library, and a subscription fee may be required.</p>
-<p>MUI is a heavyweight repository with extensive code and a long maintenance history. Its high customizability makes it suitable for large projects. In the MUI repository, you can find a wealth of features.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/mui-2024#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>✅ Advantages</p>
-<p>If you want to develop large projects, have high customization requirements, and wish to use high-performance data components and chart components, especially in scenarios with high business complexity and are willing to subscribe to MUI X, it is recommended to use MUI for development. Its flexible configuration and plethora of components can fully meet your requirements.</p>
-<p>❌ Disadvantages</p>
-<p>If you need a lightweight framework and prefer to use a CSS-only solution for layout adjustments, it is not recommended here. MUI has a comprehensive proprietary design system, comes with a certain learning curve, and Material Design's aesthetics may not suit everyone. In such cases, exploring other open-source repositories might be more suitable.</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="UI Library" term="UI Library"/>
-        <category label="Shadcn UI" term="Shadcn UI"/>
-        <category label="React" term="React"/>
         <category label="javascript" term="javascript"/>
     </entry>
 </feed>
