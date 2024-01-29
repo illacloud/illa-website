@@ -526,174 +526,174 @@ E：表示元素类型</p>
             <category>retool</category>
         </item>
         <item>
-            <title><![CDATA[Tooljet vs Appsmitm: Which open-source low-code platform is better?]]></title>
+            <title><![CDATA[Tooljet vs. Appsmith: 开源低代码平台，哪个更优秀？]]></title>
             <link>https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith</link>
             <guid>https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith</guid>
             <pubDate>Tue, 23 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[If you’re considering using a low-code development platform to build applications, you may wonder whether Tooljet or Appsmith is the better option]]></description>
-            <content:encoded><![CDATA[<p>If you’re considering using a low-code development platform to build applications, you may wonder whether Tooljet or Appsmith is the better option. Both are open-source platforms with various features to choose from, but they each have their own strengths and weaknesses. This blog post will compare Tooljet and Appsmith to help you decide which is suitable for your needs.</p>
-<p>Tooljet is excellent for those who prefer working with visual elements and drag-and-drop tools. Its user interface allows you to quickly create applications by simply dragging and dropping different components into place, making it easy and fast to build applications from the ground up. Additionally, Tooljet has powerful management features that allow you to collaborate with other users in real-time and monitor project progress.</p>
-<p>Appsmith is an excellent option for developers who want more control over their applications. It offers a wide range of great features, such as API integration, triggers, and scripts that can add complex functionality to your apps. Moreover, Appsmith also provides an intuitive code editor, making it easy to write custom code in your projects if needed.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-the-best-software-development-tool">ILLA Cloud: The best software development tool<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#illa-cloud-the-best-software-development-tool" class="hash-link" aria-label="Direct link to ILLA Cloud: The best software development tool" title="Direct link to ILLA Cloud: The best software development tool">​</a></h2>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
+            <description><![CDATA[如果您考虑使用低代码开发平台，可能会疑惑在Tooljet和Appsmith之间选择哪个作为候选项。虽然两者都是提供不同功能的开源平台，但它们各自都有独特的优势和不足。本博客文章将比较Tooljet和Appsmith，帮助您选择符合您需求的选项。]]></description>
+            <content:encoded><![CDATA[<p>如果您正在考虑使用低代码开发平台，可能会疑惑在Tooljet和Appsmith之间选择哪个作为候选项。虽然两者都是提供不同功能的开源平台，但它们各自都有独特的优势和不足。本博客文章将比较Tooljet和Appsmith，帮助您选择符合您需求的选项。</p>
+<p>Tooljet适合喜欢使用可视化元素和拖放工具的人们。使用其用户界面，您可以轻松选择各种组件并拖放以快速创建应用程序，因此您可以从头开始迅速构建应用程序。此外，Tooljet还提供了强大的管理功能，可实时与其他用户协作并监控项目进展。</p>
+<p>Appsmith适合希望在应用程序中添加更多控制的开发者。它提供了广泛的功能，如API集成、触发器、脚本等，可以为应用程序添加复杂功能。此外，Appsmith还配备了直观的代码编辑器，可以轻松编写自定义代码，如果需要的话。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud最优秀的软件开发工具">ILLA Cloud：最优秀的软件开发工具<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#illa-cloud%E6%9C%80%E4%BC%98%E7%A7%80%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="Direct link to ILLA Cloud：最优秀的软件开发工具" title="Direct link to ILLA Cloud：最优秀的软件开发工具">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>是一个即时可用的低代码工具，可以快速创建内部工具，无需创建新项目或编写大量代码。</p>
 <ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
+<li>管理Web和应用程序面板</li>
+<li>数据仪表板</li>
+<li>可定制的B2B工具</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/illa.png" alt="illa" class="img_CfaS"></p>
-<p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet-and-appsmith-are-two-popular-software-development-tools">Tooljet and Appsmith are two popular software development tools.<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#tooljet-and-appsmith-are-two-popular-software-development-tools" class="hash-link" aria-label="Direct link to Tooljet and Appsmith are two popular software development tools." title="Direct link to Tooljet and Appsmith are two popular software development tools.">​</a></h2>
-<p>Tooljet and Appsmith are two extremely powerful software development tools that enable developers to create applications with data sources quickly and efficiently without too much hand coding. Both tools use intuitive drag-and-drop elements, code tools, data connectors, and a visual development process to help streamline business process management.</p>
-<p>With their extensive feature sets, both Tooljet and Appsmith have successfully served many developers as they continue to rapidly develop data-driven applications. They prove time and time again that they are essential tools for any software developer with coding knowledge looking to create advanced data-driven applications in just a few simple steps.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet---better-for-those-who-want-more-control-over-their-project">Tooljet - better for those who want more control over their project<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#tooljet---better-for-those-who-want-more-control-over-their-project" class="hash-link" aria-label="Direct link to Tooljet - better for those who want more control over their project" title="Direct link to Tooljet - better for those who want more control over their project">​</a></h2>
+<p>与使用组件库进行开发相比，ILLA Cloud支持团队协作，可以更快地创建工具。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet和appsmith是两个受欢迎的软件开发工具">Tooljet和Appsmith是两个受欢迎的软件开发工具。<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#tooljet%E5%92%8Cappsmith%E6%98%AF%E4%B8%A4%E4%B8%AA%E5%8F%97%E6%AC%A2%E8%BF%8E%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="Direct link to Tooljet和Appsmith是两个受欢迎的软件开发工具。" title="Direct link to Tooljet和Appsmith是两个受欢迎的软件开发工具。">​</a></h2>
+<p>Tooljet和Appsmith都是功能强大的软件开发工具，可以快速高效地创建应用程序，借助数据源。这两个工具都使用直观的拖放元素、代码工具、数据连接和可视化开发流程来优化业务流程管理。</p>
+<p>由于其广泛的功能集，Tooljet和Appsmith已经成功地为许多开发人员带来了成功，并在短时间内持续开发数据驱动的应用程序。它们多次证明对于那些希望在几个步骤内创建高度数据驱动的应用程序，而无需编程技能的软件开发人员来说是不可或缺的工具。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet---适合想要更多控制的项目">Tooljet - 适合想要更多控制的项目<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#tooljet---%E9%80%82%E5%90%88%E6%83%B3%E8%A6%81%E6%9B%B4%E5%A4%9A%E6%8E%A7%E5%88%B6%E7%9A%84%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="Direct link to Tooljet - 适合想要更多控制的项目" title="Direct link to Tooljet - 适合想要更多控制的项目">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/tooljet.png" alt="tooljet" class="img_CfaS"></p>
-<p>Both Tooljet and Appsmith are powerful for citizen developers to do rapid application development. Tooljet provides flexibility with a more hands-on approach, allowing business users the control they need to create total admin panels with custom UI components.</p>
-<p>It offers an intuitive user interface that allows users to rapidly design, develop, and manage applications through a series of drag-and-drop tools, visual elements, and data sources. Beyond its easy UI, Tooljet also boasts powerful features such as real-time collaboration, comprehensive project management capabilities, and built-in components.</p>
-<p>This comprehensive suite of features makes it easier for developers to quickly build robust apps without worrying about coding from scratch. Tooljet also supports various coding languages, including Java, JavaScript, Python, and Ruby, giving developers even more freedom when creating custom applications. Additionally, Tooljet has extensive documentation for users looking for additional support when working on their projects.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="pros-of-tooljet">Pros of Tooljet:<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#pros-of-tooljet" class="hash-link" aria-label="Direct link to Pros of Tooljet:" title="Direct link to Pros of Tooljet:">​</a></h3>
+<p>Tooljet和Appsmith都是强大的工具，可用于快速开发应用程序的市民开发者。Tooljet提供了更实用的方法，使业务用户能够具备创建具有自定义UI组件的完整管理面板所需的控制权。</p>
+<p>这个直观的用户界面为用户提供了使用拖放工具、可视元素和数据源来设计、开发和管理应用程序的方式，使创建应用程序变得简单。除易用的用户界面外，Tooljet还提供了实时协作、全面的项目管理功能以及集成组件等强大功能。</p>
+<p>借助这个丰富的功能集，开发人员可以在不担心编码的情况下快速创建应用程序。Tooljet支持多种编程语言，包括Java、JavaScript、Python、Ruby等，为创建自定义应用程序提供了更大的灵活性。此外，Tooljet还提供丰富的文档，以满足需要在项目中工作时获得额外支持的用户的需求。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet的优点">Tooljet的优点：<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#tooljet%E7%9A%84%E4%BC%98%E7%82%B9" class="hash-link" aria-label="Direct link to Tooljet的优点：" title="Direct link to Tooljet的优点：">​</a></h3>
 <ul>
-<li>Intuitive and easy-to-use user interface that makes it simple to create applications quickly with drag-and-drop tools</li>
-<li>Powerful management features to help collaborate with other users in real-time and monitor project progress</li>
-<li>Built-in analytics and reporting tools to measure the performance, usage, and reliability of applications</li>
-<li>A feature-rich platform that supports webhooks, API integration, and custom code for added complexity</li>
+<li>使用拖放工具快速创建应用程序的直观易用用户界面</li>
+<li>强大的管理功能，实时协作和监控项目进展</li>
+<li>集成分析和报告工具，用于衡量应用程序性能、使用情况和可靠性</li>
+<li>支持Webhooks、API集成以及处理额外复杂性的自定义代码的功能丰富平台</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="cons-of-tooljet">Cons of Tooljet:<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#cons-of-tooljet" class="hash-link" aria-label="Direct link to Cons of Tooljet:" title="Direct link to Cons of Tooljet:">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet的缺点">Tooljet的缺点：<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#tooljet%E7%9A%84%E7%BC%BA%E7%82%B9" class="hash-link" aria-label="Direct link to Tooljet的缺点：" title="Direct link to Tooljet的缺点：">​</a></h3>
 <ul>
-<li>The visual approach means it can be difficult to troubleshoot problems without an understanding of the underlying code</li>
-<li>Visual elements are limited, which may not provide enough flexibility for more complex projects</li>
-<li>Limited support for third-party integrations, which could restrict the use cases for certain applications</li>
+<li>仅凭视觉方法解决问题可能需要对基本代码有一定了解</li>
+<li>视觉元素受到限制，可能不提供足够的灵活性用于更复杂的项目</li>
+<li>对第三方集成的支持有限，可能限制特定应用程序的用例</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith---more-user-friendly">Appsmith - more user-friendly<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#appsmith---more-user-friendly" class="hash-link" aria-label="Direct link to Appsmith - more user-friendly" title="Direct link to Appsmith - more user-friendly">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith---用户友好型">Appsmith - 用户友好型<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#appsmith---%E7%94%A8%E6%88%B7%E5%8F%8B%E5%A5%BD%E5%9E%8B" class="hash-link" aria-label="Direct link to Appsmith - 用户友好型" title="Direct link to Appsmith - 用户友好型">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/appsmith.png" alt="appsmith" class="img_CfaS"></p>
-<p>On the other hand, Appsmith is ideal for those who don’t have coding experience but still want to craft an app - it makes app development more accessible than ever with user-friendly tools that require no technical knowledge. Appsmith is an intuitive, user-friendly low-code platform for non-technical users to build robust data-driven applications quickly. With a simple drag-and-drop interface, you can easily create custom UI components and manage your projects with comprehensive project management capabilities.</p>
-<p>Appsmith also offers advanced security features such as role-based access control to ensure that only authorized personnel access sensitive information. Additionally, Appsmith integrates with third-party services and supports webhooks, API integration, and custom code, which makes it a great choice for creating robust applications without the need to code from scratch.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="pros-of-appsmith">Pros of Appsmith:<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#pros-of-appsmith" class="hash-link" aria-label="Direct link to Pros of Appsmith:" title="Direct link to Pros of Appsmith:">​</a></h3>
+<p>Appsmith适合那些希望创建应用程序但无需编程经验的人。它是一款直观且易于使用的低代码平台，可使无需技术知识的用户快速创建数据驱动的应用程序。使用简单的拖放用户界面，您可以轻松创建自定义UI组件，并使用全面的项目管理功能来管理项目。</p>
+<p>Appsmith还提供高级的安全功能，如基于角色的访问控制，确保只有授权的人员才能访问机密信息。此外，Appsmith可以无缝集成第三方服务，支持Webhooks、API集成和自定义代码，是创建坚固应用程序的出色选择，无需编程。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith的优点">Appsmith的优点：<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#appsmith%E7%9A%84%E4%BC%98%E7%82%B9" class="hash-link" aria-label="Direct link to Appsmith的优点：" title="Direct link to Appsmith的优点：">​</a></h3>
 <ul>
-<li>Highly customizable features so developers can add complex functionality to their apps easily</li>
-<li>Intuitive code editor makes it easy to write custom code into your projects if needed</li>
-<li>Supports multiple programming languages such as JavaScript, HTML5, CSS3, TypeScript, etc.</li>
-<li>Flexible API integration allows users to connect various services together quickly and securely</li>
-<li>A wide range of predefined templates and components make it easier to create new applications from scratch</li>
+<li>具备高级自定义功能，允许开发人员轻松添加复杂功能到应用程序中</li>
+<li>直观的代码编辑器，可轻松编写自定义代码</li>
+<li>支持多种编程语言，如JavaScript、HTML5、CSS3、TypeScript等</li>
+<li>灵活的API集成，可以快速安全地集成各种服务</li>
+<li>提供各种预定义模板和组件，可轻松从头开始创建新应用程序</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="cons-of-appsmith">Cons of Appsmith:<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#cons-of-appsmith" class="hash-link" aria-label="Direct link to Cons of Appsmith:" title="Direct link to Cons of Appsmith:">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="appsmith的缺点">Appsmith的缺点：<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#appsmith%E7%9A%84%E7%BC%BA%E7%82%B9" class="hash-link" aria-label="Direct link to Appsmith的缺点：" title="Direct link to Appsmith的缺点：">​</a></h3>
 <ul>
-<li>Not as beginner-friendly compared to other low-code platforms, which could limit its usefulness for certain users</li>
-<li>Code changes can be tricky as they require manual adjustments every time they are made</li>
-<li>More expensive than Tooljet, which may not make it a viable option for some budgets</li>
+<li>相对于其他低代码平台，用户友好性不如其他平台，可能对某些用户的实用性有限</li>
+<li>对代码的更改可能需要一些工作，每次更改都需要手动调整</li>
+<li>价格相对较高，可能不适合某些预算</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-offers-the-best-of-both-worlds">ILLA Cloud offers the best of both worlds<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#illa-cloud-offers-the-best-of-both-worlds" class="hash-link" aria-label="Direct link to ILLA Cloud offers the best of both worlds" title="Direct link to ILLA Cloud offers the best of both worlds">​</a></h2>
-<p>ILLA is one of the fastest platforms for internal tool development. It saves developers precious time on web design and other aspects of their job. One of the main reasons developers are increasingly choosing ILLA is the library. The platform has conjured a rich collection of code components that you can simply drag and drop and build complex applications within minutes.</p>
-<p>You can also use application programming interfaces to join ILLA with a database of your choice. The platform can excellently integrate back-end and front-end data. As a result, developers can make vast information interactions possible with basic data calls.</p>
-<p>Any developer will love ILLA for two reasons- freedom and the chance to work simultaneously with other developers. Firstly, developers can write JavaScript wherever they want. This permits more flexibility in their job and increased variety in results.</p>
-<p>Secondly, developers can share links in ILLA Builder with other professionals in real time. Consequently, they can edit and comment on each other’s work as they go along. In other words, developers get to work in a fun and collaborative workspace. Naturally, this yields faster and improved results.</p>
-<p>Lastly, developers can always carry their work with them when using ILLA cloud. Just one click from any device will give them access to the cloud and bring them to ILLA’s user interface.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-illa">Key features of ILLA<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#key-features-of-illa" class="hash-link" aria-label="Direct link to Key features of ILLA" title="Direct link to Key features of ILLA">​</a></h3>
-<p>Here are the key features of ILLA you must know:</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud提供了两者的优势">ILLA Cloud提供了两者的优势<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#illa-cloud%E6%8F%90%E4%BE%9B%E4%BA%86%E4%B8%A4%E8%80%85%E7%9A%84%E4%BC%98%E5%8A%BF" class="hash-link" aria-label="Direct link to ILLA Cloud提供了两者的优势" title="Direct link to ILLA Cloud提供了两者的优势">​</a></h2>
+<p>ILLA是内部工具开发中最快速的平台之一。 ILLA可以节省开发人员宝贵的时间，而无需创建新项目或编写大量代码，可用于Web设计和其他任务。开发人员选择ILLA的一个主要原因是其库。该平台拥有丰富的代码组件集合，可以轻松拖放并在几分钟内创建复杂的应用程序。</p>
+<p>此外，您还可以使用API连接所选数据库与ILLA。该平台可以优秀地集成后端和前端数据，使开发人员能够以出色的方式提供简单的数据调用。</p>
+<p>每个开发人员都有两个原因喜欢ILLA：自由和与其他开发人员同时工作的机会。首先，开发人员可以在任何地方编写JavaScript，从而提高了工作的灵活性并实现了多样化的结果。</p>
+<p>其次，在ILLA Builder内，开发人员可以与其他专业人员实时共享链接。这使得他们可以在进行工作时编辑和评论项目。这意味着开发人员可以在有趣的共同工作空间中快乐地合作。当然，这将带来更快速和更好的结果。</p>
+<p>最后，开发人员可以在使用ILLA Cloud时随时工作。只需点击一下，即可从任何设备访问云，并进入ILLA的用户界面。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="illa的主要特点">ILLA的主要特点<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#illa%E7%9A%84%E4%B8%BB%E8%A6%81%E7%89%B9%E7%82%B9" class="hash-link" aria-label="Direct link to ILLA的主要特点" title="Direct link to ILLA的主要特点">​</a></h3>
+<p>以下是ILLA的主要特点：</p>
 <ul>
-<li>ILLA has a ready-to-use library for React components.</li>
-<li>Most amazingly, the ILLA design tool has a typescript typing feature and supports predictable static typing.</li>
-<li>ILLA Design provides quick and easy import, which helps in improving developers’ productivity.</li>
-<li>You can access beautifully designed and powerful themes and components.</li>
+<li>ILLA具有立即可用的React组件库。</li>
+<li>最令人惊讶的是，ILLA设计工具支持TypeScript的类型化功能和可预测的静态类型。</li>
+<li>ILLA Design提供了一种迅速简单的导入功能，可提高开发人员的生产力。</li>
+<li>提供了精美设计的强大主题和组件。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="upgraded-illa-features">Upgraded ILLA features<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#upgraded-illa-features" class="hash-link" aria-label="Direct link to Upgraded ILLA features" title="Direct link to Upgraded ILLA features">​</a></h3>
-<p>Here are some upgraded features of ILLA that you must know:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="更新的illa功能">更新的ILLA功能<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#%E6%9B%B4%E6%96%B0%E7%9A%84illa%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="Direct link to 更新的ILLA功能" title="Direct link to 更新的ILLA功能">​</a></h3>
+<p>以下是一些更新的ILLA功能：</p>
 <ul>
-<li>Quick integration with any data source</li>
-<li>You can connect ILLA to any mainstream database or any other data source. This tool allows you to get data from the backend using front-end components.</li>
-<li>Real-time collaboration for enhanced efficiency</li>
-<li>ILLA Builder allows developers to work collaboratively on a project. They can create and share links to different developers to co-edit their tools and communicate with other team members in real time.</li>
+<li>快速与任何数据源集成</li>
+<li>您可以使用ILLA轻松快速连接到常见数据库或其他数据源。使用此工具，您可以从后端获取数据并使用前端组件。</li>
+<li>实时协作以提高效率</li>
+<li>使用ILLA Builder，开发人员可以协作于项目中。通过创建和共享链接到不同开发人员，可以共同编辑工具，并实时与其他团队成员进行通信。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="responsive-ui-library-to-meet-your-needs">Responsive UI library to meet your needs<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#responsive-ui-library-to-meet-your-needs" class="hash-link" aria-label="Direct link to Responsive UI library to meet your needs" title="Direct link to Responsive UI library to meet your needs">​</a></h3>
-<p>ILLA Builder also has numerous components to meet every developer’s needs efficiently. So, developers can access the drag-and-drop builder to develop their desired internal tools quickly.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>In conclusion, Tooljet and Appsmith are both excellent low-code platforms that can help you build applications quickly and efficiently. However, they each have their own strengths and weaknesses, so it’s important to consider your needs before deciding which one is right for you. If you’re looking for a more hands-on approach with powerful management features, then Tooljet may be the better option for you. On the other hand, if you want a user-friendly platform that doesn’t require any coding experience, then Appsmith may be the better choice. Ultimately, it all comes down to what type of developer you are and what type of application you want to build.</p>]]></content:encoded>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="响应式ui库满足您的需求">响应式UI库，满足您的需求<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#%E5%93%8D%E5%BA%94%E5%BC%8Fui%E5%BA%93%E6%BB%A1%E8%B6%B3%E6%82%A8%E7%9A%84%E9%9C%80%E6%B1%82" class="hash-link" aria-label="Direct link to 响应式UI库，满足您的需求" title="Direct link to 响应式UI库，满足您的需求">​</a></h3>
+<p>ILLA Builder拥有多种组件，可以高效满足各种开发人员的需求。因此，开发人员可以轻松使用拖放构建器访问所需的内部工具。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-appsmith#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
+<p>总之，Tooljet和Appsmith都是出色的低代码平台，可以帮助您快速高效地创建应用程序。但是，由于它们各自具有独特的优势和不足，因此在选择之前考虑自己的需求至关重要。如果您希望更具实用性和强大的管理功能，那么Tooljet可能更适合您。另一方面，如果您希望使用无需编程技能的用户友好型平台，那么Appsmith可能更适合您。最终，选择取决于您是什么样的开发人员以及您想创建什么样的应用程序。</p>]]></content:encoded>
             <category>tooljet</category>
             <category>appsmith</category>
             <category>retool</category>
         </item>
         <item>
-            <title><![CDATA[Tooljet vs Retool: Which open-source low-code platform is better?]]></title>
+            <title><![CDATA[Tooljet vs Retool：哪个开源低代码平台更好？]]></title>
             <link>https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool</link>
             <guid>https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool</guid>
             <pubDate>Tue, 23 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[The demand for efficient and easy-to-use internal tools is on the rise, and low-code platforms have emerged as the go-to solution for businesses.]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="introduction">Introduction<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>The demand for efficient and easy-to-use internal tools is on the rise, and low-code platforms have emerged as the go-to solution for businesses looking to streamline their internal processes. Retool and Tooljet are two popular low-code platforms that have attracted attention for their ability to build internal tools with ease. In this blog, we'll compare Retool and Tooljet, exploring their key features, use cases, and performance, and introduce ILLA Cloud as a supporting platform for app development and deployment.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-the-best-software-development-tool">ILLA Cloud: The best software development tool<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#illa-cloud-the-best-software-development-tool" class="hash-link" aria-label="Direct link to ILLA Cloud: The best software development tool" title="Direct link to ILLA Cloud: The best software development tool">​</a></h2>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> is an out-of-the-box low-code tool that allows quick construction of internal tools with simple JS, without the need to create new projects.</p>
+            <description><![CDATA[对高效易用的内部工具的需求不断增长，低代码平台已成为企业简化内部流程的首选解决方案。]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_dXVO" id="介绍">介绍<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#%E4%BB%8B%E7%BB%8D" class="hash-link" aria-label="Direct link to 介绍" title="Direct link to 介绍">​</a></h2>
+<p>对高效易用的内部工具的需求不断增长，低代码平台已成为企业简化内部流程的首选解决方案。Retool 和 Tooljet 是两个受欢迎的低代码平台，因其轻松构建内部工具的能力而备受关注。在本博客中，我们将比较 Retool 和 Tooljet，探讨它们的关键功能、用例和性能，并介绍 ILLA Cloud 作为应用开发和部署的支持平台。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud最佳软件开发工具">ILLA Cloud：最佳软件开发工具<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#illa-cloud%E6%9C%80%E4%BD%B3%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7" class="hash-link" aria-label="Direct link to ILLA Cloud：最佳软件开发工具" title="Direct link to ILLA Cloud：最佳软件开发工具">​</a></h2>
+<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a> 是一个开箱即用的低代码工具，允许使用简单的 JavaScript 快速构建内部工具，无需创建新项目。</p>
 <ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
+<li>网页和应用管理面板</li>
+<li>数据仪表盘</li>
+<li>定制的 B2B 工具</li>
 </ul>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/illa.png" alt="illa" class="img_CfaS"></p>
-<p>Compared to building with a component library, ILLA Cloud enables 10x faster tool construction and supports collaborative editing within teams.</p>
+<p>与使用组件库构建相比，ILLA Cloud 可以实现 10 倍更快的工具构建，并支持团队内的协作编辑。</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="retool">Retool<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#retool" class="hash-link" aria-label="Direct link to Retool" title="Direct link to Retool">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/retool.png" alt="retool" class="img_CfaS"></p>
-<p>Retool is a widely-used low-code platform that makes it easy to build custom internal tools, including SQL GUIs and Airtable dashboards. With its extensive integration capabilities, Retool allows users to connect to various databases and APIs, making it a popular choice for developing Redis UIs and Airtable admin panels. Retool offers both self-hosted and cloud-based solutions, making it a flexible option for businesses of all sizes. However, some users may find Retool's pricing a bit steep, which has led to a search for open-source Retool alternatives.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="retools-key-features-and-use-cases">Retool's key features and use cases:<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#retools-key-features-and-use-cases" class="hash-link" aria-label="Direct link to Retool's key features and use cases:" title="Direct link to Retool's key features and use cases:">​</a></h3>
+<p>Retool 是一个广泛使用的低代码平台，可以轻松构建自定义的内部工具，包括 SQL GUI 和 Airtable 仪表板。借助其广泛的集成能力，Retool 允许用户连接各种数据库和 API，使其成为开发 Redis UI 和 Airtable 管理面板的热门选择。Retool 提供自托管和云端解决方案，适用于各种规模的企业，但一些用户可能会觉得 Retool 的定价有点高，这导致了对开源 Retool 替代方案的搜索。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="retool-的关键功能和用例">Retool 的关键功能和用例：<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#retool-%E7%9A%84%E5%85%B3%E9%94%AE%E5%8A%9F%E8%83%BD%E5%92%8C%E7%94%A8%E4%BE%8B" class="hash-link" aria-label="Direct link to Retool 的关键功能和用例：" title="Direct link to Retool 的关键功能和用例：">​</a></h3>
 <ul>
-<li>Extensive Integration Capabilities: Retool supports a wide range of databases and APIs, such as SQL, Redis, and Airtable, making it a popular choice for developing Redis UIs, SQL GUIs, and Airtable admin panels.</li>
-<li>User Interface and Experience: Retool features a drag-and-drop interface, which enables users to build internal tools without extensive coding knowledge. The platform also provides a range of pre-built components, such as tables, forms, and charts, to speed up the development process.</li>
-<li>Customizability: With Retool custom components, users can create bespoke solutions tailored to their specific needs. This feature allows for greater flexibility and control over the appearance and functionality of internal tools.</li>
-<li>Security and Compliance: Retool offers robust security features, including role-based access control, audit logs, and SSO. In addition to its cloud-based solution, Retool's self-hosted and on-premise options provide businesses with even more control over their data and infrastructure.</li>
-<li>Pricing: Retool offers a range of pricing plans, but its relatively higher costs may lead some users to search for more affordable open-source Retool alternatives.</li>
+<li>广泛的集成能力：Retool 支持各种数据库和 API，如 SQL、Redis 和 Airtable，使其成为开发 Redis UI、SQL GUI 和 Airtable 管理面板的热门选择。</li>
+<li>用户界面和体验：Retool 提供拖放界面，使用户无需深入的编码知识即可构建内部工具。该平台还提供一系列预构建组件，如表格、表单和图表，以加快开发过程。</li>
+<li>可定制性：通过 Retool 自定义组件，用户可以创建符合其特定需求的定制解决方案。这个功能允许更灵活地控制内部工具的外观和功能。</li>
+<li>安全性和合规性：Retool 提供强大的安全功能，包括基于角色的访问控制、审计日志和单一登录 (SSO)。除了云端解决方案外，Retool 的自托管和本地部署选项还能提供更多对数据和基础设施的控制。</li>
+<li>定价：Retool 提供多种定价计划，但其相对较高的成本可能会导致一些用户寻找更经济实惠的开源 Retool 替代方案。</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet">Tooljet<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#tooljet" class="hash-link" aria-label="Direct link to Tooljet" title="Direct link to Tooljet">​</a></h2>
 <p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/tooljet-vs-appsmith-vs-retool/tooljet.png" alt="tooljet" class="img_CfaS"></p>
-<p>Tooljet is another powerful low-code platform that enables users to build and deploy internal tools and software quickly. Like Retool, Tooljet offers a wide range of integrations, making it easy to create GUIs for Redis and MySQL, as well as handle Redis queries. Tooljet's open-source nature makes it an appealing choice for businesses looking for Retool alternatives. In addition to its ease of use and customizability, Tooljet offers a secure and compliant environment for developing internal tooling, with features like SSO and Docker support.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="tooljets-key-features-and-use-cases">Tooljet's key features and use cases:<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#tooljets-key-features-and-use-cases" class="hash-link" aria-label="Direct link to Tooljet's key features and use cases:" title="Direct link to Tooljet's key features and use cases:">​</a></h3>
+<p>Tooljet 是另一个强大的低代码平台，允许用户快速构建和部署内部工具和软件。与 Retool 类似，Tooljet 提供了广泛的集成功能，使创建 Redis 和 MySQL 的 GUI，以及处理 Redis 查询变得容易。Tooljet 的开源性质使其成为寻找 Retool 替代方案的企业的吸引选择。除了易用性和可定制性外，Tooljet 还提供了一个安全和合规的开发内部工具环境，具有 SSO 和 Docker 支持等功能。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="tooljet-的关键功能和用例">Tooljet 的关键功能和用例：<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#tooljet-%E7%9A%84%E5%85%B3%E9%94%AE%E5%8A%9F%E8%83%BD%E5%92%8C%E7%94%A8%E4%BE%8B" class="hash-link" aria-label="Direct link to Tooljet 的关键功能和用例：" title="Direct link to Tooljet 的关键功能和用例：">​</a></h3>
 <ul>
-<li>Integration Capabilities: Like Retool, Tooljet offers a wide range of integrations, allowing users to connect to various databases and APIs, such as SQL, Redis, and Airtable. This makes it easy to create GUIs for Redis and MySQL and handle Redis queries.</li>
-<li>User Interface and Experience: Tooljet provides an intuitive interface with a drag-and-drop builder, making it easy for users to create and customize their internal tools. It also includes a rich library of pre-built components to facilitate rapid development.</li>
-<li>Customizability: Tooljet's open-source nature allows for greater customization and flexibility than Retool. Users can modify the source code and contribute to the platform's development, ensuring that their internal tools align with their unique requirements.</li>
-<li>Security and Compliance: Tooljet prioritizes security, offering features like SSO, Docker support, and role-based access control. This ensures that your internal tools remain secure and compliant while using Tooljet.</li>
-<li>Pricing: Tooljet's open-source model is free to use and modify, making it an attractive and cost-effective alternative to Retool, especially for smaller businesses or those with limited budgets.</li>
+<li>集成能力：与 Retool 类似，Tooljet 提供广泛的集成功能，允许用户连接各种数据库和 API，如 SQL、Redis 和 Airtable。这使得创建 Redis 和 MySQL 的 GUI 以及处理 Redis 查询变得容易。</li>
+<li>用户界面和体验：Tooljet 提供直观的界面，具有拖放构建器，使用户可以轻松创建和定制其内部工具。它还包括丰富的预构建组件库，以促进快速开发。</li>
+<li>可定制性：Tooljet 的开源性质允许比 Retool 更大的定制和灵活性。用户可以修改源代码并为平台的开发做出贡献，确保其内部工具符合其独特的需求。</li>
+<li>安全性和合规性：Tooljet 优先考虑安全性，提供了单一登录 (SSO)、Docker 支持和基于角色的访问控制等功能。这确保在使用 Tooljet 时您的内部工具保持安全和合规。</li>
+<li>定价：Tooljet 的开源模式是免费使用和修改的，使其成为对 Retool 的更具吸引力和经济实惠的替代方案，特别是对于较小的企业或预算有限的企业。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="comparing-retool-and-tooljet">Comparing Retool and Tooljet<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#comparing-retool-and-tooljet" class="hash-link" aria-label="Direct link to Comparing Retool and Tooljet" title="Direct link to Comparing Retool and Tooljet">​</a></h2>
-<p>When comparing Retool and Tooljet, several key factors come into play:</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="比较-retool-和-tooljet">比较 Retool 和 Tooljet<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#%E6%AF%94%E8%BE%83-retool-%E5%92%8C-tooljet" class="hash-link" aria-label="Direct link to 比较 Retool 和 Tooljet" title="Direct link to 比较 Retool 和 Tooljet">​</a></h2>
+<p>在比较 Retool 和 Tooljet 时，涉及到几个关键因素：</p>
 <ul>
-<li>Integration Capabilities: Both platforms offer extensive integrations, allowing users to connect to various databases and APIs, including SQL, Redis, and Airtable. While both platforms excel in this area, your choice may depend on specific integration requirements or preferences.</li>
-<li>User Interface and Experience: Retool and Tooljet both provide intuitive drag-and-drop interfaces and a library of pre-built components, making it easy for users to build internal tools like Google internal tools and Airtable dashboards. Personal preferences and ease of use will play a role in determining the best option for your needs.</li>
-<li>Customizability: Retool offers custom components, while Tooljet's open-source nature allows for even greater customization. Consider the level of customization required for your internal tools when choosing between the two platforms.</li>
-<li>Security and Compliance: Both platforms prioritize security, with Retool providing self-hosted and on-premise options, while Tooljet offers SSO and Docker support. Evaluate your organization's specific security and compliance requirements when making a decision.</li>
-<li>Pricing: Retool's pricing may be a barrier for some users, while Tooljet's open-source model offers a more budget-friendly alternative. Consider your organization's budget and financial constraints when selecting the most suitable platform.</li>
+<li>集成能力：两个平台都提供广泛的集成功能，允许用户连接各种数据库和 API，包括 SQL、Redis 和 Airtable。虽然两个平台在这个领域都表现出色，但您的选择可能取决于特定的集成需求或偏好。</li>
+<li>用户界面和体验：Retool 和 Tooljet 都提供直观的拖放界面和预构建组件库，使用户能够轻松构建内部工具，如 Google 内部工具和 Airtable 仪表盘。个人偏好和易用性将在确定最适合您需求的选项时发挥作用。</li>
+<li>可定制性：Retool 提供自定义组件，而 Tooljet 的开源性质允许更大的定制。在选择两者之间的平台时，考虑对内部工具所需的定制程度。</li>
+<li>安全性和合规性：两个平台都优先考虑安全性，Retool 提供自托管和本地部署选项，而 Tooljet 提供单一登录 (SSO) 和 Docker 支持。在做出决策时，评估您组织特定的安全性和合规性要求。</li>
+<li>定价：Retool 的定价可能对一些用户构成障碍，而 Tooljet 的开源模式可能比 Retool 的定价结构更具吸引力。考虑每个平台的长期成本，包括潜在的更新和维护费用。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="choosing-the-right-low-code-platform-for-your-needs">Choosing the Right Low-Code Platform for Your Needs<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#choosing-the-right-low-code-platform-for-your-needs" class="hash-link" aria-label="Direct link to Choosing the Right Low-Code Platform for Your Needs" title="Direct link to Choosing the Right Low-Code Platform for Your Needs">​</a></h2>
-<p>To choose between Retool and Tooljet, consider the following factors:</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="选择适合您需求的低代码平台">选择适合您需求的低代码平台<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#%E9%80%89%E6%8B%A9%E9%80%82%E5%90%88%E6%82%A8%E9%9C%80%E6%B1%82%E7%9A%84%E4%BD%8E%E4%BB%A3%E7%A0%81%E5%B9%B3%E5%8F%B0" class="hash-link" aria-label="Direct link to ��选择适合您需求的低代码平台" title="Direct link to 选择适合您需求的低代码平台">​</a></h2>
+<p>要在 Retool 和 Tooljet 之间进行选择，考虑以下因素：</p>
 <ul>
-<li>Integration Requirements: Both platforms offer extensive integration options, so your choice may depend on specific needs or preferences. Evaluate which platform best supports the databases and APIs essential to your internal tools.</li>
-<li>Customizability: If custom components are a priority, Retool may be the better choice. However, if you prefer an open-source platform with greater flexibility, Tooljet could be more suitable.</li>
-<li>Security and Compliance: Both Retool and Tooljet offer robust security features, so consider your specific compliance requirements when making a decision. Assess which platform best aligns with your organization's security policies and standards.</li>
-<li>Budget: If you're searching for a cost-effective solution, Tooljet's open-source model may be more appealing than Retool's pricing structure. Take into account the long-term costs associated with each platform, including potential updates and maintenance.</li>
+<li>集成需求：两个平台都提供广泛的集成选项，因此您的选择可能取决于特定需求或偏好。评估哪个平台最好支持对您的内部工具至关重要的数据库和 API。</li>
+<li>可定制性：如果自定义组件是首要考虑的因素，那么 Retool 可能是更好的选择。然而，如果您更喜欢具有更大灵活性的开源平台，那么 Tooljet 可能更适合。</li>
+<li>安全性和合规性：Retool 和 Tooljet 都提供强大的安全功能，因此在做决定时请考虑您特定的合规性要求。评估哪个平台更符合您组织的安全政策和标准。</li>
+<li>预算：如果您正在寻找经济实惠的解决方案，Tooljet 的开源模式可能比 Retool 的定价结构更吸引人。考虑每个平台的长期成本，包括潜在的更新和维护费用。</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-offers-the-best-of-both-worlds">ILLA Cloud offers the best of both worlds<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#illa-cloud-offers-the-best-of-both-worlds" class="hash-link" aria-label="Direct link to ILLA Cloud offers the best of both worlds" title="Direct link to ILLA Cloud offers the best of both worlds">​</a></h2>
-<p>ILLA is one of the fastest platforms for internal tool development. It saves developers precious time on web design and other aspects of their job. One of the main reasons developers are increasingly choosing ILLA is the library. The platform has conjured a rich collection of code components that you can simply drag and drop and build complex applications within minutes.</p>
-<p>You can also use application programming interfaces to join ILLA with a database of your choice. The platform can excellently integrate back-end and front-end data. As a result, developers can make vast information interactions possible with basic data calls.</p>
-<p>Any developer will love ILLA for two reasons-freedom and the chance to work simultaneously with other developers. Firstly, developers can write JavaScript wherever they want. This permits more flexibility in their job and increased variety in results.</p>
-<p>Secondly, developers can share links in ILLA Builder with other professionals in real time. Consequently, they can edit and comment on each other’s work as they go along. In other words, developers get to work in a fun and collaborative workspace. Naturally, this yields faster and improved results.</p>
-<p>Lastly, developers can always carry their work with them when using ILLA cloud. Just one click from any device will give them access to the cloud and bring them to ILLA’s user interface.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="key-features-of-illa">Key features of ILLA<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#key-features-of-illa" class="hash-link" aria-label="Direct link to Key features of ILLA" title="Direct link to Key features of ILLA">​</a></h3>
-<p>Here are the key features of ILLA you must know:</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloud-提供最佳的两全其美">ILLA Cloud 提供最佳的两全其美<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#illa-cloud-%E6%8F%90%E4%BE%9B%E6%9C%80%E4%BD%B3%E7%9A%84%E4%B8%A4%E5%85%A8%E5%85%B6%E7%BE%8E" class="hash-link" aria-label="Direct link to ILLA Cloud 提供最佳的两全其美" title="Direct link to ILLA Cloud 提供最佳的两全其美">​</a></h2>
+<p>ILLA 是内部工具开发的最快平台之一。它可以为开发人员节省在网页设计和工作的其他方面的宝贵时间。开发人员越来越倾向选择 ILLA 的主要原因之一是其库。该平台提供了丰富的代码组件集合，您只需拖放即可在几分钟内构建复杂的应用程序。</p>
+<p>您还可以使用应用程序编程接口将 ILLA 与您选择的数据库连接起来。该平台可以出色地将后端和前端数据集成在一起。因此，开发人员可以使用基本的数据调用实现广泛的信息交互。</p>
+<p>任何开发人员都会喜欢 ILLA 的两个原因：自由和与其他开发人员同时工作的机会。首先，开发人员可以随心所欲地编写 JavaScript。这使他们在工作中更具灵活性，并获得更多的结果多样性。</p>
+<p>其次，开发人员可以在 ILLA Builder 中与其他专业人员实时共享链接。因此，他们可以在一起编辑和评论对方的工作。换句话说，开发人员可以在一个有趣和协作的工作空间中工作。自然地，这将带来更快和更好的结果。</p>
+<p>最后，使用 ILLA 云时，开发人员可以随时随地携带工作。从任何设备点击一次，即可访问云端并进入 ILLA 的用户界面。</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="illa-的关键功能">ILLA 的关键功能<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#illa-%E7%9A%84%E5%85%B3%E9%94%AE%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="Direct link to ILLA 的关键功能" title="Direct link to ILLA 的关键功能">​</a></h3>
+<p>以下是您必须了解的 ILLA 的关键功能：</p>
 <ul>
-<li>ILLA has a ready-to-use library for React components.</li>
-<li>Most amazingly, the ILLA design tool has a typescript typing feature and supports predictable static typing.</li>
-<li>ILLA Design provides quick and easy import, which helps in improving developers’ productivity.</li>
-<li>You can access beautifully designed and powerful themes and components.</li>
+<li>ILLA 拥有用于 React 组件的即用型库。</li>
+<li>最令人惊讶的是，ILLA 设计工具具有 TypeScript 类型功能，并支持可预测的静态类型。</li>
+<li>ILLA Design 提供了快速且简便的导入，有助于提高开发人员的生产力。</li>
+<li>您可以访问精美设计和功能强大的主题和组件。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="upgraded-illa-features">Upgraded ILLA features<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#upgraded-illa-features" class="hash-link" aria-label="Direct link to Upgraded ILLA features" title="Direct link to Upgraded ILLA features">​</a></h3>
-<p>Here are some upgraded features of ILLA that you must know:</p>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="升级后的illa功能">升级后的ILLA功能<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#%E5%8D%87%E7%BA%A7%E5%90%8E%E7%9A%84illa%E5%8A%9F%E8%83%BD" class="hash-link" aria-label="Direct link to 升级后的ILLA功能" title="Direct link to 升级后的ILLA功能">​</a></h3>
+<p>以下是你必须了解的ILLA的一些升级功能：</p>
 <ul>
-<li>Quick integration with any data source</li>
-<li>You can connect ILLA to any mainstream database or any other data source. This tool allows you to get data from the backend using front-end components.</li>
-<li>Real-time collaboration for enhanced efficiency</li>
-<li>ILLA Builder allows developers to work collaboratively on a project. They can create and share links to different developers to co-edit their tools and communicate with other team members in real time.</li>
+<li>快速与任何数据源集成</li>
+<li>你可以将ILLA连接到任何主流数据库或任何其他数据源。这个工具允许你使用前端组件从后端获取数据。</li>
+<li>实时协作以提高效率</li>
+<li>ILLA Builder允许开发人员协作进行项目工作。他们可以创建和分享链接给不同的开发人员，共同编辑他们的工具并与其他团队成员实时沟通。</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="responsive-ui-library-to-meet-your-needs">Responsive UI library to meet your needs<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#responsive-ui-library-to-meet-your-needs" class="hash-link" aria-label="Direct link to Responsive UI library to meet your needs" title="Direct link to Responsive UI library to meet your needs">​</a></h3>
-<p>ILLA Builder also has numerous components to meet every developer’s needs efficiently. So, developers can access the drag-and-drop builder to develop their desired internal tools quickly.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>In conclusion, Tooljet and Appsmith are both excellent low-code platforms that can help you build applications quickly and efficiently. However, they each have their own strengths and weaknesses, so it’s important to consider your needs before deciding which one is right for you. If you’re looking for a more hands-on approach with powerful management features, then Tooljet may be the better option for you. On the other hand, if you want a user-friendly platform that doesn’t require any coding experience, then Appsmith may be the better choice. Ultimately, it all comes down to what type of developer you are and what type of application you want to build.</p>]]></content:encoded>
+<h3 class="anchor anchorWithStickyNavbar_dXVO" id="响应式ui库以满足你的需求">响应式UI库以满足你的需求<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#%E5%93%8D%E5%BA%94%E5%BC%8Fui%E5%BA%93%E4%BB%A5%E6%BB%A1%E8%B6%B3%E4%BD%A0%E7%9A%84%E9%9C%80%E6%B1%82" class="hash-link" aria-label="Direct link to 响应式UI库以满足你的需求" title="Direct link to 响应式UI库以满足你的需求">​</a></h3>
+<p>ILLA Builder还拥有众多组件，以高效满足每位开发人员的需求。因此，开发人员可以访问拖放构建器，快速开发他们所需的内部工具。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/tooljet-vs-retool#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
+<p>总之，Tooljet和Appsmith都是出色的低代码平台，可以帮助你快速高效地构建应用程序。然而，它们各自都有优点和缺点，因此在决定哪一个适合你之前，考虑清楚你的需求很重要。如果你寻求更具管理功能且需要更多实际操作的方式，那么Tooljet可能更适合你。另一方面，如果你想要一个不需要任何编程经验的用户友好平台，那么Appsmith可能是更好的选择。最终，一切都取决于你是什么类型的开发人员以及你想要构建什么类型的应用程序。</p>]]></content:encoded>
             <category>tooljet</category>
             <category>appsmith</category>
             <category>retool</category>
