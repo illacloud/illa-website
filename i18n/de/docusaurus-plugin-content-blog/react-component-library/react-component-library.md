@@ -1,43 +1,43 @@
 ---
 slug: react-component-library
-title: Most Popular 5 React Component Libraries in 2024
-description: React is a popular JavaScript library for building user interfaces. It is used by many companies, including Facebook, Instagram, Netflix, Airbnb, and Uber.
+title: Die 5 beliebtesten React-Komponentenbibliotheken im Jahr 2024
+description: React ist eine beliebte JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen. Sie wird von vielen Unternehmen eingesetzt, darunter Facebook, Instagram, Netflix, Airbnb und Uber. React wird auch von vielen Open-Source-Projekten verwendet, wie WordPress, Drupal und Magento.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/react-component-library/cover.webp
-tags: [ react, component, library ]
+tags: [ react, komponente, bibliothek ]
 date: 2024-01-29T10:00
 ---
 
-React is a popular JavaScript library for building user interfaces. It is used by many companies, including Facebook, Instagram, Netflix, Airbnb, and Uber. React is also used by many open-source projects, such as WordPress, Drupal, and Magento.
+React ist eine beliebte JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen. Sie wird von vielen Unternehmen eingesetzt, darunter Facebook, Instagram, Netflix, Airbnb und Uber. React wird auch von vielen Open-Source-Projekten verwendet, wie WordPress, Drupal und Magento.
 
-When building many interfaces, it's essential to choose an appropriate React component library. These libraries can help us quickly build user interfaces. They also provide many reusable components, such as buttons, forms, charts, tables, etc. These libraries offer many features, including themes, animations, routing, state management, and more.
+Bei der Erstellung vieler Schnittstellen müssen wir eine geeignete React-Komponentenbibliothek auswählen. Diese Bibliotheken können uns helfen, Benutzeroberflächen schnell zu erstellen. Sie bieten auch viele wiederverwendbare Komponenten, wie Buttons, Formulare, Diagramme, Tabellen usw. Diese Bibliotheken bieten auch viele Funktionen wie Themen, Animationen, Routing, Zustandsverwaltung usw.
 
-There are many React component libraries on the market. Each library has its own features, pros and cons, and price. In this blog post, we will review the top 5 React component libraries in 2024 and compare them based on their features, ease of use, compatibility.
+Es gibt viele React-Komponentenbibliotheken auf dem Markt. Jede Bibliothek hat ihre eigenen Merkmale, Vor- und Nachteile und Preise. In diesem Blogbeitrag werden wir die 5 beliebtesten React-Komponentenbibliotheken im Jahr 2024 überprüfen und sie basierend auf ihren Merkmalen, Benutzerfreundlichkeit und Kompatibilität vergleichen.
 
-## Why Choose a Component Library?
+## Warum eine Komponentenbibliothek wählen?
 
-Typically, companies choose component libraries to build web applications to simplify repetitive tasks. Component libraries provide a range of ready-to-use components, such as dropdowns, input boxes, checkboxes, etc. These components come with customizable styles or attractive built-in styles, allowing for the rapid development of visually appealing websites without starting from scratch.
+Generell wählen Unternehmen beim Erstellen von Webanwendungen Komponentenbibliotheken, um sich wiederholende Aufgaben zu vereinfachen. Komponentenbibliotheken bieten eine Reihe von sofort einsatzbereiten Komponenten, wie Auswahlboxen, Eingabefelder, Kontrollkästchen usw. Diese Komponenten verfügen über anpassbare Stile oder eingebaute attraktive Stile, mit denen schnell ästhetisch ansprechende Websites erstellt werden können, ohne von Grund auf neu beginnen zu müssen.
 
-In summary, we usually use component libraries in two scenarios:
+Zusammenfassend verwenden wir Komponentenbibliotheken normalerweise in zwei Szenarien:
 
-- External tools: Directly facing company users, often consistent with the company's style, more aesthetically pleasing, and more responsive.
-- Internal tools: For internal use by company employees, emphasizing design aesthetics and rapid feature implementation.
+- Externe Werkzeuge: Direkt für Unternehmensbenutzer, normalerweise konsistent mit dem Stil des Unternehmens, attraktiveres Aussehen, reaktionsfähiger.
+- Interne Werkzeuge: Für den internen Gebrauch durch Unternehmensmitarbeiter, Schwerpunkt auf Designästhetik und schneller Funktionsumsetzung.
 
-Next, we will analyze component libraries based on the following aspects:
+Als nächstes werden wir Komponentenbibliotheken basierend auf den folgenden Aspekten analysieren:
 
-1. Advantages
-2. Disadvantages
-3. How to make a choice
+1. Vorteile
+2. Nachteile
+3. Wie man eine Auswahl trifft
 
-## Best Choice for Internal Tool Scenarios
+## Beste Wahl für interne Werkzeug-Szenarien
 
-[ILLA Cloud](https://illacloud.com) is an out-of-the-box low-code tool that allows for the rapid construction of internal tools using simple JS, without the need for complex frontend projects. It offers drag-and-drop UI building.
+[ILLA Cloud](https://illacloud.com) ist ein sofort einsatzbereites Low-Code-Tool, das den schnellen Aufbau interner Werkzeuge mit einfachem JS ermöglicht, ohne komplexe Frontend-Projekte zu erstellen, sofort einsatzbereit, mit Drag-and-Drop zum Erstellen von UIs.
 
-- Web and application management panels
-- Data dashboards
-- Custom B2B tools
+- Web- und App-Management-Panels
+- Daten-Dashboards
+- Benutzerdefinierte B2B-Werkzeuge
 
-Compared to building with component libraries, ILLA Cloud can achieve tool construction 10 times faster and supports collaborative editing within teams.
+Im Vergleich zum Aufbau mit Komponentenbibliotheken ermöglicht ILLA Cloud einen 10-mal schnelleren Werkzeugaufbau und unterstützt die kollaborative Bearbeitung im Team.
 
 ![dashboard](https://cdn.illacloud.com/illa-website/blog/react-component-library/dashboard.png)
 
@@ -45,145 +45,147 @@ Compared to building with component libraries, ILLA Cloud can achieve tool const
 
 ![MUI](https://cdn.illacloud.com/illa-website/blog/react-component-library/mui.png)
 
-⭐ GitHub Stars: 90k
+⭐ GitHub-Sterne: 90k
 
-⏬ NPM Downloads: 3,263,852 per week
+⏬ NPM-Downloads: 3,263,852 Downloads pro Woche
 
-💪🏼 Initial Release Date: November 6, 2014
+💪🏼 Erstveröffentlichungsdatum: 6. November 2014
 
-### Advantages
+### Vorteile
 
-MUI's components are comprehensive, consisting of:
+Die Komponenten von MUI sind sehr umfassend. Die Komponenten von MUI bestehen aus mehreren Teilen, einschließlich:
 
-- MUI Core: Core components, including buttons, forms, icons, charts, tables, etc.
-- MUI X: Advanced components, including data tables, complex charts, etc.
+- MUI Core: Kernkomponenten, einschließlich
 
-Using MUI can cover all scenarios without the need for other component libraries for complex data handling and presentation.
+Buttons, Formularen, Icons, Diagrammen, Tabellen usw.
+- MUI X: Erweiterte Komponenten, einschließlich Datentabellen, komplexen Diagrammen usw.
 
-If you like the style of Material Design, MUI is your best choice. You can build a complete Google-style application without any modifications.
+Mit MUI können Sie im Grunde alle Szenarien abdecken, ohne für komplexe Datenverarbeitungs- und Anzeigeszenarien andere Komponentenbibliotheken auswählen zu müssen.
 
-### Disadvantages
+Wenn Ihnen der Stil von Material Design gefällt, ist MUI Ihre beste Wahl. Sie können ohne Änderungen eine vollständige Google-Stil-Anwendung erstellen.
 
-Complex data handling components in MUI X require payment.
+### Nachteile
 
-MUI, as an implementation of Material Design, has a rigorous design style, which may require extra work for scenarios needing custom design styles.
+Die komplexen Datenverarbeitungskomponenten in MUI X sind kostenpflichtig.
 
-MUI's custom Style system uses EmotionJs for overall layout style adjustments, which may have a learning curve and might not be suitable for direct development without consulting documentation.
+Als Implementierung von Material Design ist der Designstil von MUI ziemlich streng. Für einige Szenarien, die einen benutzerdefinierten Designstil benötigen, könnte zusätzliche Arbeit erforderlich sein.
 
-If you dislike the CSS-IN-JS approach, MUI might not be your best choice.
+Das benutzerdefinierte Style-System von MUI verwendet EmotionJs für die gesamte Layout-Stilanpassung, was eine gewisse Lernkurve erfordern kann und möglicherweise nicht für die direkte Entwicklung geeignet ist, da Sie möglicherweise die Dokumentation konsultieren müssen, um bestimmte Stiländerungen vorzunehmen.
+
+Wenn Sie CSS-IN-JS nicht mögen, ist MUI möglicherweise nicht Ihre beste Wahl.
 
 ## Shadcn UI
 
 ![Shadcn UI](https://cdn.illacloud.com/illa-website/blog/react-component-library/shadcnui.png)
 
-⭐ GitHub Stars: 37k
+⭐ GitHub-Sterne: 37k
 
-⏬ NPM Downloads: 23,962 per week
+⏬ NPM-Downloads: 23,962 Downloads pro Woche
 
-💪🏼 Initial Release Date: March 8, 2023
+💪🏼 Erstveröffentlichungsdatum: 8. März 2023
 
-### Advantages
+### Vorteile
 
-As a relatively new project, Shadcn UI has quickly gained recognition in the open-source community. Being newly built without historical baggage, it can adapt better to new technology stacks.
+Als relativ neues Projekt hat Shadcn UI schnell Anerkennung in der Open-Source-Community gefunden. Da Shadcn ein neu aufgebautes Projekt ist, hat es keine historischen Altlasten und kann sich besser an neue Technologiestacks anpassen.
 
-Shadcn UI's design style is more business-oriented, with a clean user interface suitable for internal tools and serious application scenarios. Shadcn UI supports custom themes and some preset styles, allowing for quick application builds without the need for custom design styles.
+Der Designstil von Shadcn UI tendiert zu einem kommerziellen Stil mit einer sauberen Benutzeroberfläche, geeignet für interne Werkzeuge und ernsthafte Anwendungsszenarien. Shadcn UI unterstützt benutzerdefinierte Themen und verfügt über einige vorgefertigte Stile. Sie können Ihren bevorzugten Stil auswählen, installieren und ändern, was für Szenarien, die keinen benutzerdefinierten Designstil benötigen, eine schnelle Anwendungserstellung ermöglicht.
 
-Shadcn UI's biggest advantage is that it is not a library distributed by npm. Integrating Shadcn UI involves building directly with code, meaning you can modify its code without additional effort.
+Der größte Vorteil von Shadcn UI ist, dass es sich nicht um eine von npm verteilte Bibliothek handelt. Die Integration von Shadcn UI erfolgt direkt durch den Aufbau mit Code, was bedeutet, dass Sie den Code von Shadcn UI direkt ändern können, ohne zusätzlichen Aufwand.
 
-### Disadvantages
+### Nachteile
 
-Shadcn UI's theme is based on CSS variables, which means it does not support IE11. If you need IE11 support, Shadcn UI might not be the best choice.
+Das Thema von Shadcn UI basiert auf CSS-Variablen, was bedeutet, dass es IE11 nicht unterstützt. Wenn Sie IE11 unterstützen müssen, ist Shadcn UI möglicherweise nicht Ihre beste Wahl.
 
-Shadcn UI's theme customization uses CSS variables or Tailwind CSS utility classes, so additional work may be needed for CSS-IN-JS users.
+Und die Themenanpassung von Shadcn UI basiert auf CSS-Variablen oder Tailwind CSS Utility-Klassen. Wenn Sie CSS-IN-JS verwenden, kann dies zusätzlichen Aufwand erfordern.
 
-Being relatively new, Shadcn UI may lack support for complex components like DataGrid and Chart, requiring other solutions, meaning you can't rely on a single component library for all tasks.
+Im Vergleich zu anderen Komponentenbibliotheken ist die Wartungszeit von Shadcn UI kürzer. Für komplexere Komponenten wie DataGrid und Chart wird derzeit keine Unterstützung angeboten. Sie müssen nach anderen Lösungen suchen, was bedeutet, dass Sie nicht mit einer Komponentenbibliothek alle Ihre Arbeiten erledigen können.
 
 ## Chakra UI
 
 ![chakra-ui](https://cdn.illacloud.com/illa-website/blog/react-component-library/chakraui.png)
 
-⭐ GitHub Stars: 35.8k
+⭐ GitHub Sterne: 35.8k
 
-⏬ NPM Downloads: 534,188 per week
+⏬ NPM Downloads: 534,188 Downloads pro Woche
 
-💪🏼 Initial Release Date: December 7, 2019
+💪🏼 Erstveröffentlichung: 7. Dezember 2019
 
-### Advantages
+### Vorteile
 
-Chakra UI is a commercially styled component library, not bound to any specific style, making it aesthetically pleasing for most users.
+Chakra UI ist eine eher kommerziell ausgerichtete Komponentenbibliothek, die keinen bestimmten Stil vorschreibt und somit dem ästhetischen Empfinden der meisten Menschen entspricht.
 
-As a library, Chakra UI has a vast template market, offering complete templates for mainstream scenarios like e-commerce and SaaS websites. These templates can be used directly or modified.
+Als Komponentenbibliothek verfügt Chakra UI über einen sehr großen Vorlagenmarkt. In diesem Markt finden Sie vollständige Vorlagen für die meisten gängigen Szenarien wie E-Commerce und SaaS-Websites. Nach dem Herunterladen können Sie die Vorlagen direkt verwenden oder anpassen.
 
-Chakra UI's features mostly require no configuration, helpful for rapid prototyping, and natively supports responsiveness for previews on different devices.
+Die meisten Funktionen von Chakra UI erfordern keine Konfiguration, was bei der Erstellung eines schnellen Prototyps sehr hilfreich ist. Außerdem bietet es nativen Support für Responsive Design, sodass Sie Vorschauen auf verschiedenen Geräten erstellen können.
 
-Chakra UI is SEO-friendly, essential for products requiring SEO optimization.
+Chakra UI ist SEO-freundlich, was für die Erstellung von SEO-freundlichen Produkten unerlässlich ist.
 
-### Disadvantages
+### Nachteile
 
-Chakra UI lacks component richness for complex scenarios like data handling and charts, requiring additional solutions.
+Die Vielfalt der Komponenten in Chakra UI ist begrenzt. Für einige komplexe Szenarien wie Datenverarbeitung und Diagramme bietet Chakra UI keine Unterstützung, daher benötigen Sie zusätzliche Arbeit, um andere Lösungen zu finden.
 
-It's best not to use Chakra UI for complex tool or SaaS products due to its limited component customization capabilities. Using Chakra UI for Landing Pages is the best choice.
+Es ist am besten, Chakra UI nicht für die Entwicklung komplexer Tool-Produkte und SaaS-Anwendungen zu verwenden, da die Anpassungsfähigkeit der Komponenten begrenzt ist. Die Verwendung von Chakra UI für die Erstellung von Landing Pages ist die beste Wahl.
 
-Although Chakra UI has a rich template market, these templates are not free, and additional costs are required for purchases.
+Obwohl Chakra UI über einen umfangreichen Vorlagenmarkt verfügt, sind diese Vorlagen nicht kostenlos und erfordern zusätzliche Kosten.
 
 ## Ant Design
 
 ![ant-design](https://cdn.illacloud.com/illa-website/blog/react-component-library/antd.png)
 
-⭐ GitHub Stars: 89.1k
+⭐ GitHub Sterne: 89.1k
 
-⏬ NPM Downloads: 1,264,151 per week
+⏬ NPM Downloads: 1,264,151 Downloads pro Woche
 
-💪🏼 Initial Release Date: July 21, 2015
+💪🏼 Erstveröffentlichung: 21. Juli 2015
 
-### Advantages
+### Vorteile
 
-As a library maintained by a mature billion-dollar public company, Ant Design offers the best richness, covering all scenarios with stable components.
+Als von einem reifen, börsennotierten Unternehmen mit einem Marktwert von Milliarden Dollar unterstützte Komponentenbibliothek bietet Ant Design die beste Vielfalt und kann praktisch alle Szenarien abdecken. Außerdem ist die Komponentenbibliothek von Ant Design sehr stabil und unterliegt keinen großen Änderungen.
 
-If you need to unify React and Vue styles in your workspace, Ant Design is your best choice, supporting both React and Vue.
+Wenn Sie in Ihrem Arbeitsumfeld einen einheitlichen Stil für React- und Vue-Anwendungen benötigen, ist Ant Design die beste Wahl, da es nicht nur React, sondern auch Vue unterstützt.
 
-Ant Design includes not only basic components but also Web3 components, allowing for direct Web3 application development.
+Ant Design bietet nicht nur eine Sammlung von Grundkomponenten, sondern auch eine Sammlung von Komponenten für Web3-Anwendungen. Das bedeutet, dass Sie Ant Design direkt für den Aufbau einer Web3-Anwendung verwenden können.
 
-Ant Design also customizes component libraries for data charts, big data scenarios, and maps, supporting complex data screen scenarios.
+Ant Design bietet außerdem maßgeschneiderte Komponentenbibliotheken für Datendiagramme, Big-Data-Szenarien, Karten und andere komplexe Datenvisualisierungsanforderungen.
 
-### Disadvantages
+### Nachteile
 
-Ant Design's extensive support comes with historical baggage, such as poor performance in the Table component, requiring additional solutions.
+In Ant Design gibt es aufgrund der Vielzahl von Funktionen einige historische Altlasten, wie beispielsweise die schlechte Leistung des Tabellenkomponente. Das bedeutet, dass Sie zusätzliche Arbeit leisten müssen, um andere Lösungen zu finden.
 
-Although Ant Design excellently covers component breadth, it lacks depth in component satisfaction.
+Obwohl Ant Design in Bezug auf die Breite der verfügbaren Komponenten hervorragend ist, ist es in Bezug auf die Tiefe der Anpassungsfähigkeit nicht so gut.
 
-All dependencies in Ant Design are maintained by Ant Design, requiring extra work to adapt your build and CSS schemes, which is unfriendly for scenarios wishing to use other open-source libraries.
+Alle Abhängigkeiten von Ant Design werden von Ant Design selbst verwaltet, was bedeutet, dass Sie zusätzliche Arbeit leisten müssen, um sie mit Ihrer eigenen Build- und CSS-Lösung zu kompatibilisieren. Dies ist für Szenarien, in denen Sie andere Open-Source-Bibliotheken verwenden möchten, nicht besonders benutzerfreundlich.
 
 ## Fluent UI
 
 ![fluent-ui](https://cdn.illacloud.com/illa-website/blog/react-component-library/fluentui.png)
 
-⭐ GitHub Stars: 17.3k
+⭐ GitHub Sterne: 17.3k
 
-⏬ NPM Downloads: 191,170 per week
+⏬ NPM Downloads: 191,170 Downloads pro Woche
 
-💪🏼 Initial Release Date: September 17, 2020
+💪🏼 Erstveröffentlichung: 17. September 2020
 
-### Advantages
+### Vorteile
 
-Maintained officially by Microsoft, Fluent UI's style is completely consistent with Microsoft's, helpful for scenarios needing to align with Microsoft's style.
+Fluent UI wird von Microsoft offiziell gepflegt, daher entspricht der Stil von Fluent UI genau dem von Microsoft. Dies ist besonders hilfreich für Szenarien, in denen der Microsoft-Stil beibehalten werden muss.
 
-Fluent UI supports many platforms, including Web, React Native, iOS, Android, macOS, and Windows, allowing for the development of cross-platform applications.
+Fluent UI unterstützt viele Plattformen, einschließlich Web, React Native, iOS, Android, macOS und Windows. Dies bedeutet, dass Sie Fluent UI verwenden können, um eine plattformübergreifende Anwendung zu erstellen.
 
-### Disadvantages
+### Nachteile
 
-Not everyone likes Microsoft's style, so if you dislike it, Fluent UI might not be the best choice.
+Der Stil von Microsoft gefällt nicht jedem, daher ist Fluent UI möglicherweise nicht die beste Wahl, wenn Sie den Microsoft-Stil nicht mögen.
 
-Fluent UI lacks component richness for complex scenarios like data handling and charts, requiring additional solutions.
+Die Vielfalt der Komponenten in Fluent UI ist begrenzt. Für einige komplexe Szenarien wie Datenverarbeitung und Diagramme bietet Fluent UI keine Unterstützung, daher benötigen Sie zusätzliche Arbeit, um andere Lösungen zu finden.
 
-Fluent UI's documentation could be improved, as documentation construction is crucial for developers.
+Die Dokumentation von Fluent UI ist nicht ausreichend, und die Verbesserung der Dokumentation ist ein wichtiger Bereich, in dem Fluent UI noch Raum zur Verbesserung hat.
 
-## Conclusion
+## Zusammenfassung
 
-If you need a comprehensive component library and are willing to pay for it, MUI is recommended. If you don't want to pay, Ant Design is recommended.
+Wenn Sie eine umfangreiche Komponentenbibliothek benötigen und bereit sind, dafür zu bezahlen, empfehle ich die Verwendung von MUI. Wenn Sie nicht bezahlen möchten, empfehle ich die Verwendung von Ant Design.
 
-If you are developing a Landing Page, Chakra UI is recommended.
+Wenn Sie eine Landing Page entwickeln, empfehle ich die Verwendung von Chakra UI.
 
-If you want to use the Microsoft style, Fluent UI is recommended.
+Wenn Sie den Microsoft-Stil verwenden möchten, empfehle ich die Verwendung von Fluent UI.
 
-If you don't want to introduce a component library and only want to integrate the source code, Shadcn UI is recommended.
+Wenn Sie keine Komponentenbibliothek verwenden möchten und stattdessen eine Integration des Quellcodes wünschen, empfehle ich die Verwendung von Shadcn UI.

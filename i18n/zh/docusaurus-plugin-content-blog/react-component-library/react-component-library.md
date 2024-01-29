@@ -1,43 +1,43 @@
 ---
 slug: react-component-library
-title: Die 5 beliebtesten React-Komponentenbibliotheken im Jahr 2024
-description: React ist eine beliebte JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen. Sie wird von vielen Unternehmen eingesetzt, darunter Facebook, Instagram, Netflix, Airbnb und Uber. React wird auch von vielen Open-Source-Projekten verwendet, wie WordPress, Drupal und Magento.
+title: 2024年最受欢迎的5款React组件库
+description: React是一个流行的用于构建用户界面的JavaScript库。它被许多公司使用，包括Facebook、Instagram、Netflix、Airbnb和Uber。React还被许多开源项目使用，如WordPress、Drupal和Magento。
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/react-component-library/cover.webp
-tags: [ react, komponente, bibliothek ]
+tags: [ react, component, library ]
 date: 2024-01-29T10:00
 ---
 
-React ist eine beliebte JavaScript-Bibliothek zum Erstellen von Benutzeroberflächen. Sie wird von vielen Unternehmen eingesetzt, darunter Facebook, Instagram, Netflix, Airbnb und Uber. React wird auch von vielen Open-Source-Projekten verwendet, wie WordPress, Drupal und Magento.
+React是一个流行的用于构建用户界面的JavaScript库。它被许多公司使用，包括Facebook、Instagram、Netflix、Airbnb和Uber。React还被许多开源项目使用，如WordPress、Drupal和Magento。
 
-Bei der Erstellung vieler Schnittstellen müssen wir eine geeignete React-Komponentenbibliothek auswählen. Diese Bibliotheken können uns helfen, Benutzeroberflächen schnell zu erstellen. Sie bieten auch viele wiederverwendbare Komponenten, wie Buttons, Formulare, Diagramme, Tabellen usw. Diese Bibliotheken bieten auch viele Funktionen wie Themen, Animationen, Routing, Zustandsverwaltung usw.
+在构建很多界面的时候，我们需要选择一个合适的React组件库。这些组件库可以帮助我们快速构建用户界面。它们还提供了许多可重用的组件，如按钮、表单、图表、表格等。这些组件库还提供了许多功能，如主题、动画、路由、状态管理等。
 
-Es gibt viele React-Komponentenbibliotheken auf dem Markt. Jede Bibliothek hat ihre eigenen Merkmale, Vor- und Nachteile und Preise. In diesem Blogbeitrag werden wir die 5 beliebtesten React-Komponentenbibliotheken im Jahr 2024 überprüfen und sie basierend auf ihren Merkmalen, Benutzerfreundlichkeit und Kompatibilität vergleichen.
+市场上有许多React组件库。每个库都有自己的特点、优缺点和价格。在本博客文章中，我们将回顾2024年最受欢迎的5款React组件库，并根据其特点、易用性、兼容性进行比较。
 
-## Warum eine Komponentenbibliothek wählen?
+## 为什么选择组件库？
 
-Generell wählen Unternehmen beim Erstellen von Webanwendungen Komponentenbibliotheken, um sich wiederholende Aufgaben zu vereinfachen. Komponentenbibliotheken bieten eine Reihe von sofort einsatzbereiten Komponenten, wie Auswahlboxen, Eingabefelder, Kontrollkästchen usw. Diese Komponenten verfügen über anpassbare Stile oder eingebaute attraktive Stile, mit denen schnell ästhetisch ansprechende Websites erstellt werden können, ohne von Grund auf neu beginnen zu müssen.
+一般来说，公司在构建Web应用程序时会选择组件库，以简化重复的任务。组件库提供了一系列开箱即用的组件，如选择框、输入框、复选框等。这些组件具有可自定义的样式或内置的吸引人的样式，可以快速开发出外观美观的网站，而无需从零开始。
 
-Zusammenfassend verwenden wir Komponentenbibliotheken normalerweise in zwei Szenarien:
+总之，我们通常在两种场景下使用组件库：
 
-- Externe Werkzeuge: Direkt für Unternehmensbenutzer, normalerweise konsistent mit dem Stil des Unternehmens, attraktiveres Aussehen, reaktionsfähiger.
-- Interne Werkzeuge: Für den internen Gebrauch durch Unternehmensmitarbeiter, Schwerpunkt auf Designästhetik und schneller Funktionsumsetzung.
+- 外部工具：直接面向公司用户，通常与公司的风格一致，外观更美观，响应更灵敏。
+- 内部工具：针对公司员工内部使用，强调设计美学和快速功能实现。
 
-Als nächstes werden wir Komponentenbibliotheken basierend auf den folgenden Aspekten analysieren:
+接下来，我们将基于以下几个方面分析组件库：
 
-1. Vorteile
-2. Nachteile
-3. Wie man eine Auswahl trifft
+1. 优势
+2. 劣势
+3. 如何做出选择
 
-## Beste Wahl für interne Werkzeug-Szenarien
+## 内部工具场景的最佳选择
 
-[ILLA Cloud](https://illacloud.com) ist ein sofort einsatzbereites Low-Code-Tool, das den schnellen Aufbau interner Werkzeuge mit einfachem JS ermöglicht, ohne komplexe Frontend-Projekte zu erstellen, sofort einsatzbereit, mit Drag-and-Drop zum Erstellen von UIs.
+[ILLA Cloud](https://illacloud.com)是一个开箱即用的低代码工具，可以使用简单的JS快速构建内部工具，无需创建复杂的前端项目，开箱即用，使用拖拉拽构建UI。
 
-- Web- und App-Management-Panels
-- Daten-Dashboards
-- Benutzerdefinierte B2B-Werkzeuge
+- Web和应用管理面板
+- 数据仪表板
+- 自定义的B2B工具
 
-Im Vergleich zum Aufbau mit Komponentenbibliotheken ermöglicht ILLA Cloud einen 10-mal schnelleren Werkzeugaufbau und unterstützt die kollaborative Bearbeitung im Team.
+与使用组件库构建相比，ILLA Cloud可以实现10倍更快的工具构建，并支持团队内协作编辑。
 
 ![dashboard](https://cdn.illacloud.com/illa-website/blog/react-component-library/dashboard.png)
 
@@ -45,147 +45,145 @@ Im Vergleich zum Aufbau mit Komponentenbibliotheken ermöglicht ILLA Cloud einen
 
 ![MUI](https://cdn.illacloud.com/illa-website/blog/react-component-library/mui.png)
 
-⭐ GitHub-Sterne: 90k
+⭐ GitHub Stars：90k
 
-⏬ NPM-Downloads: 3,263,852 Downloads pro Woche
+⏬ NPM下载量：每周3,263,852次下载
 
-💪🏼 Erstveröffentlichungsdatum: 6. November 2014
+💪🏼 首次发布日期：2014年11月6日
 
-### Vorteile
+### 优势
 
-Die Komponenten von MUI sind sehr umfassend. Die Komponenten von MUI bestehen aus mehreren Teilen, einschließlich:
+MUI的组件是非常全面的，MUI的组件由几部分组成，包括：
 
-- MUI Core: Kernkomponenten, einschließlich
+- MUI Core：核心组件，包括按钮、表单、图标、图表、表格等。
+- MUI X：高级组件，包括数据表、复杂图表等。
 
-Buttons, Formularen, Icons, Diagrammen, Tabellen usw.
-- MUI X: Erweiterte Komponenten, einschließlich Datentabellen, komplexen Diagrammen usw.
+使用MUI基本上可以覆盖所有的场景，无需为复杂的数据处理场景和展示而选择其他组件库。
 
-Mit MUI können Sie im Grunde alle Szenarien abdecken, ohne für komplexe Datenverarbeitungs- und Anzeigeszenarien andere Komponentenbibliotheken auswählen zu müssen.
+如果你喜欢Material Design的风格的设计，使用MUI是你的最佳选择。你可以不做任何修改的情况下构建出来一套完整的Google风格的应用。
 
-Wenn Ihnen der Stil von Material Design gefällt, ist MUI Ihre beste Wahl. Sie können ohne Änderungen eine vollständige Google-Stil-Anwendung erstellen.
+### 劣势
 
-### Nachteile
+MUI X中的复杂数据处理组件是需要付费的。
 
-Die komplexen Datenverarbeitungskomponenten in MUI X sind kostenpflichtig.
+MUI作为Material Design的实现，其设计风格是比较严谨的，对于一些需要自定义设计风格的场景，可能需要额外的工作量。
 
-Als Implementierung von Material Design ist der Designstil von MUI ziemlich streng. Für einige Szenarien, die einen benutzerdefinierten Designstil benötigen, könnte zusätzliche Arbeit erforderlich sein.
+MUI的自定义Style系统是使用EmotionJs进行整体布局的样式调整，这可能需要一些学习曲线，可能不太适合直接开发，需要查阅文档来进行某些样式修改。
 
-Das benutzerdefinierte Style-System von MUI verwendet EmotionJs für die gesamte Layout-Stilanpassung, was eine gewisse Lernkurve erfordern kann und möglicherweise nicht für die direkte Entwicklung geeignet ist, da Sie möglicherweise die Dokumentation konsultieren müssen, um bestimmte Stiländerungen vorzunehmen.
-
-Wenn Sie CSS-IN-JS nicht mögen, ist MUI möglicherweise nicht Ihre beste Wahl.
+如果你不喜欢CSS-IN-JS的方式，MUI可能不是你的最佳选择。
 
 ## Shadcn UI
 
 ![Shadcn UI](https://cdn.illacloud.com/illa-website/blog/react-component-library/shadcnui.png)
 
-⭐ GitHub-Sterne: 37k
+⭐ GitHub Stars：37k
 
-⏬ NPM-Downloads: 23,962 Downloads pro Woche
+⏬ NPM下载量：每周23,962次下载
 
-💪🏼 Erstveröffentlichungsdatum: 8. März 2023
+💪🏼 首次发布日期：2023年3月8日
 
-### Vorteile
+### 优势
 
-Als relativ neues Projekt hat Shadcn UI schnell Anerkennung in der Open-Source-Community gefunden. Da Shadcn ein neu aufgebautes Projekt ist, hat es keine historischen Altlasten und kann sich besser an neue Technologiestacks anpassen.
+作为一个相对较新的项目，Shadcn UI在开源社区中迅速得到了认可。并且Shadcn由于是新构建的项目，没有历史包袱，可以更好的适应新的技术栈。
 
-Der Designstil von Shadcn UI tendiert zu einem kommerziellen Stil mit einer sauberen Benutzeroberfläche, geeignet für interne Werkzeuge und ernsthafte Anwendungsszenarien. Shadcn UI unterstützt benutzerdefinierte Themen und verfügt über einige vorgefertigte Stile. Sie können Ihren bevorzugten Stil auswählen, installieren und ändern, was für Szenarien, die keinen benutzerdefinierten Designstil benötigen, eine schnelle Anwendungserstellung ermöglicht.
+Shadcn UI的设计风格偏向于商业风格，具有干净的用户界面，适用于内部工具和严肃的应用场景。Shadcn UI支持自定义主题，还有一些预制的风格，你可以选择自己的喜欢的样式进行安装和修改，这对于一些不需要自定义设计风格的场景，可以快速的构建出来一个应用。
 
-Der größte Vorteil von Shadcn UI ist, dass es sich nicht um eine von npm verteilte Bibliothek handelt. Die Integration von Shadcn UI erfolgt direkt durch den Aufbau mit Code, was bedeutet, dass Sie den Code von Shadcn UI direkt ändern können, ohne zusätzlichen Aufwand.
+Shadcn UI最大的优势是他并不是一个组件库，Shadcn UI不是一个被npm分发的库，接入Shadcn UI是直接使用代码进行构建，这意味着你可以直接修改Shadcn UI的代码，而不需要额外的工作量。
 
-### Nachteile
+### 劣势
 
-Das Thema von Shadcn UI basiert auf CSS-Variablen, was bedeutet, dass es IE11 nicht unterstützt. Wenn Sie IE11 unterstützen müssen, ist Shadcn UI möglicherweise nicht Ihre beste Wahl.
+Shadcn UI的主题是基于CSS变量实现的，这意味着它不支持IE11。如果您需要支持IE11，那么Shadcn UI可能不是您的最佳选择。
 
-Und die Themenanpassung von Shadcn UI basiert auf CSS-Variablen oder Tailwind CSS Utility-Klassen. Wenn Sie CSS-IN-JS verwenden, kann dies zusätzlichen Aufwand erfordern.
+并且Shadcn UI的主题修改方式是CSS variables or Tailwind CSS utility classes，所以如果你使用CSS-IN-JS的方式，可能需要额外的工作量。
 
-Im Vergleich zu anderen Komponentenbibliotheken ist die Wartungszeit von Shadcn UI kürzer. Für komplexere Komponenten wie DataGrid und Chart wird derzeit keine Unterstützung angeboten. Sie müssen nach anderen Lösungen suchen, was bedeutet, dass Sie nicht mit einer Komponentenbibliothek alle Ihre Arbeiten erledigen können.
+Shadcn UI相对于其他组件库的维护时间较短，对于比较复杂的组件，比如DataGrid，Chart等，目前还不支持，还需要寻找其他的解决方案，这意味着你不能使用一个组件库完成你的所有工作。
 
 ## Chakra UI
 
 ![chakra-ui](https://cdn.illacloud.com/illa-website/blog/react-component-library/chakraui.png)
 
-⭐ GitHub Sterne: 35.8k
+⭐ GitHub Stars：35.8k
 
-⏬ NPM Downloads: 534,188 Downloads pro Woche
+⏬ NPM下载量：每周534,188次下载
 
-💪🏼 Erstveröffentlichung: 7. Dezember 2019
+💪🏼 首次发布日期：2019年12月7日
 
-### Vorteile
+### 优势
 
-Chakra UI ist eine eher kommerziell ausgerichtete Komponentenbibliothek, die keinen bestimmten Stil vorschreibt und somit dem ästhetischen Empfinden der meisten Menschen entspricht.
+Chakra UI是一个风格比较商业的组件库，没有绑定某种特殊的风格，在使用上比较符合大多数人的审美。
 
-Als Komponentenbibliothek verfügt Chakra UI über einen sehr großen Vorlagenmarkt. In diesem Markt finden Sie vollständige Vorlagen für die meisten gängigen Szenarien wie E-Commerce und SaaS-Websites. Nach dem Herunterladen können Sie die Vorlagen direkt verwenden oder anpassen.
+作为一个组件库，Chakra UI有一个非常庞大的模板市场，你可以在Chakra UI的模板市场找到大多数主流场景的完整模板，比如电商，SaaS官网等。下载模板之后，你可以直接使用，也可以进行修改。
 
-Die meisten Funktionen von Chakra UI erfordern keine Konfiguration, was bei der Erstellung eines schnellen Prototyps sehr hilfreich ist. Außerdem bietet es nativen Support für Responsive Design, sodass Sie Vorschauen auf verschiedenen Geräten erstellen können.
+Chakra UI的大多数功能是不需要配置的，这对于制作一个快速的原型是非常有帮助的。并且天然对于响应式的支持，你可以在不同的设备上进行预览。
 
-Chakra UI ist SEO-freundlich, was für die Erstellung von SEO-freundlichen Produkten unerlässlich ist.
+Chakra UI是SEO友好的，这对于制作需要SEO友好的产品是非常有必要的。
 
-### Nachteile
+### 劣势
 
-Die Vielfalt der Komponenten in Chakra UI ist begrenzt. Für einige komplexe Szenarien wie Datenverarbeitung und Diagramme bietet Chakra UI keine Unterstützung, daher benötigen Sie zusätzliche Arbeit, um andere Lösungen zu finden.
+Chakra UI的组件丰富度是不够的，对于一些复杂的场景，比如数据处理，图表等，Chakra UI并不支持，你需要额外的工作量来寻找其他的解决方案。
 
-Es ist am besten, Chakra UI nicht für die Entwicklung komplexer Tool-Produkte und SaaS-Anwendungen zu verwenden, da die Anpassungsfähigkeit der Komponenten begrenzt ist. Die Verwendung von Chakra UI für die Erstellung von Landing Pages ist die beste Wahl.
+最好不要使用Chakra UI来构建复杂的工具类产品和SaaS，因为他对组件的定制化能力也不够好，使用Chakra UI制作Landing Page才是最好的选择。
 
-Obwohl Chakra UI über einen umfangreichen Vorlagenmarkt verfügt, sind diese Vorlagen nicht kostenlos und erfordern zusätzliche Kosten.
+虽然Chakra UI有丰富的模板市场，但是这些模板并不是免费的，你需要额外的费用来购买模板。
 
 ## Ant Design
 
 ![ant-design](https://cdn.illacloud.com/illa-website/blog/react-component-library/antd.png)
 
-⭐ GitHub Sterne: 89.1k
+⭐ GitHub Stars：89.1k
 
-⏬ NPM Downloads: 1,264,151 Downloads pro Woche
+⏬ NPM下载量：每周1,264,151次下载
 
-💪🏼 Erstveröffentlichung: 21. Juli 2015
+💪🏼 首次发布日期：2015年7月21日
 
-### Vorteile
+### 优势
 
-Als von einem reifen, börsennotierten Unternehmen mit einem Marktwert von Milliarden Dollar unterstützte Komponentenbibliothek bietet Ant Design die beste Vielfalt und kann praktisch alle Szenarien abdecken. Außerdem ist die Komponentenbibliothek von Ant Design sehr stabil und unterliegt keinen großen Änderungen.
+作为一个成熟的千亿美金的上市公司维护的组件库，Ant Design的丰富度是最好的，几乎可以满足所有的场景，而且Ant Design的组件库是非常稳定的，不会出现大的变动。
 
-Wenn Sie in Ihrem Arbeitsumfeld einen einheitlichen Stil für React- und Vue-Anwendungen benötigen, ist Ant Design die beste Wahl, da es nicht nur React, sondern auch Vue unterstützt.
+如果你的工作场景里面要统一React和Vue的风格，那么Ant Design是你的最佳选择，因为Ant Design不仅仅支持React，还支持Vue。
 
-Ant Design bietet nicht nur eine Sammlung von Grundkomponenten, sondern auch eine Sammlung von Komponenten für Web3-Anwendungen. Das bedeutet, dass Sie Ant Design direkt für den Aufbau einer Web3-Anwendung verwenden können.
+Ant Design不仅有基础组件的集合，甚至还有Web3的组件集合，这意味着你可以直接使用Ant Design来构建一个Web3的应用。
 
-Ant Design bietet außerdem maßgeschneiderte Komponentenbibliotheken für Datendiagramme, Big-Data-Szenarien, Karten und andere komplexe Datenvisualisierungsanforderungen.
+Ant Design还对数据图标，大数据场景，地图等做了定制化的组件库，可以支持非常复杂的数据大屏场景。
 
-### Nachteile
+### 劣势
 
-In Ant Design gibt es aufgrund der Vielzahl von Funktionen einige historische Altlasten, wie beispielsweise die schlechte Leistung des Tabellenkomponente. Das bedeutet, dass Sie zusätzliche Arbeit leisten müssen, um andere Lösungen zu finden.
+Ant Design中由于大量的支持带来了一些历史包袱，比如Table组件的性能是非常差的，这意味着你需要额外的工作量来寻找其他的解决方案。
 
-Obwohl Ant Design in Bezug auf die Breite der verfügbaren Komponenten hervorragend ist, ist es in Bezug auf die Tiefe der Anpassungsfähigkeit nicht so gut.
+Ant Design中拥有大量其他类库的功能，对于组件的广度满足的十分出色，但是对于组件的深度满足的不够好。
 
-Alle Abhängigkeiten von Ant Design werden von Ant Design selbst verwaltet, was bedeutet, dass Sie zusätzliche Arbeit leisten müssen, um sie mit Ihrer eigenen Build- und CSS-Lösung zu kompatibilisieren. Dies ist für Szenarien, in denen Sie andere Open-Source-Bibliotheken verwenden möchten, nicht besonders benutzerfreundlich.
+Ant Design的所有依赖都是Ant Design自己维护的，这意味着你需要额外的工作量来兼容你自己的构建方案和CSS方案，这对于想要使用其他开源库的场景来说是不够友好的。
 
 ## Fluent UI
 
 ![fluent-ui](https://cdn.illacloud.com/illa-website/blog/react-component-library/fluentui.png)
 
-⭐ GitHub Sterne: 17.3k
+⭐ GitHub Stars：17.3k
 
-⏬ NPM Downloads: 191,170 Downloads pro Woche
+⏬ NPM下载量：每周191,170次下载
 
-💪🏼 Erstveröffentlichung: 17. September 2020
+💪🏼 首次发布日期：2020年9月17日
 
-### Vorteile
+### 优势
 
-Fluent UI wird von Microsoft offiziell gepflegt, daher entspricht der Stil von Fluent UI genau dem von Microsoft. Dies ist besonders hilfreich für Szenarien, in denen der Microsoft-Stil beibehalten werden muss.
+微软官方维护的组件库，Fluent UI的风格是跟微软的风格完全一致的，这对于一些需要跟微软风格一致的场景是非常有帮助的。
 
-Fluent UI unterstützt viele Plattformen, einschließlich Web, React Native, iOS, Android, macOS und Windows. Dies bedeutet, dass Sie Fluent UI verwenden können, um eine plattformübergreifende Anwendung zu erstellen.
+Fluent UI支持很多平台，包括Web，React Native，iOS，Android，macOS，Windows，这意味着你可以使用Fluent UI来构建一个跨平台的应用。
 
-### Nachteile
+### 劣势
 
-Der Stil von Microsoft gefällt nicht jedem, daher ist Fluent UI möglicherweise nicht die beste Wahl, wenn Sie den Microsoft-Stil nicht mögen.
+微软的风格并不会让所有人喜欢，所以如果你不喜欢微软的风格，那么Fluent UI可能不是你的最佳选择。
 
-Die Vielfalt der Komponenten in Fluent UI ist begrenzt. Für einige komplexe Szenarien wie Datenverarbeitung und Diagramme bietet Fluent UI keine Unterstützung, daher benötigen Sie zusätzliche Arbeit, um andere Lösungen zu finden.
+Fluent UI的组件丰富度是不够的，对于一些复杂的场景，比如数据处理，图表等，Fluent UI并不支持，你需要额外的工作量来寻找其他的解决方案。
 
-Die Dokumentation von Fluent UI ist nicht ausreichend, und die Verbesserung der Dokumentation ist ein wichtiger Bereich, in dem Fluent UI noch Raum zur Verbesserung hat.
+Fluent UI的文档不够好，对于开发者来说，文档建设是很重要的，这点Fluent UI还有改进空间。
 
-## Zusammenfassung
+## 总结
 
-Wenn Sie eine umfangreiche Komponentenbibliothek benötigen und bereit sind, dafür zu bezahlen, empfehle ich die Verwendung von MUI. Wenn Sie nicht bezahlen möchten, empfehle ich die Verwendung von Ant Design.
+如果你需要一个大而全的组件库，并且愿意为之付费，推荐使用MUI。如果你不想为之付费，推荐使用Ant Design。
 
-Wenn Sie eine Landing Page entwickeln, empfehle ich die Verwendung von Chakra UI.
+如果你在开发Landing Page，推荐使用Chakra UI。
 
-Wenn Sie den Microsoft-Stil verwenden möchten, empfehle ich die Verwendung von Fluent UI.
+如果你想使用微软风格，推荐使用Fluent UI。
 
-Wenn Sie keine Komponentenbibliothek verwenden möchten und stattdessen eine Integration des Quellcodes wünschen, empfehle ich die Verwendung von Shadcn UI.
+如果你不想引入组件库，只想要源码集成，推荐使用Shadcn UI。
