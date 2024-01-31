@@ -1,0 +1,54 @@
+.containerStyle {
+  @apply w-full flex flex-col items-center gap-[16px] lg:gap-[32px] pt-[12px] lg:pt-[24px] order-3 lg:order-4 px-[20px] lg:px-0;
+}
+
+.headerStyle {
+  @apply w-full lg:max-w-[800] flex flex-col items-center gap-[12px] lg:gap-[24px];
+}
+
+.titleStyle {
+  @apply font-[700] text-[24px] lg:text-[48px] lg:leading-[56px] text-center text-white-01;
+}
+
+.descStyle {
+  @apply font-[400] text-[14px] leading-[24px] text-center text-white-03 lg:text-[16px];
+}
+
+.cardContainerStyle {
+  @apply w-full rounded-[16px] overflow-hidden  relative p-[24px] flex flex-col gap-[40px];
+  @apply lg:w-[600px];
+  background: radial-gradient(
+      98.85% 129.62% at 6.76% 2.06%,
+      rgba(186, 193, 255, 0.03) 0%,
+      rgba(220, 223, 255, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.03);
+}
+
+.cardBgStyle {
+  @apply absolute top-0 left-0 bottom-0 right-0  w-full h-auto z-[-1] object-cover object-top;
+}
+
+.cardPriceContainerStyle {
+  @apply text-white-01;
+}
+
+.cardPriceStyle {
+  @apply font-[700] text-[40px] leading-[120%];
+}
+
+.cardUnitStyle {
+  @apply font-[400] text-[16px] leading-[24px];
+}
+
+.cardItemStyle {
+  @apply flex flex-col gap-[4px] lg:gap-[8px];
+}
+
+.cardItemLabelStyle {
+  @apply font-[600] lg:font-[500] text-[16px] leading-[24px] text-white-01;
+}
+
+.cardItemDescStyle {
+  @apply font-[400]  text-[14px] leading-[22px] text-white-03;
+}

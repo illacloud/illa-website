@@ -1,0 +1,31 @@
+.compareContainer {
+  @apply hidden lg:grid  rounded-[16px] text-white-01 w-full;
+}
+
+.tableHeader {
+  @apply flex flex-col items-center justify-center py-[40px] gap-[24px] bg-black  border-r-white-08;
+}
+
+.tableSticky {
+  @apply sticky top-[153px] z-[1];
+}
+
+.titleTableContent {
+  @apply pt-[64px] border-r border-r-white-08;
+}
+
+.tableContent {
+  @apply flex items-center justify-start py-[16px];
+  @apply border-r border-r-white-08;
+}
+
+.tableContentTitle {
+  @apply font-[500] text-[14px] leading-[22px] text-white-03;
+}
+.titleTableContentTitle {
+  @apply font-[600] text-[18px] leading-[24px] text-white-01;
+}
+.tableSelect {
+  @apply flex justify-center items-center;
+  @apply border-r-white-08;
+}

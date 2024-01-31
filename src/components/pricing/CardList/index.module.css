@@ -1,0 +1,19 @@
+.cardListTitle {
+  @apply flex flex-row items-center py-[8px] gap-[8px] font-[600] text-[16px] leading-[24px];
+}
+
+.cardListIcon {
+  @apply h-[16px] w-[16px] self-start flex-none text-tech-purple-03;
+}
+
+.cardListContent {
+  @apply flex py-[4px] flex-row items-center gap-[8px] font-[400] text-[14px] leading-[18px];
+}
+
+.lineThroughStyle {
+  @apply text-white-04 line-through ml-[24px];
+}
+
+.doubt {
+  @apply cursor-pointer w-[16px] h-[16px] ml-[8px] align-middle;
+}

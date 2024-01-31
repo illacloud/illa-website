@@ -117,7 +117,9 @@ const CommonFooter: FC<ICommonFooterProps> = ({
               whiteTheme ? "text-grayBlue-02" : "text-white-02",
             )}
           >
-            <Translate id="slogan-1">Build AI Driven Business App</Translate>
+            <Translate id="slogan-1">
+              Create AI-Driven Apps like Assembling Blocks
+            </Translate>
           </span>
         </div>
         <div>

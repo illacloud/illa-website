@@ -30,7 +30,9 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
     <div className={style.bannerContainer}>
       <div className={style.textContainerStyle}>
         <h1 className={style.sloganStyle}>
-          <Translate id="slogan-1">Build AI Driven Business App</Translate>
+          <Translate id="slogan-1">
+            Create AI-Driven Apps like Assembling Blocks
+          </Translate>
         </h1>
         <span className={style.descStyle}>
           <Interpolate
