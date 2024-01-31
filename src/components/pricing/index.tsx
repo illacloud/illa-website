@@ -1,4 +1,11 @@
-import React, { FC, useMemo, useRef, useState, MouseEvent } from "react"
+import React, {
+  FC,
+  useMemo,
+  useRef,
+  useState,
+  MouseEvent,
+  useEffect,
+} from "react"
 import style from "./index.module.css"
 import Translate from "@docusaurus/Translate"
 import clsx from "clsx"
@@ -57,6 +64,7 @@ const PricingContent: FC = () => {
   const [top, setTop] = useState(0)
   const [left, setLeft] = useState(0)
   const [activeBtn, setActiveBtn] = useState(false)
+  const cardRef = useRef<HTMLDivElement>(null)
 
   const getUtmParams = useUtmParams()
   const activeList = useMemo(() => {
@@ -85,6 +93,14 @@ const PricingContent: FC = () => {
     if (!visibility) return
     e.target?.nodeName !== "SVG" && onMouseLeave()
   }
+
+  useEffect(() => {
+    cardRef.current?.scrollIntoView({
+      block: "nearest",
+      inline: "center",
+    })
+  }, [])
+
   return (
     <div className={style.pricingContent} onTouchMove={resolveMobile}>
       <div className={style.pridingListContent}>
@@ -152,6 +168,7 @@ const PricingContent: FC = () => {
                   hasSpecialColor ? style.lightCard : style.darkStyle,
                 )}
                 key={`${title}${index}`}
+                ref={index === 1 ? cardRef : null}
               >
                 <div
                   onClick={() => setActiveBtn(!activeBtn)}

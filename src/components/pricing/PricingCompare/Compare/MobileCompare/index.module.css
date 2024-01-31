@@ -7,7 +7,7 @@
 }
 
 .mobileTableHeaderItem {
-  @apply w-full flex items-center justify-center py-[13px]  rounded-[3px] font-[500] text-[14px] leading-[22px] text-white-01 line-clamp-1;
+  @apply w-full flex items-center justify-center py-[13px] font-[500] text-[14px] leading-[22px] text-white-01 line-clamp-1;
   @apply border-r border-r-white-06;
 }
 

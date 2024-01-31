@@ -7,7 +7,7 @@
 }
 
 .tableSticky {
-  @apply sticky top-[77px] z-[1];
+  @apply sticky top-[153px] z-[1];
 }
 
 .titleTableContent {
