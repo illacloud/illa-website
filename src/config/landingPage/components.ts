@@ -185,7 +185,7 @@ export const COMPONENTS_SCHEMA_DATA = {
       logo: "https://www.illacloud.com",
       sameAs: [
         "https://twitter.com/illacloudhq",
-        "GitHub - illacloud/illa-builder: Build AI Driven Business App",
+        "GitHub - illacloud/illa-builder: Create AI-Driven Apps like Assembling Blocks",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
         "https://www.linkedin.com/company/illacloud",

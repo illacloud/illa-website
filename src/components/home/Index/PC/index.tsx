@@ -37,7 +37,9 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
         <div className={style.bannerTextContainerStyle}>
           <div className="flex flex-col gap-[16px]">
             <h1 className={style.sloganStyle}>
-              <Translate id="slogan-1">Build AI Driven Business App</Translate>
+              <Translate id="slogan-1">
+                Create AI-Driven Apps like Assembling Blocks
+              </Translate>
             </h1>
             <span className={style.descStyle}>
               <Interpolate
