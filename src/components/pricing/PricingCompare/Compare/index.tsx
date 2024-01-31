@@ -5,6 +5,7 @@ import { Fragment } from "react"
 import MobileCompare from "./MobileCompare"
 import TechButton from "../../../common/TechButton"
 import PCHeader from "./PCHeader"
+import { sendTagEvent } from "@site/src/utils/gtag"
 
 const Compare = ({ compare, colNum = 3 }) => {
   const noBorder = compare.tableHeader.length - 1
@@ -31,7 +32,15 @@ const Compare = ({ compare, colNum = 3 }) => {
             <h2 className="font-[500] text-[22px] leading-[28px] text-center px-[16px]">
               {label}
             </h2>
-            <TechButton link={link} btnText={btnText} />
+            <TechButton
+              link={link}
+              btnText={btnText}
+              handleClick={() =>
+                sendTagEvent({
+                  action: "pricing_try",
+                })
+              }
+            />
           </div>
         ))}
         {compare.items.map(({ isTitle, title, texts }, index) => (

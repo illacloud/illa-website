@@ -6,3 +6,5 @@ export const POLICY = "https://docs.illacloud.com/privacy-policy"
 export const SERVICE = "https://docs.illacloud.com/terms-of-service"
 export const DISCORD_URL = "https://discord.com/invite/illacloud"
 export const FLOW_URL = "https://flow.illacloud.com"
+export const SELF_HOST_DOC_URL =
+  "https://docs.illacloud.com/self-hosted-deployment"

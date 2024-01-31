@@ -3,6 +3,7 @@ import { translate } from "@docusaurus/Translate"
 import style from "./index.module.css"
 import TechButton from "../../common/TechButton"
 import { CLOUD_URL } from "@site/src/constants/url"
+import { sendTagEvent } from "@site/src/utils/gtag"
 
 const CONTENT = {
   title: translate({
@@ -81,6 +82,11 @@ const CollaCard: FC = () => {
             message: "Get started",
           })}
           customClass="w-full"
+          handleClick={() =>
+            sendTagEvent({
+              action: "pricing_try",
+            })
+          }
         />
       </div>
     </div>
