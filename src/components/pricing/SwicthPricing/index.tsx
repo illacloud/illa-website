@@ -14,7 +14,7 @@ const SwitchPricing: FC<SwitchPricingProps> = ({
     <div
       className={clsx(
         style.switchContainer,
-        isActive ? "bg-[#8CFFAC]/[0.2]" : "",
+        isActive ? "bg-[#8CFFAC]/[0.2]" : "bg-white/[0.2]",
       )}
       onClick={setSwitchState}
     >
