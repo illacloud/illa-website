@@ -5,6 +5,7 @@ import TechButton from "../../common/TechButton"
 import { CLOUD_URL } from "@site/src/constants/url"
 import { sendTagEvent } from "@site/src/utils/gtag"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import CollaCardBg from "@site/static/img/pricing/collaCardBg.svg"
 
 const CONTENT = {
   title: translate({
@@ -65,6 +66,7 @@ const CollaCard: FC = () => {
         <span className={style.descStyle}>{desc}</span>
       </div>
       <div className={style.cardContainerStyle}>
+        <CollaCardBg className={style.cardBgStyle} />
         <span className={style.cardPriceContainerStyle}>
           <span className={style.cardPriceStyle}>{price}</span>
           <span className={style.cardUnitStyle}>{unit}</span>

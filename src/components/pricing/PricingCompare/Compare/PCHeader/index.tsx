@@ -5,6 +5,7 @@ import Translate from "@docusaurus/Translate"
 const PCHeader = () => {
   return (
     <>
+      <div className="bg-black col-start-1 sticky top-[77px] z-[1]" />
       <div className={clsx(style.containerStyle, "col-start-2")}>
         <div className={style.baseStyle}>
           <Translate id="new_pricing.compare.open_source">

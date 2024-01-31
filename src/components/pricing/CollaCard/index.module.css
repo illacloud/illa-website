@@ -15,7 +15,7 @@
 }
 
 .cardContainerStyle {
-  @apply w-full rounded-[16px] border border-white/[0.08] p-[24px] flex flex-col gap-[40px];
+  @apply w-full rounded-[16px] overflow-hidden  relative p-[24px] flex flex-col gap-[40px];
   @apply lg:w-[600px];
   background: radial-gradient(
       98.85% 129.62% at 6.76% 2.06%,
@@ -23,6 +23,10 @@
       rgba(220, 223, 255, 0) 100%
     ),
     rgba(255, 255, 255, 0.03);
+}
+
+.cardBgStyle {
+  @apply absolute top-0 left-0 bottom-0 right-0  w-full h-auto z-[-1] object-cover object-top;
 }
 
 .cardPriceContainerStyle {
