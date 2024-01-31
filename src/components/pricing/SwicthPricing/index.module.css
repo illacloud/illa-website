@@ -1,0 +1,16 @@
+.switchContainer {
+  @apply flex py-[2px] w-[16px] items-center rounded-[32px] bg-white/[0.2] cursor-pointer;
+  transition: all 0.3s ease-in-out;
+}
+.activeSwitchContainer {
+  @apply bg-[#8CFFAC]/[0.2];
+}
+.switchDot {
+  @apply h-[6px] w-[6px] bg-white rounded-[50%];
+  transition: all 0.3s ease-in-out;
+  transform: translateX(2px);
+}
+.activeSwitchDot {
+  @apply bg-[#8CFFAC];
+  transform: translateX(8px);
+}

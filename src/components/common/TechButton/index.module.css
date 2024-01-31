@@ -1,0 +1,4 @@
+.techBtn {
+  @apply flex items-center justify-center w-full py-[10px] px-[32px] rounded-[8px] font-[500] text-[16px] leading-[28px] cursor-pointer text-white-01;
+  @apply bg-tech-purple-03 hover:bg-tech-purple-04 active:bg-tech-purple-02 hover:text-white-01 hover:no-underline;
+}

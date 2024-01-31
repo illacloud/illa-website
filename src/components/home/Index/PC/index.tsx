@@ -10,6 +10,7 @@ import Solutions from "../components/Solutions"
 import LinkButton from "@site/src/components/common/LinkButton"
 import { CLOUD_URL } from "@site/src/constants/url"
 import Interpolate from "@docusaurus/Interpolate"
+import { useHomePaintBg } from "../hooks/usePaintBg"
 
 const description = translate({
   id: "description",
@@ -24,19 +25,13 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  usePaintBg(canvasRef, containerRef)
+  useHomePaintBg(canvasRef, containerRef)
 
   return (
     <div ref={containerRef} className={style.bannerContainerStyle}>
       <div className={style.canvasContainerStyle}>
         <canvas ref={canvasRef} />
       </div>
-      <video className={style.bgStyle} loop autoPlay muted playsInline>
-        <source
-          src={require("/img/home3/bannerBg.mp4")?.default}
-          type="video/mp4"
-        />
-      </video>
       <div className={style.bannerContentContainer}>
         <Publicize stars={githubStarts} />
         <div className={style.bannerTextContainerStyle}>

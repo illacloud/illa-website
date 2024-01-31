@@ -2,20 +2,16 @@
   @apply hidden lg:block bg-white/[0.04] rounded-[20px] cursor-pointer mx-auto;
   @apply text-white min-w-[400px] h-[40px] overflow-hidden px-[25px];
   @apply text-[14px] leading-[22px] font-[400] relative;
-  @apply border-[1px] border-solid border-white/[0.12];
+  @apply border-[1px] border-solid;
   backdrop-filter: blur(5px);
+  border-color: rgba(199, 172, 255, 0.16);
 }
 .publicizeStyle {
-  @apply object-none object-center w-[402px] h-[124px] absolute top-[50%] left-[50%] z-[0] opacity-[0.16];
+  @apply object-none object-center w-[402px] h-[124px] absolute top-[50%] left-[50%] z-[0] opacity-[0.1];
   @apply lg:w-[579px] lg:h-[179px] flex flex-row items-center justify-between;
   filter: blur(23px);
   transform: translate(-50%, -50%);
-  background: linear-gradient(
-    90deg,
-    #ea984c 0%,
-    #5c9ac6 45.31%,
-    #687100 91.49%
-  );
+  background: linear-gradient(90deg, #c56dfb 0%, #ad45ff 45.31%, #492cff 100%);
 }
 .publicIntru {
   @apply flex items-center gap-[11px];
