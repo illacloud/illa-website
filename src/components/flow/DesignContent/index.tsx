@@ -4,7 +4,7 @@ import ContentHeader from "../ContentHeader"
 import { translate } from "@docusaurus/Translate"
 import clsx from "clsx"
 
-const tempContent = {
+const CONTENT = {
   titleExtra: translate({
     id: "illa_flow.how_it_works.how_it_works",
     message: "How it works",
@@ -77,7 +77,7 @@ const DesignContent: FC = () => {
     contentImageTop,
     contentImageBottomLeft,
     contentImageBottomRight,
-  } = tempContent
+  } = CONTENT
   return (
     <div className={style.containerStyle}>
       <ContentHeader title={title} desc={desc} titleExtra={titleExtra} />

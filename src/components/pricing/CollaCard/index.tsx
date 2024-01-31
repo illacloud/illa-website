@@ -5,22 +5,50 @@ import TechButton from "../../common/TechButton"
 import { CLOUD_URL } from "@site/src/constants/url"
 
 const CONTENT = {
-  title: "Colla",
-  desc: "Fees for Al Agent runtime, file storage and downloads, and ILLA Flow execution.",
+  title: translate({
+    id: "new_pricing.colla.colla",
+    message: "Colla",
+  }),
+  desc: translate({
+    id: "new_pricing.colla.fees_for_ai_agent_runtime",
+    message:
+      "Fees for AI Agent runtime, file storage and downloads, and ILLA Flow execution.",
+  }),
   price: "$10",
-  unit: "/5000Colla/month",
+  unit: translate({
+    id: "new_pricing.colla.compare.colla_price",
+    message: "/5,000 Colla/month",
+  }),
   products: [
     {
-      label: "File storage and download1",
-      desc: "5GB",
+      label: translate({
+        id: "new_pricing.colla.compare.storage",
+        message: "File storage and download",
+      }),
+      desc: translate({
+        id: "new_pricing.colla.compare.storage_pricing",
+        message: "5GB",
+      }),
     },
     {
-      label: "File storage and download2",
-      desc: "5GB",
+      label: translate({
+        id: "execution	new_pricing.colla.compare.ai_agent_execution",
+        message: "AI Agent",
+      }),
+      desc: translate({
+        id: "new_pricing.colla.compare.approximately",
+        message: "Approximately 100,000 words",
+      }),
     },
     {
-      label: "File storage and download3",
-      desc: "5GB",
+      label: translate({
+        id: "new_pricing.colla.compare.illa_flow_execution",
+        message: "ILLA Flow execution",
+      }),
+      desc: translate({
+        id: "new_pricing.colla.compare.flow",
+        message: "5,000 minutes*blocks",
+      }),
     },
   ],
 }
@@ -46,7 +74,14 @@ const CollaCard: FC = () => {
             </div>
           ))}
         </div>
-        <TechButton link={CLOUD_URL} btnText="get start" customClass="w-full" />
+        <TechButton
+          link={CLOUD_URL}
+          btnText={translate({
+            id: "new_pricing.colla.compare.get_started",
+            message: "Get started",
+          })}
+          customClass="w-full"
+        />
       </div>
     </div>
   )

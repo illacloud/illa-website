@@ -10,8 +10,8 @@ interface CardListProps {
     text: string
     tip: string
     hasLineThrough?: boolean
+    whiteThroughLine?: boolean
   }[]
-  isFree: boolean
   mouseLeave: () => void
   mouseOver: (
     e: MouseEvent,
@@ -28,23 +28,22 @@ export const CardList: FC<CardListProps> = ({
   mouseLeave,
   mouseOver,
   index,
-  isFree,
 }) => {
   return (
     <div className="w-full">
       <p className={style.cardListTitle}>{name}</p>
-      {values.map(({ text, tip, hasLineThrough }, i) => {
+      {values.map(({ text, tip, hasLineThrough, whiteThroughLine }, i) => {
         return (
           <p className={style.cardListContent} key={`${text}${i}`}>
             {text && !hasLineThrough && (
-              <PriceTipIcon
-                className={clsx(
-                  style.cardListIcon,
-                  isFree ? "text-[#22FFD7]" : "text-tech-purple-03",
-                )}
-              />
+              <PriceTipIcon className={style.cardListIcon} />
             )}
-            <span className={clsx(hasLineThrough && style.lineThroughStyle)}>
+            <span
+              className={clsx(
+                hasLineThrough && style.lineThroughStyle,
+                whiteThroughLine && "line-through",
+              )}
+            >
               {text}
               {!hasLineThrough && tip && (
                 <>

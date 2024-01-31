@@ -161,10 +161,13 @@
       rgba(255, 255, 255, 0) 100%
     );
   }
+  .cardContainer {
+    grid-template-columns: repeat(3, 320px);
+  }
 }
 
 @media only screen and (max-width: 1200px) {
   .cardContainer {
-    grid-template-columns: repeat(3, 320px);
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -1,10 +1,9 @@
 import React, { FC, useMemo, useRef, useState, MouseEvent } from "react"
 import style from "./index.module.css"
-import Translate, { translate } from "@docusaurus/Translate"
+import Translate from "@docusaurus/Translate"
 import clsx from "clsx"
-import { monthlyContent, annuallyContent } from "./tempContent"
+import { monthlyContent, annuallyContent } from "./content"
 import SwitchPricing from "./SwicthPricing"
-import Interpolate from "@docusaurus/Interpolate"
 import Link from "@docusaurus/Link"
 import { CardList } from "./CardList"
 import { PricingCompare } from "./PricingCompare"
@@ -57,10 +56,6 @@ const PricingContent: FC = () => {
   const [top, setTop] = useState(0)
   const [left, setLeft] = useState(0)
   const [activeBtn, setActiveBtn] = useState(false)
-  const annuallyText = translate({
-    id: "pricing.header.annually",
-    message: "Annually {discount}",
-  })
 
   const getUtmParams = useUtmParams()
   const activeList = useMemo(() => {
@@ -95,10 +90,12 @@ const PricingContent: FC = () => {
         <div className={style.headerContainerStyle}>
           <div className={style.headerTitleContainerStyle}>
             <span className={style.pricingContentTitleExtra}>
-              <Translate id="pricing.sub-title">✌️ Free for viewers</Translate>
+              <Translate id="new_pricing.team_pricing.only_pay_for_editors">
+                Only pay for editors✌️
+              </Translate>
             </span>
             <h1 className={style.pricingContentTitle}>
-              <Translate id="pricing.title">Pricing</Translate>
+              <Translate id="new_pricing.team_pricing.team">Team</Translate>
             </h1>
           </div>
           <div className={style.headerSwitchContainer}>
@@ -109,7 +106,9 @@ const PricingContent: FC = () => {
                 !activeBtn ? style.pricingContentBtnActive : "",
               )}
             >
-              <Translate id="pricing.header.monthly">Monthly</Translate>
+              <Translate id="new_pricing.team_pricing.monthly">
+                Monthly
+              </Translate>
             </span>
             <span
               onClick={() => setActiveBtn(true)}
@@ -118,19 +117,16 @@ const PricingContent: FC = () => {
                 activeBtn ? style.pricingContentBtnActive : "",
               )}
             >
-              <Interpolate
-                values={{
-                  discount: (
-                    <span className={style.discountStyle}>
-                      <Translate id="pricing.header.annually_discount">
-                        (Save up to ≈ 16%)
-                      </Translate>
-                    </span>
-                  ),
-                }}
-              >
-                {annuallyText}
-              </Interpolate>
+              <span>
+                <Translate id="new_pricing.team_pricing.annually">
+                  Annually
+                </Translate>
+              </span>
+              <span className={style.discountStyle}>
+                <Translate id="new_pricing.team_pricing.save_up_to">
+                  (Save up to 16%)
+                </Translate>
+              </span>
             </span>
           </div>
         </div>
@@ -144,7 +140,6 @@ const PricingContent: FC = () => {
                 href,
                 btnContent,
                 list,
-                isFree,
                 hasSpecialColor,
                 subTitle,
               },
@@ -183,8 +178,8 @@ const PricingContent: FC = () => {
                       setSwitchState={() => setActiveBtn(!activeBtn)}
                     />
                     <span className={style.cardDesc}>
-                      <Translate id="pricing.cycle_switch">
-                        Buy 10 Months, Get 2 Free!
+                      <Translate id="new_pricing.team_pricing.buy_and_get">
+                        Buy 10 months, get 2 free!
                       </Translate>
                     </span>
                   </span>
@@ -195,7 +190,9 @@ const PricingContent: FC = () => {
                     <span className={style.cardTitleStyle}>
                       <span className={style.priceNum}>{editor.price}</span>
                       <span className={style.priceExtra}>
-                        <Translate id="pricing.cycle_month">/month</Translate>
+                        <Translate id="new_pricing.team_pricing.month">
+                          /mo
+                        </Translate>
                       </span>
                     </span>
                     <span className={style.priceExtra}>{editor.content}</span>
@@ -207,8 +204,8 @@ const PricingContent: FC = () => {
                         <span className={style.cardTitleStyle}>
                           <span className={style.priceNum}>{viewer.price}</span>
                           <span className={style.priceExtra}>
-                            <Translate id="pricing.cycle_month">
-                              /month
+                            <Translate id="new_pricing.team_pricing.month">
+                              /mo
                             </Translate>
                           </span>
                         </span>
@@ -239,7 +236,6 @@ const PricingContent: FC = () => {
                         values={values}
                         mouseLeave={onMouseLeave}
                         mouseOver={onMouseOver}
-                        isFree={isFree}
                       />
                     )
                   })}
