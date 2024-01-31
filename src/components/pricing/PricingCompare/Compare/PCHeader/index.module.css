@@ -1,0 +1,14 @@
+.containerStyle {
+  @apply p-[8px] mb-[32px];
+}
+
+.baseStyle {
+  @apply flex p-[8px] rounded-[8px] justify-center items-center border border-white/[0.12];
+  @apply text-white-01 text-center font-[500] text-[20px] leading-[28px];
+  background: radial-gradient(
+      377.75% 100% at 0% 0%,
+      rgba(141, 122, 255, 0.2) 0%,
+      rgba(141, 122, 255, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.04);
+}

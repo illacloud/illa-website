@@ -3,7 +3,8 @@ import clsx from "clsx"
 import PriceTip from "@site/static/img/public/priceTip.svg"
 import { Fragment } from "react"
 import MobileCompare from "./MobileCompare"
-import TechButton from "../TechButton"
+import TechButton from "../../../common/TechButton"
+import PCHeader from "./PCHeader"
 
 const Compare = ({ compare, colNum = 3 }) => {
   const noBorder = compare.tableHeader.length - 1
@@ -15,6 +16,7 @@ const Compare = ({ compare, colNum = 3 }) => {
           gridTemplateColumns: `repeat(${colNum}, minmax(0, 1fr))`,
         }}
       >
+        <PCHeader />
         <div
           className={clsx(style.tableHeader, style.tableSticky, "border-r")}
         />
@@ -26,13 +28,13 @@ const Compare = ({ compare, colNum = 3 }) => {
               i !== noBorder ? "border-r" : "",
             )}
           >
-            <h2 className="font-[500] text-[22px] leading-[28px] text-center">
+            <h2 className="font-[500] text-[22px] leading-[28px] text-center px-[16px]">
               {label}
             </h2>
             <TechButton link={link} btnText={btnText} />
           </div>
         ))}
-        {compare.items.map(({ isTitle, title, texts, icons }, index) => (
+        {compare.items.map(({ isTitle, title, texts }, index) => (
           <Fragment key={index}>
             <div
               className={clsx(
@@ -49,31 +51,24 @@ const Compare = ({ compare, colNum = 3 }) => {
                 {title}
               </p>
             </div>
-            {icons
-              ? icons.map((val, i) => (
-                  <div
-                    className={clsx(
-                      style.tableSelect,
-                      i !== noBorder ? "border-r" : "",
-                    )}
-                  >
-                    {val && (
-                      <PriceTip className="w-[24px] h-[24px] text-tech-purple-03" />
-                    )}
-                  </div>
-                ))
-              : texts.map((val, i) => (
-                  <div
-                    className={clsx(
-                      style.tableSelect,
-                      i !== noBorder ? "border-r" : "",
-                    )}
-                  >
-                    <span className="font-[400] text-[14px] leading-[20px] text-white-03">
-                      {val}
-                    </span>
-                  </div>
-                ))}
+            {texts.map((val, i) => (
+              <div
+                className={clsx(
+                  style.tableSelect,
+                  i !== noBorder ? "border-r" : "",
+                )}
+              >
+                {typeof val === "boolean" ? (
+                  val && (
+                    <PriceTip className="w-[24px] h-[24px] text-tech-purple-03" />
+                  )
+                ) : (
+                  <span className="font-[400] text-[14px] leading-[20px] text-white-03 text-center px-[16px]">
+                    {val}
+                  </span>
+                )}
+              </div>
+            ))}
           </Fragment>
         ))}
       </div>
