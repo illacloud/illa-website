@@ -1,4 +1,5 @@
 import { translate } from "@docusaurus/Translate"
+import { CLOUD_URL, SELF_HOST_DOC_URL } from "@site/src/constants/url"
 
 const FREE_LIST = [
   {
@@ -352,7 +353,7 @@ export const monthlyContent = [
       id: "new_pricing.team_pricing.build_apps_for_free",
       message: "Build apps for free",
     }),
-    href: "https://cloud.illacloud.com",
+    href: CLOUD_URL,
     list: FREE_LIST,
   },
   {
@@ -431,7 +432,7 @@ export const annuallyContent = [
       id: "new_pricing.team_pricing.build_apps_for_free",
       message: "Build apps for free",
     }),
-    href: "https://cloud.illacloud.com",
+    href: CLOUD_URL,
     list: FREE_LIST,
   },
   {
@@ -508,7 +509,7 @@ export const compare = {
         id: "new_pricing.compare.try_now",
         message: "Try now",
       }),
-      link: "https://cloud.illacloud.com",
+      link: SELF_HOST_DOC_URL,
     },
     {
       label: translate({
@@ -519,7 +520,7 @@ export const compare = {
         id: "new_pricing.compare.try_now",
         message: "Try now",
       }),
-      link: "https://cloud.illacloud.com",
+      link: CLOUD_URL,
     },
     {
       label: translate({
@@ -530,7 +531,7 @@ export const compare = {
         id: "new_pricing.compare.try_now",
         message: "Try now",
       }),
-      link: "https://cloud.illacloud.com",
+      link: CLOUD_URL,
     },
     {
       label: translate({
@@ -541,7 +542,7 @@ export const compare = {
         id: "new_pricing.compare.coming_soon",
         message: "Coming soon",
       }),
-      link: "https://cloud.illacloud.com",
+      link: CLOUD_URL,
     },
   ],
   items: [

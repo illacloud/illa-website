@@ -9,6 +9,7 @@ import { CardList } from "./CardList"
 import { PricingCompare } from "./PricingCompare"
 import CollaCard from "./CollaCard"
 import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { sendTagEvent } from "@site/src/utils/gtag"
 
 interface TooltipProps {
   content: string
@@ -216,7 +217,15 @@ const PricingContent: FC = () => {
                     </>
                   )}
                 </div>
-                <Link href={getUtmParams(href)} className="hover:no-underline">
+                <Link
+                  href={getUtmParams(href)}
+                  className="hover:no-underline"
+                  onClick={() =>
+                    sendTagEvent({
+                      action: "pricing_try",
+                    })
+                  }
+                >
                   <span
                     className={clsx(
                       style.cardBtn,

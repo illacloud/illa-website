@@ -166,7 +166,7 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
   .cardContainer {
     grid-template-columns: repeat(3, 1fr);
   }
