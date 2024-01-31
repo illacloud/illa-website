@@ -1,0 +1,33 @@
+.mobileCompareContainer {
+  @apply w-full lg:hidden flex flex-col items-center justify-center gap-[32px];
+}
+
+.mobileTableHeader {
+  @apply w-full flex items-center p-[1px] bg-black sticky top-[68px];
+}
+
+.mobileTableHeaderItem {
+  @apply w-full flex items-center justify-center py-[13px]  rounded-[3px] font-[500] text-[14px] leading-[22px] text-white-01 line-clamp-1;
+  @apply border-r border-r-white-06;
+}
+
+.mobileTableHeaderItem:last-of-type {
+  @apply border-r-0;
+}
+
+.mobileTableTitleStyle {
+  @apply w-full mt-[12px] text-center font-[600] text-[18px] leading-[24px];
+}
+.mobileTableContentContainer {
+  @apply flex flex-col items-start rounded-[8px] w-full border border-[#292929] bg-white/[0.04];
+}
+
+.mobileTableItemLabelTitle {
+  @apply w-full flex justify-center p-[20px]  font-[400] text-[14px] leading-[20px] text-white-01 border-b border-b-[#292929] text-center line-clamp-1;
+}
+.mobileTableItemLabelDesc {
+  @apply font-[400] text-[14px] leading-[20px] text-white-03 line-clamp-1;
+}
+.mobileTableItemSelect {
+  @apply w-full h-[60px] border-[#292929] box-border flex items-center justify-center;
+}

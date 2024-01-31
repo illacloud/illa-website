@@ -6,7 +6,7 @@ tags:
     - 'React'
     - 'javascript'
 slug: mui-2024
-description: Every company has its own exclusive online business, and as the business continues to update and iterate, the complexity of the business will continuously increase over time.After the business complexity reaches a high level, internal teams need to view various data to make decisions for future strategies. Therefore, we need a flexible tool to create personalized data dashboards to meet the diverse customization needs of internal team members, especially the boss, and help the team iterate quickly.Using efficient tools to leave work early every day.
+description: Every company has its own exclusive online business, and as the business continues to update and iterate.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/mui-2024/cover.png
 date: 2024-01-03T10:00
@@ -81,7 +81,7 @@ If you are developing a highly complex system, you can use MUI's full suite solu
 
 MUI is a heavyweight repository with extensive code and a long maintenance history. Its high customizability makes it suitable for large projects. In the MUI repository, you can find a wealth of features.
 
-## How to Choose
+## Conclusion
 
 ✅ Advantages
 

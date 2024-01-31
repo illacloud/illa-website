@@ -1,6 +1,6 @@
 import React from "react"
 import { BlogPostProvider } from "@docusaurus/theme-common/internal"
-
+import Translate from "@docusaurus/Translate"
 import { FeaturedBlogPostItem } from "../FeaturedBlogPostItem"
 import clsx from "clsx"
 
@@ -20,7 +20,7 @@ export const FeaturedBlogPostItems = ({ items }) => {
         "not-prose",
       )}
     >
-      <h2
+      <h1
         className={clsx(
           "m-0 p-0",
           "blog-lg:mb-12 blog-md:mb-8 mb-10",
@@ -30,8 +30,8 @@ export const FeaturedBlogPostItems = ({ items }) => {
           "font-semibold",
         )}
       >
-        Featured Posts
-      </h2>
+        <Translate id="blog.feature_posts">Featured Posts</Translate>
+      </h1>
 
       <div className="grid grid-cols-1 blog-md:grid-cols-2 blog-lg:gap-12 gap-8">
         {items.map(({ content: BlogPostContent }) => (

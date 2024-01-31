@@ -1,7 +1,7 @@
 ---
 slug: lowcode-vs-traditional
 title: "Low Code vs Traditional Development: Optimal Efficiency in Choice"
-description: With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.
+description: With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios.
 authors: owen
 image: https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/cover.png
 tags: [ low code, traditional development, javascript ]

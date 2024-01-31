@@ -8,9 +8,9 @@ const DiscordAndGithubBanner = () => {
     <div className="flex flex-col md:flex-row justify-between items-center gap-7 h-auto bg-[#5865F2] w-full rounded-2xl px-7 py-7 bg-violet-800">
       <div className="flex items-center gap-16">
         <div className="flex flex-col font-bold max-w-md text-center md:text-left gap-3.5">
-          <h1 className="text-3xl font-bold font-['Inter'] mb-0">
+          <label className="text-2xl font-bold font-['Inter'] mb-0">
             Start Building apps with ILLA Cloud
-          </h1>
+          </label>
           <p className="text-white text-opacity-90 text-xs leading-[1.5] font-normal font-['Inter']  mb-0">
             Build the internal tools you need(Dashboard, Workflow Management,
             CRM, Support and Billing management...) in minutes.

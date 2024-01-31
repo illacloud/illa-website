@@ -11,6 +11,7 @@ import { translate } from "@docusaurus/Translate"
 import MobileContent from "./MobileContent"
 import Content from "./Content"
 import Translate from "@docusaurus/Translate"
+import WebhookTabIcon from "@site/static/img/flow/webhookTabIcon.svg"
 
 const CONTENT = {
   header: {
@@ -109,11 +110,16 @@ const SwitchContent: FC = () => {
             )}
             onClick={() => setActiveTab(tab.id)}
           >
-            <TabLottie
-              content={tab.icon}
-              isPlay={activeTab === tab.id}
-              lottieType={TAB_LOTTIE_TYPE.ICON}
-            />
+            {tab.id === "Webhook" && activeTab !== tab.id ? (
+              <WebhookTabIcon className="w-[24px] h-[24px]" />
+            ) : (
+              <TabLottie
+                content={tab.icon}
+                isPlay={activeTab === tab.id}
+                lottieType={TAB_LOTTIE_TYPE.ICON}
+              />
+            )}
+
             <div className="flex flex-col gap-[8px]">
               <div className={style.tabTitleContainerStyle}>
                 <p className={style.tabTitleStyle}>{tab.title}</p>

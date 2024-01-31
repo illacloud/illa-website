@@ -1,7 +1,7 @@
 ---
 slug: launch-flow
 title: "ILLA Flow: A javascript-driven, developer-friendly product for creating automate workflow"
-description: ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping, thereby enabling connections and scheduling with various databases and APIs.
+description: ILLA Flow is a workflow product that allows you to construct a complete workflow in a manner similar to mind mapping.
 authors: owen
 image: https://cdn.illacloud.com/illa-website/blog/launch-flow/cover.png
 tags: [ workflow ]

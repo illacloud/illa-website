@@ -2,7 +2,7 @@
 title: 'Best Open-Source Low-Code Platforms in 2024'
 tags: [ low-code, open-source ]
 slug: top-5-best-open-source-low-code-platforms-in-2024
-description: 2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency. This article will analyze popular low-code tools from various perspectives, aiding readers in making informed choices.
+description: 2024 has arrived, and the development of low-code tools remains vibrant. Many companies are utilizing low-code tools to enhance development efficiency.
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/top5-low-code-2024/cover.png
 date: 2024-01-03T10:00
@@ -77,6 +77,10 @@ Budibase's team is from Europe, aiming to "Save 100s of hours building apps that
 - Scale with confidence
 
 With continuous accumulation over time, Budibase's product strength is bound to increase.
+
+## Superblocks
+
+Empowering business users to build custom apps, Superblocks offers agile project management tools and process automation features. With low-code development tools, it enables the creation of various applications without extensive technical skills. This platform is ideal for citizen developers looking to build applications for different industries. Embracing best practices of rapid development, Superblocks supports the creation of applications tailored to specific business needs, making it a valuable addition to enterprise application development platforms.
 
 ## Conclusion
 

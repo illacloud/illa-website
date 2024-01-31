@@ -1,7 +1,7 @@
 ---
 slug: it-support
-title: Best tools for it support 
-description: In ordinary companies, the IT department's Technical Support is responsible for managing the company's information system, database, machinery hardware equipment, etc. If the company needs any special software or to update a new system, it is usually done by forming a team with programmers from a technology company and the company's own Program Support.
+title: Best tools for IT Support 
+description: In ordinary companies, the IT department's Technical Support is responsible for managing the company's information system, database
 authors: owen
 image: https://cdn.illacloud.com/illa-website/blog/it-support/cover.webp
 tags: [ workflow ]

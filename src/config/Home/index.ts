@@ -3,7 +3,7 @@ import { translate } from "@docusaurus/Translate"
 export const HOME_META_INFO = {
   title: translate({
     id: "meta.title",
-    message: "ILLA Cloud | Build AI Driven Business App",
+    message: "Build AI Driven Business App",
   }),
   description: translate({
     id: "meta.description",

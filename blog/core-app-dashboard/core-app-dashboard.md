@@ -1,7 +1,7 @@
 ---
 slug: core-app-dashboard-2
 title: "Build core app dashboard at lightning speed"
-description: The Core App Dashboard is the nerve center of any sophisticated application. At its essence, it is a centralized interface providing comprehensive insights and controls tailored to the specifics of an application, facilitating better decision-making and management.
+description: The Core App Dashboard is the nerve center of any sophisticated application.
 authors: owen
 image: https://cdn.illacloud.com/illa-website/blog/core-app-dashboard/cover.png
 tags: [ low code, core app dashboard ]

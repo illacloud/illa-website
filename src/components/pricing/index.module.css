@@ -1,27 +1,170 @@
 .pricingContent {
-  @apply flex flex-col justify-center items-center gap-[16px] w-full my-0 mx-auto px-[20px];
-  @apply lg:gap-[24px] lg:max-w-[1200px];
+  @apply flex flex-col justify-center items-center gap-[60px] w-full my-0 mx-auto;
+  @apply lg:gap-[120px] lg:max-w-[1200px];
+}
+
+.pridingListContent {
+  @apply w-full flex flex-col justify-center items-center gap-[16px] lg:gap-[24px];
+}
+.headerContainerStyle {
+  @apply w-full flex flex-col gap-[40px] items-center lg:flex-row lg:justify-between lg:items-end px-[28px] xl:px-0 order-1;
+}
+.headerTitleContainerStyle {
+  @apply flex flex-col items-center lg:items-start justify-center gap-[8px];
 }
 .pricingContentTitleExtra {
-  @apply block rounded-[20px] py-[3px] px-[56px] text-center font-[500] text-[14px] leading-[26px] text-white-01;
-  width: fit-content;
+  @apply flex rounded-[20px] py-[3px] px-[56px] text-center font-[500] text-[14px] leading-[26px] text-white-01;
+  @apply lg:rounded-[4px] lg:px-[8px] lg:py-[3px];
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.1) 50.38%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(230, 244, 255, 0.16) 1.12%,
+    rgba(230, 244, 255, 0) 100%
   );
 }
 .pricingContentTitle {
-  @apply font-[700] text-[40px] leading-[48px] justify-self-center px-[24px] w-full text-center;
+  @apply font-[700] text-[40px] leading-[48px] justify-self-center w-full text-center;
   @apply lg:text-[64px] lg:leading-[72px];
 }
-.cardContainerStyle {
-  @apply w-full mt-[8px] flex gap-[20px] lg:gap-[40px] p-[24px] rounded-[8px]  border border-white-09;
+
+.headerSwitchContainer {
+  @apply w-full lg:min-w-[384px] lg:w-auto flex justify-center items-center gap-[2px] p-[4px] lg:p-[1px] rounded-[8px] border border-white-08 bg-white-08;
+}
+.pricingContentBtn {
+  @apply w-full h-[30px] flex items-center gap-[4px] rounded-[4px] lg:rounded-[7px] justify-center text-center cursor-pointer px-[12px] py-[4px];
+  @apply text-[14px] leading-[22px]  font-[500] whitespace-nowrap;
+}
+.pricingContentBtnActive {
+  @apply bg-tech-purple-03 filter-none;
+}
+
+.discountStyle {
+  @apply hidden lg:inline text-[#15DEEB] text-[12px];
+}
+
+.cardContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.cardContainer {
+  @apply w-full grid  gap-[12px] px-[20px] overflow-x-auto overflow-y-hidden order-2;
+  @apply lg:gap-[24px] xl:px-0;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(3, 384px);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.card {
+  @apply w-full h-full flex flex-col gap-[24px] rounded-[16px] relative p-[24px] border border-white/[0.12];
+  @apply flex-shrink-0;
+}
+
+.darkCard {
   background: radial-gradient(
       98.85% 129.62% at 6.76% 2.06%,
-      rgba(186, 193, 255, 0.03) 0%,
+      rgba(186, 193, 255, 0.01) 0%,
       rgba(220, 223, 255, 0) 100%
     ),
-    rgba(255, 255, 255, 0.06);
+    rgba(255, 255, 255, 0.04);
+}
+.lightCard {
+  background: radial-gradient(
+    377.75% 100% at 0% 0%,
+    rgba(141, 122, 255, 0.2) 0%,
+    rgba(141, 122, 255, 0) 100%
+  );
+}
+
+.cardTitleContainer {
+  @apply flex flex-col gap-[8px] justify-center items-start;
+}
+
+.cardTitle {
+  @apply font-[700] text-[24px] leading-[140%];
+}
+
+.subTitle {
+  @apply text-tech-purple-04 font-[400] text-[14px] leading-[16px];
+}
+
+.cardSwitchContainer {
+  @apply flex flex-row gap-[4px] justify-center items-center rounded-[32px] bg-white/[0.08] px-[8px] py-[2px] cursor-pointer;
+}
+
+.cardDesc {
+  @apply font-[400] text-[12px] leading-[20px] text-white/[0.9];
+}
+
+.priceNum {
+  @apply font-[700] leading-[120%] text-[40px];
+}
+
+.priceExtra {
+  @apply font-[400] text-[14px] leading-[22px] line-clamp-1;
+}
+.cardPriceContent {
+  @apply flex flex-col items-start gap-[8px];
+}
+.cardTitleStyle {
+  @apply whitespace-nowrap flex items-end;
+}
+
+.cardBtn {
+  @apply flex flex-row items-center justify-center py-[10px] px-[32px] gap-[10px] font-[400] text-[16px] leading-[28px] h-[48px] rounded-[8px] cursor-pointer text-white-01 hover:text-white-01;
+  transition: all 0.3s ease-in-out;
+}
+
+.darkButton {
+  @apply bg-white-01/[0.03];
+  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.06) inset;
+}
+.darkButton:hover {
+  @apply bg-white-01/[0.08];
+  box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.04) inset;
+}
+
+.lightCardBtn {
+  @apply border border-solid border-white-08 bg-tech-purple-03 hover:bg-tech-purple-04 active:bg-tech-purple-02;
+}
+
+.doubt:hover .tips {
+  display: block;
+}
+.tooltip {
+  @apply w-[200px] bg-tech-purple-03 flex fixed items-center text-white z-[20] text-[14px] leading-[22px];
+  @apply flex-row justify-center items-center py-[8px] px-[12px] gap-[10px] rounded-[2px];
+}
+.tooltip::after {
+  @apply absolute border-[5px] border-solid;
+  content: " ";
+  border-color: transparent transparent #654aec transparent;
+}
+.rightTip::after {
+  @apply left-[-5px];
+  transform-origin: 0;
+  transform: rotate(-90deg);
+}
+.bottomTip::after {
+  @apply bottom-[100%] left-[67%] ml-[-5px];
+}
+.tipContent {
+  word-break: break-all;
+  white-space: normal;
+}
+
+@media screen and (max-width: 960px) {
+  .pricingContentTitleExtra {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 1.12%,
+      rgba(255, 255, 255, 0.1) 50.94%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .cardContainer {
+    grid-template-columns: repeat(3, 320px);
+  }
 }

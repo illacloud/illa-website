@@ -1,7 +1,7 @@
 ---
 slug: automate-send-to-slack
 title: Best Developer-Friendly Tool for Automating Message Sending to Slack
-description: Slack, as a primary communication tool for many people's work, has become one of the essential tools that must be opened daily. Supporting powerful text and media formats, Slack allows us to send various messages. As developers, we have a multitude of tasks that need to be automated
+description: Slack, as a primary communication tool for many people's work, has become one of the essential tools that must be opened daily. 
 authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/automate-send-to-slack/cover.webp
 tags: [ workflow, slack, automate]
