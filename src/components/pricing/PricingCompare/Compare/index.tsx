@@ -6,9 +6,12 @@ import MobileCompare from "./MobileCompare"
 import TechButton from "../../../common/TechButton"
 import PCHeader from "./PCHeader"
 import { sendTagEvent } from "@site/src/utils/gtag"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
+import { SELF_HOST_DOC_URL } from "@site/src/constants/url"
 
 const Compare = ({ compare, colNum = 3 }) => {
   const noBorder = compare.tableHeader.length - 1
+  const getUtmParams = useUtmParams()
   return (
     <>
       <div
@@ -33,9 +36,10 @@ const Compare = ({ compare, colNum = 3 }) => {
               {label}
             </h2>
             <TechButton
-              link={link}
+              link={getUtmParams(link)}
               btnText={btnText}
               handleClick={() =>
+                link !== SELF_HOST_DOC_URL &&
                 sendTagEvent({
                   action: "pricing_try",
                 })

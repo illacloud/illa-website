@@ -4,6 +4,7 @@ import style from "./index.module.css"
 import TechButton from "../../common/TechButton"
 import { CLOUD_URL } from "@site/src/constants/url"
 import { sendTagEvent } from "@site/src/utils/gtag"
+import { useUtmParams } from "@site/src/hooks/useUtmParams"
 
 const CONTENT = {
   title: translate({
@@ -56,6 +57,7 @@ const CONTENT = {
 
 const CollaCard: FC = () => {
   const { title, desc, price, unit, products } = CONTENT
+  const getUtmParams = useUtmParams()
   return (
     <div className={style.containerStyle}>
       <div className={style.headerStyle}>
@@ -76,7 +78,7 @@ const CollaCard: FC = () => {
           ))}
         </div>
         <TechButton
-          link={CLOUD_URL}
+          link={getUtmParams(CLOUD_URL)}
           btnText={translate({
             id: "new_pricing.colla.compare.get_started",
             message: "Get started",
