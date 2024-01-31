@@ -1,5 +1,5 @@
 .switchContainer {
-  @apply flex py-[2px] w-[16px] items-center rounded-[32px] bg-white/[0.2] cursor-pointer;
+  @apply flex py-[2px] w-[16px] items-center rounded-[32px] cursor-pointer;
   transition: all 0.3s ease-in-out;
 }
 .activeSwitchContainer {
