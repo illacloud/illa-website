@@ -384,7 +384,7 @@ export const monthlyContent = [
       id: "new_pricing.team_pricing.get_started",
       message: "Get started",
     }),
-    href: "https://cloud.illacloud.com/",
+    href: CLOUD_URL,
     list: PREMIUM_LIST,
   },
   {
@@ -406,7 +406,7 @@ export const monthlyContent = [
         message: "per viewer",
       }),
     },
-    href: "https://cloud.illacloud.com/",
+    href: CLOUD_URL,
     btnContent: translate({
       id: "new_pricing.team_pricing.coming_soon",
       message: "Coming soon",
@@ -463,7 +463,7 @@ export const annuallyContent = [
       id: "new_pricing.team_pricing.get_started",
       message: "Get started",
     }),
-    href: "https://cloud.illacloud.com/",
+    href: CLOUD_URL,
     list: PREMIUM_LIST,
   },
   {
@@ -485,7 +485,7 @@ export const annuallyContent = [
         message: "per viewer",
       }),
     },
-    href: "https://cloud.illacloud.com/",
+    href: CLOUD_URL,
     btnContent: translate({
       id: "new_pricing.team_pricing.coming_soon",
       message: "Coming soon",
