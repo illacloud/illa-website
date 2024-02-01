@@ -31,6 +31,7 @@ const Compare = ({ compare, colNum = 3 }) => {
               style.tableSticky,
               i !== noBorder ? "border-r" : "",
             )}
+            key={`${label}${link}${i}`}
           >
             <h2 className="font-[500] text-[22px] leading-[28px] text-center px-[16px]">
               {label}
@@ -48,7 +49,7 @@ const Compare = ({ compare, colNum = 3 }) => {
           </div>
         ))}
         {compare.items.map(({ isTitle, title, texts }, index) => (
-          <Fragment key={index}>
+          <Fragment key={`${title}${index}`}>
             <div
               className={clsx(
                 isTitle ? style.titleTableContent : style.tableContent,
@@ -70,6 +71,7 @@ const Compare = ({ compare, colNum = 3 }) => {
                   style.tableSelect,
                   i !== noBorder ? "border-r" : "",
                 )}
+                key={`${val}${i}`}
               >
                 {typeof val === "boolean" ? (
                   val && (

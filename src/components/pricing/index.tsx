@@ -34,15 +34,25 @@ const Tooltip: FC<TooltipProps> = ({ content, styles, isBound }) => {
     gap = 5,
     width = 200
   const { top, left, visibility } = styles
+  const [currentVisibility, setCurrentVisibility] = useState(visibility)
+
   const offsetHeight = ref.current?.offsetHeight
-  const currentStyle = {
-    top: isBound
-      ? `${top + 24 + gap}px`
-      : `${top - offsetHeight / 2 + iconWidth * 2 - gap}px`,
-    left: isBound
-      ? `${left - width / 1.5 + iconWidth}px`
-      : `${left + iconWidth * 2 + gap * 2}px`,
-  }
+  const currentStyle = useMemo(
+    () => ({
+      top: isBound
+        ? `${top + 24 + gap}px`
+        : `${top - offsetHeight / 2 + iconWidth * 2 - gap}px`,
+      left: isBound
+        ? `${left - width / 1.5 + iconWidth}px`
+        : `${left + iconWidth * 2 + gap * 2}px`,
+    }),
+    [isBound, left, offsetHeight, top],
+  )
+  // Get the size of the element for the first time but not display it, then update the position of the element and display it
+  useEffect(() => {
+    setCurrentVisibility(visibility)
+  }, [visibility])
+
   return (
     <div
       className={clsx(
@@ -50,7 +60,10 @@ const Tooltip: FC<TooltipProps> = ({ content, styles, isBound }) => {
         style.tooltip,
       )}
       ref={ref}
-      style={{ visibility: visibility ? "visible" : "hidden", ...currentStyle }}
+      style={{
+        ...currentStyle,
+        visibility: currentVisibility ? "visible" : "hidden",
+      }}
     >
       <p className={style.tipContent}>{content}</p>
     </div>
