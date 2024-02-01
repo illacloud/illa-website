@@ -10,7 +10,6 @@ import Solutions from "../components/Solutions"
 import LinkButton from "@site/src/components/common/LinkButton"
 import { CLOUD_URL } from "@site/src/constants/url"
 import Interpolate from "@docusaurus/Interpolate"
-import { useHomePaintBg } from "../hooks/usePaintBg"
 
 const description = translate({
   id: "description",
@@ -25,7 +24,7 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const containerRef = useRef<HTMLDivElement>(null)
 
-  useHomePaintBg(canvasRef, containerRef)
+  usePaintBg(canvasRef, containerRef)
 
   return (
     <div ref={containerRef} className={style.bannerContainerStyle}>

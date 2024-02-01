@@ -15,7 +15,7 @@
 }
 
 .cardContainerStyle {
-  @apply w-full rounded-[16px] overflow-hidden  relative p-[24px] flex flex-col gap-[40px];
+  @apply w-full rounded-[16px] overflow-hidden  relative p-[24px] flex flex-col gap-[40px] border-[2px] border-white/[0.08];
   @apply lg:w-[600px];
   background: radial-gradient(
       98.85% 129.62% at 6.76% 2.06%,

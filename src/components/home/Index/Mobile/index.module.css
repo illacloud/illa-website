@@ -6,11 +6,11 @@
   @apply px-[20px]  w-full flex flex-col items-center gap-[24px];
 }
 .sloganStyle {
-  @apply text-white-01 text-[36px] text-center font-[700]  leading-[40px];
+  @apply text-white-01 text-[40px] self-start text-start font-[700]  leading-[44px];
 }
 
 .descStyle {
-  @apply text-white-01 text-[16px] text-center leading-[24px];
+  @apply text-white-01 text-[16px] self-start text-start leading-[24px];
 }
 
 .linkGroupItemStyle {
@@ -18,7 +18,7 @@
 }
 
 .colorDescAgentStyle {
-  @apply font-[600];
+  @apply font-[700];
   background: linear-gradient(90deg, #ff33ba 0.77%, #ffb7e7 100.77%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -26,7 +26,7 @@
 }
 
 .colorDescAppStyle {
-  @apply font-[600];
+  @apply font-[700];
   background: linear-gradient(90deg, #1effff 0%, #c9ffff 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -34,7 +34,7 @@
 }
 
 .colorDescFlowStyle {
-  @apply font-[600];
+  @apply font-[700];
   background: linear-gradient(90deg, #8d33ff 0%, #d1adff 100%);
   background-clip: text;
   -webkit-background-clip: text;
