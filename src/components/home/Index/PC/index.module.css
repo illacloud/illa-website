@@ -7,7 +7,7 @@
 }
 
 .bannerContentContainer {
-  @apply flex justify-center pt-[24px] flex-col items-center gap-[186px];
+  @apply flex justify-center pt-[24px] flex-col items-center gap-[64px];
   @apply lg:max-w-[1040px];
   @apply xl:max-w-[1200px];
 }
@@ -17,7 +17,7 @@
 }
 
 .sloganStyle {
-  @apply text-center text-[56px] leading-[88px] font-[800];
+  @apply text-center text-[80px] leading-[88px] font-[800];
 }
 
 .descStyle {
