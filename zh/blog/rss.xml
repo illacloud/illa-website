@@ -4,11 +4,52 @@
         <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/zh/blog</link>
         <description>ILLA Cloud Blog</description>
-        <lastBuildDate>Mon, 29 Jan 2024 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Feb 2024 11:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>Copyright © 2024 ILLA.</copyright>
+        <item>
+            <title><![CDATA[PostgreSQL中ISNULL和ISNOTNULL的最佳实践]]></title>
+            <link>https://illacloud.github.io/illa-website/zh/blog/postgresql-isnull</link>
+            <guid>https://illacloud.github.io/illa-website/zh/blog/postgresql-isnull</guid>
+            <pubDate>Sun, 04 Feb 2024 11:00:00 GMT</pubDate>
+            <description><![CDATA[本文介绍了在 PostgreSQL 中如何使用 `IS NULL` 运算符检查一个值是不是 `NULL`。PostgreSQL `IS NULL` 是一个布尔运算符，它检查一个值是不是`NULL`。 `NULL`值是一个特殊的值，它表示什么都没有，它即不是空字符串也不是false。]]></description>
+            <content:encoded><![CDATA[<p>本文介绍了在 PostgreSQL 中如何使用 <code>IS NULL</code> 运算符检查一个值是不是 <code>NULL</code>。PostgreSQL <code>IS NULL</code> 是一个布尔运算符，它检查一个值是不是<code>NULL</code>。 <code>NULL</code>值是一个特殊的值，它表示什么都没有，它即不是空字符串也不是false。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-语法">PostgreSQL IS NULL 语法<a href="https://illacloud.github.io/illa-website/zh/blog/postgresql-isnull#postgresql-is-null-%E8%AF%AD%E6%B3%95" class="hash-link" aria-label="Direct link to PostgreSQL IS NULL 语法" title="Direct link to PostgreSQL IS NULL 语法">​</a></h2>
+<p>PostgreSQL <code>IS NULL</code> 是一个单目比较运算符，只需要一个操作数。<code>IS NULL</code> 运算符的语法是：</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">expr IS NULL</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">expr IS NOT NULL</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>解析：</p>
+<ul>
+<li><code>expr</code>可以是一个字段名、一个值或者一个表达式。</li>
+<li><code>IS NOT NULL</code> 是 <code>IS NULL</code> 的否定运算。</li>
+<li><code>IS NULL</code> 和 <code>IS NOT NULL</code> 可以用在 <code>SELECT</code> 语句或者 <code>WHERE</code> 子句中。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-运算规则">PostgreSQL IS NULL 运算规则<a href="https://illacloud.github.io/illa-website/zh/blog/postgresql-isnull#postgresql-is-null-%E8%BF%90%E7%AE%97%E8%A7%84%E5%88%99" class="hash-link" aria-label="Direct link to PostgreSQL IS NULL 运算规则" title="Direct link to PostgreSQL IS NULL 运算规则">​</a></h2>
+<p>当 PostgreSQL <code>IS NULL</code> 运算符左侧的操作数是 <code>NULL</code> 时，<code>IS NULL</code> 运算符返回 <code>t</code>，否则返回 <code>f</code>。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    NULL IS NULL "NULL IS NULL",</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    0 IS NULL "0 IS NULL",</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    1 IS NULL "1 IS NULL";</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="�复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> NULL IS NOT NULL | 0 IS NOT NULL | 1 IS NOT NULL</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------------+---------------+---------------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> f                | t             | t</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-实例">PostgreSQL IS NULL 实例<a href="https://illacloud.github.io/illa-website/zh/blog/postgresql-isnull#postgresql-is-null-%E5%AE%9E%E4%BE%8B" class="hash-link" aria-label="Direct link to PostgreSQL IS NULL 实例" title="Direct link to PostgreSQL IS NULL 实例">​</a></h2>
+<p>我们将使用<code>Sakila</code>示例数据库 中的表进行演示，请您先在 PostgreSQL 中安装 <code>Sakila</code> 示例数据库。</p>
+<p><code>Sakila</code> 示例数据库是使用最广泛的示例数据库之一，也是最好的示例数据库之一。<code>Sakila</code> 示例数据库最初由 MySQL AB 文档团队的前成员 Mike Hillyer 开发。它旨在提供一个标准模式，可用于书籍、教程、文章等中的示例演示。</p>
+<p><code>Sakila</code> 数据库为 DVD 租赁商店业务建模，其中包含影片、演员、影片与演员关系等内容，以及连接影片、商店和租赁业务的中央库存表。</p>
+<p>作为最好的示例数据库之一，<code>Sakila</code> 数据库已经被移植 PostgreSQL, Oracle, DB2, SQLite 等平台。</p>
+<p>在 <code>Sakila</code> 示例数据库中， staff 表存储了 DVD 租赁商店中的职员信息。</p>
+<p>在 <code>staff</code> 表中， <code>picture</code> 中存储了职员的照片文件， 要从 <code>staff</code> 表中查询那些没有上传图片的职员， 需要检查 <code>picture</code> 是否为 <code>NULL</code>, 请使用以下带有 <code>IS NULL</code> 的 SQL 语句：</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    first_name, last_name, picture</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">FROM</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    staff</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">WHERE</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    picture IS NULL;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> first_name | last_name | picture</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------+-----------+---------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> Mike       | Hillyer   | &lt;null&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> Jon        | Stephens  | &lt;null&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/postgresql-isnull#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
+<p>在本文中，我们学习了 PostgreSQL 中 <code>IS NULL</code> 和 <code>IS NOT NULL</code> 比较运算符的语法和用法。本文要点如下：</p>
+<ul>
+<li><code>IS NULL</code> 和 <code>IS NOT NULL</code> 是单目比较运算符。</li>
+<li>使用 <code>IS NULL</code> 运算符检查一个值是否是 <code>NULL</code>。</li>
+<li><code>IS NOT NULL</code> 运算符是 <code>IS NULL</code> 的否定操作。</li>
+<li><code>NULL IS NULL</code> 的结果是真。</li>
+</ul>]]></content:encoded>
+            <category>postgresql</category>
+            <category>isnull</category>
+            <category>isnotnull</category>
+        </item>
         <item>
             <title><![CDATA[2024年最受欢迎的5款React组件库]]></title>
             <link>https://illacloud.github.io/illa-website/zh/blog/react-component-library</link>
@@ -1476,44 +1517,6 @@ E：表示元素类型</p>
             <category>内部工具</category>
             <category>数据仪表板</category>
             <category>管理面板</category>
-        </item>
-        <item>
-            <title><![CDATA[低代码与传统开发：选择中的最优效率]]></title>
-            <link>https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional</link>
-            <guid>https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional</guid>
-            <pubDate>Wed, 03 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[随着开发实践的持续演进，低代码工具的出现为各种开发场景带来了创新解决方案。这减轻了从头开始项目的需要，为更重要的业务活动节省了大量时间。然而，重要的是要认识到，虽然低代码加速了开发，但这是以牺牲一定的灵活性为代价的。因此，并非所有的解决方案都适合低代码开发。让我们更深入地分析哪些场景更适合使用低代码工具，以及哪些场景中传统代码开发更为合适。在这一探索过程中，低代码与传统开发的关键比较始终是最重要的，强调选择最有效方法的重要性。]]></description>
-            <content:encoded><![CDATA[<p>随着开发实践的持续演进，低代码工具的出现为各种开发场景带来了创新解决方案。这减轻了从头开始项目的需要，为更重要的业务活动节省了大量时间。然而，重要的是要认识到，虽然低代码加速了开发，但这是以牺牲一定的灵活性为代价的。因此，并非所有的解决方案都适合低代码开发。让我们更深入地分析哪些场景更适合使用低代码工具，以及哪些场景中传统代码开发更为合适。在这一探索过程中，低代码与传统开发的关键比较始终是最重要的，强调选择最有效方法的重要性。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="启动临时性商业活动">启动临时性商业活动<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#%E5%90%AF%E5%8A%A8%E4%B8%B4%E6%97%B6%E6%80%A7%E5%95%86%E4%B8%9A%E6%B4%BB%E5%8A%A8" class="hash-link" aria-label="Direct link to 启动临时性商业活动" title="Direct link to 启动临时性商业活动">​</a></h2>
-<p>在频繁的节假日和特殊场合下，创建独特的在线体验变得至关重要。每家公司可能都有其独特的营销日，需要吸引人的活动。这些在线营销活动的构建不可避免地带来了开发挑战，需要大量资源配置。虽然对于视觉上吸引人的设计的需求显而易见，但整体复杂性可能不足以证明显著的开发成本，特别是当生命周期仅限于1-2周时。在这种情况下，选择低代码工具作为一种财务上明智的决策。在此，我们推荐一种特定的低代码解决方案。</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="面向用户的组件webflow">面向用户的组件：Webflow<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#%E9%9D%A2%E5%90%91%E7%94%A8%E6%88%B7%E7%9A%84%E7%BB%84%E4%BB%B6webflow" class="hash-link" aria-label="Direct link to 面向用户的组件：Webflow" title="Direct link to 面向用户的组件：Webflow">​</a></h3>
-<p>Webflow以其直观的拖放界面和设计师友好的调整功能，方便了视觉上令人惊叹的登陆页面的创建。这种方法允许用户与一个美观的网站互动，而且值得注意的是，它只需要一位设计师的专业知识。此外，Webflow提供了一系列易于定制的模板，使得快速构建精美网站成为可能。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/webflow.png" alt="webflow" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="管理业务运营illa-cloud">管理业务运营：ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E8%BF%90%E8%90%A5illa-cloud" class="hash-link" aria-label="Direct link to 管理业务运营：ILLA Cloud" title="Direct link to 管理业务运营：ILLA Cloud">​</a></h3>
-<p>无论使用什么前端技术，一个有效的管理工具对于监督业务运营是不可或缺的。</p>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>作为一个即用型低代码工具</p>
-<p>，使开发者能够使用简单的JavaScript快速构建内部工具，无需创建新项目。</p>
-<ul>
-<li>网络和应用管理面板</li>
-<li>数据仪表板</li>
-<li>定制化B2B工具</li>
-</ul>
-<p>与依赖组件库的场景相比，ILLA Cloud在构建上述工具方面的速度快了10倍。此外，ILLA Cloud支持多个团队成员之间的协作编辑，促进高效的团队合作。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>这两种工具的协同作用加快了在营销场景中业务需求的创建。这种协同方法最大限度地减少了对广泛开发资源的需求，同时满足了快速响应和部署的需求。因此，它将业务迭代速度推向了新的高度。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="启动新的商业项目">启动新的商业项目<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#%E5%90%AF%E5%8A%A8%E6%96%B0%E7%9A%84%E5%95%86%E4%B8%9A%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="Direct link to 启动新的商业项目" title="Direct link to 启动新的商业项目">​</a></h2>
-<p>项目开始时需要全面评估其特性。对于诸如社交平台、游戏应用或即时通讯服务等全面的toC产品，建议倾向于传统开发方法。这确保了在适应不断变化的需求方面具有高度的灵活性。</p>
-<p>对于以零售或服务为中心的项目，使用Shopify进行前端展示是有利的。这种选择保证了产品的广泛分布，同时降低了开发成本。此外，Shopify支持定制，有效地满足了多样化的业务需求。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/shopify.png" alt="shopify" class="img_CfaS"></p>
-<p>在需要快速开发应用程序或网站的情况下，直接编码可能提供更快的解决方案。因此，选择合适的解决方案在很大程度上取决于场景的独特属性。</p>
-<p>如果Shopify的后端功能不符合要求，整合ILLA Cloud可以弥补这一差距，提供一个用于定制管理的平台。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/lowcode-vs-traditional#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
-<p>在选择开发工具的决策过程中，建议采用多方面的方法。虽然直接编码提供了无与伦比的灵活性，但它确实以开发速度为代价。低代码工具和SaaS解决方案的战略整合可以带来显著的生产力提升。</p>
-<p>对于要求灵活性且对核心业务至关重要的运营，传统开发方法仍是首选。传统开发方法所提供的敏捷性和控制权，使产品能够高度定制以满足特定需求。</p>
-<p>最终，没有一种适合所有情况的解决方案；最佳选择是与手头场景的独特需求最为吻合的那一个。</p>]]></content:encoded>
-            <category>低代码</category>
-            <category>传统开发</category>
-            <category>javascript</category>
         </item>
     </channel>
 </rss>

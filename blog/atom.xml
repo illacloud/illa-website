@@ -2,12 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/blog</id>
     <title>ILLA Cloud Blog</title>
-    <updated>2024-01-29T10:00:00.000Z</updated>
+    <updated>2024-02-04T11:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/blog"/>
     <subtitle>ILLA Cloud Blog</subtitle>
     <icon>https://illacloud.github.io/illa-website/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
+    <entry>
+        <title type="html"><![CDATA[Best Practices for PostgreSQL ISNULL and ISNOTNULL]]></title>
+        <id>https://illacloud.github.io/illa-website/blog/postgresql-isnull</id>
+        <link href="https://illacloud.github.io/illa-website/blog/postgresql-isnull"/>
+        <updated>2024-02-04T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article explains how to use the `IS NULL` operator in PostgreSQL to check if a value is `NULL`. PostgreSQL `IS NULL` is a boolean operator that checks if a value is `NULL`. A `NULL` value is a special value that indicates nothing, it is neither an empty string nor false.]]></summary>
+        <content type="html"><![CDATA[<p>This article explains how to use the <code>IS NULL</code> operator in PostgreSQL to check if a value is <code>NULL</code>.
+PostgreSQL <code>IS NULL</code> is a boolean operator that checks if a value is <code>NULL</code>. A <code>NULL</code> value is a special value that
+indicates nothing, it is neither an empty string nor false.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-syntax">PostgreSQL IS NULL Syntax<a href="https://illacloud.github.io/illa-website/blog/postgresql-isnull#postgresql-is-null-syntax" class="hash-link" aria-label="Direct link to PostgreSQL IS NULL Syntax" title="Direct link to PostgreSQL IS NULL Syntax">​</a></h2>
+<p>PostgreSQL <code>IS NULL</code> is a unary comparison operator that only requires one operand. The syntax for the <code>IS NULL</code>
+operator is:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">expr IS NULL</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">expr IS NOT NULL</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><strong>Breakdown:</strong></p>
+<ul>
+<li><code>expr</code> can be a field name, a value, or an expression.</li>
+<li><code>IS NOT NULL</code> is the negation of <code>IS NULL</code>.</li>
+<li><code>IS NULL</code> and <code>IS NOT NULL</code> can be used in <code>SELECT</code> statements or <code>WHERE</code> clauses.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-operator-rules">PostgreSQL IS NULL Operator Rules<a href="https://illacloud.github.io/illa-website/blog/postgresql-isnull#postgresql-is-null-operator-rules" class="hash-link" aria-label="Direct link to PostgreSQL IS NULL Operator Rules" title="Direct link to PostgreSQL IS NULL Operator Rules">​</a></h2>
+<p>When the operand on the left side of the PostgreSQL <code>IS NULL</code> operator is <code>NULL</code>, the <code>IS NULL</code> operator returns <code>t</code>,
+otherwise it returns <code>f</code>.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    NULL IS NULL "NULL IS NULL",</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    0 IS NULL "0 IS NULL",</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    1 IS NULL "1 IS NULL";</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> NULL IS NOT NULL | 0 IS NOT NULL | 1 IS NOT NULL</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------------+---------------+---------------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> f                | t             | t</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-examples">PostgreSQL IS NULL Examples<a href="https://illacloud.github.io/illa-website/blog/postgresql-isnull#postgresql-is-null-examples" class="hash-link" aria-label="Direct link to PostgreSQL IS NULL Examples" title="Direct link to PostgreSQL IS NULL Examples">​</a></h2>
+<p>We will use the tables in the <code>Sakila</code> sample database for demonstration. Please install the <code>Sakila</code> sample database in
+PostgreSQL first.</p>
+<p>The <code>Sakila</code> sample database is one of the most widely used and best sample databases. The <code>Sakila</code> sample database was
+originally developed by Mike Hillyer, a former member of the MySQL AB documentation team. It is designed to provide a
+standard schema that can be used for example demonstrations in books, tutorials, articles, etc.</p>
+<p>The <code>Sakila</code> database models a DVD rental store business, including movies, actors, movie-actor relationships, and a
+central inventory table that connects movies, stores, and rental transactions.</p>
+<p>As one of the best sample databases, the <code>Sakila</code> database has been ported to platforms such as PostgreSQL, Oracle, DB2,
+and SQLite.</p>
+<p>In the <code>Sakila</code> sample database, the <code>staff</code> table stores employee information for the DVD rental store.</p>
+<p>In the <code>staff</code> table, <code>picture</code> stores the employee's photo file. To query for employees who have not uploaded a photo
+from the <code>staff</code> table, you need to check if <code>picture</code> is <code>NULL</code>. Use the following SQL statement with <code>IS NULL</code>:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    first_name, last_name, picture</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">FROM</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    staff</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">WHERE</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    picture IS NULL;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> first_name | last_name | picture</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------+-----------+---------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> Mike       | Hillyer   | &lt;null&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> Jon        | Stephens  | &lt;null&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/postgresql-isnull#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>In this article, we learned the syntax and usage of the <code>IS NULL</code> and <code>IS NOT NULL</code> comparison operators in PostgreSQL.
+Here are the key takeaways from this article:</p>
+<ul>
+<li><code>IS NULL</code> and <code>IS NOT NULL</code> are unary comparison operators.</li>
+<li>Use the <code>IS NULL</code> operator to check if a value is <code>NULL</code>.</li>
+<li>The <code>IS NOT NULL</code> operator is the negation of <code>IS NULL</code>.</li>
+<li><code>NULL IS NULL</code> evaluates to true.</li>
+</ul>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="postgresql" term="postgresql"/>
+        <category label="isnull" term="isnull"/>
+        <category label="isnotnull" term="isnotnull"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Most Popular 5 React Component Libraries in 2024]]></title>
         <id>https://illacloud.github.io/illa-website/blog/react-component-library</id>
@@ -1544,46 +1600,5 @@ T extends Length constraints T's type to include the length property, and the ty
         <category label="internal tools" term="internal tools"/>
         <category label="data dashboard" term="data dashboard"/>
         <category label="admin panel" term="admin panel"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Low Code vs Traditional Development: Optimal Efficiency in Choice]]></title>
-        <id>https://illacloud.github.io/illa-website/blog/lowcode-vs-traditional</id>
-        <link href="https://illacloud.github.io/illa-website/blog/lowcode-vs-traditional"/>
-        <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios.]]></summary>
-        <content type="html"><![CDATA[<p>With the continuous evolution of development practices, the advent of low-code tools has introduced innovative solutions to various development scenarios. This has alleviated the need to initiate projects from scratch, saving considerable time for more pivotal business endeavors. However, it's crucial to recognize that while low code accelerates development, it does so at the expense of some flexibility. As a result, not all solutions are well-suited for low-code development. Let's delve deeper into the analysis of scenarios that favor low-code tools versus those where traditional code development remains more appropriate. Throughout this exploration, the key comparison of low code versus traditional development remains paramount, emphasizing the critical importance of choosing the most efficient approach.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-launching-a-transient-business-initiative">When Launching a Transient Business Initiative<a href="https://illacloud.github.io/illa-website/blog/lowcode-vs-traditional#when-launching-a-transient-business-initiative" class="hash-link" aria-label="Direct link to When Launching a Transient Business Initiative" title="Direct link to When Launching a Transient Business Initiative">​</a></h2>
-<p>In the dynamic landscape of frequent holidays and special occasions, creating distinct online experiences becomes imperative. Each company may have its unique marketing days, requiring engaging activities. Crafting these online marketing campaigns inevitably poses a development challenge, necessitating substantial resource allocation. While the need for visually captivating designs is evident, the overall complexity may not justify significant development costs, especially when the lifecycle is limited to 1-2 weeks. In such cases, opting for low-code tools emerges as a financially prudent decision. Here, we advocate for a specific low-code solution.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="addressing-user-facing-components-webflow">Addressing User-Facing Components: Webflow<a href="https://illacloud.github.io/illa-website/blog/lowcode-vs-traditional#addressing-user-facing-components-webflow" class="hash-link" aria-label="Direct link to Addressing User-Facing Components: Webflow" title="Direct link to Addressing User-Facing Components: Webflow">​</a></h3>
-<p>Webflow, with its intuitive drag-and-drop interface and designer-friendly adjustments, facilitates the creation of visually stunning landing pages. This approach allows users to interact with an aesthetically pleasing website, and remarkably, only requires the expertise of a single designer. Furthermore, Webflow offers an array of templates that can be easily customized, enabling the swift construction of an exquisite website.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/webflow.png" alt="webflow" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="managing-business-operations-illa-cloud">Managing Business Operations: ILLA Cloud<a href="https://illacloud.github.io/illa-website/blog/lowcode-vs-traditional#managing-business-operations-illa-cloud" class="hash-link" aria-label="Direct link to Managing Business Operations: ILLA Cloud" title="Direct link to Managing Business Operations: ILLA Cloud">​</a></h3>
-<p>Regardless of the frontend technology used, an effective management tool is indispensable for overseeing business operations.</p>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>, as an out-of-the-box low-code tool, empowers developers to rapidly construct internal tools using straightforward JavaScript, eliminating the need to create new projects.</p>
-<ul>
-<li>Web &amp; App Admin Panel</li>
-<li>Data Dashboard</li>
-<li>Customized B2B Tools</li>
-</ul>
-<p>Compared to scenarios relying on component libraries, ILLA Cloud boasts a 10x faster construction speed for the aforementioned tools. Additionally, ILLA Cloud supports collaborative editing among multiple team members, fostering efficient teamwork.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>The synergy of these two tools expedites the creation of business requirements in marketing scenarios. This synergistic approach minimizes the need for extensive development resources while addressing the demand for quick response and deployment. Consequently, it propels the business iteration speed to new heights.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="when-initiating-a-novel-business-venture">When Initiating a Novel Business Venture<a href="https://illacloud.github.io/illa-website/blog/lowcode-vs-traditional#when-initiating-a-novel-business-venture" class="hash-link" aria-label="Direct link to When Initiating a Novel Business Venture" title="Direct link to When Initiating a Novel Business Venture">​</a></h2>
-<p>The commencement of a project necessitates a thorough evaluation of its characteristics. For comprehensive toC products such as social platforms, gaming applications, or IM services, the recommendation leans towards traditional development methodologies. This ensures a high degree of flexibility in adapting to evolving requirements.</p>
-<p>For ventures centered around retail or services, the utilization of Shopify for frontend presentation proves advantageous. This choice guarantees widespread distribution of products while curbing development costs. Furthermore, Shopify supports customization, catering to diverse business needs effectively.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/shopify.png" alt="shopify" class="img_CfaS"></p>
-<p>In instances where a swift development of an app or website is paramount, direct coding may offer a faster solution. Therefore, the selection of an appropriate solution heavily relies on the unique attributes of the scenario.</p>
-<p>If the backend functionality of Shopify falls short of requirements, the integration of ILLA Cloud can bridge the gap, providing a platform for customized management.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="conclusion">Conclusion<a href="https://illacloud.github.io/illa-website/blog/lowcode-vs-traditional#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
-<p>In the decision-making process for selecting development tools, a multifaceted approach is recommended. While direct coding provides unparalleled flexibility, it does come at the cost of development speed. The strategic integration of low-code tools and SaaS solutions can yield substantial gains in productivity.</p>
-<p>For operations demanding flexibility and essential to the core business, traditional development methods remain the preferred choice. The agility and control afforded by traditional development methods result in products that are highly tailored to specific needs.</p>
-<p>Ultimately, there is no one-size-fits-all solution; the best choice is the one that aligns most closely with the unique requirements of the scenario at hand.</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="low code" term="low code"/>
-        <category label="traditional development" term="traditional development"/>
-        <category label="javascript" term="javascript"/>
     </entry>
 </feed>

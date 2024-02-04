@@ -2,12 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://illacloud.github.io/illa-website/de/blog</id>
     <title>ILLA Cloud Blog</title>
-    <updated>2024-01-29T10:00:00.000Z</updated>
+    <updated>2024-02-04T11:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://illacloud.github.io/illa-website/de/blog"/>
     <subtitle>ILLA Cloud Blog</subtitle>
     <icon>https://illacloud.github.io/illa-website/de/img/public/favicon.ico</icon>
     <rights>Copyright © 2024 ILLA.</rights>
+    <entry>
+        <title type="html"><![CDATA[Best Practices for PostgreSQL ISNULL and ISNOTNULL]]></title>
+        <id>https://illacloud.github.io/illa-website/de/blog/postgresql-isnull</id>
+        <link href="https://illacloud.github.io/illa-website/de/blog/postgresql-isnull"/>
+        <updated>2024-02-04T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dieser Artikel erläutert die Verwendung des `IS NULL`-Operators in PostgreSQL, um zu überprüfen, ob ein Wert `NULL` ist. PostgreSQL `IS NULL` ist ein boolescher Operator, der prüft, ob ein Wert `NULL` ist. Ein `NULL`-Wert ist ein spezieller Wert, der nichts anzeigt. Es ist weder ein leerer String noch falsch.]]></summary>
+        <content type="html"><![CDATA[<p>Dieser Artikel erläutert die Verwendung des <code>IS NULL</code>-Operators in PostgreSQL, um zu überprüfen, ob ein Wert <code>NULL</code> ist.
+PostgreSQL <code>IS NULL</code> ist ein boolescher Operator, der prüft, ob ein Wert <code>NULL</code> ist. Ein <code>NULL</code>-Wert ist ein spezieller Wert, der
+nichts anzeigt. Es ist weder ein leerer String noch falsch.</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-syntax">PostgreSQL IS NULL Syntax<a href="https://illacloud.github.io/illa-website/de/blog/postgresql-isnull#postgresql-is-null-syntax" class="hash-link" aria-label="Direkter Link zu PostgreSQL IS NULL Syntax" title="Direkter Link zu PostgreSQL IS NULL Syntax">​</a></h2>
+<p>PostgreSQL <code>IS NULL</code> ist ein unärer Vergleichsoperator, der nur einen Operanden erfordert. Die Syntax für den <code>IS NULL</code>
+Operator lautet:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">expr IS NULL</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">expr IS NOT NULL</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Code in die Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><strong>Aufschlüsselung:</strong></p>
+<ul>
+<li><code>expr</code> kann ein Feldname, ein Wert oder ein Ausdruck sein.</li>
+<li><code>IS NOT NULL</code> ist die Negation von <code>IS NULL</code>.</li>
+<li><code>IS NULL</code> und <code>IS NOT NULL</code> können in <code>SELECT</code>-Anweisungen oder <code>WHERE</code>-Klauseln verwendet werden.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-operator-regeln">PostgreSQL IS NULL Operator Regeln<a href="https://illacloud.github.io/illa-website/de/blog/postgresql-isnull#postgresql-is-null-operator-regeln" class="hash-link" aria-label="Direkter Link zu PostgreSQL IS NULL Operator Regeln" title="Direkter Link zu PostgreSQL IS NULL Operator Regeln">​</a></h2>
+<p>Wenn der Operand auf der linken Seite des PostgreSQL <code>IS NULL</code>-Operators <code>NULL</code> ist, gibt der <code>IS NULL</code>-Operator <code>t</code> zurück,
+sonst gibt er <code>f</code> zurück.</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    NULL IS NULL "NULL IS NULL",</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    0 IS NULL "0 IS NULL",</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    1 IS NULL "1 IS NULL";</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Code in die Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> NULL IS NOT NULL | 0 IS NOT NULL | 1 IS NOT NULL</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------------+---------------+---------------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> f                | t             | t</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Code in die Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="postgresql-is-null-beispiele">PostgreSQL IS NULL Beispiele<a href="https://illacloud.github.io/illa-website/de/blog/postgresql-isnull#postgresql-is-null-beispiele" class="hash-link" aria-label="Direkter Link zu PostgreSQL IS NULL Beispiele" title="Direkter Link zu PostgreSQL IS NULL Beispiele">​</a></h2>
+<p>Wir werden die Tabellen in der <code>Sakila</code>-Beispieldatenbank für die Demonstration verwenden. Installieren Sie zuerst die
+<code>Sakila</code>-Beispieldatenbank in PostgreSQL.</p>
+<p>Die <code>Sakila</code>-Beispieldatenbank ist eine der am weitesten verbreiteten und besten Beispieldatenbanken. Die <code>Sakila</code>-Beispieldatenbank
+wurde ursprünglich von Mike Hillyer, einem ehemaligen Mitglied des MySQL AB-Dokumentationsteams, entwickelt. Sie ist darauf
+ausgelegt, ein standardisiertes Schema bereitzustellen, das für Beispielvorführungen in Büchern, Tutorials, Artikeln usw.
+verwendet werden kann.</p>
+<p>Die <code>Sakila</code>-Datenbank modelliert ein DVD-Verleihgeschäft mit Filmen, Schauspielern, Film-Schauspieler-Beziehungen und einer
+zentralen Inventartabelle, die Filme, Geschäfte und Verleihtransaktionen verbindet.</p>
+<p>Als eine der besten Beispieldatenbanken wurde die <code>Sakila</code>-Datenbank auf Plattformen wie PostgreSQL, Oracle, DB2 und SQLite
+portiert.</p>
+<p>In der <code>Sakila</code>-Beispieldatenbank speichert die Tabelle <code>staff</code> Informationen zu Mitarbeitern des DVD-Verleihgeschäfts.</p>
+<p>In der Tabelle <code>staff</code> speichert <code>picture</code> die Fotodatei des Mitarbeiters. Um nach Mitarbeitern zu suchen, die kein Foto
+hochgeladen haben, müssen Sie überprüfen, ob <code>picture</code> <code>NULL</code> ist. Verwenden Sie die folgende SQL-Anweisung mit <code>IS NULL</code>:</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    first_name, last_name, picture</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">FROM</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    staff</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">WHERE</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">    picture IS NULL;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Code in die Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> first_name | last_name | picture</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------+-----------+---------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> Mike       | Hillyer   | &lt;null&gt;</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> Jon        | Stephens  | &lt;null&gt;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="Code in die Zwischenablage kopieren" title="Kopieren" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="fazit">Fazit<a href="https://illacloud.github.io/illa-website/de/blog/postgresql-isnull#fazit" class="hash-link" aria-label="Direkter Link zu Fazit" title="Direkter Link zu Fazit">​</a></h2>
+<p>In diesem Artikel haben wir die Syntax und Verwendung der Vergleichsoperatoren <code>IS NULL</code> und <code>IS NOT NULL</code> in PostgreSQL
+kennengelernt. Hier sind die wichtigsten Erkenntnisse aus diesem Artikel:</p>
+<ul>
+<li><code>IS NULL</code> und <code>IS NOT NULL</code> sind unäre Vergleichsoperatoren.</li>
+<li>Verwenden Sie den <code>IS NULL</code>-Operator, um zu überprüfen, ob ein Wert <code>NULL</code> ist.</li>
+<li>Der <code>IS NOT NULL</code>-Operator ist die Negation von <code>IS NULL</code>.</li>
+<li><code>NULL IS NULL</code> ergibt <code>true</code>.</li>
+</ul>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="postgresql" term="postgresql"/>
+        <category label="isnull" term="isnull"/>
+        <category label="isnotnull" term="isnotnull"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Die 5 beliebtesten React-Komponentenbibliotheken im Jahr 2024]]></title>
         <id>https://illacloud.github.io/illa-website/de/blog/react-component-library</id>
@@ -1555,47 +1612,5 @@ Mit <code>T extends Length</code> wird der Typ von T eingeschränkt, er muss das
         <category label="interne Tools" term="interne Tools"/>
         <category label="Daten-Dashboard" term="Daten-Dashboard"/>
         <category label="Admin-Panel" term="Admin-Panel"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Low Code vs Traditionelle Entwicklung: Optimale Effizienz in der Auswahl]]></title>
-        <id>https://illacloud.github.io/illa-website/de/blog/lowcode-vs-traditional</id>
-        <link href="https://illacloud.github.io/illa-website/de/blog/lowcode-vs-traditional"/>
-        <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mit der kontinuierlichen Entwicklung der Entwicklungspraktiken hat das Aufkommen von Low-Code-Tools innovative Lösungen für verschiedene Entwicklungsszenarien eingeführt. Dies hat die Notwendigkeit verringert, Projekte von Grund auf neu zu beginnen, was erhebliche Zeit für wichtigere Geschäftsbestrebungen spart. Es ist jedoch entscheidend zu erkennen, dass Low Code die Entwicklung beschleunigt, dies jedoch auf Kosten einer gewissen Flexibilität geschieht. Infolgedessen sind nicht alle Lösungen gut für die Low-Code-Entwicklung geeignet. Lassen Sie uns tiefer in die Analyse von Szenarien eintauchen, die Low-Code-Tools gegenüber denen bevorzugen, bei denen die traditionelle Codeentwicklung angemessener bleibt. Während dieser Untersuchung bleibt der Schlüsselvergleich von Low Code gegenüber traditioneller Entwicklung von größter Bedeutung und betont die kritische Wichtigkeit, den effizientesten Ansatz zu wählen.]]></summary>
-        <content type="html"><![CDATA[<p>Mit der kontinuierlichen Entwicklung der Entwicklungspraktiken hat das Aufkommen von Low-Code-Tools innovative Lösungen für verschiedene Entwicklungsszenarien eingeführt. Dies hat die Notwendigkeit verringert, Projekte von Grund auf neu zu beginnen, was erhebliche Zeit für wichtigere Geschäftsbestrebungen spart. Es ist jedoch entscheidend zu erkennen, dass Low Code die Entwicklung beschleunigt, dies jedoch auf Kosten einer gewissen Flexibilität geschieht. Infolgedessen sind nicht alle Lösungen gut für die Low-Code-Entwicklung geeignet. Lassen Sie uns tiefer in die Analyse von Szenarien eintauchen, die Low-Code-Tools gegenüber denen bevorzugen, bei denen die traditionelle Codeentwicklung angemessener bleibt. Während dieser Untersuchung bleibt der Schlüsselvergleich von Low Code gegenüber traditioneller Entwicklung von größter Bedeutung und betont die kritische Wichtigkeit, den effizientesten Ansatz zu wählen.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="bei-der-einführung-einer-vorübergehenden-geschäftsinitiative">Bei der Einführung einer vorübergehenden Geschäftsinitiative<a href="https://illacloud.github.io/illa-website/de/blog/lowcode-vs-traditional#bei-der-einf%C3%BChrung-einer-vor%C3%BCbergehenden-gesch%C3%A4ftsinitiative" class="hash-link" aria-label="Direkter Link zu Bei der Einführung einer vorübergehenden Geschäftsinitiative" title="Direkter Link zu Bei der Einführung einer vorübergehenden Geschäftsinitiative">​</a></h2>
-<p>In der dynamischen Landschaft von häufigen Feiertagen und besonderen Anlässen wird das Schaffen einzigartiger Online-Erlebnisse unerlässlich. Jedes Unternehmen kann seine eigenen Marketingtage haben, die ansprechende Aktivitäten erfordern. Das Entwerfen dieser Online-Marketingkampagnen stellt unweigerlich eine Entwicklungs-Herausforderung dar und erfordert eine erhebliche Ressourcenzuweisung. Während der Bedarf an visuell ansprechenden Designs offensichtlich ist, rechtfertigt die Gesamtkomplexität möglicherweise nicht erhebliche Entwicklungskosten, insbesondere wenn der Lebenszyklus auf 1-2 Wochen begrenzt ist. In solchen Fällen erweist sich die Wahl von Low-Code-Tools als finanziell kluge Entscheidung. Hier befürworten wir eine spezifische Low-Code-Lösung.</p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="behandlung-von-benutzerorientierten-komponenten-webflow">Behandlung von benutzerorientierten Komponenten: Webflow<a href="https://illacloud.github.io/illa-website/de/blog/lowcode-vs-traditional#behandlung-von-benutzerorientierten-komponenten-webflow" class="hash-link" aria-label="Direkter Link zu Behandlung von benutzerorientierten Komponenten: Webflow" title="Direkter Link zu Behandlung von benutzerorientierten Komponenten: Webflow">​</a></h3>
-<p>Webflow, mit seiner intuitiven Drag-and-Drop-Schnittstelle und designerfreundlichen Anpassungen, erleichtert das Erstellen von visuell beeindruckenden Landing-Pages. Dieser Ansatz ermöglicht es den Nutzern, mit einer ästhetisch ansprechenden Website zu interagieren, und erfordert bemerkenswerterweise nur die Expertise eines einzelnen Designers. Darüber hinaus bietet Webflow eine Reihe von Vorlagen, die leicht angepasst werden können, und ermöglicht so den schnellen Aufbau einer exquisiten Website.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/webflow.png" alt="webflow" class="img_CfaS"></p>
-<h3 class="anchor anchorWithStickyNavbar_dXVO" id="verwaltung-von-geschäftsoperationen-illa-cloud">Verwaltung von Geschäftsoperationen: ILLA Cloud<a href="https://illacloud.github.io/illa-website/de/blog/lowcode-vs-traditional#verwaltung-von-gesch%C3%A4ftsoperationen-illa-cloud" class="hash-link" aria-label="Direkter Link zu Verwaltung von Geschäftsoperationen: ILLA Cloud" title="Direkter Link zu Verwaltung von Geschäftsoperationen: ILLA Cloud">​</a></h3>
-<p>Unabhängig von der verwendeten Frontend-Technologie ist ein effektives Verwaltungswerkzeug unverzicht</p>
-<p>bar für die Überwachung von Geschäftsabläufen.</p>
-<p><a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">ILLA Cloud</a>, als Low-Code-Tool direkt aus der Box, ermöglicht es Entwicklern, interne Werkzeuge schnell mit einfachem JavaScript zu konstruieren und eliminiert die Notwendigkeit, neue Projekte zu erstellen.</p>
-<ul>
-<li>Web- &amp; App-Admin-Panel</li>
-<li>Daten-Dashboard</li>
-<li>Angepasste B2B-Werkzeuge</li>
-</ul>
-<p>Verglichen mit Szenarien, die auf Komponentenbibliotheken basieren, bietet ILLA Cloud eine 10x schnellere Konstruktionsgeschwindigkeit für die oben genannten Werkzeuge. Zusätzlich unterstützt ILLA Cloud kollaboratives Bearbeiten unter mehreren Teammitgliedern und fördert effiziente Teamarbeit.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/dashboard.png" alt="dashboard" class="img_CfaS"></p>
-<p>Die Synergie dieser beiden Werkzeuge beschleunigt die Erstellung von Geschäftsanforderungen in Marketing-Szenarien. Dieser synergistische Ansatz minimiert den Bedarf an umfangreichen Entwicklungsressourcen und adressiert die Nachfrage nach schneller Reaktion und Bereitstellung. Folglich treibt er die Geschäftsiterationsgeschwindigkeit auf neue Höhen.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="bei-der-initiierung-eines-neuen-geschäftsunternehmens">Bei der Initiierung eines neuen Geschäftsunternehmens<a href="https://illacloud.github.io/illa-website/de/blog/lowcode-vs-traditional#bei-der-initiierung-eines-neuen-gesch%C3%A4ftsunternehmens" class="hash-link" aria-label="Direkter Link zu Bei der Initiierung eines neuen Geschäftsunternehmens" title="Direkter Link zu Bei der Initiierung eines neuen Geschäftsunternehmens">​</a></h2>
-<p>Der Beginn eines Projekts erfordert eine gründliche Bewertung seiner Eigenschaften. Für umfassende toC-Produkte wie soziale Plattformen, Gaming-Anwendungen oder IM-Dienste neigt die Empfehlung zu traditionellen Entwicklungsmethoden. Dies gewährleistet ein hohes Maß an Flexibilität bei der Anpassung an sich entwickelnde Anforderungen.</p>
-<p>Für Unternehmungen, die sich auf Einzelhandel oder Dienstleistungen konzentrieren, erweist sich die Nutzung von Shopify für die Frontend-Präsentation als vorteilhaft. Diese Wahl garantiert eine weit verbreitete Verbreitung von Produkten und senkt gleichzeitig die Entwicklungskosten. Darüber hinaus unterstützt Shopify die Anpassung und bedient so effektiv vielfältige Geschäftsbedürfnisse.</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/lowcode-vs-traditional/shopify.png" alt="shopify" class="img_CfaS"></p>
-<p>In Fällen, in denen eine schnelle Entwicklung einer App oder Website von größter Bedeutung ist, kann direkte Codierung eine schnellere Lösung bieten. Daher hängt die Auswahl einer geeigneten Lösung stark von den einzigartigen Merkmalen des Szenarios ab.</p>
-<p>Wenn die Backend-Funktionalität von Shopify den Anforderungen nicht entspricht, kann die Integration von ILLA Cloud die Lücke schließen und eine Plattform für angepasste Verwaltung bereitstellen.</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="schlussfolgerung">Schlussfolgerung<a href="https://illacloud.github.io/illa-website/de/blog/lowcode-vs-traditional#schlussfolgerung" class="hash-link" aria-label="Direkter Link zu Schlussfolgerung" title="Direkter Link zu Schlussfolgerung">​</a></h2>
-<p>Im Entscheidungsprozess zur Auswahl von Entwicklungswerkzeugen wird ein vielschichtiger Ansatz empfohlen. Während direkte Codierung unvergleichliche Flexibilität bietet, kommt sie jedoch auf Kosten der Entwicklungsgeschwindigkeit. Die strategische Integration von Low-Code-Werkzeugen und SaaS-Lösungen kann erhebliche Produktivitätsgewinne erzielen.</p>
-<p>Für Operationen, die Flexibilität erfordern und für das Kerngeschäft wesentlich sind, bleiben traditionelle Entwicklungsmethoden die bevorzugte Wahl. Die Agilität und Kontrolle, die durch traditionelle Entwicklungsmethoden geboten werden, führen zu Produkten, die speziell auf spezifische Bedürfnisse zugeschnitten sind.</p>
-<p>Letztendlich gibt es keine Einheitslösung; die beste Wahl ist diejenige, die am engsten mit den einzigartigen Anforderungen des jeweiligen Szenarios übereinstimmt.</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="Low Code" term="Low Code"/>
-        <category label="traditionelle Entwicklung" term="traditionelle Entwicklung"/>
-        <category label="JavaScript" term="JavaScript"/>
     </entry>
 </feed>
