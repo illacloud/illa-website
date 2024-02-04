@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[7467],{1594:e=>{e.exports=JSON.parse('{"label":"postgres","permalink":"/illa-website/zh/blog/tags/postgres","allTagsPath":"/illa-website/zh/blog/tags","count":1}')}}]);

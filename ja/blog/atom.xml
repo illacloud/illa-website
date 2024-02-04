@@ -1534,6 +1534,64 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
         <category label="コアアプリダッシュボード" term="コアアプリダッシュボード"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PostgreSQLのテーブル一覧の取得方法]]></title>
+        <id>https://illacloud.github.io/illa-website/ja/blog/list-tables-in-postgresql</id>
+        <link href="https://illacloud.github.io/illa-website/ja/blog/list-tables-in-postgresql"/>
+        <updated>2024-01-04T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事では、PostgreSQLデータベース内のテーブルを一覧表示するための2つの方法を紹介します。PostgreSQLはデータベース内のすべてのテーブルを一覧表示する2つの方法を提供しています。]]></summary>
+        <content type="html"><![CDATA[<p>この記事では、PostgreSQLデータベース内のテーブルを一覧表示するための2つの方法を紹介します。PostgreSQLはデータベース内のすべてのテーブルを一覧表示する2つの方法を提供しています：</p>
+<ul>
+<li><code>psql</code>ツールで<code>\dt</code>または<code>\dt+</code>を使用して現在のデータベースのすべてのテーブルを一覧表示します。</li>
+<li><code>pg_tables</code>テーブルからすべてのテーブルをクエリします。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="dtを使用してデータベース内のテーブルを一覧表示">\dtを使用してデータベース内のテーブルを一覧表示<a href="https://illacloud.github.io/illa-website/ja/blog/list-tables-in-postgresql#dt%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E5%86%85%E3%81%AE%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%82%92%E4%B8%80%E8%A6%A7%E8%A1%A8%E7%A4%BA" class="hash-link" aria-label="\dtを使用してデータベース内のテーブルを一覧表示 への直接リンク" title="\dtを使用してデータベース内のテーブルを一覧表示 への直接リンク">​</a></h2>
+<p>この例では、<code>psql</code>ツールを使用してデータベースにログインし、データベース内のテーブルを一覧表示するプロセスを示しています。以下の手順に従ってください：</p>
+<ol>
+<li>postgresユーザーを使用してPostgreSQLサーバーにログインします：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">[~] psql -U postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">psql (14.4)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Type "help" for help.</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>注意：適切なデータベース権限を持つ任意のユーザーも使用できます。</p>
+<ol start="2">
+<li>以下のステートメントで<code>testdb</code>データベースを選択します：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">\c testdb;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>データベースがまだ作成されていない場合は、次のステートメントを実行します：</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">CREATE DATABASE testdb;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ol start="3">
+<li><code>\dt</code>コマンドを使用して<code>testdb</code>データベースのすべてのテーブルを一覧表示します：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">\dt</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">            リレーションの一覧</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Schema |      Name      | Type  |  Owner</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">--------+----------------+-------+----------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | mytable        | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | product        | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_date      | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_time      | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_timestamp | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | week_day_sales | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(6 rows)</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ol start="4">
+<li>テーブルに関する詳細情報を表示したい場合は、<code>\dt+</code>コマンドを使用します：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">\dt+</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">                                          リレーションの一覧</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Schema |      Name      | Type  |  Owner   | Persistence | Access method |    Size    | Description</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">--------+----------------+-------+----------+-------------+---------------+------------+-------------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | mytable        | table | postgres | permanent   | heap          | 16 kB      |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | product        | table | postgres | permanent   | heap          | 16 kB      |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_date      | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_time      | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_timestamp | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | week_day_sales | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(6 rows)</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><code>\dt+</code>の入力には、<code>\dt</code>の出力に加えて<code>Persistence</code>、<code>Access method</code>、<code>Size</code>、および<code>Description</code>などの列が含まれています。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="pg_tablesテーブルからテーブルをクエリ">pg_tablesテーブルからテーブルをクエリ<a href="https://illacloud.github.io/illa-website/ja/blog/list-tables-in-postgresql#pg_tables%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%8B%E3%82%89%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%82%92%E3%82%AF%E3%82%A8%E3%83%AA" class="hash-link" aria-label="pg_tablesテーブルからテーブルをクエリ への直接リンク" title="pg_tablesテーブルからテーブルをクエリ への直接リンク">​</a></h2>
+<p><code>\dt</code>および<code>\dt+</code>コマンドに加えて、<code>pg_tables</code>テーブルから現在のデータベース内のすべてのテーブルをクエリすることもできます。</p>
+<p><code>pg_tables</code>テーブルは、PostgreSQLの組み込みテーブルで、データベース内のすべてのテーブルを格納しています。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT * FROM pg_tables</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">WHERE schemaname = 'public';</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> schemaname |   tablename    | tableowner | tablespace | hasindexes | hasrules | hastriggers | rowsecurity</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------+----------------+------------+------------+------------+----------+-------------+-------------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | test_date      | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | test_time      | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | test_timestamp | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | week_day_sales | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | mytable        | postgres   |            | f          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | product        | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(6 rows)</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="結論">結論<a href="https://illacloud.github.io/illa-website/ja/blog/list-tables-in-postgresql#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="結論 への直接リンク" title="結論 への直接リンク">​</a></h2>
+<p>PostgreSQLはデータベース内のすべてのテーブルを一覧表示するために2つの方法を提供しています：</p>
+<ul>
+<li><code>psql</code>ツールで<code>\dt</code>または<code>\dt+</code>を使用して現在のデータベースのすべてのテーブルを一覧表示します。</li>
+<li><code>pg_tables</code>テーブルからすべてのテーブルをクエリします。</li>
+</ul>
+<p>MySQLでは、データベースを一覧表示するために<code>SHOW TABLES</code>コマンドを使用できます。</p>]]></content>
+        <author>
+            <name>Owen Chen</name>
+            <uri>https://github.com/smallSohoSolo</uri>
+        </author>
+        <category label="postgres" term="postgres"/>
+        <category label="postgresql" term="postgresql"/>
+        <category label="database" term="database"/>
+        <category label="list" term="list"/>
+        <category label="tables" term="tables"/>
+        <category label="psql" term="psql"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2024年にカスタムの低コードCRMを構築する方法]]></title>
         <id>https://illacloud.github.io/illa-website/ja/blog/low-code-crm</id>
         <link href="https://illacloud.github.io/illa-website/ja/blog/low-code-crm"/>
@@ -1580,49 +1638,5 @@ TをLengthとして指定し、Tの型がlengthプロパティを含み、その
             <uri>https://github.com/smallSohoSolo</uri>
         </author>
         <category label="低コードCRM" term="低コードCRM"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[バックエンドエンジニアがビジネスツールを作成するために設計された最高の製品]]></title>
-        <id>https://illacloud.github.io/illa-website/ja/blog/backend-create-web-ui</id>
-        <link href="https://illacloud.github.io/illa-website/ja/blog/backend-create-web-ui"/>
-        <updated>2024-01-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[バックエンドエンジニアとして、私は同僚の多様なニーズに応えるために多くのデータダッシュボードや管理パネルを作成することがよくありました。多様なビジネスデータを表示したり、CI/CDタスクを可視化したり、クリスマスイベント用の特別な管理パネルを作成したりすることから、これらすべてをわずか14日で達成しました。]]></summary>
-        <content type="html"><![CDATA[<p>こんにちは、私はオーウェンです。私はバックエンドエンジニアとして、Web UIを作成するのが得意ではありませんが、同僚のさまざまなニーズに応えるためにさまざまなデータパネルと管理バックエンドを開発する必要があります。</p>
-<p>これには複雑なビジネスデータの表示からCI/CDタスクの可視化、クリスマスイベント用の特別な管理バックエンドの作成までが含まれます。これらのタスクを単独で完了することはできず、継続的なイテレーションのためにフロントエンドエンジニアと協力する必要があります。これは私の作業効率に大きな影響を与えています。</p>
-<p>私は内部チーム用のさまざまなツール、個人用のシンプルなツール、および時間に迫ったツールを独自に製作することを望んでいます。これらのツールが見た目が良く、使いやすく、迅速に構築できることが私の最大の要望です。したがって、私は今、バックエンドエンジニアがカスタマイズされたツールを迅速に構築できるプロジェクトに完全に取り組んでいます。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="illa-cloudとは">ILLA Cloudとは<a href="https://illacloud.github.io/illa-website/ja/blog/backend-create-web-ui#illa-cloud%E3%81%A8%E3%81%AF" class="hash-link" aria-label="ILLA Cloudとは への直接リンク" title="ILLA Cloudとは への直接リンク">​</a></h2>
-<p>ILLAは、開発者向けに設計されたローコードツールで、ドラッグアンドドロップインターフェースを介してAdminパネルとダッシュボードを迅速に開発できるようにします。ILLA Cloudは、一般的なデータベースやデータソース、REST API、GraphQLを含む幅広いデータソースと統合されています。</p>
-<p>公式ウェブサイト：<a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
-<p>ILLAを使用すると、次のようなさまざまなツールを迅速に構築できます：</p>
-<ul>
-<li>Webおよびアプリの管理パネル</li>
-<li>データダッシュボード</li>
-<li>カスタマイズされたB2Bツール</li>
-</ul>
-<p>これらはドラッグ＆ドロップで簡単に作成でき、論理的な接続にはわずかなJavaScriptが必要です。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/dashboard.png" alt="ダッシュボード" class="img_CfaS"></p>
-<p>ILLAには、AI、データベース、さまざまなSaaSプラットフォームを統合できる包括的なコネクタツールのセットも備わっており、お客様は作成した製品をすばやく使用している製品とリンクできます。スケジュールされたタスク、Webフックをサポートし、パラメータの受け渡しも可能です。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/connector.png" alt="コネクタ" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="なぜilla-cloudをお勧めするのか">なぜILLA Cloudをお勧めするのか<a href="https://illacloud.github.io/illa-website/ja/blog/backend-create-web-ui#%E3%81%AA%E3%81%9Cilla-cloud%E3%82%92%E3%81%8A%E5%8B%A7%E3%82%81%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8B" class="hash-link" aria-label="なぜILLA Cloudをお勧めするのか への直接リンク" title="なぜILLA Cloudをお勧めするのか への直接リンク">​</a></h2>
-<p>私たちのチームによる継続的なイテレーションの結果、ILLAは現在、多くの主要なデータソースとAPIをサポートしています。バックエンド開発者は、ILLAを使用してドラッグアンドドロップの方法でカスタマイズされたツールを迅速に構築でき、日常業務での多くの内部ツールの構築速度が根本的に向上しました。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/resource.png" alt="リソース" class="img_CfaS"></p>
-<p>もはや特定のタイプのデータベース用にマイクロサービスを構築する必要はありません。ILLAは直接のSQLデータベースクエリをサポートしており、バックエンド開発者にとって非常にユーザーフレンドリーです。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/sql.png" alt="SQL" class="img_CfaS"></p>
-<p>ILLAには、Slackにメッセージを簡単に送信したり、電子メールを送信したり、他のシステムとコミュニケーションを取ったりするための組み込みのコネクタ機能も備わっており、これらはWebフックとスケジュールされたタスクを使用して呼び出すことができます。</p>
-<p>これは職場での多くの自動化タスクの開発効率を根本的に向上させます。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/connector.png" alt="コネクタ" class="img_CfaS"></p>
-<p>さらに、ILLAは現在、Huggingface AIモデルを簡単に使用できるようにし、AI駆動のツールを構築する際に特に興味深いです。ILLAにはAIエージェント機能も含まれており、テキスト分析、音声分析、画像分析などに便利に使用できます。</p>
-<p>ILLAで構築されたツールは、よりスマートになるようにすばやくLLM（Large Language Models）に接続できます。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/agent.png" alt="エージェント" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="最後に">最後に<a href="https://illacloud.github.io/illa-website/ja/blog/backend-create-web-ui#%E6%9C%80%E5%BE%8C%E3%81%AB" class="hash-link" aria-label="最後に への直接リンク" title="最後に への直接リンク">​</a></h2>
-<p>私はILLA Cloudがさまざまなツールを迅速に構築するのに役立つことを願っています。ILLA Cloudは現在ベータ版であり、ユーザーからのフィードバックを積極的に収集しています。ご質問や提案がある場合は、お気軽にお問い合わせください。</p>
-<p>私はすべてのエンジニアが特定のフロントエンドタスクに苦労する必要なく、効率的に作業できることを願っています。</p>]]></content>
-        <author>
-            <name>Owen Chen</name>
-            <uri>https://github.com/smallSohoSolo</uri>
-        </author>
-        <category label="インターナルツール" term="インターナルツール"/>
-        <category label="データダッシュボード" term="データダッシュボード"/>
-        <category label="管理パネル" term="管理パネル"/>
     </entry>
 </feed>

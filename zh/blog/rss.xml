@@ -1435,6 +1435,60 @@ E：表示元素类型</p>
             <category>核心应用仪表板</category>
         </item>
         <item>
+            <title><![CDATA[PostgreSQL表格清单获取方法]]></title>
+            <link>https://illacloud.github.io/illa-website/zh/blog/list-tables-in-postgresql</link>
+            <guid>https://illacloud.github.io/illa-website/zh/blog/list-tables-in-postgresql</guid>
+            <pubDate>Thu, 04 Jan 2024 10:00:00 GMT</pubDate>
+            <description><![CDATA[本文介绍了在PostgreSQL数据库中列出所有表格的两种方法。PostgreSQL提供了两种方法来列出数据库中的所有表格。]]></description>
+            <content:encoded><![CDATA[<p>本文介绍了在PostgreSQL数据库中列出所有表格的两种方法。PostgreSQL提供了两种方法来列出数据库中的所有表格：</p>
+<ul>
+<li>使用<code>psql</code>工具的<code>\dt</code>或<code>\dt+</code>命令列出当前数据库中的所有表格。</li>
+<li>通过查询<code>pg_tables</code>表列出所有表格。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="使用dt列出数据库中的表格">使用\dt列出数据库中的表格<a href="https://illacloud.github.io/illa-website/zh/blog/list-tables-in-postgresql#%E4%BD%BF%E7%94%A8dt%E5%88%97%E5%87%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%AD%E7%9A%84%E8%A1%A8%E6%A0%BC" class="hash-link" aria-label="Direct link to 使用\dt列出数据库中的表格" title="Direct link to 使用\dt列出数据库中的表格">​</a></h2>
+<p>以下示例演示了使用<code>psql</code>工具登录数据库并列出其中表格的过程。请按照以下步骤操作：</p>
+<ol>
+<li>使用postgres用户登录到PostgreSQL服务器：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">[~] psql -U postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">psql (14.4)</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Type "help" for help.</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>注意：也可以使用具有适当数据库权限的任何用户。</p>
+<ol start="2">
+<li>使用以下语句选择<code>testdb</code>数据库：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">\c testdb;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>如果数据库尚未创建，请执行以下语句：</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">CREATE DATABASE testdb;</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ol start="3">
+<li>使用<code>\dt</code>命令列出<code>testdb</code>数据库中的所有表格：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">\dt</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">            Relations List</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Schema |      Name      | Type  |  Owner</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">--------+----------------+-------+----------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | mytable        | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | product        | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_date      | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_time      | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_timestamp | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | week_day_sales | table | postgres</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(6 rows)</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ol start="4">
+<li>若要查看有关表格的详细信息，请使用<code>\dt+</code>命令：</li>
+</ol>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">\dt+</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">                                          Relations List</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">Schema |      Name      | Type  |  Owner   | Persistence | Access method |    Size    | Description</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">--------+----------------+-------+----------+-------------+---------------+------------+-------------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | mytable        | table | postgres | permanent   | heap          | 16 kB      |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | product        | table | postgres | permanent   | heap          | 16 kB      |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_date      | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_time      | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | test_timestamp | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">public | week_day_sales | table | postgres | permanent   | heap          | 8192 bytes |</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(6 rows)</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><code>\dt+</code>的输出包含<code>\dt</code>输出以及额外列，如<code>Persistence</code>、<code>Access method</code>、<code>Size</code>和<code>Description</code>。</p>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="从pg_tables表中查询表格">从pg_tables表中查询表格<a href="https://illacloud.github.io/illa-website/zh/blog/list-tables-in-postgresql#%E4%BB%8Epg_tables%E8%A1%A8%E4%B8%AD%E6%9F%A5%E8%AF%A2%E8%A1%A8%E6%A0%BC" class="hash-link" aria-label="Direct link to 从pg_tables表中查询表格" title="Direct link to 从pg_tables表中查询表格">​</a></h2>
+<p>除了<code>\dt</code>和<code>\dt+</code>命令外，还可以通过查询<code>pg_tables</code>表列出当前数据库中的所有表格。</p>
+<p><code>pg_tables</code>表是PostgreSQL的内置表，用于存储数据库中的所有表格。</p>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain">SELECT * FROM pg_tables</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">WHERE schemaname = 'public';</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-shell codeBlockContainer_USIv theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_PMfr"><pre tabindex="0" class="prism-code language-shell codeBlock_IHkF thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_THA1"><span class="token-line" style="color:#F8F8F2"><span class="token plain"> schemaname |   tablename    | tableowner | tablespace | hasindexes | hasrules | hastriggers | rowsecurity</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">------------+----------------+------------+------------+------------+----------+-------------+-------------</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | test_date      | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | test_time      | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | test_timestamp | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | week_day_sales | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | mytable        | postgres   |            | f          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"> public     | product        | postgres   |            | t          | f        | f           | f</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">(6 rows)</span><br></span></code></pre><div class="buttonGroup_uxJT"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_LZ6a" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_H1v1"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_J5e4"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/list-tables-in-postgresql#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
+<p>PostgreSQL提供了两种列出数据库中所有表格的方法：</p>
+<ul>
+<li>使用<code>psql</code>工具的<code>\dt</code>或<code>\dt+</code>命令列出当前数据库中的所有表格。</li>
+<li>通过查询<code>pg_tables</code>表列出所有表格。</li>
+</ul>
+<p>在MySQL中，可以使用<code>SHOW TABLES</code>命令列出数据库中的表格。</p>]]></content:encoded>
+            <category>postgres</category>
+            <category>postgresql</category>
+            <category>database</category>
+            <category>list</category>
+            <category>tables</category>
+            <category>psql</category>
+        </item>
+        <item>
             <title><![CDATA[如何在2024年构建自定义低代码CRM]]></title>
             <link>https://illacloud.github.io/illa-website/zh/blog/low-code-crm</link>
             <guid>https://illacloud.github.io/illa-website/zh/blog/low-code-crm</guid>
@@ -1477,46 +1531,6 @@ E：表示元素类型</p>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="结论">结论<a href="https://illacloud.github.io/illa-website/zh/blog/low-code-crm#%E7%BB%93%E8%AE%BA" class="hash-link" aria-label="Direct link to 结论" title="Direct link to 结论">​</a></h2>
 <p>每家公司都应该拥有自己的低代码CRM，因为定制需求和能力是灵活运营的关键。我们希望每个人都能够使用低代码工具快速构建业务工具。</p>]]></content:encoded>
             <category>低代码 CRM</category>
-        </item>
-        <item>
-            <title><![CDATA[专为后端工程师设计的最佳产品，用于创建业务工具]]></title>
-            <link>https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui</link>
-            <guid>https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui</guid>
-            <pubDate>Wed, 03 Jan 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[尽管我背景是后端工程师，但我经常发现自己沉浸在创建各种数据仪表板和管理面板中，以满足同事们多样化的需求。从展示复杂的业务数据到可视化CI/CD任务，再到为圣诞活动制作特殊的管理面板，我仅用了短短的14天就完成了所有这些任务。]]></description>
-            <content:encoded><![CDATA[<p>嗨，我是Owen。作为一名后端工程师，我并不擅长创建Web用户界面，但我经常需要开发各种数据面板和管理后端来满足同事们多样化的需求。</p>
-<p>这涵盖了展示复杂的业务数据，可视化CI/CD任务，甚至为圣诞活动创建特殊的管理后端。我无法独自完成这些任务，需要与前端工程师合作进行持续迭代。这显著影响了我的工作效率。</p>
-<p>我希望能够独立地为内部团队使用开发各种工具，以及为个人使用和一些时间敏感的工具开发简单的工具。我最大的需求是这些工具在美观性、易用性和快速构建方面都要达到，因此，我现在全身心致力于一个帮助后端工程师快速构建定制工具的项目。</p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="什么是illa-cloud">什么是ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui#%E4%BB%80%E4%B9%88%E6%98%AFilla-cloud" class="hash-link" aria-label="Direct link to 什么是ILLA Cloud" title="Direct link to 什么是ILLA Cloud">​</a></h2>
-<p>ILLA是一款为开发者设计的低代码工具，通过拖放界面快速开发管理面板和仪表板。ILLA Cloud与各种常见的数据库和数据源集成，包括REST API和GraphQL。</p>
-<p>官方网站：<a href="https://illacloud.com/" target="_blank" rel="noopener noreferrer">https://illacloud.com</a></p>
-<p>使用ILLA，您可以快速构建各种工具，例如：</p>
-<ul>
-<li>Web和App管理面板</li>
-<li>数据仪表板</li>
-<li>定制的B2B工具</li>
-</ul>
-<p>这些可以通过拖放轻松创建，仅需要少量JavaScript用于逻辑连接。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/dashboard.png" alt="仪表板" class="img_CfaS"></p>
-<p>ILLA还具备全面的连接器工具集，能够集成AI、数据库和各种SaaS平台。这使您的客户可以快速将您构建的产品与他们使用的产品连接起来。它支持定时任务、Webhooks，并允许参数传递。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/connector.png" alt="连接器" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="为什么我推荐illa-cloud">为什么我推荐ILLA Cloud<a href="https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E6%8E%A8%E8%8D%90illa-cloud" class="hash-link" aria-label="Direct link to 为什么我推荐ILLA Cloud" title="Direct link to 为什么我推荐ILLA Cloud">​</a></h2>
-<p>经过我们团队的不断迭代，ILLA现在支持大量主流的数据源和API。后端开发人员可以使用ILLA的拖放方法快速构建定制工具，从而根本提高了在日常工作中构建大量内部工具的速度。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/resource.png" alt="资源" class="img_CfaS"></p>
-<p>不再需要为某种类型的数据库构建微服务，而该微服务仅用于执行SQL查询。ILLA支持直接的SQL数据库查询，对后端开发人员非常友好。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/sql.png" alt="SQL" class="img_CfaS"></p>
-<p>ILLA还具备内置的连接器功能，允许工具轻松发送消息到Slack，发送电子邮件，甚至与其他系统进行通信。这些可以使用Webhooks和定时任务调用。</p>
-<p>这从根本上提高了工作场所自动化任务的开发效率。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/connector.png" alt="连接器" class="img_CfaS"></p>
-<p>此外，ILLA现在支持集成AI模型，允许轻松使用Huggingface AI模型。这对于构建以AI驱动的工具特别有趣。ILLA还包括一个AI代理功能，可以方便地用于文本分析、语音分析、图像分析等。</p>
-<p>使用ILLA构建的工具可以快速连接到大型语言模型（LLMs），使您构建的工具更加智能。</p>
-<p><img loading="lazy" src="https://cdn.illacloud.com/illa-website/blog/backend-create-web-ui/agent.png" alt="代理" class="img_CfaS"></p>
-<h2 class="anchor anchorWithStickyNavbar_dXVO" id="最后">最后<a href="https://illacloud.github.io/illa-website/zh/blog/backend-create-web-ui#%E6%9C%80%E5%90%8E" class="hash-link" aria-label="Direct link to 最后" title="Direct link to 最后">​</a></h2>
-<p>我希望ILLA Cloud可以帮助您快速构建各种工具，使您能够专注于开发业务逻辑。ILLA Cloud目前处于测试阶段，我们正在积极收集用户的反馈意见。如果您有任何问题或建议，请随时与我联系。</p>
-<p>我希望每位工程师都能够高效工作，而不必为特定的前端任务而苦恼。</p>]]></content:encoded>
-            <category>内部工具</category>
-            <category>数据仪表板</category>
-            <category>管理面板</category>
         </item>
     </channel>
 </rss>
