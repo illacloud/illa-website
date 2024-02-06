@@ -15,7 +15,7 @@ const Community: IFootContentItem[] = [
   },
   {
     icon: <TwitterIcon />,
-    href: "https://twitter.com/illacloudhq",
+    href: "https://twitter.com/illa_cloud",
     tagCategory: "homepage_footer_twitter_click",
     label: "Twitter",
   },

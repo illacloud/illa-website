@@ -7,7 +7,7 @@ export const IMAGE_GENERATE_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       logo: "https://www.illacloud.com",
       sameAs: [
-        "https://twitter.com/illacloudhq",
+        "https://twitter.com/illa_cloud",
         "GitHub - illacloud/illa-builder: Create AI-Driven Apps like Assembling Blocks",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
@@ -87,7 +87,7 @@ export const AI_VOICE_GENERATOR_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       logo: "https://www.illacloud.com",
       sameAs: [
-        "https://twitter.com/illacloudhq",
+        "https://twitter.com/illa_cloud",
         "GitHub - illacloud/illa-builder: Create AI-Driven Apps like Assembling Blocks",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
@@ -167,7 +167,7 @@ export const DASHBOARD_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       logo: "https://www.illacloud.com",
       sameAs: [
-        "https://twitter.com/illacloudhq",
+        "https://twitter.com/illa_cloud",
         "GitHub - illacloud/illa-builder: Create AI-Driven Apps like Assembling Blocks",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
@@ -255,7 +255,7 @@ export const CMS_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       logo: "https://www.illacloud.com",
       sameAs: [
-        "https://twitter.com/illacloudhq",
+        "https://twitter.com/illa_cloud",
         "GitHub - illacloud/illa-builder: Create AI-Driven Apps like Assembling Blocks",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
@@ -343,7 +343,7 @@ export const CRM_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       logo: "https://www.illacloud.com",
       sameAs: [
-        "https://twitter.com/illacloudhq",
+        "https://twitter.com/illa_cloud",
         "GitHub - illacloud/illa-builder: Create AI-Driven Apps like Assembling Blocks",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
@@ -431,7 +431,7 @@ export const ADMIN_PANEL_SCHEMA_DATA = {
       url: "https://www.illacloud.com",
       logo: "https://www.illacloud.com",
       sameAs: [
-        "https://twitter.com/illacloudhq",
+        "https://twitter.com/illa_cloud",
         "GitHub - illacloud/illa-builder: Create AI-Driven Apps like Assembling Blocks",
         "https://www.illacloud.com/",
         "https://www.youtube.com/@illacloud",
