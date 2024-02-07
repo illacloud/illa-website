@@ -32,12 +32,12 @@ type Props = {
 export const BannerModal: FC<Props> = ({
   title = translate({
     id: "blog.scroll_down",
-    message: "Create AI-Driven Apps like Assembling Blocks with ILLA Cloud",
+    message: "Create business apps like assembling blocks with ILLA Cloud",
   }),
   variant = "purple",
   image = {
     src: "https://cdn.illacloud.com/illa-website/home/blogIcon/modalIcon.webp",
-    alt: "Create AI-Driven Apps like Assembling Blocks with ILLA Cloud",
+    alt: "Create business apps like assembling blocks with ILLA Cloud",
     href: CLOUD_URL,
   },
 }) => {

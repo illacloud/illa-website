@@ -118,7 +118,7 @@ const CommonFooter: FC<ICommonFooterProps> = ({
             )}
           >
             <Translate id="slogan-1">
-              Create AI-Driven Apps like Assembling Blocks
+              Create business apps like assembling blocks
             </Translate>
           </span>
         </div>
