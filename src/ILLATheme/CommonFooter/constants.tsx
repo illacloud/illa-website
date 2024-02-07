@@ -69,7 +69,7 @@ const AboutUs: IFootContentItem[] = [
       message: "Media Kit",
       id: "footer.media",
     }),
-    href: "https://illa-cloud-storage.illacloud.com/system-assets/media-kit/illa_media_kit.20230228.zip",
+    href: "https://cdn.illacloud.com/official-website/img/ILLA%20MEDIA%20%20Kit.zip",
     downloadName: "ILLA Media Kit.zip",
     tagCategory: "homepage_footer_mediakit_click",
   },
