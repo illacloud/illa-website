@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[3906],{3234:e=>{e.exports=JSON.parse('{"permalink":"/illa-website/blog/page/3","page":3,"postsPerPage":12,"totalPages":3,"totalCount":26,"previousPage":"/illa-website/blog/page/2","blogDescription":"A resource for ILLA, front-end ecosystem, and web development","blogTitle":"Blog"}')}}]);
