@@ -6,7 +6,6 @@ authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/postgresql-isnull/cover.webp
 tags: [ postgresql, isnull, isnotnull ]
 date: 2024-02-04T11:00
-is_featured: true
 ---
 
 本文介绍了在 PostgreSQL 中如何使用 `IS NULL` 运算符检查一个值是不是 `NULL`。PostgreSQL `IS NULL` 是一个布尔运算符，它检查一个值是不是`NULL`。 `NULL`值是一个特殊的值，它表示什么都没有，它即不是空字符串也不是false。

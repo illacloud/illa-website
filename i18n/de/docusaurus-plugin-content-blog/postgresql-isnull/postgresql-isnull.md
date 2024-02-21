@@ -6,7 +6,6 @@ authors: [ owen ]
 image: https://cdn.illacloud.com/illa-website/blog/postgresql-isnull/cover.webp
 tags: [ postgresql, isnull, isnotnull ]
 date: 2024-02-04T11:00
-is_featured: true
 ---
 
 Dieser Artikel erläutert die Verwendung des `IS NULL`-Operators in PostgreSQL, um zu überprüfen, ob ein Wert `NULL` ist.
