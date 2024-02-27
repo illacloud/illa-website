@@ -4,7 +4,7 @@
         <title>ILLA Cloud Blog</title>
         <link>https://illacloud.github.io/illa-website/de/blog</link>
         <description>ILLA Cloud Blog</description>
-        <lastBuildDate>Tue, 27 Feb 2024 10:18:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Feb 2024 13:57:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
@@ -13,7 +13,7 @@
             <title><![CDATA[react-error-boundary/react-error-boundary]]></title>
             <link>https://illacloud.github.io/illa-website/de/blog/react-error-boundary/react-error-boundary</link>
             <guid>https://illacloud.github.io/illa-website/de/blog/react-error-boundary/react-error-boundary</guid>
-            <pubDate>Tue, 27 Feb 2024 10:18:50 GMT</pubDate>
+            <pubDate>Tue, 27 Feb 2024 13:57:53 GMT</pubDate>
             <description><![CDATA[---]]></description>
             <content:encoded><![CDATA[<hr>
 <h2 class="anchor anchorWithStickyNavbar_dXVO" id="slug-react-error-boundarytitle-react-fehlergrenze-wie-man-react-fehler-effektiver-behandeln-kanndescription-durch-die-verwendung-von-react-error-boundary-in-ihrer-react-anwendung-wird-eine-leistungsstarke-fehlerbehandlung-und-eine-einfachere-debugging-möglich-mit-dieser-bibliothek-können-sie-zeit-für-das-fehlermanagement-sparen-und-sich-auf-das-aufbauen-hervorragender-produktfunktionen-konzentrierenauthors-owenimage-httpscdnillacloudcomilla-websiteblogreact-error-boundarycoverwebptags-react-komponenten-bibliothekdate-2024-02-27t1000">slug: react-error-boundary
