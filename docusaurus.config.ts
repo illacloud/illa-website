@@ -60,11 +60,11 @@ const config: Config = {
       },
       {
         name: "twitter:site",
-        content: "@illaCloudHQ",
+        content: "@illa_cloud",
       },
       {
         name: "twitter:creator",
-        content: "@illaCloudHQ",
+        content: "@illa_cloud",
       },
       {
         name: "keywords",
