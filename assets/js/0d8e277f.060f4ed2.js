@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[6394],{7618:e=>{e.exports=JSON.parse('{"permalink":"/illa-website/blog/tags/gui","page":1,"postsPerPage":12,"totalPages":1,"totalCount":2,"blogDescription":"A resource for ILLA, front-end ecosystem, and web development","blogTitle":"Blog"}')}}]);

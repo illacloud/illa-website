@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[2327],{568:e=>{e.exports=JSON.parse('{"label":"freiberuflich","permalink":"/de/blog/tags/freiberuflich","allTagsPath":"/de/blog/tags","count":1}')}}]);

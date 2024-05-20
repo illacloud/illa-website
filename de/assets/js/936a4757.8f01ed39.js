@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[720],{6043:e=>{e.exports=JSON.parse('{"label":"B\xfcrgerentwickler","permalink":"/de/blog/tags/burgerentwickler","allTagsPath":"/de/blog/tags","count":1}')}}]);

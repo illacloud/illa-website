@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[5147],{1224:e=>{e.exports=JSON.parse('{"label":"webworker","permalink":"/de/blog/tags/webworker","allTagsPath":"/de/blog/tags","count":1}')}}]);

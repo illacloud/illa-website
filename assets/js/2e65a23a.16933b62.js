@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[6996],{6470:e=>{e.exports=JSON.parse('{"label":"nvm","permalink":"/blog/tags/nvm","allTagsPath":"/blog/tags","count":2}')}}]);

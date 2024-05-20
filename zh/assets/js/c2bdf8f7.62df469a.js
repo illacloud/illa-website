@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[6063],{5693:e=>{e.exports=JSON.parse('{"label":"redis","permalink":"/zh/blog/tags/redis","allTagsPath":"/zh/blog/tags","count":1}')}}]);

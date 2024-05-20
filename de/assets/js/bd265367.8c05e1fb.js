@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[4617],{6672:e=>{e.exports=JSON.parse('{"label":"B\xfcrgerentwicklungs-Tool","permalink":"/de/blog/tags/burgerentwicklungs-tool","allTagsPath":"/de/blog/tags","count":1}')}}]);

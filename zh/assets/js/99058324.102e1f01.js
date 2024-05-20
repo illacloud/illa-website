@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[454],{138:e=>{e.exports=JSON.parse('{"label":"webworker","permalink":"/illa-website/zh/blog/tags/webworker","allTagsPath":"/illa-website/zh/blog/tags","count":1}')}}]);

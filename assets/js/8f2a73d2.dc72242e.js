@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[8989],{2221:a=>{a.exports=JSON.parse('{"label":"UI Library","permalink":"/blog/tags/ui-library","allTagsPath":"/blog/tags","count":2}')}}]);

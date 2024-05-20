@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[9833],{8691:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/retool","page":1,"postsPerPage":12,"totalPages":1,"totalCount":3,"blogDescription":"A resource for ILLA, front-end ecosystem, and web development","blogTitle":"Blog"}')}}]);

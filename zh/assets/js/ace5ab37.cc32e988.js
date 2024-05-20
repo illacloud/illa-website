@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[9463],{3132:e=>{e.exports=JSON.parse('{"permalink":"/illa-website/zh/blog/tags/\u6570\u636e\u4eea\u8868\u677f","page":1,"postsPerPage":12,"totalPages":1,"totalCount":2,"blogDescription":"A resource for ILLA, front-end ecosystem, and web development","blogTitle":"Blog"}')}}]);

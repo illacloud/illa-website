@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[1569],{9057:a=>{a.exports=JSON.parse('{"label":"Core-App-Dashboard","permalink":"/de/blog/tags/core-app-dashboard","allTagsPath":"/de/blog/tags","count":1}')}}]);

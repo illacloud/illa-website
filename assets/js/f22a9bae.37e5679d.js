@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[2274],{9643:e=>{e.exports=JSON.parse('{"label":"traditional development","permalink":"/blog/tags/traditional-development","allTagsPath":"/blog/tags","count":1}')}}]);

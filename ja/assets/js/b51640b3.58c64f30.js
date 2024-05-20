@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[7235],{6021:e=>{e.exports=JSON.parse('{"label":"open-source","permalink":"/illa-website/ja/blog/tags/open-source","allTagsPath":"/illa-website/ja/blog/tags","count":1}')}}]);

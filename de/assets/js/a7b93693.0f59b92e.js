@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[2718],{5515:e=>{e.exports=JSON.parse('{"label":"fiverr","permalink":"/de/blog/tags/fiverr","allTagsPath":"/de/blog/tags","count":1}')}}]);

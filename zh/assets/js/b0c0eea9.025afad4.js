@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[1165],{6553:e=>{e.exports=JSON.parse('{"label":"GUI","permalink":"/zh/blog/tags/gui","allTagsPath":"/zh/blog/tags","count":2}')}}]);

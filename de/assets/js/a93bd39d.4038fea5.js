@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[5429],{4596:e=>{e.exports=JSON.parse('{"label":"low code crm","permalink":"/de/blog/tags/low-code-crm","allTagsPath":"/de/blog/tags","count":1}')}}]);

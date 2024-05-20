@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[6034],{4694:e=>{e.exports=JSON.parse('{"label":"\u7ba1\u7406\u9762\u677f","permalink":"/zh/blog/tags/\u7ba1\u7406\u9762\u677f","allTagsPath":"/zh/blog/tags","count":1}')}}]);

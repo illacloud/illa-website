@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkilla_website=self.webpackChunkilla_website||[]).push([[3429],{9509:e=>{e.exports=JSON.parse('{"label":"upwork","permalink":"/blog/tags/upwork","allTagsPath":"/blog/tags","count":1}')}}]);
