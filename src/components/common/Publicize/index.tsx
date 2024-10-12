@@ -8,7 +8,7 @@ import Translate from "@docusaurus/Translate"
 const Publicize = ({ stars }) => {
   return (
     <Link
-      href="https://github.com/illacloud/illa-builder"
+      href="https://diagnostic-mushroom-361.notion.site/11d193052cd880bbb372e18c87c13e50?pvs=4"
       className="hover:no-underline"
     >
       <div
@@ -20,27 +20,15 @@ const Publicize = ({ stars }) => {
           })
         }}
       >
-        <span className={style.publicizeStyle} />
         <span className="flex flex-row justify-between items-center h-full gap-[16px] relative z-[1]">
-          <span className="flex flex-row justify-between">
-            <span className={style.publicIntru}>
-              <GithubIcon className="h-[24px] w-[24px]" />
-
-              <span>
-                <span>
-                  <Translate id="title.github">Github</Translate>
-                </span>
-                <span className="inline-block w-[45px] text-center">
-                  {stars}
-                </span>
-                <span>
-                  <Translate id="title.stars">Stars</Translate>
-                </span>
-              </span>
-            </span>
+          <span className={style.publicIntru}>
+            <Translate id="notification.stop">
+              Our cloud service will be discontinued on November 11, 2024. The
+              open-source version remains available.
+            </Translate>
           </span>
-          <span className={style.publicSlogan} role="img" aria-label="star us">
-            <Translate id="title.star-us">Star us</Translate> 👉
+          <span className="text-[14px] font-[600] underline color-[#E5E1E6]">
+            <Translate id="notification.stop_button">Learn more</Translate>
           </span>
         </span>
       </div>
