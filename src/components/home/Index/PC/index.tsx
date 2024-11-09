@@ -32,7 +32,6 @@ const BannerPC: FC<IBannerPCProps> = (props) => {
         <canvas ref={canvasRef} />
       </div>
       <div className={style.bannerContentContainer}>
-        <Publicize stars={githubStarts} />
         <div className={style.bannerTextContainerStyle}>
           <div className="flex flex-col gap-[16px]">
             <h1 className={style.sloganStyle}>
