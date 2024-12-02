@@ -7,7 +7,7 @@ import { useUtmParams } from "@site/src/hooks/useUtmParams"
 import style from "./index.module.css"
 import Translate, { translate } from "@docusaurus/Translate"
 import { IBannerPCProps } from "../interface"
-import { CLOUD_URL } from "@site/src/constants/url"
+import { CLOUD_URL, DISCORD_URL } from "@site/src/constants/url"
 import LinkButton from "../../../common/LinkButton"
 import SolutionsMobile from "../components/SolutionsMobile"
 import Interpolate from "@docusaurus/Interpolate"
@@ -98,7 +98,7 @@ const BannerMobile: FC<IBannerPCProps> = (props) => {
           </div>
         </Link>
         <Link
-          href="https://discord.com/invite/illacloud"
+          href={DISCORD_URL}
           className="flex flex-col items-center gap-[8px]"
           onClick={() => {
             sendTagEvent({
