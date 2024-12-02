@@ -5,6 +5,7 @@ import ProductHuntIcon from "@site/static/img/public/productHunt.svg"
 import TwitterIcon from "@site/static/img/public/twitter.svg"
 import { translate } from "@docusaurus/Translate"
 import { IFootContentItem } from "./interface"
+import { DISCORD_URL } from "@site/src/constants/url"
 
 const Community: IFootContentItem[] = [
   {
@@ -21,7 +22,7 @@ const Community: IFootContentItem[] = [
   },
   {
     icon: <DiscordIcon />,
-    href: "https://discord.com/invite/illacloud",
+    href: DISCORD_URL,
     tagCategory: "homepage_footer_discord_click",
     label: "Discord",
   },

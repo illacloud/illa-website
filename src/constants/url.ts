@@ -4,7 +4,7 @@ export const OAUTH_URL = "https://cloud.illacloud.com/oauth"
 export const DEMO_BASE_URL = "https://illa.ai/app"
 export const POLICY = "https://docs.illacloud.com/privacy-policy"
 export const SERVICE = "https://docs.illacloud.com/terms-of-service"
-export const DISCORD_URL = "https://discord.com/invite/illacloud"
+export const DISCORD_URL = "https://discord.gg/HCzD2gSz5c"
 export const FLOW_URL = "https://flow.illacloud.com"
 export const SELF_HOST_DOC_URL =
   "https://docs.illacloud.com/self-hosted-deployment"
