@@ -8,7 +8,7 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
-        <copyright>Copyright © 2024 ILLA.</copyright>
+        <copyright>Copyright © 2025 ILLA.</copyright>
         <item>
             <title><![CDATA[React error boundary: 更强大的 React 错误处理方式]]></title>
             <link>https://illacloud.com/zh/blog/react-error-boundary</link>
