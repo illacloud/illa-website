@@ -4,7 +4,7 @@ export const TEMPLATE_CONFIG = [
     title: "What sets ILLA Cloud apart from others?",
     description:
       "ILLA Cloud's SQL Generate feature and JavaScript freedom, along with its seamless integration with databases and APIs, make it an efficient tool for developers building internal tools with drag-and-drop components in real time.",
-    link: "https://cloud.illacloud.com/login",
+    link: "https://github.com/illacloud/illa-builder",
     btnText: "Try now",
     target: "feature",
     itemList: [
@@ -14,7 +14,7 @@ export const TEMPLATE_CONFIG = [
         itemName: "ChatGPT Plugin",
         itemDesc:
           "With the embedded Chatgpt Plugin, you can input natural language and get SQL statements that can be run directly.",
-        itemLink: "https://cloud.illacloud.com/login",
+        itemLink: "https://github.com/illacloud/illa-builder",
         btnText: "Try now",
         target: "chatgpt",
       },
@@ -24,7 +24,7 @@ export const TEMPLATE_CONFIG = [
         itemName: "Built for Developers",
         itemDesc:
           "We provide developers JavaScript freedom by wrapping JS statements with {{Template Syntax}} to add variety to the output.",
-        itemLink: "https://cloud.illacloud.com/login",
+        itemLink: "https://github.com/illacloud/illa-builder",
         btnText: "Try now",
         target: "for_developer",
       },
@@ -34,7 +34,7 @@ export const TEMPLATE_CONFIG = [
         itemName: "Integrate with any data source",
         itemDesc:
           "ILLA Cloud connects to databases and APIs, and integrates back-end data with front-end components, simplifying data calls for massive information interaction.",
-        itemLink: "https://cloud.illacloud.com/login",
+        itemLink: "https://github.com/illacloud/illa-builder",
         btnText: "Try now",
         target: "integrate",
       },
@@ -44,7 +44,7 @@ export const TEMPLATE_CONFIG = [
         itemName: "Real-time Collaboration",
         itemDesc:
           "ILLA turns imagination into real code and designs with real-time collaboration in ILLA Builder, improving development efficiency.",
-        itemLink: "https://cloud.illacloud.com/login",
+        itemLink: "https://github.com/illacloud/illa-builder",
         btnText: "Try now",
         target: "collaboration",
       },
@@ -54,7 +54,7 @@ export const TEMPLATE_CONFIG = [
         itemName: "Responsive UI library",
         itemDesc:
           "ILLA Builder's dozens of components can be dragged and dropped, saving time and boosting developer productivity.",
-        itemLink: "https://cloud.illacloud.com/login",
+        itemLink: "https://github.com/illacloud/illa-builder",
         btnText: "Try now",
         target: "library",
       },
@@ -65,7 +65,7 @@ export const TEMPLATE_CONFIG = [
     title: "What can you build with ILLA?",
     description:
       "ILLA Cloud offers a variety of components, such as tables, charts, forms, lists, etc. Users can easily build dashboards, admin panels, survey forms, and more using these components.",
-    link: "https://cloud.illacloud.com/login",
+    link: "https://github.com/illacloud/illa-builder",
     btnText: "Try now",
     target: "template",
     itemList: [
